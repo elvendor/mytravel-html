@@ -1,14 +1,14 @@
 // Bootstrap setup
-@import '../../vendor/bootstrap/scss/functions';
+@import '../vendor/bootstrap/scss/functions';
 
 // Front setup
-@import 'front/variables';
+@import 'mytravel/variables';
 
 // Custom setup
 @import 'user-variables';
 
 // Bootstrap core
-@import '../../vendor/bootstrap/scss/bootstrap';
+@import '../vendor/bootstrap/scss/bootstrap';
 
 /*----------------------------------------------------------------------
   * Front - Responsive Website Template version v2.0
@@ -16,7 +16,7 @@
   * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
 ------------------------------------------------------------------------*/
 
-@import 'front/front';
+@import 'mytravel/mytravel';
 
 // Custom core
 @import 'user';
