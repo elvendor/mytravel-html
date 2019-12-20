@@ -1,8 +1,11 @@
 // Bootstrap setup
 @import '../vendor/bootstrap/scss/functions';
 
-// Front setup
+// Mytravel setup
 @import 'mytravel/variables';
+
+// MT setup
+@import 'mt-variables';
 
 // Custom setup
 @import 'user-variables';
@@ -11,12 +14,15 @@
 @import '../vendor/bootstrap/scss/bootstrap';
 
 /*----------------------------------------------------------------------
-  * Front - Responsive Website Template version v2.0
-  * Copyright 2018 Htmlstream
+  * Mytravel - Responsive Website Template version v2.0
+  * Copyright 2019 Htmlstream
   * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
 ------------------------------------------------------------------------*/
 
 @import 'mytravel/mytravel';
+
+// MT core
+@import 'mt-main';
 
 // Custom core
 @import 'user';

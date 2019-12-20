@@ -1,4 +1,7 @@
 @charset "UTF-8";
+/*------------------------------------
+  Madrasthemes variables
+------------------------------------*/
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -93,7 +96,8 @@ abbr[data-original-title] {
           text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
-  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
 }
 
 address {
@@ -1941,6 +1945,11 @@ pre code {
 }
 
 .form-control::-moz-placeholder {
+  color: #8c98a4;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
   color: #8c98a4;
   opacity: 1;
 }
@@ -4019,6 +4028,7 @@ input[type="button"].btn-block {
   background-color: #377dff;
   border: 0;
   border-radius: 1rem;
+  -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
           appearance: none;
@@ -4026,6 +4036,7 @@ input[type="button"].btn-block {
 
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-webkit-slider-thumb {
+    -webkit-transition: none;
     transition: none;
   }
 }
@@ -4050,6 +4061,7 @@ input[type="button"].btn-block {
   background-color: #377dff;
   border: 0;
   border-radius: 1rem;
+  -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -moz-appearance: none;
        appearance: none;
@@ -4057,6 +4069,7 @@ input[type="button"].btn-block {
 
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-moz-range-thumb {
+    -moz-transition: none;
     transition: none;
   }
 }
@@ -4084,12 +4097,14 @@ input[type="button"].btn-block {
   background-color: #377dff;
   border: 0;
   border-radius: 1rem;
+  -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   appearance: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .custom-range::-ms-thumb {
+    -ms-transition: none;
     transition: none;
   }
 }
@@ -12138,8 +12153,8 @@ a.text-indigo:hover, a.text-indigo:focus {
 }
 
 /*----------------------------------------------------------------------
-  * Front - Responsive Website Template version v2.0
-  * Copyright 2018 Htmlstream
+  * Mytravel - Responsive Website Template version v2.0
+  * Copyright 2019 Htmlstream
   * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
 ------------------------------------------------------------------------*/
 .w-25 {
@@ -22620,6 +22635,16 @@ label.btn {
   100% {
     opacity: 1;
   }
+}
+
+/*------------------------------------
+  Madrasthemes SCSS style
+------------------------------------*/
+/*------------------------------------
+  Text Colors
+------------------------------------*/
+.text-gray-30 {
+  color: #a0a0a0;
 }
 
 /*------------------------------------
