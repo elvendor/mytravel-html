@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Title -->
+  <title>Hero - Front Starter | Front - Responsive Website Template</title>
+
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="../favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+  <!-- CSS Implementing Plugins -->
+  <link rel="stylesheet" href="../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="../assets/vendor/animate.css/animate.min.css">
+  <link rel="stylesheet" href="../assets/vendor/hs-megamenu/src/hs.megamenu.css">
+  <link rel="stylesheet" href="../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+  <link rel="stylesheet" href="../documentation/assets/vendor/prism/prism.css">
+
+  <!-- CSS Front Template -->
+  <link rel="stylesheet" href="../assets/css/theme.css">
+
+  <!-- CSS Front Doc -->
+  <link rel="stylesheet" href="../documentation/assets/css/starter.css">
+</head>
+<body>
+  <!-- ========== HEADER ========== -->
+  <header id="header" class="u-header u-header--bg-transparent-xl u-header--sticky-top-xl u-header--starter u-header--starter-dark-logo">
+    <div class="u-header__section bg-light">
+      <div id="logoAndNav" class="container-fluid">
+        <!-- Nav -->
+        <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space">
+          <div class="u-header--starter__logo">
+            <!-- White Logo -->
+            <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-default u-header__navbar-brand-text-white" href="../html/home/index.html" aria-label="Front">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46px" height="46px" viewBox="0 0 46 46" xml:space="preserve" style="margin-bottom: 0;">
+                <path fill="#E1E4EA" opacity=".65" d="M23,41.1L23,41.1c-9.9,0-18-8-18-18l0,0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6v11.4C41,33,32.9,41.1,23,41.1z"/>
+                <path class="fill-white" opacity=".5" d="M28,36L28,36c-9.9,0-18-8-18-18l0,0c0-9.9,8-18,18-18h11.3C43,0.1,46,3.1,46,6.7v11.4C46,28,38,36,28,36z"/>
+                <path class="fill-white" opacity=".7" d="M18,46.1L18,46.1c-10,0-18-8-18-18l0,0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6v11.4C35.9,38.1,27.9,46.1,18,46.1z"/>
+                <path class="fill-primary" d="M17.4,34.1V18.4h10.2v2.9h-6.4v3.4H26v2.9h-4.8v6.5H17.4z"/>
+              </svg>
+              <span class="u-header__navbar-brand-text">Front</span>
+            </a>
+            <!-- End White Logo -->
+
+            <!-- Default Logo -->
+            <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-collapsed" href="../html/home/index.html" aria-label="Front">
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="46px" height="46px" viewBox="0 0 46 46" xml:space="preserve" style="margin-bottom: 0;">
+                <path fill="#3F7DE0" opacity=".65" d="M23,41L23,41c-9.9,0-18-8-18-18v0c0-9.9,8-18,18-18h11.3C38,5,41,8,41,11.7V23C41,32.9,32.9,41,23,41z"/>
+                <path class="fill-info" opacity=".5" d="M28,35.9L28,35.9c-9.9,0-18-8-18-18v0c0-9.9,8-18,18-18l11.3,0C43,0,46,3,46,6.6V18C46,27.9,38,35.9,28,35.9z"/>
+                <path class="fill-primary" opacity=".7" d="M18,46L18,46C8,46,0,38,0,28v0c0-9.9,8-18,18-18h11.3c3.7,0,6.6,3,6.6,6.6V28C35.9,38,27.9,46,18,46z"/>
+                <path class="fill-white" d="M17.4,34V18.3h10.2v2.9h-6.4v3.4h4.8v2.9h-4.8V34H17.4z"/>
+              </svg>
+              <span class="u-header__navbar-brand-text">Front</span>
+            </a>
+            <!-- End Default Logo -->
+
+            <!-- Responsive Toggle Button -->
+            <button type="button" class="navbar-toggler btn u-hamburger"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="navBar"
+                    data-toggle="collapse"
+                    data-target="#navBar">
+              <span id="hamburgerTrigger" class="u-hamburger__box">
+                <span class="u-hamburger__inner"></span>
+              </span>
+            </button>
+            <!-- End Responsive Toggle Button -->
+          </div>
+
+          <!-- Navigation -->
+          <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
+            <!-- Search -->
+            <form class="js-focus-state form-inline input-group input-group-sm shadow-sm">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="docsSearch">
+                  <span class="fas fa-search"></span>
+                </span>
+              </div>
+              <input class="js-hs-docs-search form-control" type="text" placeholder="Search..." aria-label="Search..." aria-describedby="docsSearch" data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+            </form>
+            <!-- End Search -->
+
+            <ul class="navbar-nav u-header__navbar-nav">
+              <li class="nav-item u-header__nav-item">
+                <a class="nav-link u-header__nav-link" href="../html/home/index.html">Live Preview</a>
+              </li>
+
+              <!-- Changelog -->
+              <li class="nav-item hs-has-sub-menu u-header__nav-item"
+                  data-event="hover"
+                  data-animation-in="slideInUp"
+                  data-animation-out="fadeOut"
+                  data-position="left">
+                <a id="changelogMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">
+                  v2.3
+                </a>
+
+                <ul class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" style="min-width: 220px;" aria-labelledby="changelogMenu">
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../documentation/getting-started/changelog.html#version2_3">Latest (v2.3)</a></li>
+                  <li class="dropdown-divider"></li>
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../documentation/getting-started/changelog.html#version2_2_1">v2.2.1</a></li>
+                  <li><a class="nav-link u-header__sub-menu-nav-link" href="../documentation/getting-started/changelog.html#version1_3">v1.x</a></li>
+                </ul>
+              </li>
+              <!-- End Changelog -->
+
+              <li class="nav-item u-header__nav-last-item">
+                <a class="btn btn-sm btn-primary transition-3d-hover" href="../documentation/index.html">
+                  Documentation
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Navigation -->
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </div>
+  </header>
+  <!-- ========== END HEADER ========== -->
+
+  <!-- ========== LEFT ========== -->
+  <div class="js-scrollbar hs-docs-sidebar hs-docs-sidebar--dark">
+    <div class="d-flex justify-content-between py-2 py-xl-0">
+      <!-- Search -->
+      <form class="col form-inline input-group-sm">
+        <input class="js-hs-docs-search form-control w-100" type="text" placeholder="Search..." data-url="../documentation/assets/include/ajax/autocomplete-data-for-starter-search.json">
+      </form>
+      <!-- End Search -->
+
+      <!-- Responsive Toggle Button -->
+      <button class="btn btn-link hs-docs-sidebar__toggle" type="button"
+              data-toggle="collapse"
+              data-target="#navside-accordion"
+              aria-controls="navside-accordion"
+              aria-expanded="false"
+              aria-label="Toggle docs navigation">
+        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 30 30" width="30" height="30" focusable="false">
+          <title>Menu</title>
+          <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/>
+        </svg>
+      </button>
+      <!-- End Responsive Toggle Button -->
+    </div>
+
+    <!-- Sidebar Nav -->
+    <nav id="navside-accordion" class="hs-docs-navside collapse">
+      <ul id="components" class="hs-docs-navside__links collapse show" data-parent="#navside-accordion">
+        <li><a href="index.html">Introduction</a></li>
+        <li><a href="clients.html">Clients</a></li>
+        <li><a href="collapse.html">Collapse</a></li>
+        <li><a href="cta.html">Call-to-action (CTA)</a></li>
+        <li><a href="datatables.html">Datatables</a></li>
+        <li><a href="footers.html">Footers</a></li>
+        <li><a href="form-layouts.html">Form layouts</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="header-layouts.html">Header layouts</a></li>
+        <li><a class="active" href="hero.html">Hero</a></li>
+        <li><a href="hero-products.html">Hero products</a></li>
+        <li><a href="hero-subscribe.html">Hero subscribe</a></li>
+        <li><a href="icon-blocks.html">Icon blocks</a></li>
+        <li><a href="indicators.html">Indicator</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="media-objects.html">Media Objects</a></li>
+        <li><a href="modal-window.html">Modal Window</a></li>
+        <li><a href="notification.html">Notification</a></li>
+        <li><a href="news-blogs.html">News Blogs</a></li>
+        <li><a href="pagination.html">Pagination</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="sidebar-examples.html">Sidebar examples</a></li>
+        <li><a href="stats.html">Stats</a></li>
+        <li><a href="svg-blocks.html">SVG blocks</a></li>
+        <li><a href="tabs.html">Tabs</a></li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="video-player.html">Video Player</a></li>
+      </ul>
+    </nav>
+    <!-- End Sidebar Nav -->
+  </div>
+  <!-- ========== END LEFT ========== -->
+
+  <!-- ========== MAIN ========== -->
+  <main class="hs-docs-content space-top-2 space-top-xl-3" role="main">
+    <div class="border-bottom pb-6 mb-6">
+      <h1 class="font-weight-semi-bold">Hero</h1>
+      <p class="text-dark font-weight-normal mb-0" style="font-size: 1.125rem;">To help you design even faster, there is a growing array of beautiful hero blocks to get you started.</p>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-1.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img44.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-1.html">
+            Hero #1
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-2.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img45.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-2.html">
+            Hero #2
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-3.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img46.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-3.html">
+            Hero #3
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-4.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img47.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-4.html">
+            Hero #4
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-5.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img48.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-5.html">
+            Hero #5
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-6.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img49.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-6.html">
+            Hero #6
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-7.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img50.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-7.html">
+            Hero #7
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-8.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img51.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-8.html">
+            Hero #8
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-9.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img52.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-9.html">
+            Hero #9
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-10.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img53.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-10.html">
+            Hero #10
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-11.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img54.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-11.html">
+            Hero #11
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-12.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img55.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-12.html">
+            Hero #12
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-13.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img56.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-13.html">
+            Hero #13
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-14.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img57.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-14.html">
+            Hero #14
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-15.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img58.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-15.html">
+            Hero #15
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-16.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img59.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-16.html">
+            Hero #16
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-17.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img60.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-17.html">
+            Hero #17
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-18.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img61.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-18.html">
+            Hero #18
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-19.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img62.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-19.html">
+            Hero #19
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-20.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img63.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-20.html">
+            Hero #20
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-21.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img64.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-21.html">
+            Hero #21
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-22.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img65.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-22.html">
+            Hero #22
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-23.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img66.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-23.html">
+            Hero #23
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-24.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img67.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-24.html">
+            Hero #24
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-25.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img68.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-25.html">
+            Hero #25
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-26.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img69.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-26.html">
+            Hero #26
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-27.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img70.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-27.html">
+            Hero #27
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-28.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img71.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-28.html">
+            Hero #28
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-29.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img72.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-29.html">
+            Hero #29
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-30.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img73.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-30.html">
+            Hero #30
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-31.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img74.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-31.html">
+            Hero #31
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-32.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img75.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-32.html">
+            Hero #32
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-33.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img76.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-33.html">
+            Hero #33
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-34.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img77.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-34.html">
+            Hero #34
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-35.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img78.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-35.html">
+            Hero #35
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-36.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img79.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-36.html">
+            Hero #36
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-37.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img80.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-37.html">
+            Hero #37
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-38.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img84.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-38.html">
+            Hero #38
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-39.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img85.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-39.html">
+            Hero #39
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-40.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img86.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-40.html">
+            Hero #40
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-41.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img87.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-41.html">
+            Hero #41
+          </a>
+        </h2>
+      </div>
+      <div class="col-sm-6 col-lg-4 mb-7">
+        <a class="d-block shadow-soft transition-3d-hover mb-4" href="hero/hero-42.html" target="_blank">
+          <img class="img-fluid rounded" src="../documentation/assets/img/img88.jpg" alt="Image Description">
+        </a>
+        <h2 class="h5">
+          <a href="hero/hero-42.html">
+            Hero #42
+          </a>
+        </h2>
+      </div>
+    </div>
+  </main>
+  <!-- ========== END MAIN ========== -->
+
+  <!-- Go to Top -->
+  <a class="js-go-to u-go-to" href="javascript:;"
+    data-position='{"bottom": 15, "right": 15 }'
+    data-type="fixed"
+    data-offset-top="400"
+    data-compensation="#header"
+    data-show-effect="slideInUp"
+    data-hide-effect="slideOutDown">
+    <span class="fas fa-arrow-up u-go-to__inner"></span>
+  </a>
+  <!-- End Go to Top -->
+
+  <!-- JS Global Compulsory -->
+  <script src="../assets/vendor/jquery/dist/jquery.min.js"></script>
+  <script src="../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+  <script src="../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+  <script src="../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+  <!-- JS Implementing Plugins -->
+  <script src="../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+  <script src="../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+  <script src="../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+  <script src="../documentation/assets/vendor/prism/prism.js"></script>
+
+  <!-- JS Front -->
+  <script src="../assets/js/hs.core.js"></script>
+  <script src="../assets/js/components/hs.header.js"></script>
+  <script src="../assets/js/components/hs.focus-state.js"></script>
+  <script src="../assets/js/components/hs.go-to.js"></script>
+  <script src="../assets/js/components/hs.malihu-scrollbar.js"></script>
+  <script src="../documentation/assets/js/components/hs.autocomplete-local-search.js"></script>
+
+  <!-- JS Plugins Init. -->
+  <script>
+    $(document).on('ready', function () {
+      // initialization of header
+      $.HSCore.components.HSHeader.init($('#header'));
+
+      // initialization of focus state
+      $.HSCore.components.HSFocusState.init();
+
+      // initialization of go to
+      $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      // initialization of malihu scrollbar
+      var $scrollbar = $('.js-scrollbar');
+      $.HSCore.components.HSMalihuScrollBar.init($scrollbar);
+      $($scrollbar).mCustomScrollbar('scrollTo', '#components li a.active');
+    });
+
+    $(window).on('load', function () {
+      // initialization of HSMegaMenu component
+      $('.js-mega-menu').HSMegaMenu({
+        event: 'hover',
+        pageContainer: $('.container'),
+        breakpoint: 1199.98,
+        hideTimeOut: 0
+      });
+
+      // initialization of autocomplet
+      $.HSCore.components.HSLocalSearchAutocomplete.init('.js-hs-docs-search');
+    });
+  </script>
+</body>
+</html>
