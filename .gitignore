@@ -1,0 +1,15 @@
+# Sass
+.sass-cache
+
+# Gulp
+/node_modules/
+
+unen*.zip
+mytravel.zip
+mytravel*.zip
+
+npm-debug.log
+.DS_Store
+
+# Codekit
+config.codekit
