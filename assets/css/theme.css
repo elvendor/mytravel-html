@@ -17553,7 +17553,7 @@ button:focus {
 }
 
 .btn-icon.btn-sm, .btn-group-sm > .btn-icon.btn {
-  font-size: 0.8175rem;
+  font-size: 0.1rem;
   width: 2rem;
   height: 2rem;
 }
