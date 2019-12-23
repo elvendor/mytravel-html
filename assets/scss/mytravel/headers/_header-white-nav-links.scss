@@ -12,26 +12,26 @@
                     .u-header__nav-item {
                         &:hover {
                             .u-header__nav-link {
-                                color: rgba($white, 1);
+                                color: rgba($white, .7);
                             }
                         }
                     }
 
                     .u-header__nav-link {
-                        color: rgba($white, .7);
+                        color: rgba($white, 1);
 
                         &:hover {
-                            color: rgba($white, 1);
+                            color: rgba($white, .7);
                         }
                     }
 
                     .u-header__navbar-link,
                     .dropdown-nav-link,
                     .btn-text-secondary {
-                        color: $white;
+                        color: rgba($white, 1);
 
                         &:hover {
-                            color: rgba($white, 1);
+                            color: rgba($white, .6);
                         }
                     }
                 }
