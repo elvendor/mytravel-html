@@ -13987,7 +13987,7 @@ button:focus {
 .u-header--white-nav-links:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link,
 .u-header--white-nav-links:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link,
 .u-header--white-nav-links:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary {
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
 }
 
 .u-header--white-nav-links:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link:hover,
@@ -14009,7 +14009,7 @@ button:focus {
   .u-header--white-nav-links-sm:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link,
   .u-header--white-nav-links-sm:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link,
   .u-header--white-nav-links-sm:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary {
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
   }
   .u-header--white-nav-links-sm:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link:hover,
   .u-header--white-nav-links-sm:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link:hover,
@@ -14031,7 +14031,7 @@ button:focus {
   .u-header--white-nav-links-md:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link,
   .u-header--white-nav-links-md:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link,
   .u-header--white-nav-links-md:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary {
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
   }
   .u-header--white-nav-links-md:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link:hover,
   .u-header--white-nav-links-md:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link:hover,
@@ -14053,7 +14053,7 @@ button:focus {
   .u-header--white-nav-links-lg:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link,
   .u-header--white-nav-links-lg:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link,
   .u-header--white-nav-links-lg:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary {
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
   }
   .u-header--white-nav-links-lg:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link:hover,
   .u-header--white-nav-links-lg:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link:hover,
@@ -14075,7 +14075,7 @@ button:focus {
   .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link,
   .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link,
   .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary {
-    color: rgba(255, 255, 255, 0.6);
+    color: #fff;
   }
   .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .u-header__navbar-link:hover,
   .u-header--white-nav-links-xl:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link:hover,
