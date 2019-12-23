@@ -1,0 +1,299 @@
+[
+  {
+    "label": "Intro page",
+    "category": "Starter",
+    "url": "front-v2.8.0/starter/index.html"
+  },{
+    "label": "Clients static",
+    "category": "Clients",
+    "url": "front-v2.8.0/starter/clients.html"
+  },{
+    "label": "Clients with carousel",
+    "category": "Clients",
+    "url": "front-v2.8.0/starter/clients-with-carousel.html"
+  },{
+    "label": "Accordion",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/collapse.html"
+  },{
+    "label": "Collapse",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/collapse.html"
+  },{
+    "label": "Call-to-action (CTA)",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/cta.html"
+  },{
+    "label": "Datatables",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/datatables.html"
+  },{
+    "label": "Default (White background)",
+    "category": "Footers",
+    "url": "front-v2.8.0/starter/footers.html"
+  },{
+    "label": "Footers dark background",
+    "category": "Footers",
+    "url": "front-v2.8.0/starter/footers-dark.html"
+  },{
+    "label": "Footers primary background",
+    "category": "Footers",
+    "url": "front-v2.8.0/starter/footers-primary.html"
+  },{
+    "label": "Form layouts - Authentication forms",
+    "category": "Form layouts",
+    "url": "front-v2.8.0/starter/form-layouts-authentication-forms.html"
+  },{
+    "label": "Form layouts - Checkbox forms",
+    "category": "Form layouts",
+    "url": "front-v2.8.0/starter/form-layouts-checkbox-forms.html"
+  },{
+    "label": "Form layouts - Contact & Feedback forms",
+    "category": "Form layouts",
+    "url": "front-v2.8.0/starter/form-layouts-contact-forms.html"
+  },{
+    "label": "Form layouts - File attachement forms",
+    "category": "Form layouts",
+    "url": "front-v2.8.0/starter/form-layouts-file-attachement-forms.html"
+  },{
+    "label": "Form layouts - Search forms",
+    "category": "Form layouts",
+    "url": "front-v2.8.0/starter/form-layouts-search-forms.html"
+  },{
+    "label": "Form layouts - Toggle and Switch forms",
+    "category": "Form layouts",
+    "url": "front-v2.8.0/starter/form-layouts-toggle-and-switch-forms.html"
+  },{
+    "label": "Gallery grid",
+    "category": "Gallery",
+    "url": "front-v2.8.0/starter/gallery-grid.html"
+  },{
+    "label": "Gallery masonry",
+    "category": "Gallery",
+    "url": "front-v2.8.0/starter/gallery-masonry.html"
+  },{
+    "label": "Gallery with carousel",
+    "category": "Gallery",
+    "url": "front-v2.8.0/starter/gallery-with-carousel.html"
+  },{
+    "label": "Header layouts",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/header-layouts.html"
+  },{
+    "label": "Hero",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/hero.html"
+  },{
+    "label": "Hero products",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/hero-products.html"
+  },{
+    "label": "Hero subscribe",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/hero-subscribe.html"
+  },{
+    "label": "Icon blocks - Center aligned",
+    "category": "Icon blocks",
+    "url": "front-v2.8.0/starter/icon-blocks-center-aligned.html"
+  },{
+    "label": "Icon blocks - Left aligned",
+    "category": "Icon blocks",
+    "url": "front-v2.8.0/starter/icon-blocks-left-aligned.html"
+  },{
+    "label": "Indicators",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/indicators.html"
+  },{
+    "label": "Info - Colorful",
+    "category": "Info",
+    "url": "front-v2.8.0/starter/info-colorful.html"
+  },{
+    "label": "Info - Grid",
+    "category": "Info",
+    "url": "front-v2.8.0/starter/info-grid.html"
+  },{
+    "label": "Info - List",
+    "category": "Info",
+    "url": "front-v2.8.0/starter/info-list.html"
+  },{
+    "label": "Media objects",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/modal-objects.html"
+  },{
+    "label": "Modal window",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/modal-window.html"
+  },{
+    "label": "Notification",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/notification.html"
+  },{
+    "label": "News blogs - Grid",
+    "category": "News blogs",
+    "url": "front-v2.8.0/starter/news-blogs-grid.html"
+  },{
+    "label": "News blogs - List",
+    "category": "News blogs",
+    "url": "front-v2.8.0/starter/news-blogs-list.html"
+  },{
+    "label": "News blogs - Masonry",
+    "category": "News blogs",
+    "url": "front-v2.8.0/starter/news-blogs-masonry.html"
+  },{
+    "label": "Pagination",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/pagination.html"
+  },{
+    "label": "Pricing - Static",
+    "category": "Pricing",
+    "url": "front-v2.8.0/starter/pricing-static.html"
+  },{
+    "label": "Pricing - Interactive",
+    "category": "Pricing",
+    "url": "front-v2.8.0/starter/pricing-interactive.html"
+  },{
+    "label": "Products - Grid",
+    "category": "Products",
+    "url": "front-v2.8.0/starter/products-grid.html"
+  },{
+    "label": "Products - List",
+    "category": "Products",
+    "url": "front-v2.8.0/starter/products-list.html"
+  },{
+    "label": "Sidebar examples",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/sidebar-examples.html"
+  },{
+    "label": "Statistics",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/stats.html"
+  },{
+    "label": "Statistics Interactive",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/stats-interactive.html"
+  },{
+    "label": "Tabs",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/tabs.html"
+  },{
+    "label": "Team",
+    "category": "Components",
+    "url": "front-v2.8.0/starter/team.html"
+  },{
+    "label": "Testimonials - Static",
+    "category": "Testimonials",
+    "url": "front-v2.8.0/starter/testimonials.html"
+  },{
+    "label": "Testimonials with carousel",
+    "category": "Testimonials",
+    "url": "front-v2.8.0/starter/testimonials-with-carousel.html"
+  },{
+    "label": "Video player - Inline",
+    "category": "Video player",
+    "url": "front-v2.8.0/starter/video-player-inline.html"
+  },{
+    "label": "Video player - Popup",
+    "category": "Video player",
+    "url": "front-v2.8.0/starter/video-player-popup.html"
+  },{
+    "category": "Header layouts",
+    "label": "Headers",
+    "url": "front-v2.8.0/starter/header-layouts.html#headers"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Demo headers",
+    "url": "front-v2.8.0/starter/header-layouts.html#demo-headers"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Collapse breakpoint",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-collapse-breakpoint"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Logos",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-logos"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Alignments",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-alignments"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Events",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-events"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Absolute top",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-absolute-top"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Absolute bottom",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-absolute-bottom"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Absolute second screen",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-absolute-second-screen"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Absolute top center aligned logo on top",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-absolute-top-center-aligned-logo-on-top"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Sticky top",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-sticky-top"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Sticky bottom",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-sticky-bottom"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Toggle style",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-toggle-style"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Floating",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-floating"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - With topbar",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-with-topbar"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - On scroll behavior",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-onscroll-behavior"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Transparent",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-transparent"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Color schemes",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-color-schemes"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Navbar horizontal scroll",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-navbar-horizontal-scroll"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - One-page navigation",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-default-one-page-navigation"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Fullscreen",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-fullscreen"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Search",
+    "url": "front-v2.8.0/starter/header-layouts.html#search"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Account",
+    "url": "front-v2.8.0/starter/header-layouts.html#account"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Shopping cart",
+    "url": "front-v2.8.0/starter/header-layouts.html#shopping-cart"
+  },{
+    "category": "Header layouts",
+    "label": "Header layouts - Sidebar on Hamburger button",
+    "url": "front-v2.8.0/starter/header-layouts.html#header-sidebar"
+  }
+]
