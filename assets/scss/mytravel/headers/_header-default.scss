@@ -3,30 +3,41 @@
 ------------------------------------*/
 
 .u-header {
-  position: relative;
-  right: 0;
-  left: 0;
-  width: 100%;
-  z-index: $header-z-index;
-
-  &__section {
     position: relative;
-    z-index: 1;
-    background-color: $header-bg;
-    box-shadow: $header-box-shadow;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: $header-z-index;
 
-    &-divider {
-      border-bottom: 1px solid rgba($white, .2);
+    &__section {
+        position: relative;
+        z-index: 1;
+        background-color: $header-bg;
+        box-shadow: $header-box-shadow;
+
+        &-divider {
+            border-bottom: 1px solid rgba($white, .2);
+        }
     }
-  }
 
-  &__shadow-on-show-hide {
-    box-shadow: none;
+    &__shadow-on-show-hide {
+        box-shadow: none;
 
-    .js-header-fix-moment & {
-      box-shadow: $header-box-shadow;
+        .js-header-fix-moment & {
+            box-shadow: $header-box-shadow;
+        }
     }
-  }
+
+    &__topbar {
+        .u-header__navbar-link {
+            font-size: $header-topbar-link-font-size;
+        }
+
+        &-spacing {
+            padding-top: $header-topbar-paddingY;
+            padding-bottom: $header-topbar-paddingY;
+        }
+    }
 }
 
 /* Navbar */

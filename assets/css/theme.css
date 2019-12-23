@@ -12903,6 +12903,15 @@ button:focus {
   box-shadow: 0 1px 10px rgba(151, 164, 175, 0.1);
 }
 
+.u-header__topbar .u-header__navbar-link {
+  font-size: 0.875rem;
+}
+
+.u-header__topbar-spacing {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+}
+
 /* Navbar */
 .u-header__navbar {
   padding-top: 0.25rem;
@@ -21917,6 +21926,10 @@ label.btn {
 
 .font-size-21 {
   font-size: 21px;
+}
+
+.font-size-14 {
+  font-size: 0.875rem;
 }
 
 @media (max-width: 991.98px) {
