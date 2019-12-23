@@ -1,61 +1,69 @@
 /*------------------------------------
-  Typography Font Size
+Typography Font Size
 ------------------------------------*/
 
 .font-size-1 {
-  font-size: ($font-size-base * .875);
+    font-size: ($font-size-base * .875);
 }
 
 .font-size-2 {
-  font-size: ($font-size-base * 1.5);
+    font-size: ($font-size-base * 1.5);
 }
 
 .font-size-3 {
-  font-size: ($font-size-base * 2);
+    font-size: ($font-size-base * 2);
 }
 
 .font-size-4 {
-  font-size: ($font-size-base * 2.5);
+    font-size: ($font-size-base * 2.5);
 }
 
 .font-size-5 {
-  font-size: ($font-size-base * 3);
+    font-size: ($font-size-base * 3);
 }
 
 .font-size-21 {
-    font-size: 21px;
+    font-size: 1.313rem; //21px
 }
 
 .font-size-14 {
-    font-size: 0.875rem;
+    font-size: 0.875rem;    
+}
+
+.font-size-20 {
+    font-size: 1.25rem; //20px
+}
+
+.font-size-60 {
+    font-size: 3.75rem;
 }
 
 // Medium Devices
 @include media-breakpoint-down(md) {
-  .font-size-md-down-5 {
-    font-size: ($font-size-base * 3);
-  }
+    .font-size-md-down-5 {
+        font-size: ($font-size-base * 3);
+    }
 }
 
 /*------------------------------------
-  Font Weight
+Font Weight
 ------------------------------------*/
 .font-weight-medium {
-  font-weight: $font-weight-medium !important;
+    font-weight: $font-weight-medium !important;
 }
 
 .font-weight-semi-bold {
-  font-weight: $font-weight-semi-bold !important;
+    font-weight: $font-weight-semi-bold !important;
 }
 
 /*------------------------------------
-  Line Height
+Line Height
 ------------------------------------*/
 
 .text-lh-sm {
-  line-height: 1.2;
+    line-height: 1.2;
 }
 
 .text-lh-md {
-  line-height: 1.8;
+    line-height: 1.8;
 }
