@@ -55,3 +55,9 @@
 		@include gradient-x($hs-start-color: mix(rgba($primary, .35), $dark), $hs-end-color: rgba($gray-700, .3), $deg: 150deg);
 	}
 }
+
+.gradient-overlay-half-bg-gradient {
+	&::before {
+		background-image: linear-gradient(180deg, #1e2022 0%, transparent 75%);
+	}
+}

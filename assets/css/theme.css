@@ -21215,6 +21215,10 @@ label.btn {
   background-repeat: repeat-x;
 }
 
+.gradient-overlay-half-bg-gradient::before {
+  background-image: linear-gradient(180deg, #1e2022 0%, transparent 75%);
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
