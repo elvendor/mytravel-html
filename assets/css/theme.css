@@ -21897,7 +21897,7 @@ label.btn {
 }
 
 /*------------------------------------
-  Typography Font Size
+Typography Font Size
 ------------------------------------*/
 .font-size-1 {
   font-size: 0.875rem;
@@ -21920,7 +21920,7 @@ label.btn {
 }
 
 .font-size-21 {
-  font-size: 21px;
+  font-size: 1.313rem;
 }
 
 @media (max-width: 991.98px) {
@@ -21930,7 +21930,7 @@ label.btn {
 }
 
 /*------------------------------------
-  Font Weight
+Font Weight
 ------------------------------------*/
 .font-weight-medium {
   font-weight: 500 !important;
@@ -21941,7 +21941,7 @@ label.btn {
 }
 
 /*------------------------------------
-  Line Height
+Line Height
 ------------------------------------*/
 .text-lh-sm {
   line-height: 1.2;
