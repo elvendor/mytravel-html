@@ -50,3 +50,8 @@
 		@include border-top-radius($border-radius);
 	}
 }
+
+// Border color
+.border-color-white {
+	border-color: rgba( $white, 0.149 ) !important; 
+}

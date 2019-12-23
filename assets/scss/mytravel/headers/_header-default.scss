@@ -3,30 +3,57 @@
 ------------------------------------*/
 
 .u-header {
-  position: relative;
-  right: 0;
-  left: 0;
-  width: 100%;
-  z-index: $header-z-index;
-
-  &__section {
     position: relative;
-    z-index: 1;
-    background-color: $header-bg;
-    box-shadow: $header-box-shadow;
+    right: 0;
+    left: 0;
+    width: 100%;
+    z-index: $header-z-index;
 
-    &-divider {
-      border-bottom: 1px solid rgba($white, .2);
+    &__section {
+        position: relative;
+        z-index: 1;
+        background-color: $header-bg;
+        box-shadow: $header-box-shadow;
+
+        &-divider {
+            border-bottom: 1px solid rgba($white, .2);
+        }
     }
-  }
 
-  &__shadow-on-show-hide {
-    box-shadow: none;
+    &__shadow-on-show-hide {
+        box-shadow: none;
 
-    .js-header-fix-moment & {
-      box-shadow: $header-box-shadow;
+        .js-header-fix-moment & {
+            box-shadow: $header-box-shadow;
+        }
     }
-  }
+
+    &__topbar {
+        .u-header__topbar-nav-divider {
+            .list-inline-item {
+                + .list-inline-item {
+                    position: relative;
+
+                    .u-header__navbar-link:before {
+                        content: '';
+                        background-color: $header-topbar-nav-link-divider-color;
+                        position: absolute;
+                        width: 1px;
+                        height: 50%;
+                        top: 16px;
+                        left: -1px;
+                        display: block;
+                    }
+                }
+            }
+        }
+
+        .list-inline-item:first-child {
+            .u-header__navbar-link {
+                padding-left: 0;
+            }
+        } 
+    }
 }
 
 /* Navbar */
@@ -106,11 +133,14 @@
 
 /* Navbar Link */
 .u-header__navbar-link {
-  color: $gray-700;
-  font-size: $header-navbar-link-font-size;
-  font-weight: $font-weight-light;
-  padding-left: .5rem;
-  padding-right: .5rem;
+    color: $gray-700;
+    font-size: $header-navbar-link-font-size;
+    font-weight: $font-weight-light;
+    padding-left: $header-topbar-nav-link-paddingX;
+    padding-right: $header-topbar-nav-link-paddingX;
+    display: inline-block;
+    padding-top: $header-topbar-nav-link-paddingY;
+    padding-bottom: $header-topbar-nav-link-paddingY;
 }
 
 /* Nav Item */
