@@ -21923,6 +21923,14 @@ Typography Font Size
   font-size: 1.313rem;
 }
 
+.font-size-20 {
+  font-size: 1.25rem;
+}
+
+.font-size-60 {
+  font-size: 3.75rem;
+}
+
 @media (max-width: 991.98px) {
   .font-size-md-down-5 {
     font-size: 3rem;
