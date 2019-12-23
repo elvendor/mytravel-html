@@ -22,6 +22,10 @@
   font-size: ($font-size-base * 3);
 }
 
+.font-size-21 {
+  font-size: 21px;
+}
+
 // Medium Devices
 @include media-breakpoint-down(md) {
   .font-size-md-down-5 {
