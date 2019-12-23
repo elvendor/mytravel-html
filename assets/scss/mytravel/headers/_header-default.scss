@@ -39,12 +39,27 @@
                         background-color: $header-topbar-nav-link-divider-color;
                         position: absolute;
                         width: 1px;
-                        height: 50%;
+                        height: 30px;
                         top: 16px;
                         left: -1px;
                         display: block;
                     }
                 }
+            }
+        }
+
+        .u-header__topbar-divider:not( .list-inline ) {
+            position: relative;
+
+            &:before {
+                content: '';
+                background-color: $header-topbar-nav-link-divider-color;
+                position: absolute;
+                width: 1px;
+                height: 30px;
+                top: 0;
+                left: 0;
+                display: block;
             }
         }
 
@@ -103,9 +118,9 @@
   }
 
   &-text {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     font-weight: $font-weight-bold;
-    margin-left: .5rem;
+    margin-left: 0.875rem;
 
     &,
     &:focus,
