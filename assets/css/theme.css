@@ -21842,6 +21842,10 @@ label.btn {
   height: .25rem;
 }
 
+.height-350 {
+  height: 21.875rem;
+}
+
 .height-380 {
   height: 23.75rem;
 }
