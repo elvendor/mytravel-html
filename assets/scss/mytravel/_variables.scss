@@ -368,6 +368,7 @@ $nav-icon-z-index:                                          1 !default;
 $nav-classic-border-width:                                  1px !default;
 $nav-classic-border-color:                                  $gray-300 !default;
 $nav-rounded-border-radius:                                 $border-radius !default;
+$header-topbar-nav-link-divider-color:                      rgba( $white, 0.149 ) !default;
 
 // Width & Heights
 $nav-icon-width:                                            ($font-size-base * 4) !default;
@@ -417,7 +418,6 @@ $header-floating-height:                                    50vh !default;
 // Font
 $header-nav-link-icon-font-size:                            ($font-size-base * .625) !default;
 $header-navbar-link-font-size:                              ($font-size-base * .875) !default;
-$header-topbar-link-font-size:                              0.875rem !default;
 $header-sub-menu-nav-link-font-size:             			      ($font-size-base * .875) !default;
 $header-sub-menu-title-font-size:                           ($font-size-base * 1) !default;
 $header-sub-menu-title-font-weight:                         $font-weight-semi-bold !default;
@@ -441,7 +441,8 @@ $header-promo-padding:                                      ($header-nav-groups-
 $header-promo-margin-y:                                     ($header-nav-groups-padding / 2) !default;
 $header-promo-margin-x:                                     $header-nav-groups-padding !default;
 $header-navbar-paddingY:                                    .25rem !default;
-$header-topbar-paddingY:                                    1.125rem !default;
+$header-topbar-nav-link-paddingX:                           1.281rem !default;
+$header-topbar-nav-link-paddingY:                           1.219rem !default;
 $header-navbar-brand-padding-top:                           1rem !default;
 $header-navbar-nav-paddingY:                                .625rem !default;
 $header-navbar-nav-paddingY-responsive:                     0 !default;

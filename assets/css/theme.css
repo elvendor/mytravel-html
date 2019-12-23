@@ -12644,6 +12644,10 @@ a.text-indigo:hover, a.text-indigo:focus {
 /*------------------------------------
   Default Styles
 ------------------------------------*/
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
 main {
   position: relative;
 }
@@ -12903,13 +12907,23 @@ button:focus {
   box-shadow: 0 1px 10px rgba(151, 164, 175, 0.1);
 }
 
-.u-header__topbar .u-header__navbar-link {
-  font-size: 0.875rem;
+.u-header__topbar .u-header__topbar-nav-divider .list-inline-item + .list-inline-item {
+  position: relative;
 }
 
-.u-header__topbar-spacing {
-  padding-top: 1.125rem;
-  padding-bottom: 1.125rem;
+.u-header__topbar .u-header__topbar-nav-divider .list-inline-item + .list-inline-item .u-header__navbar-link:before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.149);
+  position: absolute;
+  width: 1px;
+  height: 50%;
+  top: 16px;
+  left: -1px;
+  display: block;
+}
+
+.u-header__topbar .list-inline-item:first-child .u-header__navbar-link {
+  padding-left: 0;
 }
 
 /* Navbar */
@@ -12980,8 +12994,11 @@ button:focus {
   color: #77838f;
   font-size: 0.875rem;
   font-weight: 300;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: 1.281rem;
+  padding-right: 1.281rem;
+  display: inline-block;
+  padding-top: 1.219rem;
+  padding-bottom: 1.219rem;
 }
 
 /* Nav Item */
@@ -21571,6 +21588,10 @@ label.btn {
 .rounded-top-pseudo::before, .rounded-top-pseudo::after {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+}
+
+.border-color-white {
+  border-color: rgba(255, 255, 255, 0.149) !important;
 }
 
 /*------------------------------------
