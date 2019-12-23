@@ -21919,6 +21919,10 @@ label.btn {
   font-size: 21px;
 }
 
+.font-size-60 {
+  font-size: 60px;
+}
+
 @media (max-width: 991.98px) {
   .font-size-md-down-5 {
     font-size: 3rem;

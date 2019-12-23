@@ -26,6 +26,9 @@
   font-size: 21px;
 }
 
+.font-size-60 {
+  font-size: 60px;
+}
 // Medium Devices
 @include media-breakpoint-down(md) {
   .font-size-md-down-5 {
