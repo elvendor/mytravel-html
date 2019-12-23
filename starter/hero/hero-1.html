@@ -31,23 +31,78 @@
 
   <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
-   <!-- Hero Section -->
-   <div class="bg-img-hero-bottom" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
-    <!-- Content -->
-      <div class="container d-md-flex align-items-md-center min-height-md-100vh text-center space-3 space-top-md-4">
-        <div class="row justify-content-md-center w-100">
-          <div>
-            <!-- Info -->
-            <div class="mt-4 mb-7">
-              <h1 class="display-4 text-white font-weight-normal">Let's The World Together</h1>
-              <p class="lead text-white">Find awesome hotel, tour, car and activities in London</p>
+    <!-- Hero Section -->
+<div class="position-relative">
+    <div class="bg-img-hero-bottom" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
+        <div class="container d-md-flex align-items-md-center min-height-800 text-center space-3 space-top-md-4">
+            <div class="row justify-content-md-center w-100">
+                <div>
+                    <!-- Info -->
+                    <div class="pt-9 mb-7">
+                      <h1 class="text-white font-weight-normal">Let's The World Together</h1>
+                      <p class="lead text-white">Find awesome hotel, tour, car and activities in London</p>
+                    </div>
+                    <!-- End Info -->
+                </div>
             </div>
-            <!-- End Info -->
+        </div>
+    </div>
+
+    <div class="container position-absolute right-0 bottom-0 left-0 space-top-5 space-bottom-2">       
+        <div class="card border-0">
+          <div class="card-body p-7">
+            <!-- Search Jobs Form -->
+            <form class="js-validate">
+              <div class="row">
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                  <!-- Input -->
+                  <label class="d-block">
+                    <span class="h4 d-block text-dark font-weight-semi-bold mb-0">what</span>
+                    <small class="d-block text-secondary">job title, keywords, or company</small>
+                  </label>
+                  <div class="js-focus-state">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="Keyword or title" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                      <div class="input-group-append">
+                        <span class="input-group-text">
+                          <span class="fas fa-search" id="keywordInputAddon"></span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Input -->
+                </div>
+
+                <div class="col-lg-5 mb-4 mb-lg-0">
+                  <!-- Input -->
+                  <label class="d-block">
+                    <span class="h4 d-block text-dark font-weight-semi-bold mb-0">where</span>
+                    <small class="d-block text-secondary">city, state, or zip code</small>
+                  </label>
+                  <div class="js-focus-state">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="City, state, or zip" aria-label="City, state, or zip" aria-describedby="locationInputAddon">
+                      <div class="input-group-append">
+                        <span class="input-group-text">
+                          <span class="fas fa-map-marker-alt" id="locationInputAddon"></span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Input -->
+                </div>
+
+                <div class="col-lg-2 align-self-lg-end">
+                  <button type="submit" class="btn btn-block btn-primary transition-3d-hover">Find Jobs</button>
+                </div>
+              </div>
+              <!-- End Checkbox -->
+            </form>
+            <!-- End Search Jobs Form -->
           </div>
         </div>
-      </div>
-    <!-- End Content -->
     </div>
+</div>
 <!-- End Hero Section -->
 </main>
   <!-- ========== END MAIN CONTENT ========== -->
