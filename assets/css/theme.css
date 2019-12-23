@@ -18743,6 +18743,26 @@ label.btn {
   border-color: rgba(55, 125, 255, 0.5);
 }
 
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form-control::-moz-placeholder {
+  color: #fff;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #fff;
+}
+
 .form-label {
   display: block;
   text-transform: uppercase;
@@ -18752,13 +18772,31 @@ label.btn {
 
 /* Form Borderless */
 .input-group-borderless .form-control,
-.input-group-borderless .input-group-text {
+.input-group-borderless .input-group-text,
+.input-group-borderless .form-control,
+.input-group-borderless button,
+.input-group-borderless .btn {
   border: none;
 }
 
 .input-group-borderless .form-control:focus,
-.input-group-borderless .input-group-text:focus {
+.input-group-borderless .input-group-text:focus,
+.input-group-borderless .form-control:focus,
+.input-group-borderless button:focus,
+.input-group-borderless .btn:focus {
   box-shadow: none;
+}
+
+/* Form Transpatent */
+.input-group-tranparent .form-control,
+.input-group-tranparent button,
+.input-group-tranparent .btn {
+  background-color: transparent;
+}
+
+.input-group-tranparent .form-control:focus,
+.input-group-tranparent .form-control:focus + .input-group-append button {
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 /*------------------------------------
@@ -21855,6 +21893,10 @@ label.btn {
 
 .height-4 {
   height: .25rem;
+}
+
+.height-350 {
+  height: 21.875rem;
 }
 
 .height-380 {
