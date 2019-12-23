@@ -1,0 +1,3193 @@
+[
+  {
+    "category": "Getting started",
+    "label": "Introduction",
+    "url": "front-v2.8.0/documentation/index.html"
+  },{
+    "category": "Getting started",
+    "label": "Changelog",
+    "url": "front-v2.8.0/documentation/getting-started/changelog.html"
+  },{
+    "category": "Getting started",
+    "label": "Credits",
+    "url": "front-v2.8.0/documentation/getting-started/credits.html"
+  },{
+    "category": "Getting started",
+    "label": "Customization",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html"
+  },{
+    "category": "Getting started",
+    "label": "File structures",
+    "url": "front-v2.8.0/documentation/getting-started/file-structures.html"
+  },{
+    "category": "Getting started",
+    "label": "Gulp",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html"
+  },{
+    "category": "Content",
+    "label": "Typography",
+    "url": "front-v2.8.0/documentation/content/typography.html"
+  },{
+    "category": "Content",
+    "label": "Icons - Exclusive SVG Set",
+    "url": "front-v2.8.0/documentation/content/exclusive-svg.html"
+  },{
+    "category": "Content",
+    "label": "Exclusive SVG Set",
+    "url": "front-v2.8.0/documentation/content/exclusive-svg.html"
+  },{
+    "category": "Content",
+    "label": "Font Awesome",
+    "url": "front-v2.8.0/documentation/content/font-awesome.html"
+  },{
+    "category": "Content",
+    "label": "Icons - Font Awesome",
+    "url": "front-v2.8.0/documentation/content/font-awesome.html"
+  },{
+    "category": "Components",
+    "label": "Alerts",
+    "url": "front-v2.8.0/documentation/components/alerts.html"
+  },{
+    "category": "Components",
+    "label": "Avatars",
+    "url": "front-v2.8.0/documentation/components/avatars.html"
+  },{
+    "category": "Components",
+    "label": "Badge",
+    "url": "front-v2.8.0/documentation/components/badge.html"
+  },{
+    "category": "Components",
+    "label": "Breadcrumb",
+    "url": "front-v2.8.0/documentation/components/breadcrumb.html"
+  },{
+    "category": "Components",
+    "label": "Buttons",
+    "url": "front-v2.8.0/documentation/components/buttons.html"
+  },{
+    "category": "Components",
+    "label": "Cards",
+    "url": "front-v2.8.0/documentation/components/cards.html"
+  },{
+    "category": "Components",
+    "label": "Collapse",
+    "url": "front-v2.8.0/documentation/components/collapse.html"
+  },{
+    "category": "Components",
+    "label": "CSS Divider",
+    "url": "front-v2.8.0/documentation/components/css-divider.html"
+  },{
+    "category": "Components",
+    "label": "SVG divider",
+    "url": "front-v2.8.0/documentation/components/svg-divider.html"
+  },{
+    "category": "Components",
+    "label": "Forms",
+    "url": "front-v2.8.0/documentation/components/forms.html"
+  },{
+    "category": "Components",
+    "label": "List group",
+    "url": "front-v2.8.0/documentation/components/list-group.html"
+  },{
+    "category": "Components",
+    "label": "Navs",
+    "url": "front-v2.8.0/documentation/components/navs.html"
+  },{
+    "category": "Components",
+    "label": "Pagination",
+    "url": "front-v2.8.0/documentation/components/pagination.html"
+  },{
+    "category": "Components",
+    "label": "Progress",
+    "url": "front-v2.8.0/documentation/components/progress.html"
+  },{
+    "category": "Components",
+    "label": "Spinners",
+    "url": "front-v2.8.0/documentation/components/spinners.html"
+  },{
+    "category": "Components",
+    "label": "Sticky footer",
+    "url": "front-v2.8.0/documentation/components/sticky-footer.html"
+  },{
+    "category": "Components",
+    "label": "Tables",
+    "url": "front-v2.8.0/documentation/components/tables.html"
+  },{
+    "category": "Utilities",
+    "label": "Borders",
+    "url": "front-v2.8.0/documentation/utilities/borders.html"
+  },{
+    "category": "Utilities",
+    "label": "Colors",
+    "url": "front-v2.8.0/documentation/utilities/colors.html"
+  },{
+    "category": "Utilities",
+    "label": "Content alignments",
+    "url": "front-v2.8.0/documentation/utilities/content-alignments.html"
+  },{
+    "category": "Utilities",
+    "label": "Links",
+    "url": "front-v2.8.0/documentation/utilities/links.html"
+  },{
+    "category": "Utilities",
+    "label": "Position",
+    "url": "front-v2.8.0/documentation/utilities/position.html"
+  },{
+    "category": "Utilities",
+    "label": "Shadows",
+    "url": "front-v2.8.0/documentation/utilities/shadows.html"
+  },{
+    "category": "Utilities",
+    "label": "Sizing",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html"
+  },{
+    "category": "Utilities",
+    "label": "Spacing",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html"
+  },{
+    "category": "Utilities",
+    "label": "Transform",
+    "url": "front-v2.8.0/documentation/utilities/transform.html"
+  },{
+    "category": "Utilities",
+    "label": "Transitions",
+    "url": "front-v2.8.0/documentation/utilities/transitions.html"
+  },{
+    "category": "Utilities",
+    "label": "Others",
+    "url": "front-v2.8.0/documentation/utilities/others.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Background video",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html"
+  },{
+    "category": "HS Libraries",
+    "label": "File Attach",
+    "url": "front-v2.8.0/documentation/hs-libraries/file-attach.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Go to",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Headers",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Header fullscreen",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Header mega-menu",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Header searches",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-searches.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Page preloader",
+    "url": "front-v2.8.0/documentation/hs-libraries/page-preloader.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Scroll effect",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-effect.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Scroll-nav",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Show-animation",
+    "url": "front-v2.8.0/documentation/hs-libraries/show-animation.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Wizard form",
+    "url": "front-v2.8.0/documentation/hs-libraries/wizard-form.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Sticky block",
+    "url": "front-v2.8.0/documentation/hs-libraries/sticky-block.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Toggle state",
+    "url": "front-v2.8.0/documentation/hs-libraries/toggle-state.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Unfold (Dropdown and others)",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html"
+  },{
+    "category": "HS Libraries",
+    "label": "Dropdowns",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html"
+  },{
+    "category": "Libraries",
+    "label": "Animations",
+    "url": "front-v2.8.0/documentation/libraries/animations.html"
+  },{
+    "category": "Libraries",
+    "label": "Area Chart",
+    "url": "front-v2.8.0/documentation/libraries/area-chart.html"
+  },{
+    "category": "Libraries",
+    "label": "Bar Chart",
+    "url": "front-v2.8.0/documentation/libraries/bar-chart.html"
+  },{
+    "category": "Libraries",
+    "label": "Bootstrap Select",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-select.html"
+  },{
+    "category": "Libraries",
+    "label": "Bootstrap Tagsinput",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-tagsinput.html"
+  },{
+    "category": "Libraries",
+    "label": "Circles",
+    "url": "front-v2.8.0/documentation/libraries/circles.html"
+  },{
+    "category": "Libraries",
+    "label": "Clipboard",
+    "url": "front-v2.8.0/documentation/libraries/clipboard.html"
+  },{
+    "category": "Libraries",
+    "label": "Countdown",
+    "url": "front-v2.8.0/documentation/libraries/countdown.html"
+  },{
+    "category": "Libraries",
+    "label": "Counters",
+    "url": "front-v2.8.0/documentation/libraries/counters.html"
+  },{
+    "category": "Libraries",
+    "label": "Cubeportfolio",
+    "url": "front-v2.8.0/documentation/libraries/cubeportfolio.html"
+  },{
+    "category": "Libraries",
+    "label": "Datatables",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html"
+  },{
+    "category": "Libraries",
+    "label": "Dropzone",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html"
+  },{
+    "category": "Libraries",
+    "label": "Drag-n-drop",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html"
+  },{
+    "category": "Libraries",
+    "label": "Fancybox",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html"
+  },{
+    "category": "Libraries",
+    "label": "File uploader",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html"
+  },{
+    "category": "Libraries",
+    "label": "File attachment",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html"
+  },{
+    "category": "Libraries",
+    "label": "Flatpickr",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html"
+  },{
+    "category": "Libraries",
+    "label": "Datepicker",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html"
+  },{
+    "category": "Libraries",
+    "label": "Calendar",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html"
+  },{
+    "category": "Libraries",
+    "label": "Google map",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html"
+  },{
+    "category": "Libraries",
+    "label": "Malihu scrollbar",
+    "url": "front-v2.8.0/documentation/libraries/malihu-scrollbar.html"
+  },{
+    "category": "Libraries",
+    "label": "Modal window",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html"
+  },{
+    "category": "Libraries",
+    "label": "Password strength",
+    "url": "front-v2.8.0/documentation/libraries/password-strength.html"
+  },{
+    "category": "Libraries",
+    "label": "Parallax",
+    "url": "front-v2.8.0/documentation/libraries/parallax.html"
+  },{
+    "category": "Plugins",
+    "section": "Range Slider",
+    "label": "Range slider",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html"
+  },{
+    "category": "Libraries",
+    "label": "Slick carousel",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html"
+  },{
+    "category": "Libraries",
+    "label": "Facebook API",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html"
+  },{
+    "category": "Libraries",
+    "label": "Instagram API",
+    "url": "front-v2.8.0/documentation/libraries/social-api-instagram.html"
+  },{
+    "category": "Libraries",
+    "label": "Twitter API",
+    "url": "front-v2.8.0/documentation/libraries/social-api-twitter.html"
+  },{
+    "category": "Libraries",
+    "label": "Summernote WYSIWYG Editor",
+    "url": "front-v2.8.0/documentation/libraries/summernote.html"
+  },{
+    "category": "Libraries",
+    "label": "SVG",
+    "url": "front-v2.8.0/documentation/libraries/svg.html"
+  },{
+    "category": "Libraries",
+    "label": "Typed.js",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html"
+  },{
+    "category": "Libraries",
+    "label": "Validation",
+    "url": "front-v2.8.0/documentation/libraries/validation.html"
+  },{
+    "category": "Libraries",
+    "label": "Video player",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html"
+  },{
+    "category": "Getting started",
+    "section": "Getting started",
+    "label": "Getting started - Quick start",
+    "url": "front-v2.8.0/documentation/index.html#quick-start"
+  },{
+    "category": "Getting started",
+    "section": "Important globals",
+    "label": "Important globals - Starter template",
+    "url": "front-v2.8.0/documentation/index.html#starter-template"
+  },{
+    "category": "Getting started",
+    "section": "Important globals",
+    "label": "Important globals - Responsive meta tag",
+    "url": "front-v2.8.0/documentation/index.html#responsive-meta-tag"
+  },{
+    "category": "Getting started",
+    "section": "File structures",
+    "label": "File structures - Download package",
+    "url": "front-v2.8.0/documentation/getting-started/file-structures.html#download-package"
+  },{
+    "category": "Getting started",
+    "section": "Download package",
+    "label": "Download package - HTML",
+    "url": "front-v2.8.0/documentation/getting-started/file-structures.html#html"
+  },{
+    "category": "Getting started",
+    "section": "Download package",
+    "label": "Download package - Assets",
+    "url": "front-v2.8.0/documentation/getting-started/file-structures.html#assets"
+  },{
+    "category": "Getting started",
+    "section": "Gulp",
+    "label": "Gulp - Tooling setup",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#tooling-setup"
+  },{
+    "category": "Getting started",
+    "section": "Getting started",
+    "label": "Installations",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#installations"
+  },{
+    "category": "Getting started",
+    "section": "Installations",
+    "label": "Installations - Installing Node.js",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#installing-nodejs"
+  },{
+    "category": "Getting started",
+    "section": "Installations",
+    "label": "Installations - Installing Gulp.js",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#installing-gulpjs"
+  },{
+    "category": "Getting started",
+    "section": "Installations",
+    "label": "Installations - Installing NPM modules",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#installing-npm-modules"
+  },{
+    "category": "Getting started",
+    "section": "Installations",
+    "label": "Installations - Run Gulp",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#run-gulp"
+  },{
+    "category": "Getting started",
+    "section": "Installations",
+    "label": "Installations - Gulp dist",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#gulp-dist"
+  },{
+    "category": "Getting started",
+    "section": "Gulp",
+    "label": "Gulp - Autoprefixer",
+    "url": "front-v2.8.0/documentation/getting-started/gulp.html#autoprefixer"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - How to include a typeface",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#how-to-include-a-typeface"
+  },{
+    "category": "Getting started",
+    "section": "How to include a typeface",
+    "label": "How to include a typeface - with SASS",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#with-sass"
+  },{
+    "category": "Getting started",
+    "section": "How to include a typeface",
+    "label": "How to include a typeface - with CSS",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#with-css"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - SASS",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#sass"
+  },{
+    "category": "Getting started",
+    "section": "SASS",
+    "label": "SASS - Customizing SASS",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#customizing-sass"
+  },{
+    "category": "Getting started",
+    "section": "SASS",
+    "label": "SASS - Variable defaults",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#variable-defaults"
+  },{
+    "category": "Getting started",
+    "section": "SASS",
+    "label": "SASS - Maps and loops",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#maps-and-loops"
+  },{
+    "category": "Getting started",
+    "section": "SASS",
+    "label": "SASS - Modify map",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#modify-map"
+  },{
+    "category": "Getting started",
+    "section": "SASS",
+    "label": "SASS - Add to map",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#add-to-map"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - SASS options",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#sass-options"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - Color",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#color"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - All color",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#all-colors"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - Theme colors",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#theme-colors"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - Grays",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#grays"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - SASS Components",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#sass-components"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - Modifiers",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#modifiers"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - Customizing JS",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#customizing-js"
+  },{
+    "category": "Getting started",
+    "section": "Customization",
+    "label": "Customization - Customizing JS",
+    "url": "front-v2.8.0/documentation/getting-started/customization.html#customizing-js"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Typography - Global settings",
+    "url": "front-v2.8.0/documentation/content/typography.html#global-settings"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Typography - Headings",
+    "url": "front-v2.8.0/documentation/content/typography.html#headings"
+  },{
+    "category": "Content",
+    "section": "Headings",
+    "label": "Headings - Customizing headings",
+    "url": "front-v2.8.0/documentation/content/typography.html#customizing-headings"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Typography - Display headings",
+    "url": "front-v2.8.0/documentation/content/typography.html#display-headings"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Typography - Lead",
+    "url": "front-v2.8.0/documentation/content/typography.html#lead"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Typography - Inline text elements",
+    "url": "front-v2.8.0/documentation/content/typography.html#inline-text-elements"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Typography - Text utilities",
+    "url": "front-v2.8.0/documentation/content/typography.html#text-utilities"
+  },{
+    "category": "Content",
+    "section": "Typography",
+    "label": "Abbreviations",
+    "url": "front-v2.8.0/documentation/content/typography.html#abbreviations"
+  },{
+    "category": "Components",
+    "section": "Blockquotes",
+    "label": "Blockquotes",
+    "url": "front-v2.8.0/documentation/content/typography.html#blockquotes"
+  },{
+    "category": "Components",
+    "section": "Blockquotes",
+    "label": "Blockquotes - Naming a source",
+    "url": "front-v2.8.0/documentation/content/typography.html#naming-a-source"
+  },{
+    "category": "Components",
+    "section": "Blockquotes",
+    "label": "Blockquotes - Alignment",
+    "url": "front-v2.8.0/documentation/content/typography.html#alignment"
+  },{
+    "category": "Components",
+    "section": "Typography",
+    "label": "Typography - Lists",
+    "url": "front-v2.8.0/documentation/content/typography.html#lists"
+  },{
+    "category": "Components",
+    "section": "Lists",
+    "label": "Lists - Unstyled",
+    "url": "front-v2.8.0/documentation/components/typography.html#unstyled"
+  },{
+    "category": "Components",
+    "section": "Lists",
+    "label": "Lists - Inline",
+    "url": "front-v2.8.0/documentation/components/typography.html#inline"
+  },{
+    "category": "Components",
+    "section": "Lists",
+    "label": "Lists - Description list alignment",
+    "url": "front-v2.8.0/documentation/components/typography.html#description-list-alignment"
+  },{
+    "category": "Components",
+    "section": "Typography",
+    "label": "Typography - Responsive typography",
+    "url": "front-v2.8.0/documentation/components/typography.html#responsive-typography"
+  },{
+    "category": "Content",
+    "section": "Exclusive SVG Set",
+    "label": "Exclusive SVG Set - Overview",
+    "url": "front-v2.8.0/documentation/content/exclusive-svg.html#overview"
+  },{
+    "category": "Content",
+    "section": "Exclusive SVG Set",
+    "label": "Exclusive SVG Set - How to use",
+    "url": "front-v2.8.0/documentation/content/exclusive-svg.html#how-to-use"
+  },{
+    "category": "Content",
+    "section": "Exclusive SVG Set",
+    "label": "Exclusive SVG Set - Default examples",
+    "url": "front-v2.8.0/documentation/content/exclusive-svg.html#default-examples"
+  },{
+    "category": "Content",
+    "section": "Exclusive SVG Set",
+    "label": "Exclusive SVG Set - White style examples",
+    "url": "front-v2.8.0/documentation/content/exclusive-svg.html#white-examples"
+  },{
+    "category": "Content",
+    "section": "Font Awesome 5",
+    "label": "Font Awesome 5 - Overview",
+    "url": "front-v2.8.0/documentation/content/font-awesome.html#overview"
+  },{
+    "category": "Content",
+    "section": "Font Awesome 5",
+    "label": "Font Awesome 5 - How to use",
+    "url": "front-v2.8.0/documentation/content/font-awesome.html#how-to-use-font-awesome"
+  },{
+    "category": "Content",
+    "section": "Font Awesome 5",
+    "label": "Font Awesome 5 - Examples",
+    "url": "front-v2.8.0/documentation/content/font-awesome.html#font-awesome-examples"
+  },{
+    "category": "Content",
+    "section": "Font Awesome 5",
+    "label": "Font Awesome 5 - How to use",
+    "url": "front-v2.8.0/documentation/content/font-awesome.html#font-awesome-sizes"
+  },{
+    "category": "Components",
+    "section": "Alerts",
+    "label": "Alerts - Examples",
+    "url": "front-v2.8.0/documentation/components/alerts.html#examples"
+  },{
+    "category": "Components",
+    "section": "Alerts",
+    "label": "Alerts - Link color",
+    "url": "front-v2.8.0/documentation/components/alerts.html#link-color"
+  },{
+    "category": "Components",
+    "section": "Alerts",
+    "label": "Alerts - Addition content",
+    "url": "front-v2.8.0/documentation/components/alerts.html#additional-content"
+  },{
+    "category": "Components",
+    "section": "Alerts",
+    "label": "Alerts - Dismissing",
+    "url": "front-v2.8.0/documentation/components/alerts.html#dismissing"
+  },{
+    "category": "Components",
+    "section": "Alerts",
+    "label": "Alerts - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/components/alerts.html#js-behavior"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Example",
+    "url": "front-v2.8.0/documentation/components/avatars.html#example"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Shapes",
+    "url": "front-v2.8.0/documentation/components/avatars.html#shapes"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Abbreviation",
+    "url": "front-v2.8.0/documentation/components/avatars.html#abbreviation"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Flat contextual variations",
+    "url": "front-v2.8.0/documentation/components/avatars.html#flat-contextual-variations"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Soft contextual variations",
+    "url": "front-v2.8.0/documentation/components/avatars.html#soft-contextual-variations"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Bordered",
+    "url": "front-v2.8.0/documentation/components/avatars.html#bordered"
+  },{
+    "category": "Components",
+    "section": "Avatars",
+    "label": "Avatars - Group",
+    "url": "front-v2.8.0/documentation/components/avatars.html#group"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Example",
+    "url": "front-v2.8.0/documentation/components/badge.html#example"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Contextual variations",
+    "url": "front-v2.8.0/documentation/components/badge.html#contextual-variations"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Pill badges",
+    "url": "front-v2.8.0/documentation/components/badge.html#pill-badges"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Links",
+    "url": "front-v2.8.0/documentation/components/badge.html#links"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Front badges",
+    "url": "front-v2.8.0/documentation/components/badge.html#front-badges"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Front examples",
+    "url": "front-v2.8.0/documentation/components/badge.html#front-examples"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Sizes",
+    "url": "front-v2.8.0/documentation/components/badge.html#sizes"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Border style",
+    "url": "front-v2.8.0/documentation/components/badge.html#border-style"
+  },{
+    "category": "Components",
+    "section": "Badges",
+    "label": "Badges - Avatars and badges",
+    "url": "front-v2.8.0/documentation/components/badge.html#avatar-and-badges"
+  },{
+    "category": "Components",
+    "section": "Breadcrumb",
+    "label": "Breadcrumb - Example",
+    "url": "front-v2.8.0/documentation/components/breadcrumb.html#example"
+  },{
+    "category": "Components",
+    "section": "Breadcrumb",
+    "label": "Breadcrumb - Custom example",
+    "url": "front-v2.8.0/documentation/components/breadcrumb.html#custom-breadcrumb"
+  },{
+    "category": "Components",
+    "section": "Breadcrumb",
+    "label": "Breadcrumb - Changing the separator",
+    "url": "front-v2.8.0/documentation/components/breadcrumb.html#changing-the-separator"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Button examples",
+    "url": "front-v2.8.0/documentation/components/buttons.html#examples"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Button tags",
+    "url": "front-v2.8.0/documentation/components/buttons.html#button-tags"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Outline buttons",
+    "url": "front-v2.8.0/documentation/components/buttons.html#outline-buttons"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Soft buttons",
+    "url": "front-v2.8.0/documentation/components/buttons.html#soft-buttons"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Text buttons",
+    "url": "front-v2.8.0/documentation/components/buttons.html#text-buttons"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Icon buttons",
+    "url": "front-v2.8.0/documentation/components/buttons.html#icon-buttons"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Sizes",
+    "url": "front-v2.8.0/documentation/components/buttons.html#sizes"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Button styles",
+    "url": "front-v2.8.0/documentation/components/buttons.html#button-styles"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Active state",
+    "url": "front-v2.8.0/documentation/components/buttons.html#active-state"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Disabled state",
+    "url": "front-v2.8.0/documentation/components/buttons.html#disabled-state"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Button plugin",
+    "url": "front-v2.8.0/documentation/components/buttons.html#button-plugin"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Toggle states",
+    "url": "front-v2.8.0/documentation/components/buttons.html#toggle-states"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Checkbox and radio buttons",
+    "url": "front-v2.8.0/documentation/components/buttons.html#checkbox-and-radio-buttons"
+  },{
+    "category": "Components",
+    "section": "Buttons",
+    "label": "Buttons - Methods",
+    "url": "front-v2.8.0/documentation/components/buttons.html#methods"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - About",
+    "url": "front-v2.8.0/documentation/components/cards.html#about"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Card frame",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-frame"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Card columns",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-columns"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Highlighted",
+    "url": "front-v2.8.0/documentation/components/cards.html#highlighted"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Card count",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-count"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Card gap",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-gap"
+  },{
+    "category": "Components",
+    "section": "Card count",
+    "label": "Card - Card count",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-count"
+  },{
+    "category": "Components",
+    "section": "Card count",
+    "label": "Card count - Example",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-count-example"
+  },{
+    "category": "Components",
+    "section": "Card gap",
+    "label": "Card - Card gap",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-gap"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Card gutters",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-gutters"
+  },{
+    "category": "Components",
+    "section": "Card gutters",
+    "label": "Card gutters - Examples",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-gutters-examples"
+  },{
+    "category": "Components",
+    "section": "Cards",
+    "label": "Cards - Card group break",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-group-break"
+  },{
+    "category": "Components",
+    "section": "Card group break",
+    "label": "Card group break - Example",
+    "url": "front-v2.8.0/documentation/components/cards.html#card-group-break-example"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - How it works",
+    "url": "front-v2.8.0/documentation/components/collapse.html#how-it-works"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - Example",
+    "url": "front-v2.8.0/documentation/components/collapse.html#example"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - Multiple targets",
+    "url": "front-v2.8.0/documentation/components/collapse.html#multiple-targets"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - Accordion example",
+    "url": "front-v2.8.0/documentation/components/collapse.html#accordion-example"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - Accessibility",
+    "url": "front-v2.8.0/documentation/components/collapse.html#accessibility"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - Usage",
+    "url": "front-v2.8.0/documentation/components/collapse.html#usage"
+  },{
+    "category": "Components",
+    "section": "Usage",
+    "label": "Usage - Via data attributes",
+    "url": "front-v2.8.0/documentation/components/collapse.html#via-data-attributes"
+  },{
+    "category": "Components",
+    "section": "Collapse",
+    "label": "Collapse - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/components/collapse.html#js-behavior"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Overview",
+    "url": "front-v2.8.0/documentation/components/forms.html#overview"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Form controls",
+    "url": "front-v2.8.0/documentation/components/forms.html#form-controls"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - File attachments",
+    "url": "front-v2.8.0/documentation/components/forms.html#file-attachments"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Sizing",
+    "url": "front-v2.8.0/documentation/components/forms.html#sizing"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Custom form",
+    "url": "front-v2.8.0/documentation/components/forms.html#custom-form"
+  },{
+    "category": "Components",
+    "section": "Custom form",
+    "label": "Custom form - Borderless",
+    "url": "front-v2.8.0/documentation/components/forms.html#borderless"
+  },{
+    "category": "Components",
+    "section": "Custom form",
+    "label": "Custom form - Pilled form",
+    "url": "front-v2.8.0/documentation/components/forms.html#pilled-form"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Checkbox and radios",
+    "url": "front-v2.8.0/documentation/components/forms.html#checkbox-and-radios"
+  },{
+    "category": "Components",
+    "section": "Checkbox and radios",
+    "label": "Checkbox and radios - Default (stacked)",
+    "url": "front-v2.8.0/documentation/components/forms.html#default-stacked"
+  },{
+    "category": "Components",
+    "section": "Checkbox and radios",
+    "label": "Checkbox and radios - Inline checkbox",
+    "url": "front-v2.8.0/documentation/components/forms.html#inline-checkbox"
+  },{
+    "category": "Components",
+    "section": "Checkbox and radios",
+    "label": "Checkbox and radios - Custom checkbox",
+    "url": "front-v2.8.0/documentation/components/forms.html#custom-checkbox"
+  },{
+    "category": "Components",
+    "section": "Checkbox and radios",
+    "label": "Checkbox and radios - Inline custom checkbox",
+    "url": "front-v2.8.0/documentation/components/forms.html#inline-custom-checkbox"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Switches",
+    "url": "front-v2.8.0/documentation/components/forms.html#switches"
+  },{
+    "category": "Components",
+    "section": "Forms",
+    "label": "Forms - Input group",
+    "url": "front-v2.8.0/documentation/components/forms.html#input-group"
+  },{
+    "category": "Components",
+    "section": "Input group",
+    "label": "Input group - Input group sizing",
+    "url": "front-v2.8.0/documentation/components/forms.html#input-group-sizing"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Basic example",
+    "url": "front-v2.8.0/documentation/components/list-group.html#basic-example"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Active items",
+    "url": "front-v2.8.0/documentation/components/list-group.html#active-items"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Disabled items",
+    "url": "front-v2.8.0/documentation/components/list-group.html#disabled-items"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Links and buttons",
+    "url": "front-v2.8.0/documentation/components/list-group.html#links-and-buttons"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Rounded class",
+    "url": "front-v2.8.0/documentation/components/list-group.html#rounded-class"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Flush",
+    "url": "front-v2.8.0/documentation/components/list-group.html#flush"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Borderless",
+    "url": "front-v2.8.0/documentation/components/list-group.html#borderless"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Striped",
+    "url": "front-v2.8.0/documentation/components/list-group.html#striped"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Horizontal",
+    "url": "front-v2.8.0/documentation/components/list-group.html#horizontal"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Contextual classes",
+    "url": "front-v2.8.0/documentation/components/list-group.html#contextual-classes"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - With badges",
+    "url": "front-v2.8.0/documentation/components/list-group.html#with-badges"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Custom content",
+    "url": "front-v2.8.0/documentation/components/list-group.html#custom-content"
+  },{
+    "category": "Components",
+    "section": "List group",
+    "label": "List group - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/components/list-group.html#js-behavior"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Base nav",
+    "url": "front-v2.8.0/documentation/components/navs.html#base-nav"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Available styles",
+    "url": "front-v2.8.0/documentation/components/navs.html#available-styles"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Horizontal alignment",
+    "url": "front-v2.8.0/documentation/components/navs.html#horizontal-alignment"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Vertical",
+    "url": "front-v2.8.0/documentation/components/navs.html#vertical"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Tabs",
+    "url": "front-v2.8.0/documentation/components/navs.html#tabs"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Pills",
+    "url": "front-v2.8.0/documentation/components/navs.html#pills"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Classic",
+    "url": "front-v2.8.0/documentation/components/navs.html#classic"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Shadow",
+    "url": "front-v2.8.0/documentation/components/navs.html#shadow"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Rounded",
+    "url": "front-v2.8.0/documentation/components/navs.html#rounded"
+  },{
+    "category": "Components",
+    "section": "Available styles",
+    "label": "Available styles - Fill and justify",
+    "url": "front-v2.8.0/documentation/components/navs.html#fill-and-justify"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Icon style",
+    "url": "front-v2.8.0/documentation/components/navs.html#icon-style"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - White style",
+    "url": "front-v2.8.0/documentation/components/navs.html#white-style"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Box style",
+    "url": "front-v2.8.0/documentation/components/navs.html#box-style"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Navs - Working with flex utilities",
+    "url": "front-v2.8.0/documentation/components/navs.html#working-with-flex-utilities"
+  },{
+    "category": "Components",
+    "section": "Navs",
+    "label": "Regarding accessibility",
+    "url": "front-v2.8.0/documentation/components/navs.html#regarding-accessibility"
+  },{
+    "category": "Components",
+    "section": "Pagination",
+    "label": "Pagination - Overview",
+    "url": "front-v2.8.0/documentation/components/pagination.html#overview"
+  },{
+    "category": "Components",
+    "section": "Pagination",
+    "label": "Pagination - Working with icons",
+    "url": "front-v2.8.0/documentation/components/pagination.html#working-with-icons"
+  },{
+    "category": "Components",
+    "section": "Pagination",
+    "label": "Pagination - Disabled and active states",
+    "url": "front-v2.8.0/documentation/components/pagination.html#disabled-and-active-states"
+  },{
+    "category": "Components",
+    "section": "Pagination",
+    "label": "Pagination - Sizing",
+    "url": "front-v2.8.0/documentation/components/pagination.html#sizing"
+  },{
+    "category": "Components",
+    "section": "Pagination",
+    "label": "Pagination - Alignment",
+    "url": "front-v2.8.0/documentation/components/pagination.html#alignment"
+  },{
+    "category": "Components",
+    "section": "Pagination",
+    "label": "Pagination - With pager",
+    "url": "front-v2.8.0/documentation/components/pagination.html#with-pager"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - How it works",
+    "url": "front-v2.8.0/documentation/components/progress.html#how-it-works"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Labels",
+    "url": "front-v2.8.0/documentation/components/progress.html#labels"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Height",
+    "url": "front-v2.8.0/documentation/components/progress.html#height"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Vertical progress",
+    "url": "front-v2.8.0/documentation/components/progress.html#vertical-progress"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Backgrounds",
+    "url": "front-v2.8.0/documentation/components/progress.html#backgrounds"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Multiple bars",
+    "url": "front-v2.8.0/documentation/components/progress.html#multiple-bars"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Striped",
+    "url": "front-v2.8.0/documentation/components/progress.html#striped"
+  },{
+    "category": "Components",
+    "section": "Progress",
+    "label": "Progress - Animated progress",
+    "url": "front-v2.8.0/documentation/components/progress.html#animated-progress"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Animated progress",
+    "url": "front-v2.8.0/documentation/components/spinners.html#about"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Border spinner",
+    "url": "front-v2.8.0/documentation/components/spinners.html#border-spinner"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Colors",
+    "url": "front-v2.8.0/documentation/components/spinners.html#colors"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Growing spinner",
+    "url": "front-v2.8.0/documentation/components/spinners.html#growing-spinner"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Alignment",
+    "url": "front-v2.8.0/documentation/components/spinners.html#alignment"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Margin",
+    "url": "front-v2.8.0/documentation/components/spinners.html#margin"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Placement",
+    "url": "front-v2.8.0/documentation/components/spinners.html#placement"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Flex",
+    "url": "front-v2.8.0/documentation/components/spinners.html#flex"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Floats",
+    "url": "front-v2.8.0/documentation/components/spinners.html#floats"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Text align",
+    "url": "front-v2.8.0/documentation/components/spinners.html#text-align"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Size",
+    "url": "front-v2.8.0/documentation/components/spinners.html#size"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Buttons",
+    "url": "front-v2.8.0/documentation/components/spinners.html#buttons"
+  },{
+    "category": "Components",
+    "section": "Animated progress",
+    "label": "Animated progress - Horizontal progress",
+    "url": "front-v2.8.0/documentation/components/progress.html#horizontal-progress"
+  },{
+    "category": "Components",
+    "section": "Animated progress",
+    "label": "Animated progress - Animated vertical progress",
+    "url": "front-v2.8.0/documentation/components/progress.html#animated-vertical-progress"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Examples",
+    "url": "front-v2.8.0/documentation/components/spinners.html#examples"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - About",
+    "url": "front-v2.8.0/documentation/components/spinners.html#about"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Border spinner",
+    "url": "front-v2.8.0/documentation/components/spinners.html#border-spinner"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Colors",
+    "url": "front-v2.8.0/documentation/components/spinners.html#colors"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Growing spinner",
+    "url": "front-v2.8.0/documentation/components/spinners.html#growing-spinner"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Margin",
+    "url": "front-v2.8.0/documentation/components/spinners.html#margin"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Placement",
+    "url": "front-v2.8.0/documentation/components/spinners.html#placement"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Flex",
+    "url": "front-v2.8.0/documentation/components/spinners.html#flex"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Floats",
+    "url": "front-v2.8.0/documentation/components/spinners.html#floats"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Text align",
+    "url": "front-v2.8.0/documentation/components/spinners.html#text-align"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Size",
+    "url": "front-v2.8.0/documentation/components/spinners.html#size"
+  },{
+    "category": "Components",
+    "section": "Spinners",
+    "label": "Spinners - Buttons",
+    "url": "front-v2.8.0/documentation/components/spinners.html#buttons"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Examples",
+    "url": "front-v2.8.0/documentation/components/tables.html#examples"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Table head options",
+    "url": "front-v2.8.0/documentation/components/tables.html#table-head-options"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Striped rows",
+    "url": "front-v2.8.0/documentation/components/tables.html#striped-rows"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Bordered table",
+    "url": "front-v2.8.0/documentation/components/tables.html#bordered-table"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Borderless table",
+    "url": "front-v2.8.0/documentation/components/tables.html#borderless-table"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Hoverable rows",
+    "url": "front-v2.8.0/documentation/components/tables.html#hoverable-rows"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Small table",
+    "url": "front-v2.8.0/documentation/components/tables.html#small-table"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Contextual classes",
+    "url": "front-v2.8.0/documentation/components/tables.html#contextual-classes"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Captions",
+    "url": "front-v2.8.0/documentation/components/tables.html#captions"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Responsive tables",
+    "url": "front-v2.8.0/documentation/components/tables.html#responsive-tables"
+  },{
+    "category": "Components",
+    "section": "Responsive tables",
+    "label": "Responsive tables - Always responsive",
+    "url": "front-v2.8.0/documentation/components/tables.html#always-responsive"
+  },{
+    "category": "Components",
+    "section": "Responsive tables",
+    "label": "Responsive tables - Breakpoint specific",
+    "url": "front-v2.8.0/documentation/components/tables.html#breakpoint-specific"
+  },{
+    "category": "Components",
+    "section": "Tables",
+    "label": "Tables - Front examples",
+    "url": "front-v2.8.0/documentation/components/tables.html#examples"
+  },{
+    "category": "Utilities",
+    "section": "Borders",
+    "label": "Borders - Border",
+    "url": "front-v2.8.0/documentation/utilities/borders.html#border"
+  },{
+    "category": "Utilities",
+    "section": "Borders",
+    "label": "Borders - Additive",
+    "url": "front-v2.8.0/documentation/utilities/borders.html#additive"
+  },{
+    "category": "Utilities",
+    "section": "Borders",
+    "label": "Borders - Subtractive",
+    "url": "front-v2.8.0/documentation/utilities/borders.html#subtractive"
+  },{
+    "category": "Utilities",
+    "section": "Borders",
+    "label": "Borders - Style",
+    "url": "front-v2.8.0/documentation/utilities/borders.html#style"
+  },{
+    "category": "Utilities",
+    "section": "Borders",
+    "label": "Borders - Border color",
+    "url": "front-v2.8.0/documentation/utilities/borders.html#border-color"
+  },{
+    "category": "Utilities",
+    "section": "Borders",
+    "label": "Borders - Border radius",
+    "url": "front-v2.8.0/documentation/utilities/borders.html#border-radius"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Color",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#color"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Background color",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#bg-color"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Background soft color",
+    "url": "front-v2.8.0/documentation/utilities/soft-colors.html#bg-soft-color"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Background gradient",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#bg-gradient"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Background gradient overlay",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#bg-gradient-overlay"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Fill color",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#fill-color"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Stroke color",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#stroke-color"
+  },{
+    "category": "Utilities",
+    "section": "Colors",
+    "label": "Colors - Stop color",
+    "url": "front-v2.8.0/documentation/utilities/colors.html#stop-color"
+  },{
+    "category": "Utilities",
+    "section": "Position",
+    "label": "Position - Common values",
+    "url": "front-v2.8.0/documentation/utilities/position.html#common-values"
+  },{
+    "category": "Utilities",
+    "section": "Content alignments",
+    "label": "Content alignments - Centering",
+    "url": "front-v2.8.0/documentation/utilities/content-alignments.html#centering"
+  },{
+    "category": "Utilities",
+    "section": "Position",
+    "label": "Position - Fixed top",
+    "url": "front-v2.8.0/documentation/utilities/position.html#fixed-top"
+  },{
+    "category": "Utilities",
+    "section": "Position",
+    "label": "Position - Fixed bottom",
+    "url": "front-v2.8.0/documentation/utilities/position.html#fixed-bottom"
+  },{
+    "category": "Utilities",
+    "section": "Position",
+    "label": "Position - Sticky top",
+    "url": "front-v2.8.0/documentation/utilities/position.html#sticky-top"
+  },{
+    "category": "Utilities",
+    "section": "Position",
+    "label": "Position - Responsive classes",
+    "url": "front-v2.8.0/documentation/utilities/position.html#responsive-classes"
+  },{
+    "category": "Utilities",
+    "section": "Sizing",
+    "label": "Sizing - Width classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#width-classes"
+  },{
+    "category": "Utilities",
+    "section": "Sizing",
+    "label": "Sizing - Min width classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#min-width-classes"
+  },{
+    "category": "Utilities",
+    "section": "Sizing",
+    "label": "Sizing - Max width classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#max-width-classes"
+  },{
+    "category": "Utilities",
+    "section": "Sizing",
+    "label": "Sizing - Height classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#height-classes"
+  },{
+    "category": "Utilities",
+    "section": "Height classes",
+    "label": "Height classes - Viewport height classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#viewport-height-classes"
+  },{
+    "category": "Utilities",
+    "section": "Height classes",
+    "label": "Height classes - Height classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#height-classes"
+  },{
+    "category": "Utilities",
+    "section": "Height classes",
+    "label": "Height classes - Min height classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#min-height-classes"
+  },{
+    "category": "Utilities",
+    "section": "Height classes",
+    "label": "Height classes - Height responsive classes",
+    "url": "front-v2.8.0/documentation/utilities/sizing.html#height-responsive-classes"
+  },{
+    "category": "Utilities",
+    "section": "Spacing",
+    "label": "Spacing - How it works",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html#how-it-works"
+  },{
+    "category": "Utilities",
+    "section": "Spacing",
+    "label": "Spacing - Notation",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html#notation"
+  },{
+    "category": "Utilities",
+    "section": "Spacing",
+    "label": "Spacing - Offset spacings",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html#offset-spacings"
+  },{
+    "category": "Utilities",
+    "section": "Spacing",
+    "label": "Spacing - Gutters",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html#gutters"
+  },{
+    "category": "Utilities",
+    "section": "Spacing",
+    "label": "Spacing - Examples",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html#examples"
+  },{
+    "category": "Utilities",
+    "section": "Spacing",
+    "label": "Spacing - Horizontal centering",
+    "url": "front-v2.8.0/documentation/utilities/spacing.html#horizontal-centering"
+  },{
+    "category": "Utilities",
+    "section": "Others",
+    "label": "Others - Background image hero",
+    "url": "front-v2.8.0/documentation/utilities/others.html#bg-img-hero"
+  },{
+    "category": "Utilities",
+    "section": "Others",
+    "label": "Others - Font sizes",
+    "url": "front-v2.8.0/documentation/utilities/others.html#font-sizes"
+  },{
+    "category": "Utilities",
+    "section": "Others",
+    "label": "Others - Line height",
+    "url": "front-v2.8.0/documentation/utilities/others.html#line-height"
+  },{
+    "category": "Utilities",
+    "section": "Others",
+    "label": "Others - Z-index",
+    "url": "front-v2.8.0/documentation/utilities/others.html#z-index"
+  },{
+    "category": "Utilities",
+    "section": "Others",
+    "label": "Others - Overflow",
+    "url": "front-v2.8.0/documentation/utilities/others.html#overflow"
+  },{
+    "category": "Utilities",
+    "section": "Others",
+    "label": "Others - Opacity",
+    "url": "front-v2.8.0/documentation/utilities/others.html#opacity"
+  },{
+    "category": "HS Libraries",
+    "section": "Background video",
+    "label": "Background video - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Background video",
+    "label": "Background video - YouTube example",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html#youtube-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Background video",
+    "label": "Background video - Vimeo example",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html#vimeo-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Background video",
+    "label": "Background video - HTML5 examples",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html#html5-examples"
+  },{
+    "category": "HS Libraries",
+    "section": "Background video",
+    "label": "Background video - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Background video",
+    "label": "Background video - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/background-video.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "File attach",
+    "label": "File attach - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/file-attach.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "File attach",
+    "label": "File attach - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/file-attach.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "File attach",
+    "label": "File attach - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/file-attach.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "File attach",
+    "label": "File attach - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/file-attach.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Overview",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#overview"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Default Go-to style",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#default-go-to-style"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Referenced to a page",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#referenced-to-a-page"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Modern Go-to style",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#modern-go-to-style"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Vertical arrow Go-to style",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#vertical-arrow-go-to-style"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Wave Go-to style",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#wave-go-to-style"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Go to",
+    "label": "Go to - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/go-to.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - How it works",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#how-it-works"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Using mega menu with header",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#using-mega-menu-with-header"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Using unfold.js with header",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#using-unfoldjs-with-header"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Supported content",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#supported-content"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - With dropdown",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#with-dropdown"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - With mega menu",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#with-mega-menu"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - Logo on top",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#logo-on-top"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - Brand",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#brand"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - Topbar",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#topbar"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - Navbar alignments",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#navbar-alignments"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - Navbar horizontal scroll",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#navbar-horizontal-scrollbar"
+  },{
+    "category": "HS Libraries",
+    "section": "Supported content",
+    "label": "Supported content - One page nav",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#one-page-nav"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Color schemes",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#color-schemes"
+  },{
+    "category": "HS Libraries",
+    "section": "Color schemes",
+    "label": "Color schemes - Transparent",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#transparent"
+  },{
+    "category": "HS Libraries",
+    "section": "Color schemes",
+    "label": "Color schemes - Submenu",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#submenu"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Placement",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#placement"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Responsive behaviors",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#responsive-behaviors"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Placement classes",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#placement-classes"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Behaviors",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#behaviors"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Behavior examples",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#behavior-examples"
+  },{
+    "category": "HS Libraries",
+    "section": "Headers",
+    "label": "Headers - Behavior classes",
+    "url": "front-v2.8.0/documentation/hs-libraries/headers.html#behavior-classes"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - How it works",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#how-it-works"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Examples",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#examples"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Basic",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#basic"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Columns",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#columns"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Interactive styles",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#interactive-styles"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Animation",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#animation"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Alignment",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#alignment"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Event",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#event"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Responsive",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#responsive"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Config",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#config"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Callbacks",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#callbacks"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Mega menu",
+    "label": "Header Mega menu - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-mega-menu.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - Example",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#example"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - Basic",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#basic"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - Subnav",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#subnav"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - Placement",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#placement"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - Callbacks",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#callbacks"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Fullscreen",
+    "label": "Header Fullscreen - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-fullscreen.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Searches",
+    "label": "Header Searches - Search push from top",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-searches.html#search-push-from-top"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Searches",
+    "label": "Header Searches - Classic search",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-searches.html#classic-search"
+  },{
+    "category": "HS Libraries",
+    "section": "Header Searches",
+    "label": "Header Searches - Slide-down search",
+    "url": "front-v2.8.0/documentation/hs-libraries/header-searches.html#slide-down-search"
+  },{
+    "category": "HS Libraries",
+    "section": "Page preloader",
+    "label": "Page preloader - About",
+    "url": "front-v2.8.0/documentation/hs-libraries/page-preloader.html#about"
+  },{
+    "category": "HS Libraries",
+    "section": "Page preloader",
+    "label": "Page preloader - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/page-preloader.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Page preloader",
+    "label": "Page preloader - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/page-preloader.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll effect",
+    "label": "Scroll effect - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-effect.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll effect",
+    "label": "Scroll effect - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-effect.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll effect",
+    "label": "Scroll effect - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-effect.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll effect",
+    "label": "Scroll effect - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-effect.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll nav",
+    "label": "Scroll nav - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll nav",
+    "label": "Scroll nav - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll nav",
+    "label": "Scroll nav - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll nav",
+    "label": "Scroll nav - Objects",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html#objects"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll nav",
+    "label": "Scroll nav - Callbacks",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html#callbacks"
+  },{
+    "category": "HS Libraries",
+    "section": "Scroll nav",
+    "label": "Scroll nav - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/scroll-nav.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Show animation",
+    "label": "Show animation - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/show-animation.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Show animation",
+    "label": "Show animation - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/show-animation.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Show animation",
+    "label": "Show animation - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/show-animation.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Show animation",
+    "label": "Show animation - Callbacks",
+    "url": "front-v2.8.0/documentation/hs-libraries/show-animation.html#callbacks"
+  },{
+    "category": "HS Libraries",
+    "section": "Show animation",
+    "label": "Show animation - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/show-animation.html#methods"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form - Validation",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html#validation"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form - Config",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html#config"
+  },{
+    "category": "HS Libraries",
+    "label": "Step form - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/step-form.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Sticky block",
+    "label": "Sticky block - Overview",
+    "url": "front-v2.8.0/documentation/hs-libraries/sticky-block.html#overview"
+  },{
+    "category": "HS Libraries",
+    "section": "Sticky block",
+    "label": "Sticky block - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/sticky-block.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Sticky block",
+    "label": "Sticky block - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/sticky-block.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Sticky block",
+    "label": "Sticky block - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/sticky-block.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Sticky block",
+    "label": "Sticky block - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/sticky-block.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Toggle state",
+    "label": "Toggle state - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/toggle-state.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Toggle state",
+    "label": "Toggle state - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/toggle-state.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Toggle state",
+    "label": "Toggle state - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/toggle-state.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Toggle state",
+    "label": "Toggle state - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/toggle-state.html#methods"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Overview",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#overview"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Accessibility",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#accessibility"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - How to use",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#how-to-use"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Basic example",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#basic-example"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Single button",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#single-button"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Sidebar",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#sidebar"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#js-behavior"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Callbacks",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#callbacks"
+  },{
+    "category": "HS Libraries",
+    "section": "Unfold (Dropdown and others)",
+    "label": "Unfold (Dropdown and others) - Methods",
+    "url": "front-v2.8.0/documentation/hs-libraries/unfold.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Animations",
+    "label": "Animations - Animate.css",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#animate.css"
+  },{
+    "category": "Plugins",
+    "section": "Animations",
+    "label": "Animations - On scroll animation",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#onscroll-animation"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - How to use",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - Examples",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#onscroll-examples"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - Objects",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#objects"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - Callbacks",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#callbacks"
+  },{
+    "category": "Plugins",
+    "section": "On scroll animation",
+    "label": "On scroll animation - Methods",
+    "url": "front-v2.8.0/documentation/libraries/animations.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Bootstrap select",
+    "label": "Bootstrap select - How to use",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-select.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Bootstrap select",
+    "label": "Bootstrap select - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-select.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Bootstrap select",
+    "label": "Bootstrap select - Select with optgroups",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-select.html#select-with-optgroups"
+  },{
+    "category": "Plugins",
+    "section": "Bootstrap select",
+    "label": "Bootstrap select - Custom content",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-select.html#custom-content"
+  },{
+    "category": "Plugins",
+    "section": "Bootstrap tagsinput",
+    "label": "Bootstrap tagsinput - How to use",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-tagsinput.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Bootstrap tagsinput",
+    "label": "Bootstrap tagsinput - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/bootstrap-tagsinput.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Area chart",
+    "label": "Area chart - How to use",
+    "url": "front-v2.8.0/documentation/libraries/area-chart.html#how-to-use-area-chart"
+  },{
+    "category": "Plugins",
+    "section": "Area chart",
+    "label": "Area chart - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/area-chart.html#area-chart-basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Area chart",
+    "label": "Area chart - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/area-chart.html#area-chart-js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Area chart",
+    "label": "Area chart - Methods",
+    "url": "front-v2.8.0/documentation/libraries/area-chart.html#area-chart-methods"
+  },{
+    "category": "Plugins",
+    "section": "Bar chart",
+    "label": "Bar chart - How to use",
+    "url": "front-v2.8.0/documentation/libraries/bar-chart.html#bar-chart-how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Bar chart",
+    "label": "Bar chart - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/bar-chart.html#bar-chart-basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Bar chart",
+    "label": "Bar chart - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/bar-chart.html#bar-chart-js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Bar chart",
+    "label": "Bar chart - Methods",
+    "url": "front-v2.8.0/documentation/libraries/bar-chart.html#bar-chart-methods"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - How to use",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Text class",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#text-class"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Colors",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#colors"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Size",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#size"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Stroke width",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#stroke-width"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Stroke linecap",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#stroke-linecap"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Max value",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#max-value"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Type",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#type"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Animation speed",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#animation-speed"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Additional text",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#additional-text"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Hide value",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#hide-value"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Secondary text",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#secondary-text"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Circles",
+    "label": "Circles - Methods",
+    "url": "front-v2.8.0/documentation/libraries/circles.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Countdown",
+    "label": "Countdown - How to use",
+    "url": "front-v2.8.0/documentation/libraries/countdown.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Countdown",
+    "label": "Countdown - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/countdown.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Countdown",
+    "label": "Countdown - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/countdown.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Countdown",
+    "label": "Countdown - Methods",
+    "url": "front-v2.8.0/documentation/libraries/countdown.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Counters",
+    "label": "Counters - How to use",
+    "url": "front-v2.8.0/documentation/libraries/counters.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Counters",
+    "label": "Counters - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/counters.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Counters",
+    "label": "Counters - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/counters.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Counters",
+    "label": "Counters - Objects",
+    "url": "front-v2.8.0/documentation/libraries/counters.html#objects"
+  },{
+    "category": "Plugins",
+    "section": "Counters",
+    "label": "Counters - Methods",
+    "url": "front-v2.8.0/documentation/libraries/counters.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Cubeportfolio",
+    "label": "Cubeportfolio - How to use",
+    "url": "front-v2.8.0/documentation/libraries/cubeportfolio.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Cubeportfolio",
+    "label": "Cubeportfolio - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/cubeportfolio.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Cubeportfolio",
+    "label": "Cubeportfolio - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/cubeportfolio.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Cubeportfolio",
+    "label": "Cubeportfolio - Methods",
+    "url": "front-v2.8.0/documentation/libraries/cubeportfolio.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - How to use",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - With pagination",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#with-pagination"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - Without pagination",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#without-pagination"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - With search",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#with-search"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Datatables",
+    "label": "Datatables - Methods",
+    "url": "front-v2.8.0/documentation/libraries/datatables.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - How to use",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - Preview template option",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#preview-template-option"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - Attributes",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#attributes"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - Config",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#config"
+  },{
+    "category": "Plugins",
+    "section": "Dropzone",
+    "label": "Dropzone - Methods",
+    "url": "front-v2.8.0/documentation/libraries/dropzone.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - How to use",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Examples",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#examples"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Single image",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#single-image"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Gallery",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#gallery"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Autoplay",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#autoplay"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Fancybox types",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#fancybox-types"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Multiple inner images",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#multiple-inner-images"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Multiple inner videos",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#multiple-inner-videos"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "FancyBox",
+    "label": "FancyBox - Methods",
+    "url": "front-v2.8.0/documentation/libraries/fancybox.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Flatpickr",
+    "label": "Flatpickr - How to use",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Flatpickr",
+    "label": "Flatpickr - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Flatpickr",
+    "label": "Flatpickr - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Flatpickr",
+    "label": "Flatpickr - Config",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html#config"
+  },{
+    "category": "Plugins",
+    "section": "Flatpickr",
+    "label": "Flatpickr - Methods",
+    "url": "front-v2.8.0/documentation/libraries/flatpickr.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - How to use",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - API",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#api"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Examples",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#examples"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Road map",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#roadmap"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Satellite",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#satellite"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Terrain",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#terrain"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Street view",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#street-view"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Custom light",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#custom-light"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Custom dark",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#custom-dark"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Geolocation",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#geolocation"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Polygon",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#polygon"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Polylines",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#polylines"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Routes",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#routes"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Geocoding",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#geocoding"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Multiple markers",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#multiple-markers"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Multiple custom markers and info window",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#multiple-custom-markers-and-info-window"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Google Map",
+    "label": "Google Map - Methods",
+    "url": "front-v2.8.0/documentation/libraries/google-map.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Malihu scrollbar",
+    "label": "Malihu scrollbar - How to use",
+    "url": "front-v2.8.0/documentation/libraries/malihu-scrollbar.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Malihu scrollbar",
+    "label": "Malihu scrollbar - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/malihu-scrollbar.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Malihu scrollbar",
+    "label": "Malihu scrollbar - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/malihu-scrollbar.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Malihu scrollbar",
+    "label": "Malihu scrollbar - Methods",
+    "url": "front-v2.8.0/documentation/libraries/malihu-scrollbar.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - How to use",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - Animation options",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#animation-options"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - Situation options",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#situation-options"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - Preventing modal window close",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#preventing-modal-close"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Modal window",
+    "label": "Modal window - Methods",
+    "url": "front-v2.8.0/documentation/libraries/modal-window.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Parallax",
+    "label": "Parallax - How to use",
+    "url": "front-v2.8.0/documentation/libraries/parallax.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Parallax",
+    "label": "Parallax - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/parallax.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Password strength",
+    "label": "Password strength - How to use",
+    "url": "front-v2.8.0/documentation/libraries/password-strength.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Password strength",
+    "label": "Password strength - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/password-strength.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Password strength",
+    "label": "Password strength - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/password-strength.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Password strength",
+    "label": "Password strength - Methods",
+    "url": "front-v2.8.0/documentation/libraries/password-strength.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Range Slider",
+    "label": "Range slider - How to use",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Range Slider",
+    "label": "Range slider - Examples",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#examples"
+  },{
+    "category": "Plugins",
+    "section": "Examples",
+    "label": "Range slider - Basic parameters",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#basic-parameters"
+  },{
+    "category": "Plugins",
+    "section": "Examples",
+    "label": "Range slider - Set up range and step",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#set-up-range-and-step"
+  },{
+    "category": "Plugins",
+    "section": "Examples",
+    "label": "Range slider - Select required amount",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#select-required-amount"
+  },{
+    "category": "Plugins",
+    "section": "Examples",
+    "label": "Range slider - Range with Bar charts",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#range-with-bar-charts"
+  },{
+    "category": "Plugins",
+    "section": "Examples",
+    "label": "Range slider - Range with Area charts",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#range-with-area-charts"
+  },{
+    "category": "Plugins",
+    "section": "Range Slider",
+    "label": "Range slider - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Range Slider",
+    "label": "Range slider - Methods",
+    "url": "front-v2.8.0/documentation/libraries/range-slider.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Summernote WYSIWYG Editor",
+    "label": "Summernote WYSIWYG Editor - How to use",
+    "url": "front-v2.8.0/documentation/libraries/summernote.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Summernote WYSIWYG Editor",
+    "label": "Summernote WYSIWYG Editor - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/summernote.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Summernote WYSIWYG Editor",
+    "label": "Summernote WYSIWYG Editor - Attributes",
+    "url": "front-v2.8.0/documentation/libraries/summernote.html#attributes"
+  },{
+    "category": "Plugins",
+    "section": "Summernote WYSIWYG Editor",
+    "label": "Summernote WYSIWYG Editor - methods",
+    "url": "front-v2.8.0/documentation/libraries/summernote.html#Methods"
+  },{
+    "category": "Plugins",
+    "section": "Summernote WYSIWYG Editor",
+    "label": "Summernote WYSIWYG Editor - Callbacks",
+    "url": "front-v2.8.0/documentation/libraries/summernote.html#callbacks"
+  },{
+    "category": "Plugins",
+    "section": "Scalable Vector Graphics (SVG)",
+    "label": "Scalable Vector Graphics (SVG) - SVGInjector",
+    "url": "front-v2.8.0/documentation/libraries/svg.html#svg-injector"
+  },{
+    "category": "Plugins",
+    "section": "Scalable Vector Graphics (SVG)",
+    "label": "Scalable Vector Graphics (SVG) - Overview",
+    "url": "front-v2.8.0/documentation/libraries/svg.html#overview"
+  },{
+    "category": "Plugins",
+    "section": "Scalable Vector Graphics (SVG)",
+    "label": "Scalable Vector Graphics (SVG) - How it works",
+    "url": "front-v2.8.0/documentation/libraries/svg.html#how-it-works"
+  },{
+    "category": "Plugins",
+    "section": "Scalable Vector Graphics (SVG)",
+    "label": "Scalable Vector Graphics (SVG) - How to use",
+    "url": "front-v2.8.0/documentation/libraries/svg.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Scalable Vector Graphics (SVG)",
+    "label": "Scalable Vector Graphics (SVG) - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/svg.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Typed.js",
+    "label": "Typed.js - How to use",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Typed.js",
+    "label": "Typed.js - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Typed.js",
+    "label": "Typed.js - Example #1",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html#example-1"
+  },{
+    "category": "Plugins",
+    "section": "Typed.js",
+    "label": "Typed.js - Example #2",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html#example-2"
+  },{
+    "category": "Plugins",
+    "section": "Typed.js",
+    "label": "Typed.js - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Typed.js",
+    "label": "Typed.js - Methods",
+    "url": "front-v2.8.0/documentation/libraries/typedjs.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Validation",
+    "label": "Validation - How it works",
+    "url": "front-v2.8.0/documentation/libraries/validation.html#how-it-works"
+  },{
+    "category": "Plugins",
+    "section": "Validation",
+    "label": "Validation - How to use",
+    "url": "front-v2.8.0/documentation/libraries/validation.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Validation",
+    "label": "Validation - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/validation.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Validation",
+    "label": "Validation - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/validation.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Validation",
+    "label": "Validation - Callbacks",
+    "url": "front-v2.8.0/documentation/libraries/validation.html#callbacks"
+  },{
+    "category": "Plugins",
+    "section": "Validation",
+    "label": "Validation - Methods",
+    "url": "front-v2.8.0/documentation/libraries/validation.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - Media player",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#media-player"
+  },{
+    "category": "Plugins",
+    "section": "Media player",
+    "label": "Media player - Example",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#example"
+  },{
+    "category": "Plugins",
+    "section": "Media player",
+    "label": "Media player - Sizes",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#sizes"
+  },{
+    "category": "Plugins",
+    "section": "Media player",
+    "label": "Media player - Additional classes",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#additional-classes"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - Video player",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#video-player"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - Overview",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#overview"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - How to use",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - Basic example",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#basic-example"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Video player",
+    "label": "Video player - Methods",
+    "url": "front-v2.8.0/documentation/libraries/video-player.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Instagram",
+    "label": "Instagram - How to use",
+    "url": "front-v2.8.0/documentation/libraries/social-api-instagram.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Instagram",
+    "label": "Instagram - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/social-api-instagram.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Instagram",
+    "label": "Instagram - Objects",
+    "url": "front-v2.8.0/documentation/libraries/social-api-instagram.html#objects"
+  },{
+    "category": "Plugins",
+    "section": "Instagram",
+    "label": "Instagram - Callbacks",
+    "url": "front-v2.8.0/documentation/libraries/social-api-instagram.html#callbacks"
+  },{
+    "category": "Plugins",
+    "section": "Instagram",
+    "label": "Instagram - Methods",
+    "url": "front-v2.8.0/documentation/libraries/social-api-instagram.html#methods"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - How to use",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#how-to-use-facebook"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Examples",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#facebook-examples"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Page",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#page"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Comments",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#comments"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Post",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#post"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Video",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#video"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Like button",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#like-button"
+  },{
+    "category": "Plugins",
+    "section": "Facebook",
+    "label": "Facebook - Share",
+    "url": "front-v2.8.0/documentation/libraries/social-api-facebook.html#share"
+  },{
+    "category": "Plugins",
+    "section": "Twitter",
+    "label": "Twitter - How to use Twitter",
+    "url": "front-v2.8.0/documentation/libraries/social-api-twitter.html#how-to-use-twitter"
+  },{
+    "category": "Plugins",
+    "section": "Twitter",
+    "label": "Twitter - Examples",
+    "url": "front-v2.8.0/documentation/libraries/social-api-twitter.html#twitter-examples"
+  },{
+    "category": "Plugins",
+    "section": "Twitter",
+    "label": "Twitter - Timeline",
+    "url": "front-v2.8.0/documentation/libraries/social-api-twitter.html#timeline"
+  },{
+    "category": "Plugins",
+    "section": "Twitter",
+    "label": "Twitter - Card",
+    "url": "front-v2.8.0/documentation/libraries/social-api-twitter.html#card"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - How it works",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#how-it-works"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - How to use",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#how-to-use"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Examples",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#examples"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Image Slides only",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#image-slides-only"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Text slides only",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#text-slides-only"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - With controls",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#with-controls"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - With pagination",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#with-pagination"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - With numbered pagination",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#with-numbered-pagination"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Autoplay",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#autoplay"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Infinite",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#infinite"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - With rows",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#with-rows"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - With animation",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#with-animation"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Crossfade",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#crossfade"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Vertical",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#vertical"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Multiple items",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#multiple-items"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Variable width",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#variable-width"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Adaptive height",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#adaptive-height"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Responsive display",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#responsive-display"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Center mode",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#center-mode"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Center slides",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#center-slides"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Slider syncing",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#slider-syncing"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Thumb progress",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#thumb-progress"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - No transition",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#no-transition"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Right-to-left (RTL)",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#rtl"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Helpers",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#helpers"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Arrows",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#arrows"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Paginations",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#paginations"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Numbered paginations",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#numbered-paginations"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Equal height",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#equal-height"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Others",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#others"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - JavaScript behavior",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#js-behavior"
+  },{
+    "category": "Plugins",
+    "section": "Slick carousel",
+    "label": "Slick carousel - Methods",
+    "url": "front-v2.8.0/documentation/libraries/slick-carousel.html#methods"
+  }
+]
