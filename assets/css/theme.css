@@ -21647,6 +21647,20 @@ label.btn {
   border-color: rgba(255, 255, 255, 0.149) !important;
 }
 
+.destination {
+  position: relative;
+}
+
+.destination::after {
+  content: '';
+  height: 1px;
+  width: 50px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
