@@ -22297,48 +22297,41 @@ label.btn {
 
 .dropdown-menu-right.dropdown-menu-right-fix {
   right: 10% !important;
-  left: auto;
 }
 
 @media (min-width: 576px) {
   .dropdown-menu-right.dropdown-menu-right-fix-sm {
     right: 10% !important;
-    left: auto;
   }
 }
 
 @media (min-width: 768px) {
   .dropdown-menu-right.dropdown-menu-right-fix-md {
     right: 10% !important;
-    left: auto;
   }
 }
 
 @media (min-width: 992px) {
   .dropdown-menu-right.dropdown-menu-right-fix-lg {
     right: 10% !important;
-    left: auto;
   }
 }
 
 @media (min-width: 1200px) {
   .dropdown-menu-right.dropdown-menu-right-fix-xl {
     right: 10% !important;
-    left: auto;
   }
 }
 
 @media (min-width: 1440px) {
   .dropdown-menu-right.dropdown-menu-right-fix-xxl {
     right: 10% !important;
-    left: auto;
   }
 }
 
 @media (min-width: 1600px) {
   .dropdown-menu-right.dropdown-menu-right-fix-xxxl {
     right: 10% !important;
-    left: auto;
   }
 }
 
@@ -23186,6 +23179,14 @@ label.btn {
 
 .u-hamburger--white:hover .u-hamburger__inner, .u-hamburger--white:hover .u-hamburger__inner::before, .u-hamburger--white:hover .u-hamburger__inner::after {
   background-color: #fff;
+}
+
+.u-hamburger--primary .u-hamburger__inner, .u-hamburger--primary .u-hamburger__inner::before, .u-hamburger--primary .u-hamburger__inner::after {
+  background-color: #377dff;
+}
+
+.u-hamburger--primary:hover .u-hamburger__inner, .u-hamburger--primary:hover .u-hamburger__inner::before, .u-hamburger--primary:hover .u-hamburger__inner::after {
+  background-color: #377dff;
 }
 
 .js-header-fix-moment .u-hamburger--white .u-hamburger__inner, .js-header-fix-moment .u-hamburger--white .u-hamburger__inner::before, .js-header-fix-moment .u-hamburger--white .u-hamburger__inner::after {
@@ -25773,6 +25774,46 @@ Line Height
 
 .text-gray-1 {
   color: #67747c;
+}
+
+@media (max-width: 575.98px) {
+  .text-primary-max {
+    color: #377dff;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .text-primary-max-sm {
+    color: #377dff;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .text-primary-max-md {
+    color: #377dff;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .text-primary-max-lg {
+    color: #377dff;
+  }
+}
+
+@media (max-width: 1439.98px) {
+  .text-primary-max-xl {
+    color: #377dff;
+  }
+}
+
+@media (max-width: 1599.98px) {
+  .text-primary-max-xxl {
+    color: #377dff;
+  }
+}
+
+.text-primary-max-xxxl {
+  color: #377dff;
 }
 
 /*------------------------------------
