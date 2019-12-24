@@ -133,9 +133,11 @@
   }
 }
 
-.dropdown-menu {
-    &-right-fix {
-        right: 10% !important;
-        left: auto;
+@include media-breakpoint-up(xxxl) {
+    .dropdown-menu {
+        &-right.dropdown-menu-right-fix {
+            right: 10% !important;
+            left: auto;
+        }
     }
 }
