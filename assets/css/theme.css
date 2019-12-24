@@ -13042,11 +13042,15 @@ button:focus {
 .u-header__nav-link-toggle::after {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
-  font-size: 65%;
+  font-size: 12px;
   font-weight: 900;
   content: "\f107";
-  margin-left: .5rem;
+  margin-left: 0.75rem;
   transition: 0.3s ease;
+  position: absolute;
+  top: 53%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 /* Sub Menu */

@@ -63,8 +63,8 @@
                                     </a>
                                 </li>
                             </ul>
-                            <a href="#" class="d-flex align-items-center text-white pr-3 u-header__topbar-divider">
-                                <i class="flaticon-user mr-2"></i>
+                            <a href="#" class="d-flex align-items-center text-white px-3 u-header__topbar-divider">
+                                <i class="flaticon-user mr-2 ml-1"></i>
                                 <span class="d-inline-block font-size-14 mr-1">Sign in or Register</span>
                             </a>
                             <div class="position-relative pl-3 py-1 u-header__topbar-divider">
@@ -93,18 +93,20 @@
                             <span class="u-header__navbar-brand-text">MyTravel</span>
                         </a>
                         <!-- End Logo -->
+
                         <!-- Search Form -->
                         <form class="js-focus-state">
                             <div class="input-group input-group-tranparent input-group-borderless">
                                 <input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn bg-transparent text-white pl-0 py-0">
+                                    <button type="button" class="btn bg-transparent text-white py-0">
                                         <span class="flaticon-magnifying-glass"></span>
                                     </button>
                                 </div>
                             </div>
                         </form>
                         <!-- End Search Form -->
+
                         <!-- Responsive Toggle Button -->
                         <button type="button" class="navbar-toggler btn u-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
                             <span id="hamburgerTrigger" class="u-hamburger__box">
@@ -112,6 +114,7 @@
                             </span>
                         </button>
                         <!-- End Responsive Toggle Button -->
+
                         <!-- Navigation -->
                         <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse pt-3 p-xl-0">
                             <ul class="navbar-nav u-header__navbar-nav">
@@ -144,9 +147,80 @@
                                     <!-- End Tour Submenu -->
                                 </li>
                                 <!-- End Tour -->
+
+                                <!-- Activicity -->
+                                <li class="nav-item u-header__nav-item">
+                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Activicity</a>
+                                </li>
+                                <!-- End Activicity -->
+
+                                <!-- Rental -->
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu">Rental</a>
+                                    <!-- Rental Submenu -->
+                                    <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="knowledge-base-v10.html">Rental 1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="knowledge-base-single-v10.html">Rental 2</a></li>
+                                    </ul>
+                                    <!-- End Rental Submenu -->
+                                </li>
+                                <!-- End Rental -->
+
+
+                                <!-- Car -->
+                                <li class="nav-item u-header__nav-item">
+                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Car</a>
+                                </li>
+                                <!-- End Car -->
+
+                                <!-- Yacht -->
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu">Yacht</a>
+                                    <!-- Yacht Submenu -->
+                                    <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="knowledge-base-v10.html">Yacht 1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="knowledge-base-single-v10.html">Yacht 2</a></li>
+                                    </ul>
+                                    <!-- End Yacht Submenu -->
+                                </li>
+                                <!-- End Yacht -->
+
+                                <!-- Flights -->
+                                <li class="nav-item u-header__nav-item">
+                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Flights</a>
+                                </li>
+                                <!-- End Flights -->
+
+                                <!-- Pages -->
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
+                                    <!-- Pages Submenu -->
+                                    <ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="knowledge-base-v10.html">Pages 1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="knowledge-base-single-v10.html">Pages 2</a></li>
+                                    </ul>
+                                    <!-- End Pages Submenu -->
+                                </li>
+                                <!-- End Pages -->
                             </ul>
                         </div>
                         <!-- End Navigation -->
+
+                        <!-- Shopping Cart -->
+                        <div class="pl-4 shopping-cart">
+                            <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                                <span class="flaticon-shopping-basket btn-icon__inner"></span>
+                            </a>
+
+                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
+                                <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
+                                    <span class="flaticon-shopping-basket btn-icon__inner"></span>
+                                </span>
+                                <span class="d-block">Your Cart is Empty</span>
+                            </div>
+                        </div>
+                        <!-- End Shopping Cart -->
+
                     </nav>
                     <!-- End Nav -->
                 </div>
