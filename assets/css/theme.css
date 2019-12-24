@@ -22027,6 +22027,10 @@ Typography Font Size
   font-size: 1.25rem;
 }
 
+.font-size-40 {
+  font-size: 2.5rem;
+}
+
 .font-size-60 {
   font-size: 3.75rem;
 }
