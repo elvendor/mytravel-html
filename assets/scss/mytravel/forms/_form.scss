@@ -8,7 +8,7 @@
   border-color: $form-focus-border-color;
 }
 
-.form-control::placeholder {
+.form-control.text-white::placeholder {
     color: $form-placholder-color;
 }
 

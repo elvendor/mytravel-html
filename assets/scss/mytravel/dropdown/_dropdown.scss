@@ -133,11 +133,14 @@
   }
 }
 
-@include media-breakpoint-up(xxxl) {
-    .dropdown-menu {
-        &-right.dropdown-menu-right-fix {
-            right: 10% !important;
-            left: auto;
+.dropdown-menu-right.dropdown-menu-right-fix {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            @include media-breakpoint-up($breakpoint) {
+                right: 10% !important;
+            }
         }
     }
 }
