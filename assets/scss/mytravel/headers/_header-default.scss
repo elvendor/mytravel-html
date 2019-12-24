@@ -69,6 +69,26 @@
             }
         } 
     }
+
+    &__search,
+    &__topbar,
+    &__last-item-btn {
+        @each $breakpoint in map-keys($grid-breakpoints) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+            &#{$infix} {
+                @include media-breakpoint-down($breakpoint) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &.js-header-fix-moment .u-header__last-item-btn {
+        .btn {
+            @extend .btn-primary;
+        }
+    }
 }
 
 /* Navbar */
@@ -92,6 +112,10 @@
 
 /* Navbar Brand */
 .u-header__navbar-brand {
+  @include media-breakpoint-down(sm) {
+    margin-right: 0.625rem;
+  }
+
   &,
   & > img {
     padding-top: 0;
@@ -120,7 +144,7 @@
   &-text {
     font-size: 1.75rem;
     font-weight: $font-weight-bold;
-    margin-left: 0.875rem;
+    margin-left: 0.500rem;
 
     &,
     &:focus,
