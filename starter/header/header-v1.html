@@ -31,8 +31,8 @@
     <body>
 
         <!-- ========== HEADER ========== -->
-        <header id="header" class="u-header--white-nav-links u-header--bg-transparent-xl u-header--show-hide-md" data-header-fix-moment="500" data-header-fix-effect="slide">
-            <div class="u-header__section bg-danger">
+        <header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links u-header--bg-primary u-header--bg-transparent-xl" data-header-fix-moment="500" data-header-fix-effect="slide">
+            <div class="u-header__section py-3 py-xl-0 bg-danger">
                 <!-- Topbar -->
                 <div class="container-fluid u-header__hide-content u-header__topbar d-none d-xl-block border-bottom border-color-white">
                     <div class="d-flex align-items-center"> 
@@ -83,7 +83,7 @@
                 <!-- End Topbar -->
                 <div id="logoAndNav" class="container-fluid">
                     <!-- Nav -->
-                    <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space navbar-expand-xl py-1">
+                    <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space py-1">
                         <!-- Logo -->
                         <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center u-header__navbar-brand-text-white" href="index.html" aria-label="Front">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px" height="53px">
@@ -95,7 +95,7 @@
                         <!-- End Logo -->
 
                         <!-- Search Form -->
-                        <form class="js-focus-state">
+                        <form class="js-focus-state d-none d-xl-block">
                             <div class="input-group input-group-tranparent input-group-borderless">
                                 <input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc">
                                 <div class="input-group-append">
@@ -108,7 +108,7 @@
                         <!-- End Search Form -->
 
                         <!-- Responsive Toggle Button -->
-                        <button type="button" class="navbar-toggler btn u-hamburger" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
+                        <button type="button" class="navbar-toggler btn u-hamburger u-hamburger--white order-2 ml-3" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navBar" data-toggle="collapse" data-target="#navBar">
                             <span id="hamburgerTrigger" class="u-hamburger__box">
                                 <span class="u-hamburger__inner"></span>
                             </span>
@@ -116,7 +116,7 @@
                         <!-- End Responsive Toggle Button -->
 
                         <!-- Navigation -->
-                        <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse pt-3 p-xl-0">
+                        <div id="navBar" class="navbar-collapse u-header__navbar-collapse collapse order-2 order-xl-0 pt-3 p-xl-0">
                             <ul class="navbar-nav u-header__navbar-nav">
                                 <!-- Home -->
                                 <li class="nav-item u-header__nav-item">
@@ -207,12 +207,12 @@
                         <!-- End Navigation -->
 
                         <!-- Shopping Cart -->
-                        <div class="pl-4 shopping-cart">
+                        <div class="pl-4 ml-auto shopping-cart">
                             <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
                                 <span class="flaticon-shopping-basket btn-icon__inner font-size-22"></span>
                             </a>
 
-                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right dropdown-menu-right-fix text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
+                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right dropdown-menu-right-fix-xl text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
                                 <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
                                     <span class="flaticon-shopping-basket btn-icon__inner"></span>
                                 </span>
