@@ -73,22 +73,22 @@
 						background-color: #297cbb;
 					}
 					&::after {
-						    content: '';
-						    display: block; 
-						    position: relative;
-						    bottom: -32px;
-						    left: 38%;
-						    width: 0;
-						    height: 0;
-						    border-left: 10px solid transparent;
-						    border-right: 10px solid transparent;
-						    border-bottom: 10px solid #fff;
-						}
+					    content: '';
+					    display: block; 
+					    position: absolute;
+					    bottom: -32px;
+					    left: 24px;
+					    width: 0;
+					    height: 0;
+					    border-left: 10px solid transparent;
+					    border-right: 10px solid transparent;
+					    border-bottom: 10px solid #fff;
 					}
 				}
 			}
 		}
 	}
+}
 
 
 
@@ -136,8 +136,8 @@
 
 .destination-dropdown {
 	a {
-		padding-left: 0.5rem !important;
-		padding-right: 0.5rem !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 		color: $white;
 	}
 }

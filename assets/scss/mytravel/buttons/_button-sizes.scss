@@ -18,6 +18,10 @@
   padding: $input-btn-paddingY-xs $input-btn-paddingX-xs;
 }
 
+.btn-normal {
+  width:$btn-width-normal;
+  height:$btn-height-normal;
+}
 /* Icons */
 .btn-icon {
 	&.btn-xs {

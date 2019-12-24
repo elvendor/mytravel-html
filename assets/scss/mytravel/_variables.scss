@@ -42,6 +42,7 @@ $gray-600:                                                  #8c98a4 !default;
 $gray-700:                                                  #77838f !default;
 $gray-900:                                                  #1e2022 !default;
 $gray-1:                                                    #67747c !default;
+$gray-2:                                                    #eaeaea !default;
 
 // Colors
 $white:                                                     #fff !default;
@@ -64,6 +65,8 @@ $google:                                                    #d14130 !default;
 $twitter:                                                   #1da1f2 !default;
 $instagram:                                                 #3f729b !default;
 $github:           																				  #24292e !default;
+$dark-blue:                                                 #0057ff !default;
+
 
 // Theme Colors
 $primary:                                                   $blue !default;
@@ -88,7 +91,8 @@ $secondary-colors: map-merge((
   "twitter":                                                $twitter,
   "instagram":                                              $instagram,
   "github":                                                 $github,
-  "gray":                                                   $gray-200
+  "gray":                                                   $gray-200,
+  "blue":                                                   $dark-blue
 ), $secondary-colors);
 
 // Theme Colors
@@ -865,6 +869,7 @@ $input-btn-padding-y-lg:                                    1.125rem !default;
 $input-btn-paddingY-xs:                                     .4375rem !default;
 $input-btn-paddingX-xs:                                     .9375rem !default;
 
+
 // Horizontal Spaces
 $input-btn-padding-x:                                       1rem !default;
 $input-btn-padding-x-sm:                                    1.125rem !default;
@@ -901,11 +906,14 @@ $btn-width-xs:                                              ($font-size-base * 1
 $btn-width-sm:                                              ($font-size-base * 2) !default;
 $btn-width-md:                                              ($font-size-base * 4) !default;
 $btn-width-lg:                                              ($font-size-base * 5) !default;
+$btn-width-normal:                                          ($font-size-base * 11.875) !default;
 $btn-height:                                                $btn-width !default;
 $btn-height-xs:                                             $btn-width-xs !default;
 $btn-height-sm:                                             $btn-width-sm !default;
 $btn-height-md:                                             $btn-width-md !default;
 $btn-height-lg:                                             $btn-width-lg !default;
+$btn-height-normal:                                          ($font-size-base * 3.75) !default;
+
 
 // Box Shadows
 $btn-box-shadow-value:                                      0 4px 11px !default;
