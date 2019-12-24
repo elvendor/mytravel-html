@@ -69,6 +69,26 @@
             }
         } 
     }
+
+    &__search,
+    &__topbar,
+    &__last-item-btn {
+        @each $breakpoint in map-keys($grid-breakpoints) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+            &#{$infix} {
+                @include media-breakpoint-down($breakpoint) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &.js-header-fix-moment .u-header__last-item-btn {
+        .btn {
+            @extend .btn-primary;
+        }
+    }
 }
 
 /* Navbar */
