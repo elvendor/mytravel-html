@@ -55,11 +55,11 @@
 .border-color-white {
 	border-color: rgba( $white, 0.149 ) !important; 
 }
+
 .border-color-1 {
-	border-color: $gray-2;  //#eaeaea
+	border-color: $gray-2 !important;  //#eaeaea
 }
 
-eaeaea
 .destination {
     position: relative;
     &::after {

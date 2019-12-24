@@ -17,3 +17,14 @@
 .text-blue {
 	color: $dark-blue;
 }
+.text-primary-max {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            @include media-breakpoint-down($breakpoint) {
+                color: $primary;
+            }
+        }
+    }
+}

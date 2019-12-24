@@ -140,8 +140,18 @@
         &#{$infix} {
             @include media-breakpoint-up($breakpoint) {
                 right: 10% !important;
-                left: auto;
             }
         }
     }
+}
+
+.destination-dropdown {
+  &--v1 {
+    a {
+      font-size: 1rem;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      color: $white;
+    }
+  }
 }
