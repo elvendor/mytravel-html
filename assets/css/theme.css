@@ -23617,6 +23617,17 @@ label.btn {
   margin-right: .25rem;
 }
 
+.nav-icons .nav-link {
+  padding: 0.5rem 1.5rem;
+}
+
+.nav-icons .nav-link.active .icon::before {
+  border: 1px solid #297cbb;
+  border-radius: 50%;
+  padding: 14px;
+  background-color: #297cbb;
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
