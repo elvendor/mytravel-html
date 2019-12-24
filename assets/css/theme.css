@@ -21666,6 +21666,10 @@ label.btn {
   left: 0;
 }
 
+.border-width-2 {
+  border-width: 2px !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -21924,10 +21928,6 @@ label.btn {
 
 .height-4 {
   height: .25rem;
-}
-
-.height-50 {
-  height: 3.125rem;
 }
 
 .height-350 {
