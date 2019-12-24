@@ -21899,6 +21899,14 @@ label.btn {
   min-width: 13.75rem;
 }
 
+.max-width-580 {
+  max-width: 36.25rem;
+}
+
+.width-200 {
+  width: 12.5rem;
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -21916,6 +21924,10 @@ label.btn {
 
 .height-4 {
   height: .25rem;
+}
+
+.height-50 {
+  height: 3.125rem;
 }
 
 .height-350 {
