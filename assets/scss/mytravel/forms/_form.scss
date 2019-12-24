@@ -12,6 +12,10 @@
     color: $form-placholder-color;
 }
 
+.form-control.hero-form::placeholder {
+    color: $black;
+}
+
 .form-label {
   display: block;
   text-transform: uppercase;
