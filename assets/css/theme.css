@@ -23662,6 +23662,12 @@ label.btn {
           transform: translate(-50%, -50%);
 }
 
+.destination-dropdown a {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+  color: #fff;
+}
+
 /*------------------------------------
   Blog Thumb Minimal
 ------------------------------------*/
@@ -25003,6 +25009,10 @@ label.btn {
   left: 0;
 }
 
+.border-width-2 {
+  border-width: 2px !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -25175,6 +25185,10 @@ label.btn {
 
 .shadow-soft {
   box-shadow: 0 3px 6px 0 rgba(140, 152, 164, 0.25) !important;
+}
+
+.shadow-none {
+  box-shadow: none !important;
 }
 
 /*------------------------------------
