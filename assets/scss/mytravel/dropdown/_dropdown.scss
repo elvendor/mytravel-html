@@ -138,9 +138,11 @@
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
         &#{$infix} {
-            @include media-breakpoint-up($breakpoint) {
-                right: 10% !important;
+            @include media-breakpoint-down($breakpoint) {
+                right: 0 !important;
             }
+
+            right: 10% !important;
         }
     }
 }
