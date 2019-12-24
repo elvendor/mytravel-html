@@ -16,6 +16,7 @@
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/font-mytravel.css">
     <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
     <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
     <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
@@ -52,9 +53,8 @@
                     <li class="nav-item">
                         <a class="nav-link font-weight-medium active" id="pills-one-example2-tab" data-toggle="pill" href="#pills-one-example2" role="tab" aria-controls="pills-one-example2" aria-selected="true">
                             <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
-                                <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
-                                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-1.svg" alt="SVG"
-                                       data-parent="#SVGnavIcons">
+                                <figure class="ie-height-40 d-md-block w-100 max-width-6 mr-4">
+                                    <i class="flaticon-hotel font-size-3"></i>
                                 </figure>
                                 Hotel
                             </div>
@@ -64,8 +64,7 @@
                         <a class="nav-link font-weight-medium" id="pills-two-example2-tab" data-toggle="pill" href="#pills-two-example2" role="tab" aria-controls="pills-two-example2" aria-selected="true">
                             <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
                                 <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
-                                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-2.svg" alt="SVG"
-                                       data-parent="#SVGnavIcons">
+                                    <i class="flaticon-global-1 font-size-3"></i>
                                 </figure>
                                 Tours
                             </div>
@@ -75,8 +74,7 @@
                         <a class="nav-link font-weight-medium" id="pills-three-example2-tab" data-toggle="pill" href="#pills-three-example2" role="tab" aria-controls="pills-three-example2" aria-selected="true">
                             <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
                                 <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
-                                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-3.svg" alt="SVG"
-                                       data-parent="#SVGnavIcons">
+                                    <i class="flaticon-climbing font-size-3"></i>
                                 </figure>
                                 Activity
                             </div>
@@ -86,8 +84,7 @@
                         <a class="nav-link font-weight-medium" id="pills-four-example2-tab" data-toggle="pill" href="#pills-four-example2" role="tab" aria-controls="pills-four-example2" aria-selected="true">
                             <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
                                 <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
-                                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-4.svg" alt="SVG"
-                                       data-parent="#SVGnavIcons">
+                                    <i class="flaticon-home font-size-3"></i>
                                 </figure>
                                 Rental
                             </div>
@@ -97,8 +94,7 @@
                         <a class="nav-link font-weight-medium" id="pills-five-example2-tab" data-toggle="pill" href="#pills-five-example2" role="tab" aria-controls="pills-five-example2" aria-selected="true">
                             <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
                                 <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
-                                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-5.svg" alt="SVG"
-                                       data-parent="#SVGnavIcons">
+                                    <i class="flaticon-sedan font-size-3"></i>
                                 </figure>
                                 Car
                             </div>
@@ -108,10 +104,19 @@
                         <a class="nav-link font-weight-medium" id="pills-six-example2-tab" data-toggle="pill" href="#pills-six-example2" role="tab" aria-controls="pills-six-example2" aria-selected="true">
                             <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
                                 <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
-                                    <img class="js-svg-injector" src="../../assets/svg/icons/icon-6.svg" alt="SVG"
-                                       data-parent="#SVGnavIcons">
+                                    <i class="flaticon-yatch font-size-3"></i>
                                 </figure>
                                 Yacht
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-weight-medium" id="pills-six-example2-tab" data-toggle="pill" href="#pills-six-example2" role="tab" aria-controls="pills-six-example2" aria-selected="true">
+                            <div class="d-md-flex justify-content-md-center text-white align-items-md-center">
+                                <figure class="ie-height-40 d-none d-md-block w-100 max-width-6 mr-4">
+                                    <i class="flaticon-aeroplane font-size-3"></i>
+                                </figure>
+                                Flights
                             </div>
                         </a>
                     </li>
@@ -138,11 +143,11 @@
                                 <div class="col-lg-4 mb-4 mb-lg-0">
                                   <!-- Input -->
                                   <label class="d-block">
-                                    <span class="d-block font-weight-normal mb-0">Destination or Hotel Name</span>
+                                    <span class="d-block text-gray-67 font-weight-normal mb-0">Destination or Hotel Name</span>
                                   </label>
                                   <div class="js-focus-state">
                                     <div class="input-group border-bottom ">
-                                        <span class="fas fa-map-marker-alt" id="locationInputAddon"></span>
+                                        <i class="flaticon-pin-1" id="locationInputAddon"></i>
                                       <input type="text" class="form-control border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                     </div>
                                   </div>
@@ -152,7 +157,7 @@
                                 <div class="col-lg-3 mb-4 mb-lg-0">
                                   <!-- Input -->
                                   <label class="d-block">
-                                    <span class="d-block font-weight-normal mb-0">Check In - Out</span>
+                                    <span class="d-block text-gray-67 font-weight-normal mb-0">Check In - Out</span>
                                   </label>
                                   <div class="js-focus-state">
                                     <div class="input-group border-bottom ">
@@ -165,7 +170,7 @@
                                 <div class="col-lg-3 mb-4 mb-lg-0">
                                   <!-- Input -->
                                   <label class="d-block">
-                                    <span class="d-block font-weight-normal mb-0">Rooms and Guests</span>
+                                    <span class="d-block text-gray-67 font-weight-normal mb-0">Rooms and Guests</span>
                                   </label>
                                   <div class="js-focus-state">
                                     <div class="input-group border-bottom">

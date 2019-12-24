@@ -13032,6 +13032,7 @@ button:focus {
 
 .u-header__nav-link {
   color: #77838f;
+  font-weight: 600;
 }
 
 .u-header__nav-link-toggle {
@@ -13041,11 +13042,15 @@ button:focus {
 .u-header__nav-link-toggle::after {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
-  font-size: 65%;
+  font-size: 12px;
   font-weight: 900;
   content: "\f107";
-  margin-left: .5rem;
+  margin-left: 0.75rem;
   transition: 0.3s ease;
+  position: absolute;
+  top: 53%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 /* Sub Menu */
@@ -14154,8 +14159,8 @@ button:focus {
 .navbar-expand .u-header__navbar-nav .u-header__nav-link {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  padding-right: 0.875rem;
-  padding-left: 0.875rem;
+  padding-right: 1.375rem;
+  padding-left: 1.375rem;
 }
 
 .navbar-expand .u-header__navbar-nav .u-header__sub-menu {
@@ -14254,8 +14259,8 @@ button:focus {
   .navbar-expand-sm .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 0.875rem;
-    padding-left: 0.875rem;
+    padding-right: 1.375rem;
+    padding-left: 1.375rem;
   }
   .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -14342,8 +14347,8 @@ button:focus {
   .navbar-expand-md .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 0.875rem;
-    padding-left: 0.875rem;
+    padding-right: 1.375rem;
+    padding-left: 1.375rem;
   }
   .navbar-expand-md .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -14430,8 +14435,8 @@ button:focus {
   .navbar-expand-lg .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 0.875rem;
-    padding-left: 0.875rem;
+    padding-right: 1.375rem;
+    padding-left: 1.375rem;
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -14518,8 +14523,8 @@ button:focus {
   .navbar-expand-xl .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 0.875rem;
-    padding-left: 0.875rem;
+    padding-right: 1.375rem;
+    padding-left: 1.375rem;
   }
   .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -22032,8 +22037,16 @@ Typography Font Size
   font-size: 0.875rem;
 }
 
+.font-size-18 {
+  font-size: 1.125rem;
+}
+
 .font-size-20 {
   font-size: 1.25rem;
+}
+
+.font-size-40 {
+  font-size: 2.5rem;
 }
 
 .font-size-60 {
@@ -22077,6 +22090,10 @@ Line Height
 
 .text-white-70[href]:hover {
   color: #fff;
+}
+
+.text-gray-1 {
+  color: #67747c;
 }
 
 /*------------------------------------

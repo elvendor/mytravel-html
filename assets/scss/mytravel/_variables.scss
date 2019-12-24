@@ -37,6 +37,7 @@ $gray-500:                                                  #97a4af !default;
 $gray-600:                                                  #8c98a4 !default;
 $gray-700:                                                  #77838f !default;
 $gray-900:                                                  #1e2022 !default;
+$gray-1:                                                   #67747c !default;
 
 // Colors
 $white:                                                     #fff !default;
@@ -191,6 +192,7 @@ $h6-font-size:                                              $font-size-base !def
 
 $headings-font-weight:                                      $font-weight-light !default;
 $headings-line-height:                                      1.5 !default;
+$header-nav-link-font-weight:                               $font-weight-semi-bold;
 
 $display1-weight:                                           $headings-font-weight !default;
 $display2-weight:                                           $headings-font-weight !default;
@@ -448,7 +450,7 @@ $header-navbar-brand-padding-top:                           1rem !default;
 $header-navbar-nav-paddingY:                                .625rem !default;
 $header-navbar-nav-paddingY-responsive:                     0 !default;
 $header-nav-link-paddingY:                                  1.5rem !default;
-$header-nav-link-paddingX:                                  .875rem !default;
+$header-nav-link-paddingX:                                  1.375rem !default;
 $header-sub-menu-nav-link-paddingX:                         1.75rem !default;
 $header-sub-menu-paddingX:                                  1.5rem !default;
 $header-mega-menu-padding:                                  1.5rem 1.5rem 1.5rem 1.5rem + $header-sub-menu-border-left-width !default;
