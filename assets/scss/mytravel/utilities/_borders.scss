@@ -55,3 +55,20 @@
 .border-color-white {
 	border-color: rgba( $white, 0.149 ) !important; 
 }
+
+.destination {
+    position: relative;
+    &::after {
+        content: '';
+        height: 1px;
+        width: 50px;
+        background-color: $white;
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+    }
+}
+
+.border-width-2 {
+	border-width: 2px !important;
+}
