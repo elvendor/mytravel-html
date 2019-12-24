@@ -42,6 +42,10 @@ Typography Font Size
     font-size: 3.75rem;
 }
 
+.font-size-22 {
+    font-size: 1.375rem; //22px
+}
+
 // Medium Devices
 @include media-breakpoint-down(md) {
     .font-size-md-down-5 {
