@@ -15429,6 +15429,12 @@ button:focus {
 }
 
 /* Navbar Brand */
+@media (max-width: 767.98px) {
+  .u-header__navbar-brand {
+    margin-right: 0.625rem;
+  }
+}
+
 .u-header__navbar-brand,
 .u-header__navbar-brand > img {
   padding-top: 0;
@@ -15459,7 +15465,7 @@ button:focus {
 .u-header__navbar-brand-text {
   font-size: 1.75rem;
   font-weight: 700;
-  margin-left: 0.875rem;
+  margin-left: 0.500rem;
 }
 
 .u-header__navbar-brand-text, .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text:hover {
