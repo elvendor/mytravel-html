@@ -23617,15 +23617,28 @@ label.btn {
   margin-right: .25rem;
 }
 
-.nav-icons .nav-link {
+.nav-icon-round .nav-link {
   padding: 0.5rem 1.5rem;
 }
 
-.nav-icons .nav-link.active .icon::before {
+.nav-icon-round .nav-link.active .icon::before {
   border: 1px solid #297cbb;
   border-radius: 50%;
   padding: 14px;
   background-color: #297cbb;
+}
+
+.nav-icon-round .nav-link.active .icon::after {
+  content: '';
+  display: block;
+  position: relative;
+  bottom: -32px;
+  left: 38%;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
 }
 
 /* Nav Steps */
