@@ -59,7 +59,7 @@
 
 /* Item */
 .dropdown-item {
-	font-size: $dropdown-item-font-size;
+    font-size: $dropdown-item-font-size;
 
   &:hover {
     color: $dropdown-item-states;
@@ -131,4 +131,11 @@
       left: auto !important;
     }
   }
+}
+
+.dropdown-menu {
+    &-right-fix {
+        right: 10% !important;
+        left: auto;
+    }
 }

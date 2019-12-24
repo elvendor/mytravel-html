@@ -37,7 +37,7 @@ $gray-500:                                                  #97a4af !default;
 $gray-600:                                                  #8c98a4 !default;
 $gray-700:                                                  #77838f !default;
 $gray-900:                                                  #1e2022 !default;
-$gray-1:                                                   #67747c !default;
+$gray-1:                                                    #67747c !default;
 
 // Colors
 $white:                                                     #fff !default;
@@ -867,7 +867,7 @@ $input-btn-padding-x-sm:                                    1.125rem !default;
 $input-btn-padding-x-lg:                                    1.125rem !default;
 
 // Width & Heights
-$input-btn-min-width:                                       ($font-size-base * 9.6875) !default;
+$input-btn-min-width:                                       ($font-size-base * 13.75) !default;
 $input-btn-min-width-sm:                                    ($font-size-base * 8.4375) !default;
 $input-height-inner-xs:                                     ($font-size-xs * 1.4) + ($input-btn-paddingY-xs * 2) !default;
 $input-height-xs:                                           calc(#{$input-height-inner-xs} + #{1px}) !default;

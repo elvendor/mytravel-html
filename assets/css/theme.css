@@ -17551,7 +17551,7 @@ button:focus {
 ------------------------------------*/
 /* Wide */
 .btn-wide {
-  min-width: 9.6875rem;
+  min-width: 13.75rem;
 }
 
 .btn-sm-wide {
@@ -18698,6 +18698,11 @@ label.btn {
     right: 0;
     left: auto !important;
   }
+}
+
+.dropdown-menu-right-fix {
+  right: 10% !important;
+  left: auto;
 }
 
 /*------------------------------------
@@ -21672,6 +21677,10 @@ label.btn {
   left: 0;
 }
 
+.border-width-2 {
+  border-width: 2px !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -21911,6 +21920,10 @@ label.btn {
 
 .max-width-580 {
   max-width: 36.25rem;
+}
+
+.width-200 {
+  width: 12.5rem;
 }
 
 /*------------------------------------
