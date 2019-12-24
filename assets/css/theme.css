@@ -22342,6 +22342,13 @@ label.btn {
   }
 }
 
+.destination-dropdown--v1 a {
+  font-size: 1rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  color: #fff;
+}
+
 /*------------------------------------
   Dropdown Card
 ------------------------------------*/
@@ -23976,12 +23983,6 @@ label.btn {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-
-.destination-dropdown a {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-  color: #fff;
 }
 
 /*------------------------------------
