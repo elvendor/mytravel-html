@@ -12916,9 +12916,24 @@ button:focus {
   background-color: rgba(255, 255, 255, 0.149);
   position: absolute;
   width: 1px;
-  height: 50%;
+  height: 30px;
   top: 16px;
   left: -1px;
+  display: block;
+}
+
+.u-header__topbar .u-header__topbar-divider:not(.list-inline) {
+  position: relative;
+}
+
+.u-header__topbar .u-header__topbar-divider:not(.list-inline):before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.149);
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  top: 0;
+  left: 0;
   display: block;
 }
 
@@ -12946,7 +12961,7 @@ button:focus {
 .u-header__navbar-brand > img {
   padding-top: 0;
   padding-bottom: 0;
-  width: 9.375rem;
+  width: auto;
 }
 
 .u-header__navbar-brand-center {
@@ -12970,9 +12985,9 @@ button:focus {
 }
 
 .u-header__navbar-brand-text {
-  font-size: 2.25rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  margin-left: .5rem;
+  margin-left: 0.875rem;
 }
 
 .u-header__navbar-brand-text, .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text:hover {
@@ -17553,7 +17568,7 @@ button:focus {
 }
 
 .btn-icon.btn-sm, .btn-group-sm > .btn-icon.btn {
-  font-size: 0.1rem;
+  font-size: 1rem;
   width: 2rem;
   height: 2rem;
 }
@@ -18728,6 +18743,26 @@ label.btn {
   border-color: rgba(55, 125, 255, 0.5);
 }
 
+.form-control::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form-control::-moz-placeholder {
+  color: #fff;
+}
+
+.form-control:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-control::-ms-input-placeholder {
+  color: #fff;
+}
+
+.form-control::placeholder {
+  color: #fff;
+}
+
 .form-label {
   display: block;
   text-transform: uppercase;
@@ -18737,13 +18772,31 @@ label.btn {
 
 /* Form Borderless */
 .input-group-borderless .form-control,
-.input-group-borderless .input-group-text {
+.input-group-borderless .input-group-text,
+.input-group-borderless .form-control,
+.input-group-borderless button,
+.input-group-borderless .btn {
   border: none;
 }
 
 .input-group-borderless .form-control:focus,
-.input-group-borderless .input-group-text:focus {
+.input-group-borderless .input-group-text:focus,
+.input-group-borderless .form-control:focus,
+.input-group-borderless button:focus,
+.input-group-borderless .btn:focus {
   box-shadow: none;
+}
+
+/* Form Transpatent */
+.input-group-tranparent .form-control,
+.input-group-tranparent button,
+.input-group-tranparent .btn {
+  background-color: transparent;
+}
+
+.input-group-tranparent .form-control:focus,
+.input-group-tranparent .form-control:focus + .input-group-append button {
+  background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
 /*------------------------------------
@@ -21823,6 +21876,10 @@ label.btn {
   max-width: 19.5rem;
 }
 
+.min-width-220 {
+  min-width: 13.75rem;
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -21840,6 +21897,10 @@ label.btn {
 
 .height-4 {
   height: .25rem;
+}
+
+.height-350 {
+  height: 21.875rem;
 }
 
 .height-380 {

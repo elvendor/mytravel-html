@@ -8,6 +8,10 @@
   border-color: $form-focus-border-color;
 }
 
+.form-control::placeholder {
+    color: $form-placholder-color;
+}
+
 .form-label {
   display: block;
   text-transform: uppercase;
@@ -17,12 +21,31 @@
 
 /* Form Borderless */
 .input-group-borderless {
-  .form-control,
-  .input-group-text {
-    border: none;
+    .form-control,
+    .input-group-text,
+    .form-control,
+    button,
+    .btn {
+        border: none;
 
-    &:focus {
-      box-shadow: none;
+        &:focus {
+            box-shadow: none;
+        }
     }
-  }
+}
+
+/* Form Transpatent */
+.input-group-tranparent {
+    .form-control,
+    button,
+    .btn {
+        background-color: transparent;
+    }
+
+    .form-control:focus {
+        &,
+        + .input-group-append button {
+            background-color: rgba( $white, .3 ) !important;
+        }
+    }
 }
