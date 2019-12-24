@@ -202,9 +202,11 @@
       content: "\f107";
       margin-left: 0.75rem;
       transition: $header-nav-link-icon-transition;
-      position: absolute;
-      top: 53%;
-      transform: translateY(-50%);
+      @include media-breakpoint-up(xl) {
+        position: absolute;
+        top: 53%;
+        transform: translateY(-50%);
+      }
     }
   }
 }
