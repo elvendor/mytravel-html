@@ -21652,6 +21652,20 @@ label.btn {
   border-color: rgba(255, 255, 255, 0.149) !important;
 }
 
+.destination {
+  position: relative;
+}
+
+.destination::after {
+  content: '';
+  height: 1px;
+  width: 50px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -22023,6 +22037,10 @@ Typography Font Size
   font-size: 0.875rem;
 }
 
+.font-size-18 {
+  font-size: 1.125rem;
+}
+
 .font-size-20 {
   font-size: 1.25rem;
 }
@@ -22076,6 +22094,10 @@ Line Height
 
 .text-white-70[href]:hover {
   color: #fff;
+}
+
+.text-gray-1 {
+  color: #67747c;
 }
 
 /*------------------------------------
