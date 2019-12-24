@@ -13,3 +13,15 @@
 .text-gray-1 {
 	color: $gray-1;
 }
+
+.text-primary-max {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            @include media-breakpoint-down($breakpoint) {
+                color: $primary;
+            }
+        }
+    }
+}

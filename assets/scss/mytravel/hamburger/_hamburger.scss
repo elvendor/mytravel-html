@@ -93,6 +93,26 @@
       }
     }
   }
+
+  &--primary {
+    .u-hamburger__inner {
+      &,
+      &::before,
+      &::after {
+        background-color: $primary;
+      }
+    }
+
+    &:hover {
+      .u-hamburger__inner {
+        &,
+        &::before,
+        &::after {
+          background-color: $primary;
+        }
+      }
+    }
+  }
 }
 
 .js-header-fix-moment {
