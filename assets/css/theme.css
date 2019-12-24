@@ -18700,6 +18700,11 @@ label.btn {
   }
 }
 
+.dropdown-menu-right-fix {
+  right: 10% !important;
+  left: auto;
+}
+
 /*------------------------------------
   Dropdown Card
 ------------------------------------*/
@@ -21924,10 +21929,6 @@ label.btn {
 
 .height-4 {
   height: .25rem;
-}
-
-.height-50 {
-  height: 3.125rem;
 }
 
 .height-350 {
