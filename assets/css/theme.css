@@ -25519,6 +25519,10 @@ label.btn {
   min-width: 1.5rem !important;
 }
 
+.min-width-200 {
+  min-width: 12.5rem;
+}
+
 .max-width-3 {
   max-width: 1rem !important;
 }
