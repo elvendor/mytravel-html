@@ -9,4 +9,22 @@
             @include make-col(2.5);
        }
     }
+
+    .col-#{$size}-3dot5 {
+       @include media-breakpoint-up($size) {
+            @include make-col(3.5);
+       }
+    }
+
+    .col-#{$size}-3dot4 {
+       @include media-breakpoint-up($size) {
+            @include make-col(3.4);
+       }
+    }
+
+    .col-#{$size}-2dot6 {
+       @include media-breakpoint-up($size) {
+            @include make-col(2.6);
+       }
+    }
 }
