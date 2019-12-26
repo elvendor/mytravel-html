@@ -26191,6 +26191,10 @@ label.btn {
   background-attachment: fixed;
 }
 
+.pink-bg {
+  background-color: #c72f74;
+}
+
 /*------------------------------------
   Borders
 ------------------------------------*/
@@ -26198,7 +26202,7 @@ label.btn {
   border-radius: 6.1875rem;
 }
 
-.rounded-normal {
+.rounded-xs {
   border-radius: 0.188rem;
 }
 
