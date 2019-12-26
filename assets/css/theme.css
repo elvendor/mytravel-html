@@ -26191,6 +26191,10 @@ label.btn {
   background-attachment: fixed;
 }
 
+.pink-bg {
+  background-color: #c72f74;
+}
+
 /*------------------------------------
   Borders
 ------------------------------------*/
