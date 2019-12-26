@@ -70,6 +70,21 @@
         } 
     }
 
+    .u-header__divider {
+        position: relative;
+
+        &:before {
+            content: '';
+            background-color: $header-topbar-nav-link-divider-color;
+            position: absolute;
+            width: 1px;
+            height: 50px;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+    }
+
     &__search,
     &__topbar,
     &__last-item-btn {

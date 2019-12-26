@@ -15415,6 +15415,21 @@ button:focus {
   padding-left: 0;
 }
 
+.u-header .u-header__divider {
+  position: relative;
+}
+
+.u-header .u-header__divider:before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.149);
+  position: absolute;
+  width: 1px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
 @media (max-width: 575.98px) {
   .u-header__search, .u-header__topbar, .u-header__last-item-btn {
     display: none;
