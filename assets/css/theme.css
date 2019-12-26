@@ -21441,9 +21441,11 @@ button:focus {
   padding: 0.4375rem 0.9375rem;
 }
 
-.btn-normal {
-  width: 10.375rem;
-  height: 3.75rem;
+@media (min-width: 1200px) {
+  .btn-normal {
+    width: 10.375rem;
+    height: 3.75rem;
+  }
 }
 
 /* Icons */
@@ -26202,7 +26204,7 @@ label.btn {
   border-radius: 6.1875rem;
 }
 
-.rounded-normal {
+.rounded-xs {
   border-radius: 0.188rem;
 }
 
@@ -26677,6 +26679,10 @@ Typography Font Size
   font-size: 0.875rem;
 }
 
+.font-size-16 {
+  font-size: 1rem;
+}
+
 .font-size-17 {
   font-size: 1.063rem;
 }
@@ -26703,6 +26709,12 @@ Typography Font Size
 
 .font-size-22 {
   font-size: 1.375rem;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .font-size-lg-14 {
+    font-size: 0.875rem;
+  }
 }
 
 @media (max-width: 991.98px) {

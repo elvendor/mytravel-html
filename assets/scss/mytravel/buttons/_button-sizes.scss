@@ -24,8 +24,10 @@
 }
 
 .btn-normal {
-  width:$btn-width-normal;
-  height:$btn-height-normal;
+    @include media-breakpoint-up(xl) {
+        width:$btn-width-normal;
+        height:$btn-height-normal;
+    }
 }
 /* Icons */
 .btn-icon {
