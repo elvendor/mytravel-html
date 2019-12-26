@@ -25103,57 +25103,57 @@ label.btn {
 /*------------------------------------
  Grid
 ------------------------------------*/
-.col-xs-2dot4 {
-  -ms-flex: 0 0 20%;
-      flex: 0 0 20%;
-  max-width: 20%;
+.col-xs-2dot2 {
+  -ms-flex: 0 0 18.33333%;
+      flex: 0 0 18.33333%;
+  max-width: 18.33333%;
 }
 
 @media (min-width: 576px) {
-  .col-sm-2dot4 {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    max-width: 20%;
+  .col-sm-2dot2 {
+    -ms-flex: 0 0 18.33333%;
+        flex: 0 0 18.33333%;
+    max-width: 18.33333%;
   }
 }
 
 @media (min-width: 768px) {
-  .col-md-2dot4 {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    max-width: 20%;
+  .col-md-2dot2 {
+    -ms-flex: 0 0 18.33333%;
+        flex: 0 0 18.33333%;
+    max-width: 18.33333%;
   }
 }
 
 @media (min-width: 992px) {
-  .col-lg-2dot4 {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    max-width: 20%;
+  .col-lg-2dot2 {
+    -ms-flex: 0 0 18.33333%;
+        flex: 0 0 18.33333%;
+    max-width: 18.33333%;
   }
 }
 
 @media (min-width: 1200px) {
-  .col-xl-2dot4 {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    max-width: 20%;
+  .col-xl-2dot2 {
+    -ms-flex: 0 0 18.33333%;
+        flex: 0 0 18.33333%;
+    max-width: 18.33333%;
   }
 }
 
 @media (min-width: 1440px) {
-  .col-xxl-2dot4 {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    max-width: 20%;
+  .col-xxl-2dot2 {
+    -ms-flex: 0 0 18.33333%;
+        flex: 0 0 18.33333%;
+    max-width: 18.33333%;
   }
 }
 
 @media (min-width: 1600px) {
-  .col-xxxl-2dot4 {
-    -ms-flex: 0 0 20%;
-        flex: 0 0 20%;
-    max-width: 20%;
+  .col-xxxl-2dot2 {
+    -ms-flex: 0 0 18.33333%;
+        flex: 0 0 18.33333%;
+    max-width: 18.33333%;
   }
 }
 
@@ -25830,6 +25830,10 @@ label.btn {
 
 .width-200 {
   width: 12.5rem;
+}
+
+.max-width-235 {
+  max-width: 14.688rem;
 }
 
 /*------------------------------------

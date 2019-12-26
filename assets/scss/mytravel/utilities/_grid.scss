@@ -4,9 +4,9 @@
 
 @each $size, $value in $grid-breakpoints {
 
-    .col-#{$size}-2dot4 {
+    .col-#{$size}-2dot2 {
        @include media-breakpoint-up($size) {
-            @include make-col(2.4);
+            @include make-col(2.2);
        }
     }
 }
