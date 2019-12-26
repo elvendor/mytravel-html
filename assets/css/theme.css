@@ -15506,16 +15506,27 @@ button:focus {
 
 .u-header__navbar-brand-text {
   font-size: 1.75rem;
-  font-weight: 700;
-  margin-left: 0.500rem;
 }
 
 .u-header__navbar-brand-text, .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text:hover {
   color: #377dff;
 }
 
-.u-header__navbar-brand-text-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:hover {
+.u-header__navbar-brand-text-default {
+  font-size: 1.5rem;
+}
+
+.u-header__navbar-brand-text, .u-header__navbar-brand-text-default {
+  font-weight: 700;
+  margin-left: 0.500rem;
+}
+
+.u-header__navbar-brand-text-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:hover, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text:hover {
   color: #fff;
+}
+
+.u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"], .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"]:focus, .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"]:hover, .u-header__navbar-brand-text-default-dark [class*="u-header__navbar-brand-text"], .u-header__navbar-brand-text-default-dark [class*="u-header__navbar-brand-text"]:focus, .u-header__navbar-brand-text-default-dark [class*="u-header__navbar-brand-text"]:hover {
+  color: #3b444f;
 }
 
 /* Navbar Collapse */
@@ -15553,6 +15564,10 @@ button:focus {
 .u-header__nav-link {
   color: #77838f;
   font-weight: 600;
+}
+
+.u-header--nav-links-normal .u-header__nav-link {
+  font-weight: 400;
 }
 
 .u-header__nav-link-toggle {
@@ -17112,6 +17127,71 @@ button:focus {
   .u-header--white-nav-links-xxxl:not(.bg-white):not(.js-header-fix-moment) .dropdown-nav-link:hover,
   .u-header--white-nav-links-xxxl:not(.bg-white):not(.js-header-fix-moment) .btn-text-secondary:hover {
     color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+/*------------------------------------
+  Header White Nav Links
+------------------------------------*/
+.u-header--dark-nav-links:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+  color: #377dff;
+}
+
+.u-header--dark-nav-links:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+  color: #1e2022;
+}
+
+@media (min-width: 576px) {
+  .u-header--dark-nav-links-sm:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+    color: #377dff;
+  }
+  .u-header--dark-nav-links-sm:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+    color: #1e2022;
+  }
+}
+
+@media (min-width: 768px) {
+  .u-header--dark-nav-links-md:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+    color: #377dff;
+  }
+  .u-header--dark-nav-links-md:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+    color: #1e2022;
+  }
+}
+
+@media (min-width: 992px) {
+  .u-header--dark-nav-links-lg:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+    color: #377dff;
+  }
+  .u-header--dark-nav-links-lg:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+    color: #1e2022;
+  }
+}
+
+@media (min-width: 1200px) {
+  .u-header--dark-nav-links-xl:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+    color: #377dff;
+  }
+  .u-header--dark-nav-links-xl:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+    color: #1e2022;
+  }
+}
+
+@media (min-width: 1440px) {
+  .u-header--dark-nav-links-xxl:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+    color: #377dff;
+  }
+  .u-header--dark-nav-links-xxl:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+    color: #1e2022;
+  }
+}
+
+@media (min-width: 1600px) {
+  .u-header--dark-nav-links-xxxl:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-item:hover .u-header__nav-link {
+    color: #377dff;
+  }
+  .u-header--dark-nav-links-xxxl:not(.bg-dark):not(.js-header-fix-moment) .u-header__nav-link {
+    color: #1e2022;
   }
 }
 
