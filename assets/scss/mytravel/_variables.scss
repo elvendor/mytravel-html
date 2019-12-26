@@ -43,6 +43,7 @@ $gray-700:                                                  #77838f !default;
 $gray-900:                                                  #1e2022 !default;
 $gray-1:                                                    #67747c !default;
 $gray-2:                                                    #eaeaea !default;
+$gray-3:                                                    #ebf0f7 !default;
 
 // Colors
 $white:                                                     #fff !default;
@@ -188,6 +189,7 @@ $font-size-base:                                            1rem !default; // As
 $font-size-xs:                                              ($font-size-base * .75) !default;
 
 $font-weight-light:                                         300 !default;
+$font-weight-normal:                                        400 !default;
 $font-weight-medium:                                        500 !default;
 $font-weight-semi-bold:                                     600 !default;
 
@@ -201,6 +203,7 @@ $h6-font-size:                                              $font-size-base !def
 $headings-font-weight:                                      $font-weight-light !default;
 $headings-line-height:                                      1.5 !default;
 $header-nav-link-font-weight:                               $font-weight-semi-bold;
+$header-nav-link-normal-font-weight:                        $font-weight-normal;
 
 $display1-weight:                                           $headings-font-weight !default;
 $display2-weight:                                           $headings-font-weight !default;
@@ -379,6 +382,7 @@ $nav-icon-z-index:                                          1 !default;
 $nav-classic-border-width:                                  1px !default;
 $nav-classic-border-color:                                  $gray-300 !default;
 $nav-rounded-border-radius:                                 $border-radius !default;
+$header-divider-color:                                      $gray-3 !default;
 $header-topbar-nav-link-divider-color:                      rgba( $white, 0.149 ) !default;
 
 // Width & Heights
