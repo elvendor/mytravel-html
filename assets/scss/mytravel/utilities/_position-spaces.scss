@@ -18,6 +18,9 @@
   left: 0;
 }
 
+.bottom-n70 {
+  bottom: -70px;
+} 
 // Medium Devices
 @include media-breakpoint-up(md) {
   .top-md-0 {
