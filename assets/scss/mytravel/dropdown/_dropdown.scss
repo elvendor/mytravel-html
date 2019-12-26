@@ -152,12 +152,10 @@
 }
 
 .destination-dropdown {
-  &--v1 {
     a {
-      font-size: 1rem;
-      padding-left: 0 !important;
-      padding-right: 0 !important;
-      color: $white;
+        font-size: 1rem;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        color: $white;
     }
-  }
 }
