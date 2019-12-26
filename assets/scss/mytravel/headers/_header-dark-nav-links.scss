@@ -7,7 +7,7 @@
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
     &#{$infix} {
-            &:not(.bg-dark):not(.js-header-fix-moment) {
+            &:not(.bg-dark) {
                 @include media-breakpoint-up($breakpoint) {
                     .u-header__nav-item {
                         &:hover {

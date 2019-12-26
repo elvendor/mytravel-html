@@ -31,8 +31,8 @@
     <body>
 
         <!-- ========== HEADER ========== -->
-        <header id="header" class="u-header u-header--dark-nav-links-xl u-header--nav-links-normal u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide">
-            <div class="u-header__section py-4 py-xl-0">
+        <header id="header" class="u-header u-header--dark-nav-links-xl u-header--nav-links-normal u-header--static-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide">
+            <div class="u-header__section u-header__shadow-on-show-hide py-3 py-xl-0">
                 <div id="logoAndNav" class="container-fluid">
                     <!-- Nav -->
                     <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space py-1">
@@ -146,11 +146,11 @@
                         <!-- End Navigation -->
 
                         <!-- Shopping Cart -->
-                        <div class="shopping-cart pr-4 mr-1">
+                        <div class="shopping-cart pr-xl-4 mr-xl-1 ml-auto d-none d-md-block">
                             <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-primary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
                                 <span class="flaticon-shopping-basket btn-icon__inner font-size-22 text-primary-max-lg"></span>
                             </a>
-                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right dropdown-menu-right-fix-xxl text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
+                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right dropdown-menu-right-fix-xxl-20 text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
                                 <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
                                     <span class="flaticon-shopping-basket btn-icon__inner"></span>
                                 </span>
@@ -160,17 +160,17 @@
                         <!-- End Shopping Cart -->
 
                         <!-- My Account -->
-                        <div class="position-relative pl-4 pr-4 u-header__divider-xl d-none d-xl-block">
+                        <div class="position-relative pl-4 pr-xl-4 u-header__divider-xl">
                             <a href="#" class="d-flex align-items-center text-primary">
-                                <i class="flaticon-user mx-2"></i>
-                                <span class="d-inline-block mr-1">Sign in or Register</span>
+                                <i class="flaticon-user mx-xl-2"></i>
+                                <span class="d-none d-xl-inline-block mr-1">Sign in or Register</span>
                             </a>
                         </div>
                         <!-- End My Account -->
 
                         <!-- Button -->
                         <div class="u-header__last-item-btn u-header__last-item-btn-xxl">
-                            <a class="btn btn-md-wide btn-outline-primary transition-3d-hover" href="#" target="_blank">
+                            <a class="btn btn-md-wide rounded-normal btn-outline-primary transition-3d-hover" href="#" target="_blank">
                                 Become Local Expert
                             </a>
                         </div>
