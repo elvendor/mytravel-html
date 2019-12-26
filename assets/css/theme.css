@@ -25101,6 +25101,63 @@ label.btn {
 }
 
 /*------------------------------------
+ Grid
+------------------------------------*/
+.col-xs-2dot5 {
+  -ms-flex: 0 0 20.83333%;
+      flex: 0 0 20.83333%;
+  max-width: 20.83333%;
+}
+
+@media (min-width: 576px) {
+  .col-sm-2dot5 {
+    -ms-flex: 0 0 20.83333%;
+        flex: 0 0 20.83333%;
+    max-width: 20.83333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-2dot5 {
+    -ms-flex: 0 0 20.83333%;
+        flex: 0 0 20.83333%;
+    max-width: 20.83333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-2dot5 {
+    -ms-flex: 0 0 20.83333%;
+        flex: 0 0 20.83333%;
+    max-width: 20.83333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-2dot5 {
+    -ms-flex: 0 0 20.83333%;
+        flex: 0 0 20.83333%;
+    max-width: 20.83333%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .col-xxl-2dot5 {
+    -ms-flex: 0 0 20.83333%;
+        flex: 0 0 20.83333%;
+    max-width: 20.83333%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .col-xxxl-2dot5 {
+    -ms-flex: 0 0 20.83333%;
+        flex: 0 0 20.83333%;
+    max-width: 20.83333%;
+  }
+}
+
+/*------------------------------------
   Background Overlay Gradients
 ------------------------------------*/
 [class*="gradient-overlay-half"] {
@@ -25794,6 +25851,10 @@ label.btn {
   height: .25rem;
 }
 
+.height-240 {
+  height: 15rem;
+}
+
 .height-350 {
   height: 21.875rem;
 }
@@ -25911,6 +25972,10 @@ Typography Font Size
 
 .font-size-14 {
   font-size: 0.875rem;
+}
+
+.font-size-17 {
+  font-size: 1.063rem;
 }
 
 .font-size-18 {
