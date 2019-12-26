@@ -882,6 +882,7 @@ $input-btn-padding-x-lg:                                    1.125rem !default;
 
 // Width & Heights
 $input-btn-min-width:                                       ($font-size-base * 13.75) !default;
+$input-btn-min-width-md:                                    ($font-size-base * 11.875) !default;
 $input-btn-min-width-sm:                                    ($font-size-base * 8.4375) !default;
 $input-height-inner-xs:                                     ($font-size-xs * 1.4) + ($input-btn-paddingY-xs * 2) !default;
 $input-height-xs:                                           calc(#{$input-height-inner-xs} + #{1px}) !default;
