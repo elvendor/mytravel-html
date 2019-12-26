@@ -71,17 +71,26 @@
     }
 
     .u-header__divider {
-        position: relative;
+        @each $breakpoint in map-keys($grid-breakpoints) {
+            $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
-        &:before {
-            content: '';
-            background-color: $header-topbar-nav-link-divider-color;
-            position: absolute;
-            width: 1px;
-            height: 50px;
-            top: 0;
-            left: 0;
-            display: block;
+            &#{$infix} {
+                @include media-breakpoint-up($breakpoint) {
+                    position: relative;
+
+                    &:before {
+                        content: '';
+                        background-color: $header-divider-color;
+                        position: absolute;
+                        width: 1px;
+                        height: 50px;
+                        top: 50%;
+                        left: 0;
+                        display: block;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
         }
     }
 
@@ -158,6 +167,7 @@
 
   &-text {
     font-size: 1.75rem;
+    margin-left: 0.500rem;
 
     &,
     &:focus,
@@ -168,12 +178,13 @@
 
   &-text-default {
     font-size: 1.5rem;
+    margin-left: 0.75rem;
+    margin-top: 0.625rem;
   }
 
   &-text,
   &-text-default {
     font-weight: $font-weight-bold;
-    margin-left: 0.500rem;
 
     &-white {
       .u-header__navbar-brand-text {
