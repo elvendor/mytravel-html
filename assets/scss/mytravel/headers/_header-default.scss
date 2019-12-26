@@ -110,7 +110,9 @@
 
     &.js-header-fix-moment .u-header__last-item-btn {
         .btn {
-            @extend .btn-primary;
+            &:not( [class*="primary"] ) {
+                @extend .btn-primary;
+            }
         }
     }
 }

@@ -138,11 +138,15 @@
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
         &#{$infix} {
-            @include media-breakpoint-down($breakpoint) {
-                right: 0 !important;
+            @each $dropdown-position in $dropdown-positions {
+                &-#{$dropdown-position} {
+                    @include media-breakpoint-down($breakpoint) {
+                        right: 0 !important;
+                    }
+                    
+                    right: $dropdown-position * 1% !important;
+                }
             }
-
-            right: 10% !important;
         }
     }
 }

@@ -7,6 +7,10 @@
 	@include border-radius($border-radius-pill);
 }
 
+.rounded-normal {
+	@include border-radius($border-radius-normal);
+}
+
 .rounded-top-pill {
 	@include border-top-radius($border-radius-pill);
 }
