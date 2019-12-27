@@ -25920,6 +25920,11 @@ label.btn {
   background-image: linear-gradient(180deg, #C72F74 0, transparent 166%);
 }
 
+.gradient-overlay-half-bg-orange::before {
+  background-color: #ff9500;
+  opacity: .9;
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
@@ -26556,6 +26561,46 @@ label.btn {
   min-width: 11.125rem;
 }
 
+@media (max-width: 575.98px) {
+  .w-max-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .w-max-sm-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .w-max-md-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .w-max-lg-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1439.98px) {
+  .w-max-xl-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1599.98px) {
+  .w-max-xxl-100 {
+    width: 100% !important;
+  }
+}
+
+.w-max-xxxl-100 {
+  width: 100% !important;
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -26629,6 +26674,10 @@ label.btn {
 
 .min-height-800 {
   min-height: 50rem;
+}
+
+.min-height-955 {
+  min-height: 59.688rem;
 }
 
 @media (min-width: 576px) {
