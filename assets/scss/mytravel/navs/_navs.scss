@@ -91,6 +91,13 @@
 }
 
 
+.tab-nav {
+	@include media-breakpoint-down(xl) {
+		overflow-x: auto;
+		overflow-y:	hidden; 
+	}
+}
+
 
 
 /* Nav Steps */
