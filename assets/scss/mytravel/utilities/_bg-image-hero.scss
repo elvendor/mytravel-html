@@ -18,3 +18,14 @@
   @include background-cover(cover, no-repeat, center, center);
   background-attachment: fixed;
 }
+
+.bg-main::before {
+	content: ' ';
+	top: 370px;
+	bottom: 135px;
+	left: 95px;
+	right: 95px;
+	position: absolute;
+	background-color: #ff9500 !important;
+    opacity: .9;
+}
