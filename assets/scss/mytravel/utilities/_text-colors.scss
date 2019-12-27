@@ -21,6 +21,10 @@
 .text-blue {
 	color: $dark-blue;
 }
+
+.text-pink {
+    color: $pink;
+}
 .text-primary-max {
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
