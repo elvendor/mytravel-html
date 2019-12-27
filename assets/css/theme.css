@@ -25920,6 +25920,11 @@ label.btn {
   background-image: linear-gradient(180deg, #C72F74 0, transparent 166%);
 }
 
+.gradient-overlay-half-bg-orange::before {
+  background-color: #ff9500;
+  opacity: .9;
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
@@ -26210,17 +26215,6 @@ label.btn {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-}
-
-.bg-main::before {
-  content: ' ';
-  top: 370px;
-  bottom: 135px;
-  left: 95px;
-  right: 95px;
-  position: absolute;
-  background-color: #ff9500 !important;
-  opacity: .9;
 }
 
 /*------------------------------------
@@ -26823,6 +26817,10 @@ Line Height
 
 .text-lh-md {
   line-height: 1.8;
+}
+
+.text-lh-1 {
+  line-height: 1;
 }
 
 /*------------------------------------
