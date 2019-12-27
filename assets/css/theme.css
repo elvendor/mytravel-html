@@ -26556,6 +26556,46 @@ label.btn {
   min-width: 11.125rem;
 }
 
+@media (max-width: 575.98px) {
+  .w-max-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .w-max-sm-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .w-max-md-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .w-max-lg-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1439.98px) {
+  .w-max-xl-100 {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 1599.98px) {
+  .w-max-xxl-100 {
+    width: 100% !important;
+  }
+}
+
+.w-max-xxxl-100 {
+  width: 100% !important;
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
