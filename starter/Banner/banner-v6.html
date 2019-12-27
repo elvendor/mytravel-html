@@ -154,7 +154,7 @@
                                 <div class="tab-content" id="pills-tabContent-12">
                                     <div class="tab-pane p-4 show active" id="pills-result-12" role="tabpanel" aria-labelledby="pills-html-tab-1">
                                         <div class="bg-main bg-img-hero space-3 space-lg-5" style="background-image: url(../../assets/img/1920x500/img6.jpg);">
-                                            <div class="max-width-580 mx-auto text-center">
+                                            <div class="max-width-580 mx-auto text-center position-relative">
                                                 <h6 class="text-gray-4 font-size-40 font-weight-bold mb-1">Who is the local expert?</h6>
                                                 <p class="text-white font-weight-normal mb-4">Morbi semper fames lobortis ac hac penatibus</p>
                                                 <a class="btn btn-outline-white border-width-2 rounded-md min-width-200 font-weight-normal transition-3d-hover" href="#">Become Local Expert</a>
@@ -177,7 +177,7 @@
                                         </pre>
                                     </div>
 
-                                    <<div class="tab-pane" id="pills-css-12" role="tabpanel" aria-labelledby="pills-css-tab-12">
+                                    <div class="tab-pane" id="pills-css-12" role="tabpanel" aria-labelledby="pills-css-tab-12">
                                         <pre>
                                             <code class="language-html" data-lang="html">
                                                 &lt;link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"&gt;
@@ -228,45 +228,26 @@
         <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
         <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
+       <!-- JS Global Compulsory -->
+        <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+        <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+
         <!-- JS Implementing Plugins -->
         <script src="../../documentation/assets/vendor/prism/prism.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
         <script src="../../assets/js/components/hs.header.js"></script>
-        <script src="../../assets/js/components/hs.unfold.js"></script>
-        <script src="../../assets/js/components/hs.fancybox.js"></script>
-        <script src="../../assets/js/components/hs.svg-injector.js"></script>
-        <script src="../../assets/js/components/hs.go-to.js"></script>
+        
 
         <!-- JS Plugins Init. -->
         <script>
-            $(window).on('load', function () {
-            // initialization of HSMegaMenu component
-            $('.js-mega-menu').HSMegaMenu({
-            event: 'hover',
-            pageContainer: $('.container'),
-            breakpoint: 767.98,
-            hideTimeOut: 0
-            });
-
-            // initialization of svg injector module
-            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-            });
 
             $(document).on('ready', function () {
             // initialization of header
             $.HSCore.components.HSHeader.init($('#header'));
-
-            // initialization of unfold component
-            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-            // initialization of fancybox
-            $.HSCore.components.HSFancyBox.init('.js-fancybox');
-
-            // initialization of go to
-            $.HSCore.components.HSGoTo.init('.js-go-to');
-            });
         </script>
     </body>
 </html>
