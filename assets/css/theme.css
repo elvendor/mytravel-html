@@ -24605,6 +24605,13 @@ label.btn {
   border-bottom: 10px solid #fff;
 }
 
+@media (max-width: 1439.98px) {
+  .tab-nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
@@ -26710,6 +26717,12 @@ Typography Font Size
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .font-size-lg-14 {
     font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .font-size-xs-30 {
+    font-size: 1.875rem;
   }
 }
 
