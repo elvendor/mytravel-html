@@ -15415,6 +15415,14 @@ button:focus {
   padding-left: 0;
 }
 
+.u-header__topbar .input-group-tranparent .form-control:focus {
+  padding-left: 0.625rem !important;
+}
+
+.u-header .input-group-tranparent .form-control:focus {
+  padding-right: 0.5rem !important;
+}
+
 .u-header .u-header__divider {
   position: relative;
 }
@@ -15631,7 +15639,7 @@ button:focus {
 
 .u-header__navbar-brand-text {
   font-size: 1.75rem;
-  margin-left: 0.500rem;
+  margin-left: 0.875rem;
 }
 
 .u-header__navbar-brand-text, .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text:hover {
@@ -15641,11 +15649,11 @@ button:focus {
 .u-header__navbar-brand-text-default {
   font-size: 1.5rem;
   margin-left: 0.75rem;
-  margin-top: 0.625rem;
 }
 
 .u-header__navbar-brand-text, .u-header__navbar-brand-text-default {
   font-weight: 700;
+  margin-top: 0.625rem;
 }
 
 .u-header__navbar-brand-text-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:hover, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text:hover {
@@ -26542,6 +26550,10 @@ label.btn {
 
 .max-width-235 {
   max-width: 14.688rem;
+}
+
+.min-width-178 {
+  min-width: 11.125rem;
 }
 
 /*------------------------------------
