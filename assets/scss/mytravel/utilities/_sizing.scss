@@ -154,6 +154,10 @@
   min-height: 50rem;
 }
 
+.min-height-955 {
+  min-height: 59.688rem;
+}
+
 // Small Devices
 @include media-breakpoint-up(sm) {
   .height-sm-100vh {

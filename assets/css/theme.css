@@ -26631,6 +26631,10 @@ label.btn {
   min-height: 50rem;
 }
 
+.min-height-955 {
+  min-height: 59.688rem;
+}
+
 @media (min-width: 576px) {
   .height-sm-100vh {
     height: 100vh;
