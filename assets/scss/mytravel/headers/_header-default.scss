@@ -68,6 +68,14 @@
                 padding-left: 0;
             }
         } 
+
+        .input-group-tranparent .form-control:focus {
+            padding-left: 0.625rem !important;
+        }
+    }
+
+    .input-group-tranparent .form-control:focus {
+        padding-right: 0.5rem !important;
     }
 
     .u-header__divider {
@@ -169,7 +177,7 @@
 
   &-text {
     font-size: 1.75rem;
-    margin-left: 0.500rem;
+    margin-left: 0.875rem;
 
     &,
     &:focus,
@@ -181,12 +189,12 @@
   &-text-default {
     font-size: 1.5rem;
     margin-left: 0.75rem;
-    margin-top: 0.625rem;
   }
 
   &-text,
   &-text-default {
     font-weight: $font-weight-bold;
+    margin-top: 0.625rem;
 
     &-white {
       .u-header__navbar-brand-text {
