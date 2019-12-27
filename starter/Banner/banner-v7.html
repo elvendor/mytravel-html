@@ -237,52 +237,20 @@
         <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
 
         <!-- JS Implementing Plugins -->
-        <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-        <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-        <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
-        <script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
-        <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
-        <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
-        <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
         <script src="../../documentation/assets/vendor/prism/prism.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
         <script src="../../assets/js/components/hs.header.js"></script>
-        <script src="../../assets/js/components/hs.unfold.js"></script>
-        <script src="../../assets/js/components/hs.fancybox.js"></script>
-        <script src="../../assets/js/components/hs.svg-injector.js"></script>
-        <script src="../../assets/js/components/hs.go-to.js"></script>
+        
 
         <!-- JS Plugins Init. -->
         <script>
-            $(window).on('load', function () {
-            // initialization of HSMegaMenu component
-            $('.js-mega-menu').HSMegaMenu({
-            event: 'hover',
-            pageContainer: $('.container'),
-            breakpoint: 767.98,
-            hideTimeOut: 0
-            });
-
-            // initialization of svg injector module
-            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-            });
 
             $(document).on('ready', function () {
             // initialization of header
             $.HSCore.components.HSHeader.init($('#header'));
 
-            // initialization of unfold component
-            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-            // initialization of fancybox
-            $.HSCore.components.HSFancyBox.init('.js-fancybox');
-
-            // initialization of go to
-            $.HSCore.components.HSGoTo.init('.js-go-to');
-            });
         </script>
     </body>
 </html>
