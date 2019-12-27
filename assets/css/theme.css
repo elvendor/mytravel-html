@@ -25908,6 +25908,10 @@ label.btn {
   background-image: linear-gradient(180deg, #1e2022 0%, transparent 75%);
 }
 
+.gradient-overlay-half-bg-gradient.pink-gradient:hover:before {
+  background-image: linear-gradient(180deg, #C72F74 0, transparent 166%);
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
