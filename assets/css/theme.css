@@ -26451,6 +26451,10 @@ label.btn {
   border-width: 2px !important;
 }
 
+.border-width-3 {
+  border-width: 3px !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -26922,6 +26926,10 @@ Typography Font Size
   font-size: 1.875rem;
 }
 
+.font-size-35 {
+  font-size: 2.188rem;
+}
+
 .font-size-40 {
   font-size: 2.5rem;
 }
@@ -27051,6 +27059,10 @@ Line Height
 
 .text-primary-max-xxxl {
   color: #377dff;
+}
+
+.text-gray-5 {
+  color: #f9f9f9;
 }
 
 /*------------------------------------
