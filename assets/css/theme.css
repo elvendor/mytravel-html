@@ -25975,12 +25975,14 @@ label.btn {
 /*------------------------------------
   Background Overlay Gradients
 ------------------------------------*/
-[class*="gradient-overlay-half"] {
+[class*="gradient-overlay-half"],
+.destinantion-bg-gradient {
   position: relative;
   z-index: 1;
 }
 
-[class*="gradient-overlay-half"]::before {
+[class*="gradient-overlay-half"]::before,
+.destinantion-bg-gradient::before {
   position: absolute;
   top: 0;
   right: 0;
@@ -26027,8 +26029,18 @@ label.btn {
   background-image: linear-gradient(180deg, #1e2022 0%, transparent 75%);
 }
 
-.gradient-overlay-half-bg-gradient.pink-gradient:hover:before {
-  background-image: linear-gradient(180deg, #C72F74 0, transparent 166%);
+.pink-gradient:hover:before,
+.yellow-gradient:hover:before {
+  opacity: 0.7;
+  background-image: none;
+}
+
+.pink-gradient:hover:before {
+  background-color: #C72F74;
+}
+
+.yellow-gradient:hover:before {
+  background-color: #ff9500;
 }
 
 .gradient-overlay-half-bg-orange::before {
