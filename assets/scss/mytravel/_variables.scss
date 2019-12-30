@@ -70,7 +70,7 @@ $github:           																				  #24292e !default;
 $dark-blue:                                                 #0057ff !default;
 $black:                                                     #3b444f !default;
 $pink:                                                      #ff567d !default;
-
+$curious-blue:                                              #297cbb !default;
 // Theme Colors
 $primary:                                                   $blue !default;
 $primary-darker:                                            $blue-darker !default;
@@ -96,7 +96,8 @@ $secondary-colors: map-merge((
   "github":                                                 $github,
   "gray":                                                   $gray-200,
   "blue":                                                   $dark-blue,
-  "pink":                                                   $pink
+  "pink":                                                   $pink,
+  "curious":                                                $curious-blue,
 ), $secondary-colors);
 
 // Theme Colors
