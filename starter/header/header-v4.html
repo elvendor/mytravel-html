@@ -31,7 +31,7 @@
     <body>
 
         <!-- ========== HEADER ========== -->
-        <header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links-xl u-header--bg-transparent-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
+        <header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links-xl u-header--bg-transparent-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide" style="background-image: url(../../assets/img/1920x800/img2.jpg);">
             <div class="u-header__section u-header__shadow-on-show-hide py-4 py-xl-0">
                 <!-- Topbar -->
                 <div class="container-fluid u-header__hide-content u-header__topbar u-header__topbar-xl border-bottom border-color-white">
@@ -64,169 +64,10 @@
                                 </li>
                             </ul>
                             <div class="position-relative px-3 u-header__topbar-divider">
-                                <a id="signUpDropdownInvoker"  href="javascript:;" class="d-flex align-items-center text-white" aria-controls="signUpDropdown" aria-haspopup="true" aria-expanded="true" data-unfold-event="click" data-unfold-target="#signUpDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                                <a href="#" class="d-flex align-items-center text-white">
                                     <i class="flaticon-user mr-2 ml-1"></i>
                                     <span class="d-inline-block font-size-14 mr-1">Sign in or Register</span>
                                 </a>
-                                <div id="signUpDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right py-0" aria-labelledby="signUpDropdownInvoker" style="min-width: 350px;">
-                                    <div class="card">
-                                        <form class="js-validate" novalidate="novalidate">
-                                            <!-- Login -->
-                                            <div id="login" style="opacity: 1;" data-target-group="idForm" class="animated fadeIn">
-                                                <!-- Header -->
-                                                <div class="card-header bg-light text-center py-3 px-5">
-                                                    <h3 class="h6 mb-0 font-weight-semi-bold">Login to MyHotel</h3>
-                                                </div>
-                                                <!-- End Header -->
-                                                <div class="card-body p-5">
-                                                    <!-- Form Group -->
-                                                    <div class="form-group">
-                                                        <div class="js-form-message js-focus-state">
-                                                            <label class="sr-only" for="signinSrEmail">Email</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="signinEmail">
-                                                                        <span class="fas fa-user"></span>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="email" class="form-control" name="email" id="signinSrEmail" placeholder="Email" aria-label="Email" aria-describedby="signinEmail" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Form Group -->
-
-                                                    <!-- Form Group -->
-                                                    <div class="form-group">
-                                                        <div class="js-form-message js-focus-state">
-                                                            <label class="sr-only" for="signinSrPassword">Password</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="signinPassword">
-                                                                        <span class="fas fa-lock"></span>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="password" class="form-control" name="password" id="signinSrPassword" placeholder="Password" aria-label="Password" aria-describedby="signinPassword" required="" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Form Group -->
-
-                                                    <div class="d-flex justify-content-end mb-4">
-                                                        <a class="js-animation-link link-muted" href="javascript:;" data-target="#forgotPassword" data-link-group="idForm" data-animation-in="fadeIn">Forgot Password?</a>
-                                                    </div>
-                                                    <div class="mb-2">
-                                                        <button type="submit" class="btn btn-sm btn-block btn-primary transition-3d-hover">Login</button>
-                                                    </div>
-                                                    <div class="text-center">
-                                                        <span class="text-muted">Do not have an account?</span>
-                                                        <a class="js-animation-link" href="javascript:;" data-target="#signup" data-link-group="idForm" data-animation-in="fadeIn">Signup</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Login -->
-
-                                            <!-- Signup -->
-                                            <div id="signup" style="opacity: 0; display: none;" data-target-group="idForm">
-                                                <!-- Header -->
-                                                <div class="card-header bg-light text-center py-3 px-5">
-                                                    <h3 class="h6 mb-0 font-weight-semi-bold">Create a free MyHotel account</h3>
-                                                </div>
-                                                <!-- End Header -->
-                                                <div class="card-body p-5">
-                                                    <!-- Form Group -->
-                                                    <div class="form-group">
-                                                        <div class="js-form-message js-focus-state">
-                                                            <label class="sr-only" for="signupSrEmail">Email</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="signupEmail">
-                                                                        <span class="fas fa-user"></span>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="email" class="form-control" name="email" id="signupSrEmail" placeholder="Email" aria-label="Email" aria-describedby="signupEmail" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Input -->
-
-                                                    <!-- Form Group -->
-                                                    <div class="form-group">
-                                                        <div class="js-form-message js-focus-state">
-                                                            <label class="sr-only" for="signupSrPassword">Password</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="signupPassword">
-                                                                        <span class="fas fa-lock"></span>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="password" class="form-control" name="password" id="signupSrPassword" placeholder="Password" aria-label="Password" aria-describedby="signupPassword" required="" data-msg="Your password is invalid. Please try again." data-error-class="u-has-error" data-success-class="u-has-success">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Input -->
-
-                                                    <!-- Form Group -->
-                                                    <div class="form-group">
-                                                        <div class="js-form-message js-focus-state">
-                                                            <label class="sr-only" for="signupSrConfirmPassword">Confirm Password</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="signupConfirmPassword">
-                                                                        <span class="fas fa-key"></span>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="password" class="form-control" name="confirmPassword" id="signupSrConfirmPassword" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="signupConfirmPassword" required="" data-msg="Password does not match the confirm password." data-error-class="u-has-error" data-success-class="u-has-success">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Input -->
-                                                    <div class="mb-2">
-                                                        <button type="submit" class="btn btn-sm btn-block btn-primary transition-3d-hover">Get Started</button>
-                                                    </div>
-                                                    <div class="text-center">
-                                                        <span class="text-muted">Already have an account?</span>
-                                                        <a class="js-animation-link" href="javascript:;" data-target="#login" data-link-group="idForm" data-animation-in="fadeIn">Login</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Signup -->
-
-                                            <!-- Forgot Passwrd -->
-                                            <div id="forgotPassword" style="opacity: 0; display: none;" data-target-group="idForm">
-                                                <!-- Header -->
-                                                <div class="card-header bg-light text-center py-3 px-5">
-                                                    <h3 class="h6 mb-0 font-weight-semi-bold">Recover password</h3>
-                                                </div>
-                                                <!-- End Header -->
-                                                <div class="card-body p-5">
-                                                    <!-- Form Group -->
-                                                    <div class="form-group">
-                                                        <div class="js-form-message js-focus-state">
-                                                            <label class="sr-only" for="recoverSrEmail">Your email</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                    <span class="input-group-text" id="recoverEmail">
-                                                                        <span class="fas fa-user"></span>
-                                                                    </span>
-                                                                </div>
-                                                                <input type="email" class="form-control" name="email" id="recoverSrEmail" placeholder="Your email" aria-label="Your email" aria-describedby="recoverEmail" required="" data-msg="Please enter a valid email address." data-error-class="u-has-error" data-success-class="u-has-success">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- End Form Group -->
-                                                    <div class="mb-2">
-                                                        <button type="submit" class="btn btn-sm btn-block btn-primary transition-3d-hover">Recover Password</button>
-                                                    </div>
-                                                    <div class="text-center">
-                                                        <span class="text-muted">Remember your password?</span>
-                                                        <a class="js-animation-link" href="javascript:;" data-target="#login" data-link-group="idForm" data-animation-in="fadeIn">Login</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- End Forgot Passwrd -->
-                                        </form>
-                                    </div>
-                                </div>
                             </div>
                             <div class="position-relative pl-3 py-1 u-header__topbar-divider">
                                 <a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center ml-1" href="javascript:;" role="button" aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
@@ -379,7 +220,7 @@
                             <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
                                 <span class="flaticon-shopping-basket btn-icon__inner font-size-22 text-primary-max-lg"></span>
                             </a>
-                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right dropdown-menu-right-fix-xxl-10 text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
+                            <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
                                 <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
                                     <span class="flaticon-shopping-basket btn-icon__inner"></span>
                                 </span>
