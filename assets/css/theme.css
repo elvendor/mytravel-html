@@ -15646,21 +15646,21 @@ button:focus {
   color: #377dff;
 }
 
-.u-header__navbar-brand-text-default {
+.u-header__navbar-brand-text-md .u-header__navbar-brand-text {
   font-size: 1.5rem;
   margin-left: 0.75rem;
 }
 
-.u-header__navbar-brand-text, .u-header__navbar-brand-text-default {
+.u-header__navbar-brand-text {
   font-weight: 700;
   margin-top: 0.625rem;
 }
 
-.u-header__navbar-brand-text-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:hover, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-default-white .u-header__navbar-brand-text:hover {
+.u-header__navbar-brand-text-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:hover {
   color: #fff;
 }
 
-.u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"], .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"]:focus, .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"]:hover, .u-header__navbar-brand-text-default-dark [class*="u-header__navbar-brand-text"], .u-header__navbar-brand-text-default-dark [class*="u-header__navbar-brand-text"]:focus, .u-header__navbar-brand-text-default-dark [class*="u-header__navbar-brand-text"]:hover {
+.u-header:not(.js-header-fix-moment) .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"], .u-header:not(.js-header-fix-moment) .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"]:focus, .u-header:not(.js-header-fix-moment) .u-header__navbar-brand-text-dark [class*="u-header__navbar-brand-text"]:hover {
   color: #3b444f;
 }
 
@@ -26048,6 +26048,16 @@ label.btn {
   opacity: .9;
 }
 
+.gradient-overlay-half-bg-dark::before {
+  background-color: #000000;
+  opacity: .75;
+}
+
+.gradient-overlay-half-bg-blue-light::before {
+  background-color: #297cbb;
+  opacity: .8;
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
@@ -26886,12 +26896,20 @@ Typography Font Size
   font-size: 1.25rem;
 }
 
+.font-size-21 {
+  font-size: 1.313rem;
+}
+
 .font-size-30 {
   font-size: 1.875rem;
 }
 
 .font-size-40 {
   font-size: 2.5rem;
+}
+
+.font-size-41 {
+  font-size: 2.563rem;
 }
 
 .font-size-60 {

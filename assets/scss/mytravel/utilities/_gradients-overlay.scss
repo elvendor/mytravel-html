@@ -86,6 +86,20 @@
 .gradient-overlay-half-bg-orange {
 	&::before {
 		background-color: #ff9500;
-		opacity: .9
+		opacity: .9;
+	}
+}
+
+.gradient-overlay-half-bg-dark {
+	&::before {
+		background-color: #000000;
+		opacity: .75;
+	}
+}
+
+.gradient-overlay-half-bg-blue-light {
+	&::before {
+		background-color: #297cbb;
+		opacity: .8;
 	}
 }
