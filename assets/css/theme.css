@@ -25925,6 +25925,11 @@ label.btn {
   opacity: .9;
 }
 
+.gradient-overlay-half-bg-dark::before {
+  background-color: #000000;
+  opacity: .75;
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
