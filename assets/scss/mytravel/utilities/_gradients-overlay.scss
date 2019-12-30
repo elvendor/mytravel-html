@@ -81,3 +81,10 @@
 		opacity: .75;
 	}
 }
+
+.gradient-overlay-half-bg-blue-light {
+	&::before {
+		background-color: #297cbb;
+		opacity: .8;
+	}
+}
