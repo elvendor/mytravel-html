@@ -26,10 +26,28 @@
 
 		&--left {
 			left: 0;
+
+			&.v1 {
+				left: -5px;
+			}
 		}
 
 		&--right {
 			right: 0;
+
+			&.v1 {
+				right: -5px;
+			}
+		}
+	}
+
+	&.v1 {
+		color: $pagination-v1-arrow;
+		background-color: $white;
+
+		&:hover {
+			color: $white;
+			background-color: $dark;
 		}
 	}
 }

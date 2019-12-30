@@ -25121,8 +25121,26 @@ label.btn {
   left: 0;
 }
 
+.u-slick__arrow-classic-inner--left.v1 {
+  left: -5px;
+}
+
 .u-slick__arrow-classic-inner--right {
   right: 0;
+}
+
+.u-slick__arrow-classic-inner--right.v1 {
+  right: -5px;
+}
+
+.u-slick__arrow-classic.v1 {
+  color: #3d88c1;
+  background-color: #fff;
+}
+
+.u-slick__arrow-classic.v1:hover {
+  color: #fff;
+  background-color: #1e2022;
 }
 
 /*------------------------------------
@@ -26433,6 +26451,10 @@ label.btn {
   border-width: 2px !important;
 }
 
+.border-width-3 {
+  border-width: 3px !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -26758,7 +26780,7 @@ label.btn {
 }
 
 .height-350 {
-  height: 21.875rem;
+  height: 21.875rem !important;
 }
 
 .height-380 {
@@ -26904,6 +26926,10 @@ Typography Font Size
   font-size: 1.875rem;
 }
 
+.font-size-35 {
+  font-size: 2.188rem;
+}
+
 .font-size-40 {
   font-size: 2.5rem;
 }
@@ -27033,6 +27059,10 @@ Line Height
 
 .text-primary-max-xxxl {
   color: #377dff;
+}
+
+.text-gray-5 {
+  color: #f9f9f9;
 }
 
 /*------------------------------------
