@@ -244,7 +244,7 @@
                 <!-- End Topbar -->
                 <div id="logoAndNav" class="container-fluid">
                     <!-- Nav -->
-                    <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space py-1">
+                    <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space my-1">
                         <!-- Logo -->
                         <a class="navbar-brand u-header__navbar-brand-default u-header__navbar-brand-center u-header__navbar-brand-text-white" href="#" aria-label="MyTravel">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px" height="53px">
@@ -310,8 +310,8 @@
                                     <a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu">Hotel</a>
                                     <!-- Hotel Submenu -->
                                     <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Hotel 1</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Hotel 2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                     </ul>
                                     <!-- End Hotel Submenu -->
                                 </li>
@@ -322,8 +322,8 @@
                                     <a id="tourMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="tourSubMenu">Tour</a>
                                     <!-- Tour Submenu -->
                                     <ul id="tourSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="tourMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour 1</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour 2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                     </ul>
                                     <!-- End Tour Submenu -->
                                 </li>
@@ -340,8 +340,8 @@
                                     <a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu">Rental</a>
                                     <!-- Rental Submenu -->
                                     <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Rental 1</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Rental 2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                     </ul>
                                     <!-- End Rental Submenu -->
                                 </li>
@@ -359,8 +359,8 @@
                                     <a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu">Yacht</a>
                                     <!-- Yacht Submenu -->
                                     <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Yacht 1</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Yacht 2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                     </ul>
                                     <!-- End Yacht Submenu -->
                                 </li>
@@ -373,14 +373,44 @@
                                 <!-- End Flights -->
 
                                 <!-- Pages -->
-                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
-                                    <a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
-                                    <!-- Pages Submenu -->
-                                    <ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Pages 1</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Pages 2</a></li>
-                                    </ul>
-                                    <!-- End Pages Submenu -->
+                                <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
+                                    <a id="pagesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Pages</a>
+                                    <!-- Pages - Mega Menu -->
+                                    <div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="pagesMegaMenu">
+                                        <div class="row u-header__mega-menu-wrapper">
+                                            <div class="col-sm-3 mb-3 mb-sm-0">
+                                                <span class="u-header__sub-menu-title">Travel</span>
+                                                <img class="img-fluid rounded" src="../../assets/img/500x300/img1.jpg" alt="Img">
+                                            </div>
+
+                                            <div class="col-sm-3 mb-3 mb-sm-0">
+                                                <span class="u-header__sub-menu-title">Two</span>
+                                                <ul class="u-header__sub-menu-nav-group">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">One</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Two</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Three</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-sm-3 mb-3 mb-sm-0">
+                                                <span class="u-header__sub-menu-title">Three</span>
+                                                <ul class="u-header__sub-menu-nav-group mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">One</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Two</a></li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="col-sm-3">
+                                                <span class="u-header__sub-menu-title">Four</span>
+                                                <ul class="u-header__sub-menu-nav-group mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">One</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Two</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Three</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Pages - Mega Menu -->
                                 </li>
                                 <!-- End Pages -->
                             </ul>
@@ -718,8 +748,8 @@
                                                                 &lt;a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu"&gt;Hotel&lt;/a&gt;
                                                                 &lt;!-- Hotel Submenu --&gt;
                                                                 &lt;ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;"&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Hotel 1&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Hotel 2&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                 &lt;/ul&gt;
                                                                 &lt;!-- End Hotel Submenu --&gt;
                                                             &lt;/li&gt;
@@ -730,8 +760,8 @@
                                                                 &lt;a id="tourMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="tourSubMenu"&gt;Tour&lt;/a&gt;
                                                                 &lt;!-- Tour Submenu --&gt;
                                                                 &lt;ul id="tourSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="tourMenu" style="min-width: 230px;"&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour 1&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour 2&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                 &lt;/ul&gt;
                                                                 &lt;!-- End Tour Submenu --&gt;
                                                             &lt;/li&gt;
@@ -748,8 +778,8 @@
                                                                 &lt;a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu"&gt;Rental&lt;/a&gt;
                                                                 &lt;!-- Rental Submenu --&gt;
                                                                 &lt;ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;"&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Rental 1&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Rental 2&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                 &lt;/ul&gt;
                                                                 &lt;!-- End Rental Submenu --&gt;
                                                             &lt;/li&gt;
@@ -767,8 +797,8 @@
                                                                 &lt;a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu"&gt;Yacht&lt;/a&gt;
                                                                 &lt;!-- Yacht Submenu --&gt;
                                                                 &lt;ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;"&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Yacht 1&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Yacht 2&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                 &lt;/ul&gt;
                                                                 &lt;!-- End Yacht Submenu --&gt;
                                                             &lt;/li&gt;
@@ -840,8 +870,6 @@
                                 <code class="language-html" data-lang="html">
                                     &lt;!-- JS Implementing Plugins --&gt;
                                     &lt;script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"&gt;&lt;/script&gt;
-                                    &lt;script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"&gt;&lt;/script&gt;
-                                    &lt;script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"&gt;&lt;/script&gt;
                                     &lt;script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"&gt;&lt;/script&gt;
 
                                     &lt;!-- JS MyTravel --&gt;
@@ -872,9 +900,6 @@
 
                                         // initialization of show animations
                                         $.HSCore.components.HSShowAnimation.init('.js-animation-link');
-
-                                        // initialization of go to
-                                        $.HSCore.components.HSGoTo.init('.js-go-to');
                                     });
                                     &lt;/script&gt;
                                 </code>
