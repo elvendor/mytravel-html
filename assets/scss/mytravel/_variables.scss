@@ -69,6 +69,7 @@ $instagram:                                                 #3f729b !default;
 $github:           																				  #24292e !default;
 $dark-blue:                                                 #0057ff !default;
 $black:                                                     #3b444f !default;
+$pink:                                                      #ff567d !default;
 
 // Theme Colors
 $primary:                                                   $blue !default;
@@ -94,7 +95,8 @@ $secondary-colors: map-merge((
   "instagram":                                              $instagram,
   "github":                                                 $github,
   "gray":                                                   $gray-200,
-  "blue":                                                   $dark-blue
+  "blue":                                                   $dark-blue,
+  "pink":                                                   $pink
 ), $secondary-colors);
 
 // Theme Colors
