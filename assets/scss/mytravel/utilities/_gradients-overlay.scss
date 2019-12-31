@@ -68,6 +68,13 @@
 	}
 }
 
+.gradient-overlay-half-bg-gradient-v2 {
+	&::before {
+		background-color: #20274d;
+		opacity: .4;
+	}
+}
+
 .gradient-overlay-half-pink-gradient,
 .gradient-overlay-half-yellow-gradient {
 	&:hover:before {
