@@ -23317,7 +23317,7 @@ label.btn {
 }
 
 .form-shadow {
-  box-shadow: 1px 1px 0px 30px rgba(160, 122, 197, 0.2);
+  box-shadow: 1px 1px 0px 30px rgba(78, 50, 104, 0.6);
 }
 
 /*------------------------------------
@@ -24846,6 +24846,29 @@ label.btn {
 }
 
 .tab-nav-boxed .nav-link.active .icon::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 24px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+.tab-nav-shadow .nav-link {
+  padding: 0.3rem 1.5rem;
+}
+
+.tab-nav-shadow .nav-link.active {
+  border: 1px solid #4e3268;
+  background-color: #4e3268;
+  border-radius: 3px;
+}
+
+.tab-nav-shadow .nav-link.active .icon::after {
   content: '';
   display: block;
   position: absolute;
