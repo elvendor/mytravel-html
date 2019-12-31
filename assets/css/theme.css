@@ -15927,6 +15927,18 @@ button:focus {
   margin-bottom: 0;
 }
 
+.u-header__banner-caption {
+  display: block;
+  color: #fff;
+  font-size: 1.5625rem;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 /* Product Banner */
 .u-header__product-banner {
   background-color: #f8fafd;
@@ -18478,12 +18490,43 @@ button:focus {
   .navbar-expand-lg .u-header__product-banner {
     display: none;
   }
+  .navbar-expand-xs .u-header__banner-caption,
+  .navbar-expand-sm .u-header__banner-caption,
+  .navbar-expand-md .u-header__banner-caption,
+  .navbar-expand-lg .u-header__banner-caption {
+    position: static;
+    font-size: 0.875rem;
+    color: #77838f;
+    padding-left: 1.5rem;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .navbar-expand-xs .u-header__banner-caption:hover, .navbar-expand-xs .u-header__banner-caption:focus,
+  .navbar-expand-sm .u-header__banner-caption:hover,
+  .navbar-expand-sm .u-header__banner-caption:focus,
+  .navbar-expand-md .u-header__banner-caption:hover,
+  .navbar-expand-md .u-header__banner-caption:focus,
+  .navbar-expand-lg .u-header__banner-caption:hover,
+  .navbar-expand-lg .u-header__banner-caption:focus {
+    color: #377dff;
+  }
 }
 
 @media (max-width: 1199.98px) {
   .navbar-expand-xl .u-header__banner,
   .navbar-expand-xl .u-header__product-banner {
     display: none;
+  }
+  .navbar-expand-xl .u-header__banner-caption {
+    position: static;
+    font-size: 0.875rem;
+    color: #77838f;
+    padding-left: 1.5rem;
+    -webkit-transform: unset;
+            transform: unset;
+  }
+  .navbar-expand-xl .u-header__banner-caption:hover, .navbar-expand-xl .u-header__banner-caption:focus {
+    color: #377dff;
   }
 }
 
@@ -23274,7 +23317,7 @@ label.btn {
 }
 
 .form-shadow {
-  box-shadow: 1px 1px 0px 30px rgba 160, 122, 197, 0.2;
+  box-shadow: 1px 1px 0px 30px rgba(160, 122, 197, 0.2);
 }
 
 /*------------------------------------
@@ -26851,6 +26894,10 @@ label.btn {
 /*------------------------------------
   Height
 ------------------------------------*/
+.height-30vh {
+  height: 30vh;
+}
+
 .height-40vh {
   height: 40vh;
 }
