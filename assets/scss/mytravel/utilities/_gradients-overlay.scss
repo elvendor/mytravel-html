@@ -103,3 +103,9 @@
 		opacity: .8;
 	}
 }
+
+.gradient-overlay-half-bg-violet {
+	&::before {
+		background-color: rgba(73, 16, 128, 0.6);
+	}
+}
