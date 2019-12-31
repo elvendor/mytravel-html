@@ -24217,7 +24217,7 @@ label.btn {
   text-align: center;
   width: 3.125rem;
   height: 3.125rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #377dff;
   background-color: #fff;
   border-radius: 50%;
@@ -24225,6 +24225,7 @@ label.btn {
 }
 
 .u-go-to-modern .u-go-to-modern__inner {
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
