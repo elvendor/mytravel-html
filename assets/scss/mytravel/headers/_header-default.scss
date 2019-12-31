@@ -490,6 +490,17 @@
         color: $white;
         margin-bottom: 0;
     }
+
+    &-caption {
+        display: block;
+        color: $white;
+        font-size: $header-banner-title-font-sizes;
+        font-weight: $header-banner-title-font-weights;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+    }
 }
 
 /* Product Banner */

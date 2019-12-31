@@ -119,6 +119,30 @@
 			}
 		}
 	}
+	&-shadow {
+		.nav-link {
+			padding: 0.3rem 1.5rem;
+			&.active {
+				border: 1px solid #4e3268;
+				background-color: #4e3268;
+				border-radius: 3px;
+				.icon {
+					&::after {
+					    content: '';
+					    display: block; 
+					    position: absolute;
+					    bottom: -30px;
+					    left: 24px;
+					    width: 0;
+					    height: 0;
+					    border-left: 10px solid transparent;
+					    border-right: 10px solid transparent;
+					    border-bottom: 10px solid #fff;
+					}
+				}
+			}
+		}
+	}
 }
 
 

@@ -243,6 +243,18 @@
     .u-header__product-banner {
       display: none;
     }
+
+    .u-header__banner-caption {
+      position: static;
+      font-size: $header-sub-menu-nav-link-font-size;
+      color: $header-nav-link-color;
+      padding-left: $header-nav-groups-padding;
+      transform: unset;
+
+      @include hover-focus {
+        color: $primary;
+      }
+    }
   }
 }
 
@@ -252,6 +264,18 @@
     .u-header__banner,
     .u-header__product-banner {
       display: none;
+    }
+
+    .u-header__banner-caption {
+      position: static;
+      font-size: $header-sub-menu-nav-link-font-size;
+      color: $header-nav-link-color;
+      padding-left: $header-nav-groups-padding;
+      transform: unset;
+
+      @include hover-focus {
+        color: $primary;
+      }
     }
   }
 }
