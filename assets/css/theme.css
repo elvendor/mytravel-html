@@ -15547,9 +15547,11 @@ button:focus {
   position: absolute;
   width: 1px;
   height: 30px;
-  top: 16px;
   left: -1px;
   display: block;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 [class*="u-header--bg-transparent"] .u-header__topbar .u-header__topbar-nav-divider .list-inline-item + .list-inline-item .u-header__navbar-link:before {
@@ -15581,6 +15583,11 @@ button:focus {
 
 .u-header__topbar .input-group-tranparent .form-control:focus {
   padding-left: 0.625rem !important;
+}
+
+.u-header__topbar-nav-spacing--md .u-header__navbar-link {
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem;
 }
 
 .u-header .input-group-tranparent .form-control:focus {
@@ -27387,6 +27394,10 @@ Typography Font Size
   .font-size-lg-14 {
     font-size: 0.875rem;
   }
+}
+
+.font-size-25 {
+  font-size: 1.563rem;
 }
 
 @media (max-width: 575.98px) {

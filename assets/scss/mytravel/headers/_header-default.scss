@@ -40,9 +40,10 @@
                         position: absolute;
                         width: 1px;
                         height: 30px;
-                        top: 16px;
                         left: -1px;
                         display: block;
+                        top: 50%;
+                        transform: translateY(-50%);
 
                         @at-root [class*="u-header--bg-transparent"] #{&} {
                             opacity: 0.149;
@@ -79,6 +80,11 @@
 
         .input-group-tranparent .form-control:focus {
             padding-left: 0.625rem !important;
+        }
+
+        &-nav-spacing--md .u-header__navbar-link {
+            padding-top: $header-topbar-nav-link-md-paddingY;
+            padding-bottom: $header-topbar-nav-link-md-paddingY;
         }
     }
 
