@@ -25557,14 +25557,9 @@ label.btn {
   right: -5px;
 }
 
-.u-slick__arrow-classic.v1 {
+.u-slick__arrow-classic--v1 {
   color: #3d88c1;
   background-color: #fff;
-}
-
-.u-slick__arrow-classic.v1:hover {
-  color: #fff;
-  background-color: #3b444f;
 }
 
 /*------------------------------------
@@ -26466,6 +26461,10 @@ label.btn {
 }
 
 .gradient-overlay-half-bg-gradient::before {
+  background-image: linear-gradient(180deg, #1e2022 0%, transparent 50%);
+}
+
+.gradient-overlay-half-bg-gradient:hover:before {
   background-image: linear-gradient(180deg, #1e2022 0%, transparent 75%);
 }
 
@@ -27070,6 +27069,10 @@ label.btn {
 
 .shadow-none {
   box-shadow: none !important;
+}
+
+.shadow-hover-2:hover, .shadow-hover-2:active, .shadow-hover-2:focus {
+  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.27);
 }
 
 /*------------------------------------

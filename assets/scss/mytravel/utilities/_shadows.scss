@@ -13,3 +13,11 @@
 .shadow-none {
 	box-shadow: none !important;
 }
+
+.shadow-hover-2 {
+    &:hover,
+    &:active,
+    &:focus {
+        box-shadow: $box-shadow-2;
+    }
+}
