@@ -71,7 +71,7 @@ $instagram:                                                 #3f729b !default;
 $github:           																				  #24292e !default;
 $dark-blue:                                                 #0057ff !default;
 $pink:                                                      #ff567d !default;
-
+$curious-blue:                                              #297cbb !default;
 // Theme Colors
 $primary:                                                   $blue !default;
 $primary-darker:                                            $blue-darker !default;
@@ -98,6 +98,7 @@ $secondary-colors: map-merge((
   "gray":                                                   $gray-200,
   "blue":                                                   $dark-blue,
   "pink":                                                   $pink,
+  "curious":                                                $curious-blue,
 ), $secondary-colors);
 
 // Theme Colors
@@ -297,8 +298,7 @@ $box-shadow-lg:                                             0 10px 40px 10px rgb
 $box-shadow-primary-sm:                                     0 0 35px rgba($primary, .135) !default;
 $box-shadow-primary-lg:                                     0 0 50px rgba($primary, .4) !default;
 $box-shadow-soft:                                           0 3px 6px 0 rgba($gray-600, .25) !default;
-
-
+$box-shadow-1:                                              1px 1px 0px 30px rgba(78, 50, 104, 0.6);
 
 // Links
 // =========================================================

@@ -20912,6 +20912,41 @@ button:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 111, 145, 0.5);
 }
 
+/* curious */
+.btn-curious {
+  color: #fff;
+  background-color: #297cbb;
+  border-color: #297cbb;
+}
+
+.btn-curious:hover {
+  color: #fff;
+  background-color: #22679c;
+  border-color: #206091;
+}
+
+.btn-curious:focus, .btn-curious.focus {
+  box-shadow: 0 0 0 0.2rem rgba(73, 144, 197, 0.5);
+}
+
+.btn-curious.disabled, .btn-curious:disabled {
+  color: #fff;
+  background-color: #297cbb;
+  border-color: #297cbb;
+}
+
+.btn-curious:not(:disabled):not(.disabled):active, .btn-curious:not(:disabled):not(.disabled).active,
+.show > .btn-curious.dropdown-toggle {
+  color: #fff;
+  background-color: #206091;
+  border-color: #1e5987;
+}
+
+.btn-curious:not(:disabled):not(.disabled):active:focus, .btn-curious:not(:disabled):not(.disabled).active:focus,
+.show > .btn-curious.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(73, 144, 197, 0.5);
+}
+
 /*------------------------------------
   Custom Buttons
 ------------------------------------*/
@@ -21198,6 +21233,21 @@ button:focus {
 .btn-pink:hover {
   background-color: #ff567d;
   border-color: #ff567d;
+}
+
+/* curious button :hover, :focus, :active effects */
+.btn-curious[href]:hover, .btn-curious[href]:focus, .btn-curious[href]:active, .btn-curious[type]:hover, .btn-curious[type]:focus, .btn-curious[type]:active {
+  box-shadow: 0 4px 11px rgba(41, 124, 187, 0.35);
+}
+
+.btn-curious:not(label.btn), .btn-curious:not(label.btn):not([href]):not(:disabled):not(.disabled), .btn-curious:not([href]), .btn-curious:not([href]):not([href]):not(:disabled):not(.disabled) {
+  background-color: #297cbb;
+  border-color: #297cbb;
+}
+
+.btn-curious:hover {
+  background-color: #297cbb;
+  border-color: #297cbb;
 }
 
 /*------------------------------------
@@ -21800,6 +21850,36 @@ button:focus {
 
 .btn.btn-soft-pink {
   color: #ff567d;
+}
+
+/* curious air */
+.btn-soft-curious {
+  color: #297cbb;
+  background: rgba(41, 124, 187, 0.1);
+  border-color: transparent;
+}
+
+.btn-soft-curious[href]:hover, .btn-soft-curious[href]:focus, .btn-soft-curious[href]:active, .btn-soft-curious[href].active, .btn-soft-curious[type]:hover, .btn-soft-curious[type]:focus, .btn-soft-curious[type]:active, .btn-soft-curious[type].active {
+  color: #fff;
+  background: #297cbb;
+  box-shadow: 0 4px 11px rgba(41, 124, 187, 0.35);
+}
+
+.btn-soft-curious[href].disabled, .btn-soft-curious[href]:disabled, .btn-soft-curious[type].disabled, .btn-soft-curious[type]:disabled {
+  color: #297cbb;
+  background-color: rgba(41, 124, 187, 0.1);
+  box-shadow: none;
+}
+
+.btn-soft-curious[href]:not(:disabled):not(.disabled):active, .btn-soft-curious[href]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-curious[href].dropdown-toggle, .btn-soft-curious[type]:not(:disabled):not(.disabled):active, .btn-soft-curious[type]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-curious[type].dropdown-toggle {
+  color: #fff;
+  background-color: #297cbb;
+}
+
+.btn.btn-soft-curious {
+  color: #297cbb;
 }
 
 /*------------------------------------
@@ -23503,6 +23583,10 @@ label.btn {
   appearance: none;
 }
 
+.form-shadow {
+  box-shadow: 1px 1px 0px 30px rgba(78, 50, 104, 0.6);
+}
+
 /*------------------------------------
   Form Pill
 ------------------------------------*/
@@ -25041,6 +25125,29 @@ label.btn {
   border-bottom: 10px solid #fff;
 }
 
+.tab-nav-shadow .nav-link {
+  padding: 0.3rem 1.5rem;
+}
+
+.tab-nav-shadow .nav-link.active {
+  border: 1px solid #4e3268;
+  background-color: #4e3268;
+  border-radius: 3px;
+}
+
+.tab-nav-shadow .nav-link.active .icon::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 24px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
@@ -26390,6 +26497,10 @@ label.btn {
   opacity: .8;
 }
 
+.gradient-overlay-half-bg-violet::before {
+  background-color: rgba(73, 16, 128, 0.6);
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
@@ -27341,6 +27452,10 @@ Line Height
 
 .text-pink {
   color: #ff567d;
+}
+
+.text-curious {
+  color: #297cbb;
 }
 
 @media (max-width: 575.98px) {
