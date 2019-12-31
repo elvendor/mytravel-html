@@ -55,6 +55,10 @@
   &:hover {
     color: $dropdown-link-hover-color;
   }
+
+  &-dark {
+    color: $dark;
+  }
 }
 
 /* Item */
