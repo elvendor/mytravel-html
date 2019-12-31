@@ -27406,6 +27406,10 @@ Typography Font Size
   font-size: 1.563rem;
 }
 
+.font-size-80 {
+  font-size: 5rem;
+}
+
 @media (max-width: 575.98px) {
   .font-size-xs-30 {
     font-size: 1.875rem;
@@ -27442,6 +27446,22 @@ Line Height
 
 .text-lh-1 {
   line-height: 1;
+}
+
+/* section-title */
+.section-title {
+  font-size: 1.875rem;
+  color: #3b444f;
+  font-weight: 700;
+}
+
+.section-title::after {
+  display: block;
+  width: 2.5rem;
+  height: 0.125rem;
+  background-color: #377dff;
+  content: " ";
+  margin: 1.5rem auto 0;
 }
 
 /*------------------------------------
