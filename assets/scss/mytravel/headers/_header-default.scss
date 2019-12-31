@@ -40,9 +40,14 @@
                         position: absolute;
                         width: 1px;
                         height: 30px;
-                        top: 16px;
                         left: -1px;
                         display: block;
+                        top: 50%;
+                        transform: translateY(-50%);
+
+                        @at-root [class*="u-header--bg-transparent"] #{&} {
+                            opacity: 0.149;
+                        }
                     }
                 }
             }
@@ -60,6 +65,10 @@
                 top: 0;
                 left: 0;
                 display: block;
+
+                @at-root [class*="u-header--bg-transparent"] #{&} {
+                    opacity: 0.149;
+                }
             }
         }
 
@@ -71,6 +80,11 @@
 
         .input-group-tranparent .form-control:focus {
             padding-left: 0.625rem !important;
+        }
+
+        &-nav-spacing--md .u-header__navbar-link {
+            padding-top: $header-topbar-nav-link-md-paddingY;
+            padding-bottom: $header-topbar-nav-link-md-paddingY;
         }
     }
 
@@ -97,6 +111,11 @@
                         display: block;
                         transform: translateY(-50%);
                     }
+
+                    &.u-header__divider-right:before {
+                        left: unset;
+                        right: 0;
+                    }
                 }
             }
         }
@@ -118,7 +137,7 @@
 
     &.js-header-fix-moment .u-header__last-item-btn {
         .btn {
-            &:not( [class*="primary"] ) {
+            &[class*="-white"] {
                 @extend .btn-primary;
             }
         }
@@ -195,7 +214,6 @@
 
     &-text {
         font-weight: $font-weight-bold;
-        margin-top: 0.625rem;
 
         &-white {
             .u-header__navbar-brand-text {
@@ -213,7 +231,7 @@
                     &,
                     &:focus,
                     &:hover {
-                    color: $black;
+                        color: $dark;
                     }
                 }
             }
@@ -237,6 +255,10 @@
     display: inline-block;
     padding-top: $header-topbar-nav-link-paddingY;
     padding-bottom: $header-topbar-nav-link-paddingY;
+
+    @at-root .list-inline-dark #{&} {
+        color: $dark;
+    }
 }
 
 /* Nav Item */
@@ -500,6 +522,8 @@
         top: 50%;
         left: 50%;
         transform: translate( -50%, -50% );
+        width: 100%;
+        text-align: center;
     }
 }
 
