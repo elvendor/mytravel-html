@@ -250,6 +250,7 @@
       color: $header-nav-link-color;
       padding-left: $header-nav-groups-padding;
       transform: unset;
+      text-align: left;
 
       @include hover-focus {
         color: $primary;
@@ -272,6 +273,7 @@
       color: $header-nav-link-color;
       padding-left: $header-nav-groups-padding;
       transform: unset;
+      text-align: left;
 
       @include hover-focus {
         color: $primary;
