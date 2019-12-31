@@ -449,6 +449,7 @@ $header-sub-menu-title-font-weight:                         $font-weight-semi-bo
 $header-sub-menu-nav-link-icon-size:                        .6875rem !default;
 $header-banner-title-font-sizes:                            ($font-size-base * 1.5625) !default;
 $header-banner-title-font-weights:                          $font-weight-medium !default;
+$go-to-modern-font-size:                                    $font-size-base;
 
 // Borders
 $header-border-radius:                                      $border-radius !default;
@@ -556,7 +557,7 @@ $go-to-modern-font-size:                                    ($font-size-base * 1
 // Width & Heights
 $go-to-width:                                               2.5rem !default;
 $go-to-height:                                              $go-to-width !default;
-$go-to-modern-width:                                        3.5rem !default;
+$go-to-modern-width:                                        3.125rem !default;
 $go-to-modern-height:                                       $go-to-modern-width !default;
 $go-to-wave-width:                                          13.125rem !default;
 

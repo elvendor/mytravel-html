@@ -15853,7 +15853,6 @@ button:focus {
 
 .u-header__navbar-brand-text {
   font-weight: 700;
-  margin-top: 0.625rem;
 }
 
 .u-header__navbar-brand-text-white .u-header__navbar-brand-text, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:focus, .u-header__navbar-brand-text-white .u-header__navbar-brand-text:hover {
@@ -24216,9 +24215,9 @@ label.btn {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  width: 3.5rem;
-  height: 3.5rem;
-  font-size: 1.125rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  font-size: 1rem;
   color: #377dff;
   background-color: #fff;
   border-radius: 50%;
@@ -24226,6 +24225,7 @@ label.btn {
 }
 
 .u-go-to-modern .u-go-to-modern__inner {
+  font-size: 1rem;
   position: absolute;
   top: 50%;
   left: 50%;
