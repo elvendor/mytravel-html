@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <!-- End Topbar -->
-                <div id="logoAndNav" class="container-fluid py-1">
+                <div id="logoAndNav" class="container-fluid py-xl-3">
                     <!-- Nav -->
                     <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space">
                         <!-- Logo -->
@@ -106,7 +106,7 @@
                         <!-- End Responsive Toggle Button -->
 
                         <!-- Navigation -->
-                        <div id="navBar" class="navbar-collapse u-header__navbar-collapse u-header-left-aligned-nav collapse order-2 order-xl-0 pt-4 p-xl-0">
+                        <div id="navBar" class="navbar-collapse u-header__navbar-collapse u-header-left-aligned-nav collapse order-2 order-xl-0 pt-4 pt-xl-0 pl-xl-6">
                             <ul class="navbar-nav u-header__navbar-nav">
                                 <!-- Home -->
                                 <li class="nav-item u-header__nav-item">
@@ -260,6 +260,25 @@
                         </div>
                         <!-- End Navigation -->
 
+                        <!-- Search Form -->
+                        <div class="position-relative u-header__search-xl">
+                            <a id="searchClassicInvoker" class="btn btn-xs btn-icon btn-text-dark" href="javascript:;" role="button" aria-controls="searchClassic" aria-haspopup="true" aria-expanded="false" data-unfold-target="#searchClassic" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                                <span class="flaticon-magnifying-glass-1 btn-icon__inner"></span>
+                            </a>
+
+                            <!-- Input -->
+                            <div id="searchClassic" class="dropdown-menu dropdown-unfold dropdown-menu-right u-unfold--css-animation u-unfold--hidden" aria-labelledby="searchClassicInvoker">
+                                <form class="js-focus-state input-group px-3" style="width: 370px;">
+                                    <input class="form-control" type="search" placeholder="Search MyTour">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-primary" type="button">Search</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- End Input -->
+                        </div>
+                        <!-- Search Form -->
+
                         <!-- Shopping Cart -->
                         <div class="pl-2 pl-md-4 ml-auto shopping-cart">
                             <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-dark" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
@@ -275,7 +294,7 @@
                         <!-- End Shopping Cart -->
 
                         <!-- Button -->
-                        <div class="pl-4 ml-1 u-header__last-item-btn u-header__last-item-btn-xxl">
+                        <div class="pl-4 ml-2 u-header__last-item-btn u-header__last-item-btn-xxl">
                             <a class="btn btn-wide rounded-xs btn-dark transition-3d-hover" href="#" target="_blank">Become Local Expert</a>
                         </div>
                         <!-- End Button -->

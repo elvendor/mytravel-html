@@ -137,7 +137,7 @@
 
     &.js-header-fix-moment .u-header__last-item-btn {
         .btn {
-            &:not( [class*="primary"] ) {
+            &[class*="-white"] {
                 @extend .btn-primary;
             }
         }
