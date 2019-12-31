@@ -2,8 +2,7 @@
   Background Overlay Gradients
 ------------------------------------*/
 
-[class*="gradient-overlay-half"],
-.destinantion-bg-gradient {
+[class*="gradient-overlay-half"] {
 	position: relative;
 	z-index: 1;
 
@@ -69,21 +68,21 @@
 	}
 }
 
-.pink-gradient,
-.yellow-gradient {
+.gradient-overlay-half-pink-gradient,
+.gradient-overlay-half-yellow-gradient {
 	&:hover:before {
 		opacity: 0.7;
 		background-image: none;
 	}
 }
 
-.pink-gradient {
+.gradient-overlay-half-pink-gradient {
 	&:hover:before {
 		background-color: #C72F74;
 	}
 }
 
-.yellow-gradient {
+.gradient-overlay-half-yellow-gradient {
 	&:hover:before {
 		background-color: #ff9500;
 	}
