@@ -40,12 +40,13 @@ $gray-400:                                                  #bdc5d1 !default;
 $gray-500:                                                  #97a4af !default;
 $gray-600:                                                  #8c98a4 !default;
 $gray-700:                                                  #77838f !default;
-$gray-900:                                                  #1e2022 !default;
+$gray-900:                                                  #3b444f !default;
 $gray-1:                                                    #67747c !default;
 $gray-2:                                                    #eaeaea !default;
 $gray-3:                                                    #ebf0f7 !default;
 $gray-4:                                                    #fefeff !default;
 $gray-5:                                                    #f9f9f9 !default;
+
 
 // Colors
 $white:                                                     #fff !default;
@@ -69,7 +70,6 @@ $twitter:                                                   #1da1f2 !default;
 $instagram:                                                 #3f729b !default;
 $github:           																				  #24292e !default;
 $dark-blue:                                                 #0057ff !default;
-$black:                                                     #3b444f !default;
 $pink:                                                      #ff567d !default;
 $curious-blue:                                              #297cbb !default;
 $soft-orange:                                              #eeb758 !default;
@@ -108,7 +108,8 @@ $secondary-colors: map-merge((
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "white":                                                  $white,
-  "indigo":  																			          $indigo
+  "indigo":  																			          $indigo,
+  "gray":                                                   $gray-3
 ), $theme-colors);
 // stylelint-enable
 
@@ -302,6 +303,10 @@ $box-shadow-primary-sm:                                     0 0 35px rgba($prima
 $box-shadow-primary-lg:                                     0 0 50px rgba($primary, .4) !default;
 $box-shadow-soft:                                           0 3px 6px 0 rgba($gray-600, .25) !default;
 $box-shadow-1:                                              1px 1px 0px 30px rgba(78, 50, 104, 0.6);
+$box-shadow-2:                                              10px 10px 5px -4px rgba(0,0,0,0.27);
+
+                                                            
+
 
 // Links
 // =========================================================
@@ -392,7 +397,7 @@ $nav-classic-border-width:                                  1px !default;
 $nav-classic-border-color:                                  $gray-300 !default;
 $nav-rounded-border-radius:                                 $border-radius !default;
 $header-divider-color:                                      $gray-3 !default;
-$header-topbar-nav-link-divider-color:                      rgba( $white, 0.149 ) !default;
+$header-topbar-nav-link-divider-color:                      $white !default;
 
 // Width & Heights
 $nav-icon-width:                                            ($font-size-base * 4) !default;
@@ -448,6 +453,7 @@ $header-sub-menu-title-font-weight:                         $font-weight-semi-bo
 $header-sub-menu-nav-link-icon-size:                        .6875rem !default;
 $header-banner-title-font-sizes:                            ($font-size-base * 1.5625) !default;
 $header-banner-title-font-weights:                          $font-weight-medium !default;
+$go-to-modern-font-size:                                    $font-size-base;
 
 // Borders
 $header-border-radius:                                      $border-radius !default;
@@ -467,6 +473,7 @@ $header-promo-margin-x:                                     $header-nav-groups-p
 $header-navbar-paddingY:                                    .25rem !default;
 $header-topbar-nav-link-paddingX:                           1.281rem !default;
 $header-topbar-nav-link-paddingY:                           1.219rem !default;
+$header-topbar-nav-link-md-paddingY:                        0.875rem !default;
 $header-navbar-brand-padding-top:                           1rem !default;
 $header-navbar-nav-paddingY:                                .625rem !default;
 $header-navbar-nav-paddingY-responsive:                     0 !default;
@@ -554,7 +561,7 @@ $go-to-modern-font-size:                                    ($font-size-base * 1
 // Width & Heights
 $go-to-width:                                               2.5rem !default;
 $go-to-height:                                              $go-to-width !default;
-$go-to-modern-width:                                        3.5rem !default;
+$go-to-modern-width:                                        3.125rem !default;
 $go-to-modern-height:                                       $go-to-modern-width !default;
 $go-to-wave-width:                                          13.125rem !default;
 
