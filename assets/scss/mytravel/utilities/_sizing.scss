@@ -165,6 +165,15 @@
   min-height: 38.75rem;
 }
 
+.min-height-750 {
+    @include media-breakpoint-down(lg) {
+        min-height: 30rem;
+    }
+    @include media-breakpoint-up(xl) {
+        min-height: 46.875rem;
+    }
+}
+
 .min-height-800 {
     @include media-breakpoint-down(lg) {
         min-height: 30rem;
@@ -184,7 +193,12 @@
 }
 
 .min-height-955 {
-  min-height: 59.688rem;
+     @include media-breakpoint-down(lg) {
+        min-height: 30rem;
+    }
+    @include media-breakpoint-up(xl) {
+        min-height: 59.688rem;
+    }
 }
 
 // Small Devices

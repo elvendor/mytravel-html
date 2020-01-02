@@ -36,13 +36,13 @@
   <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
     <!-- Hero Section -->
-    <div class=" bg-img-hero-bottom position-relative min-height-800 space-2 space-top-xl-5" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
+    <div class="bg-img-hero-bottom position-relative min-height-800 space-2 text-center space-top-xl-5" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
         <div class="container">
                 <div class="row justify-content-md-center w-100 py-xl-11">
                     <!-- Info -->
                     <div class="pl-3 py-xl-9 pb-5">
-                        <h1 class="font-size-60 font-size-xs-30 text-white text-center font-weight-bold">Let's The World Together!</h1>
-                        <p class="font-size-20 font-weight-normal text-white text-center">Find awesome hotel, tour, car and activities in London</p>
+                        <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Let's The World Together!</h1>
+                        <p class="font-size-20 font-weight-normal text-white">Find awesome hotel, tour, car and activities in London</p>
                     </div>
                     <!-- End Info -->
                 </div>
@@ -131,7 +131,7 @@
                                       <div class="row d-block d-lg-flex mb-lg-3 px-3">
                                         <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
                                             <!-- Input -->
-                                            <span class="d-block text-gray-1 font-weight-normal mb-0">Destination or Hotel Name</span>
+                                            <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
                                             <div class="js-focus-state">
                                                 <div class="input-group border-bottom border-width-2 border-color-1">
                                                     <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-blue font-weight-semi-bold"></i>
@@ -143,7 +143,7 @@
 
                                         <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
                                             <!-- Input -->
-                                            <span class="d-block text-gray-1 font-weight-normal mb-0">Check In - Out</span>
+                                            <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Check In - Out</span>
                                             <div class="border-bottom border-width-2 border-color-1">
                                                 <div id="datepickerWrapperFrom" class="u-datepicker input-group">
                                                     <div class="input-group-prepend">
@@ -164,7 +164,7 @@
 
                                         <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
                                             <!-- Input -->
-                                            <span class="d-block text-gray-1 font-weight-normal mb-0">Rooms and Guests</span>
+                                            <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Rooms and Guests</span>
                                             <div class="js-focus-state">
                                                 <div class="d-flex border-bottom border-width-2 border-color-1 dropdown-toggle align-items-center">
                                                     <i class="flaticon-plus d-flex align-items-center mr-2 text-blue font-weight-semi-bold"></i>
@@ -180,7 +180,7 @@
                                             <!-- End Input -->
                                         </div>
 
-                                        <div class="col-sm-12 col-lg-1dot9 align-self-lg-end">
+                                        <div class="col-sm-12 col-lg-1dot9 text-left align-self-lg-end">
                                             <button type="submit" class="btn btn-blue btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
                                         </div>
                                       </div>
@@ -480,34 +480,34 @@
     <!-- JS Plugins Init. -->
     <script>
         $(window).on('load', function () {
-          // initialization of HSMegaMenu component
-          $('.js-mega-menu').HSMegaMenu({
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
             event: 'hover',
             pageContainer: $('.container'),
             breakpoint: 767.98,
             hideTimeOut: 0
-          });
+            });
 
-          // initialization of svg injector module
-          $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
         });
 
         $(document).on('ready', function () {
-          // initialization of header
-          $.HSCore.components.HSHeader.init($('#header'));
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
 
-          // initialization of unfold component
-          $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+            // initialization of unfold component
+            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-          // initialization of fancybox
-          $.HSCore.components.HSFancyBox.init('.js-fancybox');
+            // initialization of fancybox
+            $.HSCore.components.HSFancyBox.init('.js-fancybox');
 
-          // initialization of go to
-          $.HSCore.components.HSGoTo.init('.js-go-to');
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
 
-          $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
-          $.HSCore.components.HSSelectPicker.init('.js-select');
+            $.HSCore.components.HSSelectPicker.init('.js-select');
         });
     </script>
 </body>
