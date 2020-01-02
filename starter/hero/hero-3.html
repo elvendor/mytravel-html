@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
     <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
+    <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
 
 
     <!-- CSS MyTravel Template -->
@@ -35,12 +36,12 @@
   <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
     <!-- Hero Section -->
-        <div class="position-relative bg-img-hero-bottom gradient-overlay-half-bg-violet space-2 space-lg-4" style="background-image: url(../../assets/img/1920x955/img1.jpg);">
+        <div class="position-relative bg-img-hero-bottom gradient-overlay-half-bg-violet space-top-2 space-lg-9" style="background-image: url(../../assets/img/1920x955/img1.jpg);">
             <div class="container">
                 <div class="d-md-flex align-items-lg-center text-center">
-                    <div class="row justify-content-md-center w-100 pb-xl-9">
+                    <div class="row justify-content-md-center w-100 pb-xl-10">
                         <!-- Info -->
-                        <div class="mx-3 mb-xl-11 mt-xl-4 mb-5">
+                        <div class="px-3 pt-6 pb-4">
                           <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Discover great tour in London</h1>
                           <p class="font-size-20 font-weight-normal text-white ml-3">Find awesome hotel, tour, car and activities in London</p>
                         </div>
@@ -48,9 +49,9 @@
                     </div>
                 </div>
                 <div class="position-lg-absolute right-0 bottom-0 left-0 mb-6">
-                    <div class="col-md-11 col-xxxl-8 mx-auto p-0">
+                    <div class="col-md-11 col-xxxl-8dot4 mx-auto pb-7">
                         <!-- Nav Classic -->
-                            <ul class="nav tab-nav flex-nowrap tab-nav-shadow pb-4 pb-xl-0 justify-content-start" role="tablist">
+                            <ul class="nav tab-nav flex-nowrap tab-nav-shadow justify-content-start" role="tablist">
                                 <li class="nav-item">
                                     <a class="nav-link font-weight-medium active" id="pills-one-example2-tab" data-toggle="pill" href="#pills-one-example2" role="tab" aria-controls="pills-one-example2" aria-selected="true">
                                         <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
@@ -136,7 +137,7 @@
                                                     <span class="d-block text-gray-1 font-weight-normal mb-0">Destination or Hotel Name</span>
                                                     <div class="js-focus-state">
                                                         <div class="input-group border-bottom border-width-2 border-color-1">
-                                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-pink font-weight-semi-bold"></i>
+                                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-orange font-weight-semi-bold"></i>
                                                           <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                                         </div>
                                                     </div>
@@ -146,11 +147,20 @@
                                                 <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
                                                     <!-- Input -->
                                                     <span class="d-block text-gray-1 font-weight-normal mb-0">Check In - Out</span>
-                                                    <div class="js-focus-state">
-                                                        <div class="input-group border-bottom border-width-2 border-color-1">
-                                                            <i class="flaticon-calendar d-flex align-items-center mr-2 text-pink font-weight-semi-bold"></i>
-                                                            <input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-orange font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                             <input class="js-range-datepicker shadow-none font-weight-semi-bold form-control hero-form bg-transparent rounded-right border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="m/d/y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
                                                         </div>
+                                                         <!-- End Datepicker -->
                                                     </div>
                                                     <!-- End Input -->
                                                 </div>
@@ -160,7 +170,7 @@
                                                     <span class="d-block text-gray-1 font-weight-normal mb-0">Rooms and Guests</span>
                                                     <div class="js-focus-state">
                                                         <div class="d-flex border-bottom border-width-2 border-color-1 dropdown-toggle align-items-center">
-                                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-pink font-weight-semi-bold"></i>
+                                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-orange font-weight-semi-bold"></i>
                                                             <select class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0">
                                                                 <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
                                                                 <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
@@ -173,7 +183,7 @@
                                                 </div>
 
                                                 <div class="col-sm-12 col-lg-1dot9 align-self-lg-end">
-                                                    <button type="submit" class="btn btn-pink btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                    <button type="submit" class="btn btn-orange text-white font-weight-bold btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
                                                 </div>
                                               </div>
                                               <!-- End Checkbox -->
@@ -313,7 +323,7 @@
                                                                         &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Destination or Hotel Name&lt;/span&gt;
                                                                         &lt;div class="js-focus-state"&gt;
                                                                             &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-pink font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                                &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-orange font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                               &lt;input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon"&gt;
                                                                             &lt;/div&gt;
                                                                         &lt;/div&gt;
@@ -325,7 +335,7 @@
                                                                         &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Check In - Out&lt;/span&gt;
                                                                         &lt;div class="js-focus-state"&gt;
                                                                             &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;i class="flaticon-calendar d-flex align-items-center mr-2 text-pink font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                                &lt;i class="flaticon-calendar d-flex align-items-center mr-2 text-orange font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                                 &lt;input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon"&gt;
                                                                             &lt;/div&gt;
                                                                         &lt;/div&gt;
@@ -337,7 +347,7 @@
                                                                         &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Rooms and Guests&lt;/span&gt;
                                                                         &lt;div class="js-focus-state"&gt;
                                                                             &lt;div class="d-flex border-bottom border-width-2 border-color-1 "&gt;
-                                                                                &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-pink font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                                &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-orange font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                                 &lt;select class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0"&gt;
                                                                                     &lt;option value="2 Rooms - 3 Guests" selected&gt;2 Rooms - 3 Guests&lt;/option&gt;
                                                                                     &lt;option value="2 Rooms - 3 Guests"&gt;2 Rooms - 4 Guests&lt;/option&gt;
@@ -447,6 +457,7 @@
   <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
   <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
   <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+  <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
 
   <!-- JS Implementing Plugins -->
   <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
@@ -466,6 +477,7 @@
   <script src="../../assets/js/components/hs.fancybox.js"></script>
   <script src="../../assets/js/components/hs.svg-injector.js"></script>
   <script src="../../assets/js/components/hs.go-to.js"></script>
+  <script src="../../assets/js/components/hs.range-datepicker.js"></script>
 
   <!-- JS Plugins Init. -->
   <script>
@@ -494,6 +506,8 @@
 
       // initialization of go to
       $.HSCore.components.HSGoTo.init('.js-go-to');
+
+      $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
     });
   </script>
 </body>

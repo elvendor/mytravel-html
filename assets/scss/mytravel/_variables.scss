@@ -72,6 +72,8 @@ $dark-blue:                                                 #0057ff !default;
 $black:                                                     #3b444f !default;
 $pink:                                                      #ff567d !default;
 $curious-blue:                                              #297cbb !default;
+$soft-orange:                                              #eeb758 !default;
+
 // Theme Colors
 $primary:                                                   $blue !default;
 $primary-darker:                                            $blue-darker !default;
@@ -99,6 +101,7 @@ $secondary-colors: map-merge((
   "blue":                                                   $dark-blue,
   "pink":                                                   $pink,
   "curious":                                                $curious-blue,
+  "orange":                                                 $soft-orange,
 ), $secondary-colors);
 
 // Theme Colors
@@ -148,7 +151,8 @@ $content-spacers: map-merge((
   2: ($content-space * 4),
   3: ($content-space * 8),
   4: ($content-space * 12.5),
-  5: ($content-space * 15)
+  5: ($content-space * 15),
+  9: ($content-space * 19),
 ), $content-spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.

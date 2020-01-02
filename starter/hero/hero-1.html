@@ -21,7 +21,8 @@
     <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
     <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
-
+    <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
 
     <!-- CSS MyTravel Template -->
     <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -35,18 +36,16 @@
   <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
     <!-- Hero Section -->
-    <div class="position-relative bg-img-hero-bottom space-2 space-lg-3 space-top-lg-5" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
+    <div class=" bg-img-hero-bottom position-relative min-height-800 space-2 space-top-xl-5" style="background-image: url(../../assets/img/1920x800/img1.jpg);">
         <div class="container">
-            <div class="d-md-flex align-items-lg-center text-center">
                 <div class="row justify-content-md-center w-100 py-xl-11">
                     <!-- Info -->
-                    <div class="ml-3 my-xl-9 mb-5">
-                      <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Let's The World Together!</h1>
-                      <p class="font-size-20 font-weight-normal text-white ml-3">Find awesome hotel, tour, car and activities in London</p>
+                    <div class="pl-3 py-xl-9 pb-5">
+                        <h1 class="font-size-60 font-size-xs-30 text-white text-center font-weight-bold">Let's The World Together!</h1>
+                        <p class="font-size-20 font-weight-normal text-white text-center">Find awesome hotel, tour, car and activities in London</p>
                     </div>
                     <!-- End Info -->
                 </div>
-            </div>
             <div class="position-lg-absolute right-0 bottom-n70 left-0">
                 <div class="col-md-11 col-xxxl-8 mx-auto p-0">
                     <!-- Nav Classic -->
@@ -145,11 +144,20 @@
                                         <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
                                             <!-- Input -->
                                             <span class="d-block text-gray-1 font-weight-normal mb-0">Check In - Out</span>
-                                            <div class="js-focus-state">
-                                                <div class="input-group border-bottom border-width-2 border-color-1">
-                                                    <i class="flaticon-calendar d-flex align-items-center mr-2 text-blue font-weight-semi-bold"></i>
-                                                    <input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon">
+                                            <div class="border-bottom border-width-2 border-color-1">
+                                                <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="d-flex align-items-center mr-2">
+                                                          <i class="flaticon-calendar text-blue font-weight-semi-bold"></i>
+                                                        </span>
+                                                    </div>
+                                                     <input class="js-range-datepicker shadow-none font-weight-semi-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                         data-rp-wrapper="#datepickerWrapper"
+                                                         data-rp-type="range"
+                                                         data-rp-date-format="m/d/y"
+                                                         data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
                                                 </div>
+                                                 <!-- End Datepicker -->
                                             </div>
                                             <!-- End Input -->
                                         </div>
@@ -157,10 +165,10 @@
                                         <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
                                             <!-- Input -->
                                             <span class="d-block text-gray-1 font-weight-normal">Rooms and Guests</span>
-                                            <div class="d-flex border-bottom border-width-2 border-color-1 dropdown-toggle align-items-center">
+                                            <div class="d-flex border-bottom border-width-2 border-color-1 align-items-center">
                                                 <i class="flaticon-plus d-flex align-items-center mr-2 text-blue font-weight-semi-bold"></i>
-                                                <select class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0">
-                                                    <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                <select class="js-select shadow-none selectpicker dropdown-select font-size-lg-14 hero-form font-weight-bold">
+                                                  <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
                                                     <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
                                                     <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
                                                     <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
@@ -436,59 +444,68 @@
   </a>
   <!-- End Go to Top -->
 
-  <!-- JS Global Compulsory -->
-  <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
-  <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
-  <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <!-- JS Global Compulsory -->
+    <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
+    <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
 
-  <!-- JS Implementing Plugins -->
-  <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-  <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-  <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-  <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
-  <script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
-  <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
-  <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
-  <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
-  <script src="../../documentation/assets/vendor/prism/prism.js"></script>
 
-  <!-- JS Front -->
-  <script src="../../assets/js/hs.core.js"></script>
-  <script src="../../assets/js/components/hs.header.js"></script>
-  <script src="../../assets/js/components/hs.unfold.js"></script>
-  <script src="../../assets/js/components/hs.fancybox.js"></script>
-  <script src="../../assets/js/components/hs.svg-injector.js"></script>
-  <script src="../../assets/js/components/hs.go-to.js"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
+    <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+    <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
+    <script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
+    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
+    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
+    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+    <script src="../../documentation/assets/vendor/prism/prism.js"></script>
+    <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
-  <!-- JS Plugins Init. -->
-  <script>
-    $(window).on('load', function () {
-      // initialization of HSMegaMenu component
-      $('.js-mega-menu').HSMegaMenu({
-        event: 'hover',
-        pageContainer: $('.container'),
-        breakpoint: 767.98,
-        hideTimeOut: 0
-      });
+    <!-- JS Front -->
+    <script src="../../assets/js/hs.core.js"></script>
+    <script src="../../assets/js/components/hs.header.js"></script>
+    <script src="../../assets/js/components/hs.unfold.js"></script>
+    <script src="../../assets/js/components/hs.fancybox.js"></script>
+    <script src="../../assets/js/components/hs.svg-injector.js"></script>
+    <script src="../../assets/js/components/hs.go-to.js"></script>
+    <script src="../../assets/js/components/hs.range-datepicker.js"></script>
+    <script src="../../assets/js/components/hs.selectpicker.js"></script>
 
-      // initialization of svg injector module
-      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    });
+    <!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+          // initialization of HSMegaMenu component
+          $('.js-mega-menu').HSMegaMenu({
+            event: 'hover',
+            pageContainer: $('.container'),
+            breakpoint: 767.98,
+            hideTimeOut: 0
+          });
 
-    $(document).on('ready', function () {
-      // initialization of header
-      $.HSCore.components.HSHeader.init($('#header'));
+          // initialization of svg injector module
+          $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
 
-      // initialization of unfold component
-      $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+        $(document).on('ready', function () {
+          // initialization of header
+          $.HSCore.components.HSHeader.init($('#header'));
 
-      // initialization of fancybox
-      $.HSCore.components.HSFancyBox.init('.js-fancybox');
+          // initialization of unfold component
+          $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-      // initialization of go to
-      $.HSCore.components.HSGoTo.init('.js-go-to');
-    });
-  </script>
+          // initialization of fancybox
+          $.HSCore.components.HSFancyBox.init('.js-fancybox');
+
+          // initialization of go to
+          $.HSCore.components.HSGoTo.init('.js-go-to');
+
+          $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+
+          $.HSCore.components.HSSelectPicker.init('.js-select');
+        });
+    </script>
 </body>
 </html>
