@@ -201,6 +201,15 @@
     }
 }
 
+.min-height-960 {
+     @include media-breakpoint-down(xl) {
+        min-height: 32rem;
+    }
+    @include media-breakpoint-up(xxl) {
+        min-height: 60rem;
+    }
+}
+
 // Small Devices
 @include media-breakpoint-up(sm) {
   .height-sm-100vh {
