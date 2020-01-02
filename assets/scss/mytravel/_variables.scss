@@ -45,80 +45,88 @@ $container-max-widths: (
 // Color System
 // =========================================================
 
-// stylelint-disable
-// Grays
-$gray-200:                                                  #f8fafd !default;
-$gray-300:                                                  #e7eaf3 !default;
-$gray-400:                                                  #bdc5d1 !default;
-$gray-500:                                                  #97a4af !default;
-$gray-600:                                                  #8c98a4 !default;
-$gray-700:                                                  #77838f !default;
-$gray-900:                                                  #3b444f !default;
-$gray-1:                                                    #67747c !default;
-$gray-2:                                                    #eaeaea !default;
-$gray-3:                                                    #ebf0f7 !default;
-$gray-4:                                                    #fefeff !default;
-$gray-5:                                                    #f9f9f9 !default;
+    // stylelint-disable
+    // Grays
+    $gray-200:                                                  #f8fafd !default;
+    $gray-300:                                                  #e7eaf3 !default;
+    $gray-400:                                                  #bdc5d1 !default;
+    $gray-500:                                                  #97a4af !default;
+    $gray-600:                                                  #8c98a4 !default;
+    $gray-700:                                                  #77838f !default;
+    $gray-900:                                                  #3b444f !default;
+    $gray-1:                                                    #67747c !default;
+    $gray-2:                                                    #eaeaea !default;
+    $gray-3:                                                    #ebf0f7 !default;
+    $gray-4:                                                    #fefeff !default;
+    $gray-5:                                                    #f9f9f9 !default;
 
 
-// Colors
-$white:                                                     #fff !default;
-$dark:                                                      $gray-900 !default;
-$blue:                                                      #377dff !default;
-$blue-darker:                                               #196eff !default;
-$blue-lighter:                                              #19a0ff !default;
-$teal:                                                      #00c9a7 !default;
-$teal-lighter:                                              #13d7b6 !default;
-$cyan:                                                      #00dffc !default;
-$cyan-lighter:                                              #55eafe !default;
-$yellow:                                                    #ffc107 !default;
-$yellow-darker:                                             #efa02e !default;
-$yellow-lighter:                                            #fdd14e !default;
-$red:                                                       #de4437 !default;
-$red-lighter:                                               #ec5245 !default;
-$indigo:                                                    #2d1582 !default;
-$facebook:           																			  #3b5998 !default;
-$google:                                                    #d14130 !default;
-$twitter:                                                   #1da1f2 !default;
-$instagram:                                                 #3f729b !default;
-$github:           																				  #24292e !default;
-$dark-blue:                                                 #0057ff !default;
-$pink:                                                      #ff567d !default;
-$curious-blue:                                              #297cbb !default;
-// Theme Colors
-$primary:                                                   $blue !default;
-$primary-darker:                                            $blue-darker !default;
-$primary-lighter:          																  $blue-lighter !default;
-$secondary:                                                 $gray-700 !default;
-$success:                                                   $teal !default;
-$success-lighter:          																  $teal-lighter !default;
-$info:                                                      $cyan !default;
-$info-lighter:           																	  $cyan-lighter !default;
-$warning:                                                   $yellow !default;
-$warning-darker:                                            $yellow-darker !default;
-$warning-lighter:                                           $yellow-lighter !default;
-$danger:                                                    $red !default;
-$danger-lighter:           																  $red-lighter !default;
+    // Colors
+    $white:                                                     #fff !default;
+    $dark:                                                      $gray-900 !default;
+    $blue:                                                      #377dff !default;
+    $blue-darker:                                               #196eff !default;
+    $blue-lighter:                                              #19a0ff !default;
+    $teal:                                                      #00c9a7 !default;
+    $teal-lighter:                                              #13d7b6 !default;
+    $cyan:                                                      #00dffc !default;
+    $cyan-lighter:                                              #55eafe !default;
+    $yellow:                                                    #ffc107 !default;
+    $yellow-darker:                                             #efa02e !default;
+    $yellow-lighter:                                            #fdd14e !default;
+    $red:                                                       #de4437 !default;
+    $red-lighter:                                               #ec5245 !default;
+    $indigo:                                                    #2d1582 !default;
+    $facebook:           										#3b5998 !default;
+    $google:                                                    #d14130 !default;
+    $twitter:                                                   #1da1f2 !default;
+    $instagram:                                                 #3f729b !default;
+    $github:           											#24292e !default;
+    $dark-blue:                                                 #0057ff !default;
+    $pink:                                                      #ff567d !default;
+    $curious-blue:                                              #297cbb !default;
+    $soft-orange:                                               #eeb758 !default;
+    $space:                                                     #ff9500 !default;
+    $sapphire:                                                  #002568 !default;
+
+
+    // Theme Colors
+    $primary:                                                   $blue !default;
+    $primary-darker:                                            $blue-darker !default;
+    $primary-lighter:          									$blue-lighter !default;
+    $secondary:                                                 $gray-700 !default;
+    $success:                                                   $teal !default;
+    $success-lighter:          									$teal-lighter !default;
+    $info:                                                      $cyan !default;
+    $info-lighter:           									$cyan-lighter !default;
+    $warning:                                                   $yellow !default;
+    $warning-darker:                                            $yellow-darker !default;
+    $warning-lighter:                                           $yellow-lighter !default;
+    $danger:                                                    $red !default;
+    $danger-lighter:           									$red-lighter !default;
 
 // Social Network Colors
 $secondary-colors: () !default;
 $secondary-colors: map-merge((
-  "facebook":                                               $facebook,
-  "google":                                                 $google,
-  "twitter":                                                $twitter,
-  "instagram":                                              $instagram,
-  "github":                                                 $github,
-  "gray":                                                   $gray-200,
-  "blue":                                                   $dark-blue,
-  "pink":                                                   $pink,
-  "curious":                                                $curious-blue,
+    "facebook":                                               $facebook,
+    "google":                                                 $google,
+    "twitter":                                                $twitter,
+    "instagram":                                              $instagram,
+    "github":                                                 $github,
+    "gray":                                                   $gray-200,
+    "blue":                                                   $dark-blue,
+    "pink":                                                   $pink,
+    "curious":                                                $curious-blue,
+    "orange":                                                 $soft-orange,
+    "space":                                                  $space,
+    "sapphire":                                               $sapphire,
 ), $secondary-colors);
 
 // Theme Colors
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "white":                                                  $white,
-  "indigo":  																			          $indigo,
+  "indigo":  												$indigo,
   "gray":                                                   $gray-3
 ), $theme-colors);
 // stylelint-enable
@@ -172,7 +180,9 @@ $content-spacers: map-merge((
   2: ($content-space * 4),
   3: ($content-space * 8),
   4: ($content-space * 12.5),
-  5: ($content-space * 15)
+  5: ($content-space * 15),
+  9: ($content-space * 19),
+  10: ($content-space * 25),
 ), $content-spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
