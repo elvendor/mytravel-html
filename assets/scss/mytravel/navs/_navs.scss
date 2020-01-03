@@ -143,6 +143,16 @@
 			}
 		}
 	}
+	&-inner {
+		.nav-link {
+			padding: 0.3rem 1rem;
+			&.active {
+				border: 1px solid #fddc95;
+				background-color: #fddc95;
+				border-radius: 3px;
+			}
+		}
+	}
 }
 
 
