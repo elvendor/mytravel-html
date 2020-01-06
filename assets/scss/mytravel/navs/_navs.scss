@@ -64,10 +64,6 @@
 
 
 .tab-nav {
-	@include media-breakpoint-down(xl) {
-		overflow-x: auto;
-		overflow-y:	hidden; 
-	}
 	&-rounded {
 		.nav-link {
 			padding: 0.5rem 1.5rem;
