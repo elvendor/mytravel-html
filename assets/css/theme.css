@@ -25543,10 +25543,6 @@ label.btn {
   background-color: rgba(255, 255, 255, 0.3) !important;
 }
 
-.form-shadow {
-  box-shadow: 1px 1px 0px 30px rgba(78, 50, 104, 0.6);
-}
-
 /*------------------------------------
   Form Pill
 ------------------------------------*/
@@ -27030,13 +27026,6 @@ label.btn {
 
 .nav .nav-item:not(:last-child) {
   margin-right: .25rem;
-}
-
-@media (max-width: 1479.98px) {
-  .tab-nav {
-    overflow-x: auto;
-    overflow-y: hidden;
-  }
 }
 
 .tab-nav-rounded .nav-link {
@@ -29303,7 +29292,7 @@ label.btn {
 }
 
 .shadow-hover-2:hover, .shadow-hover-2:active, .shadow-hover-2:focus {
-  box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.27);
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
 }
 
 /*------------------------------------
