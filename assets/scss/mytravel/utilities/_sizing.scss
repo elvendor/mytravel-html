@@ -169,6 +169,15 @@
   min-height: 38.75rem;
 }
 
+.min-height-650 {
+  @include media-breakpoint-down(lg) {
+        min-height: 25rem;
+    }
+    @include media-breakpoint-up(xl) {
+        min-height: 40.625rem;
+    }
+}
+
 .min-height-750 {
     @include media-breakpoint-down(lg) {
         min-height: 30rem;
