@@ -35,3 +35,14 @@
     margin-bottom: .5rem;
   }
 }
+
+.nav-select {
+    .bootstrap-select {
+        button {
+            background-color: $white !important;
+            border: none;
+            font-weight: bold;
+            padding-bottom: 14px;
+        }
+    }
+}

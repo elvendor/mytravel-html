@@ -93,3 +93,7 @@
 		@include border-radius($border-rounded-radius);
 	}
 }
+
+.border-radius-2 {
+	border-radius: 2px !important;
+}

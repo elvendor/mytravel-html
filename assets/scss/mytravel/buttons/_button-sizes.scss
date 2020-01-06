@@ -29,6 +29,12 @@
         height:$btn-height-normal;
     }
 }
+
+.btn-md {
+    @include media-breakpoint-up(xl) {
+        width:$btn-width-medium;
+    }
+}
 /* Icons */
 .btn-icon {
 	&.btn-xs {
