@@ -137,9 +137,16 @@ div.code-toolbar > .toolbar a:hover {
   font-size: 1.75rem;
   line-height: 1;
 }
+
+@media (min-width: 767px) and (max-width:1023px) {
+    .u-header--starter .u-header__navbar-brand-text {
+        font-size: 1rem;
+    }
+}
+
 @media (max-width: 767px) {
   .u-header--starter .u-header__navbar-brand-text {
-    color: #377dff;
+    color: #0057ff;
   }
   .u-header--starter .u-header--starter__badge {
     color: #1e2022;

@@ -165,12 +165,49 @@
   min-height: 38.75rem;
 }
 
+.min-height-750 {
+    @include media-breakpoint-down(lg) {
+        min-height: 30rem;
+    }
+    @include media-breakpoint-up(xl) {
+        min-height: 46.875rem;
+    }
+}
+
 .min-height-800 {
-  min-height: 50rem;
+    @include media-breakpoint-down(lg) {
+        min-height: 30rem;
+    }
+    @include media-breakpoint-up(xl) {
+        min-height: 50rem;
+    }
+}
+
+.min-height-720 {
+    @include media-breakpoint-down(md) {
+        min-height: 26rem;
+    }
+    @include media-breakpoint-up(lg) {
+        min-height: 45rem;
+    }
 }
 
 .min-height-955 {
-  min-height: 59.688rem;
+     @include media-breakpoint-down(lg) {
+        min-height: 30rem;
+    }
+    @include media-breakpoint-up(xl) {
+        min-height: 59.688rem;
+    }
+}
+
+.min-height-960 {
+     @include media-breakpoint-down(xl) {
+        min-height: 32rem;
+    }
+    @include media-breakpoint-up(xxl) {
+        min-height: 60rem;
+    }
 }
 
 // Small Devices

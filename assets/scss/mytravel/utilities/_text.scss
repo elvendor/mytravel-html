@@ -1,25 +1,30 @@
 /*------------------------------------
 Typography Font Size
 ------------------------------------*/
+//$h1-font-size:                  $font-size-base * 2.5 !default;  //40px .font-size-4
+//$h2-font-size:                  $font-size-base * 2 !default;    //32px .font-size-3
+//$h3-font-size:                  $font-size-base * 1.75 !default; //28px
+//$h4-font-size:                  $font-size-base * 1.5 !default;  //24px .font-size-2
+//$h5-font-size:                  $font-size-base * 1.25 !default; //20px
 
 .font-size-1 {
-    font-size: ($font-size-base * .875);
+    font-size: ($font-size-base * .875); //14px
 }
 
 .font-size-2 {
-    font-size: ($font-size-base * 1.5);
+    font-size: ($font-size-base * 1.5); //24px
 }
 
 .font-size-3 {
-    font-size: ($font-size-base * 2);
+    font-size: ($font-size-base * 2); //32px
 }
 
 .font-size-4 {
-    font-size: ($font-size-base * 2.5);
+    font-size: ($font-size-base * 2.5); //40px
 }
 
 .font-size-5 {
-    font-size: ($font-size-base * 3);
+    font-size: ($font-size-base * 3); //48px
 }
 
 .font-size-21 {
@@ -27,15 +32,15 @@ Typography Font Size
 }
 
 .font-size-14 {
-    font-size: 0.875rem;  //14px  
+    font-size: 0.875rem;  //14px
 }
 
 .font-size-16 {
-    font-size: 1rem;  //14px  
+    font-size: 1rem;  //14px
 }
 
 .font-size-17 {
-    font-size: 1.063rem;  //17px  
+    font-size: 1.063rem;  //17px
 }
 
 .font-size-18 {
@@ -53,6 +58,7 @@ Typography Font Size
 .font-size-21 {
     font-size: 1.313rem;  //21px
 }
+
 .font-size-30 {
     font-size: 1.875rem; //30px
 }
@@ -81,14 +87,18 @@ Typography Font Size
     font-size: 1.375rem; //22px
 }
 
-.font-size-lg-14 {
+.font-size-lg-16 {
     @include media-breakpoint-only(lg) {
-        font-size: 0.875rem; //14px
+        font-size: 1rem; //14px
     }
 }
 
 .font-size-25 {
     font-size: 1.563rem; //25px
+}
+
+.font-size-80 {
+    font-size: 5rem; //80px
 }
 
 .font-size-xs-30 {
@@ -128,4 +138,25 @@ Line Height
 
 .text-lh-1 {
     line-height: 1;
+}
+
+.text-lh-inherit {
+    line-height: 1.5;
+}
+
+
+/* section-title */
+.section-title {
+    font-size: 1.875rem; //30px
+    color: $dark;
+    font-weight: $font-weight-bold;
+
+    &::after {
+        display: block;
+        width: 2.5rem;
+        height: 0.125rem;
+        background-color: $primary;
+        content: " ";
+        margin: 1.5rem auto 0;
+    }
 }
