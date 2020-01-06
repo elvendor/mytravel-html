@@ -198,6 +198,10 @@
         font-size: 1.75rem;
         margin-left: 0.875rem;
 
+        @include media-breakpoint-down(sm) {
+            font-size: 1.438rem !important;
+        }
+
         &,
         &:focus,
         &:hover {
@@ -226,12 +230,21 @@
         }
 
         &-dark {
-            [class*="u-header__navbar-brand-text"] {
-                @at-root .u-header:not( .js-header-fix-moment ) #{&} {
-                    &,
-                    &:focus,
-                    &:hover {
-                        color: $dark;
+
+            @each $breakpoint in map-keys($grid-breakpoints) {
+            $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+                &#{$infix} {
+                    @include media-breakpoint-up($breakpoint) {
+                        [class*="u-header__navbar-brand-text"] {
+                            @at-root .u-header:not( .js-header-fix-moment ) #{&} {
+                                &,
+                                &:focus,
+                                &:hover {
+                                    color: $dark;
+                                }
+                            }
+                        }
                     }
                 }
             }
