@@ -31886,6 +31886,12 @@ Typography Font Size
   }
 }
 
+@media (max-width: 575.98px) {
+  .font-size-xs-20 {
+    font-size: 1.25rem;
+  }
+}
+
 @media (max-width: 991.98px) {
   .font-size-md-down-5 {
     font-size: 3rem;
