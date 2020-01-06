@@ -45,8 +45,8 @@
                   <p class="font-size-20 font-weight-normal text-white ml-3">Find awesome hotel, tour, car and activities in London</p>
                 </div>
                 <!-- End Info -->
-                <div class="row position-lg-absolute right-0 bottom-0 left-0 pb-3 pb-xl-11">
-                    <div class="col-md-11 col-xxxl-8dot4 mx-auto mb-2">
+                <div class="position-lg-absolute right-0 bottom-0 left-0 pb-3 pb-xl-11">
+                    <div class="col-md-11 col-uw-8dot4 mx-auto mb-2">
                         <!-- Nav Classic -->
                             <ul class="nav tab-nav flex-nowrap tab-nav-shadow justify-content-start" role="tablist">
                                 <li class="nav-item">
@@ -124,77 +124,75 @@
                         <div class="tab-content">
                             <div class="tab-pane fade active show" id="pills-one-example2" role="tabpanel" aria-labelledby="pills-one-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
-                                            <form class="js-validate">
-                                              <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
-                                                <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
-                                                    <!-- Input -->
-                                                    <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
-                                                    <div class="js-focus-state">
-                                                        <div class="input-group border-bottom border-width-2 border-color-1">
-                                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-orange font-weight-semi-bold"></i>
-                                                          <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                                        </div>
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-orange font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                                     </div>
-                                                    <!-- End Input -->
                                                 </div>
+                                                <!-- End Input -->
+                                            </div>
 
-                                                <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
-                                                    <!-- Input -->
-                                                    <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Check In - Out</span>
-                                                    <div class="border-bottom border-width-2 border-color-1">
-                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="d-flex align-items-center mr-2">
-                                                                  <i class="flaticon-calendar text-orange font-weight-semi-bold"></i>
-                                                                </span>
-                                                            </div>
-                                                             <input class="js-range-datepicker shadow-none font-weight-semi-bold form-control hero-form bg-transparent rounded-right border-0" type="date"
-                                                                 data-rp-wrapper="#datepickerWrapper"
-                                                                 data-rp-type="range"
-                                                                 data-rp-date-format="m/d/y"
-                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Check In - Out</span>
+                                                <div class="border-bottom border-width-2 border-color-1">
+                                                    <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="d-flex align-items-center mr-2">
+                                                              <i class="flaticon-calendar text-orange font-weight-semi-bold"></i>
+                                                            </span>
                                                         </div>
-                                                         <!-- End Datepicker -->
+                                                         <input class="js-range-datepicker shadow-none font-weight-semi-bold form-control hero-form bg-transparent rounded-right border-0" type="date"
+                                                             data-rp-wrapper="#datepickerWrapper"
+                                                             data-rp-type="range"
+                                                             data-rp-date-format="m/d/y"
+                                                             data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
                                                     </div>
-                                                    <!-- End Input -->
+                                                     <!-- End Datepicker -->
                                                 </div>
+                                                <!-- End Input -->
+                                            </div>
 
-                                                <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
-                                                    <!-- Input -->
-                                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
-                                                    <div class="js-focus-state">
-                                                        <div class="d-flex border-bottom border-width-2 border-color-1">
-                                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-orange font-weight-semi-bold"></i>
-                                                            <select class="js-select selectpicker dropdown-select">
-                                                                <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
-                                                                <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
-                                                                <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
-                                                                <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
-                                                            </select>
-                                                        </div>
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-orange font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
                                                     </div>
-                                                    <!-- End Input -->
                                                 </div>
+                                                <!-- End Input -->
+                                            </div>
 
-                                                <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
-                                                    <button type="submit" class="btn btn-orange text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
-                                                </div>
-                                              </div>
-                                              <!-- End Checkbox -->
-                                            </form>
-                                        </div>
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-orange text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
                                     </div>
                                 </div>
                                 <!-- End Search Jobs Form -->
                             </div>
                             <div class="tab-pane fade" id="pills-two-example2" role="tabpanel" aria-labelledby="pills-two-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
+                                        <div class="">
                                             <form class="js-validate">
                                               <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
                                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -260,9 +258,9 @@
                             </div>
                             <div class="tab-pane fade" id="pills-three-example2" role="tabpanel" aria-labelledby="pills-three-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
+                                        <div class="">
                                             <form class="js-validate">
                                               <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
                                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -328,9 +326,9 @@
                             </div>
                             <div class="tab-pane fade" id="pills-four-example2" role="tabpanel" aria-labelledby="pills-four-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
+                                        <div class="">
                                             <form class="js-validate">
                                               <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
                                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -396,9 +394,9 @@
                             </div>
                             <div class="tab-pane fade" id="pills-five-example2" role="tabpanel" aria-labelledby="pills-five-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
+                                        <div class="">
                                             <form class="js-validate">
                                               <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
                                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -464,9 +462,9 @@
                             </div>
                             <div class="tab-pane fade" id="pills-six-example2" role="tabpanel" aria-labelledby="pills-six-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
+                                        <div class="">
                                             <form class="js-validate">
                                               <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
                                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -532,9 +530,9 @@
                             </div>
                             <div class="tab-pane fade" id="pills-seven-example2" role="tabpanel" aria-labelledby="pills-seven-example2-tab">
                                 <!-- Search Jobs Form -->
-                                <div class="p-3">
+                                <div class="p-3 gradient-overlay-half-white-gradient">
                                     <div class="card border-0">
-                                        <div class="form-shadow">
+                                        <div class="">
                                             <form class="js-validate">
                                               <div class="row d-block nav-select d-lg-flex mb-lg-2 p-3">
                                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -717,7 +715,7 @@
                                                         &lt;!-- Search Jobs Form --&gt;
                                                         &lt;div class="p-3"&gt;
                                                             &lt;div class="card border-0"&gt;
-                                                                &lt;div class="form-shadow"&gt;
+                                                                &lt;div class=""&gt;
                                                                     &lt;form class="js-validate"&gt;
                                                                       &lt;div class="row d-block nav-select d-lg-flex mb-lg-2 p-3"&gt;
                                                                         &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;

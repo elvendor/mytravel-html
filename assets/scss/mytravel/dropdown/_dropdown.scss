@@ -138,17 +138,19 @@
 }
 
 .dropdown-menu-right.dropdown-menu-right-fix {
+    &[class*="dropdown-menu-right-fix"] {
+      right: 0 !important;
+    }
+
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
         &#{$infix} {
             @each $dropdown-position in $dropdown-positions {
                 &-#{$dropdown-position} {
-                    @include media-breakpoint-down($breakpoint) {
-                        right: 0 !important;
+                    @include media-breakpoint-up($breakpoint) {
+                        right: $dropdown-position * 1% !important;
                     }
-                    
-                    right: $dropdown-position * 1% !important;
                 }
             }
         }

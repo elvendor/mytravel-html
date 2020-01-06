@@ -15,7 +15,6 @@ $md:                                                        768px;
 $lg:                                                        992px;
 $xl:                                                        1200px;
 $wd:                                                        1480px;
-$uw:                                                        1600px;
 
 $grid-breakpoints: (
   xs:                                                       $xs,
@@ -24,7 +23,6 @@ $grid-breakpoints: (
   lg:                                                       $lg,
   xl:                                                       $xl,
   wd:                                                       $wd,
-  uw:                                                       $uw
 ) !default;
 
 // Grid containers
@@ -37,7 +35,6 @@ $container-max-widths: (
   lg: 960px,
   xl: 1290px,
   wd: 1430px,
-  uw: 1600px
 ) !default;
 
 
@@ -67,6 +64,7 @@ $container-max-widths: (
     $blue:                                                      #377dff !default;
     $blue-darker:                                               #196eff !default;
     $blue-lighter:                                              #19a0ff !default;
+    $blue-lighter-1:                                            #5392f9 !default;
     $teal:                                                      #00c9a7 !default;
     $teal-lighter:                                              #13d7b6 !default;
     $cyan:                                                      #00dffc !default;
@@ -967,6 +965,7 @@ $btn-width-sm:                                              ($font-size-base * 2
 $btn-width-md:                                              ($font-size-base * 4) !default;
 $btn-width-lg:                                              ($font-size-base * 5) !default;
 $btn-width-medium:                                          ($font-size-base * 11.375) !default;
+$btn-width-wide-normal:                                     ($font-size-base * 11.375) !default;
 $btn-width-normal:                                          ($font-size-base * 10.375) !default;
 $btn-height:                                                $btn-width !default;
 $btn-height-xs:                                             $btn-width-xs !default;

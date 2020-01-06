@@ -7,6 +7,10 @@
   min-width: $input-btn-min-width;
 }
 
+.btn-wide-normal {
+  min-width: $btn-width-wide-normal;
+}
+
 .btn-md-wide {
   min-width: $input-btn-min-width-md;
 }
@@ -33,6 +37,7 @@
 .btn-md {
     @include media-breakpoint-up(xl) {
         width:$btn-width-medium;
+        height:$btn-height-normal;
     }
 }
 /* Icons */

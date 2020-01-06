@@ -18,3 +18,11 @@
   @include background-cover(cover, no-repeat, center, center);
   background-attachment: fixed;
 }
+
+/*------------------------------------
+  Background Colors
+------------------------------------*/
+
+.bg-color-1 {
+	background-color: $blue-lighter-1;
+}
