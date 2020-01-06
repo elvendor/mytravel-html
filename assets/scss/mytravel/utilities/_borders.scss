@@ -84,3 +84,12 @@
 .border-width-3 {
 	border-width: 3px !important;
 }
+
+.rounded-border {
+	@include border-radius($border-rounded-radius);
+
+	&::before,
+	&::after {
+		@include border-radius($border-rounded-radius);
+	}
+}

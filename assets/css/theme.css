@@ -31305,6 +31305,14 @@ label.btn {
   border-width: 3px !important;
 }
 
+.rounded-border {
+  border-radius: 0.188rem;
+}
+
+.rounded-border::before, .rounded-border::after {
+  border-radius: 0.188rem;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
