@@ -24019,6 +24019,10 @@ button:focus {
   min-width: 13.75rem;
 }
 
+.btn-wide-normal {
+  min-width: 11.375rem;
+}
+
 .btn-md-wide {
   min-width: 12rem;
 }
@@ -28981,6 +28985,13 @@ label.btn {
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+}
+
+/*------------------------------------
+  Background Colors
+------------------------------------*/
+.bg-color-1 {
+  background-color: #5392f9;
 }
 
 /*------------------------------------
