@@ -158,10 +158,17 @@
 }
 
 .destination-dropdown {
-    a {
-        font-size: 1rem;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-        color: $white;
-    }
+  display: none;
+  a {
+      font-size: 1rem;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      color: $white;
+  }
+}
+
+.dropdown:hover {
+  .destination-dropdown {
+    display: block;
+  }
 }

@@ -77,17 +77,18 @@ $container-max-widths: (
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
     $indigo:                                                    #2d1582 !default;
-    $facebook:           										#3b5998 !default;
+    $facebook:           										                    #3b5998 !default;
     $google:                                                    #d14130 !default;
     $twitter:                                                   #1da1f2 !default;
     $instagram:                                                 #3f729b !default;
-    $github:           											#24292e !default;
+    $github:           											                    #24292e !default;
     $dark-blue:                                                 #0057ff !default;
     $pink:                                                      #ff567d !default;
     $curious-blue:                                              #297cbb !default;
     $soft-orange:                                               #eeb758 !default;
     $space:                                                     #ff9500 !default;
     $sapphire:                                                  #002568 !default;
+    $black:                                                     #3b444f !default;
 
 
     // Theme Colors
@@ -313,6 +314,7 @@ $transition-function:                                       ease-in-out !default
 // Borders
 // =========================================================
 
+$border-rounded-radius:                                     .188rem; //3px
 $border-radius:                                             .3125rem !default;
 $border-radius-xs:                                          0.188rem !default;
 $border-radius-sm:                                          .25rem !default;
@@ -964,13 +966,15 @@ $btn-width-xs:                                              ($font-size-base * 1
 $btn-width-sm:                                              ($font-size-base * 2) !default;
 $btn-width-md:                                              ($font-size-base * 4) !default;
 $btn-width-lg:                                              ($font-size-base * 5) !default;
+$btn-width-medium:                                          ($font-size-base * 11.375) !default;
 $btn-width-normal:                                          ($font-size-base * 10.375) !default;
 $btn-height:                                                $btn-width !default;
 $btn-height-xs:                                             $btn-width-xs !default;
 $btn-height-sm:                                             $btn-width-sm !default;
 $btn-height-md:                                             $btn-width-md !default;
 $btn-height-lg:                                             $btn-width-lg !default;
-$btn-height-normal:                                          ($font-size-base * 3.75) !default;
+$btn-height-normal:                                         ($font-size-base * 3.75) !default;
+
 
 
 // Box Shadows
