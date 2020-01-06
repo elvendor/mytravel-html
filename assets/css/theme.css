@@ -27826,11 +27826,19 @@ label.btn {
   right: 50% !important;
 }
 
+.destination-dropdown {
+  display: none;
+}
+
 .destination-dropdown a {
   font-size: 1rem;
   padding-left: 0 !important;
   padding-right: 0 !important;
   color: #fff;
+}
+
+.dropdown:hover .destination-dropdown {
+  display: block;
 }
 
 /*------------------------------------
