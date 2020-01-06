@@ -33,6 +33,7 @@
 .btn-md {
     @include media-breakpoint-up(xl) {
         width:$btn-width-medium;
+        height:$btn-height-normal;
     }
 }
 /* Icons */

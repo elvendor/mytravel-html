@@ -26333,6 +26333,7 @@ button:focus {
 @media (min-width: 1200px) {
   .btn-md {
     width: 11.375rem;
+    height: 3.75rem;
   }
 }
 
@@ -29434,22 +29435,24 @@ label.btn {
 }
 
 .tab-nav-shadow .nav-link.active {
-  border: 1px solid #4e3268;
-  background-color: #4e3268;
-  border-radius: 3px;
+  position: relative;
+  z-index: 1;
 }
 
-.tab-nav-shadow .nav-link.active .icon::after {
-  content: '';
-  display: block;
+.tab-nav-shadow .nav-link.active::before {
   position: absolute;
-  bottom: -30px;
-  left: 24px;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background-color: #ffffff;
+  opacity: 0.15;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 
 .tab-nav-inner .nav-link {
@@ -30500,6 +30503,12 @@ label.btn {
   max-width: 67.5%;
 }
 
+.col-xs-8dot2 {
+  -ms-flex: 0 0 68.33333%;
+      flex: 0 0 68.33333%;
+  max-width: 68.33333%;
+}
+
 @media (min-width: 576px) {
   .col-sm-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -30569,6 +30578,14 @@ label.btn {
     -ms-flex: 0 0 67.5%;
         flex: 0 0 67.5%;
     max-width: 67.5%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-8dot2 {
+    -ms-flex: 0 0 68.33333%;
+        flex: 0 0 68.33333%;
+    max-width: 68.33333%;
   }
 }
 
@@ -30644,6 +30661,14 @@ label.btn {
   }
 }
 
+@media (min-width: 768px) {
+  .col-md-8dot2 {
+    -ms-flex: 0 0 68.33333%;
+        flex: 0 0 68.33333%;
+    max-width: 68.33333%;
+  }
+}
+
 @media (min-width: 992px) {
   .col-lg-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -30713,6 +30738,14 @@ label.btn {
     -ms-flex: 0 0 67.5%;
         flex: 0 0 67.5%;
     max-width: 67.5%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-8dot2 {
+    -ms-flex: 0 0 68.33333%;
+        flex: 0 0 68.33333%;
+    max-width: 68.33333%;
   }
 }
 
@@ -30788,6 +30821,14 @@ label.btn {
   }
 }
 
+@media (min-width: 1200px) {
+  .col-xl-8dot2 {
+    -ms-flex: 0 0 68.33333%;
+        flex: 0 0 68.33333%;
+    max-width: 68.33333%;
+  }
+}
+
 @media (min-width: 1480px) {
   .col-wd-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -30860,6 +30901,14 @@ label.btn {
   }
 }
 
+@media (min-width: 1480px) {
+  .col-wd-8dot2 {
+    -ms-flex: 0 0 68.33333%;
+        flex: 0 0 68.33333%;
+    max-width: 68.33333%;
+  }
+}
+
 @media (min-width: 1600px) {
   .col-uw-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -30929,6 +30978,14 @@ label.btn {
     -ms-flex: 0 0 67.5%;
         flex: 0 0 67.5%;
     max-width: 67.5%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .col-uw-8dot2 {
+    -ms-flex: 0 0 68.33333%;
+        flex: 0 0 68.33333%;
+    max-width: 68.33333%;
   }
 }
 
@@ -31031,6 +31088,41 @@ label.btn {
 
 .gradient-overlay-half-bg-violet::before {
   background-color: rgba(73, 16, 128, 0.6);
+}
+
+.gradient-overlay-half-black-gradient::before {
+  background-color: #18181a;
+  opacity: 0.5;
+}
+
+.gradient-overlay-half-gray-gradient::before {
+  background-color: #3b444f;
+  opacity: 0.4;
+}
+
+.gradient-overlay-half-blue-gradient::before {
+  background-color: #1a2b49;
+  opacity: 0.4;
+}
+
+.gradient-overlay-half-sapphire-gradient::before {
+  background-color: #002568;
+  opacity: 0.7;
+}
+
+.gradient-overlay-half-sapphire-gradient::before {
+  background-color: #002568;
+  opacity: 0.7;
+}
+
+.gradient-overlay-half-bg-violet-light::before {
+  background-color: #ac5ef1;
+  opacity: 0.7;
+}
+
+.gradient-overlay-half-white-gradient::before {
+  background-color: #ffffff;
+  opacity: 0.15;
 }
 
 .gradient-overlay-half-bg-catalina-blue:before {
@@ -31436,6 +31528,10 @@ label.btn {
   border-radius: 2px !important;
 }
 
+.border-radius-3 {
+  border-radius: 3px !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -31455,8 +31551,12 @@ label.btn {
   left: 0;
 }
 
-.bottom-n70 {
-  bottom: -70px;
+.bottom-n66 {
+  bottom: -66px;
+}
+
+.bottom-n86 {
+  bottom: -86px;
 }
 
 @media (min-width: 768px) {
