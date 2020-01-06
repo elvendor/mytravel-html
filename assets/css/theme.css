@@ -27827,11 +27827,19 @@ label.btn {
   right: 50% !important;
 }
 
+.destination-dropdown {
+  display: none;
+}
+
 .destination-dropdown a {
   font-size: 1rem;
   padding-left: 0 !important;
   padding-right: 0 !important;
   color: #fff;
+}
+
+.dropdown:hover .destination-dropdown {
+  display: block;
 }
 
 /*------------------------------------
@@ -31112,15 +31120,15 @@ label.btn {
 }
 
 .gradient-overlay-half-bg-gradient::before {
-  background-image: linear-gradient(180deg, #1e2022 0%, transparent 50%);
+  background: linear-gradient(180deg, #1e2022 0%, transparent 50%);
 }
 
 .gradient-overlay-half-bg-gradient:hover:before {
-  background-image: linear-gradient(180deg, #1e2022 0%, transparent 75%);
+  background: linear-gradient(180deg, #1e2022 0%, transparent 75%);
 }
 
 .gradient-overlay-half-bg-gradient-v1::before {
-  background-image: linear-gradient(180deg, #484848 0%, transparent 75%);
+  background: linear-gradient(180deg, #484848 0%, transparent 75%);
 }
 
 .gradient-overlay-half-bg-gradient-v2::before {
@@ -31131,7 +31139,7 @@ label.btn {
 .gradient-overlay-half-pink-gradient:hover:before,
 .gradient-overlay-half-yellow-gradient:hover:before {
   opacity: 0.7;
-  background-image: none;
+  background: none;
 }
 
 .gradient-overlay-half-pink-gradient:hover:before {
@@ -31194,6 +31202,11 @@ label.btn {
 .gradient-overlay-half-white-gradient::before {
   background-color: #ffffff;
   opacity: 0.15;
+}
+
+.gradient-overlay-half-bg-catalina-blue:before {
+  background-color: #16142D;
+  opacity: .4;
 }
 
 /*------------------------------------
@@ -31575,6 +31588,14 @@ label.btn {
   border-width: 3px !important;
 }
 
+.rounded-border {
+  border-radius: 0.188rem;
+}
+
+.rounded-border::before, .rounded-border::after {
+  border-radius: 0.188rem;
+}
+
 .border-radius-2 {
   border-radius: 2px !important;
 }
@@ -31745,6 +31766,14 @@ label.btn {
 ------------------------------------*/
 .opacity-md {
   opacity: .2;
+}
+
+.opacity-6 {
+  opacity: .6;
+}
+
+.opacity-7 {
+  opacity: .7;
 }
 
 /*------------------------------------
@@ -32181,6 +32210,12 @@ Typography Font Size
 @media (max-width: 575.98px) {
   .font-size-xs-30 {
     font-size: 1.875rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .font-size-xs-20 {
+    font-size: 1.25rem;
   }
 }
 
