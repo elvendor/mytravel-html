@@ -55,4 +55,10 @@
             @include make-col(8.1);
        }
     }
+
+    .col-#{$size}-8dot2 {
+       @include media-breakpoint-up($size) {
+            @include make-col(8.2);
+       }
+    }
 }
