@@ -35,7 +35,7 @@
   <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
     <!-- Hero Section -->
-        <div class="position-relative bg-img-hero-bottom" style="background-image: url(../../assets/img/1920x600/img1.jpg);">
+        <div class="position-relative bg-img-hero-bottom min-height-600" style="background-image: url(../../assets/img/1920x600/img1.jpg);">
             <div class="container">
                 <div class="d-md-flex align-items-lg-center text-center space-top-xl-3 space-top-2">
                     <div class="row justify-content-md-center w-100 pt-6">
@@ -55,10 +55,10 @@
                                   <div class="row d-block d-lg-flex mb-lg-3 px-3">
                                     <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
                                         <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0">Destination or Hotel Name</span>
+                                        <span class="d-block text-gray-1 font-weight-normal mb-0">Destination</span>
                                         <div class="js-focus-state">
                                             <div class="input-group border-bottom border-width-2 border-color-1">
-                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-pink font-weight-semi-bold"></i>
+                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-curious font-weight-semi-bold"></i>
                                               <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                             </div>
                                         </div>
@@ -67,10 +67,10 @@
 
                                     <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
                                         <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0">Check In - Out</span>
+                                        <span class="d-block text-gray-1 font-weight-normal mb-0">From - To</span>
                                         <div class="js-focus-state">
                                             <div class="input-group border-bottom border-width-2 border-color-1">
-                                                <i class="flaticon-calendar d-flex align-items-center mr-2 text-pink font-weight-semi-bold"></i>
+                                                <i class="flaticon-calendar d-flex align-items-center mr-2 text-curious font-weight-semi-bold"></i>
                                                 <input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon">
                                             </div>
                                         </div>
@@ -79,15 +79,15 @@
 
                                     <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
                                         <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0">Rooms and Guests</span>
+                                        <span class="d-block text-gray-1 font-weight-normal mb-0">Trip Type</span>
                                         <div class="js-focus-state">
                                             <div class="d-flex border-bottom border-width-2 border-color-1 dropdown-toggle align-items-center">
-                                                <i class="flaticon-plus d-flex align-items-center mr-2 text-pink font-weight-semi-bold"></i>
+                                                <i class="flaticon-plus d-flex align-items-center mr-2 text-curious font-weight-semi-bold"></i>
                                                 <select class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0">
-                                                    <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
-                                                    <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
-                                                    <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
-                                                    <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                    <option value="2 Rooms - 3 Guests" selected>City Tour</option>
+                                                    <option value="2 Rooms - 3 Guests">Religious Tour</option>
+                                                    <option value="2 Rooms - 3 Guests">World Tour</option>
+                                                    <option value="2 Rooms - 3 Guests">Hill Station</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -95,7 +95,7 @@
                                     </div>
 
                                     <div class="col-sm-12 col-lg-1dot9 align-self-lg-end">
-                                        <button type="submit" class="btn btn-pink btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                        <button type="submit" class="btn btn-curious btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
                                     </div>
                                   </div>
                                   <!-- End Checkbox -->
@@ -131,159 +131,80 @@
                     <div class="tab-pane fade show active" id="pills-html-1" role="tabpanel" aria-labelledby="pills-html-tab-1">
                         <pre>
                             <code class="language-html" data-lang="html">
-                                &lt!-- ========== HERO ========== --&gt;
-                                &lt;div class="position-relative bg-img-hero-bottom space-2 space-lg-4" style="background-image: url(../../assets/img/1920x720/img1.jpg);"&gt;
-                                    &lt;div class="container"&gt;
-                                        &lt;div class="d-md-flex align-items-lg-center text-center"&gt;
-                                            &lt;div class="row justify-content-md-center w-100 pb-xl-9"&gt;
-                                                &lt;!-- Info --&gt;
-                                                &lt;div class="mx-3 mb-xl-11 mt-xl-4 mb-5"&gt;
-                                                  &lt;h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold"&gt;Let's The World Together!&lt;/h1&gt;
-                                                  &lt;p class="font-size-20 font-weight-normal text-white ml-3"&gt;Find awesome hotel, tour, car and activities in London&lt;/p&gt;
-                                                &lt;/div&gt;
-                                                &lt;!-- End Info --&gt;
-                                            &lt;/div&gt;
-                                        &lt;/div&gt;
-                                        &lt;div class="position-lg-absolute right-0 bottom-0 left-0 mb-6"&gt;
-                                            &lt;div class="col-md-11 col-xxxl-8 mx-auto p-0"&gt;
-                                                &lt;!-- Nav Classic --&gt;
-                                                    &lt;ul class="nav flex-nowrap tab-nav-boxed pb-4 pb-xl-0 justify-content-center" role="tablist"&gt;
-                                                        &lt;li class="nav-item"&gt;
-                                                            &lt;a class="nav-link font-weight-medium active" id="pills-one-example2-tab" data-toggle="pill" href="#pills-one-example2" role="tab" aria-controls="pills-one-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center"&gt;
-                                                                    &lt;figure class="ie-height-40 d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-hotel font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Hotel&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                        &lt;li class="nav-item "&gt;
-                                                            &lt;a class="nav-link font-weight-medium" id="pills-two-example2-tab" data-toggle="pill" href="#pills-two-example2" role="tab" aria-controls="pills-two-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center"&gt;
-                                                                    &lt;figure class="ie-height-40 d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-global-1 font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Tours&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                        &lt;li class="nav-item "&gt;
-                                                            &lt;a class="nav-link font-weight-medium" id="pills-three-example2-tab" data-toggle="pill" href="#pills-three-example2" role="tab" aria-controls="pills-three-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center"&gt;
-                                                                    &lt;figure class=" ie-height-40  d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-climbing font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Activity&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                        &lt;li class="nav-item "&gt;
-                                                            &lt;a class="nav-link font-weight-medium" id="pills-four-example2-tab" data-toggle="pill" href="#pills-four-example2" role="tab" aria-controls="pills-four-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center"&gt;
-                                                                    &lt;figure class="ie-height-40 d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-home font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Rental&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                        &lt;li class="nav-item "&gt;
-                                                            &lt;a class="nav-link font-weight-medium" id="pills-five-example2-tab" data-toggle="pill" href="#pills-five-example2" role="tab" aria-controls="pills-five-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center"&gt;
-                                                                    &lt;figure class="ie-height-40 d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-sedan font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Car&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                        &lt;li class="nav-item "&gt;
-                                                            &lt;a class="nav-link font-weight-medium" id="pills-six-example2-tab" data-toggle="pill" href="#pills-six-example2" role="tab" aria-controls="pills-six-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center"&gt;
-                                                                    &lt;figure class="ie-height-40 d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-yatch font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Yacht&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                        &lt;li class="nav-item "&gt;
-                                                            &lt;a class="nav-link font-weight-medium" id="pills-six-example2-tab" data-toggle="pill" href="#pills-six-example2" role="tab" aria-controls="pills-six-example2" aria-selected="true"&gt;
-                                                                &lt;div class="d-flex flex-column flex-md-row  position-relative  text-white align-items-center"&gt;
-                                                                    &lt;figure class="ie-height-40 d-md-block mr-md-3"&gt;
-                                                                        &lt;i class="icon flaticon-aeroplane font-size-3"&gt;&lt;/i&gt;
-                                                                    &lt;/figure&gt;
-                                                                    &lt;span class="tabtext mt-2 mt-md-0 font-weight-semi-bold"&gt;Flights&lt;/span&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/a&gt;
-                                                        &lt;/li&gt;
-                                                    &lt;/ul&gt;
-                                                &lt;!-- End Nav Classic --&gt;
-                                                &lt;div class="tab-content"&gt;
-                                                    &lt;div class="tab-pane fade pt-xl-4 active show" id="pills-one-example2" role="tabpanel" aria-labelledby="pills-one-example2-tab"&gt;
-                                                        &lt;!-- Search Jobs Form --&gt;
-                                                        &lt;div class="card border-0"&gt;
-                                                            &lt;div class="card-body mt-1"&gt;
-                                                                &lt;form class="js-validate"&gt;
-                                                                  &lt;div class="row d-block d-lg-flex mb-lg-3 px-3"&gt;
-                                                                    &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;
-                                                                        &lt;!-- Input --&gt;
-                                                                        &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Destination or Hotel Name&lt;/span&gt;
-                                                                        &lt;div class="js-focus-state"&gt;
-                                                                            &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-pink font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                              &lt;input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon"&gt;
-                                                                            &lt;/div&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;!-- End Input --&gt;
-                                                                    &lt;/div&gt;
-
-                                                                    &lt;div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 "&gt;
-                                                                        &lt;!-- Input --&gt;
-                                                                        &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Check In - Out&lt;/span&gt;
-                                                                        &lt;div class="js-focus-state"&gt;
-                                                                            &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;i class="flaticon-calendar d-flex align-items-center mr-2 text-pink font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                                &lt;input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon"&gt;
-                                                                            &lt;/div&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;!-- End Input --&gt;
-                                                                    &lt;/div&gt;
-
-                                                                    &lt;div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0"&gt;
-                                                                        &lt;!-- Input --&gt;
-                                                                        &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Rooms and Guests&lt;/span&gt;
-                                                                        &lt;div class="js-focus-state"&gt;
-                                                                            &lt;div class="d-flex border-bottom border-width-2 border-color-1 "&gt;
-                                                                                &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-pink font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                                &lt;select class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0"&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests" selected&gt;2 Rooms - 3 Guests&lt;/option&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests"&gt;2 Rooms - 4 Guests&lt;/option&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests"&gt;3 Rooms - 6 Guests&lt;/option&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests"&gt;1 Rooms - 2 Guests&lt;/option&gt;
-                                                                                &lt;/select&gt;
-                                                                            &lt;/div&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;!-- End Input --&gt;
-                                                                    &lt;/div&gt;
-
-                                                                    &lt;div class="col-sm-12 col-lg-1dot9 align-self-lg-end"&gt;
-                                                                        &lt;button type="submit" class="btn btn-pink btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
-                                                                    &lt;/div&gt;
-                                                                  &lt;/div&gt;
-                                                                  &lt;!-- End Checkbox --&gt;
-                                                                &lt;/form&gt;
-                                                            &lt;/div&gt;
-                                                        &lt;/div&gt;
-                                                        &lt;!-- End Search Jobs Form --&gt;
+                                &lt;-- ========== HERO ========== --&gt;
+                                    &lt;div class="position-relative bg-img-hero-bottom min-height-600" style="background-image: url(../../assets/img/1920x600/img1.jpg);"&gt;
+                                        &lt;div class="container"&gt;
+                                            &lt;div class="d-md-flex align-items-lg-center text-center space-top-xl-3 space-top-2"&gt;
+                                                &lt;div class="row justify-content-md-center w-100 pt-6"&gt;
+                                                    &lt;!-- Info --&gt;
+                                                    &lt;div class="mx-3 mb-xl-3 mt-xl-4 mb-2"&gt;
+                                                      &lt;h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold  mb-0"&gt;Find Next Place To Visit&lt;/h1&gt;
+                                                      &lt;p class="font-size-20 font-weight-normal text-white ml-3"&gt;Discover amzaing places at exclusive deals&lt;/p&gt;
                                                     &lt;/div&gt;
+                                                    &lt;!-- End Info --&gt;
+                                                &lt;/div&gt;
+                                            &lt;/div&gt;
+                                            &lt;div class="row space-bottom-xl-3 space-bottom-2"&gt;
+                                                &lt;div class="col-md-12 mx-auto pb-xl-2 tab-pane"&gt;
+                                                    &lt;div class="card border-0"&gt;
+                                                        &lt;div class="card-body mt-1"&gt;
+                                                            &lt;form class="js-validate"&gt;
+                                                              &lt;div class="row d-block d-lg-flex mb-lg-3 px-3"&gt;
+                                                                &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;
+                                                                    &lt;!-- Input --&gt;
+                                                                    &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Destination&lt;/span&gt;
+                                                                    &lt;div class="js-focus-state"&gt;
+                                                                        &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
+                                                                            &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                          &lt;input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon"&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;
+                                                                    &lt;!-- End Input --&gt;
+                                                                &lt;/div&gt;
+
+                                                                &lt;div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 "&gt;
+                                                                    &lt;!-- Input --&gt;
+                                                                    &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;From - To&lt;/span&gt;
+                                                                    &lt;div class="js-focus-state"&gt;
+                                                                        &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
+                                                                            &lt;i class="flaticon-calendar d-flex align-items-center mr-2 text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                            &lt;input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon"&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;
+                                                                    &lt;!-- End Input --&gt;
+                                                                &lt;/div&gt;
+
+                                                                &lt;div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0"&gt;
+                                                                    &lt;!-- Input --&gt;
+                                                                    &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Trip Type&lt;/span&gt;
+                                                                    &lt;div class="js-focus-state"&gt;
+                                                                        &lt;div class="d-flex border-bottom border-width-2 border-color-1 dropdown-toggle align-items-center"&gt;
+                                                                            &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                            &lt;select class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0"&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests" selected&gt;City Tour&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests"&gt;Religious Tour&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests"&gt;World Tour&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests"&gt;Hill Station&lt;/option&gt;
+                                                                            &lt;/select&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;
+                                                                    &lt;!-- End Input --&gt;
+                                                                &lt;/div&gt;
+
+                                                                &lt;div class="col-sm-12 col-lg-1dot9 align-self-lg-end"&gt;
+                                                                    &lt;button type="submit" class="btn btn-curious btn-normal mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
+                                                                &lt;/div&gt;
+                                                              &lt;/div&gt;
+                                                              &lt;!-- End Checkbox --&gt;
+                                                            &lt;/form&gt;
+                                                        &lt;/div&gt;
+                                                    &lt;/div&gt;
+                                                    &lt;!-- End Search Jobs Form --&gt;
                                                 &lt;/div&gt;
                                             &lt;/div&gt;
                                         &lt;/div&gt;
                                     &lt;/div&gt;
-                                &lt;/div&gt;
-                                &lt!-- ==========END HERO ========== --&gt;
+                                &lt;-- ==========END HERO ========== --&gt;
                             </code>
                         </pre>
                     </div>
@@ -293,6 +214,8 @@
                                 &lt;link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"&gt;
                                 &lt;link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css"&gt;
                                 &lt;link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css"&gt;
+                                &lt;link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css"&gt;
+                                &lt;link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css"&gt;
                             </code>
                         </pre>
                     </div>
@@ -304,12 +227,16 @@
                                 &lt;script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"&gt;&lt;/script&gt;
+                                &lt;script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js">&lt;/script&gt;
+
 
                                 &lt;!-- JS MyTravel --&gt;
                                 &lt;script src="../../assets/js/hs.core.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.unfold.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.validation.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.show-animation.js"&gt;&lt;/script&gt;
+                                &lt;script src="../../assets/js/components/hs.range-datepicker.js"&gt;&lt;/script&gt;
+                                &lt;script src="../../assets/js/components/hs.selectpicker.js"&gt;&lt;/script&gt;
 
                                 &lt;!-- JS Plugins Init. --&gt;
                                 &lt;script&gt;
@@ -335,6 +262,10 @@
 
                                     // initialization of go to
                                     $.HSCore.components.HSGoTo.init('.js-go-to');
+
+                                    $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+
+                                    $.HSCore.components.HSSelectPicker.init('.js-select');
                                 });
                                 &lt;/script&gt;
                             </code>

@@ -33,4 +33,9 @@
             @include make-col(1.9);
        }
     }
+    .col-#{$size}-8dot4 {
+       @include media-breakpoint-up($size) {
+            @include make-col(8.4);
+       }
+    }
 }
