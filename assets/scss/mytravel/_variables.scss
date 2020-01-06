@@ -14,8 +14,8 @@ $sm:                                                        576px;
 $md:                                                        768px;
 $lg:                                                        992px;
 $xl:                                                        1200px;
-$xxl:                                                       1440px;
-$xxxl:                                                      1600px;
+$wd:                                                        1480px;
+$uw:                                                        1600px;
 
 $grid-breakpoints: (
   xs:                                                       $xs,
@@ -23,8 +23,21 @@ $grid-breakpoints: (
   md:                                                       $md,
   lg:                                                       $lg,
   xl:                                                       $xl,
-  xxl:                                                      $xxl,
-  xxxl:                                                     $xxxl
+  wd:                                                       $wd,
+  uw:                                                       $uw
+) !default;
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1290px,
+  wd: 1430px,
+  uw: 1600px
 ) !default;
 
 
@@ -134,6 +147,7 @@ $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge((
   0: 0,
+  0dot5:($spacer * .143),
   1: ($spacer * .25),
   2: ($spacer * .5),
   3: $spacer,
@@ -144,7 +158,16 @@ $spacers: map-merge((
   8: ($spacer * 3.5),
   9: ($spacer * 4),
   10: ($spacer * 4.5),
-  11: ($spacer * 5)
+  11: ($spacer * 5),
+  12: ($spacer * 5.5),
+  13: ($spacer * 6),
+  14: ($spacer * 6.5),
+  15: ($spacer * 7),
+  16: ($spacer * 8),
+  17: ($spacer * 9),
+  18: ($spacer * 10),
+  19: ($spacer * 10.6),
+  20: ($spacer * 12.4)
 ), $spacers);
 
 // Content Space
@@ -312,7 +335,7 @@ $box-shadow-soft:                                           0 3px 6px 0 rgba($gr
 $box-shadow-1:                                              1px 1px 0px 30px rgba(78, 50, 104, 0.6);
 $box-shadow-2:                                              10px 10px 5px -4px rgba(0,0,0,0.27);
 
-                                                            
+
 
 
 // Links
