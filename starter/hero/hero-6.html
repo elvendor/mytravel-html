@@ -38,83 +38,81 @@
   <!-- ========== MAIN CONTENT ========== -->
 <main id="content" role="main">
     <!-- Hero Section -->
-    <div class="bg-img-hero-bottom position-relative min-height-750 space-2 gradient-overlay-half-blue-gradient text-center space-top-xl-5" style="background-image: url(../../assets/img/1920x750/img1.jpg);">
-        <div class="container">
-            <div class="row justify-content-md-center w-100 pt-xl-11">
+    <div class="bg-img-hero-bottom gradient-overlay-half-blue-gradient text-center" style="background-image: url(../../assets/img/1920x750/img1.jpg);">
+        <div class="container space-2 space-top-xl-6">
+            <div class="row justify-content-md-center py-xl-11">
                 <!-- Info -->
-                <div class="">
+                <div class="pb-lg-11 mb-7">
                     <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Love where you're going</h1>
-                    <p class="font-size-20 font-weight-normal text-white ml-3">Book experiences you’ll want to tell the world about</p>
+                    <p class="font-size-20 font-weight-normal text-white">Book experiences you’ll want to tell the world about</p>
                 </div>
                 <!-- End Info -->
             </div>
-            <div class="position-lg-absolute right-0 bottom-n66 left-0">
-                <div class="col-md-11 col-uw-8dot1 mx-auto p-0">
-                    <div class="card border-0">
-                        <div class="card-body mt-1">
-                            <form class="js-validate">
-                              <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
-                                <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
-                                    <!-- Input -->
-                                    <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Destination</span>
-                                    <div class="js-focus-state">
-                                        <div class="input-group border-bottom border-width-2 border-color-1">
-                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"></i>
-                                          <input type="text" class="form-control font-size-lg-16 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                        </div>
+            <div class="mb-lg-n16">
+                <div class="card border-0">
+                    <div class="card-body mt-1">
+                        <form class="js-validate">
+                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                <!-- Input -->
+                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Destination</span>
+                                <div class="js-focus-state">
+                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"></i>
+                                      <input type="text" class="form-control font-size-lg-16 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                     </div>
-                                    <!-- End Input -->
                                 </div>
+                                <!-- End Input -->
+                            </div>
 
-                                <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
-                                    <!-- Input -->
-                                    <span class="d-block text-gray-1 text-left font-weight-normal mb-0">From - To</span>
-                                    <div class="border-bottom border-width-2 border-color-1">
-                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="d-flex align-items-center mr-2">
-                                                  <i class="flaticon-calendar text-space-orange font-weight-semi-bold"></i>
-                                                </span>
-                                            </div>
-                                             <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                 data-rp-wrapper="#datepickerWrapper"
-                                                 data-rp-type="range"
-                                                 data-rp-date-format="m/d/y"
-                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                <!-- Input -->
+                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">From - To</span>
+                                <div class="border-bottom border-width-2 border-color-1">
+                                    <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="d-flex align-items-center mr-2">
+                                              <i class="flaticon-calendar text-space-orange font-weight-semi-bold"></i>
+                                            </span>
                                         </div>
-                                         <!-- End Datepicker -->
+                                         <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                             data-rp-wrapper="#datepickerWrapper"
+                                             data-rp-type="range"
+                                             data-rp-date-format="m/d/y"
+                                             data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
                                     </div>
-                                    <!-- End Input -->
+                                     <!-- End Datepicker -->
                                 </div>
+                                <!-- End Input -->
+                            </div>
 
-                                <div class="col-sm-12 col-lg-2dot8 text-left mb-4 mb-lg-0">
-                                    <!-- Input -->
-                                    <span class="d-block text-gray-1 font-weight-normal mb-0">Outdoors</span>
-                                    <div class="js-focus-state">
-                                        <div class="d-flex border-bottom border-width-2 border-color-1">
-                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"></i>
-                                            <select class="js-select selectpicker dropdown-select">
-                                                <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
-                                                <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
-                                                <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
-                                                <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
-                                            </select>
-                                        </div>
+                            <div class="col-sm-12 col-lg-2dot8 text-left mb-4 mb-lg-0">
+                                <!-- Input -->
+                                <span class="d-block text-gray-1 font-weight-normal mb-0">Outdoors</span>
+                                <div class="js-focus-state">
+                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"></i>
+                                        <select class="js-select selectpicker dropdown-select">
+                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                        </select>
                                     </div>
-                                    <!-- End Input -->
-                                    <!-- End Input -->
                                 </div>
+                                <!-- End Input -->
+                                <!-- End Input -->
+                            </div>
 
-                                <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
-                                    <button type="submit" class="btn btn-space text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
-                                </div>
-                              </div>
-                              <!-- End Checkbox -->
-                            </form>
-                        </div>
+                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                <button type="submit" class="btn btn-space text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                            </div>
+                          </div>
+                          <!-- End Checkbox -->
+                        </form>
                     </div>
-                    <!-- End Search Jobs Form -->
                 </div>
+                <!-- End Search Jobs Form -->
             </div>
         </div>
     </div>

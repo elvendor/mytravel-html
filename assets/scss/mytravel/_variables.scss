@@ -181,8 +181,10 @@ $content-spacers: map-merge((
   3: ($content-space * 8),
   4: ($content-space * 12.5),
   5: ($content-space * 15),
+  6: ($content-space * 16),
+  8: ($content-space * 18),
   9: ($content-space * 19),
-  10: ($content-space * 25),
+  10: ($content-space * 22),
 ), $content-spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
@@ -899,7 +901,7 @@ $dropdown-item-padding-y:                                   .375rem !default;
 $dropdown-card-margin-bottom:                               2rem !default;
 
 // Margin
-$dropdown-positions:                                        10, 20, 30, 40, 50 !default;
+$dropdown-positions:                                        10, 15, 20, 25, 30, 35, 40, 45, 50 !default;
 
 // Box Shadow
 $dropdown-box-shadow:                                       0 5px 9px rgba($primary, .075), 0 5px 9px rgba($gray-700, .075) !default;
@@ -962,7 +964,7 @@ $btn-icon-font-size-lg:                                     ($font-size-base * 1
 // Width & Heights
 $btn-width:                                                 ($font-size-base * 3.125) !default;
 $btn-width-xs:                                              ($font-size-base * 1.5) !default;
-$btn-width-sm:                                              ($font-size-base * 2) !default;
+$btn-width-sm:                                              ($font-size-base * 1.7) !default;
 $btn-width-md:                                              ($font-size-base * 4) !default;
 $btn-width-lg:                                              ($font-size-base * 5) !default;
 $btn-width-medium:                                          ($font-size-base * 8) !default;

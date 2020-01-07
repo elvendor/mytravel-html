@@ -28,9 +28,13 @@
 }
 
 .btn-normal {
-    @include media-breakpoint-up(xl) {
+    @include media-breakpoint-up(md) {
         min-width: $btn-width-normal;
         height:$btn-height-normal;
+    }
+    @include media-breakpoint-only(lg) {
+      min-width:$btn-width-lg;
+      height:$btn-height-normal;
     }
 }
 

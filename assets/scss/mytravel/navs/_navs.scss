@@ -120,6 +120,11 @@
 					    border-right: 10px solid transparent;
 					    border-bottom: 10px solid #fff;
 					}
+					@include media-breakpoint-down(sm) {
+						&::after {
+							left: 13px;
+						}
+					}
 				}
 			}
 		}
