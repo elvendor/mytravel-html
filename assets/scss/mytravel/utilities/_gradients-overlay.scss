@@ -95,10 +95,6 @@
 	&::before {
 		background: linear-gradient(160deg, #1e2022 -18%, transparent 90%);
 	}
-
-	&:hover:before {
-		background: none;
-	}
 }
 
 .gradient-overlay {
@@ -123,14 +119,14 @@
 .gradient-overlay-half-bg-orange {
 	&::before {
 		background-color: #ff9500;
-		opacity: .8;
+		opacity: .85;
 	}
 }
 
 .gradient-overlay-half-bg-dark {
 	&::before {
 		background-color: #000000;
-		opacity: .75;
+		opacity: .7;
 	}
 }
 
@@ -200,5 +196,12 @@
 	&:before {
 		background-color: #16142D;
 		opacity: .4;
+	}
+}
+
+.gradient-overlay-half-bg-blue-light-1 {
+	&:before {
+		background-color: #181a1c;
+		opacity: 0.2;
 	}
 }

@@ -28767,10 +28767,6 @@ label.btn {
   background: linear-gradient(160deg, #1e2022 -18%, transparent 90%);
 }
 
-.gradient-overlay-half-bg-gradient-v4:hover:before {
-  background: none;
-}
-
 .gradient-overlay::after {
   content: "";
   position: absolute;
@@ -28790,12 +28786,12 @@ label.btn {
 
 .gradient-overlay-half-bg-orange::before {
   background-color: #ff9500;
-  opacity: .8;
+  opacity: .85;
 }
 
 .gradient-overlay-half-bg-dark::before {
   background-color: #000000;
-  opacity: .75;
+  opacity: .7;
 }
 
 .gradient-overlay-half-bg-blue-light::before {
@@ -28845,6 +28841,11 @@ label.btn {
 .gradient-overlay-half-bg-catalina-blue:before {
   background-color: #16142D;
   opacity: .4;
+}
+
+.gradient-overlay-half-bg-blue-light-1:before {
+  background-color: #181a1c;
+  opacity: 0.2;
 }
 
 /*------------------------------------
@@ -29444,7 +29445,7 @@ label.btn {
 }
 
 .shadow-hover-2:hover, .shadow-hover-2:active, .shadow-hover-2:focus {
-  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 /*------------------------------------
