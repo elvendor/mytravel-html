@@ -28734,6 +28734,11 @@ label.btn {
   opacity: .4;
 }
 
+.gradient-overlay-half-bg-blue-light-1:before {
+  background-color: #181a1c;
+  opacity: 0.2;
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
