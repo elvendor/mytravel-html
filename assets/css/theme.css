@@ -24038,9 +24038,16 @@ button:focus {
   padding: 0.4375rem 0.9375rem;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .btn-normal {
     min-width: 10.375rem;
+    height: 3.75rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .btn-normal {
+    min-width: 5rem;
     height: 3.75rem;
   }
 }
@@ -27093,6 +27100,12 @@ label.btn {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #fff;
+}
+
+@media (max-width: 767.98px) {
+  .tab-nav-boxed .nav-link.active .icon::after {
+    left: 13px;
+  }
 }
 
 .tab-nav-shadow .nav-link {
