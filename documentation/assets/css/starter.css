@@ -258,6 +258,12 @@ div.code-toolbar > .toolbar a:hover {
   margin: 0;
 }
 
+.hero-tab-pane .tab-pane {
+    overflow-y: unset;
+    overflow-x: unset;
+}
+
+
 /*------------------------------------
   Section Nav
 ------------------------------------*/
