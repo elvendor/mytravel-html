@@ -24040,14 +24040,21 @@ button:focus {
 
 @media (min-width: 1200px) {
   .btn-normal {
-    width: 10.375rem;
+    min-width: 10.375rem;
     height: 3.75rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .btn-md {
-    width: 11.375rem;
+    min-width: 11.375rem;
+    height: 3.75rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .btn-md {
+    min-width: 8rem;
     height: 3.75rem;
   }
 }
@@ -27028,6 +27035,13 @@ label.btn {
   margin-right: .25rem;
 }
 
+@media (max-width: 1479.98px) {
+  .tab-nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
 .tab-nav-rounded .nav-link {
   padding: 0.5rem 1.5rem;
 }
@@ -27050,6 +27064,12 @@ label.btn {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-bottom: 10px solid #fff;
+}
+
+@media (max-width: 767.98px) {
+  .tab-nav-rounded .nav-link.active .icon::after {
+    bottom: -16px;
+  }
 }
 
 .tab-nav-boxed .nav-link {
