@@ -898,7 +898,7 @@ $dropdown-item-padding-y:                                   .375rem !default;
 $dropdown-card-margin-bottom:                               2rem !default;
 
 // Margin
-$dropdown-positions:                                        10, 20, 30, 40, 50 !default;
+$dropdown-positions:                                        10, 15, 20, 25, 30, 35, 40, 45, 50 !default;
 
 // Box Shadow
 $dropdown-box-shadow:                                       0 5px 9px rgba($primary, .075), 0 5px 9px rgba($gray-700, .075) !default;
@@ -961,7 +961,7 @@ $btn-icon-font-size-lg:                                     ($font-size-base * 1
 // Width & Heights
 $btn-width:                                                 ($font-size-base * 3.125) !default;
 $btn-width-xs:                                              ($font-size-base * 1.5) !default;
-$btn-width-sm:                                              ($font-size-base * 2) !default;
+$btn-width-sm:                                              ($font-size-base * 1.7) !default;
 $btn-width-md:                                              ($font-size-base * 4) !default;
 $btn-width-lg:                                              ($font-size-base * 5) !default;
 $btn-width-medium:                                          ($font-size-base * 8) !default;
