@@ -28673,12 +28673,12 @@ label.btn {
 
 .gradient-overlay-half-bg-orange::before {
   background-color: #ff9500;
-  opacity: .8;
+  opacity: .85;
 }
 
 .gradient-overlay-half-bg-dark::before {
   background-color: #000000;
-  opacity: .75;
+  opacity: .7;
 }
 
 .gradient-overlay-half-bg-blue-light::before {
