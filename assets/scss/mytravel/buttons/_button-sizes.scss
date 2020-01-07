@@ -40,7 +40,7 @@
         height:$btn-height-normal;
     }
     @include media-breakpoint-only(lg) {
-      width:$btn-width-medium;
+      min-width:$btn-width-medium;
       height:$btn-height-normal;
     }
 }
