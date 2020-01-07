@@ -87,6 +87,7 @@ $container-max-widths: (
     $space:                                                     #ff9500 !default;
     $sapphire:                                                  #002568 !default;
     $black:                                                     #3b444f !default;
+    $bg-hover-gradient:                                         #C72F74;
 
 
     // Theme Colors
@@ -180,8 +181,10 @@ $content-spacers: map-merge((
   3: ($content-space * 8),
   4: ($content-space * 12.5),
   5: ($content-space * 15),
+  6: ($content-space * 16),
+  8: ($content-space * 18),
   9: ($content-space * 19),
-  10: ($content-space * 25),
+  10: ($content-space * 22),
 ), $content-spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
@@ -332,7 +335,7 @@ $box-shadow-primary-sm:                                     0 0 35px rgba($prima
 $box-shadow-primary-lg:                                     0 0 50px rgba($primary, .4) !default;
 $box-shadow-soft:                                           0 3px 6px 0 rgba($gray-600, .25) !default;
 $box-shadow-1:                                              1px 1px 0px 30px rgba(78, 50, 104, 0.6);
-$box-shadow-2:                                              0px 0px 7px 1px rgba(0,0,0,0.75);
+$box-shadow-2:                                              0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 
 
 
