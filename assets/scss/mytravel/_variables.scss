@@ -181,8 +181,10 @@ $content-spacers: map-merge((
   3: ($content-space * 8),
   4: ($content-space * 12.5),
   5: ($content-space * 15),
+  6: ($content-space * 16),
+  8: ($content-space * 18),
   9: ($content-space * 19),
-  10: ($content-space * 25),
+  10: ($content-space * 22),
 ), $content-spacers);
 
 // This variable affects the `.h-*` and `.w-*` classes.
