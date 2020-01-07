@@ -27095,6 +27095,19 @@ label.btn {
   border-bottom: 10px solid #fff;
 }
 
+.tab-nav-pill .nav-link {
+  padding: 0.5rem 1.5rem;
+}
+
+.tab-nav-pill .nav-link.active {
+  background-color: #1d508d;
+  border-radius: 20px;
+}
+
+.tab-nav-pill .nav-link.active .tabtext {
+  color: #fff;
+}
+
 .tab-nav-shadow .nav-link {
   padding: 0.3rem 1.5rem;
 }
@@ -29476,11 +29489,11 @@ label.btn {
 }
 
 .height-240 {
-  height: 15rem;
+  min-height: 15rem;
 }
 
 .height-350 {
-  height: 21.875rem !important;
+  min-height: 21.875rem !important;
 }
 
 .height-380 {
@@ -29501,6 +29514,10 @@ label.btn {
 
 .min-height-155 {
   min-height: 9.6875rem;
+}
+
+.min-height-230 {
+  min-height: 14.375rem;
 }
 
 .min-height-300 {

@@ -118,11 +118,11 @@
 }
 
 .height-240 {
-  height: 15rem; //240px
+  min-height: 15rem; //240px
 }
 
 .height-350 {
-  height: 21.875rem !important; //350PX
+  min-height: 21.875rem !important; //350PX
 }
 
 .height-380 {
@@ -143,6 +143,10 @@
 
 .min-height-155 {
   min-height: 9.6875rem;
+}
+
+.min-height-230 {
+  min-height: 14.375rem; //230px
 }
 
 .min-height-300 {
