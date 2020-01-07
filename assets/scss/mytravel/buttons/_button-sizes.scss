@@ -29,15 +29,19 @@
 
 .btn-normal {
     @include media-breakpoint-up(xl) {
-        width:$btn-width-normal;
+        min-width: $btn-width-normal;
         height:$btn-height-normal;
     }
 }
 
 .btn-md {
-    @include media-breakpoint-up(xl) {
-        width:$btn-width-medium;
+    @include media-breakpoint-up(md) {
+        min-width: $btn-width-wide-normal;
         height:$btn-height-normal;
+    }
+    @include media-breakpoint-only(lg) {
+      min-width:$btn-width-medium;
+      height:$btn-height-normal;
     }
 }
 /* Icons */
