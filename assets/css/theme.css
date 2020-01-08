@@ -28938,9 +28938,13 @@ label.btn {
   opacity: .85;
 }
 
-.gradient-overlay-half-bg-dark::before {
+[class*="gradient-overlay-half-bg-dark"]::before {
   background-color: #000000;
   opacity: .7;
+}
+
+.gradient-overlay-half-bg-dark-v1::before {
+  opacity: .6;
 }
 
 .gradient-overlay-half-bg-blue-light::before {
@@ -28995,6 +28999,11 @@ label.btn {
 .gradient-overlay-half-bg-blue-light-1:before {
   background-color: #181a1c;
   opacity: 0.2;
+}
+
+.gradient-overlay-half-bg-charcoal-gray:before {
+  background-color: #484848;
+  opacity: 0.5;
 }
 
 /*------------------------------------
