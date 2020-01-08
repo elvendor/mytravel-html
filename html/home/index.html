@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="../../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
     <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
     <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+
 
 
     <!-- CSS MyTravel Template -->
@@ -1759,6 +1762,7 @@
         <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
         <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
         <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
+        <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
 
         <!-- JS Implementing Plugins -->
         <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
@@ -1771,6 +1775,7 @@
         <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
         <script src="../../documentation/assets/vendor/prism/prism.js"></script>
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
+        <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -1780,6 +1785,8 @@
         <script src="../../assets/js/components/hs.svg-injector.js"></script>
         <script src="../../assets/js/components/hs.go-to.js"></script>
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+        <script src="../../assets/js/components/hs.range-datepicker.js"></script>
+        <script src="../../assets/js/components/hs.selectpicker.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -1811,6 +1818,12 @@
 
             // initialization of go to
             $.HSCore.components.HSGoTo.init('.js-go-to');
+
+            // initialization of select
+            $.HSCore.components.HSSelectPicker.init('.js-select');
+
+            // initialization of datepicker
+            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
             });
         </script>
     </body>

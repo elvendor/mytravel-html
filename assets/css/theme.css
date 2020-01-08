@@ -18344,7 +18344,7 @@ button:focus {
 .u-header__nav-link-toggle::after {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 900;
   content: "\f107";
   margin-left: 0.75rem;
@@ -28995,6 +28995,11 @@ label.btn {
 .gradient-overlay-half-bg-blue-light-1:before {
   background-color: #181a1c;
   opacity: 0.2;
+}
+
+.gradient-overlay-half-bg-charcoal-gray:before {
+  background-color: #484848;
+  opacity: 0.5;
 }
 
 /*------------------------------------
