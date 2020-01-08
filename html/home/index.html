@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
     <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
 
 
 
@@ -1687,11 +1688,15 @@
             <!-- End Banner--v2 --> 
             <!-- Banner--v4 -->
             <div class="space-1">
-                <div class="gradient-overlay-half-bg-catalina-blue bg-img-hero space-3" style="background-image: url(../../assets/img/1920x500/img4.jpg);">
-                    <div class="text-center mt-xl-2 mb-xl-5">
-                        <h6 class="text-gray-4 font-size-30 font-weight-bold mb-1 opacity-6 pt-xl-1">Enjoy Summer Deals</h6>
-                        <h5 class="text-white font-size-40 font-weight-bold mb-5 pb-xl-1">Up to 40% Discount!</h5>
-                        <a class="btn btn-outline-white border-width-2 rounded-xs min-width-200 font-weight-normal transition-3d-hover" href="#">Learn more</a>
+                <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll" data-options='{direction: "normal"}'>
+                    <!-- Apply your Parallax background image here -->
+                    <div class="divimage dzsparallaxer--target bg-img-hero opacity-7" style="height: 110%; background-image: url(../../assets/img/1920x500/img4.jpg);"></div>
+                    <div class="text-center space-3">
+                        <div class="pt-xl-2 pb-xl-5 mb-xl-1">
+                            <h6 class="text-gray-4 font-size-30 font-weight-bold mb-1 opacity-6">Enjoy Summer Deals</h6>
+                            <h5 class="text-white font-size-40 font-weight-bold mb-5 pb-xl-1">Up to 40% Discount!</h5>
+                            <a class="btn btn-outline-white border-width-2 rounded-xs min-width-200 font-weight-normal transition-3d-hover" href="#">Learn more</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1778,6 +1783,8 @@
         <script src="../../documentation/assets/vendor/prism/prism.js"></script>
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+        <script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
+
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
