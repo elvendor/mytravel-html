@@ -88,6 +88,7 @@ $container-max-widths: (
     $sapphire:                                                  #002568 !default;
     $black:                                                     #3b444f !default;
     $bg-hover-gradient:                                         #C72F74;
+    $purple:                                                    #8023df !default;
 
 
     // Theme Colors
@@ -120,6 +121,7 @@ $secondary-colors: map-merge((
     "orange":                                                 $soft-orange,
     "space":                                                  $space,
     "sapphire":                                               $sapphire,
+    "purple":                                                 $purple,
 ), $secondary-colors);
 
 // Theme Colors
