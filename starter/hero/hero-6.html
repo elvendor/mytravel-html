@@ -17,9 +17,6 @@
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/font-mytravel.css">
-    <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
-    <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
     <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
@@ -40,17 +37,15 @@
     <!-- Hero Section -->
         <div class="bg-img-hero-bottom gradient-overlay-half-blue-gradient text-center" style="background-image: url(../../assets/img/1920x750/img1.jpg);">
             <div class="container space-2 space-top-xl-6">
-                <div class="row justify-content-md-center py-xl-10">
-                    <!-- Info -->
-                    <div class="pb-lg-11 mb-7">
-                        <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Love where you're going</h1>
-                        <p class="font-size-20 font-weight-normal text-white">Book experiences you’ll want to tell the world about</p>
-                    </div>
-                    <!-- End Info -->
+                <!-- Info -->
+                <div class="pb-lg-11 mb-7">
+                    <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Love where you're going</h1>
+                    <p class="font-size-20 font-weight-normal text-white">Book experiences you’ll want to tell the world about</p>
                 </div>
+                <!-- End Info -->
                 <div class="mb-lg-n16">
-                    <div class="card border-0">
-                        <div class="card-body mt-1">
+                    <div class="card border-0 tab-shadow">
+                        <div class="card-body">
                             <form class="js-validate">
                               <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
                                 <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -58,7 +53,7 @@
                                     <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Destination</span>
                                     <div class="js-focus-state">
                                         <div class="input-group border-bottom border-width-2 border-color-1">
-                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"></i>
+                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
                                           <input type="text" class="form-control font-size-lg-16 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                         </div>
                                     </div>
@@ -72,13 +67,13 @@
                                         <div id="datepickerWrapperFrom" class="u-datepicker input-group">
                                             <div class="input-group-prepend">
                                                 <span class="d-flex align-items-center mr-2">
-                                                  <i class="flaticon-calendar text-space-orange font-weight-semi-bold"></i>
+                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                 </span>
                                             </div>
                                              <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
                                                  data-rp-wrapper="#datepickerWrapper"
                                                  data-rp-type="range"
-                                                 data-rp-date-format="m/d/y"
+                                                 data-rp-date-format="M d / Y"
                                                  data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
                                         </div>
                                          <!-- End Datepicker -->
@@ -91,7 +86,7 @@
                                     <span class="d-block text-gray-1 font-weight-normal mb-0">Outdoors</span>
                                     <div class="js-focus-state">
                                         <div class="d-flex border-bottom border-width-2 border-color-1">
-                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"></i>
+                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
                                             <select class="js-select selectpicker dropdown-select">
                                                 <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
                                                 <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
@@ -105,7 +100,7 @@
                                 </div>
 
                                 <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
-                                    <button type="submit" class="btn btn-space text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                    <button type="submit" class="btn btn-primary text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
                                 </div>
                               </div>
                               <!-- End Checkbox -->
@@ -143,7 +138,7 @@
                                 &lt;!-- ========== HERO ========== --&gt;
                                     &lt;div class="bg-img-hero-bottom gradient-overlay-half-blue-gradient text-center" style="background-image: url(../../assets/img/1920x750/img1.jpg);"&gt;
                                         &lt;div class="container space-2 space-top-xl-6"&gt;
-                                            &lt;div class="row justify-content-md-center py-xl-10"&gt;
+                                            &lt;div class="row justify-content-md-center py-xl-10 px-2 px-md-0"&gt;
                                                 &lt;!-- Info --&gt;
                                                 &lt;div class="pb-lg-11 mb-7"&gt;
                                                     &lt;h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold"&gt;Love where you're going&lt;/h1&gt;
@@ -161,7 +156,7 @@
                                                                 &lt;span class="d-block text-gray-1 text-left font-weight-normal mb-0"&gt;Destination&lt;/span&gt;
                                                                 &lt;div class="js-focus-state"&gt;
                                                                     &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                        &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                        &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                       &lt;input type="text" class="form-control font-size-lg-16 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon"&gt;
                                                                     &lt;/div&gt;
                                                                 &lt;/div&gt;
@@ -175,13 +170,13 @@
                                                                     &lt;div id="datepickerWrapperFrom" class="u-datepicker input-group"&gt;
                                                                         &lt;div class="input-group-prepend"&gt;
                                                                             &lt;span class="d-flex align-items-center mr-2"&gt;
-                                                                              &lt;i class="flaticon-calendar text-space-orange font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                              &lt;i class="flaticon-calendar text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                             &lt;/span&gt;
                                                                         &lt;/div&gt;
                                                                          &lt;input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
                                                                              data-rp-wrapper="#datepickerWrapper"
                                                                              data-rp-type="range"
-                                                                             data-rp-date-format="m/d/y"
+                                                                             data-rp-date-format="M d / Y"
                                                                              data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'&gt;
                                                                     &lt;/div&gt;
                                                                      &lt;!-- End Datepicker --&gt;
@@ -194,7 +189,7 @@
                                                                 &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Outdoors&lt;/span&gt;
                                                                 &lt;div class="js-focus-state"&gt;
                                                                     &lt;div class="d-flex border-bottom border-width-2 border-color-1"&gt;
-                                                                        &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-space-orange font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                        &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                         &lt;select class="js-select selectpicker dropdown-select"&gt;
                                                                             &lt;option value="2 Rooms - 3 Guests" selected&gt;2 Rooms - 3 Guests&lt;/option&gt;
                                                                             &lt;option value="2 Rooms - 3 Guests"&gt;2 Rooms - 4 Guests&lt;/option&gt;
@@ -208,7 +203,7 @@
                                                             &lt;/div&gt;
 
                                                             &lt;div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right"&gt;
-                                                                &lt;button type="submit" class="btn btn-space text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
+                                                                &lt;button type="submit" class="btn btn-primary text-white font-weight-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
                                                             &lt;/div&gt;
                                                           &lt;/div&gt;
                                                           &lt;!-- End Checkbox --&gt;
@@ -227,8 +222,7 @@
                         <pre>
                             <code class="language-html" data-lang="html">
                                 &lt;link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"&gt;
-                                &lt;link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css"&gt;
-                                &lt;link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css"&gt;
+                                &lt;link rel="stylesheet" type="text/css" href="../../assets/css/font-mytravel.css"&gt;
                                 &lt;link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css"&gt;
                                 &lt;link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css"&gt;
                             </code>
@@ -238,18 +232,11 @@
                         <pre>
                             <code class="language-html" data-lang="html">
                                 &lt;!-- JS Implementing Plugins --&gt;
-                                &lt;script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js">&lt;/script&gt;
-
+                                &lt;script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"&gt;&lt;/script&gt;
 
                                 &lt;!-- JS MyTravel --&gt;
                                 &lt;script src="../../assets/js/hs.core.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/js/components/hs.unfold.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/js/components/hs.validation.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/js/components/hs.show-animation.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.range-datepicker.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.selectpicker.js"&gt;&lt;/script&gt;
 
@@ -266,20 +253,10 @@
                                 });
 
                                 $(document).on('ready', function () {
-                                    // initialization of header
-                                    $.HSCore.components.HSHeader.init($('#header'));
-
-                                    // initialization of unfold component
-                                    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-                                    // initialization of show animations
-                                    $.HSCore.components.HSShowAnimation.init('.js-animation-link');
-
-                                    // initialization of go to
-                                    $.HSCore.components.HSGoTo.init('.js-go-to');
-
+                                    // initialization of datepicker
                                     $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
+                                    // initialization of select
                                     $.HSCore.components.HSSelectPicker.init('.js-select');
                                 });
                                 &lt;/script&gt;
@@ -312,18 +289,10 @@
     <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
     <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
     <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
 
 
     <!-- JS Implementing Plugins -->
-    <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-    <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-    <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
+    <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
     <script src="../../documentation/assets/vendor/prism/prism.js"></script>
     <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
@@ -354,20 +323,13 @@
     });
 
     $(document).on('ready', function () {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#header'));
-
-        // initialization of unfold component
-        $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-        // initialization of fancybox
-        $.HSCore.components.HSFancyBox.init('.js-fancybox');
-
         // initialization of go to
         $.HSCore.components.HSGoTo.init('.js-go-to');
 
+        // initialization of datepicker
         $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
+        // initialization of select
         $.HSCore.components.HSSelectPicker.init('.js-select');
     });
   </script>

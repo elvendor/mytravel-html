@@ -18,25 +18,6 @@
     color: $gray-4;
 }
 
-.text-blue {
-	color: $dark-blue;
-}
-
-.text-pink {
-    color: $pink;
-}
-
-.text-orange {
-    color: $soft-orange;
-}
-
-.text-space-orange {
-    color: $space;
-}
-
-.text-curious {
-    color: $curious-blue;
-}
 .text-primary-max {
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
@@ -57,6 +38,6 @@
     color: $black;
 }
 
-.bg-sapphire {
-    background-color:$sapphire;
+.star-rating-color {
+    color: $rating-star;
 }
