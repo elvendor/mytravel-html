@@ -17,9 +17,6 @@
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="../../assets/css/font-mytravel.css">
-    <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
-    <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
-    <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
     <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
     <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
@@ -53,7 +50,7 @@
                         <div class="tab-pane fade pt-xl-4 active show" id="pills-one-example2" role="tabpanel" aria-labelledby="pills-one-example2-tab">
                             <!-- Search Jobs Form -->
                             <div class="card border-0">
-                                <div class="card-body mt-1">
+                                <div class="card-body">
                                     <form class="js-validate">
                                       <div class="row nav-select d-block d-lg-flex mb-lg-3 px-lg-3 px-2 ">
                                         <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
@@ -237,8 +234,7 @@
                         <pre>
                             <code class="language-html" data-lang="html">
                                 &lt;link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"&gt;
-                                &lt;link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css"&gt;
-                                &lt;link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css"&gt;
+                                &lt;link rel="stylesheet" type="text/css" href="../../assets/css/font-mytravel.css"&gt;
                                 &lt;link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css"&gt;
                                 &lt;link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css"&gt;
                             </code>
@@ -248,18 +244,11 @@
                         <pre>
                             <code class="language-html" data-lang="html">
                                 &lt;!-- JS Implementing Plugins --&gt;
-                                &lt;script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js">&lt;/script&gt;
-
+                                &lt;script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"&gt;&lt;/script&gt;
 
                                 &lt;!-- JS MyTravel --&gt;
                                 &lt;script src="../../assets/js/hs.core.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/js/components/hs.unfold.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/js/components/hs.validation.js"&gt;&lt;/script&gt;
-                                &lt;script src="../../assets/js/components/hs.show-animation.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.range-datepicker.js"&gt;&lt;/script&gt;
                                 &lt;script src="../../assets/js/components/hs.selectpicker.js"&gt;&lt;/script&gt;
 
@@ -276,20 +265,10 @@
                                 });
 
                                 $(document).on('ready', function () {
-                                    // initialization of header
-                                    $.HSCore.components.HSHeader.init($('#header'));
-
-                                    // initialization of unfold component
-                                    $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-                                    // initialization of show animations
-                                    $.HSCore.components.HSShowAnimation.init('.js-animation-link');
-
-                                    // initialization of go to
-                                    $.HSCore.components.HSGoTo.init('.js-go-to');
-
+                                    // initialization of datepicker
                                     $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
+                                    // initialization of select
                                     $.HSCore.components.HSSelectPicker.init('.js-select');
                                 });
                                 &lt;/script&gt;
@@ -303,83 +282,62 @@
         </div>
     <!-- End Component Block -->
 </main>
-  <!-- ========== END MAIN CONTENT ========== -->
+<!-- ========== END MAIN CONTENT ========== -->
 
-  <!-- Go to Top -->
-  <a class="js-go-to u-go-to" href="#"
-    data-position='{"bottom": 15, "right": 15 }'
-    data-type="fixed"
-    data-offset-top="400"
-    data-compensation="#header"
-    data-show-effect="slideInUp"
-    data-hide-effect="slideOutDown">
-    <span class="fas fa-arrow-up u-go-to__inner"></span>
-  </a>
-  <!-- End Go to Top -->
+<!-- Go to Top -->
+    <a class="js-go-to u-go-to" href="#"
+        data-position='{"bottom": 15, "right": 15 }'
+        data-type="fixed"
+        data-offset-top="400"
+        data-compensation="#header"
+        data-show-effect="slideInUp"
+        data-hide-effect="slideOutDown">
+        <span class="fas fa-arrow-up u-go-to__inner"></span>
+    </a>
+<!-- End Go to Top -->
 
-  <!-- JS Global Compulsory -->
+    <!-- JS Global Compulsory -->
     <script src="../../assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="../../assets/vendor/jquery-migrate/dist/jquery-migrate.min.js"></script>
     <script src="../../assets/vendor/popper.js/dist/umd/popper.min.js"></script>
     <script src="../../assets/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
-
 
     <!-- JS Implementing Plugins -->
-    <script src="../../assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
-    <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
-    <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-    <script src="../../assets/vendor/typed.js/lib/typed.min.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/jquery-ui.core.min.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/menu.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
-    <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
     <script src="../../documentation/assets/vendor/prism/prism.js"></script>
+    <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
     <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
-    <!-- JS Front -->
+    <!-- JS mytravel -->
     <script src="../../assets/js/hs.core.js"></script>
-    <script src="../../assets/js/components/hs.header.js"></script>
-    <script src="../../assets/js/components/hs.unfold.js"></script>
-    <script src="../../assets/js/components/hs.fancybox.js"></script>
-    <script src="../../assets/js/components/hs.svg-injector.js"></script>
     <script src="../../assets/js/components/hs.go-to.js"></script>
     <script src="../../assets/js/components/hs.range-datepicker.js"></script>
     <script src="../../assets/js/components/hs.selectpicker.js"></script>
 
+<!-- JS Plugins Init. -->
+    <script>
+        $(window).on('load', function () {
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+            event: 'hover',
+            pageContainer: $('.container'),
+            breakpoint: 767.98,
+            hideTimeOut: 0
+            });
 
-  <!-- JS Plugins Init. -->
-  <script>
-    $(window).on('load', function () {
-      // initialization of HSMegaMenu component
-      $('.js-mega-menu').HSMegaMenu({
-        event: 'hover',
-        pageContainer: $('.container'),
-        breakpoint: 767.98,
-        hideTimeOut: 0
-      });
+            // initialization of svg injector module
+            $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+        });
 
-      // initialization of svg injector module
-      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    });
+        $(document).on('ready', function () {
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
 
-    $(document).on('ready', function () {
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#header'));
+            // initialization of datepicker
+            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
-        // initialization of unfold component
-        $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-        // initialization of fancybox
-        $.HSCore.components.HSFancyBox.init('.js-fancybox');
-
-        // initialization of go to
-        $.HSCore.components.HSGoTo.init('.js-go-to');
-
-        $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
-
-        $.HSCore.components.HSSelectPicker.init('.js-select');
-    });
-  </script>
+            // initialization of select
+            $.HSCore.components.HSSelectPicker.init('.js-select');
+        });
+    </script>
 </body>
 </html>

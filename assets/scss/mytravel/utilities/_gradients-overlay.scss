@@ -123,12 +123,18 @@
 	}
 }
 
-.gradient-overlay-half-bg-dark {
+[class*="gradient-overlay-half-bg-dark"] {
 	&::before {
 		background-color: #000000;
 		opacity: .7;
 	}
 }
+.gradient-overlay-half-bg-dark-v1 {
+	&::before {
+		opacity: .6;
+	}
+}
+
 
 .gradient-overlay-half-bg-blue-light {
 	&::before {
@@ -196,13 +202,6 @@
 	&:before {
 		background-color: #16142D;
 		opacity: .4;
-	}
-}
-
-.gradient-overlay-half-bg-blue-light-1 {
-	&:before {
-		background-color: #181a1c;
-		opacity: 0.2;
 	}
 }
 
