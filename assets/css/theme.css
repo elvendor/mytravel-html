@@ -29568,12 +29568,20 @@ label.btn {
   opacity: .2;
 }
 
+.opacity-4 {
+  opacity: .4;
+}
+
 .opacity-6 {
   opacity: .6;
 }
 
 .opacity-7 {
   opacity: .7;
+}
+
+.opacity-9 {
+  opacity: .9;
 }
 
 /*------------------------------------
