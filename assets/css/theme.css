@@ -27429,7 +27429,7 @@ label.btn {
 }
 
 .tab-nav-pill .nav-link.active {
-  background-color: #1d508d;
+  background-color: #377dff;
   border-radius: 20px;
 }
 
@@ -28996,6 +28996,10 @@ label.btn {
   background: linear-gradient(160deg, #1e2022 -18%, transparent 90%);
 }
 
+.gradient-overlay-half-bg-gradient-v5::before {
+  background: linear-gradient(0deg, #1e2022 -50%, transparent 80%);
+}
+
 .gradient-overlay::after {
   content: "";
   position: absolute;
@@ -29003,7 +29007,7 @@ label.btn {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #C72F74;
+  background-color: #377dff;
   opacity: .0;
 }
 
@@ -29693,6 +29697,10 @@ label.btn {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
+.shadow-hover-2.tab-card:hover .card-title.text-dark {
+  color: #377dff !important;
+}
+
 /*------------------------------------
   Width
 ------------------------------------*/
@@ -30243,10 +30251,6 @@ Line Height
 
 .text-black {
   color: #3b444f;
-}
-
-.star-rating-color {
-  color: #b0d12b;
 }
 
 .bg-sapphire {
