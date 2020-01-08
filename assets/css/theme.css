@@ -11,7 +11,7 @@
 :root {
   --blue: #377dff;
   --indigo: #2d1582;
-  --purple: #6f42c1;
+  --purple: #8023df;
   --pink: #ff567d;
   --red: #de4437;
   --orange: #fd7e14;
@@ -23041,6 +23041,41 @@ button:focus {
   box-shadow: 0 0 0 0.2rem rgba(38, 70, 127, 0.5);
 }
 
+/* purple */
+.btn-purple {
+  color: #fff;
+  background-color: #8023df;
+  border-color: #8023df;
+}
+
+.btn-purple:hover {
+  color: #fff;
+  background-color: #6d1cc0;
+  border-color: #671ab5;
+}
+
+.btn-purple:focus, .btn-purple.focus {
+  box-shadow: 0 0 0 0.2rem rgba(147, 68, 228, 0.5);
+}
+
+.btn-purple.disabled, .btn-purple:disabled {
+  color: #fff;
+  background-color: #8023df;
+  border-color: #8023df;
+}
+
+.btn-purple:not(:disabled):not(.disabled):active, .btn-purple:not(:disabled):not(.disabled).active,
+.show > .btn-purple.dropdown-toggle {
+  color: #fff;
+  background-color: #671ab5;
+  border-color: #6019aa;
+}
+
+.btn-purple:not(:disabled):not(.disabled):active:focus, .btn-purple:not(:disabled):not(.disabled).active:focus,
+.show > .btn-purple.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(147, 68, 228, 0.5);
+}
+
 /*------------------------------------
   Custom Buttons
 ------------------------------------*/
@@ -23387,6 +23422,21 @@ button:focus {
 .btn-sapphire:hover {
   background-color: #002568;
   border-color: #002568;
+}
+
+/* purple button :hover, :focus, :active effects */
+.btn-purple[href]:hover, .btn-purple[href]:focus, .btn-purple[href]:active, .btn-purple[type]:hover, .btn-purple[type]:focus, .btn-purple[type]:active {
+  box-shadow: 0 4px 11px rgba(128, 35, 223, 0.35);
+}
+
+.btn-purple:not(label.btn), .btn-purple:not(label.btn):not([href]):not(:disabled):not(.disabled), .btn-purple:not([href]), .btn-purple:not([href]):not([href]):not(:disabled):not(.disabled) {
+  background-color: #8023df;
+  border-color: #8023df;
+}
+
+.btn-purple:hover {
+  background-color: #8023df;
+  border-color: #8023df;
 }
 
 /*------------------------------------
@@ -24109,6 +24159,36 @@ button:focus {
 
 .btn.btn-soft-sapphire {
   color: #002568;
+}
+
+/* purple air */
+.btn-soft-purple {
+  color: #8023df;
+  background: rgba(128, 35, 223, 0.1);
+  border-color: transparent;
+}
+
+.btn-soft-purple[href]:hover, .btn-soft-purple[href]:focus, .btn-soft-purple[href]:active, .btn-soft-purple[href].active, .btn-soft-purple[type]:hover, .btn-soft-purple[type]:focus, .btn-soft-purple[type]:active, .btn-soft-purple[type].active {
+  color: #fff;
+  background: #8023df;
+  box-shadow: 0 4px 11px rgba(128, 35, 223, 0.35);
+}
+
+.btn-soft-purple[href].disabled, .btn-soft-purple[href]:disabled, .btn-soft-purple[type].disabled, .btn-soft-purple[type]:disabled {
+  color: #8023df;
+  background-color: rgba(128, 35, 223, 0.1);
+  box-shadow: none;
+}
+
+.btn-soft-purple[href]:not(:disabled):not(.disabled):active, .btn-soft-purple[href]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-purple[href].dropdown-toggle, .btn-soft-purple[type]:not(:disabled):not(.disabled):active, .btn-soft-purple[type]:not(:disabled):not(.disabled).active,
+.show > .btn-soft-purple[type].dropdown-toggle {
+  color: #fff;
+  background-color: #8023df;
+}
+
+.btn.btn-soft-purple {
+  color: #8023df;
 }
 
 /*------------------------------------
