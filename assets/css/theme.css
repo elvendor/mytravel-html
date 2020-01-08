@@ -29737,14 +29737,6 @@ label.btn {
   height: .25rem;
 }
 
-.height-240 {
-  min-height: 15rem;
-}
-
-.height-350 {
-  min-height: 21.875rem !important;
-}
-
 .height-380 {
   height: 23.75rem;
 }
@@ -29767,6 +29759,14 @@ label.btn {
 
 .min-height-230 {
   min-height: 14.375rem;
+}
+
+.min-height-240 {
+  min-height: 15rem;
+}
+
+.min-height-350 {
+  min-height: 21.875rem !important;
 }
 
 .min-height-300 {
