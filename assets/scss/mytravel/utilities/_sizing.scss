@@ -117,14 +117,6 @@
   height: .25rem;
 }
 
-.height-240 {
-  min-height: 15rem; //240px
-}
-
-.height-350 {
-  min-height: 21.875rem !important; //350PX
-}
-
 .height-380 {
   height: 23.75rem;
 }
@@ -147,6 +139,14 @@
 
 .min-height-230 {
   min-height: 14.375rem; //230px
+}
+
+.min-height-240 {
+  min-height: 15rem; //240px
+}
+
+.min-height-350 {
+  min-height: 21.875rem !important; //350PX
 }
 
 .min-height-300 {
