@@ -29602,6 +29602,10 @@ label.btn {
   box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
+.shadow-hover-2.tab-card:hover {
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
 /*------------------------------------
   Width
 ------------------------------------*/
@@ -30148,6 +30152,10 @@ Line Height
 
 .text-black {
   color: #3b444f;
+}
+
+.star-rating-color {
+  color: #b0d12b;
 }
 
 .bg-sapphire {

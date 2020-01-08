@@ -20,4 +20,10 @@
     &:focus {
         box-shadow: $box-shadow-2;
     }
+
+    &.tab-card {
+    	&:hover {
+    		box-shadow: $box-shadow-3;
+    	}
+    }
 }
