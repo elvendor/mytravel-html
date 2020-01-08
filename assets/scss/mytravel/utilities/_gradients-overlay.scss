@@ -205,3 +205,11 @@
 		opacity: 0.2;
 	}
 }
+
+.gradient-overlay-half-bg-charcoal-gray {
+	&:before {
+		background-color: #484848;
+		opacity: 0.5;
+	}
+}
+

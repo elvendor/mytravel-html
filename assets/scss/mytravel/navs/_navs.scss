@@ -129,6 +129,18 @@
 			}
 		}
 	}
+	&-pill {
+		.nav-link {
+			padding: 0.5rem 1.5rem;
+			&.active {
+				background-color: #1d508d;
+				border-radius: 20px;
+				.tabtext {
+					color: $white;
+				}
+			}
+		}
+	}
 	&-shadow {
 		.nav-link {
 			padding: 0.3rem 1.5rem;

@@ -143,11 +143,11 @@
                     <div class="tab-pane fade show active" id="pills-html-1" role="tabpanel" aria-labelledby="pills-html-tab-1">
                         <pre>
                             <code class="language-html" data-lang="html">
-                                &lt;-- ========== HERO ========== --&gt;
-                                    &lt;div class="position-relative bg-img-hero-bottom min-height-600" style="background-image: url(../../assets/img/1920x600/img1.jpg);"&gt;
+                                &lt;!-- ========== HERO ========== --&gt;
+                                    &lt;div class="bg-img-hero-bottom min-height-600 gradient-overlay-half-gray-gradient  space-top-lg-3 space-2" style="background-image: url(../../assets/img/1920x600/img1.jpg);"&gt;
                                         &lt;div class="container"&gt;
-                                            &lt;div class="d-md-flex align-items-lg-center text-center space-top-xl-3 space-top-2"&gt;
-                                                &lt;div class="row justify-content-md-center w-100 pt-6"&gt;
+                                            &lt;div class="d-md-flex align-items-lg-center text-center"&gt;
+                                                &lt;div class="row justify-content-md-center w-100 pt-4"&gt;
                                                     &lt;!-- Info --&gt;
                                                     &lt;div class="mx-3 mb-xl-3 mt-xl-4 mb-2"&gt;
                                                       &lt;h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold  mb-0"&gt;Find Next Place To Visit&lt;/h1&gt;
@@ -156,12 +156,12 @@
                                                     &lt;!-- End Info --&gt;
                                                 &lt;/div&gt;
                                             &lt;/div&gt;
-                                            &lt;div class="row space-bottom-xl-3 space-bottom-2"&gt;
-                                                &lt;div class="col-md-12 mx-auto pb-xl-2 tab-pane"&gt;
+                                            &lt;div class="row"&gt;
+                                                &lt;div class="col-md-12"&gt;
                                                     &lt;div class="card border-0"&gt;
-                                                        &lt;div class="card-body mt-1"&gt;
+                                                        &lt;div class="card-body"&gt;
                                                             &lt;form class="js-validate"&gt;
-                                                              &lt;div class="row d-block d-lg-flex mb-lg-3 px-3"&gt;
+                                                              &lt;div class="row nav-select d-block d-lg-flex mb-lg-3 px-3"&gt;
                                                                 &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;
                                                                     &lt;!-- Input --&gt;
                                                                     &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Destination&lt;/span&gt;
@@ -177,11 +177,20 @@
                                                                 &lt;div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 "&gt;
                                                                     &lt;!-- Input --&gt;
                                                                     &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;From - To&lt;/span&gt;
-                                                                    &lt;div class="js-focus-state"&gt;
-                                                                        &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                            &lt;i class="flaticon-calendar d-flex align-items-center mr-2 text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                            &lt;input type="text" class="form-control  font-size-lg-14  shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Jul 7 / 2019 - Aug 25 / 2019" aria-label="City, state, or zip" aria-describedby="locationInputAddon"&gt;
+                                                                    &lt;div class="border-bottom border-width-2 border-color-1"&gt;
+                                                                        &lt;div id="datepickerWrapperFrom" class="u-datepicker input-group"&gt;
+                                                                            &lt;div class="input-group-prepend"&gt;
+                                                                                &lt;span class="d-flex align-items-center mr-2"&gt;
+                                                                                  &lt;i class="flaticon-calendar text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                                &lt;/span&gt;
+                                                                            &lt;/div&gt;
+                                                                            &lt;input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                                 data-rp-type="range"
+                                                                                 data-rp-date-format="m/d/y"
+                                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'&gt;
                                                                         &lt;/div&gt;
+                                                                    &lt;!-- End Datepicker --&gt;
                                                                     &lt;/div&gt;
                                                                     &lt;!-- End Input --&gt;
                                                                 &lt;/div&gt;
@@ -191,9 +200,9 @@
                                                                     &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Trip Type&lt;/span&gt;
                                                                     &lt;div class="js-focus-state"&gt;
                                                                         &lt;div class="d-flex border-bottom border-width-2 border-color-1"&gt;
-                                                                            &lt;i class="flaticon-plus d-flex align-items-center mr-2 text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                            &lt;i class="flaticon-backpack d-flex align-items-center mr-2 text-curious font-weight-semi-bold"&gt;&lt;/i&gt;
                                                                             &lt;select class="js-select selectpicker dropdown-select"&gt;
-                                                                                &lt;option value="2 Rooms - 3 Guests" selected&gt;2 Rooms - 3 Guests&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests" selected&gt;City Tour&lt;/option&gt;
                                                                                 &lt;option value="2 Rooms - 3 Guests"&gt;2 Rooms - 4 Guests&lt;/option&gt;
                                                                                 &lt;option value="2 Rooms - 3 Guests"&gt;3 Rooms - 6 Guests&lt;/option&gt;
                                                                                 &lt;option value="2 Rooms - 3 Guests"&gt;1 Rooms - 2 Guests&lt;/option&gt;
@@ -203,7 +212,7 @@
                                                                     &lt;!-- End Input --&gt;
                                                                 &lt;/div&gt;
 
-                                                                &lt;div class="col-sm-12 col-lg-1dot9 align-self-lg-end"&gt;
+                                                                &lt;div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-center text-md-right"&gt;
                                                                     &lt;button type="submit" class="btn btn-curious btn-md mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
                                                                 &lt;/div&gt;
                                                               &lt;/div&gt;
@@ -216,7 +225,7 @@
                                             &lt;/div&gt;
                                         &lt;/div&gt;
                                     &lt;/div&gt;
-                                &lt;-- ==========END HERO ========== --&gt;
+                                &lt;!-- ==========END HERO ========== --&gt;
                             </code>
                         </pre>
                     </div>
