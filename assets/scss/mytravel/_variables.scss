@@ -80,10 +80,6 @@ $container-max-widths: (
     $twitter:                                                   #1da1f2 !default;
     $instagram:                                                 #3f729b !default;
     $github:           											                    #24292e !default;
-    $dark-blue:                                                 #0057ff !default;
-    $pink:                                                      #ff567d !default;
-    $curious-blue:                                              #297cbb !default;
-    $soft-orange:                                               #eeb758 !default;
     $space:                                                     #ff9500 !default;
     $sapphire:                                                  #002568 !default;
     $black:                                                     #3b444f !default;
@@ -95,17 +91,17 @@ $container-max-widths: (
     // Theme Colors
     $primary:                                                   $blue !default;
     $primary-darker:                                            $blue-darker !default;
-    $primary-lighter:          									$blue-lighter !default;
+    $primary-lighter:          									                $blue-lighter !default;
     $secondary:                                                 $gray-700 !default;
     $success:                                                   $teal !default;
-    $success-lighter:          									$teal-lighter !default;
+    $success-lighter:          									                $teal-lighter !default;
     $info:                                                      $cyan !default;
-    $info-lighter:           									$cyan-lighter !default;
+    $info-lighter:           									                  $cyan-lighter !default;
     $warning:                                                   $yellow !default;
     $warning-darker:                                            $yellow-darker !default;
     $warning-lighter:                                           $yellow-lighter !default;
     $danger:                                                    $red !default;
-    $danger-lighter:           									$red-lighter !default;
+    $danger-lighter:           									                $red-lighter !default;
 
 // Social Network Colors
 $secondary-colors: () !default;
@@ -116,12 +112,6 @@ $secondary-colors: map-merge((
     "instagram":                                              $instagram,
     "github":                                                 $github,
     "gray":                                                   $gray-200,
-    "blue":                                                   $dark-blue,
-    "pink":                                                   $pink,
-    "curious":                                                $curious-blue,
-    "orange":                                                 $soft-orange,
-    "space":                                                  $space,
-    "sapphire":                                               $sapphire,
     "purple":                                                 $purple,
 ), $secondary-colors);
 
@@ -339,7 +329,8 @@ $box-shadow-primary-lg:                                     0 0 50px rgba($prima
 $box-shadow-soft:                                           0 3px 6px 0 rgba($gray-600, .25) !default;
 $box-shadow-1:                                              1px 1px 0px 30px rgba(78, 50, 104, 0.6);
 $box-shadow-2:                                              0px 0px 10px 1px rgba(0, 0, 0, 0.3);
-$box-shadow-3:                                              0px 0px 10px 1px rgba(0, 0, 0, 0.1);;
+$box-shadow-3:                                              0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+$box-shadow-4:                                              0px 14px 50px 0px rgba(32, 32, 32, 0.15);
 
 
 
