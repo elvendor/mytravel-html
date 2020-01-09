@@ -56,6 +56,8 @@ $container-max-widths: (
     $gray-3:                                                    #ebf0f7 !default;
     $gray-4:                                                    #fefeff !default;
     $gray-5:                                                    #f9f9f9 !default;
+    $gray-6:                                                    #3b444f !default;
+    $gray-7:                                                    #67747c !default;
 
 
     // Colors
@@ -74,6 +76,7 @@ $container-max-widths: (
     $yellow-lighter:                                            #fdd14e !default;
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
+    $green-lighter:                                             #b0d12b;
     $indigo:                                                    #2d1582 !default;
     $facebook:           										                    #3b5998 !default;
     $google:                                                    #d14130 !default;
@@ -423,6 +426,7 @@ $nav-classic-border-color:                                  $gray-300 !default;
 $nav-rounded-border-radius:                                 $border-radius !default;
 $header-divider-color:                                      $gray-3 !default;
 $header-topbar-nav-link-divider-color:                      $white !default;
+$header-topbar-nav-link-divider-dark-color:                 $gray-300 !default;
 
 // Width & Heights
 $nav-icon-width:                                            ($font-size-base * 4) !default;
@@ -843,8 +847,7 @@ $pagination-marginX:                                        .25rem !default;
 // Pagination Arrow
 
 $pagination-v1-arrow:                                           #3d88c1;
-
-
+$pagination-v2-arrow:                                           #297cbb;
 
 // Close
 // =========================================================

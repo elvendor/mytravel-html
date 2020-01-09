@@ -349,7 +349,7 @@
             <!-- End Hero Section -->
 
             <!-- Component Block -->
-            <div class="container space-2">
+            <div class="container space-3">
                 <!-- Tab Wrapper -->
                 <div class="tab-wrapper">
                     <!-- Nav Classic -->
@@ -372,7 +372,7 @@
                             <pre>
                                 <code class="language-html" data-lang="html">
                                     <!-- ========== HEADER ========== -->
-                                    &lt;header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links-xl u-header--bg-transparent-xl u-header--show-hide-xl bg-dark" data-header-fix-moment="500" data-header-fix-effect="slide"&gt;
+                                    &lt;header id="header" class="u-header u-header--abs-top-xl u-header--white-nav-links-xl u-header--bg-transparent-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide"&gt;
                                         &lt;div class="u-header__section u-header__shadow-on-show-hide py-4 py-xl-0"&gt;
                                             &lt;div id="logoAndNav" class="container-fluid py-xl-3"&gt;
                                                 &lt;!-- Nav --&gt;
@@ -666,8 +666,8 @@
         <!-- ========== END MAIN CONTENT ========== -->
 
         <!-- Go to Top -->
-        <a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
-            <span class="fas fa-arrow-up u-go-to__inner"></span>
+        <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+            <span class="flaticon-arrow u-go-to-modern__inner"></span>
         </a>
         <!-- End Go to Top -->
 
@@ -715,15 +715,6 @@
 
                 // initialization of unfold component
                 $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-                // initialization of form validation
-                // $.HSCore.components.HSValidation.init('.js-validate', {
-                //     rules: {
-                //         confirmPassword: {
-                //             equalTo: '#signupPassword'
-                //         }
-                //     }
-                // });
 
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');
