@@ -24,9 +24,6 @@
     &.tab-card {
     	&:hover {
     		box-shadow: $box-shadow-3;
-    		.card-title.text-dark {
-				color: $primary !important;
-	    	}
     	}
     }
 }
