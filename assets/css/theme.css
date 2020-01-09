@@ -27405,6 +27405,11 @@ label.btn {
   background-color: #fff;
 }
 
+.u-slick__arrow-classic--v2 {
+  color: #297cbb;
+  background-color: #ebf0f7;
+}
+
 /*------------------------------------
   Slick Paging
 ------------------------------------*/
