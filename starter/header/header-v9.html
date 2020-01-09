@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="../../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
         <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
 
         <!-- CSS MyFlights Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -30,7 +31,6 @@
         <link rel="stylesheet" href="../../documentation/assets/css/starter.css">
     </head>
     <body>
-
         <!-- ========== HEADER ========== -->
         <header id="header" class="u-header u-header--white-nav-links-xl u-header--bg-violet-xl u-header--static-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide">
             <div class="u-header__section u-header__shadow-on-show-hide py-4 py-xl-0">
@@ -290,10 +290,10 @@
         <main id="content">
             <!-- Hero Section -->
             <div class="bg-img-hero-bottom text-center gradient-overlay-half-bg-violet-light" style="background-image: url(../../assets/img/1920x650/img1.jpg);">
-                <div class="container space-2 space-top-xl-6">
+                <div class="container space-2 space-top-lg-3 space-top-xl-6">
                     <div class="row justify-content-md-center pb-4">
                         <!-- Info -->
-                        <div class="pb-xl-11 pb-3">
+                        <div class="pb-lg-8 pb-xl-11 pb-3">
                             <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Where do you want to explore?</h1>
                         </div>
                         <!-- End Info -->
@@ -891,6 +891,7 @@
         <script src="../../assets/js/components/hs.validation.js"></script>
         <script src="../../assets/js/components/hs.show-animation.js"></script>
         <script src="../../assets/js/components/hs.selectpicker.js"></script>
+        <script src="../../assets/js/components/hs.range-datepicker.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -916,6 +917,9 @@
 
                 // initialization of go to
                 $.HSCore.components.HSGoTo.init('.js-go-to');
+
+                // initialization of datepicker
+                $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
                 $.HSCore.components.HSSelectPicker.init('.js-select');
             });
