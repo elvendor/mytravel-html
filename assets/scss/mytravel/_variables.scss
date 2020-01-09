@@ -57,8 +57,7 @@ $container-max-widths: (
     $gray-4:                                                    #fefeff !default;
     $gray-5:                                                    #f9f9f9 !default;
     $gray-6:                                                    #3b444f !default;
-    $gray-7:                                                    #67747c !default;
-
+  
 
     // Colors
     $white:                                                     #fff !default;
@@ -87,6 +86,8 @@ $container-max-widths: (
     $sapphire:                                                  #002568 !default;
     $black:                                                     #3b444f !default;
     $purple:                                                    #8023df !default;
+    $violet:                                                    #532184 !default;
+    $violet-lighter:                                            #6f13cd !default;
 
 
     // Theme Colors
@@ -120,8 +121,10 @@ $secondary-colors: map-merge((
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "white":                                                  $white,
-  "indigo":  												$indigo,
-  "gray":                                                   $gray-3
+  "indigo":  												                        $indigo,
+  "gray":                                                   $gray-3,
+  "violet":                                                 $violet,
+  "violet-light":                                           $violet-lighter
 ), $theme-colors);
 // stylelint-enable
 
@@ -160,7 +163,8 @@ $spacers: map-merge((
   17: ($spacer * 9),
   18: ($spacer * 10),
   19: ($spacer * 10.6),
-  20: ($spacer * 12.4)
+  20: ($spacer * 12.4),
+  21: ($spacer * 13.0)
 ), $spacers);
 
 // Content Space
@@ -1027,7 +1031,7 @@ $list-group-action-active-bg:                               $list-group-hover-bg
 $list-group-border-color:                                   $gray-300 !default;
 
 // Font Sizes
-$list-group-item-font-size:                                 ($font-size-base * .875) !default;
+$list-group-item-font-size:                                 ($font-size-base * 1) !default;
 
 // Width & Heights
 $list-group-icon-min-width:                                 ($font-size-base * 1) !default;
