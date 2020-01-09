@@ -28517,7 +28517,9 @@ label.btn {
 }
 
 .gradient-overlay-half-bg-gradient-v5::before {
-  background: linear-gradient(0deg, #1e2022 -50%, transparent 80%);
+  background: linear-gradient(0, #18181a 40%, transparent 100%);
+  z-index: 0;
+  opacity: .4;
 }
 
 .gradient-overlay::after {
