@@ -18085,6 +18085,13 @@ table th {
 }
 
 /*------------------------------------
+  Text-Decoration
+------------------------------------*/
+.text-decoration-on-hover:hover {
+  text-decoration: underline !important;
+}
+
+/*------------------------------------
   Accessibility
 ------------------------------------*/
 :focus,
@@ -18153,7 +18160,7 @@ button:focus {
 }
 
 .list-group .list-group-item {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .list-group .list-group-icon {
@@ -29078,7 +29085,7 @@ label.btn {
 }
 
 .gradient-overlay-half-bg-violet::before {
-  background-color: rgba(73, 16, 128, 0.6);
+  background-color: rgba(73, 16, 128, 0.64);
 }
 
 .gradient-overlay-half-black-gradient::before {
@@ -29870,8 +29877,24 @@ label.btn {
   height: 30vh;
 }
 
+.height-36 {
+  height: 36px;
+}
+
+.height-30vh {
+  height: 30vh;
+}
+
 .height-40vh {
   height: 40vh;
+}
+
+.height-54 {
+  height: 54px;
+}
+
+.width-36 {
+  width: 36px;
 }
 
 .height-60vh {
