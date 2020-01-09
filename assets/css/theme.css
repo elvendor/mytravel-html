@@ -24776,6 +24776,13 @@ label.btn {
           transform: rotate(-90deg);
 }
 
+.card-img {
+  position: absolute;
+  bottom: 100%;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
 /* IE image rendering fix */
 .card-img-top,
 .card-img-bottom {
@@ -29103,9 +29110,8 @@ label.btn {
 }
 
 .gradient-overlay-half-bg-gradient-v5::before {
-  background: linear-gradient(0, #18181a 40%, transparent 100%);
+  background: linear-gradient(to top, #131313 6%, rgba(19, 19, 19, 0.2) 72%, rgba(34, 34, 34, 0) 89%, rgba(44, 44, 44, 0) 100%);
   z-index: 0;
-  opacity: .4;
 }
 
 .gradient-overlay::after {
@@ -29558,7 +29564,7 @@ label.btn {
 }
 
 .border-color-2 {
-  border-color: #ebf0f7 !important;
+  border-color: #67747c;
 }
 
 .destination {
@@ -30373,12 +30379,12 @@ Line Height
   color: #3b444f;
 }
 
-.text-gray-7 {
-  color: #67747c;
-}
-
 .green-lighter {
   color: #b0d12b;
+}
+
+.text-blue-lighter-1 {
+  color: #5392f9;
 }
 
 /*------------------------------------
