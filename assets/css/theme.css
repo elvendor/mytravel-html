@@ -17773,6 +17773,13 @@ table th {
 }
 
 /*------------------------------------
+  Text-Decoration
+------------------------------------*/
+.text-decoration-on-hover:hover {
+  text-decoration: underline !important;
+}
+
+/*------------------------------------
   Accessibility
 ------------------------------------*/
 :focus,
@@ -17841,7 +17848,7 @@ button:focus {
 }
 
 .list-group .list-group-item {
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .list-group .list-group-icon {
@@ -29351,6 +29358,10 @@ label.btn {
 
 .height-40vh {
   height: 40vh;
+}
+
+.height-54 {
+  height: 54px;
 }
 
 .height-60vh {
