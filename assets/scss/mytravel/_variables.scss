@@ -56,6 +56,8 @@ $container-max-widths: (
     $gray-3:                                                    #ebf0f7 !default;
     $gray-4:                                                    #fefeff !default;
     $gray-5:                                                    #f9f9f9 !default;
+    $gray-6:                                                    #3b444f !default;
+    $gray-7:                                                    #67747c !default;
 
 
     // Colors
@@ -423,6 +425,7 @@ $nav-classic-border-color:                                  $gray-300 !default;
 $nav-rounded-border-radius:                                 $border-radius !default;
 $header-divider-color:                                      $gray-3 !default;
 $header-topbar-nav-link-divider-color:                      $white !default;
+$header-topbar-nav-link-divider-dark-color:                 $gray-300 !default;
 
 // Width & Heights
 $nav-icon-width:                                            ($font-size-base * 4) !default;
