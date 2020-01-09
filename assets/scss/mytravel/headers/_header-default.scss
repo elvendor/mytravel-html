@@ -29,7 +29,7 @@
     }
 
     &__topbar {
-        .u-header__topbar-nav-divider {
+        [class*="u-header__topbar-nav-divider"] {
             .list-inline-item {
                 + .list-inline-item {
                     position: relative;
@@ -45,15 +45,17 @@
                         top: 50%;
                         transform: translateY(-50%);
 
-                        @at-root [class*="u-header--bg-transparent"] #{&} {
-                            opacity: 0.149;
+                        @at-root {
+                            [class*="u-header--bg-transparent"] #{&} {
+                                opacity: 0.149;
+                            }
                         }
                     }
                 }
             }
         }
 
-        .u-header__topbar-divider:not( .list-inline ) {
+        [class*="u-header__topbar-divider"]:not( .list-inline ) {
             position: relative;
 
             &:before {
@@ -66,10 +68,18 @@
                 left: 0;
                 display: block;
 
-                @at-root [class*="u-header--bg-transparent"] #{&} {
-                    opacity: 0.149;
+                @at-root {
+                    [class*="u-header--bg-transparent"] #{&} {
+                        opacity: 0.149;
+                    }
                 }
             }
+        }
+
+        .u-header__topbar-divider--dark:not( .list-inline ):before,
+        .u-header__topbar-nav-divider--dark .list-inline-item + .list-inline-item .u-header__navbar-link:before {
+            background-color: $header-topbar-nav-link-divider-dark-color;
+            opacity: 0.5 !important;
         }
 
         .list-inline-item:first-child {
@@ -88,11 +98,11 @@
         }
     }
 
-    .input-group-tranparent .form-control:focus {
+    [class*="u-header__search"] .form-control:focus {
         padding-right: 0.5rem !important;
     }
 
-    .u-header__divider {
+    &__divider {
         @each $breakpoint in map-keys($grid-breakpoints) {
             $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
