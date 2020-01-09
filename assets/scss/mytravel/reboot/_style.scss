@@ -78,3 +78,13 @@ table th {
   color: $primary;
   background-color: $white;
 }
+
+/*------------------------------------
+  Text-Decoration
+------------------------------------*/
+
+.text-decoration-on-hover {
+    &:hover {
+        text-decoration: underline!important;
+    }
+}
