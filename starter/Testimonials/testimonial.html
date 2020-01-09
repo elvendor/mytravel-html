@@ -177,9 +177,14 @@
                                                     <!-- Testimonials -->
                                                     <div class="card rounded-xs border-primary">
                                                         <div class="card-body px-5 pt-8 pb-5">
-                                                            <div class="mb-5">
-                                                                <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Jessica Brown</h6>
-                                                                <span class="text-blue-lighter-1 font-size-normal">client</span>
+                                                            <div class="d-flex justify-content-between align-items-baseline">
+                                                                <div class="mb-5">
+                                                                    <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Jessica Brown</h6>
+                                                                    <span class="text-blue-lighter-1 font-size-normal">client</span>
+                                                                </div>
+                                                                <figure id="quote" class="svg-preloader">
+                                                                    <img class="js-svg-injector" src="../../assets/svg/illustrations/quote.svg" alt="SVG" data-parent="#quote">
+                                                                </figure>
                                                             </div>
                                                             <p class="mb-0 text-gray-1 font-italic text-lh-inherit">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
                                                         </div>
@@ -194,11 +199,16 @@
 
                                                 <div class="js-slide my-10">
                                                     <!-- Testimonials -->
-                                                    <div class="card rounded-xs border-color-2">
+                                                    <div class="card rounded-xs border-color-7">
                                                             <div class="card-body px-5 pt-8 pb-5">
-                                                                <div class="mb-5">
-                                                                    <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Augusta Silva</h6>
-                                                                    <span class="text-blue-lighter-1 font-size-normal">client</span>
+                                                                <div class="d-flex align-items-baseline justify-content-between">
+                                                                    <div class="mb-5">
+                                                                        <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Augusta Silva</h6>
+                                                                        <span class="text-blue-lighter-1 font-size-normal">client</span>
+                                                                    </div>
+                                                                    <figure id="quote1" class="svg-preloader">
+                                                                        <img class="js-svg-injector" src="../../assets/svg/illustrations/quote1.svg" alt="SVG" data-parent="#quote1">
+                                                                    </figure>
                                                                 </div>
                                                                 <p class="mb-0 text-gray-1 font-italic text-lh-inherit">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
                                                             </div>
@@ -212,7 +222,7 @@
                                                 <!-- End Testimonials -->
                                                 <div class="js-slide my-10">
                                                     <!-- Testimonials -->
-                                                    <div class="card rounded-xs border-color-2">
+                                                    <div class="card rounded-xs border-color-7">
                                                         <div class="card-body px-5 pt-8 pb-5">
                                                             <div class="mb-5">
                                                                 <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Ali Tufan </h6>
@@ -230,7 +240,7 @@
                                                 <!-- End Testimonials -->
                                                 <div class="js-slide my-10">
                                                     <!-- Testimonials -->
-                                                    <div class="card rounded-xs border-color-2">
+                                                    <div class="card rounded-xs border-color-7">
                                                         <div class="card-body px-5 pt-8 pb-5">
                                                             <div class="mb-5">
                                                                 <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Jessica Brown</h6>
@@ -249,7 +259,7 @@
 
                                                 <div class="js-slide my-10">
                                                     <!-- Testimonials -->
-                                                    <div class="card rounded-xs border-color-2">
+                                                    <div class="card rounded-xs border-color-7">
                                                             <div class="card-body px-5 pt-8 pb-5">
                                                                 <div class="mb-5">
                                                                     <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Augusta Silva</h6>
@@ -267,7 +277,7 @@
                                                 <!-- End Testimonials -->
                                                 <div class="js-slide my-10">
                                                     <!-- Testimonials -->
-                                                    <div class="card rounded-xs border-color-2">
+                                                    <div class="card rounded-xs border-color-7">
                                                         <div class="card-body px-5 pt-8 pb-5">
                                                             <div class="mb-5">
                                                                 <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Ali Tufan </h6>
@@ -293,6 +303,35 @@
                                         <pre>
                                             <code class="language-html" data-lang="html">
                                                
+                                            </code>
+                                        </pre>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-css-1" role="tabpanel" aria-labelledby="pills-css-tab-1">
+                                        <pre>
+                                            <code class="language-html" data-lang="html">
+                                                &lt;!-- CSS Implementing Plugins --&gt;
+                                                &lt;link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css"&gt;
+                                            </code>
+                                        </pre>
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-js-1" role="tabpanel" aria-labelledby="pills-js-tab-1">
+                                        <pre>
+                                            <code class="language-html" data-lang="html">
+                                                &lt;!-- JS Implementing Plugins --&gt;
+                                                &lt;script src="../../assets/vendor/slick-carousel/slick/slick.js"&gt;&lt;/script&gt;
+
+
+                                                &lt;!-- JS MyTravel --&gt;
+                                                &lt;script src="../../assets/js/components/hs.slick-carousel.js"&gt;&lt;/script&gt;
+
+                                                &lt;!-- JS Plugins Init. --&gt;
+                                                <!-- JS Plugins Init. -->
+                                                &lt;script&gt;
+                                                  $(document).on('ready', function () {
+                                                    // initialization of slick carousel
+                                                    $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+                                                  });
+                                                &lt;/script&gt;
                                             </code>
                                         </pre>
                                     </div>
