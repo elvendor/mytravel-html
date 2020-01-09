@@ -24762,6 +24762,13 @@ label.btn {
           transform: rotate(-90deg);
 }
 
+.card-img {
+  position: absolute;
+  bottom: 100%;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
 /* IE image rendering fix */
 .card-img-top,
 .card-img-bottom {

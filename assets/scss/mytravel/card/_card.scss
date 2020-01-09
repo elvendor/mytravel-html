@@ -89,6 +89,12 @@
   }
 }
 
+.card-img {
+  position: absolute;
+  bottom: 100%;
+  transform: translateY(60px);
+}
+
 /* IE image rendering fix */
 .card-img-top,
 .card-img-bottom {
