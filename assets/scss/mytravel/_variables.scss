@@ -57,8 +57,7 @@ $container-max-widths: (
     $gray-4:                                                    #fefeff !default;
     $gray-5:                                                    #f9f9f9 !default;
     $gray-6:                                                    #3b444f !default;
-    $gray-7:                                                    #67747c !default;
-
+  
 
     // Colors
     $white:                                                     #fff !default;
@@ -164,7 +163,8 @@ $spacers: map-merge((
   17: ($spacer * 9),
   18: ($spacer * 10),
   19: ($spacer * 10.6),
-  20: ($spacer * 12.4)
+  20: ($spacer * 12.4),
+  21: ($spacer * 13.0)
 ), $spacers);
 
 // Content Space
