@@ -24439,6 +24439,20 @@ label.btn {
   border-radius: 6.1875rem;
 }
 
+.btn-social {
+  color: #67747c;
+  border-color: #ebf0f7;
+  border-width: 2px;
+  border-radius: 6.1875rem;
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+}
+
+.btn-social:hover {
+  color: #fff;
+  background: #377dff;
+}
+
 /* Icon */
 .btn-icon {
   position: relative;
@@ -24760,6 +24774,13 @@ label.btn {
 .collapsed .card-btn-arrow {
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
+}
+
+.card-img {
+  position: absolute;
+  bottom: 100%;
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
 }
 
 /* IE image rendering fix */
@@ -28544,6 +28565,12 @@ label.btn {
   max-width: 15.83333%;
 }
 
+.col-xs-1dot3 {
+  -ms-flex: 0 0 10.83333%;
+      flex: 0 0 10.83333%;
+  max-width: 10.83333%;
+}
+
 .col-xs-8dot4 {
   -ms-flex: 0 0 70%;
       flex: 0 0 70%;
@@ -28615,6 +28642,14 @@ label.btn {
     -ms-flex: 0 0 15.83333%;
         flex: 0 0 15.83333%;
     max-width: 15.83333%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-1dot3 {
+    -ms-flex: 0 0 10.83333%;
+        flex: 0 0 10.83333%;
+    max-width: 10.83333%;
   }
 }
 
@@ -28699,6 +28734,14 @@ label.btn {
 }
 
 @media (min-width: 768px) {
+  .col-md-1dot3 {
+    -ms-flex: 0 0 10.83333%;
+        flex: 0 0 10.83333%;
+    max-width: 10.83333%;
+  }
+}
+
+@media (min-width: 768px) {
   .col-md-8dot4 {
     -ms-flex: 0 0 70%;
         flex: 0 0 70%;
@@ -28775,6 +28818,14 @@ label.btn {
     -ms-flex: 0 0 15.83333%;
         flex: 0 0 15.83333%;
     max-width: 15.83333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-1dot3 {
+    -ms-flex: 0 0 10.83333%;
+        flex: 0 0 10.83333%;
+    max-width: 10.83333%;
   }
 }
 
@@ -28859,6 +28910,14 @@ label.btn {
 }
 
 @media (min-width: 1200px) {
+  .col-xl-1dot3 {
+    -ms-flex: 0 0 10.83333%;
+        flex: 0 0 10.83333%;
+    max-width: 10.83333%;
+  }
+}
+
+@media (min-width: 1200px) {
   .col-xl-8dot4 {
     -ms-flex: 0 0 70%;
         flex: 0 0 70%;
@@ -28935,6 +28994,14 @@ label.btn {
     -ms-flex: 0 0 15.83333%;
         flex: 0 0 15.83333%;
     max-width: 15.83333%;
+  }
+}
+
+@media (min-width: 1480px) {
+  .col-wd-1dot3 {
+    -ms-flex: 0 0 10.83333%;
+        flex: 0 0 10.83333%;
+    max-width: 10.83333%;
   }
 }
 
@@ -29494,6 +29561,10 @@ label.btn {
 
 .border-color-1 {
   border-color: #eaeaea !important;
+}
+
+.border-color-2 {
+  border-color: #67747c;
 }
 
 .destination {
