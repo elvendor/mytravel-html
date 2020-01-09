@@ -466,9 +466,9 @@
                                                 &lt;/div&gt;
                                             &lt;/div&gt;
                                             &lt;!-- End Topbar --&gt;
-                                            &lt;div id="logoAndNav" class="container-fluid"&gt;
+                                            &lt;div id="logoAndNav" class="container-fluid py-1"&gt;
                                                 &lt;!-- Nav --&gt;
-                                                &lt;nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space py-1"&gt;
+                                                &lt;nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space"&gt;
                                                     &lt;!-- Logo --&gt;
                                                     &lt;a class="navbar-brand u-header__navbar-brand-default u-header__navbar-brand-center u-header__navbar-brand-text-white" href="#" aria-label="MyHotel"&gt;
                                                         &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px" height="53px"&gt;
@@ -743,8 +743,8 @@
         <!-- ========== END MAIN CONTENT ========== -->
 
         <!-- Go to Top -->
-        <a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
-            <span class="fas fa-arrow-up u-go-to__inner"></span>
+        <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+            <span class="flaticon-arrow u-go-to-modern__inner"></span>
         </a>
         <!-- End Go to Top -->
 
@@ -792,15 +792,6 @@
 
                 // initialization of unfold component
                 $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-                // initialization of form validation
-                // $.HSCore.components.HSValidation.init('.js-validate', {
-                //     rules: {
-                //         confirmPassword: {
-                //             equalTo: '#signupPassword'
-                //         }
-                //     }
-                // });
 
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');

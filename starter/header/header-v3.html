@@ -43,7 +43,7 @@
                                 <div class="input-group input-group-tranparent input-group-borderless">
                                     <input type="search" class="form-control text-white font-size-14 min-width-178 px-0" placeholder="What are you looking for?" aria-label="What are you looking for?">
                                     <div class="input-group-append">
-                                        <button type="button" class="btn bg-transparent text-white py-0">
+                                        <button type="button" class="btn text-white py-0">
                                             <span class="flaticon-magnifying-glass"></span>
                                         </button>
                                     </div>
@@ -935,7 +935,7 @@
                                                             &lt;div class="input-group input-group-tranparent input-group-borderless"&gt;
                                                                 &lt;input type="search" class="form-control text-white font-size-14 min-width-178 px-0" placeholder="What are you looking for?" aria-label="What are you looking for?"&gt;
                                                                 &lt;div class="input-group-append"&gt;
-                                                                    &lt;button type="button" class="btn bg-transparent text-white py-0"&gt;
+                                                                    &lt;button type="button" class="btn text-white py-0"&gt;
                                                                         &lt;span class="flaticon-magnifying-glass"&gt;&lt;/span&gt;
                                                                     &lt;/button&gt;
                                                                 &lt;/div&gt;
@@ -1282,8 +1282,8 @@
         <!-- ========== END MAIN CONTENT ========== -->
 
         <!-- Go to Top -->
-        <a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
-            <span class="fas fa-arrow-up u-go-to__inner"></span>
+        <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+            <span class="flaticon-arrow u-go-to-modern__inner"></span>
         </a>
         <!-- End Go to Top -->
 
@@ -1331,15 +1331,6 @@
 
                 // initialization of unfold component
                 $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-                // initialization of form validation
-                // $.HSCore.components.HSValidation.init('.js-validate', {
-                //     rules: {
-                //         confirmPassword: {
-                //             equalTo: '#signupPassword'
-                //         }
-                //     }
-                // });
 
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');

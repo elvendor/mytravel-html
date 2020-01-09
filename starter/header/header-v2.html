@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
         <link rel="stylesheet" href="../../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
         <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
+        <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -246,6 +247,573 @@
 
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content">
+            <!-- Hero Section -->
+            <div class="bg-img-hero-bottom min-height-720 space-top-2 text-center space-top-lg-4" style="background-image: url(../../assets/img/1920x720/img1.jpg);">
+                <div class="container">
+                    <!-- Info -->
+                    <div class="mt-xl-4 pb-lg-11">
+                        <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Let's The World Together!</h1>
+                        <p class="font-size-20 font-weight-normal text-white ml-3">Find awesome hotel, tour, car and activities in London</p>
+                    </div>
+                    <!-- End Info -->
+                    <div class="pt-3 pb-6">
+                        <!-- Nav Classic -->
+                        <ul class="nav tab-nav flex-nowrap tab-nav-boxed pb-4 pt-2 justify-content-xl-center" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link font-weight-medium active" id="pills-one-example2-tab" data-toggle="pill" href="#pills-one-example2" role="tab" aria-controls="pills-one-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
+                                        <figure class="ie-height-40 d-md-block mr-md-3">
+                                            <i class="icon flaticon-hotel font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Hotel</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link font-weight-medium" id="pills-two-example2-tab" data-toggle="pill" href="#pills-two-example2" role="tab" aria-controls="pills-two-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
+                                        <figure class="ie-height-40 d-md-block mr-md-3">
+                                            <i class="icon flaticon-global-1 font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Tours</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link font-weight-medium" id="pills-three-example2-tab" data-toggle="pill" href="#pills-three-example2" role="tab" aria-controls="pills-three-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
+                                        <figure class=" ie-height-40  d-md-block mr-md-3">
+                                            <i class="icon flaticon-climbing font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Activity</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link font-weight-medium" id="pills-four-example2-tab" data-toggle="pill" href="#pills-four-example2" role="tab" aria-controls="pills-four-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
+                                        <figure class="ie-height-40 d-md-block mr-md-3">
+                                            <i class="icon flaticon-home font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Rental</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link font-weight-medium" id="pills-five-example2-tab" data-toggle="pill" href="#pills-five-example2" role="tab" aria-controls="pills-five-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
+                                        <figure class="ie-height-40 d-md-block mr-md-3">
+                                            <i class="icon flaticon-sedan font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Car</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link font-weight-medium" id="pills-six-example2-tab" data-toggle="pill" href="#pills-six-example2" role="tab" aria-controls="pills-six-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative text-white align-items-center">
+                                        <figure class="ie-height-40 d-md-block mr-md-3">
+                                            <i class="icon flaticon-yatch font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Yacht</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link font-weight-medium" id="pills-six-example2-tab" data-toggle="pill" href="#pills-six-example2" role="tab" aria-controls="pills-six-example2" aria-selected="true">
+                                    <div class="d-flex flex-column flex-md-row  position-relative  text-white align-items-center">
+                                        <figure class="ie-height-40 d-md-block mr-md-3">
+                                            <i class="icon flaticon-aeroplane font-size-3"></i>
+                                        </figure>
+                                        <span class="tabtext mt-2 mt-md-0 font-weight-semi-bold">Flights</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- End Nav Classic -->
+                        <div class="tab-content hero-tab-pane">
+                            <div class="tab-pane fade active show" id="pills-one-example2" role="tabpanel" aria-labelledby="pills-one-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-lg-3 px-lg-2 px-2">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-two-example2" role="tabpanel" aria-labelledby="pills-two-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-three-example2" role="tabpanel" aria-labelledby="pills-three-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-four-example2" role="tabpanel" aria-labelledby="pills-four-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-five-example2" role="tabpanel" aria-labelledby="pills-five-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-six-example2" role="tabpanel" aria-labelledby="pills-six-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                            <div class="tab-pane fade" id="pills-seven-example2" role="tabpanel" aria-labelledby="pills-seven-example2-tab">
+                                <!-- Search Jobs Form -->
+                                <div class="card border-0">
+                                    <div class="card-body">
+                                        <form class="js-validate">
+                                          <div class="row d-block nav-select d-lg-flex mb-lg-3 px-3">
+                                            <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
+                                                <div class="js-focus-state">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 ">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="js-focus-state">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperFrom" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                 data-rp-wrapper="#datepickerWrapper"
+                                                                 data-rp-type="range"
+                                                                 data-rp-date-format="M d / Y"
+                                                                 data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="js-focus-state">
+                                                    <div class="d-flex border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                                        <select class="js-select selectpicker dropdown-select">
+                                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
+                                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                            </div>
+
+                                            <div class="col-sm-12 col-lg-1dot9 align-self-lg-end text-md-right">
+                                                <button type="submit" class="btn btn-primary btn-md mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                            </div>
+                                          </div>
+                                          <!-- End Checkbox -->
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- End Search Jobs Form -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Hero Section -->
+
             <!-- Component Block -->
             <div class="container space-2">
                 <!-- Tab Wrapper -->
@@ -272,9 +840,9 @@
                                     <!-- ========== HEADER ========== -->
                                     &lt;header id="header" class="u-header u-header--dark-nav-links-xl u-header--nav-links-normal u-header--static-xl u-header--show-hide-xl" data-header-fix-moment="500" data-header-fix-effect="slide"&gt;
                                         &lt;div class="u-header__section u-header__shadow-on-show-hide py-3 py-xl-0"&gt;
-                                            &lt;div id="logoAndNav" class="container-fluid"&gt;
+                                            &lt;div id="logoAndNav" class="container-fluid py-1"&gt;
                                                 &lt;!-- Nav --&gt;
-                                                &lt;nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space py-1"&gt;
+                                                &lt;nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space"&gt;
                                                     &lt;!-- Logo --&gt;
                                                     &lt;a class="navbar-brand u-header__navbar-brand-default u-header__navbar-brand-center u-header__navbar-brand-text-md u-header__navbar-brand-text-dark-xl u-header__divider-xl u-header__divider-right pr-xl-5" href="#" aria-label="MyTravel"&gt;
                                                         &lt;svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45px" height="43px"&gt;
@@ -542,8 +1110,8 @@
         <!-- ========== END MAIN CONTENT ========== -->
 
         <!-- Go to Top -->
-        <a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
-            <span class="fas fa-arrow-up u-go-to__inner"></span>
+        <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+            <span class="flaticon-arrow u-go-to-modern__inner"></span>
         </a>
         <!-- End Go to Top -->
 
@@ -562,6 +1130,7 @@
         <script src="../../documentation/assets/vendor/prism/prism.js"></script>
         <script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
         <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -570,6 +1139,7 @@
         <script src="../../assets/js/components/hs.go-to.js"></script>
         <script src="../../assets/js/components/hs.validation.js"></script>
         <script src="../../assets/js/components/hs.show-animation.js"></script>
+        <script src="../../assets/js/components/hs.selectpicker.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -590,20 +1160,13 @@
                 // initialization of unfold component
                 $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-                // initialization of form validation
-                // $.HSCore.components.HSValidation.init('.js-validate', {
-                //     rules: {
-                //         confirmPassword: {
-                //             equalTo: '#signupPassword'
-                //         }
-                //     }
-                // });
-
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');
 
                 // initialization of go to
                 $.HSCore.components.HSGoTo.init('.js-go-to');
+
+                $.HSCore.components.HSSelectPicker.init('.js-select');
             });
         </script>
     </body>

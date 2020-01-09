@@ -281,7 +281,7 @@
                             <div class="input-group input-group-tranparent input-group-borderless">
                                 <input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc">
                                 <div class="input-group-append">
-                                    <button type="button" class="btn bg-transparent text-white py-0">
+                                    <button type="button" class="btn text-white py-0">
                                         <span class="flaticon-magnifying-glass"></span>
                                     </button>
                                 </div>
@@ -1084,7 +1084,7 @@
                                                             &lt;/a&gt;
                                                             &lt;div id="signUpDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right py-0" aria-labelledby="signUpDropdownInvoker" style="min-width: 350px;"&gt;
                                                                 &lt;div class="card"&gt;
-                                                                    &lt;form class="js-validate" novalidate="novalidate"&gt;
+                                                                    &lt;form class="js-validate" novalidate="novalidate" method="post"&gt;
                                                                         &lt;!-- Login --&gt;
                                                                         &lt;div id="login" style="opacity: 1;" data-target-group="idForm" class="animated fadeIn"&gt;
                                                                             &lt;!-- Header --&gt;
@@ -1294,7 +1294,7 @@
                                                         &lt;div class="input-group input-group-tranparent input-group-borderless"&gt;
                                                             &lt;input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc"&gt;
                                                             &lt;div class="input-group-append"&gt;
-                                                                &lt;button type="button" class="btn bg-transparent text-white py-0"&gt;
+                                                                &lt;button type="button" class="btn text-white py-0"&gt;
                                                                     &lt;span class="flaticon-magnifying-glass"&gt;&lt;/span&gt;
                                                                 &lt;/button&gt;
                                                             &lt;/div&gt;
@@ -1552,8 +1552,8 @@
         <!-- ========== END MAIN CONTENT ========== -->
 
         <!-- Go to Top -->
-        <a class="js-go-to u-go-to" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
-            <span class="fas fa-arrow-up u-go-to__inner"></span>
+        <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
+            <span class="flaticon-arrow u-go-to-modern__inner"></span>
         </a>
         <!-- End Go to Top -->
 
@@ -1601,15 +1601,6 @@
 
                 // initialization of unfold component
                 $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
-
-                // initialization of form validation
-                // $.HSCore.components.HSValidation.init('.js-validate', {
-                //     rules: {
-                //         confirmPassword: {
-                //             equalTo: '#signupPassword'
-                //         }
-                //     }
-                // });
 
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');
