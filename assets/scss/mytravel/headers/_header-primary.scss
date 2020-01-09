@@ -2,7 +2,8 @@
   Primary Header
 ------------------------------------*/
 
-.u-header--bg-primary {
+.u-header--bg-primary,
+.u-header--bg-violet {
   @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
@@ -17,7 +18,7 @@
   	        }
 
   	        .u-header__section {
-  						background-color: $primary;
+  						background-color: $violet-lighter;
   						box-shadow: none;
   	        }
           }
@@ -52,7 +53,8 @@
   }
 }
 
-.u-header--bg-primary {
+.u-header--bg-primary,
+.u-header--bg-violet {
   @each $breakpoint in map-keys($grid-breakpoints) {
     $next: breakpoint-next($breakpoint, $grid-breakpoints);
     $infix: breakpoint-infix($next, $grid-breakpoints);
