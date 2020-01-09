@@ -29043,9 +29043,8 @@ label.btn {
 }
 
 .gradient-overlay-half-bg-gradient-v5::before {
-  background: linear-gradient(0, #18181a 40%, transparent 100%);
+  background: linear-gradient(to top, #131313 6%, rgba(19, 19, 19, 0.2) 72%, rgba(34, 34, 34, 0) 89%, rgba(44, 44, 44, 0) 100%);
   z-index: 0;
-  opacity: .4;
 }
 
 .gradient-overlay::after {
