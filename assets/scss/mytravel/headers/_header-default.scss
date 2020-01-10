@@ -100,6 +100,19 @@
         .dropdown-menu {
             min-width: 4.375rem;
             padding: $header-topbar-dropdown-padding 0;
+
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                right: 16%;
+                bottom: 100%;
+                width: 0;
+                height: 0;
+                border-left: 8px solid transparent;
+                border-right: 8px solid transparent;
+                border-bottom: 7px solid $header-topbar-dropdown-arrow-color;
+            }
         }
 
         .dropdown-item {

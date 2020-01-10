@@ -18497,6 +18497,19 @@ button:focus {
   padding: 0.438rem 0;
 }
 
+.u-header__topbar .dropdown-menu:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 16%;
+  bottom: 100%;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 7px solid #fff;
+}
+
 .u-header__topbar .dropdown-item {
   padding: 0.125rem 0.313rem;
   text-align: center;
