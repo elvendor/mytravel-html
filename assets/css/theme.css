@@ -18483,10 +18483,6 @@ button:focus {
   padding-left: 0;
 }
 
-.u-header__topbar .input-group-tranparent .form-control:focus {
-  padding-left: 0.625rem !important;
-}
-
 .u-header__topbar-nav-spacing--md .u-header__navbar-link {
   padding-top: 0.875rem;
   padding-bottom: 0.875rem;
@@ -28595,18 +28591,6 @@ label.btn {
   color: #377dff;
 }
 
-.slick-active .slick-current .card {
-  border-color: #377dff;
-}
-
-.slick-active .slick-current .card text {
-  fill: #377dff;
-}
-
-.slick-active .slick-current .card i {
-  color: #377dff;
-}
-
 /*------------------------------------
   Slick Equal Height
 ------------------------------------*/
@@ -30504,7 +30488,7 @@ label.btn {
 }
 
 .border-color-8 {
-  border-color: #ebf0f7;
+  border-color: #ebf0f7 !important;
 }
 
 .destination {
