@@ -66,7 +66,7 @@
                             </ul>
                             <div class="position-relative px-3 u-header__topbar-divider">
                                 <a id="signUpDropdownInvoker"  href="javascript:;" class="d-flex align-items-center text-white" aria-controls="signUpDropdown" aria-haspopup="true" aria-expanded="true" data-unfold-event="click" data-unfold-target="#signUpDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
-                                    <i class="flaticon-user mr-2 ml-1"></i>
+                                    <i class="flaticon-user mr-2 ml-1 font-size-18"></i>
                                     <span class="d-inline-block font-size-14 mr-1">Sign in or Register</span>
                                 </a>
                                 <div id="signUpDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right py-0" aria-labelledby="signUpDropdownInvoker" style="min-width: 350px;">
@@ -277,14 +277,14 @@
                         <!-- End Scroll Logo -->
 
                         <!-- Search Form -->
-                        <div class="position-relative">
+                        <div class="position-relative u-header__search-lg u-header__hide-content">
                             <a id="searchSlideDownInvoker" class="d-block u-search-slide-down-trigger" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="searchSlideDown" data-unfold-type="css-animation" data-unfold-hide-on-scroll="false" data-unfold-target="#searchSlideDown" data-unfold-animation-in="active" data-unfold-animation-out="fadeOutUp" data-unfold-delay="0" data-unfold-duration="800" data-unfold-overlay='{ "className": "u-search-slide-down-bg-overlay", "background": "rgba(59, 68, 79, 0.851)", "animationSpeed": 400 }'>
-                                <form class="js-focus-state u-header__search-lg u-header__hide-content">
+                                <form class="js-focus-state">
                                     <div class="input-group input-group-tranparent input-group-borderless">
                                         <input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc">
                                         <div class="input-group-append">
                                             <button type="button" class="btn text-white py-0">
-                                                <span class="flaticon-magnifying-glass"></span>
+                                                <span class="flaticon-magnifying-glass font-size-20"></span>
                                             </button>
                                         </div>
                                     </div>
@@ -294,22 +294,28 @@
                             <div id="searchSlideDown" class="dropdown-unfold u-search-slide-down" aria-labelledby="searchSlideDownInvoker">
                                 <form class="rounded-xs overflow-hidden">
                                     <!-- Input Group -->
-                                    <div class="input-group input-group-borderless input-group-radiusless u-search-slide-down__input rounded-0">
+                                    <div class="input-group input-group-tranparent input-group-borderless input-group-radiusless u-search-slide-down__input rounded-0 px-1">
                                         <input type="search" class="form-control" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc">
                                         <div class="input-group-append">
-                                            <a class="input-group-text" href="javascript:;" aria-label="close" data-unfold-event="click" data-unfold-hide-on-scroll="false" data-unfold-target="#searchSlideDown" data-unfold-type="css-animation" data-unfold-animation-in="active" data-unfold-animation-out="fadeOutUp" data-unfold-delay="0" data-unfold-duration="800" data-unfold-overlay='{ "className": "u-search-slide-down-bg-overlay", "background": "rgba(59, 68, 79, 0.851)", "animationSpeed": 400 }'>
-                                                <span class="fas fa-times" aria-hidden="true"></span>
-                                            </a>
+                                            <button type="submit" class="btn py-0">
+                                                <span class="flaticon-magnifying-glass font-size-20"></span>
+                                            </button>
                                         </div>
                                     </div>
                                     <!-- End Input Group -->
 
                                     <!-- Suggestions Content -->
-                                    <div class="rounded-0 bg-white u-search-slide-down__suggestions py-3 px-5">
-                                        <ul class="list-group list-group-flush list-group-borderless mb-0">
-                                            <li><a class="list-group-item list-group-item-action" href="../pages/about-agency.html">About Front</a></li>
-                                            <li><a class="list-group-item list-group-item-action" href="../../starter/index.html">Getting Started</a></li>
-                                            <li><a class="list-group-item list-group-item-action" href="../../documentation/index.html">Documentation</a></li>
+                                    <div class="rounded-0 bg-white u-search-slide-down__suggestions py-3">
+                                        <ul class="list-group list-group-flush list-group-borderless mb-1">
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="../pages/about-agency.html">
+                                                    <span class="btn btn-icon btn-medium btn-blue rounded-circle">
+                                                        <span class="flaticon-pin-1 btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>London</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">United kingdom</span>
+                                                </a>
+                                            </li>
                                         </ul>
                                     </div>
                                     <!-- End Suggestions Content -->
