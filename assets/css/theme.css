@@ -28582,12 +28582,6 @@ label.btn {
   color: #377dff;
 }
 
-.slick-track {
-  width: 100% !important;
-  -webkit-transform: none !important;
-          transform: none !important;
-}
-
 /*------------------------------------
   Slick Equal Height
 ------------------------------------*/
