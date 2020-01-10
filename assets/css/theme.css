@@ -30726,6 +30726,13 @@ label.btn {
   }
 }
 
+.btn-position {
+  position: absolute;
+  bottom: 49%;
+  right: 43%;
+  padding: 29px;
+}
+
 /*------------------------------------
   Content Centered
 ------------------------------------*/
