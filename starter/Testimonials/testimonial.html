@@ -183,7 +183,7 @@
                                                                     <h6 class="font-size-17 font-weight-bold text-gray-6 mb-0">Jessica Brown</h6>
                                                                     <span class="text-blue-lighter-1 font-size-normal">client</span>
                                                                 </div>
-                                                                <figure id="quote" class="svg-preloader ">
+                                                                <figure id="quote" class="svg-preloader">
                                                                     <img class="js-svg-injector" src="../../assets/svg/illustrations/quote.svg" alt="SVG" data-parent="#quote">
                                                                 </figure>
                                                             </div>
@@ -342,18 +342,25 @@
                                             <code class="language-html" data-lang="html">
                                                 &lt;!-- JS Implementing Plugins --&gt;
                                                 &lt;script src="../../assets/vendor/slick-carousel/slick/slick.js"&gt;&lt;/script&gt;
+                                                &lt;script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"&gt;&lt;/script&gt;
 
 
                                                 &lt;!-- JS MyTravel --&gt;
                                                 &lt;script src="../../assets/js/components/hs.slick-carousel.js"&gt;&lt;/script&gt;
+                                                &lt;script src="../../assets/js/components/hs.svg-injector.js"&gt;&lt;/script&gt;
 
                                                 &lt;!-- JS Plugins Init. --&gt;
                                                 <!-- JS Plugins Init. -->
                                                 &lt;script&gt;
-                                                  $(document).on('ready', function () {
+                                                $(document).on('ready', function () {
                                                     // initialization of slick carousel
                                                     $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
-                                                  });
+                                                });
+
+                                                $(document).on('load', function () {
+                                                    // initialization of svg injector module
+                                                    $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+                                                });
                                                 &lt;/script&gt;
                                             </code>
                                         </pre>
