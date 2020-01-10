@@ -30594,9 +30594,10 @@ label.btn {
 
 .btn-position {
   position: absolute;
-  bottom: 49%;
-  right: 43%;
-  padding: 29px;
+  bottom: 0;
+  right: 0;
+  -webkit-transform: translateX(23px);
+          transform: translateX(23px);
 }
 
 /*------------------------------------
@@ -31078,6 +31079,14 @@ label.btn {
 
 .height-50 {
   height: 50%;
+}
+
+.height-60 {
+  height: 3.75rem;
+}
+
+.width-60 {
+  width: 3.75rem;
 }
 
 /*------------------------------------
