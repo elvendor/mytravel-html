@@ -30179,6 +30179,10 @@ label.btn {
   background: linear-gradient(160deg, #1e2022 -18%, transparent 90%);
 }
 
+.gradient-overlay-half-bg-gradient-v5 {
+  z-index: 0;
+}
+
 .gradient-overlay-half-bg-gradient-v5::before {
   background: linear-gradient(to top, #131313 6%, rgba(19, 19, 19, 0.2) 72%, rgba(34, 34, 34, 0) 89%, rgba(44, 44, 44, 0) 100%);
   z-index: 0;
@@ -30677,10 +30681,6 @@ label.btn {
 
 .border-radius-3 {
   border-radius: 3px !important;
-}
-
-.border-radius-5 {
-  border-radius: 0.313rem !important;
 }
 
 /*------------------------------------
