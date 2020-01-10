@@ -28212,6 +28212,22 @@ label.btn {
   color: #fff;
 }
 
+.tab-nav-line .nav-link {
+  padding: 0.5rem 1.5rem;
+}
+
+.tab-nav-line .nav-link.active .tabtext {
+  color: #377dff;
+}
+
+.tab-nav-line .nav-link.active .tabtext::after {
+  display: block;
+  height: 0.125rem;
+  background-color: #377dff;
+  content: " ";
+  margin-top: 0.313rem;
+}
+
 .tab-nav-shadow .nav-link {
   padding: 0.3rem 1.5rem;
 }
@@ -30545,6 +30561,10 @@ label.btn {
   border-radius: 3px !important;
 }
 
+.border-radius-5 {
+  border-radius: 0.313rem !important;
+}
+
 /*------------------------------------
   Position Spaces
 ------------------------------------*/
@@ -31236,6 +31256,13 @@ Line Height
 
 .text-lh-inherit {
   line-height: 1.5;
+}
+
+/*------------------------------------
+Letter Spacing
+------------------------------------*/
+.letter-spacing-3 {
+  letter-spacing: 0.188rem;
 }
 
 /* section-title */
