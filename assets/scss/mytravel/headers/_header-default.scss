@@ -42,6 +42,10 @@
 
         .input-group-text {
             color: $gray-11;
+
+            > span {
+                line-height: 1;
+            }
         }
 
         .card-header {
@@ -50,7 +54,7 @@
         }
 
         .card-body,
-        .card-footer {
+        .card-footer__top {
             padding-left: $header-login-form-card-body-paddingX;
             padding-right: $header-login-form-card-body-paddingX;
         }

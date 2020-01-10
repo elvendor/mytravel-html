@@ -18463,13 +18463,17 @@ button:focus {
   color: #dce3ec;
 }
 
+.u-header__login-form .input-group-text > span {
+  line-height: 1;
+}
+
 .u-header__login-form .card-header {
   padding: 1.41rem;
   border-bottom-color: #ebf0f7;
 }
 
 .u-header__login-form .card-body,
-.u-header__login-form .card-footer {
+.u-header__login-form .card-footer__top {
   padding-left: 4.375rem;
   padding-right: 4.375rem;
 }
