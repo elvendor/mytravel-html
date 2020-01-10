@@ -27825,6 +27825,18 @@ label.btn {
           transform: none !important;
 }
 
+.slick-active .slick-current .card {
+  border-color: #377dff;
+}
+
+.slick-active .slick-current .card text {
+  fill: #377dff;
+}
+
+.slick-active .slick-current .card i {
+  color: #377dff;
+}
+
 /*------------------------------------
   Slick Equal Height
 ------------------------------------*/
@@ -28076,7 +28088,7 @@ label.btn {
   width: .9375rem;
   height: .9375rem;
   box-sizing: border-box;
-  background-color: #377dff;
+  background-color: #cad4e1;
   border: 3px solid transparent;
   border-radius: 50%;
   -webkit-transform: scale(0.6);
