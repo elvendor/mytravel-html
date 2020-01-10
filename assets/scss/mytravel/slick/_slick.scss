@@ -26,3 +26,16 @@
 		}
 	}
 }
+.slick-active {
+ 	.slick-current {
+ 		.card {
+ 			border-color: $primary;
+ 			text {
+ 				fill: $primary;
+ 			}
+ 			i {
+ 				color: $primary;
+ 			}
+ 		}
+ 	}
+}
