@@ -73,7 +73,7 @@
 
 .btn-position {
   position: absolute;
-  bottom: 49%;
-  right:  43%;
-  padding: 29px;
+  bottom: 0;
+  right: 0;
+  transform: translateX(23px);
 }
