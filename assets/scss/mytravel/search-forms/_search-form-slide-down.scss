@@ -19,6 +19,41 @@
     }
   }
 
+  .input-group {
+    background-color: $pale-blue;
+  }
+
+  .form-control {
+    min-height: 3.75rem;
+
+    &::placeholder {
+      color: $black;
+    }
+  }
+
+  .btn-icon__inner {
+    color: $white;
+  }
+
+  .btn.btn-icon {
+    margin-right: $header-search-slide-icon-margin-right;
+    cursor: pointer !important;
+  }
+
+  .list-group-item {
+    display: flex;
+    align-items: center; 
+    padding: $header-search-slide-list-paddingY $header-search-slide-list-paddingX;
+
+    @include hover-focus {
+      background-color: $gray-10;
+    }
+  }
+
+  .list-group-item-action {
+    color: $black;
+  }
+
   &-bg-overlay {
     position: fixed;
     top: 0;

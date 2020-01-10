@@ -60,6 +60,7 @@ $container-max-widths: (
     $gray-7:                                                    #e4e4e4 !default;
     $gray-8:                                                    #ebf0f7 !default;
     $gray-9:                                                    #cad4e1 !default;
+    $gray-10:                                                   #f9fafc !default;
     
     // Colors
     $white:                                                     #fff !default;
@@ -68,6 +69,7 @@ $container-max-widths: (
     $blue-darker:                                               #196eff !default;
     $blue-lighter:                                              #19a0ff !default;
     $blue-lighter-1:                                            #5392f9 !default;
+    $blue-lighter-2:                                            #4cbfd8 !default;
     $teal:                                                      #00c9a7 !default;
     $teal-lighter:                                              #13d7b6 !default;
     $cyan:                                                      #00dffc !default;
@@ -90,6 +92,7 @@ $container-max-widths: (
     $purple:                                                    #8023df !default;
     $violet:                                                    #532184 !default;
     $violet-lighter:                                            #6f13cd !default;
+    $pale-blue:                                                 #ebf0f7 !default;
 
 
     // Theme Colors
@@ -117,6 +120,7 @@ $secondary-colors: map-merge((
     "github":                                                 $github,
     "gray":                                                   $gray-200,
     "purple":                                                 $purple,
+    "blue":                                                   $blue-lighter-2,
 ), $secondary-colors);
 
 // Theme Colors
@@ -126,7 +130,8 @@ $theme-colors: map-merge((
   "indigo":  												                        $indigo,
   "gray":                                                   $gray-3,
   "violet":                                                 $violet,
-  "violet-light":                                           $violet-lighter
+  "violet-light":                                           $violet-lighter,
+  "gray-1":                                                 $gray-1
 ), $theme-colors);
 // stylelint-enable
 
@@ -521,11 +526,14 @@ $header-floating-inner-paddingX:                            1rem !default;
 $header-transparent-navbar-nav-padding:                     .875rem 1.5rem !default;
 $navbar-padding-x:                                          1.875rem !default;
 $header-banner-caption:                                     1.5rem !default;
+$header-search-slide-list-paddingY:                         0.313rem !default;
+$header-search-slide-list-paddingX:                         1.438rem !default;
 
 // Margin Spaces
 $header-sub-menu-margin-bottom:                             .5rem !default;
 $header-nav-link-icon-margin-left:                          .25rem !default;
 $header-floating-margin-top:                                2rem !default;
+$header-search-slide-icon-margin-right:                     0.688rem !default;
 
 // Box Shadow
 $header-box-shadow:                                         0 1px 10px rgba($gray-500, .1) !default;
@@ -967,6 +975,7 @@ $btn-width:                                                 ($font-size-base * 3
 $btn-width-wide-md:                                         ($font-size-base * 2.5) !default;
 $btn-width-xs:                                              ($font-size-base * 1.5) !default;
 $btn-width-sm:                                              ($font-size-base * 1.7) !default;
+$btn-width-medium:                                          ($font-size-base * 2.188) !default;
 $btn-width-md:                                              ($font-size-base * 4) !default;
 $btn-width-lg:                                              ($font-size-base * 5) !default;
 $btn-width-medium:                                          ($font-size-base * 8) !default;
@@ -975,6 +984,7 @@ $btn-width-normal:                                          ($font-size-base * 1
 $btn-height:                                                $btn-width !default;
 $btn-height-xs:                                             $btn-width-xs !default;
 $btn-height-sm:                                             $btn-width-sm !default;
+$btn-height-medium:                                         $btn-width-medium !default;
 $btn-height-md:                                             $btn-width-md !default;
 $btn-height-lg:                                             $btn-width-lg !default;
 $btn-height-normal:                                         ($font-size-base * 3.75) !default;

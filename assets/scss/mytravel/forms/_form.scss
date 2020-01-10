@@ -16,6 +16,8 @@
     color: $black;
 }
 
+.u-header__search
+
 .form-label {
   display: block;
   text-transform: uppercase;
@@ -51,6 +53,7 @@
 /* Form Transpatent */
 .input-group-tranparent {
     .form-control,
+    .input-group-text,
     button,
     .btn {
         background-color: transparent;
