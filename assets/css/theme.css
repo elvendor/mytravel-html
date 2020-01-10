@@ -26592,23 +26592,46 @@ label.btn {
   display: block;
 }
 
+.footer .list-group-item-action {
+  color: #67747c;
+}
+
+.footer .list-group-item-action:hover {
+  color: #377dff;
+}
+
+.footer-select .filter-option-inner-inner {
+  color: #67747c;
+}
+
+.footer-select .select-price .dropdown-menu {
+  left: -85px !important;
+}
+
+.footer-select .select-language .dropdown-menu {
+  left: 15px !important;
+}
+
 .footer-select .dropdown-menu {
-  margin: 0 0rem 1.25rem 1.25rem;
+  overflow: unset !important;
+  margin-bottom: 1.25rem;
   min-width: 15rem;
   border-radius: 2px;
 }
 
-.footer-select .dropdown-menu::after {
-  content: '';
-  display: block;
-  position: absolute;
-  bottom: -33px;
-  left: 24px;
-  width: 0;
-  height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .footer-select .dropdown-menu::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    right: 24px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+  }
 }
 
 .footer-select li {
@@ -30633,6 +30656,10 @@ label.btn {
   border-color: rgba(255, 255, 255, 0.149) !important;
 }
 
+.border-color-3 {
+  border-color: #ebf0f7;
+}
+
 .border-color-1 {
   border-color: #eaeaea !important;
 }
@@ -30965,6 +30992,10 @@ label.btn {
 
 .min-width-112 {
   min-width: 7rem;
+}
+
+.width-155 {
+  width: 9.6875rem !important;
 }
 
 .min-width-220 {
@@ -31417,14 +31448,6 @@ Letter Spacing
   color: #fff;
 }
 
-.text-gray-1 {
-  color: #67747c;
-}
-
-.text-gray-4 {
-  color: #fefeff;
-}
-
 @media (max-width: 575.98px) {
   .text-primary-max {
     color: #377dff;
@@ -31463,15 +31486,7 @@ Letter Spacing
   color: #377dff !important;
 }
 
-.text-gray-5 {
-  color: #f9f9f9;
-}
-
 .text-black {
-  color: #3b444f;
-}
-
-.text-gray-6 {
   color: #3b444f;
 }
 
