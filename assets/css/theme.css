@@ -27499,6 +27499,19 @@ label.btn {
   color: #fff;
 }
 
+.tab-nav-square .nav-link {
+  padding: 0.5rem 1.5rem;
+}
+
+.tab-nav-square .nav-link.active {
+  background-color: #377dff;
+  border-radius: 3px;
+}
+
+.tab-nav-square .nav-link.active .tabtext {
+  color: #fff;
+}
+
 .tab-nav-shadow .nav-link {
   padding: 0.3rem 1.5rem;
 }
