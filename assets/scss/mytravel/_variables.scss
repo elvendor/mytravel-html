@@ -77,9 +77,11 @@ $container-max-widths: (
     $yellow:                                                    #ffc107 !default;
     $yellow-darker:                                             #efa02e !default;
     $yellow-lighter:                                            #fdd14e !default;
+    $yellow-lighter-1:                                          #ffb874 !default;
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
-    $green-lighter:                                             #b0d12b;
+    $green-lighter:                                             #b0d12b !default;
+    $green-lighter-1:                                           #35c2a5 !default;
     $indigo:                                                    #2d1582 !default;
     $facebook:           										                    #3b5998 !default;
     $google:                                                    #d14130 !default;
@@ -93,7 +95,8 @@ $container-max-widths: (
     $violet:                                                    #532184 !default;
     $violet-lighter:                                            #6f13cd !default;
     $pale-blue:                                                 #ebf0f7 !default;
-
+    $violet-lighter-1:                                          #8c689d !default;
+    $coral:                                                     #ff8480 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -121,6 +124,10 @@ $secondary-colors: map-merge((
     "gray":                                                   $gray-200,
     "purple":                                                 $purple,
     "blue":                                                   $blue-lighter-2,
+    "violet":                                                 $violet-lighter-1,
+    "coral":                                                  $coral,
+    "yellow-light":                                           $yellow-lighter-1,
+    "green-light":                                            $green-lighter-1,
 ), $secondary-colors);
 
 // Theme Colors
@@ -131,7 +138,7 @@ $theme-colors: map-merge((
   "gray":                                                   $gray-3,
   "violet":                                                 $violet,
   "violet-light":                                           $violet-lighter,
-  "gray-1":                                                 $gray-1
+  "gray-1":                                                 $gray-1,
 ), $theme-colors);
 // stylelint-enable
 
@@ -526,8 +533,11 @@ $header-floating-inner-paddingX:                            1rem !default;
 $header-transparent-navbar-nav-padding:                     .875rem 1.5rem !default;
 $navbar-padding-x:                                          1.875rem !default;
 $header-banner-caption:                                     1.5rem !default;
-$header-search-slide-list-paddingY:                         0.313rem !default;
+$header-search-slide-list-paddingY:                         0.469rem !default;
 $header-search-slide-list-paddingX:                         1.438rem !default;
+$header-topbar-dropdown-item-paddingX:                      0.313rem !default;
+$header-topbar-dropdown-item-paddingY:                      0.125rem !default;
+$header-topbar-dropdown-padding:                            0.438rem !default;
 
 // Margin Spaces
 $header-sub-menu-margin-bottom:                             .5rem !default;
@@ -878,7 +888,7 @@ $close-font-size:                                           ($font-size-base * 1
 
 // Colors
 $dropdown-item-states:                                      $primary !default;
-$dropdown-link-color:                                       $gray-700 !default;
+$dropdown-link-color:                                       $gray-1 !default;
 $dropdown-link-hover-color:                                 $dark !default;
 $dropdown-link-hover-bg:                                    transparent !default;
 $dropdown-link-active-bg:                                   transparent !default;
