@@ -61,6 +61,7 @@ $container-max-widths: (
     $gray-8:                                                    #ebf0f7 !default;
     $gray-9:                                                    #cad4e1 !default;
     $gray-10:                                                   #f9fafc !default;
+    $gray-11:                                                   #dce3ec !default;
     
     // Colors
     $white:                                                     #fff !default;
@@ -70,6 +71,7 @@ $container-max-widths: (
     $blue-lighter:                                              #19a0ff !default;
     $blue-lighter-1:                                            #5392f9 !default;
     $blue-lighter-2:                                            #4cbfd8 !default;
+    $navy-blue:                                                 #0057ff !default;
     $teal:                                                      #00c9a7 !default;
     $teal-lighter:                                              #13d7b6 !default;
     $cyan:                                                      #00dffc !default;
@@ -77,9 +79,11 @@ $container-max-widths: (
     $yellow:                                                    #ffc107 !default;
     $yellow-darker:                                             #efa02e !default;
     $yellow-lighter:                                            #fdd14e !default;
+    $yellow-lighter-1:                                          #ffb874 !default;
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
-    $green-lighter:                                             #b0d12b;
+    $green-lighter:                                             #b0d12b !default;
+    $green-lighter-1:                                           #35c2a5 !default;
     $indigo:                                                    #2d1582 !default;
     $facebook:           										                    #3b5998 !default;
     $google:                                                    #d14130 !default;
@@ -93,7 +97,8 @@ $container-max-widths: (
     $violet:                                                    #532184 !default;
     $violet-lighter:                                            #6f13cd !default;
     $pale-blue:                                                 #ebf0f7 !default;
-
+    $violet-lighter-1:                                          #8c689d !default;
+    $coral:                                                     #ff8480 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -121,6 +126,11 @@ $secondary-colors: map-merge((
     "gray":                                                   $gray-200,
     "purple":                                                 $purple,
     "blue":                                                   $blue-lighter-2,
+    "violet":                                                 $violet-lighter-1,
+    "coral":                                                  $coral,
+    "yellow-light":                                           $yellow-lighter-1,
+    "green-light":                                            $green-lighter-1,
+    "blue-1":                                                 $navy-blue,
 ), $secondary-colors);
 
 // Theme Colors
@@ -131,7 +141,7 @@ $theme-colors: map-merge((
   "gray":                                                   $gray-3,
   "violet":                                                 $violet,
   "violet-light":                                           $violet-lighter,
-  "gray-1":                                                 $gray-1
+  "gray-1":                                                 $gray-1,
 ), $theme-colors);
 // stylelint-enable
 
@@ -370,6 +380,7 @@ $link-icon-font-size:                                       1rem !default;
 // Width & Heights
 $link-icon-width:                                           1.375rem !default;
 $link-icon-height:                                          $link-icon-width !default;
+$custom-control-indicator-size:                             1.313rem !default;
 
 // Borders
 $link-icon-border-radius:                                   $border-radius-rounded !default;
@@ -470,6 +481,7 @@ $header-submenu-nav-link-color:            						      $gray-500 !default;
 // Background Colors
 $header-bg:                                                 $white !default;
 $header-secondary-banner-bg:                                $gray-200 !default;
+$header-topbar-dropdown-arrow-color:                        $white !default;
 
 // Other Colors
 $header-sub-menu-border-color:                  				    $primary !default;
@@ -493,6 +505,7 @@ $header-sub-menu-nav-link-icon-size:                        .6875rem !default;
 $header-banner-title-font-sizes:                            ($font-size-base * 1.5625) !default;
 $header-banner-title-font-weights:                          $font-weight-medium !default;
 $go-to-modern-font-size:                                    $font-size-base;
+$header-login-form-input-font-size:                         0.875rem !default;
 
 // Borders
 $header-border-radius:                                      $border-radius !default;
@@ -526,8 +539,14 @@ $header-floating-inner-paddingX:                            1rem !default;
 $header-transparent-navbar-nav-padding:                     .875rem 1.5rem !default;
 $navbar-padding-x:                                          1.875rem !default;
 $header-banner-caption:                                     1.5rem !default;
-$header-search-slide-list-paddingY:                         0.313rem !default;
+$header-search-slide-list-paddingY:                         0.469rem !default;
 $header-search-slide-list-paddingX:                         1.438rem !default;
+$header-topbar-dropdown-item-paddingX:                      0.313rem !default;
+$header-topbar-dropdown-item-paddingY:                      0.125rem !default;
+$header-topbar-dropdown-padding:                            0.438rem !default;
+$header-login-form-card-body-paddingX:                      4.375rem !default;
+$header-login-form-card-header-padding:                     1.410rem !default;
+
 
 // Margin Spaces
 $header-sub-menu-margin-bottom:                             .5rem !default;
@@ -878,7 +897,7 @@ $close-font-size:                                           ($font-size-base * 1
 
 // Colors
 $dropdown-item-states:                                      $primary !default;
-$dropdown-link-color:                                       $gray-700 !default;
+$dropdown-link-color:                                       $gray-1 !default;
 $dropdown-link-hover-color:                                 $dark !default;
 $dropdown-link-hover-bg:                                    transparent !default;
 $dropdown-link-active-bg:                                   transparent !default;

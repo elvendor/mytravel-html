@@ -153,6 +153,23 @@
 			}
 		}
 	}
+	&-line {
+		.nav-link {
+			padding: 0.5rem 1.5rem;
+			&.active {
+				.tabtext {
+					color: $primary;
+					&::after {
+					    display: block;
+					    height: 0.125rem;
+					    background-color: #377dff;
+					    content: " ";
+					    margin-top: 0.313rem;
+					}
+				}
+			}
+		}
+	}
 	&-shadow {
 		.nav-link {
 			padding: 0.3rem 1.5rem;
