@@ -30594,8 +30594,9 @@ label.btn {
 
 .btn-position {
   position: absolute;
-  bottom: 48%;
-  right: 44%;
+  bottom: 49%;
+  right: 43%;
+  padding: 29px;
 }
 
 /*------------------------------------
