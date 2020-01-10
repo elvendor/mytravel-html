@@ -24520,6 +24520,10 @@ button:focus {
   min-width: 8.4375rem;
 }
 
+.btn-lg-wide {
+  min-width: 16rem;
+}
+
 /* Extra Small */
 .btn-xs {
   font-size: 0.6875rem;
@@ -26113,6 +26117,46 @@ label.btn {
 
 .dropdown:hover .destination-dropdown {
   display: block;
+}
+
+.footer-select .dropdown-menu {
+  margin: 0 0rem 1.25rem 1.25rem;
+  min-width: 15rem;
+  border-radius: 2px;
+}
+
+.footer-select .dropdown-menu::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -33px;
+  left: 24px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #fff;
+}
+
+.footer-select li {
+  margin: 0 2rem;
+}
+
+.footer-select a {
+  padding: 2rem 0;
+}
+
+.footer-select .active a span {
+  width: 100%;
+}
+
+.footer-select .active a::after {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-size: 80%;
+  font-weight: 900;
+  content: "\f00c";
+  margin-left: -0.5rem;
 }
 
 /*------------------------------------
@@ -28208,6 +28252,12 @@ label.btn {
   color: #377dff;
 }
 
+.slick-track {
+  width: 100% !important;
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+
 /*------------------------------------
   Slick Equal Height
 ------------------------------------*/
@@ -28992,6 +29042,18 @@ label.btn {
   max-width: 30.83333%;
 }
 
+.col-xs-3dot2 {
+  -ms-flex: 0 0 25.83333%;
+      flex: 0 0 25.83333%;
+  max-width: 25.83333%;
+}
+
+.col-xs-3dot1 {
+  -ms-flex: 0 0 25.83333%;
+      flex: 0 0 25.83333%;
+  max-width: 25.83333%;
+}
+
 .col-xs-3dot6 {
   -ms-flex: 0 0 30%;
       flex: 0 0 30%;
@@ -29004,16 +29066,16 @@ label.btn {
   max-width: 23.33333%;
 }
 
-.col-xs-1dot9 {
-  -ms-flex: 0 0 15.83333%;
-      flex: 0 0 15.83333%;
-  max-width: 15.83333%;
+.col-xs-1dot6 {
+  -ms-flex: 0 0 13.33333%;
+      flex: 0 0 13.33333%;
+  max-width: 13.33333%;
 }
 
-.col-xs-1dot3 {
-  -ms-flex: 0 0 10.83333%;
-      flex: 0 0 10.83333%;
-  max-width: 10.83333%;
+.col-xs-1dot8 {
+  -ms-flex: 0 0 15%;
+      flex: 0 0 15%;
+  max-width: 15%;
 }
 
 .col-xs-8dot4 {
@@ -29067,6 +29129,22 @@ label.btn {
 }
 
 @media (min-width: 576px) {
+  .col-sm-3dot2 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-3dot1 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 576px) {
   .col-sm-3dot6 {
     -ms-flex: 0 0 30%;
         flex: 0 0 30%;
@@ -29083,18 +29161,18 @@ label.btn {
 }
 
 @media (min-width: 576px) {
-  .col-sm-1dot9 {
-    -ms-flex: 0 0 15.83333%;
-        flex: 0 0 15.83333%;
-    max-width: 15.83333%;
+  .col-sm-1dot6 {
+    -ms-flex: 0 0 13.33333%;
+        flex: 0 0 13.33333%;
+    max-width: 13.33333%;
   }
 }
 
 @media (min-width: 576px) {
-  .col-sm-1dot3 {
-    -ms-flex: 0 0 10.83333%;
-        flex: 0 0 10.83333%;
-    max-width: 10.83333%;
+  .col-sm-1dot8 {
+    -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    max-width: 15%;
   }
 }
 
@@ -29155,6 +29233,22 @@ label.btn {
 }
 
 @media (min-width: 768px) {
+  .col-md-3dot2 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3dot1 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 768px) {
   .col-md-3dot6 {
     -ms-flex: 0 0 30%;
         flex: 0 0 30%;
@@ -29171,18 +29265,18 @@ label.btn {
 }
 
 @media (min-width: 768px) {
-  .col-md-1dot9 {
-    -ms-flex: 0 0 15.83333%;
-        flex: 0 0 15.83333%;
-    max-width: 15.83333%;
+  .col-md-1dot6 {
+    -ms-flex: 0 0 13.33333%;
+        flex: 0 0 13.33333%;
+    max-width: 13.33333%;
   }
 }
 
 @media (min-width: 768px) {
-  .col-md-1dot3 {
-    -ms-flex: 0 0 10.83333%;
-        flex: 0 0 10.83333%;
-    max-width: 10.83333%;
+  .col-md-1dot8 {
+    -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    max-width: 15%;
   }
 }
 
@@ -29243,6 +29337,22 @@ label.btn {
 }
 
 @media (min-width: 992px) {
+  .col-lg-3dot2 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-3dot1 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 992px) {
   .col-lg-3dot6 {
     -ms-flex: 0 0 30%;
         flex: 0 0 30%;
@@ -29259,18 +29369,18 @@ label.btn {
 }
 
 @media (min-width: 992px) {
-  .col-lg-1dot9 {
-    -ms-flex: 0 0 15.83333%;
-        flex: 0 0 15.83333%;
-    max-width: 15.83333%;
+  .col-lg-1dot6 {
+    -ms-flex: 0 0 13.33333%;
+        flex: 0 0 13.33333%;
+    max-width: 13.33333%;
   }
 }
 
 @media (min-width: 992px) {
-  .col-lg-1dot3 {
-    -ms-flex: 0 0 10.83333%;
-        flex: 0 0 10.83333%;
-    max-width: 10.83333%;
+  .col-lg-1dot8 {
+    -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    max-width: 15%;
   }
 }
 
@@ -29331,6 +29441,22 @@ label.btn {
 }
 
 @media (min-width: 1200px) {
+  .col-xl-3dot2 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-3dot1 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 1200px) {
   .col-xl-3dot6 {
     -ms-flex: 0 0 30%;
         flex: 0 0 30%;
@@ -29347,18 +29473,18 @@ label.btn {
 }
 
 @media (min-width: 1200px) {
-  .col-xl-1dot9 {
-    -ms-flex: 0 0 15.83333%;
-        flex: 0 0 15.83333%;
-    max-width: 15.83333%;
+  .col-xl-1dot6 {
+    -ms-flex: 0 0 13.33333%;
+        flex: 0 0 13.33333%;
+    max-width: 13.33333%;
   }
 }
 
 @media (min-width: 1200px) {
-  .col-xl-1dot3 {
-    -ms-flex: 0 0 10.83333%;
-        flex: 0 0 10.83333%;
-    max-width: 10.83333%;
+  .col-xl-1dot8 {
+    -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    max-width: 15%;
   }
 }
 
@@ -29419,6 +29545,22 @@ label.btn {
 }
 
 @media (min-width: 1480px) {
+  .col-wd-3dot2 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 1480px) {
+  .col-wd-3dot1 {
+    -ms-flex: 0 0 25.83333%;
+        flex: 0 0 25.83333%;
+    max-width: 25.83333%;
+  }
+}
+
+@media (min-width: 1480px) {
   .col-wd-3dot6 {
     -ms-flex: 0 0 30%;
         flex: 0 0 30%;
@@ -29435,18 +29577,18 @@ label.btn {
 }
 
 @media (min-width: 1480px) {
-  .col-wd-1dot9 {
-    -ms-flex: 0 0 15.83333%;
-        flex: 0 0 15.83333%;
-    max-width: 15.83333%;
+  .col-wd-1dot6 {
+    -ms-flex: 0 0 13.33333%;
+        flex: 0 0 13.33333%;
+    max-width: 13.33333%;
   }
 }
 
 @media (min-width: 1480px) {
-  .col-wd-1dot3 {
-    -ms-flex: 0 0 10.83333%;
-        flex: 0 0 10.83333%;
-    max-width: 10.83333%;
+  .col-wd-1dot8 {
+    -ms-flex: 0 0 15%;
+        flex: 0 0 15%;
+    max-width: 15%;
   }
 }
 
@@ -30012,6 +30154,10 @@ label.btn {
   border-color: #e4e4e4;
 }
 
+.border-color-8 {
+  border-color: #ebf0f7;
+}
+
 .destination {
   position: relative;
 }
@@ -30321,6 +30467,10 @@ label.btn {
 
 .max-width-40 {
   max-width: 19.5rem;
+}
+
+.min-width-112 {
+  min-width: 7rem;
 }
 
 .min-width-220 {
