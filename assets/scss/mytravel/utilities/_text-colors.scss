@@ -10,14 +10,6 @@
 	}
 }
 
-.text-gray-1 {
-	color: $gray-1;
-}
-
-.text-gray-4 {
-    color: $gray-4;
-}
-
 .text-primary-max {
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
@@ -36,16 +28,8 @@
     }
 }
 
-.text-gray-5 {
-    color: $gray-5;
-}
-
 .text-black {
     color: $black;
-}
-
-.text-gray-6 {
-    color: $gray-6;
 }
 
 .green-lighter {
