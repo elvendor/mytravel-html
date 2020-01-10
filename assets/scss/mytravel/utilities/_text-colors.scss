@@ -30,6 +30,12 @@
     }
 }
 
+.card-title.text-dark {
+    &:hover {
+        color: $primary !important;
+    }
+}
+
 .text-gray-5 {
     color: $gray-5;
 }

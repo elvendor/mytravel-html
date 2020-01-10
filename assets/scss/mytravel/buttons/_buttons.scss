@@ -21,6 +21,19 @@ label.btn {
   @include border-radius($border-radius-pill);
 }
 
+.btn-social {
+    color: $gray-1;
+    border-color: $gray-8;
+    border-width: 2px;
+    border-radius: $border-radius-pill;
+    height: $btn-height-wide-md !important;
+    width: $btn-width-wide-md !important;
+    &:hover{
+        color: $white;
+        background: $primary;
+    }
+}
+
 /* Icon */
 .btn-icon {
   position: relative;

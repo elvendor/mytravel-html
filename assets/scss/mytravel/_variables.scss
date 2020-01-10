@@ -57,8 +57,9 @@ $container-max-widths: (
     $gray-4:                                                    #fefeff !default;
     $gray-5:                                                    #f9f9f9 !default;
     $gray-6:                                                    #3b444f !default;
-  
-
+    $gray-7:                                                    #e4e4e4 !default;
+    $gray-8:                                                    #ebf0f7 !default;
+    
     // Colors
     $white:                                                     #fff !default;
     $dark:                                                      $gray-900 !default;
@@ -962,6 +963,7 @@ $btn-icon-font-size-lg:                                     ($font-size-base * 1
 
 // Width & Heights
 $btn-width:                                                 ($font-size-base * 3.125) !default;
+$btn-width-wide-md:                                         ($font-size-base * 2.5) !default;
 $btn-width-xs:                                              ($font-size-base * 1.5) !default;
 $btn-width-sm:                                              ($font-size-base * 1.7) !default;
 $btn-width-md:                                              ($font-size-base * 4) !default;
@@ -975,7 +977,7 @@ $btn-height-sm:                                             $btn-width-sm !defau
 $btn-height-md:                                             $btn-width-md !default;
 $btn-height-lg:                                             $btn-width-lg !default;
 $btn-height-normal:                                         ($font-size-base * 3.75) !default;
-
+$btn-height-wide-md:                                        $btn-width-wide-md !default;
 
 
 // Box Shadows
