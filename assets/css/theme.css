@@ -28583,24 +28583,6 @@ label.btn {
           transform: none !important;
 }
 
-.slick-active .slick-current .card {
-  border-color: #377dff;
-}
-
-.slick-active .slick-current .card text {
-  fill: #377dff;
-}
-
-.slick-active .slick-current .card i {
-  color: #377dff;
-}
-
-.slick-track {
-  width: 100% !important;
-  -webkit-transform: none !important;
-          transform: none !important;
-}
-
 /*------------------------------------
   Slick Equal Height
 ------------------------------------*/
