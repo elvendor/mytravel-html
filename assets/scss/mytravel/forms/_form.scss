@@ -16,6 +16,8 @@
     color: $black;
 }
 
+.u-header__search
+
 .form-label {
   display: block;
   text-transform: uppercase;
@@ -38,9 +40,20 @@
     }
 }
 
+.input-group-radiusless {
+    .form-control,
+    .input-group-text,
+    .form-control,
+    button,
+    .btn {
+        border-radius: unset;
+    }
+}
+
 /* Form Transpatent */
 .input-group-tranparent {
     .form-control,
+    .input-group-text,
     button,
     .btn {
         background-color: transparent;
