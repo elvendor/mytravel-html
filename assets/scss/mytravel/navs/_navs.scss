@@ -141,6 +141,18 @@
 			}
 		}
 	}
+	&-square {
+		.nav-link {
+			padding: 0.5rem 1.5rem;
+			&.active {
+				background-color: $primary;
+				border-radius: 3px;
+				.tabtext {
+					color: $white;
+				}
+			}
+		}
+	}
 	&-shadow {
 		.nav-link {
 			padding: 0.3rem 1.5rem;

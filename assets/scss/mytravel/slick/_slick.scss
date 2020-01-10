@@ -12,3 +12,22 @@
 		transform: none !important;
 	}
 }
+
+.slick-active {
+	.slick-current {
+		.card {
+			border-color: $primary;
+			text {
+				fill: $primary;
+			}
+			i {
+				color: $primary;
+			}
+		}
+	}
+}
+
+.slick-track {
+	width: 100% !important;
+	transform: none !important;
+}

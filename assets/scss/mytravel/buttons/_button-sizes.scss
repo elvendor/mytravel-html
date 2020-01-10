@@ -52,6 +52,7 @@
       height:$btn-height-normal;
     }
 }
+
 /* Icons */
 .btn-icon {
 	&.btn-xs {
@@ -64,6 +65,12 @@
     font-size: $btn-icon-font-size-sm;
     width: $btn-width-sm;
     height: $btn-height-sm;
+  }
+
+  &.btn-medium {
+    font-size: $btn-icon-font-size-sm;
+    width: $btn-width-medium;
+    height: $btn-height-medium;
   }
 
   &.btn-lg {

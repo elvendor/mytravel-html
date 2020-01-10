@@ -98,8 +98,10 @@
         }
     }
 
-    [class*="u-header__search"] .form-control:focus {
-        padding-right: 0.5rem !important;
+    [class*="u-header__search"] .form-control  {
+        &:focus {
+            padding-right: 0.5rem !important;
+        }
     }
 
     &__divider {
