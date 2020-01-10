@@ -25923,6 +25923,14 @@ label.btn {
   box-shadow: none;
 }
 
+.input-group-radiusless .form-control,
+.input-group-radiusless .input-group-text,
+.input-group-radiusless .form-control,
+.input-group-radiusless button,
+.input-group-radiusless .btn {
+  border-radius: unset;
+}
+
 /* Form Transpatent */
 .input-group-tranparent .form-control,
 .input-group-tranparent button,
@@ -27749,6 +27757,60 @@ label.btn {
 .u-search-push-top__banner:hover .u-search-push-top__banner-img:first-child {
   bottom: 0;
   left: 0;
+}
+
+/*------------------------------------
+  Search Form - Slide Down
+------------------------------------*/
+.u-search-slide-down {
+  position: absolute;
+  z-index: 1003;
+  top: 0;
+  left: 0;
+  width: 23.75rem;
+}
+
+.u-search-slide-down-trigger.active .u-search-slide-down-trigger__icon::before {
+  content: "\f00d";
+}
+
+.u-search-slide-down-bg-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+
+.u-search-slide-down .u-search-slide-down__input {
+  opacity: 0;
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+  transition: opacity 0.2s, -webkit-transform 0.3s cubic-bezier(0.37, 0.41, 0.55, 0.98);
+  transition: transform 0.3s cubic-bezier(0.37, 0.41, 0.55, 0.98), opacity 0.2s;
+  transition: transform 0.3s cubic-bezier(0.37, 0.41, 0.55, 0.98), opacity 0.2s, -webkit-transform 0.3s cubic-bezier(0.37, 0.41, 0.55, 0.98);
+}
+
+.u-search-slide-down .u-search-slide-down__suggestions {
+  opacity: 0;
+  -webkit-transform: translateY(-3rem);
+          transform: translateY(-3rem);
+  transition: opacity 0.2s, -webkit-transform 0.4s cubic-bezier(0.37, 0.41, 0.55, 0.98);
+  transition: transform 0.4s cubic-bezier(0.37, 0.41, 0.55, 0.98), opacity 0.2s;
+  transition: transform 0.4s cubic-bezier(0.37, 0.41, 0.55, 0.98), opacity 0.2s, -webkit-transform 0.4s cubic-bezier(0.37, 0.41, 0.55, 0.98);
+}
+
+.u-search-slide-down.active .u-search-slide-down__input,
+.u-search-slide-down.active .u-search-slide-down__suggestions {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.u-search-slide-down.active .u-search-slide-down__suggestions {
+  transition-delay: 0.2s;
 }
 
 /*------------------------------------
