@@ -29659,6 +29659,10 @@ label.btn {
   border-color: #e4e4e4;
 }
 
+.border-color-8 {
+  border-color: #ebf0f7;
+}
+
 .destination {
   position: relative;
 }
@@ -29968,6 +29972,10 @@ label.btn {
 
 .max-width-40 {
   max-width: 19.5rem;
+}
+
+.min-width-112 {
+  min-width: 7rem;
 }
 
 .min-width-220 {
