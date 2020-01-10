@@ -96,6 +96,16 @@
             padding-top: $header-topbar-nav-link-md-paddingY;
             padding-bottom: $header-topbar-nav-link-md-paddingY;
         }
+
+        .dropdown-menu {
+            min-width: 4.375rem;
+            padding: $header-topbar-dropdown-padding 0;
+        }
+
+        .dropdown-item {
+            padding: $header-topbar-dropdown-item-paddingY $header-topbar-dropdown-item-paddingX;
+            text-align: center;
+        }
     }
 
     [class*="u-header__search"] .form-control  {
