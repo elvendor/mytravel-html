@@ -244,4 +244,21 @@
     }
 }
 
+.shopping-cart {
+    .dropdown-menu:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 12%;
+        bottom: 100%;
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #fff;
 
+        @include media-breakpoint-only(xl) { 
+            right: 3%;
+        }
+    }   
+}
