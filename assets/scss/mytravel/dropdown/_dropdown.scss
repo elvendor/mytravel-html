@@ -188,13 +188,17 @@
 
     .select-price {
         .dropdown-menu {
-            left: -85px !important;
+            @include media-breakpoint-up(xl) {
+                left: -85px !important;
+            }
         }
     }
 
     .select-language {
         .dropdown-menu {
-            left: 15px !important;
+            @include media-breakpoint-up(xl) {
+                left: 15px !important;
+            }
         }
     }
 
