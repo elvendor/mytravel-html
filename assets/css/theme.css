@@ -32524,12 +32524,12 @@ Letter Spacing
   margin: 1.5rem auto 0;
 }
 
-.category-hover:hover {
-  background-image: url(../../assets/img/307x200/img1.jpg);
+.image-hover:not(:hover) {
+  background: #fff !important;
 }
 
-.category-hover:hover i, .category-hover:hover h6, .category-hover:hover span {
-  color: #fff;
+.image-hover:hover i, .image-hover:hover h6, .image-hover:hover span {
+  color: #fff !important;
 }
 
 /*------------------------------------
