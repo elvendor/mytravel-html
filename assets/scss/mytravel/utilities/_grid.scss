@@ -20,7 +20,14 @@
        @include media-breakpoint-up($size) {
             @include make-col(2.4);
        }
-    }   
+    } 
+
+    .col-#{$size}-3dot3 {
+       @include media-breakpoint-up($size) {
+            @include make-col(3.399);
+       }
+    }
+
     .col-#{$size}-3dot7 {
        @include media-breakpoint-up($size) {
             @include make-col(3.7);
