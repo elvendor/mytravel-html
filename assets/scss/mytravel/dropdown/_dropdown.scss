@@ -203,7 +203,7 @@
         margin-bottom: 1.25rem;
         min-width:  15rem;
         border-radius: 2px;
-        @include media-breakpoint-only(lg) {
+        @include media-breakpoint-up(xl) {
             &::after {
                 content: '';
                 display: block;
