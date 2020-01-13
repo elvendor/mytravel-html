@@ -51,4 +51,18 @@
 		background-color: #ebf0f7;
 
 	}
+
+	&--v3 {
+		color: $dark;
+		background-color: transparent;
+		font-size: 20px;
+		font-weight: 800;
+		color: $gray-9;
+
+		&:hover {
+			color: $dark;
+			background-color: transparent;
+		}
+
+	}
 }

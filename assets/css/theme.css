@@ -28951,6 +28951,19 @@ label.btn {
   background-color: #ebf0f7;
 }
 
+.u-slick__arrow-classic--v3 {
+  color: #3b444f;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 800;
+  color: #cad4e1;
+}
+
+.u-slick__arrow-classic--v3:hover {
+  color: #3b444f;
+  background-color: transparent;
+}
+
 /*------------------------------------
   Slick Paging
 ------------------------------------*/
@@ -30597,6 +30610,10 @@ label.btn {
 ------------------------------------*/
 .bg-color-1 {
   background-color: #5392f9;
+}
+
+.bg-color-2 {
+  background-color: #ebf0f7;
 }
 
 /*------------------------------------
