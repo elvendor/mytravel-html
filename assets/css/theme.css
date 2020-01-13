@@ -31540,6 +31540,10 @@ Letter Spacing
   color: #5392f9;
 }
 
+.pagination-v2-arrow-color {
+  color: #297cbb;
+}
+
 /*------------------------------------
   Transitions
 ------------------------------------*/
