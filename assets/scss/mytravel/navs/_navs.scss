@@ -45,7 +45,26 @@
 				}
 			}
 		}
+
+        &-pill .nav-item .nav-link {
+            @include border-radius($nav-rounded-border-radius);
+        }
 	}
+
+    &-default .nav-item .nav-link {
+        min-height: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:not( .active ) {
+            color: $dark;
+        }
+
+        &.active {
+            background-color: $blue-darker-1;
+        }
+    }
 
 	&-shadow {
 		box-shadow: $nav-shadow;
