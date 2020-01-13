@@ -26606,23 +26606,18 @@ label.btn {
   color: #377dff;
 }
 
-.footer-select .filter-option-inner-inner {
+.bootstrap-select__custom .filter-option-inner-inner {
   color: #67747c;
 }
 
-@media (min-width: 1200px) {
-  .footer-select .select-price .dropdown-menu {
-    left: -85px !important;
+@media (min-width: 768px) {
+  .bootstrap-select__custom .dropdown-menu {
+    left: auto !important;
+    right: 0;
   }
 }
 
-@media (min-width: 1200px) {
-  .footer-select .select-language .dropdown-menu {
-    left: 15px !important;
-  }
-}
-
-.footer-select .dropdown-menu {
+.bootstrap-select__custom .dropdown-menu {
   overflow: unset !important;
   margin-bottom: 1.25rem;
   min-width: 15rem;
@@ -26630,7 +26625,7 @@ label.btn {
 }
 
 @media (min-width: 1200px) {
-  .footer-select .dropdown-menu::after {
+  .bootstrap-select__custom .dropdown-menu::after {
     content: '';
     display: block;
     position: absolute;
@@ -26644,19 +26639,19 @@ label.btn {
   }
 }
 
-.footer-select li {
+.bootstrap-select__custom li {
   margin: 0 2rem;
 }
 
-.footer-select a {
+.bootstrap-select__custom a {
   padding: 2rem 0;
 }
 
-.footer-select .active a span {
+.bootstrap-select__custom .active a span {
   width: 100%;
 }
 
-.footer-select .active a::after {
+.bootstrap-select__custom .active a::after {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   font-size: 80%;
