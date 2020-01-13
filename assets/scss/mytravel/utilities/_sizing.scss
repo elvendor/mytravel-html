@@ -62,8 +62,16 @@
     min-width: 7rem; //112px
 }
 
-.width-155 {
-    width: 9.6875rem !important; //155px
+.min-width-256 {
+    @include media-breakpoint-up(md) {
+        min-width: 16rem; //112px
+    }
+}
+
+.max-width-155 {
+    @include media-breakpoint-up(md) {
+        max-width: 9.6875rem !important; //155px
+    }
 }
 
 .min-width-220 {
@@ -109,6 +117,11 @@
   }
 }
 
+.width-51 {
+  width: 3.188rem;  //51px
+}
+
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -126,6 +139,10 @@
 
 .height-40vh {
   height: 40vh;
+}
+
+.height-51 {
+  height: 3.188rem;  //51px
 }
 
 .height-54 {

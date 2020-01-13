@@ -18,8 +18,16 @@
 }
 
 .u-lg-avatar {
-  width: $avatar-lg;
-  height: $avatar-lg;
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            @include media-breakpoint-up($breakpoint) {     
+                width: $avatar-lg;
+                height: $avatar-lg;
+            }
+        }
+    }
 }
 
 .u-xl-avatar {

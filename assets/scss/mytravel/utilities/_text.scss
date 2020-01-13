@@ -179,3 +179,17 @@ Letter Spacing
         margin: 1.5rem auto 0;
     }
 }
+
+
+.image-hover {
+
+    &:not(:hover) {
+        background: #fff !important
+    }
+
+    &:hover {
+        i,h6,span {
+            color: #fff !important;
+        }
+    }
+}

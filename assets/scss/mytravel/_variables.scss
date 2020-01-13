@@ -85,9 +85,9 @@ $container-max-widths: (
     $green-lighter:                                             #b0d12b !default;
     $green-lighter-1:                                           #35c2a5 !default;
     $indigo:                                                    #2d1582 !default;
-    $facebook:           										                    #3b5998 !default;
+    $facebook:           										                    #395899 !default;
     $google:                                                    #d14130 !default;
-    $twitter:                                                   #1da1f2 !default;
+    $twitter:                                                   #03a9e0 !default;
     $instagram:                                                 #3f729b !default;
     $github:           											                    #24292e !default;
     $space:                                                     #ff9500 !default;
@@ -96,7 +96,7 @@ $container-max-widths: (
     $purple:                                                    #8023df !default;
     $violet:                                                    #532184 !default;
     $violet-lighter:                                            #6f13cd !default;
-    $pale-blue:                                                 #ebf0f7 !default;
+    $blue-darker-1:                                             #395899 !default;
     $violet-lighter-1:                                          #8c689d !default;
     $coral:                                                     #ff8480 !default;
 
@@ -131,6 +131,7 @@ $secondary-colors: map-merge((
     "yellow-light":                                           $yellow-lighter-1,
     "green-light":                                            $green-lighter-1,
     "blue-1":                                                 $navy-blue,
+    "gray-1":                                                 $gray-8,
 ), $secondary-colors);
 
 // Theme Colors
@@ -444,7 +445,7 @@ $nav-icon-z-index:                                          1 !default;
 // Borders
 $nav-classic-border-width:                                  1px !default;
 $nav-classic-border-color:                                  $gray-300 !default;
-$nav-rounded-border-radius:                                 $border-radius !default;
+$nav-rounded-border-radius:                                 1.25rem !default;
 $header-divider-color:                                      $gray-3 !default;
 $header-topbar-nav-link-divider-color:                      $white !default;
 $header-topbar-nav-link-divider-dark-color:                 $gray-300 !default;
@@ -472,7 +473,7 @@ $text:           					       													  $gray-700 !default;
 // =========================================================
 
 // Text Colors
-$header-nav-link-color:                                     $gray-700 !default;
+$header-nav-link-color:                                     $gray-1 !default;
 $header-nav-link-active-color:     										      $primary !default;
 $header-nav-link-hover-color:            							      $primary !default;
 $header-sub-menu-title:                                     $dark !default;
@@ -481,7 +482,6 @@ $header-submenu-nav-link-color:            						      $gray-500 !default;
 // Background Colors
 $header-bg:                                                 $white !default;
 $header-secondary-banner-bg:                                $gray-200 !default;
-$header-topbar-dropdown-arrow-color:                        $white !default;
 
 // Other Colors
 $header-sub-menu-border-color:                  				    $primary !default;
@@ -498,7 +498,7 @@ $header-floating-height:                                    50vh !default;
 // Font
 $header-nav-link-icon-font-size:                            ($font-size-base * .625) !default;
 $header-navbar-link-font-size:                              ($font-size-base * .875) !default;
-$header-sub-menu-nav-link-font-size:             			      ($font-size-base * .875) !default;
+$header-sub-menu-nav-link-font-size:             			      ($font-size-base * 1) !default;
 $header-sub-menu-title-font-size:                           ($font-size-base * 1) !default;
 $header-sub-menu-title-font-weight:                         $font-weight-semi-bold !default;
 $header-sub-menu-nav-link-icon-size:                        .6875rem !default;
@@ -513,6 +513,7 @@ $header-sub-menu-top-border-radius:                         $header-border-radiu
 $header-sub-menu-border-top-width:                          .1875rem !default;
 $header-sub-menu-border-left-width:                         $header-sub-menu-border-top-width !default;
 $header-sub-menu-bottom-border-radius:                      $header-border-radius !default;
+$header-sub-menu-rounded-border-radius:                     0.188rem !default;
 $header-banner-border-radius:                               $header-border-radius !default;
 $header-product-banner-border-radius:                       $header-border-radius !default;
 $header-floating-border-radius:                             $header-border-radius !default;
@@ -546,6 +547,7 @@ $header-topbar-dropdown-item-paddingY:                      0.125rem !default;
 $header-topbar-dropdown-padding:                            0.438rem !default;
 $header-login-form-card-body-paddingX:                      4.375rem !default;
 $header-login-form-card-header-padding:                     1.410rem !default;
+$nav-link-padding-y:                                        0.438rem !default;
 
 
 // Margin Spaces
@@ -1331,3 +1333,6 @@ $media-player-icon-box-shadow:                              0 0 2.5rem rgba($gra
 $media-player-transition:                                   all $transition-timing-sm $transition-function !default;
 $media-player-icon-transition:                              all $transition-timing $transition-function !default;
 $media-viewer-icon-transition:                              $transition-timing $transition-function !default;
+
+$custom-grid-columns:                                       2.5, 2.8 !default;
+// 28.31

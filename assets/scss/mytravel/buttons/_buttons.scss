@@ -79,3 +79,29 @@ label.btn {
     }
   }
 }
+
+.close.close-rounded {
+    font-size: 0.75rem;
+    border: 1px solid $gray-11;
+    border-radius: 50%;
+    padding: 0.656rem;
+}
+
+.button-inline-group {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            @include media-breakpoint-up($breakpoint) {
+                display: flex;
+
+                .btn {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
