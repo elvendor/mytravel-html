@@ -102,6 +102,13 @@
     min-width: 15.875rem;
 }
 
+// Extra Large Devices
+@include media-breakpoint-up(xl) {
+  .min-width-xl-447 {
+    min-width: 27.938rem;  //447px
+  }
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
