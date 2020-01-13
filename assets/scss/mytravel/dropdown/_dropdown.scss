@@ -181,24 +181,15 @@
     }
 }
 
-.footer-select {
+.bootstrap-select__custom {
     .filter-option-inner-inner {
         color:$gray-1;
     }
 
-    .select-price {
-        .dropdown-menu {
-            @include media-breakpoint-up(xl) {
-                left: -85px !important;
-            }
-        }
-    }
-
-    .select-language {
-        .dropdown-menu {
-            @include media-breakpoint-up(xl) {
-                left: 15px !important;
-            }
+    .dropdown-menu {
+        @include media-breakpoint-up(md) {
+            left: auto !important;
+            right: 0;
         }
     }
 
@@ -218,7 +209,7 @@
                 height: 0;
                 border-left: 10px solid transparent;
                 border-right: 10px solid transparent;
-                border-top: 10px solid #fff;
+                border-top: 10px solid $white;
             }
         }
     }
@@ -244,6 +235,25 @@
                 content: "\f00c";
                 margin-left: -0.5rem;
             }
+        }
+    }
+}
+
+.shopping-cart {
+    .dropdown-menu:before {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 12%;
+        bottom: 100%;
+        width: 0;
+        height: 0;
+        border-left: 9px solid transparent;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #fff;
+
+        @include media-breakpoint-only(xl) {
+            right: 3%;
         }
     }
 }
