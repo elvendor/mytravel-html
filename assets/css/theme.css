@@ -25240,8 +25240,10 @@ button:focus {
   min-width: 8.4375rem;
 }
 
-.btn-lg-wide {
-  min-width: 16rem;
+@media (min-width: 768px) {
+  .btn-lg-wide {
+    min-width: 16rem;
+  }
 }
 
 /* Extra Small */
@@ -26947,27 +26949,26 @@ label.btn {
   color: #377dff;
 }
 
-.footer-select .filter-option-inner-inner {
+.bootstrap-select__custom .filter-option-inner-inner {
   color: #67747c;
 }
 
-.footer-select .select-price .dropdown-menu {
-  left: -85px !important;
+@media (min-width: 768px) {
+  .bootstrap-select__custom .dropdown-menu {
+    left: auto !important;
+    right: 0;
+  }
 }
 
-.footer-select .select-language .dropdown-menu {
-  left: 15px !important;
-}
-
-.footer-select .dropdown-menu {
+.bootstrap-select__custom .dropdown-menu {
   overflow: unset !important;
   margin-bottom: 1.25rem;
   min-width: 15rem;
   border-radius: 2px;
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .footer-select .dropdown-menu::after {
+@media (min-width: 1200px) {
+  .bootstrap-select__custom .dropdown-menu::after {
     content: '';
     display: block;
     position: absolute;
@@ -26981,19 +26982,19 @@ label.btn {
   }
 }
 
-.footer-select li {
+.bootstrap-select__custom li {
   margin: 0 2rem;
 }
 
-.footer-select a {
+.bootstrap-select__custom a {
   padding: 2rem 0;
 }
 
-.footer-select .active a span {
+.bootstrap-select__custom .active a span {
   width: 100%;
 }
 
-.footer-select .active a::after {
+.bootstrap-select__custom .active a::after {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
   font-size: 80%;
@@ -29335,6 +29336,19 @@ label.btn {
   background-color: #ebf0f7;
 }
 
+.u-slick__arrow-classic--v3 {
+  color: #3b444f;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: 800;
+  color: #cad4e1;
+}
+
+.u-slick__arrow-classic--v3:hover {
+  color: #3b444f;
+  background-color: transparent;
+}
+
 /*------------------------------------
   Slick Paging
 ------------------------------------*/
@@ -30983,6 +30997,10 @@ label.btn {
   background-color: #5392f9;
 }
 
+.bg-color-2 {
+  background-color: #ebf0f7;
+}
+
 /*------------------------------------
   Borders
 ------------------------------------*/
@@ -31447,6 +31465,12 @@ label.btn {
 
 .min-width-254 {
   min-width: 15.875rem;
+}
+
+@media (min-width: 1200px) {
+  .min-width-xl-447 {
+    min-width: 27.938rem;
+  }
 }
 
 /*------------------------------------

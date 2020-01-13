@@ -181,20 +181,15 @@
     }
 }
 
-.footer-select {
+.bootstrap-select__custom {
     .filter-option-inner-inner {
         color:$gray-1;
     }
 
-    .select-price {
-        .dropdown-menu {
-            left: -85px !important;
-        }
-    }
-
-    .select-language {
-        .dropdown-menu {
-            left: 15px !important;
+    .dropdown-menu {
+        @include media-breakpoint-up(md) {
+            left: auto !important;
+            right: 0;
         }
     }
 
@@ -203,7 +198,7 @@
         margin-bottom: 1.25rem;
         min-width:  15rem;
         border-radius: 2px;
-        @include media-breakpoint-only(lg) {
+        @include media-breakpoint-up(xl) {
             &::after {
                 content: '';
                 display: block;
@@ -214,7 +209,7 @@
                 height: 0;
                 border-left: 10px solid transparent;
                 border-right: 10px solid transparent;
-                border-top: 10px solid #fff;
+                border-top: 10px solid $white;
             }
         }
     }
