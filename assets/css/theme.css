@@ -26091,12 +26091,6 @@ button:focus {
   min-width: 8.4375rem;
 }
 
-@media (min-width: 768px) {
-  .btn-lg-wide {
-    min-width: 16rem;
-  }
-}
-
 /* Extra Small */
 .btn-xs {
   font-size: 0.6875rem;
@@ -32267,8 +32261,16 @@ label.btn {
   min-width: 7rem;
 }
 
-.width-155 {
-  width: 9.6875rem !important;
+@media (min-width: 768px) {
+  .min-width-256 {
+    min-width: 16rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .max-width-155 {
+    max-width: 9.6875rem !important;
+  }
 }
 
 .min-width-220 {
