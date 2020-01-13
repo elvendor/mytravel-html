@@ -184,9 +184,10 @@ Letter Spacing
 .category-hover {
     &:hover {
         background-image: url(../../assets/img/307x200/img1.jpg);
-        
-        i {
+
+        i,h6,span {
             color: $white;
         }
     }
+
 }

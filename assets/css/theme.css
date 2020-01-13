@@ -32528,7 +32528,7 @@ Letter Spacing
   background-image: url(../../assets/img/307x200/img1.jpg);
 }
 
-.category-hover:hover i {
+.category-hover:hover i, .category-hover:hover h6, .category-hover:hover span {
   color: #fff;
 }
 
