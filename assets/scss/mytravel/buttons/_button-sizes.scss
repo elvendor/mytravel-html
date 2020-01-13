@@ -21,7 +21,9 @@
 }
 
 .btn-lg-wide {
-  min-width: $input-btn-min-width-lg;
+    @include media-breakpoint-up(md) {
+        min-width: $input-btn-min-width-lg;
+    }
 }
 
 /* Extra Small */

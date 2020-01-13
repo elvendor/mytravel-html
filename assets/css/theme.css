@@ -24997,8 +24997,10 @@ button:focus {
   min-width: 8.4375rem;
 }
 
-.btn-lg-wide {
-  min-width: 16rem;
+@media (min-width: 768px) {
+  .btn-lg-wide {
+    min-width: 16rem;
+  }
 }
 
 /* Extra Small */
@@ -26608,12 +26610,16 @@ label.btn {
   color: #67747c;
 }
 
-.footer-select .select-price .dropdown-menu {
-  left: -85px !important;
+@media (min-width: 1200px) {
+  .footer-select .select-price .dropdown-menu {
+    left: -85px !important;
+  }
 }
 
-.footer-select .select-language .dropdown-menu {
-  left: 15px !important;
+@media (min-width: 1200px) {
+  .footer-select .select-language .dropdown-menu {
+    left: 15px !important;
+  }
 }
 
 .footer-select .dropdown-menu {
@@ -31076,6 +31082,12 @@ label.btn {
 
 .min-width-254 {
   min-width: 15.875rem;
+}
+
+@media (min-width: 1200px) {
+  .min-width-xl-447 {
+    min-width: 27.938rem;
+  }
 }
 
 /*------------------------------------
