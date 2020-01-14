@@ -19706,10 +19706,6 @@ button:focus {
   top: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-animation-name: slideInUp;
-          animation-name: slideInUp;
-  -webkit-animation-duration: 216ms;
-          animation-duration: 216ms;
 }
 
 /* Sub Menu */
@@ -28683,10 +28679,6 @@ label.btn {
   top: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
-  -webkit-animation-name: slideInUp;
-          animation-name: slideInUp;
-  -webkit-animation-duration: 216ms;
-          animation-duration: 216ms;
 }
 
 [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector.shopping-cart > a.active:before {
@@ -28707,10 +28699,6 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    -webkit-animation-name: slideInUp;
-            animation-name: slideInUp;
-    -webkit-animation-duration: 216ms;
-            animation-duration: 216ms;
   }
 }
 
@@ -28732,10 +28720,6 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    -webkit-animation-name: slideInUp;
-            animation-name: slideInUp;
-    -webkit-animation-duration: 216ms;
-            animation-duration: 216ms;
   }
 }
 
@@ -28757,10 +28741,6 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    -webkit-animation-name: slideInUp;
-            animation-name: slideInUp;
-    -webkit-animation-duration: 216ms;
-            animation-duration: 216ms;
   }
 }
 
@@ -28782,10 +28762,6 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    -webkit-animation-name: slideInUp;
-            animation-name: slideInUp;
-    -webkit-animation-duration: 216ms;
-            animation-duration: 216ms;
   }
 }
 
@@ -28807,10 +28783,6 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
-    -webkit-animation-name: slideInUp;
-            animation-name: slideInUp;
-    -webkit-animation-duration: 216ms;
-            animation-duration: 216ms;
   }
 }
 
