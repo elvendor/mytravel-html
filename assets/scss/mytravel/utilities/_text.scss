@@ -197,3 +197,15 @@ Letter Spacing
         }
     }
 }
+
+.color-hover {
+
+    &:hover {
+        background: $brown-lighter !important;
+
+        i,h6 {
+            color: #fff !important;
+        }
+
+    }
+}

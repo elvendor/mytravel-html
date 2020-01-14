@@ -64,13 +64,13 @@ $container-max-widths: (
     $gray-11:                                                   #dce3ec !default;
     $gray-12:                                                   #f7f8f9 !default;
     $gray-13:                                                   #b3b1ae;
+    $gray-15:                                                   #eceff3 !default;
 
 
     // Colors
     $white:                                                     #fff !default;
-    $dark:                                                      $gray-900 !default;
+    $dark:                                                      #1e2022 !default;
     $dark-1:                                                    #000 !default;
-    $gray-13:                                                   #64676b !default;
     $gray-13:                                                   #3c3c3c !default;
     $gray-14:                                                   #c1c1c1 !default;
 
@@ -113,6 +113,7 @@ $container-max-widths: (
     $blue-darker-1:                                             #395899 !default;
     $violet-lighter-1:                                          #8c689d !default;
     $coral:                                                     #ff8480 !default;
+    $brown-lighter:                                             #ceac61 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -156,10 +157,12 @@ $theme-colors: map-merge((
   "gray":                                                   $gray-3,
   "violet":                                                 $violet,
   "violet-light":                                           $violet-lighter,
+  "brown-light":                                            $brown-lighter,
   "gray-1":                                                 $gray-1,
   "gray-2":                                                 $gray-12,
   "gray-3":                                                 $gray-6,
-), $theme-colors);
+  "gray-4":                                                 $gray-15,
+  ), $theme-colors);
 // stylelint-enable
 
 
