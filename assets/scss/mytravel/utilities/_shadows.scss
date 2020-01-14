@@ -31,8 +31,8 @@
     box-shadow: $box-shadow-4;
 }
 
-.shadow-hover-4 {
+.shadow-hover-3 {
     &:hover {
-        box-shadow: $box-shadow-4;
+        box-shadow: $box-shadow-soft;
     }
 }
