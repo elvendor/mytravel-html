@@ -26579,7 +26579,7 @@ label.btn {
 
 .btn-social-dark {
   color: #67747c;
-  border-color: #3c3c3c;
+  border-color: #b3b1ae;
   border-width: 2px;
   border-radius: 6.1875rem;
   height: 2.5rem !important;
@@ -32215,7 +32215,7 @@ label.btn {
 }
 
 .border-color-13 {
-  border-color: #3c3c3c !important;
+  border-color: #b3b1ae !important;
 }
 
 .border-color-11 {
@@ -32885,6 +32885,10 @@ Typography Font Size
   font-size: 0.75rem;
 }
 
+.font-size-13 {
+  font-size: 0.813rem;
+}
+
 .font-size-14 {
   font-size: 0.875rem;
 }
@@ -33093,6 +33097,10 @@ Letter Spacing
 
 .text-black {
   color: #3b444f;
+}
+
+.text-color-13 {
+  color: #b3b1ae;
 }
 
 .text-gray-14 {
