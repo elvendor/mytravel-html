@@ -32483,7 +32483,7 @@ label.btn {
 }
 
 .shadow-hover-3:hover {
-  box-shadow: 0 3px 6px 0 rgba(140, 152, 164, 0.25);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 }
 
 /*------------------------------------
@@ -32694,6 +32694,10 @@ label.btn {
 
 .min-height-155 {
   min-height: 9.6875rem;
+}
+
+.min-height-200 {
+  min-height: 12.5rem;
 }
 
 .min-height-230 {
