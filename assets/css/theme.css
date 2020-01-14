@@ -25702,6 +25702,22 @@ label.btn {
 .btn-social:hover {
   color: #fff;
   background: #377dff;
+  border-color: #377dff;
+}
+
+.btn-social-dark {
+  color: #67747c;
+  border-color: #64676b;
+  border-width: 2px;
+  border-radius: 6.1875rem;
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+}
+
+.btn-social-dark:hover {
+  color: #fff;
+  background: #377dff;
+  border-color: #377dff;
 }
 
 /* Icon */

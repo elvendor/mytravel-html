@@ -31,6 +31,21 @@ label.btn {
     &:hover{
         color: $white;
         background: $primary;
+        border-color: $primary;
+    }
+}
+
+.btn-social-dark {
+    color: $gray-1;
+    border-color: $gray-13;
+    border-width: 2px;
+    border-radius: $border-radius-pill;
+    height: $btn-height-wide-md !important;
+    width: $btn-width-wide-md !important;
+    &:hover{
+        color: $white;
+        background: $primary;
+        border-color: $primary;
     }
 }
 
