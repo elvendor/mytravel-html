@@ -52,8 +52,10 @@
             box-shadow: $header-submenu-box-shadow;
 
             &-rounded {
-              border-top: unset;
-              border-radius: $header-sub-menu-rounded-border-radius;
+              @at-root .u-header:not( .js-header-fix-moment ) #{&} {
+                border-top: unset;
+                border-radius: $header-sub-menu-rounded-border-radius;
+              }
             }
 
             &-nav-link {

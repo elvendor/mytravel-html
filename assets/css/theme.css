@@ -19692,8 +19692,8 @@ button:focus {
   }
 }
 
-[class*="u-header--bg-transparent"] .hs-sub-menu-opened .u-header__nav-link:before,
-[class*="u-header--bg-transparent"] .hs-mega-menu-opened .u-header__nav-link:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-sub-menu-opened .u-header__nav-link:before,
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-mega-menu-opened .u-header__nav-link:before {
   position: absolute;
   display: block;
   pointer-events: none;
@@ -21926,7 +21926,7 @@ button:focus {
   box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
 }
 
-.navbar-expand .u-header__navbar-nav .u-header__sub-menu-rounded {
+.u-header:not(.js-header-fix-moment) .navbar-expand .u-header__navbar-nav .u-header__sub-menu-rounded {
   border-top: unset;
   border-radius: 0.188rem;
 }
@@ -22034,7 +22034,7 @@ button:focus {
     border-bottom-left-radius: 0.3125rem;
     box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
   }
-  .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu-rounded {
+  .u-header:not(.js-header-fix-moment) .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu-rounded {
     border-top: unset;
     border-radius: 0.188rem;
   }
@@ -22131,7 +22131,7 @@ button:focus {
     border-bottom-left-radius: 0.3125rem;
     box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
   }
-  .navbar-expand-md .u-header__navbar-nav .u-header__sub-menu-rounded {
+  .u-header:not(.js-header-fix-moment) .navbar-expand-md .u-header__navbar-nav .u-header__sub-menu-rounded {
     border-top: unset;
     border-radius: 0.188rem;
   }
@@ -22228,7 +22228,7 @@ button:focus {
     border-bottom-left-radius: 0.3125rem;
     box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
   }
-  .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu-rounded {
+  .u-header:not(.js-header-fix-moment) .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu-rounded {
     border-top: unset;
     border-radius: 0.188rem;
   }
@@ -22325,7 +22325,7 @@ button:focus {
     border-bottom-left-radius: 0.3125rem;
     box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
   }
-  .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu-rounded {
+  .u-header:not(.js-header-fix-moment) .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu-rounded {
     border-top: unset;
     border-radius: 0.188rem;
   }
@@ -22422,7 +22422,7 @@ button:focus {
     border-bottom-left-radius: 0.3125rem;
     box-shadow: 0 8px 20px rgba(55, 125, 255, 0.075);
   }
-  .navbar-expand-wd .u-header__navbar-nav .u-header__sub-menu-rounded {
+  .u-header:not(.js-header-fix-moment) .navbar-expand-wd .u-header__navbar-nav .u-header__sub-menu-rounded {
     border-top: unset;
     border-radius: 0.188rem;
   }
@@ -28670,7 +28670,7 @@ label.btn {
   margin-left: -0.5rem;
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector > a.active:before {
   position: absolute;
   display: block;
   pointer-events: none;
@@ -28689,12 +28689,12 @@ label.btn {
           animation-duration: 216ms;
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector.shopping-cart > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector.shopping-cart > a.active:before {
   left: 0;
 }
 
 @media (min-width: 576px) {
-  [class*="u-header--bg-transparent"] .dropdown-connector-sm > a.active:before {
+  [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-sm > a.active:before {
     position: absolute;
     display: block;
     pointer-events: none;
@@ -28714,12 +28714,12 @@ label.btn {
   }
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector-sm.shopping-cart > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-sm.shopping-cart > a.active:before {
   left: 0;
 }
 
 @media (min-width: 768px) {
-  [class*="u-header--bg-transparent"] .dropdown-connector-md > a.active:before {
+  [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-md > a.active:before {
     position: absolute;
     display: block;
     pointer-events: none;
@@ -28739,12 +28739,12 @@ label.btn {
   }
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector-md.shopping-cart > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-md.shopping-cart > a.active:before {
   left: 0;
 }
 
 @media (min-width: 992px) {
-  [class*="u-header--bg-transparent"] .dropdown-connector-lg > a.active:before {
+  [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-lg > a.active:before {
     position: absolute;
     display: block;
     pointer-events: none;
@@ -28764,12 +28764,12 @@ label.btn {
   }
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector-lg.shopping-cart > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-lg.shopping-cart > a.active:before {
   left: 0;
 }
 
 @media (min-width: 1200px) {
-  [class*="u-header--bg-transparent"] .dropdown-connector-xl > a.active:before {
+  [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-xl > a.active:before {
     position: absolute;
     display: block;
     pointer-events: none;
@@ -28789,12 +28789,12 @@ label.btn {
   }
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector-xl.shopping-cart > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-xl.shopping-cart > a.active:before {
   left: 0;
 }
 
 @media (min-width: 1480px) {
-  [class*="u-header--bg-transparent"] .dropdown-connector-wd > a.active:before {
+  [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-wd > a.active:before {
     position: absolute;
     display: block;
     pointer-events: none;
@@ -28814,7 +28814,7 @@ label.btn {
   }
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector-wd.shopping-cart > a.active:before {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector-wd.shopping-cart > a.active:before {
   left: 0;
 }
 

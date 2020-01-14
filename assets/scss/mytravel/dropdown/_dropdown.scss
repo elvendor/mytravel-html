@@ -239,7 +239,7 @@
     }
 }
 
-[class*="u-header--bg-transparent"] .dropdown-connector {
+[class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector {
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 

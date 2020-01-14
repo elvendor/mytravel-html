@@ -401,8 +401,8 @@
     }
 
     @at-root {
-        [class*="u-header--bg-transparent"] .hs-sub-menu-opened #{&}:before,
-        [class*="u-header--bg-transparent"] .hs-mega-menu-opened #{&}:before {
+        [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-sub-menu-opened #{&}:before,
+        [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-mega-menu-opened #{&}:before {
             position: absolute;
             display: block;
             pointer-events: none;
