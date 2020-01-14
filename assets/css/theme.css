@@ -32482,6 +32482,10 @@ label.btn {
   box-shadow: 0px 14px 50px 0px rgba(32, 32, 32, 0.15);
 }
 
+.shadow-hover-4:hover {
+  box-shadow: 0px 14px 50px 0px rgba(32, 32, 32, 0.15);
+}
+
 /*------------------------------------
   Width
 ------------------------------------*/
