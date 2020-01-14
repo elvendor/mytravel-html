@@ -18360,12 +18360,12 @@ button:focus {
 /* White */
 .list-group-white .list-group-item,
 .list-group-white .list-group-item-action {
-  color: #fff;
+  color: #c1c1c1;
 }
 
 .list-group-white .list-group-item[href],
 .list-group-white .list-group-item-action[href] {
-  color: #fff;
+  color: #c1c1c1;
 }
 
 .list-group-white .list-group-item[href]:hover,
@@ -25707,7 +25707,7 @@ label.btn {
 
 .btn-social-dark {
   color: #67747c;
-  border-color: #64676b;
+  border-color: #3c3c3c;
   border-width: 2px;
   border-radius: 6.1875rem;
   height: 2.5rem !important;
@@ -31343,7 +31343,7 @@ label.btn {
 }
 
 .border-color-13 {
-  border-color: #64676b !important;
+  border-color: #3c3c3c !important;
 }
 
 .border-color-11 {
@@ -32205,6 +32205,10 @@ Letter Spacing
 
 .text-black {
   color: #3b444f;
+}
+
+.text-gray-14 {
+  color: #c1c1c1;
 }
 
 .green-lighter {
