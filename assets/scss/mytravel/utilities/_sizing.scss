@@ -58,6 +58,10 @@
   max-width: 19.5rem;
 }
 
+.max-width-40 {
+  max-width: 2.5rem;
+}
+
 .min-width-112 {
     min-width: 7rem; //112px
 }
@@ -183,6 +187,10 @@
 
 .min-height-155 {
   min-height: 9.6875rem;
+}
+
+.min-height-200 {
+  min-height: 12.5rem;  //200px
 }
 
 .min-height-230 {
@@ -333,4 +341,8 @@
 
 .width-60 {
   width: 3.75rem;  //60px
+}
+
+.max-height-200 {
+  max-height: 12.5rem; //200px
 }
