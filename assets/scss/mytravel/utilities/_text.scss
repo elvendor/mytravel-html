@@ -138,6 +138,13 @@ Font Weight
     font-weight: $font-weight-semi-bold !important;
 }
 
+// Small Devices
+@include media-breakpoint-down(xs) {
+    .font-size-xs-20 {
+        font-size: 1.25rem;  //20px
+    }
+}
+
 /*------------------------------------
 Line Height
 ------------------------------------*/
@@ -186,9 +193,8 @@ Letter Spacing
 
 
 .image-hover {
-
-    &:not(:hover) {
-        background: #fff !important
+    &::before {
+        content: " ";
     }
 
     &:hover {

@@ -32992,6 +32992,12 @@ Font Weight
   font-weight: 600 !important;
 }
 
+@media (max-width: 575.98px) {
+  .font-size-xs-20 {
+    font-size: 1.25rem;
+  }
+}
+
 /*------------------------------------
 Line Height
 ------------------------------------*/
@@ -33034,8 +33040,8 @@ Letter Spacing
   margin: 1.5rem auto 0;
 }
 
-.image-hover:not(:hover) {
-  background: #fff !important;
+.image-hover::before {
+  content: " ";
 }
 
 .image-hover:hover i, .image-hover:hover h6, .image-hover:hover span {
