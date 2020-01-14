@@ -32988,6 +32988,12 @@ Font Weight
   font-weight: 600 !important;
 }
 
+@media (max-width: 575.98px) {
+  .font-size-xs-20 {
+    font-size: 1.25rem;
+  }
+}
+
 /*------------------------------------
 Line Height
 ------------------------------------*/
