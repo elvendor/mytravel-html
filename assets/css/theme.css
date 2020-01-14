@@ -18677,12 +18677,12 @@ button:focus {
 
 .list-group-white .list-group-item[href],
 .list-group-white .list-group-item-action[href] {
-  color: rgba(255, 255, 255, 0.7);
+  color: #fff;
 }
 
 .list-group-white .list-group-item[href]:hover,
 .list-group-white .list-group-item-action[href]:hover {
-  color: #fff;
+  color: #377dff;
 }
 
 .list-group-white.list-group-striped .list-group-item:nth-child(even) {
@@ -26138,6 +26138,22 @@ label.btn {
 .btn-social:hover {
   color: #fff;
   background: #377dff;
+  border-color: #377dff;
+}
+
+.btn-social-dark {
+  color: #67747c;
+  border-color: #64676b;
+  border-width: 2px;
+  border-radius: 6.1875rem;
+  height: 2.5rem !important;
+  width: 2.5rem !important;
+}
+
+.btn-social-dark:hover {
+  color: #fff;
+  background: #377dff;
+  border-color: #377dff;
 }
 
 /* Icon */
@@ -31760,6 +31776,10 @@ label.btn {
 
 .border-color-8 {
   border-color: #ebf0f7 !important;
+}
+
+.border-color-13 {
+  border-color: #64676b !important;
 }
 
 .border-color-11 {
