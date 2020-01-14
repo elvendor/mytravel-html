@@ -194,14 +194,23 @@ Letter Spacing
 
 .image-hover {
     &::before {
+        position: absolute;
         content: " ";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
     }
 
     &:hover {
+        opacity: 1 !important;
 
         i,h6,span {
             color: #fff !important;
         }
+
     }
 }
 
