@@ -31834,6 +31834,19 @@ label.btn {
   opacity: 0.5;
 }
 
+.gradient-overlay-half-bg-white:before {
+  background-color: #fff;
+  opacity: 1;
+}
+
+.gradient-overlay-half-bg-white:hover:before {
+  opacity: 0;
+}
+
+.gradient-overlay-half-bg-white:hover i, .gradient-overlay-half-bg-white:hover h6, .gradient-overlay-half-bg-white:hover span {
+  color: #fff !important;
+}
+
 /*------------------------------------
   Links
 ------------------------------------*/
@@ -33042,25 +33055,6 @@ Letter Spacing
   background-color: #377dff;
   content: " ";
   margin: 1.5rem auto 0;
-}
-
-.image-hover::before {
-  position: absolute;
-  content: " ";
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.image-hover:hover {
-  opacity: 1 !important;
-}
-
-.image-hover:hover i, .image-hover:hover h6, .image-hover:hover span {
-  color: #fff !important;
 }
 
 .color-hover:hover {
