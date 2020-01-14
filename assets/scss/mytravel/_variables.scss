@@ -84,6 +84,7 @@ $container-max-widths: (
     $blue-lighter:                                              #19a0ff !default;
     $blue-lighter-1:                                            #5392f9 !default;
     $blue-lighter-2:                                            #4cbfd8 !default;
+    $blue-lighter-3:                                            #43c5db !default;
     $navy-blue:                                                 #0057ff !default;
     $teal:                                                      #00c9a7 !default;
     $teal-lighter:                                              #13d7b6 !default;
@@ -153,7 +154,7 @@ $secondary-colors: map-merge((
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "white":                                                  $white,
-  "indigo":  												                        $indigo,
+  "indigo":                                                 $indigo,
   "gray":                                                   $gray-3,
   "violet":                                                 $violet,
   "violet-light":                                           $violet-lighter,
@@ -162,9 +163,9 @@ $theme-colors: map-merge((
   "gray-2":                                                 $gray-12,
   "gray-3":                                                 $gray-6,
   "gray-4":                                                 $gray-15,
+  "blue":                                                   $blue-lighter-3,
   ), $theme-colors);
 // stylelint-enable
-
 
 
 // Custom setup
@@ -521,8 +522,9 @@ $header-sub-menu-nav-link-font-size:             			      ($font-size-base * 1) 
 $header-sub-menu-title-font-size:                           ($font-size-base * 1) !default;
 $header-sub-menu-title-font-weight:                         $font-weight-semi-bold !default;
 $header-sub-menu-nav-link-icon-size:                        .6875rem !default;
-$header-banner-title-font-sizes:                            ($font-size-base * 1.5625) !default;
-$header-banner-title-font-weights:                          $font-weight-medium !default;
+$header-banner-title-font-sizes:                            ($font-size-base * 1.125) !default;
+$header-banner-title-font-weights:                          $font-weight-semi-bold !default;
+$header-banner-text-font-sizes:                             ($font-size-base * 0.875) !default;
 $go-to-modern-font-size:                                    $font-size-base;
 $header-login-form-input-font-size:                         0.875rem !default;
 

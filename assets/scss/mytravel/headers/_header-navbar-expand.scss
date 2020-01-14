@@ -21,34 +21,14 @@
           padding-bottom: $header-navbar-nav-paddingY-responsive;
         }
 
-        // .hs-has-sub-menu.hs-sub-menu-opened:before {
-        //   content: '';
-        //   display: block;
-        //   position: absolute;
-        //   right: 50%;
-        //   top: 100%;
-        //   width: 0;
-        //   height: 0;
-        //   border-left: 9px solid transparent;
-        //   border-right: 9px solid transparent;
-        //   border-bottom: 9px solid #fff;
-        //   transform: translateY(-100%);
-        // }
-
         .u-header__sub-menu-bordered {
           > li + li .nav-link {
             border-top: 1px solid  $gray-8;
           }
         }
 
-        .u-header__sub-menu-rounded {
-          // > li + li .nav-link {
-          //   border-top: 1px solid  $gray-8;
-          // }
-
-          &.hs-mega-menu {
-            padding: 1.875rem;
-          }
+        .hs-mega-menu {
+          padding: 1.875rem;
         }
 
         // Submenu

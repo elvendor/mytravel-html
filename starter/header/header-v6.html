@@ -68,16 +68,106 @@
                         <!-- End Scroll Logo -->
 
                         <!-- Search Form -->
-                        <form class="js-focus-state u-header__search-lg u-header__hide-content ml-2">
-                            <div class="input-group input-group-tranparent input-group-borderless">
-                                <input type="search" class="form-control text-white min-width-254 pr-0" placeholder="Search by destination, activity" aria-label="Search by destination, activity">
-                                <div class="input-group-append">
-                                    <button type="button" class="btn text-white py-0">
-                                        <span class="flaticon-magnifying-glass"></span>
-                                    </button>
-                                </div>
+                        <div class="position-relative u-header__search-lg u-header__hide-content">
+                            <a id="searchSlideDownInvoker" class="d-block u-search-slide-down-trigger" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="searchSlideDown" data-unfold-type="css-animation" data-unfold-hide-on-scroll="false" data-unfold-target="#searchSlideDown" data-unfold-animation-in="active" data-unfold-animation-out="fadeOutUp" data-unfold-delay="0" data-unfold-duration="800" data-unfold-overlay='{ "className": "u-search-slide-down-bg-overlay", "background": "rgba(59, 68, 79, 0.851)", "animationSpeed": 400 }'>
+                                <form class="js-focus-state u-header__search-lg u-header__hide-content ml-2">
+                                    <div class="input-group input-group-tranparent input-group-borderless">
+                                        <input type="search" class="form-control text-white min-width-254 pr-0" placeholder="Search by destination, activity" aria-label="Search by destination, activity">
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn text-white py-0">
+                                                <span class="flaticon-magnifying-glass"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </a>
+                            <!-- Search Content -->
+                            <div id="searchSlideDown" class="dropdown-unfold u-search-slide-down" aria-labelledby="searchSlideDownInvoker">
+                                <form class="rounded-xs overflow-hidden">
+                                    <!-- Input Group -->
+                                    <div class="input-group input-group-tranparent input-group-borderless input-group-radiusless u-search-slide-down__input rounded-0 px-1">
+                                        <input type="search" class="form-control" placeholder="Search by destination, activity" aria-label="Search by destination, activity">
+                                        <div class="input-group-append">
+                                            <button type="submit" class="btn py-0">
+                                                <span class="flaticon-magnifying-glass font-size-20"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!-- End Input Group -->
+
+                                    <!-- Suggestions Content -->
+                                    <div class="rounded-0 bg-white u-search-slide-down__suggestions py-3">
+                                        <ul class="list-group list-group-flush list-group-borderless mb-1">
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-blue rounded-circle">
+                                                        <span class="flaticon-pin-1 btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>London</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">United kingdom</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-blue rounded-circle">
+                                                        <span class="flaticon-pin-1 btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>New York</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">United States</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-blue rounded-circle">
+                                                        <span class="flaticon-pin-1 btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>Istanbul</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">Turkey</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-violet rounded-circle">
+                                                        <span class="flaticon-building btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>Max Royal Hotel</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">Hotel</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-coral rounded-circle">
+                                                        <span class="flaticon-global-1 btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>Paris Tour</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">Tour</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-yellow-light rounded-circle">
+                                                        <span class="flaticon-home btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>My Villa Home</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">Rental</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="list-group-item list-group-item-action" href="#">
+                                                    <span class="btn btn-icon btn-medium btn-green-light rounded-circle">
+                                                        <span class="flaticon-climbing btn-icon__inner"></span>
+                                                    </span>
+                                                    <span>Millennium Park</span>
+                                                    <span class="ml-auto font-size-14 text-gray-1 mr-1">Activity</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- End Suggestions Content -->
+                                </form>
                             </div>
-                        </form>
+                            <!-- End Search Content -->
+                        </div>
                         <!-- End Search Form -->
 
                         <!-- Responsive Toggle Button -->
@@ -101,7 +191,7 @@
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu">Hotel</a>
                                     <!-- Hotel Submenu -->
-                                    <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
+                                    <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
@@ -112,16 +202,43 @@
                                 <!-- End Hotel -->
 
                                 <!-- Tour -->
-                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
-                                    <a id="tourMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="tourSubMenu">Tour</a>
-                                    <!-- Tour Submenu -->
-                                    <ul id="tourSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="tourMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
-                                    </ul>
-                                    <!-- End Tour Submenu -->
+                                <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="722px" data-position="right">
+                                    <a id="tourMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Tour</a>
+
+                                    <!-- Tour - Mega Menu -->
+                                    <div class="hs-mega-menu u-header__sub-menu u-header__sub-menu-rounded u-header__mega-menu-position-right-fix-10" aria-labelledby="tourMegaMenu">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-3dot64">
+                                                <span class="u-header__sub-menu-title">List Style</span>
+                                                <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Top Search Layout</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar Search Layout</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-xl-3dot64">
+                                                <span class="u-header__sub-menu-title">Single</span>
+                                                <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 1</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 2</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 3</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 4</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 5</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-xl">
+                                                <!-- Banner Image -->
+                                                <div class="u-header__banner u-header__banner-no-overlay rounded-xs" style="background-image: url(../../assets/img/240x243/img1.jpg);">
+                                                    <div class="u-header__banner-content u-header__banner-content-not-centered">
+                                                        <span class="u-header__banner-title">Special Offers</span>
+                                                        <p class="u-header__banner-text">Find Your Perfect Hotels Get the best prices on 20,000+ properties the best  prices on</p>
+                                                        <a class="btn btn-white text-blue btn-sm rounded-xs transition-3d-hover" href="#">See Deals</a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Banner Image -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                  <!-- End Tour - Mega Menu -->
                                 </li>
                                 <!-- End Tour -->
 
@@ -135,7 +252,7 @@
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu">Rental</a>
                                     <!-- Rental Submenu -->
-                                    <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
+                                    <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
@@ -144,7 +261,6 @@
                                     <!-- End Rental Submenu -->
                                 </li>
                                 <!-- End Rental -->
-
 
                                 <!-- Car -->
                                 <li class="nav-item u-header__nav-item">
@@ -156,7 +272,7 @@
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu">Yacht</a>
                                     <!-- Yacht Submenu -->
-                                    <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
+                                    <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
@@ -173,88 +289,30 @@
                                 <!-- End Flights -->
 
                                 <!-- Pages -->
-                                <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
-                                    <a id="pagesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <!-- Pages - Mega Menu -->
-                                    <div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="pagesMegaMenu">
-                                        <div class="row u-header__mega-menu-wrapper">
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img1.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Travel</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img2.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Hotel</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img3.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Tour</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img4.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Home Rental</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img5.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Home Activity</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img6.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Yatch</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img7.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Flight</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img8.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Car</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Pages - Mega Menu -->
+                                <!-- Hotel -->
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
+                                    <!-- Hotel Submenu -->
+                                    <ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Destination</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">About us</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Blog</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">FAQs</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Contact</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Terms of Use</a></li>
+                                    </ul>
+                                    <!-- End Hotel Submenu -->
                                 </li>
+                                <!-- End Hotel -->
                                 <!-- End Pages -->
                             </ul>
                         </div>
                         <!-- End Navigation -->
 
                         <!-- Shopping Cart -->
-                        <div class="pl-md-4 ml-auto shopping-cart">
-                            <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
-                                <span class="flaticon-shopping-basket btn-icon__inner font-size-25 text-primary-max-lg"></span>
+                        <div class="pl-md-4 ml-auto shopping-cart dropdown-connector-xl">
+                            <a id="shoppingCartDropdownInvoker" class="btn-text-secondary position-relative py-4" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                                <span class="flaticon-shopping-basket font-size-25 text-primary-max-lg"></span>
                             </a>
                             <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right dropdown-menu-right-fix-wd-10 text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
                                 <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
@@ -267,7 +325,7 @@
 
                         <!-- Button -->
                         <div class="pl-4 ml-1 u-header__last-item-btn u-header__last-item-btn-xl">
-                            <a class="btn btn-wide rounded-sm btn-outline-white border-width-2 transition-3d-hover" href="#" target="_blank">
+                            <a class="btn btn-wide rounded-sm btn-outline-white border-width-2 transition-3d-hover" href="#">
                                 <i class="flaticon-user font-size-16 mr-2"></i>
                                 <span class="d-inline-block">Sign in or Register</span>
                             </a>

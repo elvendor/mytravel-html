@@ -238,3 +238,33 @@
         }
     }
 }
+
+[class*="u-header--bg-transparent"] .dropdown-connector {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            > a.active:before {
+                @include media-breakpoint-up($breakpoint) {
+                    position: absolute;
+                    display: block;
+                    pointer-events: none;
+                    border: 10px solid transparent;
+                    border-bottom-color: #fff;
+                    content: '';
+                    height: 0;
+                    left: 50%;
+                    width: 0;
+                    top: 100%;
+                    transform: translateY(-100%);
+                    animation-name: slideInUp;
+                    animation-duration: 216ms;
+                }
+            }
+
+            &.shopping-cart > a.active:before {
+                left: 0;
+            }
+        }
+    }
+}
