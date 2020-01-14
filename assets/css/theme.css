@@ -31669,6 +31669,10 @@ label.btn {
   max-width: 19.5rem;
 }
 
+.max-width-50 {
+  max-width: 3.125rem;
+}
+
 .min-width-112 {
   min-width: 7rem;
 }
