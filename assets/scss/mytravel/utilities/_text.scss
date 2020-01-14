@@ -181,13 +181,15 @@ Letter Spacing
 }
 
 
-.category-hover {
-    &:hover {
-        background-image: url(../../assets/img/307x200/img1.jpg);
+.image-hover {
 
-        i,h6,span {
-            color: $white;
-        }
+    &:not(:hover) {
+        background: #fff !important
     }
 
+    &:hover {
+        i,h6,span {
+            color: #fff !important;
+        }
+    }
 }

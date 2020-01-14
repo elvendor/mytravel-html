@@ -64,6 +64,7 @@ $container-max-widths: (
     $gray-11:                                                   #dce3ec !default;
     $gray-12:                                                   #f7f8f9 !default;
     $gray-13:                                                   #64676b !default;
+
     
     // Colors
     $white:                                                     #fff !default;
@@ -84,7 +85,6 @@ $container-max-widths: (
     $yellow-lighter-1:                                          #ffb874 !default;
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
-    $red-lighter-1:                                             #ff5a5f !default;
     $green-lighter:                                             #b0d12b !default;
     $green-lighter-1:                                           #35c2a5 !default;
     $indigo:                                                    #2d1582 !default;
@@ -146,9 +146,6 @@ $theme-colors: map-merge((
   "violet":                                                 $violet,
   "violet-light":                                           $violet-lighter,
   "gray-1":                                                 $gray-1,
-  "gray-2":                                                 $gray-12,
-  "gray-3":                                                 $gray-6,
-  "red-lighter-1":                                          $red-lighter-1,
 ), $theme-colors);
 // stylelint-enable
 
@@ -1339,3 +1336,6 @@ $media-player-icon-box-shadow:                              0 0 2.5rem rgba($gra
 $media-player-transition:                                   all $transition-timing-sm $transition-function !default;
 $media-player-icon-transition:                              all $transition-timing $transition-function !default;
 $media-viewer-icon-transition:                              $transition-timing $transition-function !default;
+
+$custom-grid-columns:                                       2.5, 2.8 !default;
+// 28.31
