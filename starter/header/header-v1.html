@@ -186,9 +186,9 @@
                                                                 <div class="js-form-message js-focus-state border border-width-2 border-color-8 rounded-sm">
                                                                     <label class="sr-only" for="name">Full Name</label>
                                                                     <div class="input-group input-group-tranparent input-group-borderless input-group-radiusless">
-                                                                        <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" aria-label="Full Name" aria-describedby="name" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success">
+                                                                        <input type="text" class="form-control" name="name" id="name" placeholder="Full Name" aria-label="Full Name" aria-describedby="normalname" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success">
                                                                         <div class="input-group-append">
-                                                                            <span class="input-group-text" id="name">
+                                                                            <span class="input-group-text" id="normalname">
                                                                                 <span class="flaticon-browser-1 font-size-20"></span>
                                                                             </span>
                                                                         </div>
@@ -260,9 +260,9 @@
                                                                 <div class="js-form-message js-focus-state border border-width-2 border-color-8 rounded-sm">
                                                                     <label class="sr-only" for="pname">Full Name</label>
                                                                     <div class="input-group input-group-tranparent input-group-borderless input-group-radiusless">
-                                                                        <input type="text" class="form-control" name="pname" id="pname" placeholder="Full Name" aria-label="Full Name" aria-describedby="pname" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success">
+                                                                        <input type="text" class="form-control" name="pname" id="pname" placeholder="Full Name" aria-label="Full Name" aria-describedby="partnername" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success">
                                                                         <div class="input-group-append">
-                                                                            <span class="input-group-text" id="pname">
+                                                                            <span class="input-group-text" id="partnername">
                                                                                 <span class="flaticon-browser-1 font-size-20"></span>
                                                                             </span>
                                                                         </div>
@@ -441,18 +441,14 @@
                         <!-- End Scroll Logo -->
 
                         <!-- Search Form -->
-                        <div class="position-relative u-header__search-lg u-header__hide-content">
+                        <div class="position-relative u-header__search-lg u-header__hide-content pl-2 ml-2">
                             <a id="searchSlideDownInvoker" class="d-block u-search-slide-down-trigger" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="searchSlideDown" data-unfold-type="css-animation" data-unfold-hide-on-scroll="false" data-unfold-target="#searchSlideDown" data-unfold-animation-in="active" data-unfold-animation-out="fadeOutUp" data-unfold-delay="0" data-unfold-duration="800" data-unfold-overlay='{ "className": "u-search-slide-down-bg-overlay", "background": "rgba(59, 68, 79, 0.851)", "animationSpeed": 400 }'>
-                                <form class="js-focus-state">
-                                    <div class="input-group input-group-tranparent input-group-borderless">
-                                        <input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc">
-                                        <div class="input-group-append">
-                                            <button type="button" class="btn text-white py-0">
-                                                <span class="flaticon-magnifying-glass font-size-20"></span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
+                                <div class="d-flex align-items-center">
+                                    <span class="text-white min-width-220">Destination, tour, hotel, etc</span>
+                                    <span class="d-flex align-items-center text-white p-0">
+                                        <span class="flaticon-magnifying-glass font-size-20"></span>
+                                    </span>
+                                </div>
                             </a>
                             <!-- Search Content -->
                             <div id="searchSlideDown" class="dropdown-unfold u-search-slide-down" aria-labelledby="searchSlideDownInvoker">
@@ -1486,9 +1482,9 @@
                                                                                             &lt;div class="js-form-message js-focus-state border border-width-2 border-color-8 rounded-sm"&gt;
                                                                                                 &lt;label class="sr-only" for="name"&gt;Full Name&lt;/label&gt;
                                                                                                 &lt;div class="input-group input-group-tranparent input-group-borderless input-group-radiusless"&gt;
-                                                                                                    &lt;input type="text" class="form-control" name="name" id="name" placeholder="Full Name" aria-label="Full Name" aria-describedby="name" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success"&gt;
+                                                                                                    &lt;input type="text" class="form-control" name="name" id="name" placeholder="Full Name" aria-label="Full Name" aria-describedby="normalname" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success"&gt;
                                                                                                     &lt;div class="input-group-append"&gt;
-                                                                                                        &lt;span class="input-group-text" id="name"&gt;
+                                                                                                        &lt;span class="input-group-text" id="normalname"&gt;
                                                                                                             &lt;span class="flaticon-browser-1 font-size-20"&gt;&lt;/span&gt;
                                                                                                         &lt;/span&gt;
                                                                                                     &lt;/div&gt;
@@ -1560,9 +1556,9 @@
                                                                                             &lt;div class="js-form-message js-focus-state border border-width-2 border-color-8 rounded-sm"&gt;
                                                                                                 &lt;label class="sr-only" for="pname"&gt;Full Name&lt;/label&gt;
                                                                                                 &lt;div class="input-group input-group-tranparent input-group-borderless input-group-radiusless"&gt;
-                                                                                                    &lt;input type="text" class="form-control" name="pname" id="pname" placeholder="Full Name" aria-label="Full Name" aria-describedby="pname" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success"&gt;
+                                                                                                    &lt;input type="text" class="form-control" name="pname" id="pname" placeholder="Full Name" aria-label="Full Name" aria-describedby="partnername" required="" data-msg="Please enter a valid name." data-error-class="u-has-error" data-success-class="u-has-success"&gt;
                                                                                                     &lt;div class="input-group-append"&gt;
-                                                                                                        &lt;span class="input-group-text" id="pname"&gt;
+                                                                                                        &lt;span class="input-group-text" id="partnername"&gt;
                                                                                                             &lt;span class="flaticon-browser-1 font-size-20"&gt;&lt;/span&gt;
                                                                                                         &lt;/span&gt;
                                                                                                     &lt;/div&gt;
@@ -1741,18 +1737,14 @@
                                                     &lt;!-- End Scroll Logo --&gt;
 
                                                     &lt;!-- Search Form --&gt;
-                                                    &lt;div class="position-relative u-header__search-lg u-header__hide-content"&gt;
+                                                    &lt;div class="position-relative u-header__search-lg u-header__hide-content pl-2 ml-2"&gt;
                                                         &lt;a id="searchSlideDownInvoker" class="d-block u-search-slide-down-trigger" href="javascript:;" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="searchSlideDown" data-unfold-type="css-animation" data-unfold-hide-on-scroll="false" data-unfold-target="#searchSlideDown" data-unfold-animation-in="active" data-unfold-animation-out="fadeOutUp" data-unfold-delay="0" data-unfold-duration="800" data-unfold-overlay='{ "className": "u-search-slide-down-bg-overlay", "background": "rgba(59, 68, 79, 0.851)", "animationSpeed": 400 }'&gt;
-                                                            &lt;form class="js-focus-state"&gt;
-                                                                &lt;div class="input-group input-group-tranparent input-group-borderless"&gt;
-                                                                    &lt;input type="search" class="form-control text-white min-width-220 pr-0" placeholder="Destination, tour, hotel, etc" aria-label="Destination, tour, hotel, etc"&gt;
-                                                                    &lt;div class="input-group-append"&gt;
-                                                                        &lt;button type="button" class="btn text-white py-0"&gt;
-                                                                            &lt;span class="flaticon-magnifying-glass font-size-20"&gt;&lt;/span&gt;
-                                                                        &lt;/button&gt;
-                                                                    &lt;/div&gt;
-                                                                &lt;/div&gt;
-                                                            &lt;/form&gt;
+                                                            &lt;div class="d-flex align-items-center"&gt;
+                                                                &lt;span class="text-white min-width-220"&gt;Destination, tour, hotel, etc&lt;/span&gt;
+                                                                &lt;span class="d-flex align-items-center text-white p-0"&gt;
+                                                                    &lt;span class="flaticon-magnifying-glass font-size-20"&gt;&lt;/span&gt;
+                                                                &lt;/span&gt;
+                                                            &lt;/div&gt;
                                                         &lt;/a&gt;
                                                         &lt;!-- Search Content --&gt;
                                                         &lt;div id="searchSlideDown" class="dropdown-unfold u-search-slide-down" aria-labelledby="searchSlideDownInvoker"&gt;
