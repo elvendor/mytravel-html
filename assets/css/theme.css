@@ -33344,6 +33344,10 @@ label.btn {
   border-color: #dce3ec !important;
 }
 
+.border-color-2 {
+  border-color: #67747c;
+}
+
 .destination {
   position: relative;
 }
@@ -34149,6 +34153,10 @@ Line Height
 
 .text-lh-inherit {
   line-height: 1.5;
+}
+
+.text-lh-lg {
+  line-height: 1.9;
 }
 
 /*------------------------------------
