@@ -221,7 +221,7 @@
 }
 
 .gradient-overlay-half-bg-white {
-	&:before {
+	&::before {
 		background-color: #fff;
 		opacity: 1;
 	}
@@ -234,6 +234,14 @@
 		i,h6,span {
 			color: #fff !important;
 		}
+	}
+}
+
+.gradient-overlay-half-bg-violet-light-2 {
+	&::before {
+		background-color: #3f0c74;
+		opacity: .6;
+
 	}
 }
 

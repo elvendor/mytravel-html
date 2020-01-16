@@ -65,6 +65,7 @@ $container-max-widths: (
     $gray-12:                                                   #f7f8f9 !default;
     $gray-13:                                                   #b3b1ae;
     $gray-15:                                                   #eceff3 !default;
+    $gray-16:                                                   #18181b !default;
 
 
     // Colors
@@ -164,6 +165,7 @@ $theme-colors: map-merge((
   "gray-3":                                                 $gray-6,
   "gray-4":                                                 $gray-15,
   "blue":                                                   $blue-lighter-3,
+  "gray-5":                                                 $gray-16,
   ), $theme-colors);
 // stylelint-enable
 
