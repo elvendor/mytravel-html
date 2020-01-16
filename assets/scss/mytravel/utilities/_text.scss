@@ -191,6 +191,22 @@ Letter Spacing
     }
 }
 
+/* section-title */
+.section-title-1 {
+    font-size: 1.875rem; //30px
+    color: $white;
+    font-weight: $font-weight-bold;
+
+    &::after {
+        display: block;
+        width: 2.5rem;
+        height: 0.125rem;
+        background-color: $white;
+        content: " ";
+        margin: 1.5rem auto 0;
+    }
+}
+
 .color-hover {
 
     &:hover {
