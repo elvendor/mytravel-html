@@ -52,7 +52,7 @@
             box-shadow: $header-submenu-box-shadow;
 
             &-rounded {
-              @at-root .u-header:not( .js-header-fix-moment ) #{&} {
+              @at-root [class*="u-header--bg-transparent"].u-header:not( .js-header-fix-moment ) #{&} {
                 border-top: unset;
                 border-radius: $header-sub-menu-rounded-border-radius;
               }

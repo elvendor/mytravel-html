@@ -59,10 +59,11 @@
         background-color: transparent;
     }
 
-    .form-control:focus {
-        &,
-        + .input-group-append button {
-            background-color: rgba( $white, .3 ) !important;
-        }
-    }
+    // .form-control:focus {
+    //     &,
+    //     + .input-group-append button,
+    //     + .input-group-append .btn {
+    //         background-color: rgba( $white, .3 ) !important;
+    //     }
+    // }
 }
