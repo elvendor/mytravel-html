@@ -33982,6 +33982,14 @@ Letter Spacing
   color: #fff !important;
 }
 
+.text-hover:hover {
+  background: #f8bd5b !important;
+}
+
+.text-hover:hover h6, .text-hover:hover span {
+  color: #fff !important;
+}
+
 /*------------------------------------
   Text Colors
 ------------------------------------*/

@@ -212,7 +212,19 @@ Letter Spacing
     &:hover {
         background: $brown-lighter !important;
 
-        i,h6 {
+        i,h6, {
+            color: #fff !important;
+        }
+
+    }
+}
+
+.text-hover {
+
+    &:hover {
+        background: $brown !important;
+
+        h6,span {
             color: #fff !important;
         }
 
