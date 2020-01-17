@@ -70,3 +70,10 @@ a.faq-title {
         color: $primary !important;
     }
 }
+
+a.faq-list {
+
+    &:hover {
+        color: $primary !important;
+    }
+}

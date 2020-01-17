@@ -34303,6 +34303,10 @@ a.faq-title:hover {
   color: #377dff !important;
 }
 
+a.faq-list:hover {
+  color: #377dff !important;
+}
+
 /*------------------------------------
   Transitions
 ------------------------------------*/
