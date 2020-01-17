@@ -223,6 +223,15 @@
 			}
 		}
 	}
+
+	&-shop {
+		.nav-link {
+			padding: 0.5rem 0.5rem;
+			&.active {
+				color: $dark;
+			}
+		}
+	}
 }
 
 

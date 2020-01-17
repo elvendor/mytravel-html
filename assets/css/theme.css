@@ -30786,6 +30786,14 @@ label.btn {
   border-radius: 3px;
 }
 
+.tab-nav-shop .nav-link {
+  padding: 0.5rem 0.5rem;
+}
+
+.tab-nav-shop .nav-link.active {
+  color: #1e2022;
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
@@ -33572,6 +33580,10 @@ label.btn {
   width: 36px;
 }
 
+.height-60 {
+  height: 3.75rem;
+}
+
 .height-60vh {
   height: 60vh;
 }
@@ -33833,6 +33845,10 @@ Typography Font Size
   font-size: 1.313rem;
 }
 
+.font-size-24 {
+  font-size: 1.5rem;
+}
+
 .font-size-30 {
   font-size: 1.875rem;
 }
@@ -33923,6 +33939,10 @@ Line Height
 
 .text-lh-1 {
   line-height: 1;
+}
+
+.text-lh-2 {
+  line-height: 2;
 }
 
 .text-lh-inherit {
