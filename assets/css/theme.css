@@ -34303,7 +34303,7 @@ a.faq-title:hover {
   color: #377dff !important;
 }
 
-a.faq-list:hover {
+.list-item .list-item-link:active i, .list-item .list-item-link:active span, .list-item .list-item-link:hover i, .list-item .list-item-link:hover span, .list-item .list-item-link:focus i, .list-item .list-item-link:focus span {
   color: #377dff !important;
 }
 

@@ -71,9 +71,19 @@ a.faq-title {
     }
 }
 
-a.faq-list {
 
-    &:hover {
-        color: $primary !important;
+.list-item { 
+
+    .list-item-link {
+
+        &:active,
+        &:hover,
+        &:focus {
+
+            i,span {
+                color: $primary !important;
+            }
+
+        }
     }
 }
