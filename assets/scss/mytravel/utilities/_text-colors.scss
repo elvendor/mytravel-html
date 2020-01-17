@@ -75,15 +75,23 @@ a.faq-title {
 .list-item { 
 
     .list-item-link {
-
-        &:active,
-        &:hover,
-        &:focus {
+        
+        &:hover {
 
             i,span {
                 color: $primary !important;
             }
 
+        }
+
+        &:active,
+        &:focus {
+            border-left: 2px solid $primary;
+            padding: .3rem 1rem .5rem 1.125rem;; 
+
+            i,span {
+                color: $primary !important;
+            } 
         }
     }
 }

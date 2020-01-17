@@ -34303,7 +34303,16 @@ a.faq-title:hover {
   color: #377dff !important;
 }
 
-.list-item .list-item-link:active i, .list-item .list-item-link:active span, .list-item .list-item-link:hover i, .list-item .list-item-link:hover span, .list-item .list-item-link:focus i, .list-item .list-item-link:focus span {
+.list-item .list-item-link:hover i, .list-item .list-item-link:hover span {
+  color: #377dff !important;
+}
+
+.list-item .list-item-link:active, .list-item .list-item-link:focus {
+  border-left: 2px solid #377dff;
+  padding: .3rem 1rem .5rem 1.125rem;
+}
+
+.list-item .list-item-link:active i, .list-item .list-item-link:active span, .list-item .list-item-link:focus i, .list-item .list-item-link:focus span {
   color: #377dff !important;
 }
 
