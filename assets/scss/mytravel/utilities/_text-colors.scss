@@ -87,11 +87,11 @@ a.faq-title {
         &:active,
         &:focus {
 
-            border-left: 2px solid $primary;
+            border-left: 2px solid #297cbb;
             padding-top: .7rem; 
 
             i,span {
-                color: $primary !important;
+                color: #297cbb !important;
             } 
         }
     }
