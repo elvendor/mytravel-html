@@ -63,3 +63,36 @@
 .text-dark-1 {
     color: $dark-1;
 }
+
+a.faq-title {
+
+    &:hover {
+        color: $primary !important;
+    }
+}
+
+
+.list-item { 
+
+    .list-item-link {
+        
+        &:hover {
+
+            i,span {
+                color: $primary !important;
+            }
+
+        }
+
+        &:active,
+        &:focus {
+
+            border-left: 2px solid $primary;
+            padding-top: .7rem; 
+
+            i,span {
+                color: $primary !important;
+            } 
+        }
+    }
+}

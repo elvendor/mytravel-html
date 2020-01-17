@@ -27,6 +27,10 @@ Typography Font Size
     font-size: ($font-size-base * 3); //48px
 }
 
+.font-size-10 {
+    font-size: 0.625rem;  //10px
+}
+
 .font-size-21 {
     font-size: 1.313rem; //21px
 }
@@ -173,6 +177,9 @@ Line Height
     line-height: 1.5;
 }
 
+.text-lh-lg {
+    line-height: 1.9;
+}
 /*------------------------------------
 Letter Spacing
 ------------------------------------*/
@@ -238,3 +245,4 @@ Letter Spacing
 
     }
 }
+
