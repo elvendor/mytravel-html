@@ -34299,6 +34299,10 @@ Letter Spacing
   color: #000;
 }
 
+a.faq-title:hover {
+  color: #377dff !important;
+}
+
 /*------------------------------------
   Transitions
 ------------------------------------*/

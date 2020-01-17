@@ -64,7 +64,8 @@
     color: $dark-1;
 }
 
-.faq-title {
+a.faq-title {
+
     &:hover {
         color: $primary !important;
     }
