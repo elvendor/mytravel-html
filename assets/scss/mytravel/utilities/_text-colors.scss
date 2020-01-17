@@ -86,8 +86,9 @@ a.faq-title {
 
         &:active,
         &:focus {
+
             border-left: 2px solid $primary;
-            padding: .3rem 1rem .5rem 1.125rem;; 
+            padding-top: .7rem; 
 
             i,span {
                 color: $primary !important;
