@@ -32,6 +32,10 @@
     color: $black;
 }
 
+.text-color-1 {
+    color: $gray-1;
+}
+
 .text-color-13 {
     color: $gray-13;
 }
@@ -58,4 +62,18 @@
 
 .text-dark-1 {
     color: $dark-1;
+}
+
+a.faq-title {
+
+    &:hover {
+        color: $primary !important;
+    }
+}
+
+a.faq-list {
+
+    &:hover {
+        color: $primary !important;
+    }
 }

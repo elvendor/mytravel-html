@@ -69,7 +69,7 @@
 }
 
 .border-color-7 {
-	border-color: $gray-7; //#e4e4e4
+	border-color: $gray-7 !important; //#e4e4e4
 }
 
 .border-color-8 {
@@ -82,6 +82,10 @@
 
 .border-color-11 {
 	border-color: $gray-11 !important; //#dce3ec
+}
+
+.border-color-2 {
+	border-color: $gray-1; //#67747c
 }
 
 .destination {
