@@ -31341,7 +31341,7 @@ label.btn {
 }
 
 .slick-active .slick-current .card {
-  border-color: #377dff;
+  border-color: #377dff !important;
 }
 
 .slick-active .slick-current .card text {
@@ -34308,12 +34308,12 @@ a.faq-title:hover {
 }
 
 .list-item .list-item-link:active, .list-item .list-item-link:focus {
-  border-left: 2px solid #297cbb;
+  border-left: 2px solid #377dff;
   padding-top: .7rem;
 }
 
 .list-item .list-item-link:active i, .list-item .list-item-link:active span, .list-item .list-item-link:focus i, .list-item .list-item-link:focus span {
-  color: #297cbb !important;
+  color: #377dff !important;
 }
 
 /*------------------------------------

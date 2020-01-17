@@ -16,7 +16,7 @@
 .slick-active {
 	.slick-current {
 		.card {
-			border-color: $primary;
+			border-color: $primary !important;
 			text {
 				fill: $primary;
 			}
