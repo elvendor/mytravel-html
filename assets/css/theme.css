@@ -34329,7 +34329,8 @@ a.faq-title:hover {
 
 .list-item .list-item-link:active, .list-item .list-item-link:focus {
   border-left: 2px solid #377dff;
-  padding: .5rem 0;
+  padding-top: .5rem;
+  padding-bottom: .5rem !important;
 }
 
 .list-item .list-item-link:active i, .list-item .list-item-link:active span, .list-item .list-item-link:focus i, .list-item .list-item-link:focus span {
