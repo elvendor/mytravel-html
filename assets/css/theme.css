@@ -29226,6 +29226,30 @@ label.btn {
   left: 0;
 }
 
+.tab-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.tab-dropdown .dropdown-toggle.bs-placeholder {
+  color: #3b444f !important;
+}
+
+.tab-dropdown .dropdown-item {
+  color: #67747c;
+}
+
+.tab-dropdown .dropdown-item:hover {
+  color: #377dff;
+}
+
+.tab-dropdown .dropdown-menu li {
+  margin: 0 2rem;
+}
+
+.tab-dropdown .dropdown-menu a {
+  padding: 0.8rem 0;
+}
+
 /*------------------------------------
   Dropdown Card
 ------------------------------------*/

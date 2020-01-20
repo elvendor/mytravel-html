@@ -268,3 +268,28 @@
         }
     }
 }
+.tab-dropdown {
+    .dropdown-toggle {
+        &::after {
+            display: none;
+        }
+        &.bs-placeholder {
+            color:$black !important;
+        }
+    }
+    .dropdown-item {
+        color:$gray-1;
+        &:hover {
+            color: $primary;
+        }
+    }
+    .dropdown-menu {
+        li {
+            margin: 0 2rem;
+        }
+
+        a {
+            padding: 0.8rem 0;
+        }
+    }
+}
