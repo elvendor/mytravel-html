@@ -269,6 +269,7 @@
     }
 }
 .tab-dropdown {
+    border-bottom: 2px solid $gray-2;
     .dropdown-toggle {
         &::after {
             display: none;
