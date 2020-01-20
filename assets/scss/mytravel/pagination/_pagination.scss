@@ -19,3 +19,10 @@
     @include border-right-radius($border-radius);
   }
 }
+
+.list-pagination {
+  .page-link:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
