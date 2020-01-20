@@ -77,7 +77,7 @@ a.faq-title {
     .list-item-link {
         
         &:hover {
-
+            
             i,span {
                 color: $primary !important;
             }
@@ -88,7 +88,7 @@ a.faq-title {
         &:focus {
 
             border-left: 2px solid $primary;
-            padding-top: .7rem; 
+            padding: .5rem 0; 
 
             i,span {
                 color: $primary !important;
