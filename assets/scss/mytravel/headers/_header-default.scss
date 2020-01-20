@@ -109,9 +109,10 @@
                 position: absolute;
                 width: 1px;
                 height: 30px;
-                top: 0;
                 left: 0;
                 display: block;
+                top: 50%;
+                transform: translateY(-50%);
 
                 @at-root {
                     [class*="u-header--bg-transparent"] #{&} {
@@ -132,10 +133,6 @@
                 padding-left: 0;
             }
         } 
-
-        // .input-group-tranparent .form-control:focus {
-        //     padding-left: 0.625rem !important;
-        // }
 
         &-nav-spacing--md .u-header__navbar-link {
             padding-top: $header-topbar-nav-link-md-paddingY;
@@ -302,7 +299,6 @@
         }
 
         &-dark {
-
             @each $breakpoint in map-keys($grid-breakpoints) {
             $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
@@ -401,6 +397,25 @@
                 top: 53%;
                 transform: translateY(-50%);
             }
+        }
+    }
+
+    @at-root {
+        [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-sub-menu-opened #{&}:before,
+        [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-mega-menu-opened #{&}:before {
+            position: absolute;
+            display: block;
+            pointer-events: none;
+            border: 10px solid transparent;
+            border-bottom-color: $white;
+            content: '';
+            height: 0;
+            width: 0;
+            left: 50%;
+            top: 100%;
+            transform: translateY(-100%);
+            // animation-name: slideInUp;
+            // animation-duration: 216ms;
         }
     }
 }
@@ -562,10 +577,11 @@
 .u-header__banner {
     position: relative;
     height: 100%;
+    overflow: hidden;
     @include background-cover(cover, no-repeat, top, center);
     @include border-bottom-left-radius($header-banner-border-radius);
 
-    &::after {
+    &:not( .u-header__banner-no-overlay )::after {
         position: absolute;
         top: 0;
         right: 0;
@@ -579,9 +595,19 @@
     &-content {
         z-index: 1;
         width: 100%;
-        text-align: center;
-        padding: 2rem;
-        @include content-centered(false, true);
+        padding: 1.438rem 1.25rem;
+
+        &:not( .u-header__banner-content-not-centered ) {
+            @include content-centered(false, true);
+        }
+
+        &-not-centered .u-header__banner-text {
+            padding-right: 3.313rem;
+        }
+
+        .btn-sm {
+            padding: 0.532rem 1.456rem;
+        }
     }
 
     &-title {
@@ -589,13 +615,14 @@
         color: $white;
         font-size: $header-banner-title-font-sizes;
         font-weight: $header-banner-title-font-weights;
-        margin-bottom: .5rem;
+        margin-bottom: 0.875rem;
     }
 
     &-text {
         display: block;
+        font-size: $header-banner-text-font-sizes;
         color: $white;
-        margin-bottom: 0;
+        margin-bottom: 1.375rem;
     }
 
     &-caption {
@@ -663,6 +690,22 @@
                 &-#{$dropdown-position} {
                     @include media-breakpoint-up($breakpoint) {
                         right: $dropdown-position * 1% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.hs-position-left.u-header__mega-menu-position-left-fix {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+        &#{$infix} {
+            @each $dropdown-position in $dropdown-positions {
+                &-#{$dropdown-position} {
+                    @include media-breakpoint-up($breakpoint) {
+                        left: $dropdown-position * 1% !important;
                     }
                 }
             }

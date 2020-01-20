@@ -70,14 +70,14 @@
                                     <span class="d-inline-block font-size-14 mr-1">Sign in or Register</span>
                                 </a>
                             </div>
-                            <div class="position-relative pl-3 py-1 u-header__topbar-divider">
-                                <a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center ml-1" href="javascript:;" role="button" aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                            <div class="position-relative pl-3 language-switcher dropdown-connector-xl u-header__topbar-divider">
+                                <a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center ml-1 py-3" href="javascript:;" role="button" aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
                                     <span class="d-inline-block">EUR</span>
                                 </a>
-                                <div id="languageDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right" aria-labelledby="languageDropdownInvoker">
-                                    <a class="dropdown-item active" href="#">Euro</a>
-                                    <a class="dropdown-item" href="#">Deutsch</a>
-                                    <a class="dropdown-item" href="#">Español</a>
+                                <div id="languageDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right mt-0" aria-labelledby="languageDropdownInvoker">
+                                    <a class="dropdown-item" href="#">USD</a>
+                                    <a class="dropdown-item active" href="#">EUR</a>
+                                    <a class="dropdown-item" href="#">TUR</a>
                                 </div>
                             </div>
                         </div>
@@ -138,7 +138,7 @@
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu">Hotel</a>
                                     <!-- Hotel Submenu -->
-                                    <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
+                                    <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
@@ -148,17 +148,45 @@
                                 </li>
                                 <!-- End Hotel -->
 
+                                
                                 <!-- Tour -->
-                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
-                                    <a id="tourMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="tourSubMenu">Tour</a>
-                                    <!-- Tour Submenu -->
-                                    <ul id="tourSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="tourMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
-                                    </ul>
-                                    <!-- End Tour Submenu -->
+                                <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="722px" data-position="right">
+                                    <a id="tourMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Tour</a>
+
+                                    <!-- Tour - Mega Menu -->
+                                    <div class="hs-mega-menu u-header__sub-menu u-header__sub-menu-rounded" aria-labelledby="tourMegaMenu">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-3dot64">
+                                                <span class="u-header__sub-menu-title">List Style</span>
+                                                <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Top Search Layout</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar Search Layout</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-xl-3dot64">
+                                                <span class="u-header__sub-menu-title">Single</span>
+                                                <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 1</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 2</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 3</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 4</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 5</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-xl">
+                                                <!-- Banner Image -->
+                                                <div class="u-header__banner u-header__banner-no-overlay rounded-xs" style="background-image: url(../../assets/img/240x243/img1.jpg);">
+                                                    <div class="u-header__banner-content u-header__banner-content-not-centered">
+                                                        <span class="u-header__banner-title">Special Offers</span>
+                                                        <p class="u-header__banner-text">Find Your Perfect Hotels Get the best prices on 20,000+ properties the best  prices on</p>
+                                                        <a class="btn btn-white text-blue btn-sm rounded-xs transition-3d-hover" href="#">See Deals</a>
+                                                    </div>
+                                                </div>
+                                                <!-- End Banner Image -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                  <!-- End Tour - Mega Menu -->
                                 </li>
                                 <!-- End Tour -->
 
@@ -172,7 +200,7 @@
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu">Rental</a>
                                     <!-- Rental Submenu -->
-                                    <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
+                                    <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
@@ -193,7 +221,7 @@
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu">Yacht</a>
                                     <!-- Yacht Submenu -->
-                                    <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
+                                    <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
                                         <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
@@ -210,79 +238,21 @@
                                 <!-- End Flights -->
 
                                 <!-- Pages -->
-                                <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left">
-                                    <a id="pagesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <!-- Pages - Mega Menu -->
-                                    <div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="pagesMegaMenu">
-                                        <div class="row u-header__mega-menu-wrapper">
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img1.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Travel</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img2.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Hotel</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img3.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Tour</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img4.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Home Rental</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img5.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Home Activity</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img6.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Yatch</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img7.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Flight</span>
-                                                </a>
-                                            </div>
-                                            <div class="col-xl-3 mb-xl-3">
-                                                <a href="#" class="d-block py-2 py-xl-0 transition-3d-hover">
-                                                    <div class="u-header__banner rounded overflow-hidden height-50">
-                                                        <img class="img-fluid" src="../../assets/img/500x300/img8.jpg" alt="img">
-                                                    </div>
-                                                    <span class="u-header__banner-caption">Car</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End Pages - Mega Menu -->
+                                <!-- Hotel -->
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
+                                    <!-- Hotel Submenu -->
+                                    <ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Destination</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">About us</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Blog</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">FAQs</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Contact</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Terms of Use</a></li>
+                                    </ul>
+                                    <!-- End Hotel Submenu -->
                                 </li>
+                                <!-- End Hotel -->
                                 <!-- End Pages -->
                             </ul>
                         </div>
@@ -290,8 +260,8 @@
 
                         <!-- Shopping Cart -->
                         <div class="pl-2 pl-md-4 ml-auto shopping-cart">
-                            <a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
-                                <span class="flaticon-shopping-basket btn-icon__inner font-size-25 text-primary-max-lg"></span>
+                            <a id="shoppingCartDropdownInvoker" class="btn-text-secondary poition-relative py-4" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                                <span class="flaticon-shopping-basket font-size-25 text-primary-max-lg"></span>
                             </a>
                             <div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;">
                                 <span class="btn btn-icon btn-soft-primary rounded-circle mb-3">
@@ -458,14 +428,14 @@
                                                                 &lt;span class="d-inline-block font-size-14 mr-1"&gt;Sign in or Register&lt;/span&gt;
                                                             &lt;/a&gt;
                                                         &lt;/div&gt;
-                                                        &lt;div class="position-relative pl-3 py-1 u-header__topbar-divider"&gt;
-                                                            &lt;a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center ml-1" href="javascript:;" role="button" aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut"&gt;
+                                                        &lt;div class="position-relative pl-3 language-switcher dropdown-connector-xl u-header__topbar-divider"&gt;
+                                                            &lt;a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center ml-1 py-3" href="javascript:;" role="button" aria-controls="languageDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#languageDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut"&gt;
                                                                 &lt;span class="d-inline-block"&gt;EUR&lt;/span&gt;
                                                             &lt;/a&gt;
-                                                            &lt;div id="languageDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right" aria-labelledby="languageDropdownInvoker"&gt;
-                                                                &lt;a class="dropdown-item active" href="#"&gt;Euro&lt;/a&gt;
-                                                                &lt;a class="dropdown-item" href="#"&gt;Deutsch&lt;/a&gt;
-                                                                &lt;a class="dropdown-item" href="#"&gt;Español&lt;/a&gt;
+                                                            &lt;div id="languageDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right mt-0" aria-labelledby="languageDropdownInvoker"&gt;
+                                                                &lt;a class="dropdown-item" href="#"&gt;USD&lt;/a&gt;
+                                                                &lt;a class="dropdown-item active" href="#"&gt;EUR&lt;/a&gt;
+                                                                &lt;a class="dropdown-item" href="#"&gt;TUR&lt;/a&gt;
                                                             &lt;/div&gt;
                                                         &lt;/div&gt;
                                                     &lt;/div&gt;
@@ -526,7 +496,7 @@
                                                             &lt;li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"&gt;
                                                                 &lt;a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu"&gt;Hotel&lt;/a&gt;
                                                                 &lt;!-- Hotel Submenu --&gt;
-                                                                &lt;ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;"&gt;
+                                                                &lt;ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;"&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Sidebar&lt;/a&gt;&lt;/li&gt;
@@ -536,17 +506,45 @@
                                                             &lt;/li&gt;
                                                             &lt;!-- End Hotel --&gt;
 
+                                                            
                                                             &lt;!-- Tour --&gt;
-                                                            &lt;li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"&gt;
-                                                                &lt;a id="tourMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="tourSubMenu"&gt;Tour&lt;/a&gt;
-                                                                &lt;!-- Tour Submenu --&gt;
-                                                                &lt;ul id="tourSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="tourMenu" style="min-width: 230px;"&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Sidebar&lt;/a&gt;&lt;/li&gt;
-                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Full Width&lt;/a&gt;&lt;/li&gt;
-                                                                &lt;/ul&gt;
-                                                                &lt;!-- End Tour Submenu --&gt;
+                                                            &lt;li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="722px" data-position="right"&gt;
+                                                                &lt;a id="tourMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false"&gt;Tour&lt;/a&gt;
+
+                                                                &lt;!-- Tour - Mega Menu --&gt;
+                                                                &lt;div class="hs-mega-menu u-header__sub-menu u-header__sub-menu-rounded" aria-labelledby="tourMegaMenu"&gt;
+                                                                    &lt;div class="row"&gt;
+                                                                        &lt;div class="col-12 col-xl-3dot64"&gt;
+                                                                            &lt;span class="u-header__sub-menu-title"&gt;List Style&lt;/span&gt;
+                                                                            &lt;ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3"&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Top Search Layout&lt;/a&gt;&lt;/li&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Sidebar Search Layout&lt;/a&gt;&lt;/li&gt;
+                                                                            &lt;/ul&gt;
+                                                                        &lt;/div&gt;
+                                                                        &lt;div class="col-12 col-xl-3dot64"&gt;
+                                                                            &lt;span class="u-header__sub-menu-title"&gt;Single&lt;/span&gt;
+                                                                            &lt;ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3"&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour Single 1&lt;/a&gt;&lt;/li&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour Single 2&lt;/a&gt;&lt;/li&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour Single 3&lt;/a&gt;&lt;/li&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour Single 4&lt;/a&gt;&lt;/li&gt;
+                                                                                &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Tour Single 5&lt;/a&gt;&lt;/li&gt;
+                                                                            &lt;/ul&gt;
+                                                                        &lt;/div&gt;
+                                                                        &lt;div class="col-12 col-xl"&gt;
+                                                                            &lt;!-- Banner Image --&gt;
+                                                                            &lt;div class="u-header__banner u-header__banner-no-overlay rounded-xs" style="background-image: url(../../assets/img/240x243/img1.jpg);"&gt;
+                                                                                &lt;div class="u-header__banner-content u-header__banner-content-not-centered"&gt;
+                                                                                    &lt;span class="u-header__banner-title"&gt;Special Offers&lt;/span&gt;
+                                                                                    &lt;p class="u-header__banner-text"&gt;Find Your Perfect Hotels Get the best prices on 20,000+ properties the best  prices on&lt;/p&gt;
+                                                                                    &lt;a class="btn btn-white text-blue btn-sm rounded-xs transition-3d-hover" href="#"&gt;See Deals&lt;/a&gt;
+                                                                                &lt;/div&gt;
+                                                                            &lt;/div&gt;
+                                                                            &lt;!-- End Banner Image --&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;
+                                                                &lt;/div&gt;
+                                                              &lt;!-- End Tour - Mega Menu --&gt;
                                                             &lt;/li&gt;
                                                             &lt;!-- End Tour --&gt;
 
@@ -560,7 +558,7 @@
                                                             &lt;li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"&gt;
                                                                 &lt;a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu"&gt;Rental&lt;/a&gt;
                                                                 &lt;!-- Rental Submenu --&gt;
-                                                                &lt;ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;"&gt;
+                                                                &lt;ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;"&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Sidebar&lt;/a&gt;&lt;/li&gt;
@@ -581,7 +579,7 @@
                                                             &lt;li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"&gt;
                                                                 &lt;a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu"&gt;Yacht&lt;/a&gt;
                                                                 &lt;!-- Yacht Submenu --&gt;
-                                                                &lt;ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;"&gt;
+                                                                &lt;ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;"&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;List&lt;/a&gt;&lt;/li&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Grid&lt;/a&gt;&lt;/li&gt;
                                                                     &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Sidebar&lt;/a&gt;&lt;/li&gt;
@@ -598,79 +596,21 @@
                                                             &lt;!-- End Flights --&gt;
 
                                                             &lt;!-- Pages --&gt;
-                                                            &lt;li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-position="left"&gt;
-                                                                &lt;a id="pagesMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false"&gt;Pages&lt;/a&gt;
-                                                                &lt;!-- Pages - Mega Menu --&gt;
-                                                                &lt;div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="pagesMegaMenu"&gt;
-                                                                    &lt;div class="row u-header__mega-menu-wrapper"&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img1.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Travel&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img2.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Hotel&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img3.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Tour&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img4.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Home Rental&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img5.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Home Activity&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img6.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Yatch&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img7.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Flight&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                        &lt;div class="col-xl-3 mb-xl-3"&gt;
-                                                                            &lt;a href="#" class="d-block py-2 py-xl-0 transition-3d-hover"&gt;
-                                                                                &lt;div class="u-header__banner rounded overflow-hidden height-50"&gt;
-                                                                                    &lt;img class="img-fluid" src="../../assets/img/500x300/img8.jpg" alt="img"&gt;
-                                                                                &lt;/div&gt;
-                                                                                &lt;span class="u-header__banner-caption"&gt;Car&lt;/span&gt;
-                                                                            &lt;/a&gt;
-                                                                        &lt;/div&gt;
-                                                                    &lt;/div&gt;
-                                                                &lt;/div&gt;
-                                                                &lt;!-- End Pages - Mega Menu --&gt;
+                                                            &lt;!-- Hotel --&gt;
+                                                            &lt;li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut"&gt;
+                                                                &lt;a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu"&gt;Pages&lt;/a&gt;
+                                                                &lt;!-- Hotel Submenu --&gt;
+                                                                &lt;ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;"&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Destination&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;About us&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;FAQs&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                                                                    &lt;li&gt;&lt;a class="nav-link u-header__sub-menu-nav-link" href="#"&gt;Terms of Use&lt;/a&gt;&lt;/li&gt;
+                                                                &lt;/ul&gt;
+                                                                &lt;!-- End Hotel Submenu --&gt;
                                                             &lt;/li&gt;
+                                                            &lt;!-- End Hotel --&gt;
                                                             &lt;!-- End Pages --&gt;
                                                         &lt;/ul&gt;
                                                     &lt;/div&gt;
@@ -678,8 +618,8 @@
 
                                                     &lt;!-- Shopping Cart --&gt;
                                                     &lt;div class="pl-2 pl-md-4 ml-auto shopping-cart"&gt;
-                                                        &lt;a id="shoppingCartDropdownInvoker" class="btn btn-xs btn-icon btn-text-secondary" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut"&gt;
-                                                            &lt;span class="flaticon-shopping-basket btn-icon__inner font-size-25 text-primary-max-lg"&gt;&lt;/span&gt;
+                                                        &lt;a id="shoppingCartDropdownInvoker" class="btn-text-secondary poition-relative py-4" href="javascript:;" role="button" aria-controls="shoppingCartDropdown" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#shoppingCartDropdown" data-unfold-type="css-animation" data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut"&gt;
+                                                            &lt;span class="flaticon-shopping-basket font-size-25 text-primary-max-lg"&gt;&lt;/span&gt;
                                                         &lt;/a&gt;
                                                         &lt;div id="shoppingCartDropdown" class="dropdown-menu dropdown-unfold dropdown-menu-right text-center p-7" aria-labelledby="shoppingCartDropdownInvoker" style="min-width: 250px;"&gt;
                                                             &lt;span class="btn btn-icon btn-soft-primary rounded-circle mb-3"&gt;

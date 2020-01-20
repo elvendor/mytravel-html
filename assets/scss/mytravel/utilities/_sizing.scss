@@ -157,6 +157,10 @@
   width: 36px;
 }
 
+.height-60 {
+  height: 3.75rem; //60px
+}
+
 .height-60vh {
   height: 60vh;
 }
@@ -187,6 +191,10 @@
 
 .min-height-155 {
   min-height: 9.6875rem;
+}
+
+.min-height-200 {
+  min-height: 12.5rem;  //200px
 }
 
 .min-height-230 {
@@ -337,4 +345,8 @@
 
 .width-60 {
   width: 3.75rem;  //60px
+}
+
+.max-height-200 {
+  max-height: 12.5rem; //200px
 }

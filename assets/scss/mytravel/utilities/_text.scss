@@ -27,12 +27,20 @@ Typography Font Size
     font-size: ($font-size-base * 3); //48px
 }
 
+.font-size-10 {
+    font-size: 0.625rem;  //10px
+}
+
 .font-size-21 {
     font-size: 1.313rem; //21px
 }
 
 .font-size-12 {
     font-size: 0.75rem;  //12px
+}
+
+.font-size-13 {
+    font-size: 0.813rem;  //13px
 }
 
 .font-size-14 {
@@ -61,6 +69,10 @@ Typography Font Size
 
 .font-size-21 {
     font-size: 1.313rem;  //21px
+}
+
+.font-size-24 {
+    font-size: 1.5rem;  //24px
 }
 
 .font-size-30 {
@@ -134,6 +146,13 @@ Font Weight
     font-weight: $font-weight-semi-bold !important;
 }
 
+// Small Devices
+@include media-breakpoint-down(xs) {
+    .font-size-xs-20 {
+        font-size: 1.25rem;  //20px
+    }
+}
+
 /*------------------------------------
 Line Height
 ------------------------------------*/
@@ -150,10 +169,17 @@ Line Height
     line-height: 1;
 }
 
+.text-lh-2 {
+    line-height: 2;
+}
+
 .text-lh-inherit {
     line-height: 1.5;
 }
 
+.text-lh-lg {
+    line-height: 1.9;
+}
 /*------------------------------------
 Letter Spacing
 ------------------------------------*/
@@ -180,17 +206,19 @@ Letter Spacing
     }
 }
 
+/* section-title */
+.section-title-1 {
+    font-size: 1.875rem; //30px
+    color: $white;
+    font-weight: $font-weight-bold;
 
-.image-hover {
-
-    &:not(:hover) {
-        background: #fff !important
-    }
-
-    &:hover {
-        i,h6,span {
-            color: #fff !important;
-        }
+    &::after {
+        display: block;
+        width: 2.5rem;
+        height: 0.125rem;
+        background-color: $white;
+        content: " ";
+        margin: 1.5rem auto 0;
     }
 }
 
@@ -199,9 +227,22 @@ Letter Spacing
     &:hover {
         background: $brown-lighter !important;
 
-        i,h6 {
+        i,h6, {
             color: #fff !important;
         }
 
     }
 }
+
+.text-hover {
+
+    &:hover {
+        background: $brown !important;
+
+        h6,span {
+            color: #fff !important;
+        }
+
+    }
+}
+

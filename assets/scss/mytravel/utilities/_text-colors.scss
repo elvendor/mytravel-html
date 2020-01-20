@@ -32,6 +32,14 @@
     color: $black;
 }
 
+.text-color-1 {
+    color: $gray-1;
+}
+
+.text-color-13 {
+    color: $gray-13;
+}
+
 .text-gray-14 {
     color: $gray-14;
 }
@@ -54,4 +62,38 @@
 
 .text-dark-1 {
     color: $dark-1;
+}
+
+a.faq-title {
+
+    &:hover {
+        color: $primary !important;
+    }
+}
+
+
+.list-item { 
+
+    .list-item-link {
+        
+        &:hover {
+            
+            i,span {
+                color: $primary !important;
+            }
+
+        }
+
+        &:active,
+        &:focus {
+
+            border-left: 2px solid $primary;
+            padding-top: .5rem; 
+            padding-bottom: .5rem !important;
+
+            i,span {
+                color: $primary !important;
+            } 
+        }
+    }
 }

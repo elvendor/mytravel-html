@@ -220,3 +220,19 @@
 	}
 }
 
+.gradient-overlay-half-bg-white {
+	&::before {
+		background-color: #fff;
+		opacity: 1;
+	}
+
+	&:hover:before {
+		opacity: 0;
+	}
+	
+	&:hover {
+		i,h6,span {
+			color: #fff !important;
+		}
+	}
+}
