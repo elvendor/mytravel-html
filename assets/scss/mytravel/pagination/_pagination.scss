@@ -20,6 +20,12 @@
   }
 }
 
+.list-pagination {
+  .page-link:hover {
+    background-color: $primary;
+    color: $white;
+  }
+}
 .custom-pagination {
 
     .page-link {
@@ -54,5 +60,4 @@
             }
         }
     }
-
 }

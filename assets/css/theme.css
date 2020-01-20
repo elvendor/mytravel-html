@@ -31222,6 +31222,11 @@ label.btn {
   border-bottom-right-radius: 0.3125rem;
 }
 
+.list-pagination .page-link:hover {
+  background-color: #377dff;
+  color: #fff;
+}
+
 .custom-pagination .page-link {
   color: #67747c;
   padding: .4rem;
@@ -34332,6 +34337,10 @@ label.btn {
 
 .width-51 {
   width: 3.188rem;
+}
+
+.width-135 {
+  width: 8.438rem !important;
 }
 
 /*------------------------------------
