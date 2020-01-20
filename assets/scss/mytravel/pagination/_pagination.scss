@@ -26,3 +26,38 @@
     color: $white;
   }
 }
+.custom-pagination {
+
+    .page-link {
+            color: #67747c;
+            padding: .4rem;
+            border-radius: 3px;
+            
+        &:hover {
+            background: $primary !important;
+            color: $white !important;
+        }
+    }
+    .page-item {
+
+        &:first-child {
+
+            .page-link {
+                color: #3b444f;
+                border-right: 1px solid #e4e4e4;
+                border-top-right-radius: 0;
+                border-bottom-right-radius: 0;
+            }
+        }
+
+        &:last-child {
+
+            .page-link {
+                color: #3b444f;
+                border-left: 1px solid #e4e4e4;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+            }
+        }
+    }
+}
