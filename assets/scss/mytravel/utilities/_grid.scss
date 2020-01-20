@@ -84,4 +84,16 @@
             @include make-col(8.2);
        }
     }
+
+    .col-#{$size}-8dot5 {
+       @include media-breakpoint-up($size) {
+            @include make-col(8.5);
+       }
+    }
+
+    .col-#{$size}-3dot5 {
+       @include media-breakpoint-up($size) {
+            @include make-col(3.5);
+       }
+    }
 }
