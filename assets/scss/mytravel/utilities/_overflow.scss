@@ -6,6 +6,9 @@
 	overflow: hidden;
 }
 
-.overflow-lg-visible {
-	overflow: visible;
+@include media-breakpoint-up(lg) {
+
+	.overflow-lg-visible {
+		overflow: visible !important;
+	}
 }

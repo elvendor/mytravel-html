@@ -34146,8 +34146,10 @@ label.btn {
   overflow: hidden;
 }
 
-.overflow-lg-visible {
-  overflow: visible;
+@media (min-width: 992px) {
+  .overflow-lg-visible {
+    overflow: visible !important;
+  }
 }
 
 /*------------------------------------
