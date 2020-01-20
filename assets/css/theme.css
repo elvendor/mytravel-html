@@ -34146,6 +34146,10 @@ label.btn {
   overflow: hidden;
 }
 
+.overflow-lg-visible {
+  overflow: visible;
+}
+
 /*------------------------------------
   Box Shadow
 ------------------------------------*/
