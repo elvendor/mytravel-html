@@ -70,6 +70,7 @@ $container-max-widths: (
     $gray-17:                                                   #18181a !default;
     $gray-18:                                                   #5c6770 !default;
     $gray-19:                                                   #c5cdd8 !default;
+    $gray-20:                                                   #9fa9b8 !default;
 
 
     // Colors
@@ -102,9 +103,11 @@ $container-max-widths: (
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
     $red-lighter-1:                                             #ff5a5f !default;
+    $red-lighter-2:                                             #ff3c4e !default;
     $green-lighter:                                             #b0d12b !default;
     $green-lighter-1:                                           #35c2a5 !default;
     $indigo:                                                    #2d1582 !default;
+    $indigo-lighter-1:                                          #080e7b !default;
     $facebook:           										                    #395899 !default;
     $google:                                                    #d14130 !default;
     $twitter:                                                   #03a9e0 !default;
@@ -166,6 +169,8 @@ $theme-colors: map-merge((
   "violet":                                                 $violet,
   "violet-light":                                           $violet-lighter,
   "brown-light":                                            $brown-lighter,
+  "indigo-light":                                           $indigo-lighter-1,
+  "red-light-2":                                            $red-lighter-2,
   "gray-1":                                                 $gray-1,
   "gray-2":                                                 $gray-12,
   "gray-3":                                                 $gray-6,
@@ -175,6 +180,8 @@ $theme-colors: map-merge((
   "gray-6":                                                 $gray-17,
   "gray-7":                                                 $gray-18,
   "gray-8":                                                 $gray-19,
+  "gray-9":                                                 $gray-20,
+
 
   ), $theme-colors);
 // stylelint-enable
