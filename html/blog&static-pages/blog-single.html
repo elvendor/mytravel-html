@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
+        <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -780,6 +781,14 @@
             <div class="mb-6 mb-lg-8 pb-lg-1 pt-1">
                 <div class="container mb-5 mb-lg-9 pb-lg-1">
                     <div class="row">
+                        <div class="col-md-6 col-lg-7 col-lg-8">
+                            <div class="js-slick-carousel u-slick" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle" data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+                                <div class="js-slide bg-img-hero-center min-height-450" style="background-image: url(../../assets/img/955x450/img1.jpg);"></div>
+                                <div class="js-slide bg-img-hero-center min-height-450" style="background-image: url(../../assets/img/955x450/img2.jpg);"></div>
+                                <div class="js-slide bg-img-hero-center min-height-450" style="background-image: url(../../assets/img/955x450/img3.jpg);"></div>
+                                <div class="js-slide bg-img-hero-center min-height-450" style="background-image: url(../../assets/img/955x450/img4.jpg);"></div>
+                            </div>
+                        </div>
                     
                         <div class="col-md-6 col-lg-5 col-xl-3">
                             <form class="input-group input-group-borderless mb-5">
@@ -1162,6 +1171,7 @@
         <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
         <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
         <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+        <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -1173,6 +1183,7 @@
         <script src="../../assets/js/components/hs.selectpicker.js"></script>
         <script src="../../assets/js/components/hs.range-datepicker.js"></script>
         <script src="../../assets/js/components/hs.svg-injector.js"></script>
+        <script src="../../assets/js/components/hs.slick-carousel.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -1210,6 +1221,9 @@
 
                 // initialization of datepicker
                 $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+
+                // initialization of slick carousel
+                $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
             });
         </script>
     </body>
