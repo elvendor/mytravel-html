@@ -71,14 +71,13 @@ $container-max-widths: (
     $gray-18:                                                   #5c6770 !default;
     $gray-19:                                                   #c5cdd8 !default;
     $gray-20:                                                   #9fa9b8 !default;
+    $gray-21:                                                   #c1c1c1 !default;
 
 
     // Colors
     $white:                                                     #fff !default;
     $dark:                                                      #1e2022 !default;
     $dark-1:                                                    #000 !default;
-    $gray-13:                                                   #3c3c3c !default;
-    $gray-14:                                                   #c1c1c1 !default;
 
 
     
@@ -184,6 +183,7 @@ $theme-colors: map-merge((
   "gray-7":                                                 $gray-18,
   "gray-8":                                                 $gray-19,
   "gray-9":                                                 $gray-20,
+  "gray-10":                                                $gray-21,
   "sea-green":                                              $sea-green,
 
 
