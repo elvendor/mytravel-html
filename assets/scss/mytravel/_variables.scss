@@ -74,7 +74,7 @@ $container-max-widths: (
     
     // Colors
     $white:                                                     #fff !default;
-    $dark:                                                      #1e2022 !default;
+    $dark:                                                      $gray-900 !default;
     $blue:                                                      #377dff !default;
     $blue-darker:                                               #196eff !default;
     $blue-darker-1:                                             #045cff !default;
@@ -116,7 +116,8 @@ $container-max-widths: (
     $brown:                                                     #f8bd5b !default;
     $brown-lighter:                                             #ceac61 !default;
     $sea-green:                                                 #1d508d !default;
-    $dark-1:                                                    #000 !default;
+    $dark-1:                                                    #1e2022 !default;
+    $dark-2:                                                    #000 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -175,8 +176,7 @@ $theme-colors: map-merge((
   "gray-8":                                                 $gray-19,
   "gray-9":                                                 $gray-20,
   "sea-green":                                              $sea-green,
-
-
+  "dark-1":                                                 $dark-1,
   ), $theme-colors);
 // stylelint-enable
 
