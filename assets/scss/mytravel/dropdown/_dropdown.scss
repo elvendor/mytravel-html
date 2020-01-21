@@ -270,6 +270,12 @@
 }
 .tab-dropdown {
     border-bottom: 2px solid $gray-2;
+    &.dropdown-select{
+        width:100% !important;
+    }
+    &.show{
+        border-bottom: 2px solid $primary;
+    }
     .dropdown-toggle {
         &::after {
             display: none;

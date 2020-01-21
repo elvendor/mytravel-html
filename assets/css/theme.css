@@ -29226,6 +29226,18 @@ label.btn {
   left: 0;
 }
 
+.tab-dropdown {
+  border-bottom: 2px solid #eaeaea;
+}
+
+.tab-dropdown.dropdown-select {
+  width: 100% !important;
+}
+
+.tab-dropdown.show {
+  border-bottom: 2px solid #377dff;
+}
+
 .tab-dropdown .dropdown-toggle::after {
   display: none;
 }
