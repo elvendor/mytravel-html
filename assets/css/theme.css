@@ -36312,10 +36312,6 @@ Letter Spacing
   color: #1e2022;
 }
 
-a.hover-primary:hover {
-  color: #377dff !important;
-}
-
 .list-item .list-item-link:hover i, .list-item .list-item-link:hover span {
   color: #377dff !important;
 }
