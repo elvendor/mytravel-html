@@ -29252,7 +29252,7 @@ label.btn {
   Brand
 ------------------------------------*/
 .brand {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   margin-left: .5rem;
 }
@@ -29263,6 +29263,10 @@ label.btn {
 
 .brand-light, .brand-light:focus, .brand-light:hover {
   color: #fff;
+}
+
+.brand-dark, .brand-dark:focus, .brand-dark:hover {
+  color: #1e2022;
 }
 
 /*------------------------------------
