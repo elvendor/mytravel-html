@@ -30650,6 +30650,20 @@ label.btn {
   margin-left: -0.5rem;
 }
 
+.bootstrap-select__custom-nav .dropdown-toggle .filter-option {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: inherit;
+  padding-right: inherit;
+  padding-bottom: inherit;
+  padding-left: inherit;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  padding: 0;
+}
+
 [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector > a.active:before {
   position: absolute;
   display: block;
