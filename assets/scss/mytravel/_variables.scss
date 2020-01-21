@@ -87,6 +87,7 @@ $container-max-widths: (
     $dark:                                                      #1e2022 !default;
     $blue:                                                      #377dff !default;
     $blue-darker:                                               #196eff !default;
+    $blue-darker-1:                                             #045cff !default;
     $blue-lighter:                                              #19a0ff !default;
     $blue-lighter-1:                                            #5392f9 !default;
     $blue-lighter-2:                                            #4cbfd8 !default;
@@ -171,6 +172,7 @@ $theme-colors: map-merge((
   "brown-light":                                            $brown-lighter,
   "indigo-light":                                           $indigo-lighter-1,
   "red-light-2":                                            $red-lighter-2,
+  "blue-dark-1":                                            $blue-darker-1,
   "gray-1":                                                 $gray-1,
   "gray-2":                                                 $gray-12,
   "gray-3":                                                 $gray-6,
