@@ -66,9 +66,15 @@
     min-width: 7rem; //112px
 }
 
+.min-width-290 {
+    @include media-breakpoint-up(md) {
+        min-width: 18.125rem; //256px
+    }
+}
+
 .min-width-256 {
     @include media-breakpoint-up(md) {
-        min-width: 16rem; //112px
+        min-width: 16rem; //256px
     }
 }
 
