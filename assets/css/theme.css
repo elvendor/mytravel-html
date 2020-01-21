@@ -34301,6 +34301,12 @@ label.btn {
 
 @media (min-width: 768px) {
   .min-width-256 {
+    min-width: 18.125rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .min-width-290 {
     min-width: 16rem;
   }
 }
