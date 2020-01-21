@@ -88,6 +88,10 @@
 	border-color: $gray-1; //#67747c
 }
 
+.border-color-14 {
+	border-color: $gray-14 !important; 
+}
+
 .destination {
     position: relative;
     &::after {
