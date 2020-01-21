@@ -63,7 +63,7 @@ $container-max-widths: (
     $gray-10:                                                   #f9fafc !default;
     $gray-11:                                                   #dce3ec !default;
     $gray-12:                                                   #f7f8f9 !default;
-    $gray-13:                                                   #b3b1ae;
+    $gray-13:                                                   #b3b1ae !default;
     $gray-14:                                                   #3c3c3c !default;
     $gray-15:                                                   #eceff3 !default;
     $gray-16:                                                   #18181b !default;
@@ -73,17 +73,10 @@ $container-max-widths: (
     $gray-20:                                                   #9fa9b8 !default;
     $gray-21:                                                   #c1c1c1 !default;
 
-
-    // Colors
-    $white:                                                     #fff !default;
-    $dark:                                                      #1e2022 !default;
-    $dark-1:                                                    #000 !default;
-
-
     
     // Colors
     $white:                                                     #fff !default;
-    $dark:                                                      #1e2022 !default;
+    $dark:                                                      $gray-900 !default;
     $blue:                                                      #377dff !default;
     $blue-darker:                                               #196eff !default;
     $blue-darker-1:                                             #045cff !default;
@@ -115,7 +108,7 @@ $container-max-widths: (
     $github:           											                    #24292e !default;
     $space:                                                     #ff9500 !default;
     $sapphire:                                                  #002568 !default;
-    $black:                                                     #3b444f !default;
+    $black:                                                     #000000 !default;
     $purple:                                                    #8023df !default;
     $violet:                                                    #532184 !default;
     $violet-lighter:                                            #6f13cd !default;
@@ -125,7 +118,7 @@ $container-max-widths: (
     $brown:                                                     #f8bd5b !default;
     $brown-lighter:                                             #ceac61 !default;
     $sea-green:                                                 #1d508d !default;
-
+    $dark-1:                                                    #1e2022 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -185,8 +178,7 @@ $theme-colors: map-merge((
   "gray-9":                                                 $gray-20,
   "gray-10":                                                $gray-21,
   "sea-green":                                              $sea-green,
-
-
+  "dark-1":                                                 $dark-1,
   ), $theme-colors);
 // stylelint-enable
 

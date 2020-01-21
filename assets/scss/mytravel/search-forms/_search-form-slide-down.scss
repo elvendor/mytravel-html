@@ -27,7 +27,7 @@
     min-height: 3.75rem;
 
     &::placeholder {
-      color: $black;
+      color: $dark;
     }
   }
 
@@ -51,7 +51,7 @@
   }
 
   .list-group-item-action {
-    color: $black;
+    color: $dark;
   }
 
   &-bg-overlay {
