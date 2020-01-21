@@ -574,7 +574,7 @@
                                     <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
                                         <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
                                         <!-- Select -->
-                                        <select class="js-select selectpicker dropdown-select tab-dropdown flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
+                                        <select class="js-select selectpicker dropdown-select tab-dropdown col-12 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
                                             data-style=""
                                             data-live-search="true"
                                             data-searchbox-classes="input-group-sm">
@@ -633,10 +633,10 @@
                                         <!-- End Input -->
                                     </div>
 
-                                    <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0">
+                                    <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0 dropdown-custom">
                                         <!-- Input -->
                                         <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Rooms and Guests</span>
-                                        <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex pt-3 pb-2 border-bottom border-width-2 border-color-1" href="javascript:;" role="button"
+                                        <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex pt-3 pb-2" href="javascript:;" role="button"
                                             aria-controls="basicDropdownClick"
                                             aria-haspopup="true"
                                             aria-expanded="false"
@@ -648,45 +648,54 @@
                                             data-unfold-hide-on-scroll="true"
                                             data-unfold-animation-in="slideInUp"
                                             data-unfold-animation-out="fadeOut">
-                                            <i class="flaticon-plus d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
+                                            <i class="flaticon-plus d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
                                             <span class="text-black font-size-16 font-weight-semi-bold">Basic example</span>
                                         </a>
-                                        <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold min-width-290" aria-labelledby="basicDropdownClickInvoker">
+                                        <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
                                             <div class="w-100 py-2 px-3 mb-3">
-                                                <div class="js-quantity row align-items-center">
-                                                        <span class="d-block text-secondary font-weight-medium">Rooms</span>
-                                                        <a class="js-minus btn btn-icon btn-xs btn-outline-secondary rounded-circle" href="javascript:;">
+                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
+                                                    <div class="d-flex">
+                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
                                                             <small class="fas fa-minus btn-icon__inner"></small>
                                                         </a>
-                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-4" type="text" value="1">
-                                                        <a class="js-plus btn btn-icon btn-xs btn-outline-secondary rounded-circle" href="javascript:;">
+                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
                                                             <small class="fas fa-plus btn-icon__inner"></small>
                                                         </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="w-100 py-2 px-3 mb-3">
-                                                <div class="js-quantity row align-items-center">
-                                                    <span class="d-block text-secondary font-weight-medium">Adults</span>
-                                                    <a class="js-minus btn btn-icon btn-xs btn-outline-secondary rounded-circle" href="javascript:;">
-                                                        <small class="fas fa-minus btn-icon__inner"></small>
-                                                    </a>
-                                                    <input class="js-result form-control h-auto border-0 rounded p-0 max-width-4" type="text" value="1">
-                                                    <a class="js-plus btn btn-icon btn-xs btn-outline-secondary rounded-circle" href="javascript:;">
-                                                        <small class="fas fa-plus btn-icon__inner"></small>
-                                                    </a>
+                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
+                                                    <div class="d-flex">
+                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                            <small class="fas fa-minus btn-icon__inner"></small>
+                                                        </a>
+                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                            <small class="fas fa-plus btn-icon__inner"></small>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <div class="w-100 py-2 px-3 mb-3">
-                                                <div class="js-quantity row align-items-center">
-                                                    <span class="d-block text-secondary font-weight-medium">Child</span>
-                                                    <a class="js-minus btn btn-icon btn-xs btn-outline-secondary rounded-circle" href="javascript:;">
-                                                        <small class="fas fa-minus btn-icon__inner"></small>
-                                                    </a>
-                                                    <input class="js-result form-control h-auto border-0 rounded p-0 max-width-4" type="text" value="1">
-                                                    <a class="js-plus btn btn-icon btn-xs btn-outline-secondary rounded-circle" href="javascript:;">
-                                                        <small class="fas fa-plus btn-icon__inner"></small>
-                                                    </a>
+                                            <div class="w-100 py-2 px-3 mb-1 ">
+                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
+                                                    <div class="d-flex">
+                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                            <small class="fas fa-minus btn-icon__inner"></small>
+                                                        </a>
+                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                            <small class="fas fa-plus btn-icon__inner"></small>
+                                                        </a>
+                                                    </div>
                                                 </div>
+                                            </div>
+                                            <div class="w-100 text-right py-2 pr-5">
+                                                <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
                                             </div>
                                         </div>
                                         <!-- End Input -->
@@ -1775,6 +1784,8 @@
     <script src="../../assets/js/components/hs.unfold.js"></script>
     <script src="../../assets/js/components/hs.validation.js"></script>
     <script src="../../assets/js/components/hs.show-animation.js"></script>
+    <script src="../../assets/js/components/hs.quantity-counter.js"></script>
+
 
     <!-- JS Plugins Init. -->
     <script>
@@ -1806,6 +1817,9 @@
 
             // initialization of show animations
             $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+
+            // initialization of quantity counter
+            $.HSCore.components.HSQantityCounter.init('.js-quantity');
         });
     </script>
 </body>

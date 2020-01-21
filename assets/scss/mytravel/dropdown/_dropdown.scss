@@ -271,7 +271,6 @@
 .tab-dropdown {
     border-bottom: 2px solid $gray-2;
     &.dropdown-select{
-        width:100% !important;
     }
     &.show{
         border-bottom: 2px solid $primary;
@@ -298,5 +297,26 @@
         a {
             padding: 0.8rem 0;
         }
+    }
+}
+
+.dropdown-custom {
+    .dropdown-menu {
+        left: auto !important;
+    }
+    .dropdown-nav-link {
+        border-bottom: 2px solid $gray-2;
+
+        &.active {
+            border-bottom: 2px solid $primary;
+        }
+    }
+    .dropdown-toggle::after {
+        margin-left: auto !important;
+        display: flex;
+        align-items:center;
+        font-size: 16px;
+        font-weight:bold;
+        color: $black;
     }
 }
