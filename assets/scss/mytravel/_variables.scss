@@ -125,6 +125,7 @@ $container-max-widths: (
     $coral:                                                     #ff8480 !default;
     $brown:                                                     #f8bd5b !default;
     $brown-lighter:                                             #ceac61 !default;
+    $sea-green:                                                 #1d508d !default;
 
 
     // Theme Colors
@@ -183,6 +184,7 @@ $theme-colors: map-merge((
   "gray-7":                                                 $gray-18,
   "gray-8":                                                 $gray-19,
   "gray-9":                                                 $gray-20,
+  "sea-green":                                              $sea-green,
 
 
   ), $theme-colors);
@@ -1252,7 +1254,7 @@ $stats-progress-height:                                     $stats-progress-widt
 // =========================================================
 
 // Text
-$brand-font-size:                                           2rem !default;
+$brand-font-size:                                           1.75rem !default;
 $brand-font-weight-bold:                                    $font-weight-semi-bold !default;
 
 
