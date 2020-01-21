@@ -19764,12 +19764,12 @@ button:focus {
 /* White */
 .list-group-white .list-group-item,
 .list-group-white .list-group-item-action {
-  color: #c1c1c1;
+  color: #3c3c3c;
 }
 
 .list-group-white .list-group-item[href],
 .list-group-white .list-group-item-action[href] {
-  color: #c1c1c1;
+  color: #3c3c3c;
 }
 
 .list-group-white .list-group-item[href]:hover,
@@ -29680,6 +29680,42 @@ label.btn {
   left: 0;
 }
 
+.tab-dropdown {
+  border-bottom: 2px solid #eaeaea;
+}
+
+.tab-dropdown.dropdown-select {
+  width: 100% !important;
+}
+
+.tab-dropdown.show {
+  border-bottom: 2px solid #377dff;
+}
+
+.tab-dropdown .dropdown-toggle::after {
+  display: none;
+}
+
+.tab-dropdown .dropdown-toggle.bs-placeholder {
+  color: #3b444f !important;
+}
+
+.tab-dropdown .dropdown-item {
+  color: #67747c;
+}
+
+.tab-dropdown .dropdown-item:hover {
+  color: #377dff;
+}
+
+.tab-dropdown .dropdown-menu li {
+  margin: 0 2rem;
+}
+
+.tab-dropdown .dropdown-menu a {
+  padding: 0.8rem 0;
+}
+
 /*------------------------------------
   Dropdown Card
 ------------------------------------*/
@@ -31979,8 +32015,8 @@ label.btn {
   z-index: 1;
   line-height: 0;
   display: inline-block;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
+  color: #377dff;
+  background-color: #fff;
   width: 2.5rem;
   height: 2.5rem;
   font-size: 0.875rem;
@@ -33932,6 +33968,10 @@ label.btn {
   border-color: #67747c;
 }
 
+.border-color-14 {
+  border-color: #3c3c3c !important;
+}
+
 .destination {
   position: relative;
 }
@@ -34898,7 +34938,7 @@ Letter Spacing
 }
 
 .text-gray-14 {
-  color: #c1c1c1;
+  color: #3c3c3c;
 }
 
 .green-lighter {

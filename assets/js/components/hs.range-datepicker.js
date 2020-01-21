@@ -70,6 +70,7 @@
           dateFormat: optDateFormat ? optDateFormat : 'd M Y',
           defaultDate: optDefaultDate,
           appendTo: $(optWrapper)[0],
+          numberOfMonths: 2,
           maxDate: optIsDisableFutureDates ? 'today' : false,
           locale: {
             firstDayOfWeek: 1,

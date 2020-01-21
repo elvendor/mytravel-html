@@ -64,6 +64,7 @@ $container-max-widths: (
     $gray-11:                                                   #dce3ec !default;
     $gray-12:                                                   #f7f8f9 !default;
     $gray-13:                                                   #b3b1ae;
+    $gray-14:                                                   #3c3c3c !default;
     $gray-15:                                                   #eceff3 !default;
     $gray-16:                                                   #18181b !default;
     $gray-17:                                                   #18181a !default;
@@ -1194,14 +1195,14 @@ $quantity-input-border-radius:                              $input-border-radius
 // Colors
 $slick-arrow-color:                                         $primary !default;
 $slick-arrow-hover-color:                                   $white !default;
-$slick-arrow-classic-color:                                 $white !default;
+$slick-arrow-classic-color:                                 $primary !default;
 $slick-arrow-classic-hover-color:                           $white !default;
 $slick-arrow-flat-color:                                    $white !default;
 
 // Background Colors
 $slick-arrow-bg-color:                                      rgba($primary, .1) !default;
 $slick-arrow-hover-bg-color:                                $primary !default;
-$slick-arrow-classic-bg-color:                              rgba($white, .1) !default;
+$slick-arrow-classic-bg-color:                              $white !default;
 $slick-arrow-classic-hover-bg-color:                        $primary !default;
 $slick-arrow-flat-bg-color:                                 rgba($primary, .8) !default;
 
