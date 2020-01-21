@@ -63,14 +63,14 @@
                             <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1">300 Cars</h3>
                             <ul class="nav tab-nav-shop" id="pills-tab" role="tablist">                                    
                                 <li class="nav-item">
-                                    <a class="nav-link font-size-22 active p-0" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="true">
+                                    <a class="nav-link font-size-22 p-0" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="true">
                                         <div class="d-md-flex justify-content-md-center align-items-md-center">
                                             <i class="fa fa-list"></i>
                                         </div>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link font-size-22 p-0 ml-2" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="false">
+                                    <a class="nav-link font-size-22 p-0 ml-2 active" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="false">
                                         <div class="d-md-flex justify-content-md-center align-items-md-center">
                                             <i class="fa fa-th"></i>
                                         </div>
@@ -82,29 +82,49 @@
 
                         <!-- Search Jobs Form -->
                         <div class="card mb-5">
-                            <div class="m-auto py-md-0 my-md-1 d-flex align-items-center">
-                                <a href="#" class="text-gray-1 px-5 py-2">Recommended</a>
-                                <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
-                                    <option value="one" selected>Price</option>
-                                    <option value="two">Two</option>
-                                    <option value="three">Three</option>
-                                    <option value="four">Four</option>
-                                </select>
-                                <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
-                                    <option value="one" selected>Stars</option>
-                                    <option value="two">Two</option>
-                                    <option value="three">Three</option>
-                                    <option value="four">Four</option>
-                                </select>
-                                <a href="#" class="text-gray-1 px-5 py-2 border-left">Guest Rating</a>
-                                <a href="#" class="text-gray-1 px-5 py-2 border-left">Distance</a>
-                                <a href="#" class="text-gray-1 px-5 py-2 border-left">Top Reviewed</a>
-                            </div>
+                            <ul class="nav tab-nav-pill flex-nowrap py-md-0 my-md-1 tab-nav justify-content-lg-center" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-normal text-gray-1">
+                                        <span class="tabtext">Recommended</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
+                                      <option value="one" selected>Price</option>
+                                      <option value="two">Two</option>
+                                      <option value="three">Three</option>
+                                      <option value="four">Four</option>
+                                    </select>
+                                </li>
+                                <li class="nav-item">
+                                    <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
+                                      <option value="one" selected>Stars</option>
+                                      <option value="two">Two</option>
+                                      <option value="three">Three</option>
+                                      <option value="four">Four</option>
+                                    </select>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-normal text-gray-1 border-left">
+                                        <span class="tabtext">Guest Rating</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-normal text-gray-1 border-left">
+                                        <span class="tabtext">Distance</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-weight-normal text-gray-1 border-left">
+                                        <span class="tabtext">Top Reviewed</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                         <!-- End Search Jobs Form -->
                         <!-- Tab Content -->
                         <div class="tab-content" id="pills-tabContent">
-                            <div class="tab-pane fade show active mb-5 mb-xl-0" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab" data-target-group="groups">
+                            <div class="tab-pane fade mb-5 mb-xl-0" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab" data-target-group="groups">
                                 <ul class="d-block list-unstyled products-group prodcut-list-view">
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
@@ -928,7 +948,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="tab-pane fade pt-2" id="pills-one-example1" role="tabpanel" aria-labelledby="pills-one-example1-tab" data-target-group="groups">
+                            <div class="tab-pane fade mb-5 mb-xl-0 show active pt-2" id="pills-one-example1" role="tabpanel" aria-labelledby="pills-one-example1-tab" data-target-group="groups">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4 mb-3 mb-md-4 pb-1">
                                         <div class="card transition-3d-hover shadow-hover-2">
@@ -1691,15 +1711,15 @@
                     </div>
                     <div class="col-xl-3 order-lg-1">
                         <div class="mb-6">
-                            <div class="pb-4 mb-4">
+                            <div class="pb-4 mb-2">
                                 <div class="sidebar border border-radius-3">
-                                    <div class="px-5 py-4">
+                                    <div class="p-4 m-1">
                                         <!-- Input -->
                                         <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Pick-up From</span>
                                         <div class="js-focus-state mb-4">
                                             <div class="input-group border-bottom border-width-2 border-color-1">
-                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
-                                              <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+                                              <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                             </div>
                                         </div>
                                         <!-- End Input -->
@@ -1707,18 +1727,18 @@
                                         <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Drop-of to</span>
                                         <div class="js-focus-state mb-4">
                                             <div class="input-group border-bottom border-width-2 border-color-1">
-                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
-                                              <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+                                              <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
                                             </div>
                                         </div>
                                         <!-- End Input -->
                                         <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">From</span>
+                                        <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Pick Up Date</span>
                                         <div class="js-focus-state mb-4">
                                             <div class="border-bottom border-width-2 border-color-1">
                                                 <div id="datepickerWrapperFrom" class="u-datepicker input-group">
                                                     <div class="input-group-prepend">
-                                                        <span class="d-flex align-items-center mr-2">
+                                                        <span class="d-flex align-items-center mr-2 font-size-21">
                                                           <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                         </span>
                                                     </div>
@@ -1731,12 +1751,12 @@
                                         </div>
                                         <!-- End Input -->
                                         <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">To</span>
-                                        <div class="js-focus-state mb-4">
+                                        <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Return Time</span>
+                                        <div class="js-focus-state mb-4 pb-1">
                                             <div class="border-bottom border-width-2 border-color-1">
                                                 <div id="datepickerWrapperFrom" class="u-datepicker input-group">
                                                     <div class="input-group-prepend">
-                                                        <span class="d-flex align-items-center mr-2">
+                                                        <span class="d-flex align-items-center mr-2 font-size-21">
                                                           <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                         </span>
                                                     </div>
@@ -1755,8 +1775,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="pb-4 mb-4">
-                                <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
+                            <div class="pb-4 mb-2">
+                                <div class="form-group d-flex align-items-center justify-content-between mb-0">
                                     <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAQf0VO9OKe8evqOVT9LqraPD3YtyU2MFQ'></script>
                                 <div style='overflow:hidden;height:400px;width:520px;'>
                                     <div id='gmap_canvas' style='height:400px;width:520px;'></div>
