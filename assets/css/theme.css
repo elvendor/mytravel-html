@@ -33015,7 +33015,7 @@ label.btn {
 }
 
 .tab-nav-pill .nav-link.active {
-  background-color: #377dff;
+  background-color: #1d508d;
   border-radius: 20px;
 }
 
@@ -36528,10 +36528,6 @@ Letter Spacing
 
 .text-dark-1 {
   color: #1e2022;
-}
-
-a.hover-primary:hover {
-  color: #377dff !important;
 }
 
 .list-item .list-item-link:hover i, .list-item .list-item-link:hover span {
