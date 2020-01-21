@@ -56,8 +56,22 @@
                         <div id="navBar" class="navbar-collapse u-header__navbar-collapse u-header-left-aligned-nav collapse order-2 order-xl-0 pt-4 pt-xl-0">
                             <ul class="navbar-nav u-header__navbar-nav">
                                 <!-- Home -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Home</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="homeMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Home</a>
+                                    <!-- Home Submenu -->
+                                    <ul id="homeSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="homeMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="index.html">Home v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v2.html">Home v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v3.html">Home v3</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v4.html">Home v4</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v5.html">Home v5</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v6.html">Home v6</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v7.html">Home v7</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v8.html">Home v8</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v9.html">Home v9</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="home-v10.html">Home v10</a></li>
+                                    </ul>
+                                    <!-- End Home Submenu -->
                                 </li>
                                 <!-- End Home -->
 
@@ -788,150 +802,156 @@
             </div>
             <!-- ========== END HERO ========== -->
 
-            <!-- Destinantion v1 -->
-            <div class="destinantion-block style-1 border-bottom border-color-8">
-                <div class="container space-1">
-                    <div class="row mb-1">
+            <!-- Destinantion v2 -->
+            <div class="destination-block destination-v2">
+                <div class="container space-2">
+                    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5">
+                        <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Top Destination</h2>
+                    </div>
+                    <div class="row">
                         <!-- Card Block -->
-                        <div class="col-md-6 mb-3 mb-md-4">
-                            <div class="min-height-350 bg-img-hero rounded-border p-5 gradient-overlay-half-bg-gradient transition-3d-hover shadow-hover-2 border-0 dropdown" style="background-image: url(../../assets/img/630x350/img1.jpg);">
-                                <div class="w-100 d-flex justify-content-between mb-2">
-                                    <div class="position-relative">
-                                        <a href="#" class="destination text-white font-weight-bold font-size-21 pb-3 mb-3 text-lh-1 d-block">United Kingdom</a>
-
-                                        <!-- Dropdown List -->
-                                        <div class="destination-dropdown v1">
-                                            <a class="dropdown-item" href="#">30 Hotel</a>
-                                            <a class="dropdown-item" href="#">48 Tour</a>
-                                            <a class="dropdown-item" href="#">46 Activity</a>
-                                            <a class="dropdown-item" href="#">32 Yacht</a>
-                                        </div>
-                                        <!-- End Dropdown List -->
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Card Block -->
-
-                        <!-- Card Block -->
-                        <div class="col-md-6 mb-3 mb-md-4">
-                                <div class="min-height-350 bg-img-hero rounded-border p-5 gradient-overlay-half-bg-gradient transition-3d-hover shadow-hover-2 border-0 dropdown" style="background-image: url(../../assets/img/630x350/img2.jpg);">
-                                    <header class="w-100 d-flex justify-content-between mb-2">
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img3.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
                                         <div class="position-relative">
-                                            <a href="#" class="destination text-white font-weight-bold font-size-21 pb-3 mb-3 text-lh-1 d-block">Turkey</a>
-
-                                            <!-- Dropdown List -->
-                                            <div class="destination-dropdown v1">
-                                                <a class="dropdown-item" href="#">30 Hotel</a>
-                                                <a class="dropdown-item" href="#">48 Tour</a>
-                                                <a class="dropdown-item" href="#">46 Activity</a>
-                                                <a class="dropdown-item" href="#">32 Yacht</a>
-                                            </div>
-                                            <!-- End Dropdown List -->
-
-
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">Turkey</h5>
                                         </div>
                                     </header>
                                 </div>
+                            </a>
                         </div>
                         <!-- End Card Block -->
 
                         <!-- Card Block -->
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4">
-                            <div class="min-height-350 gradient-overlay-half-bg-gradient rounded-border p-5 bg-img-hero transition-3d-hover shadow-hover-2 border-0 dropdown" style="background-image: url(../../assets/img/300x350/img1.jpg);">
-                                <header class="w-100 d-flex justify-content-between mb-2">
-                                    <div class="position-relative">
-                                        <a href="#" class="destination text-white font-weight-bold font-size-21 pb-3 mb-3 text-lh-1 d-block">United States</a>
-
-                                        <!-- Dropdown List -->
-                                        <div class="destination-dropdown v1">
-                                            <a class="dropdown-item" href="#">30 Hotel</a>
-                                            <a class="dropdown-item" href="#">48 Tour</a>
-                                            <a class="dropdown-item" href="#">46 Activity</a>
-                                            <a class="dropdown-item" href="#">32 Yacht</a>
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img7.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">United States</h5>
                                         </div>
-                                        <!-- End Dropdown List -->
-
-
-                                    </div>
-                                </header>
-                            </div>
+                                    </header>
+                                </div>
+                            </a>
                         </div>
                         <!-- End Card Block -->
 
                         <!-- Card Block -->
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4">
-                            <div class="min-height-350 gradient-overlay-half-bg-gradient rounded-border p-5 bg-img-hero transition-3d-hover shadow-hover-2 border-0 dropdown" style="background-image: url(../../assets/img/300x350/img3.jpg);">
-                                <header class="w-100 d-flex justify-content-between mb-2">
-                                    <div class="position-relative">
-                                        <a href="#" class="destination text-white font-weight-bold font-size-21 pb-3 mb-3 text-lh-1 d-block">Ukraine</a>
-
-                                        <!-- Dropdown List -->
-                                        <div class="destination-dropdown v1">
-                                            <a class="dropdown-item" href="#">30 Hotel</a>
-                                            <a class="dropdown-item" href="#">48 Tour</a>
-                                            <a class="dropdown-item" href="#">46 Activity</a>
-                                            <a class="dropdown-item" href="#">32 Yacht</a>
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img6.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">Ukraine</h5>
                                         </div>
-                                        <!-- End Dropdown List -->
-
-
-                                    </div>
-                                </header>
-                            </div>
+                                    </header>
+                                </div>
+                            </a>
                         </div>
                         <!-- End Card Block -->
 
                         <!-- Card Block -->
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4">
-                            <div class="min-height-350 gradient-overlay-half-bg-gradient rounded-border p-5 bg-img-hero transition-3d-hover shadow-hover-2 border-0 dropdown" style="background-image: url(../../assets/img/300x350/img2.jpg);">
-                                <header class="w-100 d-flex justify-content-between mb-2">
-                                    <div class="position-relative">
-                                        <a href="#" class="destination text-white font-weight-bold font-size-21 pb-3 mb-3 text-lh-1 d-block">France</a>
-
-                                        <!-- Dropdown List -->
-                                        <div class="destination-dropdown v1">
-                                            <a class="dropdown-item" href="#">30 Hotel</a>
-                                            <a class="dropdown-item" href="#">48 Tour</a>
-                                            <a class="dropdown-item" href="#">46 Activity</a>
-                                            <a class="dropdown-item" href="#">32 Yacht</a>
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img10.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">France</h5>
                                         </div>
-                                        <!-- End Dropdown List -->
-
-
-                                    </div>
-                                </header>
-                            </div>
+                                    </header>
+                                </div>
+                            </a>
                         </div>
                         <!-- End Card Block -->
 
                         <!-- Card Block -->
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4">
-                            <div class="min-height-350 gradient-overlay-half-bg-gradient rounded-border p-5 bg-img-hero transition-3d-hover shadow-hover-2 border-0 dropdown" style="background-image: url(../../assets/img/300x350/img4.jpg);">
-                                <header class="w-100 d-flex justify-content-between mb-2">
-                                    <div class="position-relative">
-                                        <a href="#" class="destination text-white font-weight-bold font-size-21 pb-3 mb-3 text-lh-1 d-block">India</a>
-
-                                        <!-- Dropdown List -->
-                                        <div class="destination-dropdown v1">
-                                            <a class="dropdown-item" href="#">30 Hotel</a>
-                                            <a class="dropdown-item" href="#">48 Tour</a>
-                                            <a class="dropdown-item" href="#">46 Activity</a>
-                                            <a class="dropdown-item" href="#">32 Yacht</a>
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img2.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">India</h5>
                                         </div>
-                                        <!-- End Dropdown List -->
+                                    </header>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Card Block -->
 
+                        <!-- Card Block -->
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img5.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">United Kingdom</h5>
+                                        </div>
+                                    </header>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Card Block -->
 
-                                    </div>
-                                </header>
-                            </div>
+                        <!-- Card Block -->
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img9.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">Germany</h5>
+                                        </div>
+                                    </header>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Card Block -->
+
+                        <!-- Card Block -->
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img8.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">Greece</h5>
+                                        </div>
+                                    </header>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Card Block -->
+
+                        <!-- Card Block -->
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img1.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">Canada</h5>
+                                        </div>
+                                    </header>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- End Card Block -->
+
+                        <!-- Card Block -->
+                        <div class="col-md-4 col-lg-6 col-xl-2dot4 mb-3 mb-md-4 pb-1">
+                            <a class="d-block" href="#">
+                                <div class="min-height-240 rounded-border px-4 py-5 bg-img-hero transition-3d-hover gradient-overlay-half-bg-gradient-v2 shadow-hover-2 dropdown" style="background-image: url(../../assets/img/235x240/img4.jpg);">
+                                    <header class="w-100 d-flex justify-content-between">
+                                        <div class="position-relative">
+                                            <h5 class="text-white font-weight-bold font-size-17 mb-1 text-lh-2 d-block">Italy</h5>
+                                        </div>
+                                    </header>
+                                </div>
+                            </a>
                         </div>
                         <!-- End Card Block -->
                     </div>
                 </div>
             </div>
-            <!-- End Destinantion v1 -->
+            <!-- End Destinantion v2 -->
 
             <!-- Tabs v1 -->
             <div class="tab-block style-1">
