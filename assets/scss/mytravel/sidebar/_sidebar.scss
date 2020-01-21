@@ -66,3 +66,21 @@
     left: 0;
   }
 }
+
+.sidenav {
+  .from,
+  .to {
+    border: 2px solid $primary;
+  }
+  .card-btn-arrow{
+    color: $dark !important;
+  }
+  .collapsed .card-btn-arrow  {
+    transform: rotate(-180deg);
+  }
+  .card-collapse {
+    &:hover {
+      background: transparent;
+    }
+  }
+}

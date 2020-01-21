@@ -28736,6 +28736,24 @@ label.btn {
   left: 0;
 }
 
+.sidenav .from,
+.sidenav .to {
+  border: 2px solid #377dff;
+}
+
+.sidenav .card-btn-arrow {
+  color: #1e2022 !important;
+}
+
+.sidenav .collapsed .card-btn-arrow {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.sidenav .card-collapse:hover {
+  background: transparent;
+}
+
 /*------------------------------------
   Sidebar Account
 ------------------------------------*/
@@ -31222,7 +31240,7 @@ label.btn {
   border-bottom-right-radius: 0.3125rem;
 }
 
-.list-pagination .page-link:hover {
+.list-pagination .page-item .page-link:hover {
   background-color: #377dff;
   color: #fff;
 }
@@ -34374,6 +34392,10 @@ label.btn {
   width: 36px;
 }
 
+.height-35 {
+  height: 2.188rem;
+}
+
 .height-60 {
   height: 3.75rem;
 }
@@ -34745,6 +34767,10 @@ Line Height
 
 .text-lh-2 {
   line-height: 2;
+}
+
+.text-lh-3 {
+  line-height: 3;
 }
 
 .text-lh-inherit {
