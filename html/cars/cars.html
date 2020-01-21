@@ -82,14 +82,23 @@
 
                         <!-- Search Jobs Form -->
                         <div class="card mb-5">
-                            <div class="card-body px-md-4 py-md-1 my-md-1">
-                                  <ul class="list-unstyled d-md-flex mb-0 text-center overflow-auto">
-                                    <li class="font-weight-regular font-size-16 text-gray-1 px-6 text-lh-2">Recommended</li>
-                                    <li class="font-weight-regular font-size-16 text-gray-1 px-6 text-lh-2 border-md-left">Price</li>
-                                    <li class="font-weight-regular font-size-16 text-gray-1 px-6 text-lh-2 border-md-left">Stars</li>
-                                    <li class="font-weight-regular font-size-16 text-gray-1 px-6 text-lh-2 border-md-left">Guest Rating</li>
-                                    <li class="font-weight-regular font-size-16 text-gray-1 px-6 text-lh-2 border-md-left">Distance</li>
-                                    <li class="font-weight-regular font-size-16 text-gray-1 px-6 text-lh-2 border-md-left">Top Reviewed</li>
+                            <div class="m-auto py-md-0 my-md-1 d-flex align-items-center">
+                                    <a href="#" class="text-gray-1 px-5 py-2">Recommended</a>
+                                    <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
+                                      <option value="one" selected>Price</option>
+                                      <option value="two">Two</option>
+                                      <option value="three">Three</option>
+                                      <option value="four">Four</option>
+                                    </select>
+                                    <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
+                                      <option value="one" selected>Stars</option>
+                                      <option value="two">Two</option>
+                                      <option value="three">Three</option>
+                                      <option value="four">Four</option>
+                                    </select>
+                                    <a href="#" class="text-gray-1 px-5 py-2 border-left">Guest Rating</a>
+                                    <a href="#" class="text-gray-1 px-5 py-2 border-left">Distance</a>
+                                    <a href="#" class="text-gray-1 px-5 py-2 border-left">Top Reviewed</a>
                                   </ul>
                             </div>
                         </div>
@@ -898,9 +907,9 @@
                                 </ul>
                                 <nav aria-label="Page navigation">
                                     <div class="text-center text-md-left mb-3">Showing 1–15</div>
-                                    <ul class="pagination custom-pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
+                                    <ul class="list-pagination pagination custom-pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
                                         <li class="page-item">
-                                            <a class="page-link border-right pr-3" href="#" aria-label="Previous">
+                                            <a class="page-link border-right pr-3 rounded-0 bg-transparent" href="#" aria-label="Previous">
                                                 <i class="flaticon-left-direction-arrow font-size-12 text-gray-5"></i>
                                                 <span class="sr-only">Previous</span>
                                             </a>
@@ -912,7 +921,7 @@
                                         <li class="page-item"><a class="page-link" href="#">5</a></li>
                                         <li class="page-item"><a class="page-link" href="#">6</a></li>
                                         <li class="page-item">
-                                            <a class="page-link border-left pl-3" href="#" aria-label="Next">
+                                            <a class="page-link border-left pl-3 rounded-0 bg-transparent" href="#" aria-label="Next">
                                                 <i class="flaticon-right-thin-chevron font-size-12 text-gray-5"></i>
                                                 <span class="sr-only">Next</span>
                                             </a>
@@ -1655,9 +1664,9 @@
                                 </div>
                                 <nav aria-label="Page navigation">
                                     <div class="text-center text-md-left mb-3">Showing 1–15</div>
-                                    <ul class="pagination custom-pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
+                                    <ul class="list-pagination pagination custom-pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
                                         <li class="page-item">
-                                            <a class="page-link border-right pr-3" href="#" aria-label="Previous">
+                                            <a class="page-link border-right pr-3 rounded-0 bg-transparent" href="#" aria-label="Previous">
                                                 <i class="flaticon-left-direction-arrow font-size-12 text-gray-5"></i>
                                                 <span class="sr-only">Previous</span>
                                             </a>
@@ -1669,7 +1678,7 @@
                                         <li class="page-item"><a class="page-link" href="#">5</a></li>
                                         <li class="page-item"><a class="page-link" href="#">6</a></li>
                                         <li class="page-item">
-                                            <a class="page-link border-left pl-3" href="#" aria-label="Next">
+                                            <a class="page-link border-left pl-3 rounded-0 bg-transparent" href="#" aria-label="Next">
                                                 <i class="flaticon-right-thin-chevron font-size-12 text-gray-5"></i>
                                                 <span class="sr-only">Next</span>
                                             </a>
@@ -1761,75 +1770,133 @@
                                 </div>
                             </div>
                             <!-- Checkboxes -->
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="categoryTshirt">
-                                    <label class="custom-control-label" for="categoryTshirt">Black <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                </div>
-                            </div>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="categoryShoes">
-                                    <label class="custom-control-label" for="categoryShoes">Black Leather <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                </div>
-                            </div>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="categoryAccessories">
-                                    <label class="custom-control-label" for="categoryAccessories">Black with Red <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                </div>
-                            </div>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="categoryTops">
-                                    <label class="custom-control-label" for="categoryTops">Gold <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                </div>
-                            </div>
-                            <div class="form-group d-flex align-items-center justify-content-between mb-2 pb-1">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="categoryBottom">
-                                    <label class="custom-control-label" for="categoryBottom">Spacegrey <span class="text-gray-25 font-size-12 font-weight-normal"> (56)</span></label>
-                                </div>
-                            </div>
-                            <!-- End Checkboxes -->
-                            <div class="range-slider">
-                                <h4 class="font-size-14 mb-3 font-weight-bold">Price</h4>
-                                <!-- Range Slider -->
-                                <input class="js-range-slider" type="text"
-                                data-extra-classes="u-range-slider u-range-slider-indicator u-range-slider-grid"
-                                data-type="double"
-                                data-grid="false"
-                                data-hide-from-to="true"
-                                data-prefix="$"
-                                data-min="0"
-                                data-max="3456"
-                                data-from="0"
-                                data-to="3456"
-                                data-result-min="#rangeSliderExample3MinResult"
-                                data-result-max="#rangeSliderExample3MaxResult">
-                                <!-- End Range Slider -->
-                                <div class="mt-1 text-gray-111 d-flex mb-4">
-                                    <span class="mr-0dot5">Price: </span>
-                                    <span>$</span>
-                                    <span id="rangeSliderExample3MinResult" class=""></span>
-                                    <span class="mx-0dot5"> — </span>
-                                    <span>$</span>
-                                    <span id="rangeSliderExample3MaxResult" class=""></span>
-                                </div>
-                            </div>
-                            <div class="range">
-                                <!-- Input -->
-                                <div class="js-focus-state">
-                                    <div class="d-flex">
-                                        <select class="js-select selectpicker dropdown-select">
-                                            <option value="2 Rooms - 3 Guests" selected>2 Rooms - 3 Guests</option>
-                                            <option value="2 Rooms - 3 Guests">2 Rooms - 4 Guests</option>
-                                            <option value="2 Rooms - 3 Guests">3 Rooms - 6 Guests</option>
-                                            <option value="2 Rooms - 3 Guests">1 Rooms - 2 Guests</option>
-                                        </select>
+                            <div class="sidenav border">
+                            <!-- Accordiaon -->
+                            <div id="shopCartAccordion" class="accordion rounded shadow-none">
+                                <div class="border-0">
+                                    <div class="card-collapse" id="shopCardHeadingOne">
+                                        <h3 class="mb-0">
+                                            <button type="button" class="btn btn-link btn-block card-btn collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
+                                                <span class="row align-items-center">
+                                                    <span class="col-9">
+                                                        <span class="d-block font-size-1 font-weight-bold">Price Range ($)</span>
+                                                    </span>
+                                                    <span class="col-3 text-right">
+                                                        <span class="card-btn-arrow">
+                                                            <span class="fas fa-arrow-down small"></span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </button>
+                                        </h3>
+                                    </div>
+                                    <div id="shopCardOne" class="collapse" aria-labelledby="shopCardHeadingOne" data-parent="#shopCartAccordion">
+                                        <div class="card-body">
+                                            <div class="mt-1 text-gray-111 d-flex mb-4">
+                                                <span class="mr-0dot5">Price: </span>
+                                                <span>$</span>
+                                                <span id="rangeSliderExample3MinResult" class=""></span>
+                                                <span class="mx-0dot5"> — </span>
+                                                <span>$</span>
+                                                <span id="rangeSliderExample3MaxResult" class=""></span>
+                                            </div>
+                                            <input class="js-range-slider" type="text"
+                                            data-extra-classes="u-range-slider u-range-slider-grid"
+                                            data-type="double"
+                                            data-grid="false"
+                                            data-hide-from-to="true"
+                                            data-min="0"
+                                            data-max="3456"
+                                            data-from="200"
+                                            data-to="3456"
+                                            data-prefix="$"
+                                            data-result-min="#rangeSliderExample3MinResult"
+                                            data-result-max="#rangeSliderExample3MaxResult">                                
+                                        </div>
                                     </div>
                                 </div>
-                                <!-- End Input -->
+                            </div>
+                            <div id="shopCategoryAccordion" class="accordion rounded shadow-none border-top">
+                                <div class="border-0">
+                                    <div class="card-collapse" id="shopCategoryHeadingOne">
+                                        <h3 class="mb-0">
+                                            <button type="button" class="btn btn-link btn-block card-btn collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
+                                                <span class="row align-items-center">
+                                                    <span class="col-9">
+                                                        <span class="d-block font-size-1 font-weight-bold">Categories</span>
+                                                    </span>
+                                                    <span class="col-3 text-right">
+                                                        <span class="card-btn-arrow">
+                                                            <span class="fas fa-arrow-down small"></span>
+                                                        </span>
+                                                    </span>
+                                                </span>
+                                            </button>
+                                        </h3>
+                                    </div>
+                                    <div id="shopCategoryOne" class="collapse" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
+                                        <div class="card-body">
+                                              <!-- Checkboxes -->
+                                              <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="custom-control custom-checkbox">
+                                                  <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                  <label class="custom-control-label" for="brandAdidas">Adidas</label>
+                                                </div>
+                                                <small>16</small>
+                                              </div>
+                                              <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="custom-control custom-checkbox">
+                                                  <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                  <label class="custom-control-label" for="brandNewBalance">New Balance</label>
+                                                </div>
+                                                <small>8</small>
+                                              </div>
+                                              <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="custom-control custom-checkbox">
+                                                  <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                  <label class="custom-control-label" for="brandNike">Nike</label>
+                                                </div>
+                                                <small>35</small>
+                                              </div>
+                                              <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="custom-control custom-checkbox">
+                                                  <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                  <label class="custom-control-label" for="brandFredPerry">Fred Perry</label>
+                                                </div>
+                                                <small>5</small>
+                                              </div>
+                                              <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="custom-control custom-checkbox">
+                                                  <input type="checkbox" class="custom-control-input" id="brandTnf">
+                                                  <label class="custom-control-label" for="brandTnf">The North Face</label>
+                                                </div>
+                                                <small>1</small>
+                                              </div>
+                                              <!-- End Checkboxes -->
+
+                                              <!-- View More - Collapse -->
+                                              <div class="collapse" id="collapseBrand">
+                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="brandGucci">
+                                                    <label class="custom-control-label" for="brandGucci">Gucci</label>
+                                                  </div>
+                                                  <small>5</small>
+                                                </div>
+                                                <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                  <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="brandMango">
+                                                    <label class="custom-control-label" for="brandMango">Mango</label>
+                                                  </div>
+                                                  <small>1</small>
+                                                </div>
+                                              </div>
+                                              <!-- End View More - Collapse -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Accordion -->
                             </div>
                         </div>
                     </div>

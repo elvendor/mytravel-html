@@ -64,9 +64,12 @@ $container-max-widths: (
     $gray-11:                                                   #dce3ec !default;
     $gray-12:                                                   #f7f8f9 !default;
     $gray-13:                                                   #b3b1ae;
+    $gray-14:                                                   #3c3c3c !default;
     $gray-15:                                                   #eceff3 !default;
     $gray-16:                                                   #18181b !default;
     $gray-17:                                                   #18181a !default;
+    $gray-18:                                                   #5c6770 !default;
+    $gray-19:                                                   #c5cdd8 !default;
 
 
     // Colors
@@ -170,6 +173,8 @@ $theme-colors: map-merge((
   "blue":                                                   $blue-lighter-3,
   "gray-5":                                                 $gray-16,
   "gray-6":                                                 $gray-17,
+  "gray-7":                                                 $gray-18,
+  "gray-8":                                                 $gray-19,
 
   ), $theme-colors);
 // stylelint-enable
