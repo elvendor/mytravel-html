@@ -29252,7 +29252,7 @@ label.btn {
   Brand
 ------------------------------------*/
 .brand {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: 600;
   margin-left: .5rem;
 }
@@ -29263,6 +29263,10 @@ label.btn {
 
 .brand-light, .brand-light:focus, .brand-light:hover {
   color: #fff;
+}
+
+.brand-dark, .brand-dark:focus, .brand-dark:hover {
+  color: #1e2022;
 }
 
 /*------------------------------------
@@ -30644,6 +30648,20 @@ label.btn {
   font-weight: 900;
   content: "\f00c";
   margin-left: -0.5rem;
+}
+
+.bootstrap-select__custom-nav .dropdown-toggle .filter-option {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding-top: inherit;
+  padding-right: inherit;
+  padding-bottom: inherit;
+  padding-left: inherit;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  padding: 0;
 }
 
 [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector > a.active:before {

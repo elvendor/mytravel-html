@@ -80,48 +80,44 @@
                         </div>
                         <!-- End shop-control-bar Title -->
 
-                        <!-- Search Jobs Form -->
-                        <div class="card mb-5">
-                            <ul class="nav tab-nav-pill flex-nowrap py-md-0 my-md-1 tab-nav justify-content-lg-center" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-normal text-gray-1">
-                                        <span class="tabtext">Recommended</span>
+                        <!-- Nav Links -->
+                        <div class="mb-5">
+                            <ul class="nav flex-nowrap border tab-nav justify-content-lg-center" role="tablist">
+                                <li class="nav-item d-flex align-items-center">
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1">Recommended
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
+                                <li class="nav-item d-flex align-items-center">
+                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav border-left w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
                                       <option value="one" selected>Price</option>
                                       <option value="two">Two</option>
                                       <option value="three">Three</option>
                                       <option value="four">Four</option>
                                     </select>
                                 </li>
-                                <li class="nav-item">
-                                    <select class="js-select selectpicker dropdown-select border-left width-135" data-style="btn-sm px-4 font-size-16 text-gray-1">
+                                <li class="nav-item d-flex align-items-center">
+                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav border-left w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
                                       <option value="one" selected>Stars</option>
                                       <option value="two">Two</option>
                                       <option value="three">Three</option>
                                       <option value="four">Four</option>
                                     </select>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-normal text-gray-1 border-left">
-                                        <span class="tabtext">Guest Rating</span>
+                                <li class="nav-item d-flex align-items-center">
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 border-left">Guest Rating
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-normal text-gray-1 border-left">
-                                        <span class="tabtext">Distance</span>
+                                <li class="nav-item d-flex align-items-center">
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 border-left">Distance
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link font-weight-normal text-gray-1 border-left">
-                                        <span class="tabtext">Top Reviewed</span>
+                                <li class="nav-item d-flex align-items-center">
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 border-left">Top Reviewed
                                     </a>
                                 </li>
                             </ul>
                         </div>
-                        <!-- End Search Jobs Form -->
+                        <!-- End Nav Links -->
                         <!-- Tab Content -->
                         <div class="tab-content" id="pills-tabContent">
                             <div class="tab-pane fade mb-5 mb-xl-0" id="pills-three-example1" role="tabpanel" aria-labelledby="pills-three-example1-tab" data-target-group="groups">
@@ -948,7 +944,7 @@
                                     </ul>
                                 </nav>
                             </div>
-                            <div class="tab-pane fade mb-5 mb-xl-0 show active pt-2" id="pills-one-example1" role="tabpanel" aria-labelledby="pills-one-example1-tab" data-target-group="groups">
+                            <div class="tab-pane fade mb-5 mb-xl-0 show active" id="pills-one-example1" role="tabpanel" aria-labelledby="pills-one-example1-tab" data-target-group="groups">
                                 <div class="row">
                                     <div class="col-md-6 col-xl-4 mb-3 mb-md-4 pb-1">
                                         <div class="card transition-3d-hover shadow-hover-2">
@@ -1776,17 +1772,9 @@
                                 </div>
                             </div>
                             <div class="pb-4 mb-2">
-                                <div class="form-group d-flex align-items-center justify-content-between mb-0">
-                                    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyAQf0VO9OKe8evqOVT9LqraPD3YtyU2MFQ'></script>
-                                <div style='overflow:hidden;height:400px;width:520px;'>
-                                    <div id='gmap_canvas' style='height:400px;width:520px;'></div>
-                                    <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
-                                </div> 
-                                <a href='https://addmap.net/'>adding google map to website</a>
-                                <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=26c2849dba8415824ed6cb7651724db7cd4b0343'></script>
-                                <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(13.0826802,80.2707184),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(13.0826802,80.2707184)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br>6000 chennai<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
-                                </script>
-                                </div>
+                                <a href="https://goo.gl/maps/kCVqYkjHX3XvoC4B9" class="d-block border">
+                                    <img src="../../assets/img/map-markers/map.jpg" alt="" width="100%">
+                                </a>
                             </div>
                             <!-- Checkboxes -->
                             <div class="sidenav border">
@@ -1798,7 +1786,7 @@
                                             <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
                                                 <span class="row align-items-center">
                                                     <span class="col-9">
-                                                        <span class="d-block font-size-1 font-weight-bold text-dark">Price Range ($)</span>
+                                                        <span class="d-block font-size-17 font-weight-bold text-dark">Price Range ($)</span>
                                                     </span>
                                                     <span class="col-3 text-right">
                                                         <span class="card-btn-arrow">
@@ -1841,7 +1829,7 @@
                                             <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
                                                 <span class="row align-items-center">
                                                     <span class="col-9">
-                                                        <span class="d-block font-size-1 font-weight-bold text-dark">Categories</span>
+                                                        <span class="d-block font-size-17 font-weight-bold text-dark">Categories</span>
                                                     </span>
                                                     <span class="col-3 text-right">
                                                         <span class="card-btn-arrow">
@@ -1855,25 +1843,25 @@
                                     <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
                                         <div class="card-body pt-0 mt-1 px-5">
                                               <!-- Checkboxes -->
-                                              <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                 <div class="custom-control custom-checkbox">
                                                   <input type="checkbox" class="custom-control-input" id="brandAdidas">
                                                   <label class="custom-control-label text-color-1" for="brandAdidas">Convertibles</label>
                                                 </div>
                                               </div>
-                                              <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                 <div class="custom-control custom-checkbox">
                                                   <input type="checkbox" class="custom-control-input" id="brandNewBalance">
                                                   <label class="custom-control-label text-color-1" for="brandNewBalance">Coupes</label>
                                                 </div>
                                               </div>
-                                              <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                 <div class="custom-control custom-checkbox">
                                                   <input type="checkbox" class="custom-control-input" id="brandNike">
                                                   <label class="custom-control-label text-color-1" for="brandNike">Sedan</label>
                                                 </div>
                                               </div>
-                                              <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                 <div class="custom-control custom-checkbox">
                                                   <input type="checkbox" class="custom-control-input" id="brandFredPerry">
                                                   <label class="custom-control-label text-color-1" for="brandFredPerry">SUV</label>
@@ -1883,13 +1871,13 @@
 
                                               <!-- View More - Collapse -->
                                               <div class="collapse" id="collapseBrand">
-                                                <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                   <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="brandGucci">
                                                     <label class="custom-control-label text-color-1" for="brandGucci">Gucci</label>
                                                   </div>
                                                 </div>
-                                                <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                                <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                   <div class="custom-control custom-checkbox">
                                                     <input type="checkbox" class="custom-control-input" id="brandMango">
                                                     <label class="custom-control-label text-color-1" for="brandMango">Mango</label>
