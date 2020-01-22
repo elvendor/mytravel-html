@@ -37532,3 +37532,6 @@ Letter Spacing
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
+.container-fluid {
+  padding: 0 60px;
+}
