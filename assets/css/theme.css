@@ -31755,25 +31755,25 @@ label.btn {
 
 .u-range-slider .irs-line {
   top: .5rem;
-  height: 0.25rem;
+  height: 0.438rem;
 }
 
 .u-range-slider .irs-line-left {
   left: 0;
-  height: 0.25rem;
+  height: 0.438rem;
   background-color: #e7eaf3;
   border-top-left-radius: 6.1875rem;
   border-bottom-left-radius: 6.1875rem;
 }
 
 .u-range-slider .irs-line-mid {
-  height: 0.25rem;
+  height: 0.438rem;
   background-color: #e7eaf3;
 }
 
 .u-range-slider .irs-line-right {
   right: 0;
-  height: 0.25rem;
+  height: 0.438rem;
   background-color: #e7eaf3;
   border-top-right-radius: 6.1875rem;
   border-bottom-right-radius: 6.1875rem;
@@ -31781,7 +31781,7 @@ label.btn {
 
 .u-range-slider .irs-bar {
   top: .5rem;
-  height: 0.25rem;
+  height: 0.438rem;
   background-color: #377dff;
 }
 
@@ -31796,7 +31796,7 @@ label.btn {
 }
 
 .u-range-slider .irs-slider {
-  top: -.1875rem;
+  top: -.02rem;
   width: 1.5rem;
   height: 1.5rem;
   background-color: #fff;
@@ -34334,6 +34334,12 @@ label.btn {
   max-width: 23.33333%;
 }
 
+.col-xs-2dot7 {
+  -ms-flex: 0 0 22.5%;
+      flex: 0 0 22.5%;
+  max-width: 22.5%;
+}
+
 .col-xs-1dot6 {
   -ms-flex: 0 0 13.33333%;
       flex: 0 0 13.33333%;
@@ -34380,6 +34386,12 @@ label.btn {
   -ms-flex: 0 0 54.16667%;
       flex: 0 0 54.16667%;
   max-width: 54.16667%;
+}
+
+.col-xs-5dot4 {
+  -ms-flex: 0 0 45%;
+      flex: 0 0 45%;
+  max-width: 45%;
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -34471,6 +34483,14 @@ label.btn {
 }
 
 @media (min-width: 576px) {
+  .col-sm-2dot7 {
+    -ms-flex: 0 0 22.5%;
+        flex: 0 0 22.5%;
+    max-width: 22.5%;
+  }
+}
+
+@media (min-width: 576px) {
   .col-sm-1dot6 {
     -ms-flex: 0 0 13.33333%;
         flex: 0 0 13.33333%;
@@ -34531,6 +34551,14 @@ label.btn {
     -ms-flex: 0 0 54.16667%;
         flex: 0 0 54.16667%;
     max-width: 54.16667%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-5dot4 {
+    -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
@@ -34623,6 +34651,14 @@ label.btn {
 }
 
 @media (min-width: 768px) {
+  .col-md-2dot7 {
+    -ms-flex: 0 0 22.5%;
+        flex: 0 0 22.5%;
+    max-width: 22.5%;
+  }
+}
+
+@media (min-width: 768px) {
   .col-md-1dot6 {
     -ms-flex: 0 0 13.33333%;
         flex: 0 0 13.33333%;
@@ -34683,6 +34719,14 @@ label.btn {
     -ms-flex: 0 0 54.16667%;
         flex: 0 0 54.16667%;
     max-width: 54.16667%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-5dot4 {
+    -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
@@ -34775,6 +34819,14 @@ label.btn {
 }
 
 @media (min-width: 992px) {
+  .col-lg-2dot7 {
+    -ms-flex: 0 0 22.5%;
+        flex: 0 0 22.5%;
+    max-width: 22.5%;
+  }
+}
+
+@media (min-width: 992px) {
   .col-lg-1dot6 {
     -ms-flex: 0 0 13.33333%;
         flex: 0 0 13.33333%;
@@ -34835,6 +34887,14 @@ label.btn {
     -ms-flex: 0 0 54.16667%;
         flex: 0 0 54.16667%;
     max-width: 54.16667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-5dot4 {
+    -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
@@ -34927,6 +34987,14 @@ label.btn {
 }
 
 @media (min-width: 1200px) {
+  .col-xl-2dot7 {
+    -ms-flex: 0 0 22.5%;
+        flex: 0 0 22.5%;
+    max-width: 22.5%;
+  }
+}
+
+@media (min-width: 1200px) {
   .col-xl-1dot6 {
     -ms-flex: 0 0 13.33333%;
         flex: 0 0 13.33333%;
@@ -34987,6 +35055,14 @@ label.btn {
     -ms-flex: 0 0 54.16667%;
         flex: 0 0 54.16667%;
     max-width: 54.16667%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-5dot4 {
+    -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
@@ -35079,6 +35155,14 @@ label.btn {
 }
 
 @media (min-width: 1480px) {
+  .col-wd-2dot7 {
+    -ms-flex: 0 0 22.5%;
+        flex: 0 0 22.5%;
+    max-width: 22.5%;
+  }
+}
+
+@media (min-width: 1480px) {
   .col-wd-1dot6 {
     -ms-flex: 0 0 13.33333%;
         flex: 0 0 13.33333%;
@@ -35139,6 +35223,14 @@ label.btn {
     -ms-flex: 0 0 54.16667%;
         flex: 0 0 54.16667%;
     max-width: 54.16667%;
+  }
+}
+
+@media (min-width: 1480px) {
+  .col-wd-5dot4 {
+    -ms-flex: 0 0 45%;
+        flex: 0 0 45%;
+    max-width: 45%;
   }
 }
 
