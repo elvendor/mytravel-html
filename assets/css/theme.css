@@ -33431,16 +33431,26 @@ label.btn {
           transform: none !important;
 }
 
-.u-slick-borderded .slick-current {
+.u-slick-bordered .slick-current .card {
   border-color: #377dff !important;
 }
 
-.u-slick-borderded .slick-current text {
+.u-slick-bordered .slick-current .card .testimonial-quote text,
+.u-slick-bordered .slick-current .card .testimonial-quote path {
   fill: #377dff;
 }
 
-.u-slick-borderded .slick-current i {
+.u-slick-bordered .slick-current .card .testimonial-quote i {
   color: #377dff;
+}
+
+.testimonial-quote text,
+.testimonial-quote path {
+  fill: #ebf0f7;
+}
+
+.testimonial-quote i {
+  color: #ebf0f7;
 }
 
 /*------------------------------------
