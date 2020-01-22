@@ -25846,6 +25846,34 @@ button:focus {
   height: 3.125rem;
 }
 
+.u-avatar-image {
+  position: relative;
+}
+
+.u-avatar-image-overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.u-avatar-image-social {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.u-avatar-image:hover .u-avatar-image-overlay {
+  display: block;
+  background-color: #377dff;
+  opacity: 0.851;
+}
+
 .u-xs-avatar {
   width: 1.375rem;
   height: 1.375rem;
@@ -37559,6 +37587,3 @@ Letter Spacing
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
-.container-fluid {
-  padding: 0 60px;
-}
