@@ -102,4 +102,16 @@
             @include make-col(6.5);
        }
     }
+
+    .col-#{$size}-7dot5 {
+       @include media-breakpoint-only(lg) {
+            @include make-col(7.5);
+       }
+    }
+
+    .col-#{$size}-4dot5 {
+       @include media-breakpoint-only(lg) {
+            @include make-col(4.5);
+       }
+    }
 }
