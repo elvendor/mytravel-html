@@ -25846,6 +25846,34 @@ button:focus {
   height: 3.125rem;
 }
 
+.u-avatar-image {
+  position: relative;
+}
+
+.u-avatar-image-overlay {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.u-avatar-image-social {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.u-avatar-image:hover .u-avatar-image-overlay {
+  display: block;
+  background-color: #377dff;
+  opacity: 0.851;
+}
+
 .u-xs-avatar {
   width: 1.375rem;
   height: 1.375rem;
@@ -33672,12 +33700,20 @@ label.btn {
   left: -5px;
 }
 
+.u-slick__arrow-classic-inner--left.v4 {
+  left: 25px;
+}
+
 .u-slick__arrow-classic-inner--right {
   right: 0;
 }
 
 .u-slick__arrow-classic-inner--right.v1 {
   right: -5px;
+}
+
+.u-slick__arrow-classic-inner--right.v4 {
+  right: 25px;
 }
 
 .u-slick__arrow-classic--v1 {
@@ -33700,6 +33736,16 @@ label.btn {
 
 .u-slick__arrow-classic--v3:hover {
   color: #3b444f;
+  background-color: transparent;
+}
+
+.u-slick__arrow-classic--v4 {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+.u-slick__arrow-classic--v4:hover {
   background-color: transparent;
 }
 
@@ -37559,6 +37605,3 @@ Letter Spacing
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/
-.container-fluid {
-  padding: 0 60px;
-}

@@ -5,6 +5,33 @@
 .u-avatar {
 	width: $avatar;
 	height: $avatar;
+
+  &-image {
+    position: relative;
+
+    &-overlay {
+      display: none;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+    }
+
+    &-social {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &:hover {
+      .u-avatar-image-overlay {
+        display: block;
+        background-color: $primary;
+        opacity: 0.851;
+      }
+    }
+  }
 }
 
 .u-xs-avatar {
