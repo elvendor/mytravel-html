@@ -96,4 +96,10 @@
             @include make-col(3.5);
        }
     }
+
+    .col-#{$size}-6dot5 {
+       @include media-breakpoint-up($size) {
+            @include make-col(6.5);
+       }
+    }
 }
