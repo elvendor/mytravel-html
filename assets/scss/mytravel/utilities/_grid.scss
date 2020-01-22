@@ -108,10 +108,20 @@
             @include make-col(6.5);
        }
     }
-
     .col-#{$size}-5dot4 {
-       @include media-breakpoint-up($size) {
+     @include media-breakpoint-up($size) {
             @include make-col(5.4);
+      }
+    }
+    .col-#{$size}-7dot5 {
+       @include media-breakpoint-only(lg) {
+            @include make-col(7.5);
+       }
+    }
+
+    .col-#{$size}-4dot5 {
+       @include media-breakpoint-only(lg) {
+            @include make-col(4.5);
        }
     }
 }
