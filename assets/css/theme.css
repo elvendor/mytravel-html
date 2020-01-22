@@ -33431,15 +33431,15 @@ label.btn {
           transform: none !important;
 }
 
-.slick-active .slick-current .card {
+.u-slick-borderded .slick-current {
   border-color: #377dff !important;
 }
 
-.slick-active .slick-current .card text {
+.u-slick-borderded .slick-current text {
   fill: #377dff;
 }
 
-.slick-active .slick-current .card i {
+.u-slick-borderded .slick-current i {
   color: #377dff;
 }
 
