@@ -63,7 +63,7 @@
                                         <div class="rounded-0 bg-white u-search-slide-down__suggestions py-3">
                                             <ul class="list-group list-group-flush list-group-borderless mb-1">
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-blue rounded-circle">
                                                             <span class="flaticon-pin-1 btn-icon__inner"></span>
                                                         </span>
@@ -72,7 +72,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-blue rounded-circle">
                                                             <span class="flaticon-pin-1 btn-icon__inner"></span>
                                                         </span>
@@ -81,7 +81,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-blue rounded-circle">
                                                             <span class="flaticon-pin-1 btn-icon__inner"></span>
                                                         </span>
@@ -90,7 +90,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-violet rounded-circle">
                                                             <span class="flaticon-building btn-icon__inner"></span>
                                                         </span>
@@ -99,7 +99,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-coral rounded-circle">
                                                             <span class="flaticon-global-1 btn-icon__inner"></span>
                                                         </span>
@@ -108,7 +108,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-yellow-light rounded-circle">
                                                             <span class="flaticon-home btn-icon__inner"></span>
                                                         </span>
@@ -117,7 +117,7 @@
                                                     </a>
                                                 </li>
                                                 <li>
-                                                    <a class="list-group-item list-group-item-action" href="#">
+                                                    <a class="list-group-item list-group-item-action" href="home-v3.html">
                                                         <span class="btn btn-icon btn-medium btn-green-light rounded-circle">
                                                             <span class="flaticon-climbing btn-icon__inner"></span>
                                                         </span>
@@ -3305,38 +3305,38 @@
 
         <!-- JS Plugins Init. -->
         <script>
-        $(window).on('load', function () {
-            // initialization of HSMegaMenu component
-            $('.js-mega-menu').HSMegaMenu({
-                event: 'hover',
-                pageContainer: $('.container'),
-                breakpoint: 1199.98,
-                hideTimeOut: 0
+            $(window).on('load', function () {
+                // initialization of HSMegaMenu component
+                $('.js-mega-menu').HSMegaMenu({
+                    event: 'hover',
+                    pageContainer: $('.container'),
+                    breakpoint: 1199.98,
+                    hideTimeOut: 0
+                });
             });
-        });
 
-        $(document).on('ready', function () {
-            // initialization of header
-            $.HSCore.components.HSHeader.init($('#header'));
+            $(document).on('ready', function () {
+                // initialization of header
+                $.HSCore.components.HSHeader.init($('#header'));
 
-            // initialization of unfold component
-            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+                // initialization of unfold component
+                $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-            // initialization of show animations
-            $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+                // initialization of show animations
+                $.HSCore.components.HSShowAnimation.init('.js-animation-link');
 
-            // initialization of datepicker
-            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+                // initialization of datepicker
+                $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
-            // initialization of select
-            $.HSCore.components.HSSelectPicker.init('.js-select');
+                // initialization of select
+                $.HSCore.components.HSSelectPicker.init('.js-select');
 
-            // initialization of slick carousel
-            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+                // initialization of slick carousel
+                $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
 
-            // initialization of go to
-            $.HSCore.components.HSGoTo.init('.js-go-to');
-        });
+                // initialization of go to
+                $.HSCore.components.HSGoTo.init('.js-go-to');
+            });
         </script>
     </body>
 </html>

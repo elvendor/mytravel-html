@@ -2251,38 +2251,38 @@
 
         <!-- JS Plugins Init. -->
         <script>
-        $(window).on('load', function () {
-            // initialization of HSMegaMenu component
-            $('.js-mega-menu').HSMegaMenu({
-                event: 'hover',
-                pageContainer: $('.container'),
-                breakpoint: 1199.98,
-                hideTimeOut: 0
+            $(window).on('load', function () {
+                // initialization of HSMegaMenu component
+                $('.js-mega-menu').HSMegaMenu({
+                    event: 'hover',
+                    pageContainer: $('.container'),
+                    breakpoint: 1199.98,
+                    hideTimeOut: 0
+                });
             });
-        });
 
-        $(document).on('ready', function () {
-            // initialization of header
-            $.HSCore.components.HSHeader.init($('#header'));
+            $(document).on('ready', function () {
+                // initialization of header
+                $.HSCore.components.HSHeader.init($('#header'));
 
-            // initialization of unfold component
-            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+                // initialization of unfold component
+                $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-            // initialization of show animations
-            $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+                // initialization of show animations
+                $.HSCore.components.HSShowAnimation.init('.js-animation-link');
 
-            // initialization of datepicker
-            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+                // initialization of datepicker
+                $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
-            // initialization of select
-            $.HSCore.components.HSSelectPicker.init('.js-select');
+                // initialization of select
+                $.HSCore.components.HSSelectPicker.init('.js-select');
 
-            // initialization of slick carousel
-            $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+                // initialization of slick carousel
+                $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
 
-            // initialization of go to
-            $.HSCore.components.HSGoTo.init('.js-go-to');
-        });
+                // initialization of go to
+                $.HSCore.components.HSGoTo.init('.js-go-to');
+            });
         </script>
     </body>
 </html>
