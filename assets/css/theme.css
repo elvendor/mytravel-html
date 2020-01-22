@@ -33645,12 +33645,20 @@ label.btn {
   left: -5px;
 }
 
+.u-slick__arrow-classic-inner--left.v4 {
+  left: 25px;
+}
+
 .u-slick__arrow-classic-inner--right {
   right: 0;
 }
 
 .u-slick__arrow-classic-inner--right.v1 {
   right: -5px;
+}
+
+.u-slick__arrow-classic-inner--right.v4 {
+  right: 25px;
 }
 
 .u-slick__arrow-classic--v1 {
@@ -33673,6 +33681,16 @@ label.btn {
 
 .u-slick__arrow-classic--v3:hover {
   color: #3b444f;
+  background-color: transparent;
+}
+
+.u-slick__arrow-classic--v4 {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+}
+
+.u-slick__arrow-classic--v4:hover {
   background-color: transparent;
 }
 
@@ -36691,7 +36709,7 @@ Letter Spacing
   height: 0.125rem;
   background-color: #377dff;
   content: " ";
-  margin: 1.25rem auto 0;
+  margin: 1.5rem auto 0;
 }
 
 /* section-title */

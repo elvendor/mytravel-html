@@ -30,6 +30,10 @@
 			&.v1 {
 				left: -5px;
 			}
+
+			&.v4 {
+				left: 25px;
+			}
 		}
 
 		&--right {
@@ -37,6 +41,10 @@
 
 			&.v1 {
 				right: -5px;
+			}
+
+			&.v4 {
+				right: 25px;
 			}
 		}
 	}
@@ -64,5 +72,15 @@
 			background-color: transparent;
 		}
 
+	}
+
+	&--v4 {
+		background-color: transparent;
+		color: $white;
+		font-size: 20px;
+
+		&:hover {
+			background-color: transparent;
+		}
 	}
 }
