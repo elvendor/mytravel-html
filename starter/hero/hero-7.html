@@ -362,7 +362,7 @@
                                                         </span>
                                                     </div>
                                                     <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                         data-rp-wrapper="#datepickerWrapper"
+                                                         data-rp-wrapper="#datepickerWrapperFrom"
                                                          data-rp-type="range"
                                                          data-rp-date-format="M d / Y"
                                                          data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
@@ -427,113 +427,113 @@
                             <pre>
                                 <code class="language-html" data-lang="html">
                                     &lt;!-- Hero Section --&gt;
-                                        &lt;div class="bg-img-hero-bottom gradient-overlay-half-sapphire-gradient text-center" style="background-image: url(../../assets/img/1920x960/img1.jpg);"&gt;
-                                                &lt;div class="container space-2 space-top-xl-10"&gt;
-                                                    &lt;!-- Info --&gt;
-                                                    &lt;div class="py-wd-10 pb-5"&gt;
-                                                      &lt;h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold"&gt;Boat Holidays Made Easy&lt;/h1&gt;
-                                                      &lt;p class="font-size-20 font-weight-normal text-white"&gt;Rent a boat from the #1 yacht charter platform&lt;/p&gt;
-                                                    &lt;/div&gt;
-                                                    &lt;!-- End Info --&gt;
-                                                    &lt;div class="space-top-lg-2 space-top-xl-3"&gt;
-                                                        &lt;!-- Search Jobs Form --&gt;
-                                                        &lt;div class="card border-0"&gt;
-                                                            &lt;div class="card-body"&gt;
-                                                                &lt;form class="js-validate"&gt;
-                                                                  &lt;div class="row d-block nav-select d-lg-flex mb-lg-3 px-lg-3 px-2"&gt;
-                                                                    &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;
-                                                                        &lt;!-- Input --&gt;
-                                                                        &lt;span class="d-block text-gray-1  font-weight-normal mb-0 text-left"&gt;Destination or Hotel Name&lt;/span&gt;
-                                                                        &lt;select class="js-select selectpicker dropdown-select tab-dropdown col-12 pl-0 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
-                                                                            data-style=""
-                                                                            data-live-search="true"
-                                                                            data-searchbox-classes="input-group-sm"&gt;
-                                                                            &lt;option class="border-bottom border-color-1" value="project1" data-content='
-                                                                                &lt;span class="d-flex align-items-center"&gt;
-                                                                                    &lt;span class="font-size-16"&gt;London, United Kingdom&lt;/span&gt;
-                                                                                &lt;/span&gt;'&gt;
-                                                                                London, United Kingdom
-                                                                            &lt;/option&gt;
-                                                                            &lt;option class="border-bottom border-color-1" value="project2" data-content='
-                                                                                &lt;span class="d-flex align-items-center"&gt;
-                                                                                    &lt;span class="font-size-16"&gt;New York, United States&lt;/span&gt;
-                                                                                &lt;/span&gt;'&gt;
-                                                                                New York, United States
-                                                                            &lt;/option&gt;
-                                                                            &lt;option  class="border-bottom border-color-1" value="project3" data-content='
-                                                                                &lt;span class="d-flex align-items-center"&gt;
-                                                                                    &lt;span class="font-size-16"&gt;New South Wales, Australia&lt;/span&gt;
-                                                                                &lt;/span&gt;'&gt;
-                                                                                New South Wales, Australia
-                                                                            &lt;/option&gt;
-                                                                            &lt;option class="border-bottom border-color-1" value="project4" data-content='
-                                                                                &lt;span class="d-flex align-items-center"&gt;
-                                                                                    &lt;span class="font-size-16"&gt;Istanbul, Turkey&lt;/span&gt;
-                                                                                &lt;/span&gt;'&gt;
-                                                                                Istanbul, Turkey
-                                                                            &lt;/option&gt;
-                                                                            &lt;option class="" value="project4" data-content='
-                                                                                &lt;span class="d-flex align-items-center"&gt;
-                                                                                    &lt;span class="font-size-16"&gt;Reykjavík, Iceland&lt;/span&gt;
-                                                                                &lt;/span&gt;'&gt;
-                                                                                Reykjavík, Iceland
-                                                                            &lt;/option&gt;
-                                                                        &lt;/select&gt;
-                                                                        &lt;!-- End Input --&gt;
-                                                                    &lt;/div&gt;
+                                       &lt;div class="bg-img-hero-bottom gradient-overlay-half-sapphire-gradient text-center" style="background-image: url(../../assets/img/1920x960/img1.jpg);"&gt;
+                                            &lt;div class="container space-2 space-top-xl-10"&gt;
+                                                &lt;!-- Info --&gt;
+                                                &lt;div class="py-wd-10 pb-5"&gt;
+                                                  &lt;h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold"&gt;Boat Holidays Made Easy&lt;/h1&gt;
+                                                  &lt;p class="font-size-20 font-weight-normal text-white"&gt;Rent a boat from the #1 yacht charter platform&lt;/p&gt;
+                                                &lt;/div&gt;
+                                                &lt;!-- End Info --&gt;
+                                                &lt;div class="space-top-lg-2 space-top-xl-3"&gt;
+                                                    &lt;!-- Search Jobs Form --&gt;
+                                                    &lt;div class="card border-0"&gt;
+                                                        &lt;div class="card-body"&gt;
+                                                            &lt;form class="js-validate"&gt;
+                                                              &lt;div class="row d-block nav-select d-lg-flex mb-lg-3 px-lg-3 px-2"&gt;
+                                                                &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;
+                                                                    &lt;!-- Input --&gt;
+                                                                    &lt;span class="d-block text-gray-1  font-weight-normal mb-0 text-left"&gt;Destination or Hotel Name&lt;/span&gt;
+                                                                    &lt;select class="js-select selectpicker dropdown-select tab-dropdown col-12 pl-0 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
+                                                                        data-style=""
+                                                                        data-live-search="true"
+                                                                        data-searchbox-classes="input-group-sm"&gt;
+                                                                        &lt;option class="border-bottom border-color-1" value="project1" data-content='
+                                                                            &lt;span class="d-flex align-items-center"&gt;
+                                                                                &lt;span class="font-size-16"&gt;London, United Kingdom&lt;/span&gt;
+                                                                            &lt;/span&gt;'&gt;
+                                                                            London, United Kingdom
+                                                                        &lt;/option&gt;
+                                                                        &lt;option class="border-bottom border-color-1" value="project2" data-content='
+                                                                            &lt;span class="d-flex align-items-center"&gt;
+                                                                                &lt;span class="font-size-16"&gt;New York, United States&lt;/span&gt;
+                                                                            &lt;/span&gt;'&gt;
+                                                                            New York, United States
+                                                                        &lt;/option&gt;
+                                                                        &lt;option  class="border-bottom border-color-1" value="project3" data-content='
+                                                                            &lt;span class="d-flex align-items-center"&gt;
+                                                                                &lt;span class="font-size-16"&gt;New South Wales, Australia&lt;/span&gt;
+                                                                            &lt;/span&gt;'&gt;
+                                                                            New South Wales, Australia
+                                                                        &lt;/option&gt;
+                                                                        &lt;option class="border-bottom border-color-1" value="project4" data-content='
+                                                                            &lt;span class="d-flex align-items-center"&gt;
+                                                                                &lt;span class="font-size-16"&gt;Istanbul, Turkey&lt;/span&gt;
+                                                                            &lt;/span&gt;'&gt;
+                                                                            Istanbul, Turkey
+                                                                        &lt;/option&gt;
+                                                                        &lt;option class="" value="project4" data-content='
+                                                                            &lt;span class="d-flex align-items-center"&gt;
+                                                                                &lt;span class="font-size-16"&gt;Reykjavík, Iceland&lt;/span&gt;
+                                                                            &lt;/span&gt;'&gt;
+                                                                            Reykjavík, Iceland
+                                                                        &lt;/option&gt;
+                                                                    &lt;/select&gt;
+                                                                    &lt;!-- End Input --&gt;
+                                                                &lt;/div&gt;
 
-                                                                    &lt;div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 "&gt;
-                                                                        &lt;!-- Input --&gt;
-                                                                        &lt;span class="d-block text-gray-1 font-weight-normal mb-0 text-left"&gt;Check In - Out&lt;/span&gt;
-                                                                        &lt;div class="js-focus-state"&gt;
-                                                                            &lt;div class="border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;div id="datepickerWrapperFrom" class="u-datepicker input-group"&gt;
-                                                                                    &lt;div class="input-group-prepend"&gt;
-                                                                                        &lt;span class="d-flex align-items-center mr-2"&gt;
-                                                                                          &lt;i class="flaticon-calendar text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                                        &lt;/span&gt;
-                                                                                    &lt;/div&gt;
-                                                                                    &lt;input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                                                         data-rp-wrapper="#datepickerWrapper"
-                                                                                         data-rp-type="range"
-                                                                                         data-rp-date-format="M d / Y"
-                                                                                         data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'&gt;
+                                                                &lt;div class="col-sm-12 col-lg-3dot6 mb-4 mb-lg-0 "&gt;
+                                                                    &lt;!-- Input --&gt;
+                                                                    &lt;span class="d-block text-gray-1 font-weight-normal mb-0 text-left"&gt;Check In - Out&lt;/span&gt;
+                                                                    &lt;div class="js-focus-state"&gt;
+                                                                        &lt;div class="border-bottom border-width-2 border-color-1"&gt;
+                                                                            &lt;div id="datepickerWrapperFrom" class="u-datepicker input-group"&gt;
+                                                                                &lt;div class="input-group-prepend"&gt;
+                                                                                    &lt;span class="d-flex align-items-center mr-2"&gt;
+                                                                                      &lt;i class="flaticon-calendar text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                                    &lt;/span&gt;
                                                                                 &lt;/div&gt;
-                                                                                &lt;!-- End Datepicker --&gt;
+                                                                                &lt;input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                                                     data-rp-wrapper="#datepickerWrapperFrom"
+                                                                                     data-rp-type="range"
+                                                                                     data-rp-date-format="M d / Y"
+                                                                                     data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'&gt;
                                                                             &lt;/div&gt;
+                                                                            &lt;!-- End Datepicker --&gt;
                                                                         &lt;/div&gt;
-                                                                        &lt;!-- End Input --&gt;
                                                                     &lt;/div&gt;
+                                                                    &lt;!-- End Input --&gt;
+                                                                &lt;/div&gt;
 
-                                                                    &lt;div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0"&gt;
-                                                                        &lt;!-- Input --&gt;
-                                                                        &lt;span class="d-block text-gray-1 font-weight-normal mb-0 text-left"&gt;Boat Type&lt;/span&gt;
-                                                                        &lt;div class="js-focus-state"&gt;
-                                                                            &lt;div class="d-flex border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;i class="flaticon-backpack d-flex align-items-center mr-2 text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                                &lt;select class="js-select selectpicker dropdown-select"&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests" selected&gt;sailboat&lt;/option&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests"&gt;2 Rooms - 4 Guests&lt;/option&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests"&gt;3 Rooms - 6 Guests&lt;/option&gt;
-                                                                                    &lt;option value="2 Rooms - 3 Guests"&gt;1 Rooms - 2 Guests&lt;/option&gt;
-                                                                                &lt;/select&gt;
-                                                                            &lt;/div&gt;
+                                                                &lt;div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0"&gt;
+                                                                    &lt;!-- Input --&gt;
+                                                                    &lt;span class="d-block text-gray-1 font-weight-normal mb-0 text-left"&gt;Boat Type&lt;/span&gt;
+                                                                    &lt;div class="js-focus-state"&gt;
+                                                                        &lt;div class="d-flex border-bottom border-width-2 border-color-1"&gt;
+                                                                            &lt;i class="flaticon-backpack d-flex align-items-center mr-2 text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
+                                                                            &lt;select class="js-select selectpicker dropdown-select"&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests" selected&gt;sailboat&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests"&gt;2 Rooms - 4 Guests&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests"&gt;3 Rooms - 6 Guests&lt;/option&gt;
+                                                                                &lt;option value="2 Rooms - 3 Guests"&gt;1 Rooms - 2 Guests&lt;/option&gt;
+                                                                            &lt;/select&gt;
                                                                         &lt;/div&gt;
-                                                                        &lt;!-- End Input --&gt;
                                                                     &lt;/div&gt;
+                                                                    &lt;!-- End Input --&gt;
+                                                                &lt;/div&gt;
 
-                                                                    &lt;div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right"&gt;
-                                                                        &lt;button type="submit" class="btn btn-primary text-white font-weight-semi-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
-                                                                    &lt;/div&gt;
-                                                                  &lt;/div&gt;
-                                                                  &lt;!-- End Checkbox --&gt;
-                                                                &lt;/form&gt;
-                                                            &lt;/div&gt;
+                                                                &lt;div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right"&gt;
+                                                                    &lt;button type="submit" class="btn btn-primary text-white font-weight-semi-bold btn-md mb-xl-0 mb-lg-1 transition-3d-hover"&gt;&lt;i class="flaticon-magnifying-glass mr-2"&gt;&lt;/i&gt;Search&lt;/button&gt;
+                                                                &lt;/div&gt;
+                                                              &lt;/div&gt;
+                                                              &lt;!-- End Checkbox --&gt;
+                                                            &lt;/form&gt;
                                                         &lt;/div&gt;
-                                                        &lt;!-- End Search Jobs Form --&gt;
                                                     &lt;/div&gt;
+                                                    &lt;!-- End Search Jobs Form --&gt;
                                                 &lt;/div&gt;
                                             &lt;/div&gt;
+                                        &lt;/div&gt;
                                     &lt;!-- End Hero Section --&gt;
                                 </code>
                             </pre>
