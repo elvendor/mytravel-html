@@ -11,31 +11,31 @@
 
   .irs-line {
     top: .5rem;
-    height: $range-slider-inner-elements-height;
+    height: $range-slider-bar-height;
   }
 
   .irs-line-left {
     left: 0;
-    height: $range-slider-inner-elements-height;
+    height: $range-slider-bar-height;
     background-color: $range-slider-inner-elements-bg;
     @include border-left-radius($range-slider-inner-elements-border-radius);
   }
 
   .irs-line-mid {
-    height: $range-slider-inner-elements-height;
+    height: $range-slider-bar-height;
     background-color: $range-slider-inner-elements-bg;
   }
 
   .irs-line-right {
     right: 0;
-    height: $range-slider-inner-elements-height;
+    height: $range-slider-bar-height;
     background-color: $range-slider-inner-elements-bg;
     @include border-right-radius($range-slider-inner-elements-border-radius);
   }
 
   .irs-bar {
     top: .5rem;
-    height: $range-slider-inner-elements-height;
+    height: $range-slider-bar-height;
     background-color: $primary;
   }
 
@@ -49,7 +49,7 @@
   }
 
   .irs-slider {
-    top: -.1875rem;
+    top: -.02rem;
     width: $range-slider-stats-pointer-width;
     height: $range-slider-stats-pointer-height;
     background-color: $white;
