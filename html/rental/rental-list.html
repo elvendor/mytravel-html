@@ -66,67 +66,148 @@
                             <div id="sidebar" class="collapse navbar-collapse">
                                 <div class="mb-6">
                                     <div class="pb-4 mb-2">
-                                        <div class="sidebar border border-radius-3">
-                                            <div class="p-4 m-1">
-                                                <!-- Input -->
-                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Pick-up From</span>
-                                                <div class="mb-4">
-                                                    <div class="input-group border-bottom border-width-2 border-color-1">
-                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                                    </div>
-                                                </div>
-                                                <!-- End Input -->
-                                                <!-- Input -->
-                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Drop-of to</span>
-                                                <div class="mb-4">
-                                                    <div class="input-group border-bottom border-width-2 border-color-1">
-                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                                    </div>
-                                                </div>
-                                                <!-- End Input -->
-                                                <!-- Input -->
-                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Pick Up Date</span>
-                                                <div class="mb-4">
-                                                    <div class="border-bottom border-width-2 border-color-1">
-                                                        <div id="datepickerWrapperPick" class="u-datepicker input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="d-flex align-items-center mr-2 font-size-21">
-                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                                </span>
+                                        <div class="sidebar">
+                                            <!-- Search Jobs Form -->
+                                            <div class="card">
+                                                <div class="card-body">
+                                                    <form class="js-validate">
+                                                        <div class="nav-select">
+                                                            <div class="col-sm-12 mb-4 mb-lg-0 ">
+                                                                <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
+                                                                <!-- Select -->
+                                                                <select class="js-select selectpicker dropdown-select tab-dropdown flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold mb-4" title="Where are you going?"
+                                                                    data-style=""
+                                                                    data-live-search="true"
+                                                                    data-searchbox-classes="input-group-sm">
+                                                                    <option class="border-bottom border-color-1" value="project1" data-content='
+                                                                        <span class="d-flex align-items-center">
+                                                                            <span class="font-size-16">London, United Kingdom</span>
+                                                                        </span>'>
+                                                                        London, United Kingdom
+                                                                    </option>
+                                                                    <option class="border-bottom border-color-1" value="project2" data-content='
+                                                                        <span class="d-flex align-items-center">
+                                                                            <span class="font-size-16">New York, United States</span>
+                                                                        </span>'>
+                                                                        New York, United States
+                                                                    </option>
+                                                                    <option  class="border-bottom border-color-1" value="project3" data-content='
+                                                                        <span class="d-flex align-items-center">
+                                                                            <span class="font-size-16">New South Wales, Australia</span>
+                                                                        </span>'>
+                                                                        New South Wales, Australia
+                                                                    </option>
+                                                                    <option class="border-bottom border-color-1" value="project4" data-content='
+                                                                        <span class="d-flex align-items-center">
+                                                                            <span class="font-size-16">Istanbul, Turkey</span>
+                                                                        </span>'>
+                                                                        Istanbul, Turkey
+                                                                    </option>
+                                                                    <option class="" value="project4" data-content='
+                                                                        <span class="d-flex align-items-center">
+                                                                            <span class="font-size-16">Reykjavík, Iceland</span>
+                                                                        </span>'>
+                                                                        Reykjavík, Iceland
+                                                                    </option>
+                                                                </select>
+                                                                <!-- End Select -->
                                                             </div>
-                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
-                                                                 data-rp-wrapper="#datepickerWrapperPick"
-                                                                 data-rp-date-format="M d /Y">
-                                                        </div>
-                                                        <!-- End Datepicker -->
-                                                    </div>
-                                                </div>
-                                                <!-- End Input -->
-                                                <!-- Input -->
-                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Return Time</span>
-                                                <div class="mb-4 pb-1">
-                                                    <div class="border-bottom border-width-2 border-color-1">
-                                                        <div id="datepickerWrapperReturn" class="u-datepicker input-group">
-                                                            <div class="input-group-prepend">
-                                                                <span class="d-flex align-items-center mr-2 font-size-21">
-                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                                </span>
+                                                            <div class="col-sm-12 mb-4 mb-lg-0 ">
+                                                                <!-- Input -->
+                                                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Check In - Out</span>
+                                                                <div class="border-bottom border-width-2 border-color-1 mb-4">
+                                                                    <div id="datepickerWrapperFromOne" class="u-datepicker input-group">
+                                                                        <div class="input-group-prepend">
+                                                                            <span class="d-flex align-items-center mr-2">
+                                                                              <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                            </span>
+                                                                        </div>
+                                                                         <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0" type="date"
+                                                                             data-rp-wrapper="#datepickerWrapperFromOne"
+                                                                             data-rp-type="range"
+                                                                             data-rp-date-format="M d / Y"
+                                                                             data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
+                                                                    </div>
+                                                                     <!-- End Datepicker -->
+                                                                </div>
+                                                                <!-- End Input -->
                                                             </div>
-                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
-                                                                 data-rp-wrapper="#datepickerWrapperReturn"
-                                                                 data-rp-date-format="M d /Y">
+                                                            <div class="col-sm-12 mb-4 mb-lg-0 dropdown-custom">
+                                                                <!-- Input -->
+                                                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Rooms and Guests</span>
+                                                                <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex pt-3 pb-2 mb-4" href="javascript:;" role="button"
+                                                                    aria-controls="basicDropdownClick"
+                                                                    aria-haspopup="true"
+                                                                    aria-expanded="false"
+                                                                    data-unfold-event="click"
+                                                                    data-unfold-target="#basicDropdownClick"
+                                                                    data-unfold-type="css-animation"
+                                                                    data-unfold-duration="300"
+                                                                    data-unfold-delay="300"
+                                                                    data-unfold-hide-on-scroll="true"
+                                                                    data-unfold-animation-in="slideInUp"
+                                                                    data-unfold-animation-out="fadeOut">
+                                                                    <i class="flaticon-plus d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
+                                                                    <span class="text-black font-size-16 font-weight-semi-bold">2 Rooms - 3 Guests</span>
+                                                                </a>
+                                                                <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
+                                                                    <div class="w-100 py-2 px-3 mb-3">
+                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
+                                                                            <div class="d-flex">
+                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
+                                                                                </a>
+                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="w-100 py-2 px-3 mb-3">
+                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
+                                                                            <div class="d-flex">
+                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
+                                                                                </a>
+                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="w-100 py-2 px-3">
+                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
+                                                                            <div class="d-flex">
+                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
+                                                                                </a>
+                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="w-100 text-right py-1 pr-5">
+                                                                        <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- End Input -->
+                                                            </div>
+                                                            <div class="col-sm-12 align-self-lg-end text-md-right mb-2">
+                                                                <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                            </div>
                                                         </div>
-                                                        <!-- End Datepicker -->
-                                                    </div>
-                                                </div>
-                                                <!-- End Input -->
-
-                                                <div class="text-center">
-                                                    <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                      <!-- End Checkbox -->
+                                                    </form>
                                                 </div>
                                             </div>
+                                            <!-- End Search Jobs Form -->
                                         </div>
                                     </div>
                                     <div class="pb-4 mb-2">
@@ -137,14 +218,14 @@
                                     <!-- Checkboxes -->
                                     <div class="sidenav border">
                                     <!-- Accordiaon -->
-                                    <div id="shopCartAccordion" class="accordion rounded shadow-none">
+                                    <div id="shopRatingAccordion" class="accordion rounded-0 shadow-none border-bottom">
                                         <div class="border-0">
-                                            <div class="card-collapse" id="shopCardHeadingOne">
+                                            <div class="card-collapse" id="shopCategoryHeadingOne">
                                                 <h3 class="mb-0">
-                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
+                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopRatingOne" aria-expanded="false" aria-controls="shopRatingOne">
                                                         <span class="row align-items-center">
                                                             <span class="col-9">
-                                                                <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark">Price Range ($)</span>
+                                                                <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark text-lh-1dot4">Star Ratings</span>
                                                             </span>
                                                             <span class="col-3 text-right">
                                                                 <span class="card-btn-arrow">
@@ -155,7 +236,90 @@
                                                     </button>
                                                 </h3>
                                             </div>
-                                            <div id="shopCardOne" class="collapse show" aria-labelledby="shopCardHeadingOne" data-parent="#shopCartAccordion">
+                                            <div id="shopRatingOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopRatingAccordion">
+                                                <div class="card-body pt-0 mt-1 px-5">
+                                                      <!-- Checkboxes -->
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                            <label class="custom-control-label text-color-1" for="brandAdidas">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter mr-2">
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                    </div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                           <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                           <label class="custom-control-label text-color-1" for="brandNewBalance">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter mr-2">
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                    </div>
+                                                                </div>
+                                                           </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                          <label class="custom-control-label text-color-1" for="brandNike">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter mr-2">
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                    </div>
+                                                                </div>
+                                                          </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                          <label class="custom-control-label text-color-1" for="brandFredPerry">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter mr-2">
+                                                                        <small class="fas fa-star"></small>
+                                                                        <small class="fas fa-star"></small>
+                                                                    </div>
+                                                                </div>
+                                                          </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="shopPriceAccordion" class="accordion rounded shadow-none">
+                                        <div class="border-0">
+                                            <div class="card-collapse" id="shopCardHeadingOne">
+                                                <h3 class="mb-0">
+                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
+                                                        <span class="row align-items-center">
+                                                            <span class="col-9">
+                                                                <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark text-lh-1dot4">Price Range ($)</span>
+                                                            </span>
+                                                            <span class="col-3 text-right">
+                                                                <span class="card-btn-arrow">
+                                                                    <span class="fas fa-chevron-down small"></span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </button>
+                                                </h3>
+                                            </div>
+                                            <div id="shopCardOne" class="collapse show" aria-labelledby="shopCardHeadingOne" data-parent="#shopPriceAccordion">
                                                 <div class="card-body pt-0 px-5">
                                                     <div class="pb-3 mb-1 d-flex text-lh-1">
                                                         <span>£</span>
@@ -187,7 +351,7 @@
                                                     <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
                                                         <span class="row align-items-center">
                                                             <span class="col-9">
-                                                                <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark">Categories</span>
+                                                                <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark text-lh-1dot4">Categories</span>
                                                             </span>
                                                             <span class="col-3 text-right">
                                                                 <span class="card-btn-arrow">
@@ -256,7 +420,7 @@
                     <div class="col-lg-9 order-md-1 order-lg-2 pb-5 pb-lg-0">
                         <!-- Shop-control-bar Title -->
                         <div class="d-flex justify-content-between align-items-center mb-4">
-                            <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1">300 Cars</h3>
+                            <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1">300+ places to stay</h3>
                             <ul class="nav tab-nav-shop" id="pills-tab" role="tablist">                                    
                                 <li class="nav-item">
                                     <a class="nav-link font-size-22 p-0" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="true">
@@ -331,22 +495,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
 
@@ -361,7 +525,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Mercedes-Benz A 200 CDI </span>
+                                                            <span class="font-weight-bold font-size-17">Comfortable Office Space </span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -446,22 +610,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -475,7 +639,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">BMW 316 D FaceLift</span>
+                                                            <span class="font-weight-bold font-size-17">Sunny, Modern room in Village!</span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -560,22 +724,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -589,7 +753,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
+                                                            <span class="font-weight-bold font-size-17"> Office Space in Downey</span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -674,22 +838,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -703,7 +867,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Honda Civic 2019</span>
+                                                            <span class="font-weight-bold font-size-17">Apartment in Wellington</span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -788,22 +952,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -817,7 +981,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Mercedes-Benz A 200 CDI</span>
+                                                            <span class="font-weight-bold font-size-17">Comfortable Office Space</span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -902,22 +1066,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -931,7 +1095,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
+                                                            <span class="font-weight-bold font-size-17"> Office Space in Downey</span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -1016,22 +1180,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1045,7 +1209,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Honda Civic 2019</span>
+                                                            <span class="font-weight-bold font-size-17">Apartment in Wellington</span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -1130,22 +1294,22 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1159,7 +1323,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Mercedes-Benz A 200 CDI </span>
+                                                            <span class="font-weight-bold font-size-17">Comfortable Office Space </span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -1265,22 +1429,22 @@
                                                                 }
                                                                 }]'>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1294,7 +1458,7 @@
                                                             </button>
                                                         </div>
                                                         <a href="#">
-                                                            <span class="font-weight-bold font-size-17">Mercedes-Benz A 200 CDI </span>
+                                                            <span class="font-weight-bold font-size-17">Comfortable Office Space </span>
                                                         </a>
                                                         <div class="card-body p-0 mt-2">
                                                             <a href="#" class="d-block">
@@ -1396,7 +1560,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1406,7 +1570,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI </span>
+                                                            <span class="text-white font-weight-bold font-size-17">Comfortable Office Space </span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1481,7 +1645,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1491,7 +1655,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">BMW 316 D FaceLift</span>
+                                                            <span class="text-white font-weight-bold font-size-17">Sunny, Modern room in Village!</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1561,7 +1725,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1571,7 +1735,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
+                                                            <span class="text-white font-weight-bold font-size-17"> Office Space in Downey</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1641,7 +1805,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1651,7 +1815,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Honda Civic 2019</span>
+                                                            <span class="text-white font-weight-bold font-size-17">Apartment in Wellington</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1721,7 +1885,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1731,7 +1895,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">BMW 316 D FaceLift</span>
+                                                            <span class="text-white font-weight-bold font-size-17">Sunny, Modern room in Village!</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1801,7 +1965,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1811,7 +1975,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
+                                                            <span class="text-white font-weight-bold font-size-17"> Office Space in Downey</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1881,7 +2045,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img35.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img40.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1891,7 +2055,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
+                                                            <span class="text-white font-weight-bold font-size-17"> Office Space in Downey</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -1966,7 +2130,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img36.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img41.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1976,7 +2140,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI</span>
+                                                            <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -2046,7 +2210,7 @@
                                         <div class="card transition-3d-hover shadow-hover-2">
                                             <div class="position-relative">
                                                 <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img37.jpg">
+                                                    <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img42.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                                   <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -2056,7 +2220,7 @@
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
                                                         <a href="#">
-                                                            <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI</span>
+                                                            <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                                         </a>
                                                         <div class="text-white my-2">
                                                             <span class="mr-1 font-size-14">From</span>
@@ -2628,6 +2792,7 @@
         <script src="../../assets/js/components/hs.range-datepicker.js"></script>
         <script src="../../assets/js/components/hs.selectpicker.js"></script>
         <script src="../../assets/js/components/hs.range-slider.js"></script>
+        <script src="../../assets/js/components/hs.quantity-counter.js"></script>
 
         <script>
         $(function() {
@@ -2682,6 +2847,8 @@
             // initialization of forms
             $.HSCore.components.HSRangeSlider.init('.js-range-slider');
             });
+            // initialization of quantity counter
+            $.HSCore.components.HSQantityCounter.init('.js-quantity');
 
             $('#headerSidebarList [data-toggle="collapse"]').on('click', function (e) {
               e.preventDefault();

@@ -36959,6 +36959,12 @@ Typography Font Size
   }
 }
 
+@media (max-width: 1199.98px) {
+  .font-size-lg-15 {
+    font-size: 0.938rem;
+  }
+}
+
 /*------------------------------------
 Font Weight
 ------------------------------------*/
@@ -37007,6 +37013,10 @@ Line Height
 
 .text-lh-inherit {
   line-height: 1.5;
+}
+
+.text-lh-1dot4 {
+  line-height: 1.4;
 }
 
 .text-lh-1dot6 {

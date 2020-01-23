@@ -135,6 +135,12 @@ Typography Font Size
     }
 }
 
+@include media-breakpoint-down(lg) {
+    .font-size-lg-15 {
+        font-size: 0.938rem;  //15px
+    }
+}
+
 /*------------------------------------
 Font Weight
 ------------------------------------*/
@@ -185,6 +191,10 @@ Line Height
 
 .text-lh-inherit {
     line-height: 1.5;
+}
+
+.text-lh-1dot4 {
+    line-height: 1.4;
 }
 
 .text-lh-1dot6 {
