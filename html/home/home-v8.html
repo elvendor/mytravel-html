@@ -730,10 +730,10 @@
                         <div class="col-md-6 col-lg-4 mb-3">
                             <div class="mb-4 mb-lg-0 text-md-center text-lg-left">
                                 <a class="d-block mb-3" href="#">
-                                    <img class="img-fluid rounded-xs" src="../../assets/img/410x300/img4.jpg" alt="Image-Description">
+                                    <img class="img-fluid rounded-xs w-100" src="../../assets/img/410x300/img4.jpg" alt="Image-Description">
                                 </a>
-                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1">
-                                    <a href="#" class="text-gray-6">How to travel with paper map</a>
+                                <h6 class="font-size-17 pt-xl-1 font-weight-bold mb-1 text-gray-6">
+                                    <a href="#">How to travel with paper map</a>
                                 </h6>
                                 <a class="text-gray-1" href="#">
                                     <span>June 6, 2019</span>
@@ -743,10 +743,10 @@
                         <div class="col-md-6 col-lg-4 mb-3">
                             <div class="mb-4 mb-lg-0 text-md-center text-lg-left">
                                 <a class="d-block mb-3" href="#">
-                                    <img class="img-fluid rounded-xs" src="../../assets/img/410x300/img5.jpg" alt="Image-Description">
+                                    <img class="img-fluid rounded-xs w-100" src="../../assets/img/410x300/img5.jpg" alt="Image-Description">
                                 </a>
-                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1">
-                                    <a href="#" class="text-gray-6">Change your place and get fresh air</a>
+                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1 text-gray-6">
+                                    <a href="#">Change your place and get fresh air</a>
                                 </h6>
                                 <a class="text-gray-1" href="#">
                                     <span>June 6, 2019</span>
@@ -756,10 +756,10 @@
                         <div class="col-md-6 col-lg-4 mb-3">
                             <div class="mb-0 text-md-center text-lg-left">
                                 <a class="d-block mb-3" href="#">
-                                    <img class="img-fluid rounded-xs" src="../../assets/img/410x300/img6.jpg" alt="Image-Description">
+                                    <img class="img-fluid rounded-xs w-100" src="../../assets/img/410x300/img6.jpg" alt="Image-Description">
                                 </a>
-                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1">
-                                    <a href="#" class="text-gray-6">Pityful a rethoric question ran</a>
+                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1 text-gray-6">
+                                    <a href="#">Pityful a rethoric question ran</a>
                                 </h6>
                                 <a class="text-gray-1" href="#">
                                     <span>June 6, 2019</span>
@@ -985,6 +985,16 @@
         </footer>
         <!-- ========== End FOOTER ========== -->
 
+        <!-- Page Preloader -->
+        <div id="jsPreloader" class="page-preloader">
+            <div class="page-preloader__content-centered">
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Preloader -->
+
         <!-- Go to Top -->
         <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
             <span class="flaticon-arrow u-go-to-modern__inner"></span>
@@ -1032,6 +1042,11 @@
 
                 // initialization of svg injector module
                 $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+
+                // Page preloader
+                setTimeout(function() {
+                  $('#jsPreloader').fadeOut(500)
+                }, 800);
             });
 
             $(document).on('ready', function () {

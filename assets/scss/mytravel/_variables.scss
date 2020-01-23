@@ -589,7 +589,7 @@ $header-topbar-dropdown-padding:                            0.438rem !default;
 $header-login-form-card-body-paddingX:                      4.375rem !default;
 $header-login-form-card-header-padding:                     1.410rem !default;
 $nav-link-padding-y:                                        0.438rem !default;
-
+$container-fluid-padding:                                   3.75rem !default;
 
 // Margin Spaces
 $header-sub-menu-margin-bottom:                             .5rem !default;
@@ -1378,3 +1378,12 @@ $media-viewer-icon-transition:                              $transition-timing $
 
 $custom-grid-columns:                                       2.5, 2.8 !default;
 // 28.31
+
+// Page Preloader
+// =========================================================
+
+// Background Color
+$page-preloader-bg-color:                                   $white !default;
+
+// Others
+$page-preloader-z-index:                                    $header-z-index + 1;
