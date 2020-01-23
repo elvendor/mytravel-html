@@ -24,7 +24,7 @@
 	  	height: .9375rem;
       box-sizing: border-box;
 	    background-color: $gray-9;
-	    border: 3px solid transparent;
+	    border: 2px solid transparent;
 	    @include border-radius($border-radius-rounded);
 	    transform: scale(.6);
 	    transition: $transition-timing $transition-function;
@@ -108,7 +108,7 @@
       height: .9375rem;
       box-sizing: border-box;
       background-color: $gray-9;
-      border: 3px solid transparent;
+      border: 2px solid transparent;
       @include border-radius($border-radius-rounded);
       transform: scale(.6);
       transition: $transition-timing $transition-function;
@@ -117,7 +117,7 @@
     &.slick-active {
       span {
         background-color: transparent;
-        border-color: #1a2b49 !important;
+        border-color: $dark-2 !important;
         transform: scale(.9);
       }
     }
