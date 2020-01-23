@@ -36391,6 +36391,10 @@ label.btn {
   min-height: 100vh;
 }
 
+.min-height-50 {
+  min-height: 3.125rem;
+}
+
 .min-height-155 {
   min-height: 9.6875rem;
 }
