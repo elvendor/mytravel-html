@@ -85,13 +85,27 @@
 }
 
 /* Toggle */
-.dropdown-toggle::after {
-  display: inline-block;
-  font-family: $font-family-font-awesome-icon;
-  font-size: 80%;
-  font-weight: 900;
-  content: "\f107";
-  margin-left: .5rem;
+.dropdown-toggle{
+  &::after {
+    display: inline-block;
+    font-family: $font-family-font-awesome-icon;
+    font-size: 80%;
+    font-weight: 900;
+    content: $dropdown-toggle-pseudo-content;
+    margin-left: .5rem;
+  }
+
+  &-collapse {
+    &::after {
+      transition: $dropdown-toggle-arrow-transition;
+    }
+
+    &[aria-expanded="true"] {
+      &::after {
+        transform: $dropdown-toggle-arrow-collapse-rotation;
+      }
+    }
+  }
 }
 
 /* Positions */
