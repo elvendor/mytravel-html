@@ -37425,15 +37425,15 @@ Letter Spacing
   color: #1e2022;
 }
 
-.list-item .list-link:hover i, .list-item .list-link:hover span {
+.list-tab .list-link:hover i, .list-tab .list-link:hover span {
   color: #377dff !important;
 }
 
-.list-item .list-link:active, .list-item .list-link:focus {
+.list-tab .list-link:active, .list-tab .list-link:focus {
   border-left: 2px solid #377dff !important;
 }
 
-.list-item .list-link:active i, .list-item .list-link:active span, .list-item .list-link:focus i, .list-item .list-link:focus span {
+.list-tab .list-link:active i, .list-tab .list-link:active span, .list-tab .list-link:focus i, .list-tab .list-link:focus span {
   color: #377dff !important;
 }
 
