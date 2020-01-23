@@ -33513,16 +33513,16 @@ label.btn {
           transform: none !important;
 }
 
-.u-slick-bordered .slick-current .card {
+.u-slick-bordered-primary .slick-current .card {
   border-color: #377dff !important;
 }
 
-.u-slick-bordered .slick-current .card .testimonial-quote text,
-.u-slick-bordered .slick-current .card .testimonial-quote path {
+.u-slick-bordered-primary .slick-current .card .testimonial-quote text,
+.u-slick-bordered-primary .slick-current .card .testimonial-quote path {
   fill: #377dff;
 }
 
-.u-slick-bordered .slick-current .card .testimonial-quote i {
+.u-slick-bordered-primary .slick-current .card .testimonial-quote i {
   color: #377dff;
 }
 
