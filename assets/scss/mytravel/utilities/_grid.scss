@@ -57,6 +57,18 @@
        }
     }
 
+    .col-#{$size}-2dot6 {
+       @include media-breakpoint-up($size) {
+            @include make-col(2.6);
+       }
+    }
+
+    .col-#{$size}-2dot5 {
+       @include media-breakpoint-up($size) {
+            @include make-col(2.5);
+       }
+    }
+
     .col-#{$size}-2dot7 {
        @include media-breakpoint-up($size) {
             @include make-col(2.7);

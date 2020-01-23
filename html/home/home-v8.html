@@ -311,13 +311,12 @@
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content">
             <!-- ========== HERO ========== -->
-            <div class="hero-block hero-v6 bg-img-hero-bottom gradient-overlay-half-bg-charcoal-gray text-center z-index-2" style="background-image: url(../../assets/img/1920x750/img3.jpg);">
+            <div class="hero-block hero-v6 bg-img-hero-bottom gradient-overlay-half-bg-dark-v1 text-center z-index-2" style="background-image: url(../../assets/img/1920x750/img4.jpg);">
                 <div class="container space-2 space-top-xl-6">
-                    <div class="justify-content-md-center py-xl-10">
+                    <div class="justify-content-md-center py-xl-11">
                         <!-- Info -->
-                        <div class="pb-lg-11 mb-7">
-                            <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Find your next rental</h1>
-                            <p class="font-size-20 font-weight-normal text-white">Book experiences you’ll want to tell the world about</p>
+                        <div class="pb-lg-11 mb-11">
+                            <h1 class="font-size-60 font-size-xs-30 text-white font-weight-bold">Discover The World With MyCars</h1>
                         </div>
                         <!-- End Info -->
                     </div>
@@ -326,8 +325,8 @@
                             <div class="card-body">
                                 <form class="js-validate">
                                   <div class="row d-block nav-select d-lg-flex mb-lg-3 px-2 px-lg-3">
-                                    <div class="col-sm-12 col-lg-3dot6 col-xl-3dot7 mb-4 mb-lg-0 ">
-                                        <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
+                                    <div class="col-sm-12 col-lg-2dot5 mb-4 mb-lg-0">
+                                        <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Pick-up From</span>
                                         <!-- Select -->
                                         <select class="js-select selectpicker dropdown-select tab-dropdown col-12 pl-0 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
                                             data-style=""
@@ -367,82 +366,86 @@
                                         <!-- End Select -->
                                     </div>
 
-                                    <div class="col-sm-12 col-lg-3dot7 col-xl-3dot6 mb-4 mb-lg-0 ">
+                                    <div class="col-sm-12 col-lg-2dot5 mb-4 mb-lg-0">
+                                        <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Drop-of To</span>
+                                        <!-- Select -->
+                                        <select class="js-select selectpicker dropdown-select tab-dropdown col-12 pl-0 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
+                                            data-style=""
+                                            data-live-search="true"
+                                            data-searchbox-classes="input-group-sm">
+                                            <option class="border-bottom border-color-1" value="project1" data-content='
+                                                <span class="d-flex align-items-center">
+                                                    <span class="font-size-16">London, United Kingdom</span>
+                                                </span>'>
+                                                London, United Kingdom
+                                            </option>
+                                            <option class="border-bottom border-color-1" value="project2" data-content='
+                                                <span class="d-flex align-items-center">
+                                                    <span class="font-size-16">New York, United States</span>
+                                                </span>'>
+                                                New York, United States
+                                            </option>
+                                            <option  class="border-bottom border-color-1" value="project3" data-content='
+                                                <span class="d-flex align-items-center">
+                                                    <span class="font-size-16">New South Wales, Australia</span>
+                                                </span>'>
+                                                New South Wales, Australia
+                                            </option>
+                                            <option class="border-bottom border-color-1" value="project4" data-content='
+                                                <span class="d-flex align-items-center">
+                                                    <span class="font-size-16">Istanbul, Turkey</span>
+                                                </span>'>
+                                                Istanbul, Turkey
+                                            </option>
+                                            <option class="" value="project4" data-content='
+                                                <span class="d-flex align-items-center">
+                                                    <span class="font-size-16">Reykjavík, Iceland</span>
+                                                </span>'>
+                                                Reykjavík, Iceland
+                                            </option>
+                                        </select>
+                                        <!-- End Select -->
+                                    </div>
+
+                                    <div class="col-sm-12 col-lg-2dot5 mb-4 mb-lg-0">
                                         <!-- Input -->
-                                        <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Check In - Out</span>
+                                        <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Pick Up Date</span>
                                         <div class="border-bottom border-width-2 border-color-1">
                                             <div id="datepickerWrapperFromOne" class="u-datepicker input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="d-flex align-items-center mr-2">
                                                       <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                     </span>
-                                                </div>
-                                                 <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                     data-rp-wrapper="#datepickerWrapperFromOne"
-                                                     data-rp-type="range"
-                                                     data-rp-date-format="M d / Y"
-                                                     data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
+                                                  </div>
+                                                  <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="text" placeholder="Jul 7 / 2019, 05:35PM" aria-label="From"
+                                                    data-rp-wrapper="#datepickerWrapperFromOne"
+                                                    data-rp-date-format="d/m/Y">
+                                            </div>
+                                            <!-- End Datepicker -->
+                                        </div>
+                                            <!-- End Input -->
+                                    </div>
+
+                                    <div class="col-sm-12 col-lg-2dot5 mb-4 mb-lg-0">
+                                        <!-- Input -->
+                                        <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Return Time</span>
+                                        <div class="border-bottom border-width-2 border-color-1">
+                                            <div id="datepickerWrapperFromTwo" class="u-datepicker input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="d-flex align-items-center mr-2">
+                                                      <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                    </span>
+                                                  </div>
+                                                  <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="text" placeholder="Jul 7 / 2019, 05:35PM" aria-label="From"
+                                                    data-rp-wrapper="#datepickerWrapperFromTwo"
+                                                    data-rp-date-format="d/m/Y">
                                             </div>
                                              <!-- End Datepicker -->
                                         </div>
                                         <!-- End Input -->
                                     </div>
 
-                                    <div class="col-sm-12 col-lg-2dot8 mb-4 mb-lg-0 dropdown-custom">
-                                        <!-- Input -->
-                                        <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Guests</span>
-                                        <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex pt-3 pb-2" href="javascript:;" role="button"
-                                            aria-controls="basicDropdownClick"
-                                            aria-haspopup="true"
-                                            aria-expanded="false"
-                                            data-unfold-event="click"
-                                            data-unfold-target="#basicDropdownClick"
-                                            data-unfold-type="css-animation"
-                                            data-unfold-duration="300"
-                                            data-unfold-delay="300"
-                                            data-unfold-hide-on-scroll="true"
-                                            data-unfold-animation-in="slideInUp"
-                                            data-unfold-animation-out="fadeOut">
-                                            <i class="flaticon-plus d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
-                                            <span class="text-black font-size-16 font-weight-semi-bold">1 Adult - 0 Child</span>
-                                        </a>
-                                        <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
-                                            <div class="w-100 py-2 px-3 mb-3">
-                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
-                                                    <div class="d-flex">
-                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                            <small class="fas fa-minus btn-icon__inner"></small>
-                                                        </a>
-                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                            <small class="fas fa-plus btn-icon__inner"></small>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="w-100 py-2 px-3">
-                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
-                                                    <div class="d-flex">
-                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                            <small class="fas fa-minus btn-icon__inner"></small>
-                                                        </a>
-                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                            <small class="fas fa-plus btn-icon__inner"></small>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="w-100 text-right py-1 pr-5">
-                                                <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-                                    </div>
-
-                                    <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
+                                    <div class="col-sm-12 col-lg-2 align-self-lg-end text-md-right">
                                         <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                     </div>
                                   </div>
@@ -732,7 +735,7 @@
                                 <a class="d-block mb-3" href="#">
                                     <img class="img-fluid rounded-xs w-100" src="../../assets/img/410x300/img4.jpg" alt="Image-Description">
                                 </a>
-                                <h6 class="font-size-17 pt-xl-1 font-weight-bold mb-1 text-gray-6">
+                                <h6 class="font-size-17 pt-xl-1 font-weight-bold mb-1">
                                     <a href="#">How to travel with paper map</a>
                                 </h6>
                                 <a class="text-gray-1" href="#">
@@ -745,7 +748,7 @@
                                 <a class="d-block mb-3" href="#">
                                     <img class="img-fluid rounded-xs w-100" src="../../assets/img/410x300/img5.jpg" alt="Image-Description">
                                 </a>
-                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1 text-gray-6">
+                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1">
                                     <a href="#">Change your place and get fresh air</a>
                                 </h6>
                                 <a class="text-gray-1" href="#">
@@ -758,7 +761,7 @@
                                 <a class="d-block mb-3" href="#">
                                     <img class="img-fluid rounded-xs w-100" src="../../assets/img/410x300/img6.jpg" alt="Image-Description">
                                 </a>
-                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1 text-gray-6">
+                                <h6 class="font-size-17 pt-xl-1 font-weight-bold font-weight-bold mb-1">
                                     <a href="#">Pityful a rethoric question ran</a>
                                 </h6>
                                 <a class="text-gray-1" href="#">
