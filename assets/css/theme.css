@@ -26007,7 +26007,7 @@ button:focus {
 }
 
 .u-avatar-image-overlay {
-  display: none;
+  opacity: 0;
   position: absolute;
   left: 0;
   right: 0;
@@ -26025,10 +26025,9 @@ button:focus {
 }
 
 .u-avatar-image:hover .u-avatar-image-overlay {
-  display: block;
   background-color: #377dff;
   opacity: 0.851;
-  transition-duration: 0.5s;
+  transition: all 0.5s ease-in-out;
 }
 
 .u-xs-avatar {
