@@ -31174,8 +31174,17 @@ label.btn {
   font-family: "Font Awesome 5 Free";
   font-size: 80%;
   font-weight: 900;
-  content: "\f107";
+  content: "";
   margin-left: .5rem;
+}
+
+.dropdown-toggle-collapse::after {
+  transition: 0.3s;
+}
+
+.dropdown-toggle-collapse[aria-expanded="true"]::after {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 
 /* Positions */
@@ -37305,6 +37314,12 @@ Typography Font Size
   }
 }
 
+@media (max-width: 1199.98px) {
+  .font-size-lg-15 {
+    font-size: 0.938rem;
+  }
+}
+
 /*------------------------------------
 Font Weight
 ------------------------------------*/
@@ -37353,6 +37368,10 @@ Line Height
 
 .text-lh-inherit {
   line-height: 1.5;
+}
+
+.text-lh-1dot4 {
+  line-height: 1.4;
 }
 
 .text-lh-1dot6 {
@@ -37507,17 +37526,15 @@ Letter Spacing
   color: #1e2022;
 }
 
-.list-item .list-link:hover i, .list-item .list-link:hover span {
+.list-tab .list-link:hover i, .list-tab .list-link:hover span {
   color: #377dff !important;
 }
 
-.list-item .list-link:active, .list-item .list-link:focus {
-  border-left: 2px solid #377dff;
-  padding-top: .5rem;
-  padding-bottom: .5rem !important;
+.list-tab .list-link:active, .list-tab .list-link:focus {
+  border-left: 2px solid #377dff !important;
 }
 
-.list-item .list-link:active i, .list-item .list-link:active span, .list-item .list-link:focus i, .list-item .list-link:focus span {
+.list-tab .list-link:active i, .list-tab .list-link:active span, .list-tab .list-link:focus i, .list-tab .list-link:focus span {
   color: #377dff !important;
 }
 

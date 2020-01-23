@@ -64,7 +64,7 @@
     color: $dark-1;
 }
 
-.list-item { 
+.list-tab { 
 
     .list-link {
         
@@ -79,9 +79,7 @@
         &:active,
         &:focus {
 
-            border-left: 2px solid $primary;
-            padding-top: .5rem; 
-            padding-bottom: .5rem !important;
+            border-left: 2px solid $primary !important;
 
             i,span {
                 color: $primary !important;
