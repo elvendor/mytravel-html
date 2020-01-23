@@ -37066,8 +37066,10 @@ label.btn {
   height: 50%;
 }
 
-.width-50 {
-  width: 50%;
+@media (min-width: 768px) {
+  .width-md-50 {
+    width: 50%;
+  }
 }
 
 .width-60 {

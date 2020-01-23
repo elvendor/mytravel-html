@@ -67,13 +67,69 @@
                                 <option value="four">Sort by price: low to high</option>
                                 <option value="four">Sort by price: high to low</option>
                             </select>
-                            <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn btn-primary text-white dropdown-toggle btn-sm px-4 font-size-16 d-flex align-items-center py-2 min-height-50">
-                                <option data-icon="flaticon-filter mr-2" value="one" selected>Show Filter</option>
-                                <option value="two">For Men</option>
-                                <option value="two">For Women</option>
-                                <option value="two">For Boys</option>
-                                <option value="four">For Girls</option>
-                            </select>
+                             <!-- Account Sidebar Toggle Button -->
+                                <a id="sidebarNavToggler" class="btn btn-sm btn-secondary" href="javascript:;" role="button"
+                                   aria-controls="sidebarContent"
+                                   aria-haspopup="true"
+                                   aria-expanded="false"
+                                   data-unfold-event="click"
+                                   data-unfold-hide-on-scroll="false"
+                                   data-unfold-target="#sidebarContent"
+                                   data-unfold-type="css-animation"
+                                   data-unfold-animation-in="fadeInRight"
+                                   data-unfold-animation-out="fadeOutRight"
+                                   data-unfold-duration="500"
+                                   data-icon="flaticon-filter mr-2">
+                                    Show Filters
+                                </a>
+                                <!-- End Account Sidebar Toggle Button -->
+
+                                <!-- Sidebar Navigation -->
+                                <aside id="sidebarContent" class="u-sidebar" aria-labelledby="sidebarNavToggler">
+                                  <div class="u-sidebar__scroller">
+                                    <div class="u-sidebar__container">
+                                      <div class="u-header-sidebar__footer-offset">
+                                        <!-- Toggle Button -->
+                                        <div class="d-flex align-items-center pt-4 px-7">
+                                          <button type="button" class="close ml-auto"
+                                                  aria-controls="sidebarContent"
+                                                  aria-haspopup="true"
+                                                  aria-expanded="false"
+                                                  data-unfold-event="click"
+                                                  data-unfold-hide-on-scroll="false"
+                                                  data-unfold-target="#sidebarContent"
+                                                  data-unfold-type="css-animation"
+                                                  data-unfold-animation-in="fadeInRight"
+                                                  data-unfold-animation-out="fadeOutRight"
+                                                  data-unfold-duration="500">
+                                            <span aria-hidden="true">×</span>
+                                          </button>
+                                        </div>
+                                        <!-- End Toggle Button -->
+
+                                        <!-- Content -->
+                                        <div class="js-scrollbar u-sidebar__body">
+                                          <div class="u-sidebar__content u-header-sidebar__content">
+                                            <h4 class="h5">Sidebar content</h4>
+                                            <p>This is where we sit down, grab a cup of coffee and dial in the details. Understanding the task at hand and ironing out the wrinkles is a key point.</p>
+                                          </div>
+                                        </div>
+                                        <!-- End Content -->
+                                      </div>
+
+                                      <!-- Footer -->
+                                      <footer class="u-sidebar__footer u-sidebar__footer--account">
+                                        <ul class="list-inline mb-0">
+                                          <li class="list-inline-item"><a href="#">Footer</a></li>
+                                          <li class="list-inline-item"><a href="#">Links</a></li>
+                                          <li class="list-inline-item"><a href="#">More links</a></li>
+                                        </ul>
+                                      </footer>
+                                      <!-- End Footer -->
+                                    </div>
+                                  </div>
+                                </aside>
+                                <!-- End Sidebar Navigation -->
                         </div>
                     </div>
                     <!-- End shop-control-bar Title -->
