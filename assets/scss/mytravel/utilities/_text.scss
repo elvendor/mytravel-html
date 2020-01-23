@@ -187,6 +187,10 @@ Line Height
     line-height: 1.5;
 }
 
+.text-lh-1dot6 {
+    line-height: 1.6;
+}
+
 .text-lh-lg {
     line-height: 1.9;
 }
@@ -254,5 +258,9 @@ Letter Spacing
         }
 
     }
+}
+
+.text-underline {
+    text-decoration: underline;
 }
 
