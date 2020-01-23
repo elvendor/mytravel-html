@@ -35,6 +35,28 @@
 	}
 }
 
+.u-slick-bordered-dark {
+
+	.slick-current {
+
+		.card {
+			border-color: #1a2b49 !important;
+
+			.testimonial-quote {
+
+				text,
+				path {
+					fill: #1a2b49;
+				}
+
+				i {
+					color: #1a2b49;
+				}
+			}
+		}
+	}
+}
+
 
 .testimonial-quote {
 
