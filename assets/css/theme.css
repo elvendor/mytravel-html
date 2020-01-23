@@ -30488,31 +30488,20 @@ label.btn {
   margin-right: auto;
 }
 
-.inner-right {
-  padding-right: 75px;
+@media (min-width: 768px) {
+  .inner-md-right {
+    padding-right: 75px;
+  }
 }
 
-.inner-left {
-  padding-left: 75px;
+@media (min-width: 768px) {
+  .inner-md-left {
+    padding-left: 75px;
+  }
 }
 
-.member .rounded-circle {
-  max-width: 200px;
-  max-height: 200px;
-}
-
-.member .member-image {
-  position: relative;
-}
-
-.team figure {
-  display: block;
-  position: relative;
-}
-
-.member .rounded-circle {
-  max-width: 200px;
-  max-height: 200px;
+.inner-bottom-sm {
+  padding-bottom: 60px;
 }
 
 /*------------------------------------
@@ -33513,15 +33502,6 @@ label.btn {
           transform: none !important;
 }
 
-.testimonial-quote text,
-.testimonial-quote path {
-  fill: #ebf0f7;
-}
-
-.testimonial-quote i {
-  color: #ebf0f7;
-}
-
 .u-slick-bordered-primary .slick-current .card {
   border-color: #377dff !important;
 }
@@ -33546,6 +33526,15 @@ label.btn {
 
 .u-slick-bordered-dark .slick-current .card .testimonial-quote i {
   color: #1a2b49;
+}
+
+.testimonial-quote text,
+.testimonial-quote path {
+  fill: #ebf0f7;
+}
+
+.testimonial-quote i {
+  color: #ebf0f7;
 }
 
 /*------------------------------------

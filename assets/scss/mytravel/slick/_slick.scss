@@ -1,7 +1,6 @@
 /*------------------------------------
   Slick
 ------------------------------------*/
-
 .u-slick {
 	position: relative;
 }
@@ -13,22 +12,9 @@
 	}
 }
 
-.testimonial-quote {
-
-	text,
-	path {
-		fill: #ebf0f7;
-	}
-
-	i {
-		color: #ebf0f7;
-	}
-}
-
 .u-slick-bordered {
 
 	&-primary {
-
 		.slick-current {
 
 			.card {
@@ -50,7 +36,6 @@
 	}
 
 	&-dark {
-
 		.slick-current {
 
 			.card {
@@ -72,3 +57,14 @@
 	}
 }
 
+.testimonial-quote {
+
+	text,
+	path {
+		fill: #ebf0f7;
+	}
+
+	i {
+		color: #ebf0f7;
+	}
+}
