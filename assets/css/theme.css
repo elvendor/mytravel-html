@@ -31180,6 +31180,7 @@ label.btn {
   width: 100%;
   text-align: left;
   padding: 0;
+  margin-right: 25px;
 }
 
 [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector > a.active:before {
@@ -36742,6 +36743,10 @@ Line Height
 
 .text-lh-inherit {
   line-height: 1.5;
+}
+
+.text-lh-1dot6 {
+  line-height: 1.6;
 }
 
 .text-lh-lg {
