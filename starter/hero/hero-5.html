@@ -502,12 +502,41 @@
                                         <div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 ">
                                             <!-- Input -->
                                             <span class="d-block text-gray-1 font-weight-normal mb-0">Destination</span>
-                                            <div class="js-focus-state">
-                                                <div class="input-group border-bottom border-width-2 border-color-1">
-                                                    <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"></i>
-                                                  <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title">
-                                                </div>
-                                            </div>
+                                            <select class="js-select selectpicker dropdown-select tab-dropdown col-12 pl-0 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
+                                            data-style=""
+                                            data-live-search="true"
+                                            data-searchbox-classes="input-group-sm">
+                                                <option class="border-bottom border-color-1" value="project1" data-content='
+                                                    <span class="d-flex align-items-center">
+                                                        <span class="font-size-16">London, United Kingdom</span>
+                                                    </span>'>
+                                                    London, United Kingdom
+                                                </option>
+                                                <option class="border-bottom border-color-1" value="project2" data-content='
+                                                    <span class="d-flex align-items-center">
+                                                        <span class="font-size-16">New York, United States</span>
+                                                    </span>'>
+                                                    New York, United States
+                                                </option>
+                                                <option  class="border-bottom border-color-1" value="project3" data-content='
+                                                    <span class="d-flex align-items-center">
+                                                        <span class="font-size-16">New South Wales, Australia</span>
+                                                    </span>'>
+                                                    New South Wales, Australia
+                                                </option>
+                                                <option class="border-bottom border-color-1" value="project4" data-content='
+                                                    <span class="d-flex align-items-center">
+                                                        <span class="font-size-16">Istanbul, Turkey</span>
+                                                    </span>'>
+                                                    Istanbul, Turkey
+                                                </option>
+                                                <option class="" value="project4" data-content='
+                                                    <span class="d-flex align-items-center">
+                                                        <span class="font-size-16">Reykjavík, Iceland</span>
+                                                    </span>'>
+                                                    Reykjavík, Iceland
+                                                </option>
+                                            </select>
                                             <!-- End Input -->
                                         </div>
 
@@ -522,7 +551,7 @@
                                                         </span>
                                                     </div>
                                                     <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                         data-rp-wrapper="#datepickerWrapper"
+                                                         data-rp-wrapper="#datepickerWrapperFrom"
                                                          data-rp-type="range"
                                                          data-rp-date-format="M d / Y"
                                                          data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'>
@@ -608,12 +637,41 @@
                                                                     &lt;div class="col-sm-12 col-lg-3dot7 mb-4 mb-lg-0 "&gt;
                                                                         &lt;!-- Input --&gt;
                                                                         &lt;span class="d-block text-gray-1 font-weight-normal mb-0"&gt;Destination&lt;/span&gt;
-                                                                        &lt;div class="js-focus-state"&gt;
-                                                                            &lt;div class="input-group border-bottom border-width-2 border-color-1"&gt;
-                                                                                &lt;i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold"&gt;&lt;/i&gt;
-                                                                              &lt;input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 pl-0" placeholder="Where are you going?" aria-label="Keyword or title"&gt;
-                                                                            &lt;/div&gt;
-                                                                        &lt;/div&gt;
+                                                                        &lt;select class="js-select selectpicker dropdown-select tab-dropdown col-12 pl-0 flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold" title="Where are you going?"
+                                                                        data-style=""
+                                                                        data-live-search="true"
+                                                                        data-searchbox-classes="input-group-sm"&gt;
+                                                                            &lt;option class="border-bottom border-color-1" value="project1" data-content='
+                                                                                &lt;span class="d-flex align-items-center"&gt;
+                                                                                    &lt;span class="font-size-16"&gt;London, United Kingdom&lt;/span&gt;
+                                                                                &lt;/span&gt;'&gt;
+                                                                                London, United Kingdom
+                                                                            &lt;/option&gt;
+                                                                            &lt;option class="border-bottom border-color-1" value="project2" data-content='
+                                                                                &lt;span class="d-flex align-items-center"&gt;
+                                                                                    &lt;span class="font-size-16"&gt;New York, United States&lt;/span&gt;
+                                                                                &lt;/span&gt;'&gt;
+                                                                                New York, United States
+                                                                            &lt;/option&gt;
+                                                                            &lt;option  class="border-bottom border-color-1" value="project3" data-content='
+                                                                                &lt;span class="d-flex align-items-center"&gt;
+                                                                                    &lt;span class="font-size-16"&gt;New South Wales, Australia&lt;/span&gt;
+                                                                                &lt;/span&gt;'&gt;
+                                                                                New South Wales, Australia
+                                                                            &lt;/option&gt;
+                                                                            &lt;option class="border-bottom border-color-1" value="project4" data-content='
+                                                                                &lt;span class="d-flex align-items-center"&gt;
+                                                                                    &lt;span class="font-size-16"&gt;Istanbul, Turkey&lt;/span&gt;
+                                                                                &lt;/span&gt;'&gt;
+                                                                                Istanbul, Turkey
+                                                                            &lt;/option&gt;
+                                                                            &lt;option class="" value="project4" data-content='
+                                                                                &lt;span class="d-flex align-items-center"&gt;
+                                                                                    &lt;span class="font-size-16"&gt;Reykjavík, Iceland&lt;/span&gt;
+                                                                                &lt;/span&gt;'&gt;
+                                                                                Reykjavík, Iceland
+                                                                            &lt;/option&gt;
+                                                                        &lt;/select&gt;
                                                                         &lt;!-- End Input --&gt;
                                                                     &lt;/div&gt;
 
@@ -628,7 +686,7 @@
                                                                                     &lt;/span&gt;
                                                                                 &lt;/div&gt;
                                                                                 &lt;input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                                                     data-rp-wrapper="#datepickerWrapper"
+                                                                                     data-rp-wrapper="#datepickerWrapperFrom"
                                                                                      data-rp-type="range"
                                                                                      data-rp-date-format="M d / Y"
                                                                                      data-rp-default-date='["Jul 7 / 2019", "Aug 25 / 2019"]'&gt;
@@ -672,59 +730,54 @@
                                 </code>
                             </pre>
                         </div>
-                        <div class="tab-pane fade" id="pills-css-1" role="tabpanel" aria-labelledby="pills-css-tab-1">
-                            <pre>
-                                <code class="language-html" data-lang="html">
-                                    &lt;link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css"&gt;
-                                    &lt;link rel="stylesheet" type="text/css" href="../../assets/css/font-mytravel.css"&gt;
-                                    &lt;link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css"&gt;
-                                    &lt;link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css"&gt;
-                                </code>
-                            </pre>
-                        </div>
                         <div class="tab-pane fade" id="pills-js-1" role="tabpanel" aria-labelledby="pills-js-tab-1">
-                            <pre>
-                                <code class="language-html" data-lang="html">
-                                    &lt;!-- JS Implementing Plugins --&gt;
-                                    &lt;script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js">&lt;/script&gt;
-                                    &lt;script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"&gt;&lt;/script&gt;
+                        <pre>
+                            <code class="language-html" data-lang="html">
+                                &lt;!-- JS Implementing Plugins --&gt;
+                                &lt;script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js">&lt;/script&gt;
+                                &lt;script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"&gt;&lt;/script&gt;
 
-                                    &lt;!-- JS MyTravel --&gt;
-                                    &lt;script src="../../assets/js/hs.core.js"&gt;&lt;/script&gt;
-                                    &lt;script src="../../assets/js/components/hs.range-datepicker.js"&gt;&lt;/script&gt;
-                                    &lt;script src="../../assets/js/components/hs.selectpicker.js"&gt;&lt;/script&gt;
+                                &lt;!-- JS MyTravel --&gt;
+                                &lt;script src="../../assets/js/hs.core.js"&gt;&lt;/script&gt;
+                                &lt;script src="../../assets/js/components/hs.range-datepicker.js"&gt;&lt;/script&gt;
+                                &lt;script src="../../assets/js/components/hs.selectpicker.js"&gt;&lt;/script&gt;
+                                    &lt;script src="../../assets/js/components/hs.quantity-counter.js"&gt;&lt;/script&gt;
 
-                                    &lt;!-- JS Plugins Init. --&gt;
-                                    &lt;script&gt;
-                                    $(window).on('load', function () {
-                                        // initialization of HSMegaMenu component
-                                        $('.js-mega-menu').HSMegaMenu({
-                                            event: 'hover',
-                                            pageContainer: $('.container'),
-                                            breakpoint: 1199.98,
-                                            hideTimeOut: 0
-                                        });
+
+                                &lt;!-- JS Plugins Init. --&gt;
+                                &lt;script&gt;
+                                $(window).on('load', function () {
+                                    // initialization of HSMegaMenu component
+                                    $('.js-mega-menu').HSMegaMenu({
+                                        event: 'hover',
+                                        pageContainer: $('.container'),
+                                        breakpoint: 1199.98,
+                                        hideTimeOut: 0
                                     });
+                                });
 
-                                    $(document).on('ready', function () {
-                                        // initialization of datepicker
-                                        $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+                                $(document).on('ready', function () {
+                                    // initialization of datepicker
+                                    $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
-                                        // initialization of select
-                                        $.HSCore.components.HSSelectPicker.init('.js-select');
-                                    });
-                                    &lt;/script&gt;
-                                </code>
-                            </pre>
-                        </div>
+                                    // initialization of select
+                                    $.HSCore.components.HSSelectPicker.init('.js-select');
+
+                                    // initialization of quantity counter
+                                    $.HSCore.components.HSQantityCounter.init('.js-quantity');
+                                });
+                                &lt;/script&gt;
+                            </code>
+                        </pre>
                     </div>
-                    <!-- End Tab Content -->
                 </div>
-                <!-- End Tab Wrapper -->
+                <!-- End Tab Content -->
             </div>
-        <!-- End Component Block -->
-    </main>
-    <!-- ========== END MAIN CONTENT ========== -->
+            <!-- End Tab Wrapper -->
+        </div>
+    <!-- End Component Block -->
+</main>
+<!-- ========== END MAIN CONTENT ========== -->
 
     <!-- Go to Top -->
     <a class="js-go-to u-go-to" href="#"
@@ -749,53 +802,53 @@
     <!-- JS Implementing Plugins -->
     <script src="../../documentation/assets/vendor/prism/prism.js"></script>
     <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
-    <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-    <script src="../../assets/js/components/hs.header.js"></script>
-    <script src="../../assets/js/components/hs.unfold.js"></script>
-    <script src="../../assets/js/components/hs.validation.js"></script>
-    <script src="../../assets/js/components/hs.show-animation.js"></script>
-
 
     <!-- JS mytravel -->
     <script src="../../assets/js/hs.core.js"></script>
     <script src="../../assets/js/components/hs.go-to.js"></script>
     <script src="../../assets/js/components/hs.range-datepicker.js"></script>
     <script src="../../assets/js/components/hs.selectpicker.js"></script>
+    <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="../../assets/js/components/hs.header.js"></script>
+    <script src="../../assets/js/components/hs.unfold.js"></script>
+    <script src="../../assets/js/components/hs.validation.js"></script>
+    <script src="../../assets/js/components/hs.show-animation.js"></script>
+    <script src="../../assets/js/components/hs.quantity-counter.js"></script>
 
 
     <!-- JS Plugins Init. -->
     <script>
         $(window).on('load', function () {
-        // initialization of HSMegaMenu component
-        $('.js-mega-menu').HSMegaMenu({
-        event: 'hover',
-        pageContainer: $('.container'),
-        breakpoint: 767.98,
-        hideTimeOut: 0
-        });
-
-        // initialization of svg injector module
-        $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+            // initialization of HSMegaMenu component
+            $('.js-mega-menu').HSMegaMenu({
+            event: 'hover',
+            pageContainer: $('.container'),
+            breakpoint: 767.98,
+            hideTimeOut: 0
+            });
         });
 
         $(document).on('ready', function () {
-        // initialization of go to
-        $.HSCore.components.HSGoTo.init('.js-go-to');
+            // initialization of go to
+            $.HSCore.components.HSGoTo.init('.js-go-to');
 
-        // initialization of datepicker
-        $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
+            // initialization of datepicker
+            $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
-        // initialization of select
-        $.HSCore.components.HSSelectPicker.init('.js-select');
+            // initialization of select
+            $.HSCore.components.HSSelectPicker.init('.js-select');
 
-        // initialization of header
-        $.HSCore.components.HSHeader.init($('#header'));
+            // initialization of header
+            $.HSCore.components.HSHeader.init($('#header'));
 
-        // initialization of unfold component
-        $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+            // initialization of unfold component
+            $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-        // initialization of show animations
-        $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+            // initialization of show animations
+            $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+
+            // initialization of quantity counter
+            $.HSCore.components.HSQantityCounter.init('.js-quantity');
         });
     </script>
 </body>

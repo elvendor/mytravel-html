@@ -13,16 +13,37 @@
 	}
 }
 
-.slick-active {
+.u-slick-bordered {
+
 	.slick-current {
+
 		.card {
 			border-color: $primary !important;
-			text {
-				fill: $primary;
-			}
-			i {
-				color: $primary;
+
+			.testimonial-quote {
+
+				text,
+				path {
+					fill: $primary;
+				}
+
+				i {
+					color: $primary;
+				}
 			}
 		}
+	}
+}
+
+
+.testimonial-quote {
+
+	text,
+	path {
+		fill: #ebf0f7;
+	}
+
+	i {
+		color: #ebf0f7;
 	}
 }

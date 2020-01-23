@@ -9,3 +9,32 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.inner-right {
+	padding-right: 75px;
+}
+
+.inner-left {
+	padding-left: 75px;
+}
+
+.member .rounded-circle {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.member .member-image {
+	position: relative;
+}
+
+.team {
+	figure {
+	    display: block;
+	    position: relative;
+	}
+}
+
+.member .rounded-circle {
+    max-width: 200px;
+    max-height: 200px;
+}

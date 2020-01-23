@@ -151,6 +151,21 @@
 	}
 }
 
+
+.gradient-overlay-half-bg-grayish-blue {
+	&::before {
+		background-color: #3b444f;
+		opacity: .8;
+	}
+}
+
+.gradient-overlay-half-bg-blue {
+	&::before {
+		background-color: #7eadfb;
+		opacity: 0.4;
+	}
+}
+
 .gradient-overlay-half-bg-violet {
 	&::before {
 		background-color: rgba(73, 16, 128, 0.64);
