@@ -36385,10 +36385,6 @@ label.btn {
 /*------------------------------------
   Overflow
 ------------------------------------*/
-.overflow-hidden {
-  overflow: hidden;
-}
-
 @media (min-width: 992px) {
   .overflow-lg-visible {
     overflow: visible !important;
