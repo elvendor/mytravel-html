@@ -37072,6 +37072,10 @@ Letter Spacing
   color: #fff !important;
 }
 
+.text-underline {
+  text-decoration: underline;
+}
+
 /*------------------------------------
   Text Colors
 ------------------------------------*/
