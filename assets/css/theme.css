@@ -33329,6 +33329,31 @@ label.btn {
 }
 
 /*------------------------------------
+  Page Preloader
+------------------------------------*/
+.page-preloader {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1002;
+  background-color: #fff;
+}
+
+.page-preloader__content-centered {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 100%;
+}
+
+/*------------------------------------
   Pagination
 ------------------------------------*/
 .page-link {

@@ -1378,3 +1378,12 @@ $media-viewer-icon-transition:                              $transition-timing $
 
 $custom-grid-columns:                                       2.5, 2.8 !default;
 // 28.31
+
+// Page Preloader
+// =========================================================
+
+// Background Color
+$page-preloader-bg-color:                                   $white !default;
+
+// Others
+$page-preloader-z-index:                                    $header-z-index + 1;
