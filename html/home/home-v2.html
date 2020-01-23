@@ -455,7 +455,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -601,7 +601,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -747,7 +747,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -893,7 +893,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -1039,7 +1039,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -1185,7 +1185,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -1331,7 +1331,7 @@
                                             </div>
 
                                             <div class="col-sm-12 col-lg-1dot8 align-self-lg-end text-md-right">
-                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                <button type="submit" class="btn btn-primary btn-md border-radius-3 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass font-size-20 mr-2"></i>Search</button>
                                             </div>
                                           </div>
                                           <!-- End Checkbox -->
@@ -4774,6 +4774,16 @@
         </footer>
         <!-- ========== End FOOTER ========== -->
 
+        <!-- Page Preloader -->
+        <div id="jsPreloader" class="page-preloader">
+            <div class="page-preloader__content-centered">
+                <div class="spinner-grow text-primary" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Preloader -->
+
         <!-- Go to Top -->
         <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
             <span class="flaticon-arrow u-go-to-modern__inner"></span>
@@ -4820,6 +4830,11 @@
 
                 // initialization of svg injector module
                 $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
+
+                // Page preloader
+                setTimeout(function() {
+                  $('#jsPreloader').fadeOut(500)
+                }, 800);
             });
 
             $(document).on('ready', function () {

@@ -125,3 +125,10 @@
        }
     }
 }
+
+.container-fluid {
+    @include media-breakpoint-up(xl) {
+        padding-left: $container-fluid-padding;
+        padding-right: $container-fluid-padding;
+    }
+}
