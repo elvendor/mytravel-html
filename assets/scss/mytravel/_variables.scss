@@ -72,6 +72,7 @@ $container-max-widths: (
     $gray-19:                                                   #c5cdd8 !default;
     $gray-20:                                                   #9fa9b8 !default;
     $gray-21:                                                   #c1c1c1 !default;
+    $gray-22:                                                  #484848 !default;
 
     
     // Colors
@@ -119,6 +120,7 @@ $container-max-widths: (
     $brown-lighter:                                             #ceac61 !default;
     $sea-green:                                                 #1d508d !default;
     $dark-1:                                                    #1e2022 !default;
+    $dark-2:                                                    #1a2b49 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -177,6 +179,7 @@ $theme-colors: map-merge((
   "gray-8":                                                 $gray-19,
   "gray-9":                                                 $gray-20,
   "gray-10":                                                $gray-21,
+  "gray-11":                                                $gray-22,
   "sea-green":                                              $sea-green,
   "dark-1":                                                 $dark-1,
   ), $theme-colors);
