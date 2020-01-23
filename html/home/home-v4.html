@@ -453,14 +453,14 @@
 
             <!-- Product Cards Ratings With carousel -->
             <div class="product-card-block product-card-v3">
-                <div class="container-fluid space-top-2 space-top-xl-3">
+                <div class="container-fluid space-top-2 space-top-lg-3">
                     <div class="w-md-80 w-lg-50 text-center mx-md-auto pb-4 mt-xl-4">
                         <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Most Popular Hotels</h2>
                     </div>
                     <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
                         data-slides-show="5"
                         data-slides-scroll="1"
-                        data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v1 u-slick__arrow-classic--v1 u-slick__arrow-centered--y rounded-circle"
+                        data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-classic--v1 u-slick__arrow-centered--y rounded-circle"
                         data-arrow-left-classes="fas fa-chevron-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                         data-arrow-right-classes="fas fa-chevron-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                         data-pagi-classes="text-center u-slick__pagination mt-4"
@@ -995,7 +995,7 @@
                         <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Recommended Hotels</h2>
                     </div>
                     <!-- Nav Classic -->
-                    <ul class="nav tab-nav-line flex-nowrap pb-4 tab-nav justify-content-lg-center" role="tablist">
+                    <ul class="nav tab-nav-line flex-nowrap pb-4 tab-nav justify-content-lg-center text-nowrap" role="tablist">
                         <li class="nav-item">
                             <a class="nav-link font-weight-medium active" id="pills-one-example-t3-tab" data-toggle="pill" href="#pills-one-example-t3" role="tab" aria-controls="pills-one-example-t3" aria-selected="true">
                                 <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
@@ -2655,6 +2655,7 @@
         <script src="../../assets/js/components/hs.selectpicker.js"></script>
         <script src="../../assets/js/components/hs.go-to.js"></script>
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+        <script src="../../assets/js/components/hs.quantity-counter.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -2683,6 +2684,9 @@
 
                 // initialization of select
                 $.HSCore.components.HSSelectPicker.init('.js-select');
+
+                // initialization of quantity counter
+                $.HSCore.components.HSQantityCounter.init('.js-quantity');
 
                 // initialization of slick carousel
                 $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
