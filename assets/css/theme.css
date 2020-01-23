@@ -21761,6 +21761,10 @@ button:focus {
   top: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+  -webkit-animation-duration: 210ms;
+          animation-duration: 210ms;
 }
 
 /* Sub Menu */
@@ -35774,6 +35778,13 @@ label.btn {
     -ms-flex: 0 0 37.5%;
         flex: 0 0 37.5%;
     max-width: 37.5%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    padding-left: 3.75rem;
+    padding-right: 3.75rem;
   }
 }
 
