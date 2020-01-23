@@ -36385,10 +36385,6 @@ label.btn {
 /*------------------------------------
   Overflow
 ------------------------------------*/
-.overflow-hidden {
-  overflow: hidden;
-}
-
 @media (min-width: 992px) {
   .overflow-lg-visible {
     overflow: visible !important;
@@ -37074,6 +37070,10 @@ Letter Spacing
 
 .text-hover:hover h6, .text-hover:hover span {
   color: #fff !important;
+}
+
+.text-underline {
+  text-decoration: underline;
 }
 
 /*------------------------------------
