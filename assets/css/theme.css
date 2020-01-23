@@ -33632,6 +33632,18 @@ label.btn {
   color: #3b444f;
 }
 
+.tab-nav-list .list-link.hover i, .tab-nav-list .list-link.hover span {
+  color: #377dff !important;
+}
+
+.tab-nav-list .list-link.active, .tab-nav-list .list-link.focuse {
+  border-left: 2px solid #377dff !important;
+}
+
+.tab-nav-list .list-link.active i, .tab-nav-list .list-link.active span, .tab-nav-list .list-link.focuse i, .tab-nav-list .list-link.focuse span {
+  color: #377dff !important;
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
@@ -37429,11 +37441,11 @@ Letter Spacing
   color: #377dff !important;
 }
 
-.list-tab .list-link:active, .list-tab .list-link:focus {
+.list-tab .list-link:active {
   border-left: 2px solid #377dff !important;
 }
 
-.list-tab .list-link:active i, .list-tab .list-link:active span, .list-tab .list-link:focus i, .list-tab .list-link:focus span {
+.list-tab .list-link:active i, .list-tab .list-link:active span {
   color: #377dff !important;
 }
 

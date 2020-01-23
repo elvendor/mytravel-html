@@ -232,6 +232,29 @@
 			}
 		}
 	}
+
+	&-list {
+		.list-link {
+
+		 	&.hover {
+            
+	            i,span {
+	                color: $primary !important;
+	            }
+	        }
+        
+
+	        &.active,
+	        &.focuse {
+
+	            border-left: 2px solid $primary !important;
+
+	            i,span {
+	                color: $primary !important;
+	            } 
+	        }
+		}
+	}
 }
 
 
