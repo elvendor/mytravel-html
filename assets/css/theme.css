@@ -31174,8 +31174,17 @@ label.btn {
   font-family: "Font Awesome 5 Free";
   font-size: 80%;
   font-weight: 900;
-  content: "\f107";
+  content: "";
   margin-left: .5rem;
+}
+
+.dropdown-toggle-collapse::after {
+  transition: 0.3s;
+}
+
+.dropdown-toggle-collapse[aria-expanded="true"]::after {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 
 /* Positions */
