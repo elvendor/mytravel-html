@@ -1,7 +1,6 @@
 /*------------------------------------
   Slick
 ------------------------------------*/
-
 .u-slick {
 	position: relative;
 }
@@ -12,29 +11,6 @@
 		transform: none !important;
 	}
 }
-
-.u-slick-bordered {
-
-	.slick-current {
-
-		.card {
-			border-color: $primary !important;
-
-			.testimonial-quote {
-
-				text,
-				path {
-					fill: $primary;
-				}
-
-				i {
-					color: $primary;
-				}
-			}
-		}
-	}
-}
-
 
 .testimonial-quote {
 
@@ -47,3 +23,49 @@
 		color: #ebf0f7;
 	}
 }
+
+.u-slick-bordered {
+
+	&-primary {
+		.slick-current {
+
+			.card {
+				border-color: $primary !important;
+
+				.testimonial-quote {
+
+					text,
+					path {
+						fill: $primary;
+					}
+
+					i {
+						color: $primary;
+					}
+				}
+			}
+		}
+	}
+
+	&-dark {
+		.slick-current {
+
+			.card {
+				border-color: $dark-2 !important;
+
+				.testimonial-quote {
+
+					text,
+					path {
+						fill: $dark-2;
+					}
+
+					i {
+						color: $dark-2;
+					}
+				}
+			}
+		}
+	}
+}
+

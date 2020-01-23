@@ -153,6 +153,12 @@ Font Weight
     }
 }
 
+
+@include media-breakpoint-down(xs) {
+    .font-size-xs-28 {
+        font-size: 1.75rem !important;  //28px
+    }
+}
 /*------------------------------------
 Line Height
 ------------------------------------*/
