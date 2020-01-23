@@ -12,6 +12,18 @@
 	}
 }
 
+.testimonial-quote {
+
+	text,
+	path {
+		fill: #ebf0f7;
+	}
+
+	i {
+		color: #ebf0f7;
+	}
+}
+
 .u-slick-bordered {
 
 	&-primary {
@@ -39,17 +51,17 @@
 		.slick-current {
 
 			.card {
-				border-color: #1a2b49 !important;
+				border-color: $dark-2 !important;
 
 				.testimonial-quote {
 
 					text,
 					path {
-						fill: #1a2b49;
+						fill: $dark-2;
 					}
 
 					i {
-						color: #1a2b49;
+						color: $dark-2;
 					}
 				}
 			}
@@ -57,14 +69,3 @@
 	}
 }
 
-.testimonial-quote {
-
-	text,
-	path {
-		fill: #ebf0f7;
-	}
-
-	i {
-		color: #ebf0f7;
-	}
-}

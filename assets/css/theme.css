@@ -33502,6 +33502,15 @@ label.btn {
           transform: none !important;
 }
 
+.testimonial-quote text,
+.testimonial-quote path {
+  fill: #ebf0f7;
+}
+
+.testimonial-quote i {
+  color: #ebf0f7;
+}
+
 .u-slick-bordered-primary .slick-current .card {
   border-color: #377dff !important;
 }
@@ -33526,15 +33535,6 @@ label.btn {
 
 .u-slick-bordered-dark .slick-current .card .testimonial-quote i {
   color: #1a2b49;
-}
-
-.testimonial-quote text,
-.testimonial-quote path {
-  fill: #ebf0f7;
-}
-
-.testimonial-quote i {
-  color: #ebf0f7;
 }
 
 /*------------------------------------
@@ -33820,7 +33820,7 @@ label.btn {
   height: .9375rem;
   box-sizing: border-box;
   background-color: #cad4e1;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-radius: 50%;
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
@@ -33900,7 +33900,7 @@ label.btn {
   height: .9375rem;
   box-sizing: border-box;
   background-color: #cad4e1;
-  border: 3px solid transparent;
+  border: 2px solid transparent;
   border-radius: 50%;
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
