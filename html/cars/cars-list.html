@@ -57,7 +57,203 @@
 
             <div class="container">
                 <div class="row mb-8">
-                    <div class="col-xl-9 order-lg-2">
+                    <div class="col-lg-3 order-md-2 order-lg-1">
+                        <div class="navbar-expand-md navbar-expand-md-collapse-block">
+                            <button class="btn d-md-none mt-3 mb-4 p-0 collapsed" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="far fa-caret-square-down text-primary font-size-20 card-btn-arrow ml-0"></i>
+                                <span class="text-primary ml-2">Sidebar</span>
+                            </button>
+                            <div id="sidebar" class="collapse navbar-collapse">
+                                <div class="mb-6">
+                                    <div class="pb-4 mb-2">
+                                        <div class="sidebar border border-radius-3">
+                                            <div class="p-4 m-1">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Pick-up From</span>
+                                                <div class="js-focus-state mb-4">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Drop-of to</span>
+                                                <div class="js-focus-state mb-4">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Pick Up Date</span>
+                                                <div class="js-focus-state mb-4">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperPick" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
+                                                                 data-rp-wrapper="#datepickerWrapperPick"
+                                                                 data-rp-date-format="M d /Y">
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Return Time</span>
+                                                <div class="js-focus-state mb-4 pb-1">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperReturn" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
+                                                                 data-rp-wrapper="#datepickerWrapperReturn"
+                                                                 data-rp-date-format="M d /Y">
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pb-4 mb-2">
+                                        <a href="https://goo.gl/maps/kCVqYkjHX3XvoC4B9" class="d-block border">
+                                            <img src="../../assets/img/map-markers/map.jpg" alt="" width="100%">
+                                        </a>
+                                    </div>
+                                    <!-- Checkboxes -->
+                                    <div class="sidenav border">
+                                    <!-- Accordiaon -->
+                                    <div id="shopCartAccordion" class="accordion rounded shadow-none">
+                                        <div class="border-0">
+                                            <div class="card-collapse" id="shopCardHeadingOne">
+                                                <h3 class="mb-0">
+                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
+                                                        <span class="row align-items-center">
+                                                            <span class="col-9">
+                                                                <span class="d-block font-size-17 font-weight-bold text-dark">Price Range ($)</span>
+                                                            </span>
+                                                            <span class="col-3 text-right">
+                                                                <span class="card-btn-arrow">
+                                                                    <span class="fas fa-chevron-down small"></span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </button>
+                                                </h3>
+                                            </div>
+                                            <div id="shopCardOne" class="collapse show" aria-labelledby="shopCardHeadingOne" data-parent="#shopCartAccordion">
+                                                <div class="card-body pt-0 px-5">
+                                                    <div class="pb-3 mb-1 d-flex text-lh-1">
+                                                        <span>£</span>
+                                                        <span id="rangeSliderExample3MinResult" class=""></span>
+                                                        <span class="mx-0dot5"> — </span>
+                                                        <span>£</span>
+                                                        <span id="rangeSliderExample3MaxResult" class=""></span>
+                                                    </div>
+                                                    <input class="js-range-slider" type="text"
+                                                    data-extra-classes="u-range-slider height-35"
+                                                    data-type="double"
+                                                    data-grid="false"
+                                                    data-hide-from-to="true"
+                                                    data-min="0"
+                                                    data-max="3456"
+                                                    data-from="200"
+                                                    data-to="3456"
+                                                    data-prefix="$"
+                                                    data-result-min="#rangeSliderExample3MinResult"
+                                                    data-result-max="#rangeSliderExample3MaxResult">                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="shopCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
+                                        <div class="border-0">
+                                            <div class="card-collapse" id="shopCategoryHeadingOne">
+                                                <h3 class="mb-0">
+                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
+                                                        <span class="row align-items-center">
+                                                            <span class="col-9">
+                                                                <span class="d-block font-size-17 font-weight-bold text-dark">Categories</span>
+                                                            </span>
+                                                            <span class="col-3 text-right">
+                                                                <span class="card-btn-arrow">
+                                                                    <span class="fas fa-chevron-down small"></span>
+                                                                </span>
+                                                            </span>
+                                                        </span>
+                                                    </button>
+                                                </h3>
+                                            </div>
+                                            <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
+                                                <div class="card-body pt-0 mt-1 px-5">
+                                                      <!-- Checkboxes -->
+                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                          <label class="custom-control-label text-color-1" for="brandAdidas">Convertibles</label>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                          <label class="custom-control-label text-color-1" for="brandNewBalance">Coupes</label>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                          <label class="custom-control-label text-color-1" for="brandNike">Sedan</label>
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                          <label class="custom-control-label text-color-1" for="brandFredPerry">SUV</label>
+                                                        </div>
+                                                      </div>
+                                                      <!-- End Checkboxes -->
+
+                                                      <!-- View More - Collapse -->
+                                                      <div class="collapse" id="collapseBrand">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                          <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="brandGucci">
+                                                            <label class="custom-control-label text-color-1" for="brandGucci">Gucci</label>
+                                                          </div>
+                                                        </div>
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                          <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="brandMango">
+                                                            <label class="custom-control-label text-color-1" for="brandMango">Mango</label>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                      <!-- End View More - Collapse -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Accordion -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 order-md-1 order-lg-2 pb-5 pb-lg-0">
                         <!-- Shop-control-bar Title -->
                         <div class="d-flex justify-content-between align-items-center mb-4">
                             <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1">300 Cars</h3>
@@ -79,16 +275,15 @@
                             </ul>
                         </div>
                         <!-- End shop-control-bar Title -->
-
                         <!-- Nav Links -->
                         <div class="mb-5">
-                            <ul class="nav flex-nowrap border border-radius-3 tab-nav justify-content-lg-center p-1" role="tablist">
+                            <ul class="nav flex-nowrap border border-radius-3 tab-nav align-items-center py-2 px-0" role="tablist">
                                 <li class="nav-item d-flex align-items-center">
-                                    <a href="#" class="nav-link font-weight-normal text-gray-1">Recommended
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-6">Recommended
                                     </a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
+                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-6 font-size-16 text-gray-1 d-flex align-items-center">
                                       <option value="one" selected>Price</option>
                                       <option value="two">Two</option>
                                       <option value="three">Three</option>
@@ -96,7 +291,7 @@
                                     </select>
                                 </li>
                                 <li class="nav-item d-flex align-items-center border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
+                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-6 font-size-16 text-gray-1 d-flex align-items-center">
                                       <option value="one" selected>Stars</option>
                                       <option value="two">Two</option>
                                       <option value="three">Three</option>
@@ -104,15 +299,15 @@
                                     </select>
                                 </li>
                                 <li class="nav-item d-flex align-items-center border-left">
-                                    <a href="#" class="nav-link font-weight-normal text-gray-1">Guest Rating
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-6">Guest Rating
                                     </a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center border-left">
-                                    <a href="#" class="nav-link font-weight-normal text-gray-1">Distance
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-6">Distance
                                     </a>
                                 </li>
                                 <li class="nav-item d-flex align-items-center border-left">
-                                    <a href="#" class="nav-link font-weight-normal text-gray-1">Top Reviewed
+                                    <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-6">Top Reviewed
                                     </a>
                                 </li>
                             </ul>
@@ -134,28 +329,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1024,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -175,11 +349,12 @@
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg"></a>
                                                                 </div>
                                                             </div>
+
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -269,28 +444,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -314,7 +468,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -404,28 +558,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -449,7 +582,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -539,28 +672,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -584,7 +696,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -674,28 +786,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -719,7 +810,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -809,28 +900,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -854,7 +924,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -944,28 +1014,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -989,7 +1038,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1079,28 +1128,7 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1025,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg"></a>
                                                                 </div>
@@ -1124,7 +1152,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1259,7 +1287,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 md-p-0">
+                                                    <div class="p-4 p-md-0">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1340,22 +1368,22 @@
                                 </ul>
                                 <nav aria-label="Page navigation">
                                     <div class="text-center text-md-left mb-3 text-lh-1">Showing 1–15</div>
-                                    <ul class="list-pagination pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
+                                    <ul class="list-pagination pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-md-center align-items-center py-2">
                                         <li class="page-item">
                                             <a class="page-link border-right pr-3 rounded-0 bg-transparent" href="#" aria-label="Previous">
-                                                <i class="flaticon-left-direction-arrow font-size-12 text-gray-5"></i>
+                                                <i class="flaticon-left-direction-arrow font-size-10 font-weight-bold text-gray-5"></i>
                                                 <span class="sr-only">Previous</span>
                                             </a>
                                         </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14 active" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">5</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">6</a></li>
                                         <li class="page-item">
                                             <a class="page-link border-left pl-3 rounded-0 bg-transparent" href="#" aria-label="Next">
-                                                <i class="flaticon-right-thin-chevron font-size-12 text-gray-5"></i>
+                                                <i class="flaticon-right-thin-chevron font-size-10 font-weight-bold text-gray-5"></i>
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </li>
@@ -2097,22 +2125,22 @@
                                 </div>
                                 <nav aria-label="Page navigation">
                                     <div class="text-center text-md-left mb-3 text-lh-1">Showing 1–15</div>
-                                    <ul class="list-pagination pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
+                                    <ul class="list-pagination pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-md-center align-items-center py-2">
                                         <li class="page-item">
                                             <a class="page-link border-right pr-3 rounded-0 bg-transparent" href="#" aria-label="Previous">
-                                                <i class="flaticon-left-direction-arrow font-size-12 text-gray-5"></i>
+                                                <i class="flaticon-left-direction-arrow font-size-10 font-weight-bold text-gray-5"></i>
                                                 <span class="sr-only">Previous</span>
                                             </a>
                                         </li>
-                                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                        <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">4</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">1</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14 active" href="#">2</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">3</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">4</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">5</a></li>
+                                        <li class="page-item"><a class="page-link font-size-14" href="#">6</a></li>
                                         <li class="page-item">
                                             <a class="page-link border-left pl-3 rounded-0 bg-transparent" href="#" aria-label="Next">
-                                                <i class="flaticon-right-thin-chevron font-size-12 text-gray-5"></i>
+                                                <i class="flaticon-right-thin-chevron font-size-10 font-weight-bold text-gray-5"></i>
                                                 <span class="sr-only">Next</span>
                                             </a>
                                         </li>
@@ -2123,893 +2151,6 @@
                         <!-- End Tab Content -->
                         <!-- End Shop Body -->
                     </div>
-                    <div class="col-xl-3 order-lg-1">
-                        <div class="mb-6">
-                            <div class="pb-4 mb-2">
-                                <div class="sidebar border border-radius-3">
-                                    <div class="p-4 m-1">
-                                        <!-- Input -->
-                                        <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Pick-up From</span>
-                                        <div class="js-focus-state mb-4">
-                                            <div class="input-group border-bottom border-width-2 border-color-1">
-                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                              <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-                                        <!-- Input -->
-                                        <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Drop-of to</span>
-                                        <div class="js-focus-state mb-4">
-                                            <div class="input-group border-bottom border-width-2 border-color-1">
-                                                <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                              <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-                                        <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Pick Up Date</span>
-                                        <div class="js-focus-state mb-4">
-                                            <div class="border-bottom border-width-2 border-color-1">
-                                                <div id="datepickerWrapperFrom" class="u-datepicker input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="d-flex align-items-center mr-2 font-size-21">
-                                                          <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                        </span>
-                                                    </div>
-                                                    <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
-                                                         data-rp-wrapper="#datepickerWrapperFrom"
-                                                         data-rp-date-format="M d /Y">
-                                                </div>
-                                                <!-- End Datepicker -->
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-                                        <!-- Input -->
-                                        <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Return Time</span>
-                                        <div class="js-focus-state mb-4 pb-1">
-                                            <div class="border-bottom border-width-2 border-color-1">
-                                                <div id="datepickerWrapperFrom" class="u-datepicker input-group">
-                                                    <div class="input-group-prepend">
-                                                        <span class="d-flex align-items-center mr-2 font-size-21">
-                                                          <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                        </span>
-                                                    </div>
-                                                    <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
-                                                         data-rp-wrapper="#datepickerWrapperFrom"
-                                                         data-rp-date-format="M d /Y">
-                                                </div>
-                                                <!-- End Datepicker -->
-                                            </div>
-                                        </div>
-                                        <!-- End Input -->
-
-                                        <div class="text-center">
-                                            <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="pb-4 mb-2">
-                                <a href="https://goo.gl/maps/kCVqYkjHX3XvoC4B9" class="d-block border">
-                                    <img src="../../assets/img/map-markers/map.jpg" alt="" width="100%">
-                                </a>
-                            </div>
-                            <!-- Checkboxes -->
-                            <div class="sidenav border">
-                            <!-- Accordiaon -->
-                            <div id="shopCartAccordion" class="accordion rounded shadow-none">
-                                <div class="border-0">
-                                    <div class="card-collapse" id="shopCardHeadingOne">
-                                        <h3 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
-                                                <span class="row align-items-center">
-                                                    <span class="col-9">
-                                                        <span class="d-block font-size-17 font-weight-bold text-dark">Price Range ($)</span>
-                                                    </span>
-                                                    <span class="col-3 text-right">
-                                                        <span class="card-btn-arrow">
-                                                            <span class="fas fa-chevron-down small"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                            </button>
-                                        </h3>
-                                    </div>
-                                    <div id="shopCardOne" class="collapse show" aria-labelledby="shopCardHeadingOne" data-parent="#shopCartAccordion">
-                                        <div class="card-body pt-0 px-5">
-                                            <div class="pb-3 mb-1 d-flex text-lh-1">
-                                                <span>£</span>
-                                                <span id="rangeSliderExample3MinResult" class=""></span>
-                                                <span class="mx-0dot5"> — </span>
-                                                <span>£</span>
-                                                <span id="rangeSliderExample3MaxResult" class=""></span>
-                                            </div>
-                                            <input class="js-range-slider" type="text"
-                                            data-extra-classes="u-range-slider height-35"
-                                            data-type="double"
-                                            data-grid="false"
-                                            data-hide-from-to="true"
-                                            data-min="0"
-                                            data-max="3456"
-                                            data-from="200"
-                                            data-to="3456"
-                                            data-prefix="$"
-                                            data-result-min="#rangeSliderExample3MinResult"
-                                            data-result-max="#rangeSliderExample3MaxResult">                                
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="shopCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
-                                <div class="border-0">
-                                    <div class="card-collapse" id="shopCategoryHeadingOne">
-                                        <h3 class="mb-0">
-                                            <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
-                                                <span class="row align-items-center">
-                                                    <span class="col-9">
-                                                        <span class="d-block font-size-17 font-weight-bold text-dark">Categories</span>
-                                                    </span>
-                                                    <span class="col-3 text-right">
-                                                        <span class="card-btn-arrow">
-                                                            <span class="fas fa-chevron-down small"></span>
-                                                        </span>
-                                                    </span>
-                                                </span>
-                                            </button>
-                                        </h3>
-                                    </div>
-                                    <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
-                                        <div class="card-body pt-0 mt-1 px-5">
-                                              <!-- Checkboxes -->
-                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                <div class="custom-control custom-checkbox">
-                                                  <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                                  <label class="custom-control-label text-color-1" for="brandAdidas">Convertibles</label>
-                                                </div>
-                                              </div>
-                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                <div class="custom-control custom-checkbox">
-                                                  <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                                  <label class="custom-control-label text-color-1" for="brandNewBalance">Coupes</label>
-                                                </div>
-                                              </div>
-                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                <div class="custom-control custom-checkbox">
-                                                  <input type="checkbox" class="custom-control-input" id="brandNike">
-                                                  <label class="custom-control-label text-color-1" for="brandNike">Sedan</label>
-                                                </div>
-                                              </div>
-                                              <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                <div class="custom-control custom-checkbox">
-                                                  <input type="checkbox" class="custom-control-input" id="brandFredPerry">
-                                                  <label class="custom-control-label text-color-1" for="brandFredPerry">SUV</label>
-                                                </div>
-                                              </div>
-                                              <!-- End Checkboxes -->
-
-                                              <!-- View More - Collapse -->
-                                              <div class="collapse" id="collapseBrand">
-                                                <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                  <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brandGucci">
-                                                    <label class="custom-control-label text-color-1" for="brandGucci">Gucci</label>
-                                                  </div>
-                                                </div>
-                                                <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                  <div class="custom-control custom-checkbox">
-                                                    <input type="checkbox" class="custom-control-input" id="brandMango">
-                                                    <label class="custom-control-label text-color-1" for="brandMango">Mango</label>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <!-- End View More - Collapse -->
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End Accordion -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="cars-list">
-                    <!-- Shop-control-bar Title -->
-                    <div class="d-md-flex justify-content-md-between mb-md-5 align-items-center">
-                        <h3 class="font-size-21 font-weight-bold mb-0 text-center mb-3 mb-md-0">Cars</h3>
-                        <div class="filters mb-3 mb-md-0 text-center">
-                            <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
-                                <option value="one" selected>Sort by</option>
-                                <option value="two">Sort by popularity</option>
-                                <option value="three">Sort by average rating</option>
-                                <option value="four">Sort by latest</option>
-                                <option value="four">Sort by price: low to high</option>
-                                <option value="four">Sort by price: high to low</option>
-                            </select>
-                            <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn btn-primary text-white dropdown-toggle btn-sm px-4 font-size-16 d-flex align-items-center py-2 min-height-50">
-                                <option data-icon="flaticon-filter mr-2" value="one" selected>Show Filter</option>
-                                <option value="two">For Men</option>
-                                <option value="two">For Women</option>
-                                <option value="two">For Boys</option>
-                                <option value="four">For Girls</option>
-                            </select>
-                        </div>
-                    </div>
-                    <!-- End shop-control-bar Title -->
-                    <div class="row">
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img29.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI </span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img30.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">BMW 316 D FaceLift</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> New South Wales, Australia
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img31.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Istanbul , Turkey
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img32.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Honda Civic 2019</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> New York, United States
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img33.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">BMW 316 D FaceLift</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> New South Wales, Australia
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img34.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> New York, United States
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img35.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Istanbul , Turkey
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-3 mb-3 mb-md-4 pb-1">
-                            <div class="card transition-3d-hover shadow-hover-2">
-                                <div class="position-relative">
-                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                        <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img36.jpg">
-                                    </a>
-                                    <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                      <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                        <span class="flaticon-heart-1 font-size-20"></span>
-                                      </button>
-                                    </div>
-                                    <div class="position-absolute bottom-0 left-0 right-0">
-                                        <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI</span>
-                                            </a>
-                                            <div class="text-white my-2">
-                                                <span class="mr-1 font-size-14">From</span>
-                                                <span class="font-weight-bold font-size-19">£899.00</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-body px-4 py-3 border-bottom">
-                                    <a href="#" class="d-block">
-                                        <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                            <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Istanbul , Turkey
-                                        </div>
-                                    </a>
-                                    <div class="mt-1">
-                                        <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                        <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
-                                    </div>
-                                </div>
-                                <div class="px-4 pt-3 pb-2">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-meter font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        49993 mi
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-fuel font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Diesel
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-6">
-                                            <ul class="list-unstyled mb-0">
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-cardinal-points font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Automatic
-                                                    </div>
-                                                </li>
-                                                <li class="media mb-2 text-gray-1 align-items-center">
-                                                    <small class="mr-2">
-                                                        <small class="flaticon-event font-size-16"></small>
-                                                    </small>
-                                                    <div class="media-body font-size-1">
-                                                        Calender
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <nav aria-label="Page navigation">
-                    </div>
-                    <div class="text-center text-md-left mb-3 text-lh-1">Showing 1–15</div>
-                        <ul class="list-pagination pagination border border-color-4 rounded-sm mb-0 overflow-auto overflow-xl-visible justify-content-center py-2">
-                            <li class="page-item">
-                                <a class="page-link border-right pr-3 rounded-0 bg-transparent" href="#" aria-label="Previous">
-                                    <i class="flaticon-left-direction-arrow font-size-12 text-gray-5"></i>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                            </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link active" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#">5</a></li>
-                            <li class="page-item"><a class="page-link" href="#">6</a></li>
-                            <li class="page-item">
-                                <a class="page-link border-left pl-3 rounded-0 bg-transparent" href="#" aria-label="Next">
-                                    <i class="flaticon-right-thin-chevron font-size-12 text-gray-5"></i>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </nav>
                 </div>
             </div>
         </main>
@@ -3540,6 +2681,18 @@
 
             // initialization of forms
             $.HSCore.components.HSRangeSlider.init('.js-range-slider');
+            });
+
+            $('#headerSidebarList [data-toggle="collapse"]').on('click', function (e) {
+              e.preventDefault();
+
+              var target = $(this).data('target');
+
+              if($(this).attr('aria-expanded') === "true") {
+                $(target).collapse('hide');
+              } else {
+                $(target).collapse('show');
+              }
             });
         </script>
     </body>
