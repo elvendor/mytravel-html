@@ -21605,6 +21605,10 @@ button:focus {
   top: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+  -webkit-animation-duration: 210ms;
+          animation-duration: 210ms;
 }
 
 /* Sub Menu */
