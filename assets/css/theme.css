@@ -37420,9 +37420,7 @@ Letter Spacing
 }
 
 .list-item .list-link:active, .list-item .list-link:focus {
-  border-left: 2px solid #377dff;
-  padding-top: .5rem;
-  padding-bottom: .5rem !important;
+  border-left: 2px solid #377dff !important;
 }
 
 .list-item .list-link:active i, .list-item .list-link:active span, .list-item .list-link:focus i, .list-item .list-link:focus span {
