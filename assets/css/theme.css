@@ -33513,16 +33513,25 @@ label.btn {
           transform: none !important;
 }
 
-.u-slick-bordered .slick-current .card {
+.testimonial-quote text,
+.testimonial-quote path {
+  fill: #ebf0f7;
+}
+
+.testimonial-quote i {
+  color: #ebf0f7;
+}
+
+.u-slick-bordered-primary .slick-current .card {
   border-color: #377dff !important;
 }
 
-.u-slick-bordered .slick-current .card .testimonial-quote text,
-.u-slick-bordered .slick-current .card .testimonial-quote path {
+.u-slick-bordered-primary .slick-current .card .testimonial-quote text,
+.u-slick-bordered-primary .slick-current .card .testimonial-quote path {
   fill: #377dff;
 }
 
-.u-slick-bordered .slick-current .card .testimonial-quote i {
+.u-slick-bordered-primary .slick-current .card .testimonial-quote i {
   color: #377dff;
 }
 
@@ -33537,15 +33546,6 @@ label.btn {
 
 .u-slick-bordered-dark .slick-current .card .testimonial-quote i {
   color: #1a2b49;
-}
-
-.testimonial-quote text,
-.testimonial-quote path {
-  fill: #ebf0f7;
-}
-
-.testimonial-quote i {
-  color: #ebf0f7;
 }
 
 /*------------------------------------
