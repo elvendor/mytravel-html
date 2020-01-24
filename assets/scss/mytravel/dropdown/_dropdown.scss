@@ -290,8 +290,8 @@
                     width: 0;
                     top: 100%;
                     transform: translateY(-100%);
-                    // animation-name: slideInUp;
-                    // animation-duration: 216ms;
+                    animation-name: slideInUp;
+                    animation-duration: 210ms;
                 }
             }
 
@@ -350,4 +350,10 @@
         font-weight:bold;
         color: $black;
     }
+}
+
+.collapse_custom {
+  .collapsed .card-btn-arrow  {
+    transform: rotate(-180deg);
+  }
 }

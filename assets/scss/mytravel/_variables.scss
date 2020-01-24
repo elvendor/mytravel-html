@@ -393,8 +393,7 @@ $box-shadow-1:                                              1px 1px 0px 30px rgb
 $box-shadow-2:                                              0px 0px 10px 1px rgba(0, 0, 0, 0.3);
 $box-shadow-3:                                              0px 0px 10px 1px rgba(0, 0, 0, 0.1);
 $box-shadow-4:                                              0px 14px 50px 0px rgba(32, 32, 32, 0.15);
-
-
+$box-shadow-5:                                              0px 0px 50px 0px rgba(32, 32, 32, 0.15);
 
 
 // Links
@@ -488,7 +487,7 @@ $nav-classic-border-color:                                  $gray-300 !default;
 $nav-rounded-border-radius:                                 1.25rem !default;
 $header-divider-color:                                      $gray-3 !default;
 $header-topbar-nav-link-divider-color:                      $white !default;
-$header-topbar-nav-link-divider-dark-color:                 $gray-300 !default;
+$header-topbar-nav-link-divider-dark-color:                 $gray-8 !default;
 
 // Width & Heights
 $nav-icon-width:                                            ($font-size-base * 4) !default;
@@ -566,8 +565,9 @@ $header-promo-margin-y:                                     ($header-nav-groups-
 $header-promo-margin-x:                                     $header-nav-groups-padding !default;
 $header-navbar-paddingY:                                    .25rem !default;
 $header-topbar-nav-link-paddingX:                           1.281rem !default;
-$header-topbar-nav-link-paddingY:                           1.219rem !default;
+$header-topbar-nav-link-lg-paddingY:                        1.219rem !default;
 $header-topbar-nav-link-md-paddingY:                        0.875rem !default;
+$header-topbar-nav-link-paddingY:                           0.594rem !default;
 $header-navbar-brand-padding-top:                           1rem !default;
 $header-navbar-nav-paddingY:                                .625rem !default;
 $header-navbar-nav-paddingY-responsive:                     0 !default;

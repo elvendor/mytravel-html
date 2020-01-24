@@ -246,6 +246,25 @@
 	}
 }
 
+.collapse-link {
+	.plus,
+	.minus {
+		display: none;
+	}
+
+	&[aria-expanded="false"] {
+		.plus {
+			display: block;
+		}
+	}
+
+	&[aria-expanded="true"] {
+		.minus {
+			display: block !important;
+		}
+	}
+}
+
 
 
 /* Nav Steps */
