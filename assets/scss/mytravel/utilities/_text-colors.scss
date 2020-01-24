@@ -76,8 +76,7 @@
 
         }
 
-        &:active,
-        &:focus {
+        &:active {
 
             border-left: 2px solid $primary !important;
 

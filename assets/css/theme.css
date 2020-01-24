@@ -33641,6 +33641,14 @@ label.btn {
   color: #3b444f;
 }
 
+.tab-nav-list .nav-link.active {
+  border-left: 2px solid #377dff !important;
+}
+
+.tab-nav-list .nav-link.active i, .tab-nav-list .nav-link.active span {
+  color: #377dff !important;
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
@@ -37167,6 +37175,12 @@ label.btn {
   height: 50%;
 }
 
+@media (min-width: 768px) {
+  .width-md-50 {
+    width: 50%;
+  }
+}
+
 .width-60 {
   width: 3.75rem;
 }
@@ -37530,11 +37544,11 @@ Letter Spacing
   color: #377dff !important;
 }
 
-.list-tab .list-link:active, .list-tab .list-link:focus {
+.list-tab .list-link:active {
   border-left: 2px solid #377dff !important;
 }
 
-.list-tab .list-link:active i, .list-tab .list-link:active span, .list-tab .list-link:focus i, .list-tab .list-link:focus span {
+.list-tab .list-link:active i, .list-tab .list-link:active span {
   color: #377dff !important;
 }
 
