@@ -357,6 +357,12 @@
   height: 50%;
 }
 
+@include media-breakpoint-up(md) {
+  .width-md-50 {
+    width: 50%;
+  }
+}
+
 .width-60 {
   width: 3.75rem; //60px
 }

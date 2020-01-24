@@ -37175,6 +37175,12 @@ label.btn {
   height: 50%;
 }
 
+@media (min-width: 768px) {
+  .width-md-50 {
+    width: 50%;
+  }
+}
+
 .width-60 {
   width: 3.75rem;
 }
