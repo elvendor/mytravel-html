@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -1124,6 +1125,7 @@
         <script src="../../assets/vendor/jquery-validation/dist/jquery.validate.min.js"></script>
         <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
         <script src="../../assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
 
         <!-- JS MyTravel -->
@@ -1138,6 +1140,7 @@
         <script src="../../assets/js/components/hs.svg-injector.js"></script>
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+        <script src="../../assets/js/components/hs.fancybox.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -1175,6 +1178,9 @@
 
                 // initialization of slick carousel
                 $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+
+                // initialization of popups
+                $.HSCore.components.HSFancyBox.init('.js-fancybox');
 
                 // initialization of datepicker
                 $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
