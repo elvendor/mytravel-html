@@ -260,7 +260,7 @@
 
 	&[aria-expanded="true"] {
 		.minus {
-			display: block;
+			display: block !important;
 		}
 	}
 }

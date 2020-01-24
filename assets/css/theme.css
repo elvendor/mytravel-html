@@ -33692,7 +33692,7 @@ label.btn {
 }
 
 .collapse-link[aria-expanded="true"] .minus {
-  display: block;
+  display: block !important;
 }
 
 /* Nav Steps */
