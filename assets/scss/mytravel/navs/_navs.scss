@@ -247,17 +247,20 @@
 }
 
 .collapse-link {
-
-	.plus {
-
+	.plus,
+	.minus {
 		display: none;
 	}
 
-	&.collapsed {
+	&[aria-expanded="false"] {
+		.plus {
+			display: block;
+		}
+	}
 
-		minus {
-
-			display: none;
+	&[aria-expanded="true"] {
+		.minus {
+			display: block;
 		}
 	}
 }
