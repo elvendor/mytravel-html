@@ -33686,7 +33686,7 @@ label.btn {
   display: none;
 }
 
-.collapse-link .collapse minus {
+.collapse-link.collapsed minus {
   display: none;
 }
 
