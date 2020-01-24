@@ -33692,11 +33692,12 @@ label.btn {
 }
 
 .tab-nav-shop .nav-link {
+  color: #67747c;
   padding: 0.5rem 0.5rem;
 }
 
 .tab-nav-shop .nav-link.active {
-  color: #3b444f;
+  color: #377dff;
 }
 
 .tab-nav-list .nav-link {
