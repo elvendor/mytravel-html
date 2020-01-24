@@ -31663,6 +31663,10 @@ label.btn {
   top: 100%;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
+  -webkit-animation-name: slideInUp;
+          animation-name: slideInUp;
+  -webkit-animation-duration: 210ms;
+          animation-duration: 210ms;
 }
 
 [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .dropdown-connector.shopping-cart > a.active:before {
@@ -31683,6 +31687,10 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+    -webkit-animation-duration: 210ms;
+            animation-duration: 210ms;
   }
 }
 
@@ -31704,6 +31712,10 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+    -webkit-animation-duration: 210ms;
+            animation-duration: 210ms;
   }
 }
 
@@ -31725,6 +31737,10 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+    -webkit-animation-duration: 210ms;
+            animation-duration: 210ms;
   }
 }
 
@@ -31746,6 +31762,10 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+    -webkit-animation-duration: 210ms;
+            animation-duration: 210ms;
   }
 }
 
@@ -31767,6 +31787,10 @@ label.btn {
     top: 100%;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
+    -webkit-animation-name: slideInUp;
+            animation-name: slideInUp;
+    -webkit-animation-duration: 210ms;
+            animation-duration: 210ms;
   }
 }
 
@@ -36182,6 +36206,18 @@ label.btn {
 
 .gradient-overlay-half-bg-white:hover i, .gradient-overlay-half-bg-white:hover h6, .gradient-overlay-half-bg-white:hover span {
   color: #fff !important;
+}
+
+.collapsed.test-gradient::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, transparent 0%, #ffffff 50%);
+  opacity: .7;
+  width: 100%;
+  height: 80px;
+  bottom: 30px;
 }
 
 /*------------------------------------
