@@ -246,12 +246,19 @@
 	}
 }
 
-:not(collapsed) {
+.collapse-link {
 
-	.rectangle {
-		display: inline-block !important;
+	.plus {
+
+		display: none;
 	}
+	&.collapsed {
 
+		minus {
+
+			display: none;
+		}
+	}
 }
 
 
