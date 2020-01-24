@@ -234,18 +234,8 @@
 	}
 
 	&-list {
-		.list-link {
-
-		 	&.hover {
-            
-	            i,span {
-	                color: $primary !important;
-	            }
-	        }
-        
-
-	        &.active,
-	        &.focuse {
+		.nav-link {
+			 &.active {
 
 	            border-left: 2px solid $primary !important;
 
