@@ -246,10 +246,12 @@
 	}
 }
 
-.collapse {
-	#rectangle {
-		display: block;
+:not(collapsed) {
+
+	.rectangle {
+		display: inline-block !important;
 	}
+
 }
 
 

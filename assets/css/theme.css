@@ -33682,6 +33682,10 @@ label.btn {
   color: #377dff !important;
 }
 
+:not(collapsed) .rectangle {
+  display: inline-block !important;
+}
+
 /* Nav Steps */
 .nav-icon .nav-item {
   color: #77838f;
