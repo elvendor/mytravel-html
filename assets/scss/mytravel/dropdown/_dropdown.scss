@@ -351,3 +351,9 @@
         color: $black;
     }
 }
+
+.collapse_custom {
+  .collapsed .card-btn-arrow  {
+    transform: rotate(-180deg);
+  }
+}

@@ -7141,7 +7141,7 @@ input[type="button"].btn-block {
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #fff;
+  color: #97a4af;
   content: ">";
 }
 
@@ -31829,6 +31829,11 @@ label.btn {
   color: #000000;
 }
 
+.collapse_custom .collapsed .card-btn-arrow {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
 /*------------------------------------
   Dropdown Card
 ------------------------------------*/
@@ -33692,7 +33697,7 @@ label.btn {
 }
 
 .collapse-link[aria-expanded="true"] .minus {
-  display: block;
+  display: block !important;
 }
 
 /* Nav Steps */
@@ -34024,6 +34029,20 @@ label.btn {
 ------------------------------------*/
 .u-slick {
   position: relative;
+}
+
+.u-slick__img-overlay .slick-slide:not(.slick-center) {
+  position: relative;
+}
+
+.u-slick__img-overlay .slick-slide:not(.slick-center)::before {
+  background-color: rgba(59, 68, 79, 0.8);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: " ";
 }
 
 .u-slick--transform-off.slick-transform-off .slick-track {
@@ -36559,6 +36578,12 @@ label.btn {
 
 .border-color-14 {
   border-color: #3c3c3c !important;
+}
+
+@media (min-width: 992px) {
+  .border-lg-bottom {
+    border-bottom: 1px solid #ebf0f7;
+  }
 }
 
 .destination {
