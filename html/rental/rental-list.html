@@ -66,148 +66,67 @@
                             <div id="sidebar" class="collapse navbar-collapse">
                                 <div class="mb-6 w-100">
                                     <div class="pb-4 mb-2">
-                                        <div class="sidebar">
-                                            <!-- Search Jobs Form -->
-                                            <div class="card">
-                                                <div class="card-body">
-                                                    <form class="js-validate">
-                                                        <div class="nav-select">
-                                                            <div class="col-sm-12 mb-4 mb-lg-0 ">
-                                                                <span class="d-block text-gray-1 font-weight-normal text-left mb-0">Destination or Hotel Name</span>
-                                                                <!-- Select -->
-                                                                <select class="js-select selectpicker dropdown-select tab-dropdown flaticon-pin-1 d-flex align-items-center text-primary font-weight-semi-bold mb-4" title="Where are you going?"
-                                                                    data-style=""
-                                                                    data-live-search="true"
-                                                                    data-searchbox-classes="input-group-sm">
-                                                                    <option class="border-bottom border-color-1" value="project1" data-content='
-                                                                        <span class="d-flex align-items-center">
-                                                                            <span class="font-size-16">London, United Kingdom</span>
-                                                                        </span>'>
-                                                                        London, United Kingdom
-                                                                    </option>
-                                                                    <option class="border-bottom border-color-1" value="project2" data-content='
-                                                                        <span class="d-flex align-items-center">
-                                                                            <span class="font-size-16">New York, United States</span>
-                                                                        </span>'>
-                                                                        New York, United States
-                                                                    </option>
-                                                                    <option  class="border-bottom border-color-1" value="project3" data-content='
-                                                                        <span class="d-flex align-items-center">
-                                                                            <span class="font-size-16">New South Wales, Australia</span>
-                                                                        </span>'>
-                                                                        New South Wales, Australia
-                                                                    </option>
-                                                                    <option class="border-bottom border-color-1" value="project4" data-content='
-                                                                        <span class="d-flex align-items-center">
-                                                                            <span class="font-size-16">Istanbul, Turkey</span>
-                                                                        </span>'>
-                                                                        Istanbul, Turkey
-                                                                    </option>
-                                                                    <option class="" value="project4" data-content='
-                                                                        <span class="d-flex align-items-center">
-                                                                            <span class="font-size-16">Reykjavík, Iceland</span>
-                                                                        </span>'>
-                                                                        Reykjavík, Iceland
-                                                                    </option>
-                                                                </select>
-                                                                <!-- End Select -->
+                                        <div class="sidebar border border-radius-3">
+                                            <div class="p-4 m-1">
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Pick-up From</span>
+                                                <div class="mb-4">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Drop-of to</span>
+                                                <div class="mb-4">
+                                                    <div class="input-group border-bottom border-width-2 border-color-1">
+                                                        <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
+                                                      <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Pick Up Date</span>
+                                                <div class="mb-4">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperPick" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
                                                             </div>
-                                                            <div class="col-sm-12 mb-4 mb-lg-0 ">
-                                                                <!-- Input -->
-                                                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Check In - Out</span>
-                                                                <div class="border-bottom border-width-2 border-color-1 mb-4">
-                                                                    <div id="datepickerWrapperFromOne" class="u-datepicker input-group">
-                                                                        <div class="input-group-prepend">
-                                                                            <span class="d-flex align-items-center mr-2">
-                                                                              <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                                            </span>
-                                                                        </div>
-                                                                         <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0" type="date"
-                                                                             data-rp-wrapper="#datepickerWrapperFromOne"
-                                                                             data-rp-type="range"
-                                                                             data-rp-date-format="M d / Y"
-                                                                             data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
-                                                                    </div>
-                                                                     <!-- End Datepicker -->
-                                                                </div>
-                                                                <!-- End Input -->
-                                                            </div>
-                                                            <div class="col-sm-12 mb-4 mb-lg-0 dropdown-custom">
-                                                                <!-- Input -->
-                                                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Guests</span>
-                                                                <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex pt-3 pb-2 mb-4" href="javascript:;" role="button"
-                                                                    aria-controls="basicDropdownClick"
-                                                                    aria-haspopup="true"
-                                                                    aria-expanded="false"
-                                                                    data-unfold-event="click"`
-                                                                    data-unfold-target="#basicDropdownClick"
-                                                                    data-unfold-type="css-animation"
-                                                                    data-unfold-duration="300"
-                                                                    data-unfold-delay="300"
-                                                                    data-unfold-hide-on-scroll="true"
-                                                                    data-unfold-animation-in="slideInUp"
-                                                                    data-unfold-animation-out="fadeOut">
-                                                                    <i class="flaticon-plus d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
-                                                                    <span class="text-black font-size-16 font-weight-semi-bold">1 Adult - 0 child</span>
-                                                                </a>
-                                                                <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
-                                                                    <div class="w-100 py-2 px-3 mb-3">
-                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
-                                                                            <div class="d-flex">
-                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
-                                                                                </a>
-                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="w-100 py-2 px-3 mb-3">
-                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
-                                                                            <div class="d-flex">
-                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
-                                                                                </a>
-                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="w-100 py-2 px-3">
-                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
-                                                                            <div class="d-flex">
-                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
-                                                                                </a>
-                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="w-100 text-right py-1 pr-5">
-                                                                        <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- End Input -->
-                                                            </div>
-                                                            <div class="col-sm-12 align-self-lg-end text-md-right mb-2">
-                                                                <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
-                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
+                                                                 data-rp-wrapper="#datepickerWrapperPick"
+                                                                 data-rp-date-format="M d /Y">
                                                         </div>
-                                                      <!-- End Checkbox -->
-                                                    </form>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Return Time</span>
+                                                <div class="mb-4 pb-1">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperReturn" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
+                                                                 data-rp-wrapper="#datepickerWrapperReturn"
+                                                                 data-rp-date-format="M d /Y">
+                                                        </div>
+                                                        <!-- End Datepicker -->
+                                                    </div>
+                                                </div>
+                                                <!-- End Input -->
+
+                                                <div class="text-center">
+                                                    <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
                                                 </div>
                                             </div>
-                                            <!-- End Search Jobs Form -->
                                         </div>
                                     </div>
                                     <div class="pb-4 mb-2">
@@ -364,49 +283,49 @@
                                             </div>
                                             <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
                                                 <div class="card-body pt-0 mt-1 px-5">
-                                                      <!-- Checkboxes -->
-                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                    <!-- Checkboxes -->
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                         <div class="custom-control custom-checkbox">
-                                                          <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                                          <label class="custom-control-label text-color-1" for="brandAdidas">Convertibles</label>
+                                                            <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                            <label class="custom-control-label text-color-1" for="brandAdidas">Convertibles</label>
                                                         </div>
-                                                      </div>
-                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                         <div class="custom-control custom-checkbox">
-                                                          <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                                          <label class="custom-control-label text-color-1" for="brandNewBalance">Coupes</label>
+                                                            <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                            <label class="custom-control-label text-color-1" for="brandNewBalance">Coupes</label>
                                                         </div>
-                                                      </div>
-                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                         <div class="custom-control custom-checkbox">
-                                                          <input type="checkbox" class="custom-control-input" id="brandNike">
-                                                          <label class="custom-control-label text-color-1" for="brandNike">Sedan</label>
+                                                            <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                            <label class="custom-control-label text-color-1" for="brandNike">Sedan</label>
                                                         </div>
-                                                      </div>
-                                                      <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                         <div class="custom-control custom-checkbox">
-                                                          <input type="checkbox" class="custom-control-input" id="brandFredPerry">
-                                                          <label class="custom-control-label text-color-1" for="brandFredPerry">SUV</label>
+                                                            <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                            <label class="custom-control-label text-color-1" for="brandFredPerry">SUV</label>
                                                         </div>
-                                                      </div>
-                                                      <!-- End Checkboxes -->
+                                                    </div>
+                                                    <!-- End Checkboxes -->
 
-                                                      <!-- View More - Collapse -->
-                                                      <div class="collapse" id="collapseBrand">
+                                                    <!-- View More - Collapse -->
+                                                    <div class="collapse" id="collapseBrand">
                                                         <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                          <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="brandGucci">
-                                                            <label class="custom-control-label text-color-1" for="brandGucci">Gucci</label>
-                                                          </div>
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandGucci">
+                                                                <label class="custom-control-label text-color-1" for="brandGucci">Gucci</label>
+                                                            </div>
                                                         </div>
                                                         <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                          <div class="custom-control custom-checkbox">
-                                                            <input type="checkbox" class="custom-control-input" id="brandMango">
-                                                            <label class="custom-control-label text-color-1" for="brandMango">Mango</label>
-                                                          </div>
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandMango">
+                                                                <label class="custom-control-label text-color-1" for="brandMango">Mango</label>
+                                                            </div>
                                                         </div>
-                                                      </div>
-                                                      <!-- End View More - Collapse -->
+                                                    </div>
+                                                    <!-- End View More - Collapse -->
                                                 </div>
                                             </div>
                                         </div>
@@ -484,7 +403,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -495,10 +414,10 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
@@ -518,7 +437,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div clas">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -544,18 +463,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -564,18 +483,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -584,13 +503,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -599,7 +518,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -610,13 +529,13 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
+                                                                </div>
+                                                                <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
-                                                                </div>
-                                                                <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
@@ -632,7 +551,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -658,18 +577,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -678,18 +597,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -698,13 +617,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -713,7 +632,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -723,9 +642,6 @@
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
-                                                                <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
-                                                                </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
                                                                 </div>
@@ -741,12 +657,15 @@
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
+                                                                <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -772,18 +691,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -792,18 +711,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -812,13 +731,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -827,7 +746,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -838,6 +757,9 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
+                                                                </div>
+                                                                <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
@@ -845,9 +767,6 @@
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
-                                                                </div>
-                                                                <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
@@ -860,7 +779,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -886,18 +805,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -906,18 +825,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -926,13 +845,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -941,7 +860,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -951,6 +870,9 @@
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
+                                                                <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
+                                                                </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
@@ -964,9 +886,6 @@
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
-                                                                </div>
-                                                                <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
@@ -974,7 +893,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1000,18 +919,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1020,18 +939,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1040,13 +959,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1055,7 +974,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -1066,13 +985,13 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
+                                                                </div>
+                                                                <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
-                                                                </div>
-                                                                <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
@@ -1088,7 +1007,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1114,18 +1033,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1134,18 +1053,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1154,13 +1073,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1169,7 +1088,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -1179,6 +1098,9 @@
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
+                                                                <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
+                                                                </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
@@ -1192,9 +1114,6 @@
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
-                                                                </div>
-                                                                <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
                                                                 </div>
                                                             </div>
@@ -1202,7 +1121,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1228,18 +1147,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1248,18 +1167,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1268,13 +1187,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1283,7 +1202,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -1294,6 +1213,9 @@
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                                                                 data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
+                                                                </div>
+                                                                <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
@@ -1308,15 +1230,12 @@
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg"></a>
                                                                 </div>
-                                                                <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg"></a>
-                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1342,18 +1261,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1362,18 +1281,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1382,13 +1301,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1397,7 +1316,7 @@
                                     <li class="card mb-5">
                                         <div class="product-item__outer w-100">
                                             <div class="row align-items-center">
-                                                <div class="col-lg-4">
+                                                <div class="col-lg-4 mb-3">
                                                     <div class="product-item__header">
                                                         <div class="position-relative">
                                                             <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
@@ -1406,33 +1325,12 @@
                                                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
                                                                 data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                                                                 data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
-                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0"
-                                                                data-responsive='[{
-                                                                "breakpoint": 1024,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 992,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 768,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }, {
-                                                                "breakpoint": 554,
-                                                                "settings": {
-                                                                "slidesToShow": 1
-                                                                }
-                                                                }]'>
-                                                                <div class="js-slide w-100">
-                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
-                                                                </div>
+                                                                data-pagi-classes="js-pagination text-center u-slick__pagination u-slick__pagination--white position-absolute right-0 bottom-0 left-0 mb-3 mb-0">
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img18.jpg"></a>
+                                                                </div>
+                                                                <div class="js-slide w-100">
+                                                                    <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img17.jpg"></a>
                                                                 </div>
                                                                 <div class="js-slide w-100">
                                                                     <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5 w-100"><img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg"></a>
@@ -1451,7 +1349,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="col col-lg-5dot4">
-                                                    <div class="p-4 p-md-0">
+                                                    <div class="p-4 p-lg-0 min-width-284">
                                                         <div class="position-absolute top-0 right-0 pt-2 pr-5">
                                                             <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                 <span class="flaticon-heart-1 font-size-20"></span>
@@ -1477,18 +1375,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-meter font-size-16"></small>
+                                                                                <small class="flaticon-plans font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                49993 mi
+                                                                                4800 sq ft
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                                <small class="flaticon-bathtub font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Automatic
+                                                                                2 bathrooms
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1497,18 +1395,18 @@
                                                                     <ul class="list-unstyled mb-0">
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-fuel font-size-16"></small>
+                                                                                <small class="flaticon-door font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Diesel
+                                                                                4 Rooms
                                                                             </div>
                                                                         </li>
                                                                         <li class="media mb-2 text-gray-1">
                                                                             <small class="mr-2">
-                                                                                <small class="flaticon-event font-size-16"></small>
+                                                                                <small class="flaticon-bed-1 font-size-16"></small>
                                                                             </small>
                                                                             <div class="media-body font-size-1">
-                                                                                Calender
+                                                                                6 Beds
                                                                             </div>
                                                                         </li>
                                                                     </ul>
@@ -1517,13 +1415,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col text-center border-left">
-                                                    <div class="pt-0 pt-md-6 pb-6">
-                                                        <div class="my-2">
+                                                <div class="col col-lg-2dot6 border-left pl-md-0">
+                                                    <div class="pt-0 pt-lg-6 pb-6 text-center">
+                                                        <div class="my-2 px-2">
                                                             <span class="font-weight-bold font-size-22">£899.00</span>
                                                             <span class="font-size-14"> / night</span>
                                                         </div>
-                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-5">View Detail</button>
+                                                        <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-xl-5">View Detail</button>
                                                     </div>
                                                 </div>
                                             </div>
@@ -1601,18 +1499,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1621,18 +1519,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1681,18 +1579,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1701,18 +1599,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1728,9 +1626,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img19.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -1761,18 +1659,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1781,18 +1679,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1808,9 +1706,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img20.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -1841,18 +1739,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1861,18 +1759,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1888,9 +1786,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img38.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -1921,18 +1819,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1941,18 +1839,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -1968,9 +1866,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img39.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -2001,18 +1899,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2021,18 +1919,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2048,9 +1946,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img40.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -2086,18 +1984,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2106,18 +2004,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2133,9 +2031,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img41.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -2166,18 +2064,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2186,18 +2084,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2213,9 +2111,9 @@
                                                     <img class="min-height-230 bg-img-hero card-img-top" src="../../assets/img/300x230/img42.jpg">
                                                 </a>
                                                 <div class="position-absolute top-0 right-0 pt-5 pr-3">
-                                                  <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
-                                                    <span class="flaticon-heart-1 font-size-20"></span>
-                                                  </button>
+                                                    <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                                        <span class="flaticon-heart-1 font-size-20"></span>
+                                                    </button>
                                                 </div>
                                                 <div class="position-absolute bottom-0 left-0 right-0">
                                                     <div class="px-3 pb-2">
@@ -2246,18 +2144,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-meter font-size-16"></small>
+                                                                    <small class="flaticon-plans font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    49993 mi
+                                                                    4800 sq ft
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-fuel font-size-16"></small>
+                                                                    <small class="flaticon-door font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Diesel
+                                                                    4 Rooms
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -2266,18 +2164,18 @@
                                                         <ul class="list-unstyled mb-0">
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-cardinal-points font-size-16"></small>
+                                                                    <small class="flaticon-bathtub font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Automatic
+                                                                    2 bathrooms
                                                                 </div>
                                                             </li>
                                                             <li class="media mb-2 text-gray-1 align-items-center">
                                                                 <small class="mr-2">
-                                                                    <small class="flaticon-event font-size-16"></small>
+                                                                    <small class="flaticon-bed-1 font-size-16"></small>
                                                                 </small>
                                                                 <div class="media-body font-size-1">
-                                                                    Calender
+                                                                    6 Beds
                                                                 </div>
                                                             </li>
                                                         </ul>
