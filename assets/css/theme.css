@@ -33709,11 +33709,12 @@ label.btn {
 }
 
 .tab-nav-shop .nav-link {
+  color: #67747c;
   padding: 0.5rem 0.5rem;
 }
 
 .tab-nav-shop .nav-link.active {
-  color: #3b444f;
+  color: #377dff;
 }
 
 .tab-nav-list .nav-link {
@@ -37056,6 +37057,10 @@ label.btn {
   min-width: 7rem;
 }
 
+.min-width-170 {
+  min-width: 10.625rem;
+}
+
 @media (min-width: 768px) {
   .min-width-290 {
     min-width: 18.125rem;
@@ -37076,6 +37081,10 @@ label.btn {
 
 .min-width-220 {
   min-width: 13.75rem;
+}
+
+.min-width-284 {
+  min-width: 17.75rem;
 }
 
 .max-width-580 {

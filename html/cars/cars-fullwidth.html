@@ -58,17 +58,18 @@
                     <!-- Shop-control-bar Title -->
                     <div class="d-md-flex justify-content-md-between mb-md-5 align-items-center">
                         <h3 class="font-size-21 font-weight-bold mb-0 text-center mb-3 mb-md-0">Cars</h3>
+                        <div class="d-flex">
+                        <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
+                            <option value="one" selected>Sort by</option>
+                            <option value="two">Sort by popularity</option>
+                            <option value="three">Sort by average rating</option>
+                            <option value="four">Sort by latest</option>
+                            <option value="four">Sort by price: low to high</option>
+                            <option value="four">Sort by price: high to low</option>
+                        </select>
                         <div class="filters mb-3 mb-md-0 text-center">
-                            <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto my-1" data-style="btn-sm px-4 font-size-16 text-gray-1 d-flex align-items-center py-2">
-                                <option value="one" selected>Sort by</option>
-                                <option value="two">Sort by popularity</option>
-                                <option value="three">Sort by average rating</option>
-                                <option value="four">Sort by latest</option>
-                                <option value="four">Sort by price: low to high</option>
-                                <option value="four">Sort by price: high to low</option>
-                            </select>
-                             <!-- Account Sidebar Toggle Button -->
-                            <a id="sidebarNavToggler" class="btn btn-sm btn-primary flaticon-filter" href="javascript:;" role="button"
+                            <!-- Account Sidebar Toggle Button -->
+                            <a id="sidebarNavToggler" class="btn btn-sm btn-primary min-width-170 font-size-16 d-flex align-items-center justify-content-center" href="javascript:;" role="button"
                                aria-controls="sidebarContent"
                                aria-haspopup="true"
                                aria-expanded="false"
@@ -79,6 +80,7 @@
                                data-unfold-animation-in="fadeInLeft"
                                data-unfold-animation-out="fadeOutLeft"
                                data-unfold-duration="500">
+                               <i class="flaticon-filter mr-2 font-size-20"></i>
                                 Show Filters
                             </a>
                             <!-- End Account Sidebar Toggle Button -->
@@ -299,6 +301,7 @@
                                 </div>
                             </aside>
                             <!-- End Sidebar Navigation -->
+                        </div>
                         </div>
                     </div>
                     <!-- End shop-control-bar Title -->
