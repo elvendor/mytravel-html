@@ -47,6 +47,11 @@
             }
           }
         }
+
+        .u-header__navbar-link {
+          padding-top: $header-topbar-nav-link-lg-paddingY;
+          padding-bottom: $header-topbar-nav-link-lg-paddingY;
+        }
       }
     }
   }

@@ -235,14 +235,32 @@
 
 	&-list {
 		.nav-link {
+			padding: .5rem 0;
 			 &.active {
-
-	            border-left: 2px solid $primary !important;
-
-	            i,span {
+			 	border-left: 2px solid $primary !important;
+			 	i,span {
 	                color: $primary !important;
 	            } 
 	        }
+		}
+	}
+}
+
+.collapse-link {
+	.plus,
+	.minus {
+		display: none;
+	}
+
+	&[aria-expanded="false"] {
+		.plus {
+			display: block;
+		}
+	}
+
+	&[aria-expanded="true"] {
+		.minus {
+			display: block !important;
 		}
 	}
 }

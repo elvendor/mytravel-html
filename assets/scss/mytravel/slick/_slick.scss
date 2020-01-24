@@ -3,6 +3,22 @@
 ------------------------------------*/
 .u-slick {
 	position: relative;
+
+	&__img-overlay {
+		.slick-slide:not(.slick-center) {
+			position: relative;
+
+			&::before {
+				background-color: rgba(59, 68, 79, 0.8);
+				position: absolute;
+				right: 0;
+				left: 0;
+				top: 0;
+				bottom: 0;
+				content: " ";
+			}
+		}
+	}
 }
 
 // Disable transform effect
@@ -68,4 +84,3 @@
 		}
 	}
 }
-

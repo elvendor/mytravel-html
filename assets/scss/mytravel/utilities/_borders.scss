@@ -139,3 +139,15 @@
 .border-radius-5 {
 	border-radius: 5px !important;
 }
+
+.border-bottom {
+	@each $breakpoint in map-keys($grid-breakpoints) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+	    @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+	      	&#{$infix} {
+	      		border-bottom: 1px solid $gray-8;
+	      	}
+	    }
+    }
+}
