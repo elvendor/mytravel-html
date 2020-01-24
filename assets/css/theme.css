@@ -7141,7 +7141,7 @@ input[type="button"].btn-block {
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #97a4af;
+  color: #fff;
   content: ">";
 }
 
@@ -33668,6 +33668,10 @@ label.btn {
 
 .tab-nav-shop .nav-link.active {
   color: #3b444f;
+}
+
+.tab-nav-list .nav-link {
+  padding: .5rem 0;
 }
 
 .tab-nav-list .nav-link.active {
