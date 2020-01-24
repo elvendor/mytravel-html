@@ -33772,6 +33772,20 @@ label.btn {
           transform: translate(-50%, -50%);
 }
 
+.terms_tab .list-group .active > .nav-link {
+  border-left: 2px solid #377dff;
+  color: #377dff;
+  font-weight: 600 !important;
+}
+
+.terms_tab .nav-item a {
+  color: #000000;
+}
+
+.terms_tab .nav-item a:hover {
+  color: #377dff;
+}
+
 /*------------------------------------
   Blog Thumb Minimal
 ------------------------------------*/
@@ -36211,7 +36225,7 @@ label.btn {
   color: #fff !important;
 }
 
-.collapsed.test-gradient::before {
+.collapsed.text-gradient::before {
   content: '';
   position: absolute;
   left: 0;

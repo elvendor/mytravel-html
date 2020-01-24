@@ -308,3 +308,23 @@
 	  }
 	}
 }
+
+.terms_tab {
+	.list-group {
+		.active {
+			> .nav-link {
+				border-left: 2px solid $primary;
+				color: $primary;
+				font-weight: 600 !important;
+			}
+		}
+	}
+	.nav-item{
+		a {
+			color:$black;
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+}
