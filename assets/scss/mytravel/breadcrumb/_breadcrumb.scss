@@ -24,12 +24,19 @@
 
 .breadcrumb-item {
     color: $gray-1;
+    font-size: 0.875rem;
 
     a {
         color: $gray-1;
     }
+}
 
+.breadcrumb-item:not(.active) {
     &:hover {
         color: $primary;
+
+        a {
+            color: $primary;
+        }
     }
 }

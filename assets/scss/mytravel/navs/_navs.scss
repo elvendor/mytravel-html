@@ -254,13 +254,14 @@
 
 	&[aria-expanded="false"] {
 		.plus {
-			display: block;
+			display: flex;
 		}
 	}
 
 	&[aria-expanded="true"] {
 		.minus {
-			display: block !important;
+			display: flex;
+			padding: 0.4rem 0;
 		}
 	}
 }
