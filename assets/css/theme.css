@@ -33736,12 +33736,13 @@ label.btn {
 .collapse-link[aria-expanded="false"] .plus {
   display: -ms-flexbox;
   display: flex;
+  padding: .2rem .4rem;
 }
 
 .collapse-link[aria-expanded="true"] .minus {
   display: -ms-flexbox;
   display: flex;
-  padding: 0.4rem 0;
+  padding: .7rem .4rem;
 }
 
 /* Nav Steps */
@@ -36817,6 +36818,40 @@ label.btn {
   }
 }
 
+.flex-center-between {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.flex-content-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.flex-horizontal-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+/* Vertical Center Alignment */
+.position-absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 /*------------------------------------
   Margin Spacing
 ------------------------------------*/
@@ -37059,6 +37094,10 @@ label.btn {
   min-width: 11.125rem;
 }
 
+.min-width-300 {
+  min-width: 18.75rem;
+}
+
 @media (max-width: 575.98px) {
   .w-max-100 {
     width: 100% !important;
@@ -37111,6 +37150,10 @@ label.btn {
   width: 8.438rem !important;
 }
 
+.width-45 {
+  width: 2.813rem;
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -37128,6 +37171,10 @@ label.btn {
 
 .height-40vh {
   height: 40vh;
+}
+
+.height-45 {
+  height: 2.813rem;
 }
 
 .height-51 {
