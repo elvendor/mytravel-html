@@ -7141,7 +7141,7 @@ input[type="button"].btn-block {
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #97a4af;
+  color: #67747c;
   content: ">";
 }
 
@@ -7154,7 +7154,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item.active {
-  color: #77838f;
+  color: #67747c;
 }
 
 .pagination {
@@ -30244,19 +30244,29 @@ label.btn {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.breadcrumb-white .breadcrumb-item .breadcrumb-page-header:before {
-  display: inline-block;
-  padding-right: 0.5rem;
-  color: #fff;
-  content: ">";
-}
-
 .breadcrumb-white .breadcrumb-link {
   color: rgba(255, 255, 255, 0.7);
 }
 
 .breadcrumb-no-gutter {
   padding: 0;
+}
+
+.breadcrumb-item {
+  color: #67747c;
+  font-size: 0.875rem;
+}
+
+.breadcrumb-item a {
+  color: #67747c;
+}
+
+.breadcrumb-item:not(.active):hover {
+  color: #377dff;
+}
+
+.breadcrumb-item:not(.active):hover a {
+  color: #377dff;
 }
 
 /*------------------------------------
@@ -36220,7 +36230,7 @@ label.btn {
   color: #fff !important;
 }
 
-.collapsed.test-gradient::before {
+.collapsed.text-gradient::before {
   content: '';
   position: absolute;
   left: 0;
@@ -36809,6 +36819,40 @@ label.btn {
   }
 }
 
+.flex-center-between {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+.flex-content-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.flex-horizontal-center {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+/* Vertical Center Alignment */
+.position-absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 /*------------------------------------
   Margin Spacing
 ------------------------------------*/
@@ -37059,6 +37103,10 @@ label.btn {
   min-width: 11.125rem;
 }
 
+.min-width-300 {
+  min-width: 18.75rem;
+}
+
 @media (max-width: 575.98px) {
   .w-max-100 {
     width: 100% !important;
@@ -37111,6 +37159,10 @@ label.btn {
   width: 8.438rem !important;
 }
 
+.width-45 {
+  width: 2.813rem;
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -37128,6 +37180,10 @@ label.btn {
 
 .height-40vh {
   height: 40vh;
+}
+
+.height-45 {
+  height: 2.813rem;
 }
 
 .height-51 {

@@ -11,15 +11,6 @@
     + .breadcrumb-item::before {
       color: $white-color-70;
     }
-
-    .breadcrumb-page-header {
-      &:before {
-        display: inline-block;
-        padding-right: 0.5rem;
-        color: $white;
-        content: ">";
-      }
-    }
   }
 
   .breadcrumb-link {
@@ -29,4 +20,23 @@
 
 .breadcrumb-no-gutter {
   padding: 0;
+}
+
+.breadcrumb-item {
+    color: $gray-1;
+    font-size: 0.875rem;
+
+    a {
+        color: $gray-1;
+    }
+}
+
+.breadcrumb-item:not(.active) {
+    &:hover {
+        color: $primary;
+
+        a {
+            color: $primary;
+        }
+    }
 }

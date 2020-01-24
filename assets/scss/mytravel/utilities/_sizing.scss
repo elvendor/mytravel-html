@@ -112,6 +112,10 @@
     min-width: 11.125rem; //178px
 }
 
+.min-width-300 {
+    min-width: 18.75rem;
+}
+
 .w-max {
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
@@ -143,6 +147,10 @@
   width: 8.438rem !important;  //135px
 }
 
+.width-45 {
+    width: 2.813rem;
+}
+
 
 /*------------------------------------
   Height
@@ -161,6 +169,10 @@
 
 .height-40vh {
   height: 40vh;
+}
+
+.height-45 {
+    height: 2.813rem;
 }
 
 .height-51 {
