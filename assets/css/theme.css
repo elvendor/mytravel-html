@@ -33719,12 +33719,13 @@ label.btn {
 .collapse-link[aria-expanded="false"] .plus {
   display: -ms-flexbox;
   display: flex;
+  padding: .2rem 0;
 }
 
 .collapse-link[aria-expanded="true"] .minus {
   display: -ms-flexbox;
   display: flex;
-  padding: 0.4rem 0;
+  padding: .7rem 0;
 }
 
 /* Nav Steps */
