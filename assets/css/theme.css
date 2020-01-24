@@ -33688,11 +33688,14 @@ label.btn {
 }
 
 .collapse-link[aria-expanded="false"] .plus {
-  display: block;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .collapse-link[aria-expanded="true"] .minus {
-  display: block !important;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.4rem 0;
 }
 
 /* Nav Steps */
