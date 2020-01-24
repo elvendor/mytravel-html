@@ -226,9 +226,10 @@
 
 	&-shop {
 		.nav-link {
+			color: $gray-1;;
 			padding: 0.5rem 0.5rem;
 			&.active {
-				color: $dark;
+				color: $primary;
 			}
 		}
 	}
@@ -255,13 +256,14 @@
 	&[aria-expanded="false"] {
 		.plus {
 			display: flex;
+			padding: .2rem .4rem;
 		}
 	}
 
 	&[aria-expanded="true"] {
 		.minus {
 			display: flex;
-			padding: 0.4rem 0;
+			padding: .7rem .4rem;
 		}
 	}
 }
