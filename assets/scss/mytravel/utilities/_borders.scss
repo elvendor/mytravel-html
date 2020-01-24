@@ -92,6 +92,12 @@
 	border-color: $gray-14 !important; 
 }
 
+
+.border-lg-bottom {
+	@include media-breakpoint-up(lg) {
+		border-bottom: 1px solid #ebf0f7;
+	}
+}
 .destination {
     position: relative;
     &::after {
