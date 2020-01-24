@@ -74,7 +74,7 @@ $container-max-widths: (
     $gray-21:                                                   #c1c1c1 !default;
     $gray-22:                                                  #484848 !default;
 
-    
+
     // Colors
     $white:                                                     #fff !default;
     $dark:                                                      $gray-900 !default;
@@ -865,13 +865,13 @@ $table-border-highlighted-color:                            $dark !default;
 $breadcrumb-divider:                                        quote(">");
 
 // Colors
-$breadcrumb-active-color:                                   $paragraph-color !default;
+$breadcrumb-active-color:                                   $gray-1 !default;
 
 // Background Colors
 $breadcrumb-bg:                                             transparent !default;
 
 // Border Colors
-$breadcrumb-divider-color:                                  $gray-500 !default;
+$breadcrumb-divider-color:                                  $gray-1 !default;
 
 // Margin Spaces
 $breadcrumb-margin-bottom:                                  .5rem !default;

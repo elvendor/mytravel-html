@@ -7141,7 +7141,7 @@ input[type="button"].btn-block {
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #97a4af;
+  color: #67747c;
   content: ">";
 }
 
@@ -7154,7 +7154,7 @@ input[type="button"].btn-block {
 }
 
 .breadcrumb-item.active {
-  color: #77838f;
+  color: #67747c;
 }
 
 .pagination {
@@ -30250,6 +30250,18 @@ label.btn {
 
 .breadcrumb-no-gutter {
   padding: 0;
+}
+
+.breadcrumb-item {
+  color: #67747c;
+}
+
+.breadcrumb-item a {
+  color: #67747c;
+}
+
+.breadcrumb-item:hover {
+  color: #377dff;
 }
 
 /*------------------------------------

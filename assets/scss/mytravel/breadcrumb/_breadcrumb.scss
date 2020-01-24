@@ -21,3 +21,15 @@
 .breadcrumb-no-gutter {
   padding: 0;
 }
+
+.breadcrumb-item {
+    color: $gray-1;
+
+    a {
+        color: $gray-1;
+    }
+
+    &:hover {
+        color: $primary;
+    }
+}
