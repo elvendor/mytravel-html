@@ -33641,6 +33641,10 @@ label.btn {
   color: #3b444f;
 }
 
+.tab-nav-list .nav-link {
+  padding: .5rem 0;
+}
+
 .tab-nav-list .nav-link.active {
   border-left: 2px solid #377dff !important;
 }

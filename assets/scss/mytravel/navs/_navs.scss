@@ -235,11 +235,10 @@
 
 	&-list {
 		.nav-link {
+			padding: .5rem 0;
 			 &.active {
-
-	            border-left: 2px solid $primary !important;
-
-	            i,span {
+			 	border-left: 2px solid $primary !important;
+			 	i,span {
 	                color: $primary !important;
 	            } 
 	        }
