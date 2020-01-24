@@ -232,6 +232,19 @@
 			}
 		}
 	}
+
+	&-list {
+		.nav-link {
+			 &.active {
+
+	            border-left: 2px solid $primary !important;
+
+	            i,span {
+	                color: $primary !important;
+	            } 
+	        }
+		}
+	}
 }
 
 

@@ -591,6 +591,12 @@ $header-login-form-card-header-padding:                     1.410rem !default;
 $nav-link-padding-y:                                        0.438rem !default;
 $container-fluid-padding:                                   3.75rem !default;
 
+$dropdown-toggle-pseudo-content:                            "\f107" !default;
+
+// Transition
+$dropdown-toggle-arrow-transition:                          $transition-timing !default;
+$dropdown-toggle-arrow-collapse-rotation:                   rotate(-180deg) !default;
+
 // Margin Spaces
 $header-sub-menu-margin-bottom:                             .5rem !default;
 $header-nav-link-icon-margin-left:                          .25rem !default;

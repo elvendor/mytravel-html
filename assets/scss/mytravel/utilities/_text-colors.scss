@@ -64,7 +64,7 @@
     color: $dark-1;
 }
 
-.list-item { 
+.list-tab { 
 
     .list-link {
         
@@ -76,8 +76,7 @@
 
         }
 
-        &:active,
-        &:focus {
+        &:active {
 
             border-left: 2px solid $primary !important;
 
