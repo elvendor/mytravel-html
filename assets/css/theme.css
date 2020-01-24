@@ -34017,6 +34017,20 @@ label.btn {
   position: relative;
 }
 
+.u-slick__img-overlay .slick-slide:not(.slick-center) {
+  position: relative;
+}
+
+.u-slick__img-overlay .slick-slide:not(.slick-center)::before {
+  background-color: rgba(59, 68, 79, 0.8);
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  content: " ";
+}
+
 .u-slick--transform-off.slick-transform-off .slick-track {
   -webkit-transform: none !important;
           transform: none !important;
