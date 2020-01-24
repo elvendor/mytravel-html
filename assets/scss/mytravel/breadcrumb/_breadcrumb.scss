@@ -11,6 +11,15 @@
     + .breadcrumb-item::before {
       color: $white-color-70;
     }
+
+    .breadcrumb-page-header {
+      &:before {
+        display: inline-block;
+        padding-right: 0.5rem;
+        color: $white;
+        content: ">";
+      }
+    }
   }
 
   .breadcrumb-link {

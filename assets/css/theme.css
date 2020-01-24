@@ -30244,6 +30244,13 @@ label.btn {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.breadcrumb-white .breadcrumb-item .breadcrumb-page-header:before {
+  display: inline-block;
+  padding-right: 0.5rem;
+  color: #fff;
+  content: ">";
+}
+
 .breadcrumb-white .breadcrumb-link {
   color: rgba(255, 255, 255, 0.7);
 }
