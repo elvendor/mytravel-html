@@ -254,13 +254,15 @@
 
 	&[aria-expanded="false"] {
 		.plus {
-			display: block;
+			display: flex;
+			padding: .2rem .4rem;
 		}
 	}
 
 	&[aria-expanded="true"] {
 		.minus {
-			display: block !important;
+			display: flex;
+			padding: .7rem .4rem;
 		}
 	}
 }
