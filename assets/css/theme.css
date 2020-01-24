@@ -37005,6 +37005,10 @@ label.btn {
   min-width: 7rem;
 }
 
+.min-width-170 {
+  min-width: 10.625rem;
+}
+
 @media (min-width: 768px) {
   .min-width-290 {
     min-width: 18.125rem;
@@ -37025,6 +37029,10 @@ label.btn {
 
 .min-width-220 {
   min-width: 13.75rem;
+}
+
+.min-width-284 {
+  min-width: 17.75rem;
 }
 
 .max-width-580 {
