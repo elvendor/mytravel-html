@@ -104,13 +104,13 @@
     }
 
     .col-#{$size}-8dot5 {
-       @include media-breakpoint-up($size) {
+       @include media-breakpoint-only($xl) {
             @include make-col(8.5);
        }
     }
 
     .col-#{$size}-3dot5 {
-       @include media-breakpoint-up($size) {
+       @include media-breakpoint-only($xl) {
             @include make-col(3.5);
        }
     }
@@ -134,6 +134,11 @@
     .col-#{$size}-4dot5 {
        @include media-breakpoint-only(lg) {
             @include make-col(4.5);
+       }
+    }
+    .col-#{$size}-2dot9 {
+       @include media-breakpoint-only(xl) {
+            @include make-col(2.9);
        }
     }
 }
