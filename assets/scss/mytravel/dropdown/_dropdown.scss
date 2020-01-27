@@ -102,8 +102,15 @@
     }
 
     &[aria-expanded="true"] {
+      border-left: 2px solid $primary;
+
+      i,span {
+        color: $primary !important;
+      }
+
       &::after {
         transform: $dropdown-toggle-arrow-collapse-rotation;
+        color: $primary !important;
       }
     }
   }

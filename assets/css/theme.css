@@ -31237,9 +31237,18 @@ label.btn {
   transition: 0.3s;
 }
 
+.dropdown-toggle-collapse[aria-expanded="true"] {
+  border-left: 2px solid #377dff;
+}
+
+.dropdown-toggle-collapse[aria-expanded="true"] i, .dropdown-toggle-collapse[aria-expanded="true"] span {
+  color: #377dff !important;
+}
+
 .dropdown-toggle-collapse[aria-expanded="true"]::after {
   -webkit-transform: rotate(-180deg);
           transform: rotate(-180deg);
+  color: #377dff !important;
 }
 
 /* Positions */
