@@ -792,7 +792,7 @@
                             <!-- Input -->
                             <div class="js-focus-state w-100">
                                 <div class="input-group border border-color-8 border-width-2 border-radius-5">
-                                    <input type="text" class="form-control font-size-14" placeholder="Search" aria-label="Company or title">
+                                    <input type="text" class="form-control font-size-14 placeholder-1" placeholder="Search" aria-label="Company or title">
                                     <div class="input-group-append">
                                         <span class="input-group-text">
                                             <i class="flaticon-magnifying-glass font-size-15 text-gray-8"></i>
@@ -802,73 +802,300 @@
                             </div>
                             <!-- End Input -->
                             </form>
+                            <!-- List -->
+                            <ul id="sidebarNav" class="nav tab-nav-list list-unstyled border border-color-7 rounded-xs px-4 pt-4 pb-2 mb-5 flex-column">
+                                <h5 class="font-weight-bold font-size-17 text-gray-6 mb-2 pb-1">All Categories</h5>
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav1Collapse" data-target="#sidebarNav1Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        All
+                                    </a>
 
-                            <div class="py-4 border border-color-7 rounded-xs mb-5">
-                                <h6 class="text-gray-6 font-weight-bold font-size-17 px-4 ml-xl-1 mt-xl-1 mb-5">All Categories</h6>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal ml-1 text-gray-1">All</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Features</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Sliders</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Manage Listings</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Address & Map</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Reservation Requests</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Your Requests</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Search Results</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="mb-4 pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Color Scheme</span>
-                                        </a>
-                                    </li>
-                                    <li class="list-item d-flex align-items-center">
-                                        <a class="pb-1 px-4 list-item-link" href="#">
-                                            <i class="flaticon-right-thin-chevron font-size-10 text-gray-3"></i>
-                                            <span class="font-weight-normal text-gray-1 ml-1">Responsiveness</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                                    <div id="sidebarNav1Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav1" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                            <li><a class="dropdown-item" href="#">Laptops</a></li>
+                                            <li><a class="dropdown-item" href="#">Desktops</a></li>
+                                            <li><a class="dropdown-item" href="#">Gaming consoles</a></li>
+                                            <li><a class="dropdown-item" href="#">Car cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Security cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Digital cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
 
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav2Collapse" data-target="#sidebarNav2Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Features
+                                    </a>
+
+                                    <div id="sidebarNav2Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav2" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                            <li><a class="dropdown-item" href="#">Laptops</a></li>
+                                            <li><a class="dropdown-item" href="#">Desktops</a></li>
+                                            <li><a class="dropdown-item" href="#">Gaming consoles</a></li>
+                                            <li><a class="dropdown-item" href="#">Car cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Security cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Digital cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav3Collapse" data-target="#sidebarNav3Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Sliders
+                                    </a>
+
+                                    <div id="sidebarNav3Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav3" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li>
+                                                <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav3One" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav3One">
+                                                TV & video devices
+                                                </a>
+                                                <ul id="sidebarNav3One" class="collapse list-unstyled" data-parent="#sidebarNav3">
+                                                    <li><a class="dropdown-item" href="#">Accessories</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Home Audio</a></li>
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav3Two" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav3Two">
+                                                Large appliances
+                                              </a>
+                                              <ul id="sidebarNav3Two" class="collapse list-unstyled" data-parent="#sidebarNav3">
+                                                <li><a class="dropdown-item" href="#">Kitchen</a></li>
+                                                <li><a class="dropdown-item" href="#">Living room</a></li>
+                                              </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Cooling & air treatment</a></li>
+                                            <li><a class="dropdown-item" href="#">Vacuums & floor care</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav4Collapse" data-target="#sidebarNav4Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Manage Listings
+                                    </a>
+                                    <div id="sidebarNav4Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav4" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li><a class="dropdown-item" href="#">Food supplements</a></li>
+                                            <li><a class="dropdown-item" href="#">Skincare</a></li>
+                                            <li><a class="dropdown-item" href="#">Makeup</a></li>
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav4One" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav4One">
+                                                Beauty tools
+                                              </a>
+                                              <ul id="sidebarNav4One" class="collapse list-unstyled" data-parent="#sidebarNav4">
+                                                <li><a class="dropdown-item" href="#">Men</a></li>
+                                                <li><a class="dropdown-item" href="#">Women</a></li>
+                                              </ul>
+                                            </li>
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav4Two" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav4Two">
+                                                Medical supplies
+                                              </a>
+                                              <ul id="sidebarNav3Two" class="collapse list-unstyled" data-parent="#sidebarNav3">
+                                                <li><a class="dropdown-item" href="#">Bath & body</a></li>
+                                                <li><a class="dropdown-item" href="#">Hair care</a></li>
+                                                <li><a class="dropdown-item" href="#">Personal care</a></li>
+                                              </ul>
+                                            </li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav5Collapse" data-target="#sidebarNav5Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Address & Map
+                                    </a>
+                                    <div id="sidebarNav5Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav5" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav5One" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav5One">
+                                                Foods
+                                              </a>
+                                              <ul id="sidebarNav5One" class="collapse list-unstyled" data-parent="#sidebarNav5">
+                                                <li><a class="dropdown-item" href="#">Feeding</a></li>
+                                                <li><a class="dropdown-item" href="#">Milk formula</a></li>
+                                              </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Diapering & potty</a></li>
+                                            <li><a class="dropdown-item" href="#">Nursery</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby personal care</a></li>
+                                            <li><a class="dropdown-item" href="#">Clothing & accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby and & toys</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav6Collapse" data-target="#sidebarNav6Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Reservation Requests
+                                    </a>
+
+                                    <div id="sidebarNav6Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav6" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav6One" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav6One">
+                                                Automotive
+                                              </a>
+                                              <ul id="sidebarNav6One" class="collapse list-unstyled" data-parent="#sidebarNav6">
+                                                <li><a class="dropdown-item" href="#">Services & installations</a></li>
+                                                <li><a class="dropdown-item" href="#">Auto oils & fluids</a></li>
+                                              </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Interior accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Exterior accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Car audio</a></li>
+                                            <li><a class="dropdown-item" href="#">Auto care</a></li>
+                                            <li><a class="dropdown-item" href="#">Riding gear</a></li>
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav6Two" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav6Two">
+                                                Motorcycle
+                                              </a>
+                                                <ul id="sidebarNav6Two" class="collapse list-unstyled" data-parent="#sidebarNav6">
+                                                    <li><a class="dropdown-item" href="#">Services & installations</a></li>
+                                                    <li><a class="dropdown-item" href="#">Auto oils & fluids</a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav7Collapse" data-target="#sidebarNav7Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Your Reservations
+                                    </a>
+
+                                    <div id="sidebarNav7Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav7" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                            <li><a class="dropdown-item" href="#">Laptops</a></li>
+                                            <li><a class="dropdown-item" href="#">Desktops</a></li>
+                                            <li><a class="dropdown-item" href="#">Gaming consoles</a></li>
+                                            <li><a class="dropdown-item" href="#">Car cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Security cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Digital cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav8Collapse" data-target="#sidebarNav8Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Search Results
+                                    </a>
+                                    <div id="sidebarNav8Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav8" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav8One" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav8One">
+                                                Foods
+                                              </a>
+                                              <ul id="sidebarNav8One" class="collapse list-unstyled" data-parent="#sidebarNav8">
+                                                <li><a class="dropdown-item" href="#">Feeding</a></li>
+                                                <li><a class="dropdown-item" href="#">Milk formula</a></li>
+                                              </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Diapering & potty</a></li>
+                                            <li><a class="dropdown-item" href="#">Nursery</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby personal care</a></li>
+                                            <li><a class="dropdown-item" href="#">Clothing & accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby and & toys</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav9Collapse" data-target="#sidebarNav9Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Color Schemes
+                                    </a>
+
+                                    <div id="sidebarNav9Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav9" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li><a class="dropdown-item" href="#">Mobiles</a></li>
+                                            <li><a class="dropdown-item" href="#">Tablets</a></li>
+                                            <li><a class="dropdown-item" href="#">Laptops</a></li>
+                                            <li><a class="dropdown-item" href="#">Desktops</a></li>
+                                            <li><a class="dropdown-item" href="#">Gaming consoles</a></li>
+                                            <li><a class="dropdown-item" href="#">Car cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Security cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Digital cameras</a></li>
+                                            <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item mb-2 pb-1">
+                                    <a class="nav-link d-block text-gray-1 font-weight-medium py-2 dropdown-toggle dropdown-toggle-collapse" href="javascript:;" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav10Collapse" data-target="#sidebarNav10Collapse">
+                                        <i class="fas fa-chevron-right font-size-12 mr-1 text-gray-3"></i>
+                                        Responsiveness
+                                    </a>
+
+                                    <div id="sidebarNav10Collapse" class="collapse" data-parent="#sidebarNav">
+                                        <ul id="sidebarNav10" class="list-unstyled">
+                                            <!-- Menu List -->
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav10One" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav10One">
+                                                Automotive
+                                              </a>
+                                              <ul id="sidebarNav10One" class="collapse list-unstyled" data-parent="#sidebarNav10">
+                                                <li><a class="dropdown-item" href="#">Services & installations</a></li>
+                                                <li><a class="dropdown-item" href="#">Auto oils & fluids</a></li>
+                                              </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Interior accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Exterior accessories</a></li>
+                                            <li><a class="dropdown-item" href="#">Car audio</a></li>
+                                            <li><a class="dropdown-item" href="#">Auto care</a></li>
+                                            <li><a class="dropdown-item" href="#">Riding gear</a></li>
+                                            <li>
+                                              <a class="dropdown-item dropdown-toggle dropdown-toggle-collapse" href="javascript:;" data-target="#sidebarNav10Two" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="sidebarNav10Two">
+                                                Motorcycle
+                                              </a>
+                                                <ul id="sidebarNav10Two" class="collapse list-unstyled" data-parent="#sidebarNav10">
+                                                    <li><a class="dropdown-item" href="#">Services & installations</a></li>
+                                                    <li><a class="dropdown-item" href="#">Auto oils & fluids</a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- End Menu List -->
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- End List -->
+                            
                             <div class="border border-color-7 rounded-xs p-4 mb-5">
                                 <h6 class="font-size-17 font-weight-bold text-gray-3 mx-1 mb-3 pb-1">Why Book With Us?</h6>
                                 <div class="d-flex align-items-center mb-3">
@@ -1214,12 +1441,8 @@
                 $.HSCore.components.HSHeader.init($('#header'));
 
                 // initialization of unfold component
-                $.HSCore.components.HSUnfold.init($('[data-unfold-target]'), {
-                  afterOpen: function () {
-                    $(this).find('input[type="search"]').focus();
-                  }
-                });
-
+                $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
+               
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');
 

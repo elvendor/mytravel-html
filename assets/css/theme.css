@@ -32011,6 +32011,26 @@ label.btn {
   background-color: transparent;
 }
 
+.placeholder-1::-webkit-input-placeholder {
+  color: #5c6770;
+}
+
+.placeholder-1::-moz-placeholder {
+  color: #5c6770;
+}
+
+.placeholder-1:-ms-input-placeholder {
+  color: #5c6770;
+}
+
+.placeholder-1::-ms-input-placeholder {
+  color: #5c6770;
+}
+
+.placeholder-1::placeholder {
+  color: #5c6770;
+}
+
 /*------------------------------------
   Form Pill
 ------------------------------------*/
