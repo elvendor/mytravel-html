@@ -31230,6 +31230,7 @@ label.btn {
   font-weight: 900;
   content: "";
   margin-left: .5rem;
+  color: #67747c;
 }
 
 .dropdown-toggle-collapse::after {
@@ -37217,6 +37218,14 @@ label.btn {
 
 .width-45 {
   width: 2.813rem;
+}
+
+.width-80 {
+  width: 5rem;
+}
+
+.width-90 {
+  width: 5.625rem;
 }
 
 /*------------------------------------
