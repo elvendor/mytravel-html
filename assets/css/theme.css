@@ -35152,6 +35152,20 @@ label.btn {
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .col-xs-9dot2 {
+    -ms-flex: 0 0 76.66667%;
+        flex: 0 0 76.66667%;
+    max-width: 76.66667%;
+  }
+}
+
+.col-xs-2dot8 {
+  -ms-flex: 0 0 23.33333%;
+      flex: 0 0 23.33333%;
+  max-width: 23.33333%;
+}
+
 @media (min-width: 576px) {
   .col-sm-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -35338,6 +35352,20 @@ label.btn {
         flex: 0 0 69.16667%;
     max-width: 69.16667%;
   }
+}
+
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .col-sm-9dot2 {
+    -ms-flex: 0 0 76.66667%;
+        flex: 0 0 76.66667%;
+    max-width: 76.66667%;
+  }
+}
+
+.col-sm-2dot8 {
+  -ms-flex: 0 0 23.33333%;
+      flex: 0 0 23.33333%;
+  max-width: 23.33333%;
 }
 
 @media (min-width: 768px) {
@@ -35528,6 +35556,20 @@ label.btn {
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .col-md-9dot2 {
+    -ms-flex: 0 0 76.66667%;
+        flex: 0 0 76.66667%;
+    max-width: 76.66667%;
+  }
+}
+
+.col-md-2dot8 {
+  -ms-flex: 0 0 23.33333%;
+      flex: 0 0 23.33333%;
+  max-width: 23.33333%;
+}
+
 @media (min-width: 992px) {
   .col-lg-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -35714,6 +35756,20 @@ label.btn {
         flex: 0 0 69.16667%;
     max-width: 69.16667%;
   }
+}
+
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .col-lg-9dot2 {
+    -ms-flex: 0 0 76.66667%;
+        flex: 0 0 76.66667%;
+    max-width: 76.66667%;
+  }
+}
+
+.col-lg-2dot8 {
+  -ms-flex: 0 0 23.33333%;
+      flex: 0 0 23.33333%;
+  max-width: 23.33333%;
 }
 
 @media (min-width: 1200px) {
@@ -35904,6 +35960,20 @@ label.btn {
   }
 }
 
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .col-xl-9dot2 {
+    -ms-flex: 0 0 76.66667%;
+        flex: 0 0 76.66667%;
+    max-width: 76.66667%;
+  }
+}
+
+.col-xl-2dot8 {
+  -ms-flex: 0 0 23.33333%;
+      flex: 0 0 23.33333%;
+  max-width: 23.33333%;
+}
+
 @media (min-width: 1480px) {
   .col-wd-2dot2 {
     -ms-flex: 0 0 18.33333%;
@@ -36090,6 +36160,20 @@ label.btn {
         flex: 0 0 69.16667%;
     max-width: 69.16667%;
   }
+}
+
+@media (min-width: 1200px) and (max-width: 1479.98px) {
+  .col-wd-9dot2 {
+    -ms-flex: 0 0 76.66667%;
+        flex: 0 0 76.66667%;
+    max-width: 76.66667%;
+  }
+}
+
+.col-wd-2dot8 {
+  -ms-flex: 0 0 23.33333%;
+      flex: 0 0 23.33333%;
+  max-width: 23.33333%;
 }
 
 @media (min-width: 1200px) {
