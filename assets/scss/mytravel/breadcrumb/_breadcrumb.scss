@@ -41,10 +41,8 @@
     }
 }
 
-.breadcrumb-item {
-  color: $white;
-
-  +.breadcrumb-item::before {
+.custom-breadcrumb-item{
+  &:before {
     color: $white !important;
   }
-}  
+}
