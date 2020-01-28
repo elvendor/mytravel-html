@@ -36172,6 +36172,7 @@ label.btn {
   width: 100%;
   height: 100%;
   content: "";
+  transition: all 0.2s ease-in-out;
 }
 
 .gradient-overlay-half-primary-video-v1::before {
