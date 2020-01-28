@@ -44,7 +44,12 @@
 .breadcrumb-item {
   color: $white;
 
-  +.breadcrumb-item::before {
-    color: $white !important;
+  +.breadcrumb-item 
+
+  .breadcrumb-page-header{
+  
+    ::before {
+      color: $white !important;
+    }
   }
 }  
