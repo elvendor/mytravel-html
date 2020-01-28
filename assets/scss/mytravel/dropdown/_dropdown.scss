@@ -84,6 +84,55 @@
   }
 }
 
+.dropdown-item {
+  display: block;
+  width: 100%; // For `<button>`s
+  padding: $dropdown-item-padding-y $dropdown-item-padding-x1;
+  clear: both;
+  font-weight: $font-weight-normal;
+  color: $dropdown-link-color;
+  text-align: inherit; // For `<button>`s
+  white-space: nowrap; // prevent links from randomly breaking onto new lines
+  background-color: transparent; // For `<button>`s
+  border: 0; // For `<button>`s
+
+  // Prevent dropdown overflow if there's no padding
+  // See https://github.com/twbs/bootstrap/pull/27703
+  @if $dropdown-padding-y == 0 {
+    &:first-child {
+      @include border-top-radius($dropdown-inner-border-radius);
+    }
+
+    &:last-child {
+      @include border-bottom-radius($dropdown-inner-border-radius);
+    }
+  }
+
+  @include hover-focus {
+    color: $dropdown-link-hover-color;
+    text-decoration: none;
+    @include gradient-bg($dropdown-link-hover-bg);
+  }
+
+  &.active,
+  &:active {
+    color: $dropdown-link-active-color;
+    text-decoration: none;
+    @include gradient-bg($dropdown-link-active-bg);
+  }
+
+  &.disabled,
+  &:disabled {
+    color: $dropdown-link-disabled-color;
+    pointer-events: none;
+    background-color: transparent;
+    // Remove CSS gradients if they're enabled
+    @if $enable-gradients {
+      background-image: none;
+    }
+  }
+}
+
 /* Toggle */
 .dropdown-toggle{
   &::after {
@@ -104,6 +153,35 @@
     &[aria-expanded="true"] {
       &::after {
         transform: $dropdown-toggle-arrow-collapse-rotation;
+      }
+    }
+  }
+}
+
+.custom-dropdown-toggle {
+  &::before {
+    display: inline-block;
+    font-family: $font-family-font-awesome-icon;
+    font-size: 60%;
+    font-weight: 900;
+    content: $dropdown-toggle-pseudo-content-1;
+    color: $gray-1;
+    margin-right: .4rem;
+  }
+
+  &-collapse {
+    &::before {
+      transition: $dropdown-toggle-arrow-transition;
+    }
+
+    &[aria-expanded="true"] {
+      border-left: 2px solid $primary !important;
+      span {
+        color: $primary !important;
+      }
+      &::before {
+        transform: $dropdown-toggle-arrow-collapse-rotation-1;
+        color: $primary;
       }
     }
   }
