@@ -27,6 +27,15 @@
     transition: .3s;
   }
 }
+
+.list-pagination-1 {
+  .page-item .page-link:hover {
+    background-color: $primary;
+    color: $white !important;
+    transition: .3s;
+    border-radius: .3125rem !important;
+  }
+}
 .custom-pagination {
 
     .page-link {
