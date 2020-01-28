@@ -85,9 +85,8 @@
 }
 
 .custom-dropdown-item {
+  display: inline;
   padding: $dropdown-item-padding-y $dropdown-item-padding-x1;
-  font-size: 14px;
-  color: $gray-1;
 }
 
 .toggle-item {

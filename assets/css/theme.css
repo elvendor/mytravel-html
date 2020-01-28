@@ -31219,9 +31219,8 @@ label.btn {
 }
 
 .custom-dropdown-item {
+  display: inline;
   padding: 0.375rem 2.5rem;
-  font-size: 14px;
-  color: #67747c;
 }
 
 .toggle-item {
