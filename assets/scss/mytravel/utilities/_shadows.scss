@@ -44,3 +44,9 @@
 .shadow-5 {
     box-shadow: $box-shadow-5;
 }
+
+.hover-shadow-none {
+    &:hover {
+        box-shadow: none;
+    }
+}

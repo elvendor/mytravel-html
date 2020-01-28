@@ -31229,7 +31229,6 @@ label.btn {
   font-size: 80%;
   font-weight: 900;
   content: "";
-  margin-left: .5rem;
   color: #67747c;
 }
 
@@ -37110,6 +37109,10 @@ label.btn {
 
 .shadow-5 {
   box-shadow: 0px 0px 50px 0px rgba(32, 32, 32, 0.15);
+}
+
+.hover-shadow-none:hover {
+  box-shadow: none;
 }
 
 /*------------------------------------
