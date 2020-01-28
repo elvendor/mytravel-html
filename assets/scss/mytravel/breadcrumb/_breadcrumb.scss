@@ -8,10 +8,10 @@
   .breadcrumb-item {
     color: $white;
 
-    + .breadcrumb-item::before {
+    +.breadcrumb-item::before {
       color: $white-color-70;
     }
-  }
+  }  
 
   .breadcrumb-link {
     color: $white-color-70;
@@ -40,3 +40,11 @@
         }
     }
 }
+
+.breadcrumb-item {
+  color: $white;
+
+  +.breadcrumb-item::before {
+    color: $white !important;
+  }
+}  

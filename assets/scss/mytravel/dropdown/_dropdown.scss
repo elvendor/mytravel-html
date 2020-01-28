@@ -86,23 +86,30 @@
 
 /* Toggle */
 .dropdown-toggle{
-  &::after {
+  &::before {
     display: inline-block;
     font-family: $font-family-font-awesome-icon;
     font-size: 80%;
     font-weight: 900;
-    content: $dropdown-toggle-pseudo-content;
-    margin-left: .5rem;
+    content: $dropdown-toggle-pseudo-content-1;
+    color: $gray-1;
   }
 
   &-collapse {
-    &::after {
+    &::before {
       transition: $dropdown-toggle-arrow-transition;
     }
 
     &[aria-expanded="true"] {
-      &::after {
-        transform: $dropdown-toggle-arrow-collapse-rotation;
+      border-left: 2px solid $primary;
+
+      i,span {
+        color: $primary !important;
+      }
+
+      &::before {
+        transform: $dropdown-toggle-arrow-collapse-rotation-1;
+        color: $primary !important;
       }
     }
   }
