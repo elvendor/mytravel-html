@@ -33547,6 +33547,7 @@ label.btn {
 .list-pagination .page-item .page-link:hover {
   background-color: #377dff;
   color: #fff !important;
+  transition: .3s;
 }
 
 .custom-pagination .page-link {
