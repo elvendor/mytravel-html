@@ -30269,11 +30269,7 @@ label.btn {
   color: #377dff;
 }
 
-.breadcrumb-item {
-  color: #fff;
-}
-
-.breadcrumb-item + .breadcrumb-item .breadcrumb-page-header ::before {
+.custom-breadcrumb-item:before {
   color: #fff !important;
 }
 
@@ -33550,7 +33546,7 @@ label.btn {
 
 .list-pagination .page-item .page-link:hover {
   background-color: #377dff;
-  color: #fff;
+  color: #fff !important;
 }
 
 .custom-pagination .page-link {
@@ -37947,6 +37943,10 @@ Letter Spacing
 
 .text-dark-1 {
   color: #1e2022;
+}
+
+.text-gray-16 {
+  color: #18181b;
 }
 
 .list-tab .list-link:hover i, .list-tab .list-link:hover span {

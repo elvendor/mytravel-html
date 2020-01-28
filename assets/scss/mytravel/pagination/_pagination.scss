@@ -23,7 +23,7 @@
 .list-pagination {
   .page-item .page-link:hover {
     background-color: $primary;
-    color: $white;
+    color: $white !important;
   }
 }
 .custom-pagination {
