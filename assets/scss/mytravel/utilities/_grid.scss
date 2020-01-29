@@ -145,7 +145,13 @@
        @include media-breakpoint-up($size) {
            @include make-col(8.5);
        }
-   }
+    }
+
+    .col-#{$size}-8dot45 {
+       @include media-breakpoint-up($size) {
+           @include make-col(8.45);
+       }
+    }
 
 }
 
