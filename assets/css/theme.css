@@ -31444,7 +31444,6 @@ label.btn {
   font-weight: 900;
   content: "";
   margin-left: .5rem;
-  color: #fff;
 }
 
 .dropdown-toggle-collapse::after {
@@ -32106,6 +32105,10 @@ label.btn {
   content: "";
   color: #67747c;
   margin-right: .4rem;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  display: none;
 }
 
 .custom-dropdown .dropdown-toggle-collapse::before {
@@ -33755,7 +33758,7 @@ label.btn {
 .list-pagination-1 .page-item:first-child .page-link, .list-pagination-1 .page-item:last-child .page-link {
   display: -ms-flexbox;
   display: flex;
-  padding: 0.6rem 0.75rem;
+  padding: 0.6rem 0.95rem;
 }
 
 .custom-pagination .page-link {
