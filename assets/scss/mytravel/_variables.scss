@@ -465,7 +465,11 @@ $form-border-color:                                         lighten($gray-400, 8
 $form-border-radius:                                        $border-radius !default;
 $form-pill-border-radius:                                   $border-radius-pill !default;
 
+// Buttons + Forms
+//
+// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
 
+$input-btn-padding-y:                                       .9rem !default;
 
 // Navs
 // =========================================================
