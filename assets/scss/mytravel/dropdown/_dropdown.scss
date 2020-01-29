@@ -84,10 +84,6 @@
   }
 }
 
-.toggle-item {
-  padding: $dropdown-item-padding-y $dropdown-item-padding-x2;
-}
-
 /* Toggle */
 .dropdown-toggle{
   &::after {
@@ -96,7 +92,6 @@
     font-size: 80%;
     font-weight: 900;
     content: $dropdown-toggle-pseudo-content;
-    color: $white;
     margin-left: .5rem;
   }
 
@@ -112,6 +107,8 @@
     }
   }
 }
+
+
 
 /* Positions */
 .dropdown-menu {
@@ -375,6 +372,10 @@
       margin-right: .4rem;
     }
 
+    &::after {
+      display: none;
+    }
+
     &-collapse {
       &::before {
         transition: $dropdown-toggle-arrow-transition;
@@ -399,6 +400,8 @@
     margin-bottom: 1.5rem;
   }
 }
+
+
 
 
 
