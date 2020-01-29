@@ -21394,6 +21394,19 @@ button:focus {
   background-color: #f8fafd;
 }
 
+.custom-social-share a {
+  transition: all 0.2s ease-in-out;
+}
+
+.custom-social-share a:hover {
+  border-color: #377dff !important;
+  background-color: #377dff !important;
+}
+
+.custom-social-share a:hover i {
+  color: #fff !important;
+}
+
 /*------------------------------------
   Header Default
 ------------------------------------*/
@@ -37890,6 +37903,10 @@ Typography Font Size
 
 .font-size-21 {
   font-size: 1.313rem;
+}
+
+.font-size-23 {
+  font-size: 1.438rem;
 }
 
 .font-size-24 {

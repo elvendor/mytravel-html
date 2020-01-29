@@ -119,3 +119,18 @@
 		}
 	}
 }
+
+.custom-social-share {
+	a {
+		transition: $btn-transition;
+		
+		&:hover {
+			border-color: $primary !important;
+			background-color: $primary !important;
+
+			i {
+				color: $white !important;
+			}
+		}
+	}
+}
