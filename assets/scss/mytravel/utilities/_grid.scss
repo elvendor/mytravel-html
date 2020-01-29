@@ -126,7 +126,7 @@
     }
 
     .col-#{$size}-4dot5 {
-       @include media-breakpoint-only(lg) {
+       @include media-breakpoint-up($size) {
             @include make-col(4.5);
        }
     }

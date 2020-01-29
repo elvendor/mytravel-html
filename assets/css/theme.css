@@ -35405,12 +35405,10 @@ label.btn {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  .col-xs-4dot5 {
-    -ms-flex: 0 0 37.5%;
-        flex: 0 0 37.5%;
-    max-width: 37.5%;
-  }
+.col-xs-4dot5 {
+  -ms-flex: 0 0 37.5%;
+      flex: 0 0 37.5%;
+  max-width: 37.5%;
 }
 
 @media (min-width: 1200px) and (max-width: 1479.98px) {
@@ -35599,7 +35597,7 @@ label.btn {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 576px) {
   .col-sm-4dot5 {
     -ms-flex: 0 0 37.5%;
         flex: 0 0 37.5%;
@@ -35797,7 +35795,7 @@ label.btn {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 768px) {
   .col-md-4dot5 {
     -ms-flex: 0 0 37.5%;
         flex: 0 0 37.5%;
@@ -35995,7 +35993,7 @@ label.btn {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
   .col-lg-4dot5 {
     -ms-flex: 0 0 37.5%;
         flex: 0 0 37.5%;
@@ -36193,7 +36191,7 @@ label.btn {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 1200px) {
   .col-xl-4dot5 {
     -ms-flex: 0 0 37.5%;
         flex: 0 0 37.5%;
@@ -36391,7 +36389,7 @@ label.btn {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 1480px) {
   .col-wd-4dot5 {
     -ms-flex: 0 0 37.5%;
         flex: 0 0 37.5%;
