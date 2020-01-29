@@ -31436,10 +31436,6 @@ label.btn {
   margin-right: .5rem;
 }
 
-.toggle-item {
-  padding: 0.375rem 1.7drem;
-}
-
 /* Toggle */
 .dropdown-toggle::after {
   display: inline-block;
@@ -31447,8 +31443,8 @@ label.btn {
   font-size: 80%;
   font-weight: 900;
   content: "";
-  color: #fff;
   margin-left: .5rem;
+  color: #fff;
 }
 
 .dropdown-toggle-collapse::after {
@@ -33754,6 +33750,12 @@ label.btn {
   color: #fff !important;
   transition: .3s;
   border-radius: .3125rem !important;
+}
+
+.list-pagination-1 .page-item:first-child .page-link, .list-pagination-1 .page-item:last-child .page-link {
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0.6rem 0.75rem;
 }
 
 .custom-pagination .page-link {

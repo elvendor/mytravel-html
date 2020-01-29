@@ -84,10 +84,6 @@
   }
 }
 
-.toggle-item {
-  padding: $dropdown-item-padding-y $dropdown-item-padding-x2;
-}
-
 /* Toggle */
 .dropdown-toggle{
   &::after {
@@ -96,8 +92,8 @@
     font-size: 80%;
     font-weight: 900;
     content: $dropdown-toggle-pseudo-content;
-    color: $white;
     margin-left: .5rem;
+    color: $white;
   }
 
   &-collapse {
@@ -112,6 +108,8 @@
     }
   }
 }
+
+
 
 /* Positions */
 .dropdown-menu {
@@ -399,6 +397,8 @@
     margin-bottom: 1.5rem;
   }
 }
+
+
 
 
 
