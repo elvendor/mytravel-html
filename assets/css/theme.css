@@ -32097,6 +32097,10 @@ label.btn {
           transform: rotate(-180deg);
 }
 
+.custom-dropdown .dropdown-toggle {
+  padding: .475rem 1.7rem !important;
+}
+
 .custom-dropdown .dropdown-toggle::before {
   display: inline-block;
   font-family: "Font Awesome 5 Free";
@@ -32134,7 +32138,7 @@ label.btn {
 }
 
 .custom-dropdown .list-item {
-  margin-bottom: 1.5rem;
+  margin-bottom: .5rem;
 }
 
 /*------------------------------------
@@ -33758,7 +33762,7 @@ label.btn {
 .list-pagination-1 .page-item:first-child .page-link, .list-pagination-1 .page-item:last-child .page-link {
   display: -ms-flexbox;
   display: flex;
-  padding: 0.6rem 0.95rem;
+  line-height: 1.6;
 }
 
 .custom-pagination .page-link {
