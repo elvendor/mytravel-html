@@ -71,3 +71,8 @@
 .placeholder-1::placeholder {
     color: $gray-18;
 }
+
+.form-control {
+    @include border-radius($input-border-radius, 5px);
+    @include font-size($form-control-input-font-size);
+}

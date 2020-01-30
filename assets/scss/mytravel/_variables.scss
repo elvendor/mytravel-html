@@ -182,6 +182,7 @@ $theme-colors: map-merge((
   "gray-10":                                                $gray-21,
   "gray-11":                                                $gray-22,
   "gray-23":                                                $gray-23,
+  "gray-33":                                                $gray-3,
   "sea-green":                                              $sea-green,
   "dark-1":                                                 $dark-1,
   "navy":                                                   $navy-blue,
@@ -438,6 +439,8 @@ $link-icon-transition:                                      $transition-timing !
 // Forms
 // =========================================================
 
+$form-control-input-font-size:                              .875rem;
+
 // Text Colors
 $form-focus-addon-color:                                    $primary !default;
 $form-error-addon-color:                                    $danger !default;
@@ -464,10 +467,9 @@ $input-border-radius:                                       $border-radius !defa
 $form-border-color:                                         lighten($gray-400, 8%) !default;
 $form-border-radius:                                        $border-radius !default;
 $form-pill-border-radius:                                   $border-radius-pill !default;
-
-// Buttons + Forms
-//
-// Shared variables that are reassigned to `$input-` and `$btn-` specific variables.
+$input-border-width:                                        2px;
+$input-border-color:                                        $gray-3;
+$input-placeholder-color:                                   $gray-18;
 
 // Navs
 // =========================================================
@@ -1007,7 +1009,7 @@ $input-focus-color:                                         $dark !default;
 $input-group-addon-bg:                                      $white !default;
 
 // Vertical Spaces
-$input-btn-padding-y:                                       .75rem !default;
+$input-btn-padding-y:                                       .9rem !default;
 $input-btn-padding-y-sm:                                    .625rem !default;
 $input-btn-padding-y-lg:                                    1.125rem !default;
 $input-btn-paddingY-xs:                                     .4375rem !default;
