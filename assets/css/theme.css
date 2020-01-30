@@ -38341,6 +38341,12 @@ Typography Font Size
   font-size: 12.5rem;
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .font-size-lg-120 {
+    font-size: 7.5rem;
+  }
+}
+
 /*------------------------------------
 Font Weight
 ------------------------------------*/
