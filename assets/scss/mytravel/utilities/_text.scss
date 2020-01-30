@@ -278,3 +278,11 @@ Letter Spacing
 .text-underline {
     text-decoration: underline;
 }
+
+.line-clamp {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3.5;
+    -webkit-box-orient: vertical;  
+}
