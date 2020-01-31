@@ -121,15 +121,27 @@ Typography Font Size
     font-size: 5rem; //80px
 }
 
+.font-size-xs-40 {
+    @include media-breakpoint-only(xs) {
+        font-size: 2.5rem !important; //40px
+    }
+}
+
 .font-size-xs-30 {
     @include media-breakpoint-only(xs) {
-        font-size: 1.875rem; //14px
+        font-size: 1.875rem !important; //14px
     }
 }
 
 .font-size-xs-20 {
     @include media-breakpoint-only(xs) {
         font-size: 1.25rem; //20px
+    }
+}
+
+.font-size-xs-160 {
+    @include media-breakpoint-only(xs) {
+        font-size: 10rem !important; //160px
     }
 }
 // Medium Devices
@@ -142,6 +154,16 @@ Typography Font Size
 @include media-breakpoint-down(lg) {
     .font-size-lg-15 {
         font-size: 0.938rem;  //15px
+    }
+}
+
+.font-size-200 {
+    font-size: 12.5rem; //200px
+}
+
+@include media-breakpoint-only(lg) {
+    .font-size-lg-120 {
+        font-size: 7.5rem;  //120px
     }
 }
 
