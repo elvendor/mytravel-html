@@ -604,7 +604,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1200px;
   }
 }
 
@@ -25961,7 +25961,13 @@ button:focus {
 }
 
 .u-header-sidebar__content {
-  padding: 1.5rem 3rem 3rem;
+  padding: 1.5rem 1.5rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .u-header-sidebar__content {
+    padding: 1.5rem 3rem 3rem;
+  }
 }
 
 .u-header-sidebar__navbar-brand {
@@ -31224,10 +31230,16 @@ label.btn {
   top: 0;
   right: 0;
   z-index: 1002;
-  width: 23.4375rem;
+  width: 18.75rem;
   height: 100%;
   background-color: #fff;
   box-shadow: -13px 0 20px rgba(119, 131, 143, 0.08);
+}
+
+@media (min-width: 768px) {
+  .u-sidebar {
+    width: 23.4375rem;
+  }
 }
 
 .u-sidebar__body, .u-sidebar__content {
@@ -38145,7 +38157,7 @@ label.btn {
 }
 
 .height-50 {
-  height: 50%;
+  height: 50px;
 }
 
 @media (min-width: 768px) {
