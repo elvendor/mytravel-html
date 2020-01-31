@@ -6381,7 +6381,7 @@ input[type="button"].btn-block {
   pointer-events: none;
   content: "";
   background-color: #fff;
-  border: #97a4af solid 2px;
+  border: #ebf0f7 solid 2px;
 }
 
 .custom-control-label::after {
@@ -6448,7 +6448,7 @@ input[type="button"].btn-block {
   left: calc(-3rem + 4px);
   width: calc(1.313rem - 8px);
   height: calc(1.313rem - 8px);
-  background-color: #97a4af;
+  background-color: #ebf0f7;
   border-radius: 0.6565rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-transform 0.15s ease-in-out;
   transition: transform 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -38969,6 +38969,10 @@ Typography Font Size
 
 .font-size-14 {
   font-size: 0.875rem;
+}
+
+.font-size-15 {
+  font-size: 0.938rem;
 }
 
 .font-size-16 {
