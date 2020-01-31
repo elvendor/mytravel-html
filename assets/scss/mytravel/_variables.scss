@@ -286,7 +286,7 @@ $card-count: map-merge((
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:                                    "Lato", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:                                    "Lato", Helvetica, Arial, sans-serif !default; //'Quicksand', sans-serif;//'Rubik', sans-serif; //"Poppins", Helvetica, Arial, sans-serif !default;
 $font-family-font-awesome-icon:                             "Font Awesome 5 Free" !default;
 
 $font-size-base:                                            1rem !default; // Assumes the browser default, typically 16px

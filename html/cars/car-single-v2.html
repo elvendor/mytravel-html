@@ -13,6 +13,9 @@
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
 
         <!-- CSS Implementing Plugins -->
         <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
@@ -23,6 +26,7 @@
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -715,42 +719,109 @@
                                 </li>
                             </ul>
 
-                            <div class="mb-8">
+                            <div class="mb-8 position-relative">
                                 <!-- Images Carousel -->
-                                <div class="js-slick-carousel u-slick u-slick__img-overlay"
-                                    data-arrows-classes="d-none d-md-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
-                                    data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-md-4 ml-xl-8"
-                                    data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-md-4 mr-xl-8"
+                                <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2"
                                     data-infinite="true"
-                                    data-slides-show="1"
-                                    data-slides-scroll="1"
-                                    data-center-mode="true"
-                                    data-pagi-classes="d-md-none text-center u-slick__pagination mt-5 mb-0"
-                                    data-center-padding="450px"
+                                    data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
+                                    data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
+                                    data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4"
+                                    data-nav-for="#sliderSyncingThumb">
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img1.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img2.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img3.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img4.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img5.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img6.jpg" alt="Image Description">
+                                    </div>
+                                </div>
+                                <div class="position-absolute right-0 mr-3 mt-n11">
+                                    <div class="flex-horizontal-center">
+                                        <!-- Video -->
+                                        <a class="js-fancybox btn btn-white transition-3d-hover py-2 px-5 shadow-6 mr-1" href="javascript:;"
+                                            data-src="//www.youtube.com/watch?v=Vfk5VuUpJ-o"
+                                            data-speed="700">
+                                            <i class="flaticon-movie mr-2 font-size-18 text-primary"></i><span>Video</span>
+                                        </a>
+                                        <!-- End Video -->
+
+                                        <a class="js-fancybox btn btn-white ml-2 py-2 px-5 shadow-6" href="javascript:;"
+                                            data-src="../../assets/img/960x490/img1.jpg"
+                                            data-fancybox="fancyboxGallery6"
+                                            data-caption="MyTravel in frames - image #01"
+                                            data-speed="700">
+                                            <i class="flaticon-gallery mr-2 font-size-18 text-primary"></i><span>Gallery</span>
+                                        </a>
+
+                                        <img class="js-fancybox d-none" alt="Image Description"
+                                        data-fancybox="fancyboxGallery6"
+                                        data-src="../../assets/img/960x490/img2.jpg"
+                                        data-caption="MyTravel in frames - image #02"
+                                        data-speed="700">
+                                        <img class="js-fancybox d-none" alt="Image Description"
+                                        data-caption="MyTravel in frames - image #03"
+                                        data-src="../../assets/img/960x490/img3.jpg"
+                                        data-fancybox="fancyboxGallery6"
+                                        data-speed="700">
+                                        <img class="js-fancybox d-none" alt="Image Description"
+                                        data-fancybox="fancyboxGallery6"
+                                        data-src="../../assets/img/960x490/img4.jpg"
+                                        data-caption="MyTravel in frames - image #04"
+                                        data-speed="700">
+
+                                    </div>
+                                </div>
+
+                                <div id="sliderSyncingThumb" class="js-slick-carousel u-slick u-slick--gutters-4 u-slick--transform-off"
+                                    data-infinite="true"
+                                    data-slides-show="6"
+                                    data-is-thumbs="true"
+                                    data-nav-for="#sliderSyncingNav"
                                     data-responsive='[{
-                                        "breakpoint": 1480,
-                                        "settings": {
-                                            "centerPadding": "300px"
-                                        }
-                                    }, {
-                                        "breakpoint": 1199,
-                                        "settings": {
-                                            "centerPadding": "200px"
-                                        }
-                                    }, {
                                         "breakpoint": 992,
                                         "settings": {
-                                            "centerPadding": "120px"
+                                            "slidesToShow": 4
+                                        }
+                                    }, {
+                                        "breakpoint": 768,
+                                        "settings": {
+                                            "slidesToShow": 3
                                         }
                                     }, {
                                         "breakpoint": 554,
                                         "settings": {
-                                            "centerPadding": "20px"
+                                            "slidesToShow": 2
                                         }
                                     }]'>
-                                    <div class="js-slide bg-img-hero min-height-550" style="background-image: url(../../assets/img/820x550/img1.jpg);"></div>
-                                    <div class="js-slide bg-img-hero min-height-550" style="background-image: url(../../assets/img/820x550/img2.jpg);"></div>
-                                    <div class="js-slide bg-img-hero min-height-550" style="background-image: url(../../assets/img/820x550/img3.jpg);"></div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img1.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img2.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img3.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img4.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img5.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img6.jpg" alt="Image Description">
+                                    </div>
                                 </div>
                                 <!-- End Images Carousel -->
                             </div>
@@ -1993,6 +2064,7 @@
         <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="../../assets/vendor/gmaps/gmaps.min.js"></script>
+        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -2006,6 +2078,7 @@
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
         <script src="../../assets/js/components/hs.quantity-counter.js"></script>
         <script src="../../assets/js/components/hs.g-map.js"></script>
+        <script src="../../assets/js/components/hs.fancybox.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -2038,6 +2111,9 @@
 
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');
+
+                // initialization of popups
+                $.HSCore.components.HSFancyBox.init('.js-fancybox');
 
                 // initialization of datepicker
                 $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
