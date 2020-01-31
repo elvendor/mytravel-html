@@ -779,15 +779,15 @@
                                         </a>
                                     </div>
 
-                                    <div class="sidenav border">
-                                        <div class="border-bottom px-5 py-4 mb-4">
+                                    <div class="sidenav border border-color-8 rounded-xs">
+                                        <div class="border-bottom py-4 mb-4">
                                             <div id="RatingAccordion" class="accordion rounded shadow-none">
                                                <div class="card-collapse" id="shopRatingHeadingOne">
                                                     <h3 class="mb-0">
                                                         <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopRatingOne" aria-expanded="false" aria-controls="shopRatingOne">
                                                             <span class="row align-items-center">
                                                                 <span class="col-9">
-                                                                    <span class="font-weight-bold font-size-17 mb-3">Star Rating</span>
+                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Star Rating</span>
                                                                 </span>
                                                                 <span class="col-3 text-right">
                                                                     <span class="card-btn-arrow">
@@ -798,62 +798,65 @@
                                                         </button>
                                                     </h3>
                                                 </div> 
-                                                <div id="shopRatingOne" class="collapse show" aria-labelledby="shopRatingHeadingOne" data-parent="#shopCartAccordion">
-                                                <!-- Checkboxes -->
-                                                <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="rating1">
-                                                        <label class="custom-control-label letter-spacing-3" for="rating1">
-                                                            <span class="d-block green-lighter ml-1">
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                            </span>
-                                                        </label>
-                                                    </div>                                       
-                                                </div>
+                                                <div id="shopRatingOne" class="collapse show" aria-labelledby="shopRatingHeadingOne" data-parent="#RatingAccordion">
+                                                    <div class="card-body py-0 px-5">
+                                                        <!-- Checkboxes -->
+                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="rating1">
+                                                                <label class="custom-control-label letter-spacing-3" for="rating1">
+                                                                    <span class="d-block green-lighter ml-1">
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </div>                                       
+                                                        </div>
 
-                                                <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="rating2">
-                                                        <label class="custom-control-label letter-spacing-3" for="rating2">
-                                                            <span class="d-block green-lighter ml-1">
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                            </span>
-                                                        </label>
-                                                    </div>                                        
-                                                </div>
+                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="rating2">
+                                                                <label class="custom-control-label letter-spacing-3" for="rating2">
+                                                                    <span class="d-block green-lighter ml-1">
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </div>                                        
+                                                        </div>
 
-                                                <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                  <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="rating3">
-                                                        <label class="custom-control-label letter-spacing-3" for="rating3">
-                                                              <span class="d-block green-lighter ml-1">
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                              </span>
-                                                        </label>
-                                                    </div>                                        
-                                                </div>
+                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
+                                                          <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="rating3">
+                                                                <label class="custom-control-label letter-spacing-3" for="rating3">
+                                                                      <span class="d-block green-lighter ml-1">
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                      </span>
+                                                                </label>
+                                                            </div>                                        
+                                                        </div>
 
-                                                <div class="form-group d-flex align-items-center text-lh-md font-size-15 mb-0">
-                                                    <div class="custom-control custom-checkbox">
-                                                        <input type="checkbox" class="custom-control-input" id="rating4">
-                                                        <label class="custom-control-label letter-spacing-3" for="rating4">
-                                                            <span class="d-block green-lighter ml-1">
-                                                                <span class="fas fa-star"></span>
-                                                                <span class="fas fa-star"></span>
-                                                            </span>
-                                                        </label>
-                                                    </div>        
+                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15 mb-0">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="rating4">
+                                                                <label class="custom-control-label letter-spacing-3" for="rating4">
+                                                                    <span class="d-block green-lighter ml-1">
+                                                                        <span class="fas fa-star"></span>
+                                                                        <span class="fas fa-star"></span>
+                                                                    </span>
+                                                                </label>
+                                                            </div>        
+                                                        </div>
+                                                        <!-- End Checkboxes -->
+                                                    </div>
                                                 </div>
-                                                <!-- End Checkboxes -->
                                             </div>
                                         </div>
 
@@ -908,7 +911,7 @@
                                                         <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
                                                             <span class="row align-items-center">
                                                                 <span class="col-9">
-                                                                    <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark">Categories</span>
+                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Meals</span>
                                                                 </span>
                                                                 <span class="col-3 text-right">
                                                                     <span class="card-btn-arrow">
@@ -921,49 +924,36 @@
                                                 </div>
                                                 <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
                                                     <div class="card-body pt-0 mt-1 px-5">
-                                                          <!-- Checkboxes -->
-                                                          <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                       <!-- Checkboxes -->
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
                                                             <div class="custom-control custom-checkbox">
-                                                              <input type="checkbox" class="custom-control-input" id="brandAdidas">
-                                                              <label class="custom-control-label text-color-1" for="brandAdidas">Convertibles</label>
+                                                                <input type="checkbox" class="custom-control-input" id="1" checked>
+                                                                <label class="custom-control-label text-lh-md" for="1">Breakfast Included</label>
                                                             </div>
-                                                          </div>
-                                                          <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                            <small>749</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
                                                             <div class="custom-control custom-checkbox">
-                                                              <input type="checkbox" class="custom-control-input" id="brandNewBalance">
-                                                              <label class="custom-control-label text-color-1" for="brandNewBalance">Coupes</label>
+                                                                <input type="checkbox" class="custom-control-input" id="2" checked>
+                                                                <label class="custom-control-label text-lh-md" for="2">All-inclusive</label>
                                                             </div>
-                                                          </div>
-                                                          <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                            <small>630</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
                                                             <div class="custom-control custom-checkbox">
-                                                              <input type="checkbox" class="custom-control-input" id="brandNike">
-                                                              <label class="custom-control-label text-color-1" for="brandNike">Sedan</label>
+                                                                <input type="checkbox" class="custom-control-input" id="3" checked>
+                                                                <label class="custom-control-label text-lh-md" for="3">Breakfast & dinner included</label>
                                                             </div>
-                                                          </div>
-                                                          <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                            <small>58</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
                                                             <div class="custom-control custom-checkbox">
-                                                              <input type="checkbox" class="custom-control-input" id="brandFredPerry">
-                                                              <label class="custom-control-label text-color-1" for="brandFredPerry">SUV</label>
+                                                                <input type="checkbox" class="custom-control-input" id="4" checked>
+                                                                <label class="custom-control-label text-lh-md" for="4">Kitchen facilities</label>
                                                             </div>
-                                                          </div>
-                                                          <!-- End Checkboxes -->
-
-                                                          <!-- View More - Collapse -->
-                                                          <div class="collapse" id="collapseBrand">
-                                                            <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="brandGucci">
-                                                                <label class="custom-control-label text-color-1" for="brandGucci">Gucci</label>
-                                                              </div>
-                                                            </div>
-                                                            <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
-                                                              <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="brandMango">
-                                                                <label class="custom-control-label text-color-1" for="brandMango">Mango</label>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <!-- End View More - Collapse -->
+                                                            <small>29</small>
+                                                        </div>
+                                                        <!-- End Checkboxes -->
                                                     </div>
                                                 </div>
                                             </div>
