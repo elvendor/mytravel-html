@@ -33,7 +33,7 @@ $container-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
-  xl: 1170px,
+  xl: 1200px,
   wd: 1320px,
 ) !default;
 
@@ -745,7 +745,8 @@ $search-push-top-banner-box-shadow:                         0 10px 25px rgba($gr
 $sidebar-bg-color:                                          $white !default;
 
 // Width & Heights
-$sidebar-width:             															  23.4375rem !default;
+$sidebar-width:             							    18.75rem !default;
+$sidebar-width-md:             							    23.4375rem !default;
 
 // Z-Index
 $sidebar-z-index:                                           $header-z-index + 1 !default;

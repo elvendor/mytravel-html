@@ -19,6 +19,19 @@
 			}
 		}
 	}
+
+	&__tab {
+		.tab-pane:not(.active) {
+			display: block !important;
+			height: 0 !important;
+			overflow: hidden;
+			padding: 0 !important;
+		}
+
+		.tab-pane.active {
+			height: auto !important;
+		}
+	}
 }
 
 // Disable transform effect

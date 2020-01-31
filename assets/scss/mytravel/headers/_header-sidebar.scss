@@ -10,7 +10,11 @@
 	}
 
 	&__content {
-		padding: 1.5rem 3rem 3rem;
+		padding: 1.5rem 1.5rem 3rem;
+
+		@include media-breakpoint-up(md) {
+			padding: 1.5rem 3rem 3rem;
+		}
 	}
 
 	&__navbar-brand {

@@ -607,7 +607,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1170px;
+    max-width: 1200px;
   }
 }
 
@@ -26429,7 +26429,13 @@ button:focus {
 }
 
 .u-header-sidebar__content {
-  padding: 1.5rem 3rem 3rem;
+  padding: 1.5rem 1.5rem 3rem;
+}
+
+@media (min-width: 768px) {
+  .u-header-sidebar__content {
+    padding: 1.5rem 3rem 3rem;
+  }
 }
 
 .u-header-sidebar__navbar-brand {
@@ -31878,10 +31884,16 @@ label.btn {
   top: 0;
   right: 0;
   z-index: 1002;
-  width: 23.4375rem;
+  width: 18.75rem;
   height: 100%;
   background-color: #fff;
   box-shadow: -13px 0 20px rgba(119, 131, 143, 0.08);
+}
+
+@media (min-width: 768px) {
+  .u-sidebar {
+    width: 23.4375rem;
+  }
 }
 
 .u-sidebar__body, .u-sidebar__content {
@@ -35281,6 +35293,17 @@ label.btn {
   content: " ";
 }
 
+.u-slick__tab .tab-pane:not(.active) {
+  display: block !important;
+  height: 0 !important;
+  overflow: hidden;
+  padding: 0 !important;
+}
+
+.u-slick__tab .tab-pane.active {
+  height: auto !important;
+}
+
 .u-slick--transform-off.slick-transform-off .slick-track {
   -webkit-transform: none !important;
           transform: none !important;
@@ -37997,14 +38020,37 @@ label.btn {
   border-top-right-radius: 0.3125rem;
 }
 
-.rounded-bottom-3 {
-  border-bottom-right-radius: 0.188rem;
-  border-bottom-left-radius: 0.188rem;
-}
-
-.rounded-bottom-3::before, .rounded-bottom-3::after {
-  border-bottom-right-radius: 0.188rem;
-  border-bottom-left-radius: 0.188rem;
+@media (min-width: 1200px) {
+  .border-xl-0 {
+    border: 0 !important;
+  }
+  .border-xl-top-0 {
+    border-top: 0 !important;
+  }
+  .border-xl-right-0 {
+    border-right: 0 !important;
+  }
+  .border-xl-bottom-0 {
+    border-bottom: 0 !important;
+  }
+  .border-xl-left-0 {
+    border-left: 0 !important;
+  }
+  .border-xl {
+    border: 1px solid #e7eaf3 !important;
+  }
+  .border-xl-top {
+    border-top: 1px solid #e7eaf3 !important;
+  }
+  .border-xl-right {
+    border-right: 1px solid #e7eaf3 !important;
+  }
+  .border-xl-bottom {
+    border-bottom: 1px solid #e7eaf3 !important;
+  }
+  .border-xl-left {
+    border-left: 1px solid #e7eaf3 !important;
+  }
 }
 
 .border-color-white {
@@ -38837,7 +38883,7 @@ label.btn {
 }
 
 .height-50 {
-  height: 50%;
+  height: 50px;
 }
 
 @media (min-width: 768px) {

@@ -35,6 +35,10 @@
   background-color: $sidebar-bg-color;
   box-shadow: $sidebar-right-box-shadow;
 
+    @include media-breakpoint-up(md) {
+        width: $sidebar-width-md;
+    }
+
   &__body,
   &__content {
     height: 100%;
