@@ -397,6 +397,11 @@
     height: 50px;
 }
 
+.height-110 {
+    height: 110px;
+    object-fit: cover;
+}
+
 @include media-breakpoint-up(md) {
   .width-md-50 {
     width: 50%;

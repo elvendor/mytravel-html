@@ -35397,6 +35397,16 @@ label.btn {
   margin-right: .9375rem;
 }
 
+.u-slick--gutters-4 {
+  margin-left: -.4rem;
+  margin-right: -.4rem;
+}
+
+.u-slick--gutters-4 .slick-slide {
+  margin-left: .4rem;
+  margin-right: .4rem;
+}
+
 /*------------------------------------
   Slick Zoom
 ------------------------------------*/
@@ -38460,6 +38470,10 @@ label.btn {
   box-shadow: none;
 }
 
+.shadow-6 {
+  box-shadow: 0px 1px 4px 0px rgba(27, 32, 50, 0.3);
+}
+
 /*------------------------------------
   Width
 ------------------------------------*/
@@ -38884,6 +38898,12 @@ label.btn {
 
 .height-50 {
   height: 50px;
+}
+
+.height-110 {
+  height: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 @media (min-width: 768px) {
