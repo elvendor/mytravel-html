@@ -95,6 +95,7 @@ $container-max-widths: (
     $yellow-darker:                                             #efa02e !default;
     $yellow-lighter:                                            #fdd14e !default;
     $yellow-lighter-1:                                          #ffb874 !default;
+    $yellow-lighter-2:                                          #f7bc5a !default;
     $red:                                                       #de4437 !default;
     $red-lighter:                                               #ec5245 !default;
     $red-lighter-1:                                             #ff5a5f !default;
@@ -189,6 +190,7 @@ $theme-colors: map-merge((
   "navy":                                                   $navy-blue,
   "pink":                                                   $pink,
   "dark-2":                                                 $dark-2,
+  "yellow-lighter-2":                                       $yellow-lighter-2,
   ), $theme-colors);
 // stylelint-enable
 

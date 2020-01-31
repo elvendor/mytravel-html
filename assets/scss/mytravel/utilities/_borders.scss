@@ -55,6 +55,16 @@
 	}
 }
 
+.rounded-bottom-3 {
+	@include border-bottom-radius($border-radius-xs);
+
+	&::before,
+	&::after {
+		@include border-bottom-radius($border-radius-xs);
+	}
+}
+
+
 // Border color
 .border-color-white {
 	border-color: rgba( $white, 0.149 ) !important; 
