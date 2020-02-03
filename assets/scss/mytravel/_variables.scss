@@ -124,6 +124,7 @@ $container-max-widths: (
     $dark-1:                                                    #1e2022 !default;
     $dark-2:                                                    #1a2b49 !default;
     $pink:                                                      #ffe5ee !default;
+    $orange:                                                    #f05700 !default;
 
     // Theme Colors
     $primary:                                                   $blue !default;
@@ -191,6 +192,7 @@ $theme-colors: map-merge((
   "pink":                                                   $pink,
   "dark-2":                                                 $dark-2,
   "yellow-lighter-2":                                       $yellow-lighter-2,
+  "orange":                                                 $orange,
   ), $theme-colors);
 // stylelint-enable
 
