@@ -35195,6 +35195,19 @@ label.btn {
   box-shadow: 0 3px 6px 0 rgba(140, 152, 164, 0.25);
 }
 
+.nav-choose .nav-link .rounded-circle {
+  opacity: 0;
+}
+
+.nav-choose .nav-link.active {
+  border-color: #377dff !important;
+  position: relative;
+}
+
+.nav-choose .nav-link.active .rounded-circle {
+  opacity: 1;
+}
+
 .nav .nav-item:not(:first-child) {
   margin-left: .25rem;
 }
@@ -35279,6 +35292,15 @@ label.btn {
 }
 
 .tab-nav-pill .nav-link.active .tabtext {
+  color: #fff;
+}
+
+.tab-nav-pill .nav-item.active {
+  background-color: #1d508d;
+  border-radius: 20px;
+}
+
+.tab-nav-pill .nav-item.active .tabtext {
   color: #fff;
 }
 
@@ -39079,8 +39101,24 @@ label.btn {
   width: 8.438rem !important;
 }
 
+.width-25 {
+  width: 1.563rem;
+}
+
+.width-35 {
+  width: 2.188rem;
+}
+
+.width-40 {
+  width: 2.5rem;
+}
+
 .width-45 {
   width: 2.813rem;
+}
+
+.width-50 {
+  width: 3.125rem;
 }
 
 .width-80 {
@@ -39106,12 +39144,20 @@ label.btn {
   height: 30vh;
 }
 
+.height-25 {
+  height: 1.563rem;
+}
+
 .height-35 {
   height: 2.188rem;
 }
 
 .height-36 {
   height: 36px;
+}
+
+.height-40 {
+  height: 2.5rem;
 }
 
 .height-30vh {
@@ -39124,6 +39170,10 @@ label.btn {
 
 .height-45 {
   height: 2.813rem;
+}
+
+.height-50 {
+  height: 3.125rem;
 }
 
 .height-51 {
@@ -39330,10 +39380,6 @@ label.btn {
   .min-height-xl-100vh {
     min-height: 100vh;
   }
-}
-
-.height-50 {
-  height: 50px;
 }
 
 .height-110 {

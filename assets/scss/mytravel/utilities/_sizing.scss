@@ -147,9 +147,26 @@
   width: 8.438rem !important;  //135px
 }
 
+.width-25 {
+  width: 1.563rem;  //25px
+}
+
+.width-35 {
+  width: 2.188rem;  //35px
+}
+
+.width-40 {
+  width: 2.5rem;  //40px
+}
+
 .width-45 {
   width: 2.813rem;
 }
+
+.width-50 {
+  width: 3.125rem;  //50px
+}
+
 
 .width-80 {
   width: 5rem; //80px
@@ -175,12 +192,20 @@
   height: 30vh;
 }
 
+.height-25 {
+  height: 1.563rem;  //25px
+}
+
 .height-35 {
   height: 2.188rem;  //35px
 }
 
 .height-36 {
   height: 36px;
+}
+
+.height-40 {
+  height: 2.5rem;  //40px
 }
 
 .height-30vh {
@@ -193,6 +218,10 @@
 
 .height-45 {
     height: 2.813rem;
+}
+
+.height-50 {
+  height: 3.125rem;  //50px
 }
 
 .height-51 {
@@ -391,10 +420,6 @@
   .min-height-xl-100vh {
     min-height: 100vh;
   }
-}
-
-.height-50 {
-    height: 50px;
 }
 
 .height-110 {
