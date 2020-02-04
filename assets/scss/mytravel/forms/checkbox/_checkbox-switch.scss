@@ -9,6 +9,7 @@
     &::before {
       left: -($custom-switch-width + $custom-control-gutter + .25rem);
       height: $custom-switch-height;
+      top: $custom-switch-top;
       border: none;
       background-color: $custom-switch-bg;
       @include border-radius($custom-switch-border-radius);
@@ -24,6 +25,20 @@
   .custom-control-input:checked ~ .custom-control-label {
     &::after {
       transform: translateX($custom-switch-width - $custom-control-indicator-size - .5rem);
+    }
+  }
+}
+
+.switch-custom {
+  .custom-control-input:checked ~ .custom-control-label {
+    &::after {
+      transform: translateX(.9rem) !important;
+    }
+  }
+
+  .custom-control-input:checked ~ .custom-control-label {
+    &::before {
+      background-color: $gray-24 !important; 
     }
   }
 }
