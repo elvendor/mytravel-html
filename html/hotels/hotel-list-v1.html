@@ -950,7 +950,7 @@
                         <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1 ml-3 pl-1">London: 3292 hotels found</h3>
                         <!-- Nav Links -->
                         <div class="">
-                            <ul class="nav flex-nowrap tab-nav align-items-center py-2 px-0" role="tablist">
+                            <ul class="nav align-items-center py-2 px-0 ml-2">
                                 <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1">
                                     <a href="#" class="nav-link font-weight-normal text-gray-1 text-lh-1dot6 py-1 px-4 px-wd-5">Recommended
                                     </a>
@@ -1036,6 +1036,7 @@
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
         <script src="../../assets/js/components/hs.quantity-counter.js"></script>
         <script src="../../assets/js/components/hs.g-map.js"></script>
+        <script src="../../assets/js/components/hs.toggle-state.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -1086,6 +1087,9 @@
 
                 // initialization of go to
                 $.HSCore.components.HSGoTo.init('.js-go-to');
+
+                // initialization of toggle state
+                $.HSCore.components.HSToggleState.init('.js-toggle-state');
             });
         </script>
     </body>
