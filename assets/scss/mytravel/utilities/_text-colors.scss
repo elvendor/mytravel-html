@@ -90,3 +90,12 @@
         }
     }
 }
+
+.text-hover-primary {
+    &:hover{
+        background-color: $primary;
+        h6,span {
+            color: $white !important;
+        }
+    }
+}
