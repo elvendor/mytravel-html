@@ -33885,6 +33885,7 @@ label.btn {
 .custom-switch .custom-control-label::before {
   left: -3.25rem;
   height: 1.5rem;
+  top: 0.313rem;
   border: none;
   background-color: #e7eaf3;
   border-radius: 6.1875rem;
@@ -33899,6 +33900,15 @@ label.btn {
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   -webkit-transform: translateX(0.687rem);
           transform: translateX(0.687rem);
+}
+
+.switch-custom .custom-control-input:checked ~ .custom-control-label::after {
+  -webkit-transform: translateX(0.9rem) !important;
+          transform: translateX(0.9rem) !important;
+}
+
+.switch-custom .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #8394ac !important;
 }
 
 /*------------------------------------

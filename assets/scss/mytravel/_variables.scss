@@ -74,6 +74,7 @@ $container-max-widths: (
     $gray-21:                                                   #c1c1c1 !default;
     $gray-22:                                                   #484848 !default;
     $gray-23:                                                   #f4f4f4 !default;
+    $gray-24:                                                   #8394ac !default;
 
 
     // Colors
@@ -1294,6 +1295,7 @@ $custom-switch-indicator-bg-color:                          $white !default;
 // Width & Heights
 $custom-switch-width:                                       2.5rem !default;
 $custom-switch-height:                                      1.5rem !default;
+$custom-switch-top:                                         0.313rem !default;
 
 // Borders
 $custom-switch-border-radius:                               $border-radius-pill !default;
