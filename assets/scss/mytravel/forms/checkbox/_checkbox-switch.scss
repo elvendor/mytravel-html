@@ -9,15 +9,14 @@
     &::before {
       left: -($custom-switch-width + $custom-control-gutter + .25rem);
       height: $custom-switch-height;
-      top: $custom-switch-top;
       border: none;
       background-color: $custom-switch-bg;
       @include border-radius($custom-switch-border-radius);
     }
 
     &::after {
-      top: calc(#{($custom-switch-height / 2) - .125rem});
-      left: calc(#{-($custom-switch-width + $custom-control-gutter) + .125rem});
+      top: calc(#{($custom-switch-height / 2) - .5514rem});
+      left: calc(#{-($custom-switch-width + $custom-control-gutter) + .08rem});
       background-color: $custom-switch-indicator-bg-color;
     }
   }
@@ -38,7 +37,7 @@
 
   .custom-control-input:checked ~ .custom-control-label {
     &::before {
-      background-color: $gray-24 !important; 
+      background-color: $gray-24 !important;
     }
   }
 }

@@ -1294,9 +1294,9 @@ $custom-switch-bg:                                          $gray-300 !default;
 $custom-switch-indicator-bg-color:                          $white !default;
 
 // Width & Heights
-$custom-switch-width:                                       2.5rem !default;
-$custom-switch-height:                                      1.5rem !default;
-$custom-switch-top:                                         0.313rem !default;
+$custom-switch-width:                                       4rem !default;
+$custom-switch-height:                                      1.875rem !default;
+$custom-switch-indicator-size:                              1.25rem;
 
 // Borders
 $custom-switch-border-radius:                               $border-radius-pill !default;
