@@ -164,6 +164,12 @@
             @include make-col(5.5);
        }
     }
+
+    .col-#{$size}-9dot5 {
+       @include media-breakpoint-up($size) {
+            @include make-col(9.5);
+       }
+    }
 }
 
 .container-fluid {

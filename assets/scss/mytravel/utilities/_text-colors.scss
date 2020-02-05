@@ -99,3 +99,10 @@
         }
     }
 }
+
+.hover-bg-gray-1 {
+    &:hover {
+        background-color: $gray-8;
+        transition: .3s;
+    }
+}
