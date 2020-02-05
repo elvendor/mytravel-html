@@ -40089,6 +40089,11 @@ Letter Spacing
   color: #fff !important;
 }
 
+.hover-bg-gray-1:hover {
+  background-color: #ebf0f7;
+  transition: .3s;
+}
+
 /*------------------------------------
   Transitions
 ------------------------------------*/
