@@ -40085,6 +40085,14 @@ Letter Spacing
   color: #377dff !important;
 }
 
+.text-hover-primary:hover {
+  background-color: #377dff;
+}
+
+.text-hover-primary:hover h6, .text-hover-primary:hover span {
+  color: #fff !important;
+}
+
 /*------------------------------------
   Transitions
 ------------------------------------*/

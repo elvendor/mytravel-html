@@ -881,6 +881,691 @@
                     </div>
                 </div>
             </div>
+            <div class="container">
+                <div class="row pt-5 pt-xl-8">
+                    <div class="col-xl-3 mt-xl-1">
+                        <div class="navbar-expand-lg navbar-expand-lg-collapse-block">
+                            <button class="btn d-lg-none mb-5 p-0 collapsed" type="button" data-toggle="collapse" data-target="#sidebar" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="far fa-caret-square-down text-primary font-size-20 card-btn-arrow ml-0"></i>
+                                <span class="text-primary ml-2">Sidebar</span>
+                            </button>
+                            <div id="sidebar" class="collapse navbar-collapse">
+                                <div class="mb-6 w-100">
+                                    <div class="sidenav border border-color-8 rounded-xs">
+                                        <!-- Accordiaon -->
+                                        <div id="shopCategoryAccordion" class="accordion rounded-0 shadow-none">
+                                            <div class="border-0">
+                                                <div class="card-collapse" id="shopCategoryHeadingOne">
+                                                    <h3 class="mb-0">
+                                                        <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCategoryOne" aria-expanded="false" aria-controls="shopCategoryOne">
+                                                            <span class="row align-items-center">
+                                                                <span class="col-9">
+                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Stops
+                                                                    </span>
+                                                                </span>
+                                                                <span class="col-3 text-right">
+                                                                    <span class="card-btn-arrow">
+                                                                        <span class="fas fa-chevron-down small"></span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </h3>
+                                                </div>
+                                                <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
+                                                    <div class="card-body pt-0 mt-1 px-5 pb-4">
+                                                       <!-- Checkboxes -->
+                                                        <div class="form-group font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="1">
+                                                                <label class="custom-control-label" for="1">Non Stop</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="1">
+                                                                <label class="custom-control-label" for="1">1 Stop</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="1">
+                                                                <label class="custom-control-label" for="1">2 Stop</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group font-size-1 text-lh-md text-gray-1 mb-1">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="1">
+                                                                <label class="custom-control-label" for="1">3 Stop</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Checkboxes -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Accordion -->
+                                        <!-- Accordiaon -->
+                                        <div id="shopCartAccordion" class="accordion rounded shadow-none border-top">
+                                            <div class="border-0">
+                                                <div class="card-collapse" id="shopCardHeadingOne">
+                                                    <h3 class="mb-0">
+                                                        <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
+                                                            <span class="row align-items-center">
+                                                                <span class="col-9">
+                                                                    <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark">Price Range ($)</span>
+                                                                </span>
+                                                                <span class="col-3 text-right">
+                                                                    <span class="card-btn-arrow">
+                                                                        <span class="fas fa-chevron-down small"></span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </h3>
+                                                </div>
+                                                <div id="shopCardOne" class="collapse show" aria-labelledby="shopCardHeadingOne" data-parent="#shopCartAccordion">
+                                                    <div class="card-body pt-0 px-5">
+                                                        <div class="pb-3 mb-1 d-flex text-lh-1">
+                                                            <span>£</span>
+                                                            <span id="rangeSliderExample3MinResult" class=""></span>
+                                                            <span class="mx-0dot5"> — </span>
+                                                            <span>£</span>
+                                                            <span id="rangeSliderExample3MaxResult" class=""></span>
+                                                        </div>
+                                                        <input class="js-range-slider" type="text"
+                                                        data-extra-classes="u-range-slider height-35"
+                                                        data-type="double"
+                                                        data-grid="false"
+                                                        data-hide-from-to="true"
+                                                        data-min="0"
+                                                        data-max="3456"
+                                                        data-from="200"
+                                                        data-to="3456"
+                                                        data-prefix="$"
+                                                        data-result-min="#rangeSliderExample3MinResult"
+                                                        data-result-max="#rangeSliderExample3MaxResult">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Accordion -->
+
+                                        <div id="facilityCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
+                                            <div class="border-0">
+                                                <div class="card-collapse" id="facilityCategoryHeadingOne">
+                                                    <h3 class="mb-0">
+                                                        <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#facilityCategoryOne" aria-expanded="false" aria-controls="facilityCategoryOne">
+                                                            <span class="row align-items-center">
+                                                                <span class="col-9">
+                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Airlines</span>
+                                                                </span>
+                                                                <span class="col-3 text-right">
+                                                                    <span class="card-btn-arrow">
+                                                                        <span class="fas fa-chevron-down small"></span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </h3>
+                                                </div>
+                                                <div id="facilityCategoryOne" class="collapse show" aria-labelledby="facilityCategoryHeadingOne" data-parent="#facilityCategoryAccordion">
+                                                    <div class="card-body pt-0 mt-1 px-5 pb-4">
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                                <label class="custom-control-label" for="brandAdidas">Turkish Airlines</label>
+                                                            </div>
+                                                            <small>749</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                                <label class="custom-control-label" for="brandNewBalance">United Airlines</label>
+                                                            </div>
+                                                            <small>630</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                                <label class="custom-control-label" for="brandNike">Major Airline</label>
+                                                            </div>
+                                                            <small>58</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3 pb-1">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                                <label class="custom-control-label" for="brandFredPerry">Alitalia</label>
+                                                            </div>
+                                                            <small>29</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3 pb-1">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                                <label class="custom-control-label" for="brandFredPerry">Air France</label>
+                                                            </div>
+                                                            <small>58</small>
+                                                        </div>
+                                                        <!-- End Checkboxes -->
+
+                                                        <!-- View More - Collapse -->
+                                                        <div class="collapse" id="collapseBrand1">
+                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-1">
+                                                                <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandGucci">
+                                                                <label class="custom-control-label" for="brandGucci">Gucci</label>
+                                                                </div>
+                                                                <small>5</small>
+                                                            </div>
+                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                                <div class="custom-control custom-checkbox">
+                                                                    <input type="checkbox" class="custom-control-input" id="brandMango">
+                                                                    <label class="custom-control-label" for="brandMango">Mango</label>
+                                                                </div>
+                                                                <small>1</small>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End View More - Collapse -->
+
+                                                        <!-- Link -->
+                                                        <a class="link link-collapse small font-size-1" data-toggle="collapse" href="#collapseBrand1" role="button" aria-expanded="false" aria-controls="collapseBrand1">
+                                                          <span class="link-collapse__default font-size-14">Show all 13</span>
+                                                          <span class="link-collapse__active font-size-14">Show less</span>
+                                                        </a>
+                                                        <!-- End Link -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <!-- End Accordion -->
+                                        <div id="propertyCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
+                                            <div class="border-0">
+                                                <div class="card-collapse" id="propertyCategoryHeadingOne">
+                                                    <h3 class="mb-0">
+                                                        <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#propertyCategoryOne" aria-expanded="false" aria-controls="propertyCategoryOne">
+                                                            <span class="row align-items-center">
+                                                                <span class="col-9">
+                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Flight Type</span>
+                                                                </span>
+                                                                <span class="col-3 text-right">
+                                                                    <span class="card-btn-arrow">
+                                                                        <span class="fas fa-chevron-down small"></span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </h3>
+                                                </div>
+                                                <div id="propertyCategoryOne" class="collapse show" aria-labelledby="propertyCategoryHeadingOne" data-parent="#propertyCategoryAccordion">
+                                                    <div class="card-body pt-0 mt-1 px-5 pb-4">
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandhotel">
+                                                                <label class="custom-control-label" for="brandhotel">Business</label>
+                                                            </div>
+                                                            <small>749</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandapartmet">
+                                                                <label class="custom-control-label" for="brandapartmet">First Class</label>
+                                                            </div>
+                                                            <small>630</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandbed">
+                                                                <label class="custom-control-label" for="brandbed">Economy</label>
+                                                            </div>
+                                                            <small>58</small>
+                                                        </div>
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-gray-1 mb-1">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandresorts">
+                                                                <label class="custom-control-label" for="brandresorts">Premium Economy</label>
+                                                            </div>
+                                                            <small>29</small>
+                                                        </div>
+                                                        <!-- End Checkboxes -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Accordion -->
+                                        <div id="cityCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
+                                            <div class="border-0">
+                                                <div class="card-collapse" id="cityCategoryHeadingOne">
+                                                    <h3 class="mb-0">
+                                                        <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#cityCategoryOne" aria-expanded="false" aria-controls="cityCategoryOne">
+                                                            <span class="row align-items-center">
+                                                                <span class="col-9">
+                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Inflight Experience</span>
+                                                                </span>
+                                                                <span class="col-3 text-right">
+                                                                    <span class="card-btn-arrow">
+                                                                        <span class="fas fa-chevron-down small"></span>
+                                                                    </span>
+                                                                </span>
+                                                            </span>
+                                                        </button>
+                                                    </h3>
+                                                </div>
+                                                <div id="cityCategoryOne" class="collapse show" aria-labelledby="cityCategoryHeadingOne" data-parent="#cityCategoryAccordion">
+                                                    <div class="card-body pt-0 mt-1 px-5 pb-4">
+                                                        <div class="form-group font-size-1 text-lh-md text-secondary mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandhotel">
+                                                                <label class="custom-control-label" for="brandhotel">Inflight Dining</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group font-size-1 text-lh-md text-secondary mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandapartmet">
+                                                                <label class="custom-control-label" for="brandapartmet">Music</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group font-size-1 text-lh-md text-secondary mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandbed">
+                                                                <label class="custom-control-label" for="brandbed">Sky Shopping</label>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group font-size-1 text-lh-md text-secondary mb-1">
+                                                            <div class="custom-control custom-checkbox">
+                                                                <input type="checkbox" class="custom-control-input" id="brandresorts">
+                                                                <label class="custom-control-label" for="brandresorts">Seats & Cabin</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- End Checkboxes -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- End Accordion -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 mt-xl-1">
+                        <!-- Shop-control-bar Title -->
+                        <div class="d-flex justify-content-between align-items-center mb-4 pb-1">
+                            <h3 class="font-size-21 font-weight-bold mb-0 text-lh-1">1984 results found.</h3>
+                            <ul class="nav tab-nav-shop flex-nowrap" id="pills-tab" role="tablist">
+                                <div class="position-relative">
+                                    <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle" href="javascript:;" role="button" aria-controls="basicDropdownClick" aria-haspopup="true" aria-expanded="false" data-unfold-event="hover" data-unfold-target="#basicDropdownClick" data-unfold-type="css-animation"data-unfold-duration="300" data-unfold-delay="300" data-unfold-hide-on-scroll="true" data-unfold-animation-in="slideInUp" data-unfold-animation-out="fadeOut">
+                                    <span class="font-weight-bold text-gray-3"> Sorted By</span>
+                                  </a>
+
+                                  <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold" aria-labelledby="basicDropdownClickInvoker">
+                                    <a class="dropdown-item active" href="#">One</a>
+                                    <a class="dropdown-item" href="#">Two</a>
+                                    <a class="dropdown-item" href="#">Three</a>
+                                  </div>
+                                </div>
+                                <li class="nav-item">
+                                    <a class="nav-link font-size-22 p-0 ml-4" id="pills-three-example1-tab" data-toggle="pill" href="#pills-three-example1" role="tab" aria-controls="pills-three-example1" aria-selected="true">
+                                        <div class="d-md-flex justify-content-md-center align-items-md-center">
+                                            <i class="fa fa-list"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-size-22 p-0 ml-2 active" id="pills-one-example1-tab" data-toggle="pill" href="#pills-one-example1" role="tab" aria-controls="pills-one-example1" aria-selected="false">
+                                        <div class="d-md-flex justify-content-md-center align-items-md-center">
+                                            <i class="fa fa-th"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End shop-control-bar Title -->
+                        <div class="border px-4 mb-5">
+                            <div class="js-slick-carousel"
+                                 data-slides-show="3"
+                                 data-slides-scroll="1"
+                                 data-variable-width="true"
+                                 data-infinite="true"
+                                 data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic__v3 u-slick__arrow-centered--y rounded-circle"
+                                 data-arrow-left-classes="flaticon-left-direction-arrow u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-n1"
+                                 data-arrow-right-classes="flaticon-right-thin-chevron u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-0"
+                                 data-responsive='[{
+                                   "breakpoint": 992,
+                                   "settings": {
+                                     "slidesToShow": 2
+                                   }
+                                 }, {
+                                   "breakpoint": 768,
+                                   "settings": {
+                                     "slidesToShow": 1
+                                   }
+                                 }, {
+                                   "breakpoint": 554,
+                                   "settings": {
+                                     "slidesToShow": 1
+                                   }
+                                 }]'>
+                              <div class="js-slide py-3 border-right text-hover-primary">
+                                    <div class="px-7 ml-1">
+                                        <a href="#">
+                                            <h6 class="font-weight-bold text-gray-3 mb-0">Fri,20 Sep</h6>
+                                            <span class="font-weight-normal text-gray-1">£ 350.48</span>
+                                        </a>
+                                    </div>
+                              </div>
+                              <div class="js-slide py-3 border-right text-hover-primary">
+                                    <div class="px-7 ml-1">
+                                        <a href="#">
+                                            <h6 class="font-weight-bold text-gray-3 mb-0">Fri,20 Sep</h6>
+                                            <span class="font-weight-normal text-gray-1">£ 350.48</span>
+                                        </a>
+                                    </div>
+                              </div>
+                              <div class="js-slide py-3 border-right text-hover-primary">
+                                    <div class="px-7 ml-1">
+                                        <a href="#">
+                                            <h6 class="font-weight-bold text-gray-3 mb-0">Fri,20 Sep</h6>
+                                            <span class="font-weight-normal text-gray-1">£ 350.48</span>
+                                        </a>
+                                    </div>
+                              </div>
+                              <div class="js-slide py-3 border-right text-hover-primary">
+                                    <div class="px-7 ml-1">
+                                        <a href="#">
+                                            <h6 class="font-weight-bold text-gray-3 mb-0">Fri,20 Sep</h6>
+                                            <span class="font-weight-normal text-gray-1">£ 350.48</span>
+                                        </a>
+                                    </div>
+                              </div>
+                              <div class="js-slide py-3 border-right text-hover-primary">
+                                    <div class="px-7 ml-1">
+                                        <a href="#">
+                                            <h6 class="font-weight-bold text-gray-3 mb-0">Fri,20 Sep</h6>
+                                            <span class="font-weight-normal text-gray-1">£ 350.48</span>
+                                        </a>
+                                    </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="border rounded-xs px-6 py-3">
+                                <div class="row align-items-center my-2">
+                                    <div class="col">
+                                        <img class="img-fluid" src="../../assets/img/90x90/img1.jpg" alt="Image-Description">
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">18:30</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">New Delhi</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-inline-block border-bottom border-primary border-width-2">
+                                            <h6 class="font-size-14 font-weight-bold text-gray-5">02 hrs 45 mins</h6>
+                                        </div>
+                                        <div class="font-size-14 font-weight-normal text-gray-1 mx-3">Non Stop</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">21.15</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">Bengaluru</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-xl-left border-color-7">
+                                        <div class="col">
+                                            <div class="ml-4 ml-xl-3">
+                                                <div class="text-center mb-1">
+                                                    <div class="mb-2 pb-1">
+                                                        <span class="font-weight-bold font-size-22">£4,177</span>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-5 py-2">Book Now</button>
+                                                </div>
+                                                <span class="font-size-14 text-gray-1 d-flex justify-content-center">Flight Details</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="border rounded-xs px-6 py-3">
+                                <div class="row align-items-center my-2">
+                                    <div class="col">
+                                        <img class="img-fluid" src="../../assets/img/90x90/img2.jpg" alt="Image-Description">
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">18:30</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">New Delhi</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-inline-block border-bottom border-primary border-width-2">
+                                            <h6 class="font-size-14 font-weight-bold text-gray-5">02 hrs 45 mins</h6>
+                                        </div>
+                                        <div class="font-size-14 font-weight-normal text-gray-1 mx-3">Non Stop</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">21.15</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">Bengaluru</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-xl-left border-color-7">
+                                        <div class="col">
+                                            <div class="ml-4 ml-xl-3">
+                                                <div class="text-center mb-1">
+                                                    <div class="mb-2 pb-1">
+                                                        <span class="font-weight-bold font-size-22">£4,177</span>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-5 py-2">Book Now</button>
+                                                </div>
+                                                <span class="font-size-14 text-gray-1 d-flex justify-content-center">Flight Details</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="border rounded-xs px-6 py-3">
+                                <div class="row align-items-center my-2">
+                                    <div class="col">
+                                        <img class="img-fluid" src="../../assets/img/90x90/img3.jpg" alt="Image-Description">
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">18:30</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">New Delhi</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-inline-block border-bottom border-primary border-width-2">
+                                            <h6 class="font-size-14 font-weight-bold text-gray-5">02 hrs 45 mins</h6>
+                                        </div>
+                                        <div class="font-size-14 font-weight-normal text-gray-1 mx-3">Non Stop</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">21.15</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">Bengaluru</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-xl-left border-color-7">
+                                        <div class="col">
+                                            <div class="ml-4 ml-xl-3">
+                                                <div class="text-center mb-1">
+                                                    <div class="mb-2 pb-1">
+                                                        <span class="font-weight-bold font-size-22">£4,177</span>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-5 py-2">Book Now</button>
+                                                </div>
+                                                <span class="font-size-14 text-gray-1 d-flex justify-content-center">Flight Details</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="border rounded-xs px-6 py-3">
+                                <div class="row align-items-center my-2">
+                                    <div class="col">
+                                        <img class="img-fluid" src="../../assets/img/90x90/img4.jpg" alt="Image-Description">
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">18:30</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">New Delhi</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-inline-block border-bottom border-primary border-width-2">
+                                            <h6 class="font-size-14 font-weight-bold text-gray-5">02 hrs 45 mins</h6>
+                                        </div>
+                                        <div class="font-size-14 font-weight-normal text-gray-1 mx-3">Non Stop</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">21.15</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">Bengaluru</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-xl-left border-color-7">
+                                        <div class="col">
+                                            <div class="ml-4 ml-xl-3">
+                                                <div class="text-center mb-1">
+                                                    <div class="mb-2 pb-1">
+                                                        <span class="font-weight-bold font-size-22">£4,177</span>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-5 py-2">Book Now</button>
+                                                </div>
+                                                <span class="font-size-14 text-gray-1 d-flex justify-content-center">Flight Details</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <div class="border rounded-xs px-6 py-3">
+                                <div class="row align-items-center my-2">
+                                    <div class="col">
+                                        <img class="img-fluid" src="../../assets/img/90x90/img1.jpg" alt="Image-Description">
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">18:30</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">New Delhi</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-inline-block border-bottom border-primary border-width-2">
+                                            <h6 class="font-size-14 font-weight-bold text-gray-5">02 hrs 45 mins</h6>
+                                        </div>
+                                        <div class="font-size-14 font-weight-normal text-gray-1 mx-3">Non Stop</div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="d-flex">
+                                            <div class="mr-2">
+                                                <i class="flaticon-aeroplane font-size-30 text-primary"></i>
+                                            </div>
+                                            <div class="details">
+                                                <h6 class="font-weight-bold font-size-21 text-gray-5 mb-0">21.15</h6>
+                                                <span class="font-size-14 font-weight-normal text-gray-1">Bengaluru</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="border-xl-left border-color-7">
+                                        <div class="col">
+                                            <div class="ml-4 ml-xl-3">
+                                                <div class="text-center mb-1">
+                                                    <div class="mb-2 pb-1">
+                                                        <span class="font-weight-bold font-size-22">£4,177</span>
+                                                    </div>
+                                                    <button type="button" class="btn btn-outline-primary border-radius-3 border-width-2 px-2 px-5 py-2">Book Now</button>
+                                                </div>
+                                                <span class="font-size-14 text-gray-1 d-flex justify-content-center">Flight Details</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center text-md-left font-size-14 mb-3 text-lh-1">Showing 1–15</div>
+                            <nav aria-label="Page navigation">
+                                <ul class="list-pagination-1 pagination border border-color-4 rounded-sm overflow-auto overflow-xl-visible justify-content-md-center align-items-center py-2 mb-0">
+                                    <li class="page-item">
+                                        <a class="page-link border-right rounded-0 text-gray-5" href="#" aria-label="Previous">
+                                            <i class="flaticon-left-direction-arrow font-size-10 font-weight-bold"></i>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item"><a class="page-link font-size-14" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link font-size-14 active" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link font-size-14" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link font-size-14" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link font-size-14" href="#">5</a></li>
+                                    <li class="page-item disabled"><a class="page-link font-size-14" href="#">...</a></li>
+                                    <li class="page-item"><a class="page-link font-size-14" href="#">66</a></li>
+                                    <li class="page-item"><a class="page-link font-size-14" href="#">67</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link border-left rounded-0 text-gray-5" href="#" aria-label="Next">
+                                            <i class="flaticon-right-thin-chevron font-size-10 font-weight-bold"></i>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+            </div>
         </main>
         <!-- ========== END MAIN CONTENT ========== -->
         <!-- ========== FOOTER ========== -->
