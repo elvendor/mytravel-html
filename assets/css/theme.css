@@ -40098,6 +40098,11 @@ Letter Spacing
   transition: .3s;
 }
 
+.hover-bg-gray-1:hover .btn-hover btn {
+  background: #377dff !important;
+  color: #377dff !important;
+}
+
 /*------------------------------------
   Transitions
 ------------------------------------*/

@@ -104,5 +104,11 @@
     &:hover {
         background-color: $gray-8;
         transition: .3s;
+        .btn-hover {
+            btn {
+                background: $primary !important;
+                color: $primary !important;
+            }
+        }
     }
 }
