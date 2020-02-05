@@ -242,6 +242,10 @@ Line Height
 Letter Spacing
 ------------------------------------*/
 
+.letter-spacing-2 {
+    letter-spacing: 0.125rem; //2px
+}
+
 .letter-spacing-3 {
     letter-spacing: 0.188rem; //4px
 }
@@ -313,5 +317,5 @@ Letter Spacing
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3.5;
-    -webkit-box-orient: vertical;  
+    -webkit-box-orient: vertical;
 }
