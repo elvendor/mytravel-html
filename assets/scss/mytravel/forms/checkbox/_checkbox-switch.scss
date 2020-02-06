@@ -61,3 +61,26 @@
         display: inline;
     }
 }
+
+.map-switch {
+    &.custom-switch {
+        padding-left: 64px;
+
+        .custom-control-label::before {
+            left: 0;
+        }
+
+        .custom-control-label::after {
+            left: 5px;
+        }
+    }
+
+    .custom-control-label {
+        position: static;
+    }
+
+    .custom-control-input:checked ~ .custom-control-label::before {
+        border-color: $gray-24;
+        background-color: $gray-24;
+    }
+}
