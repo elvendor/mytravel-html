@@ -6496,12 +6496,12 @@ input[type="button"].btn-block {
   border-bottom-left-radius: 0;
 }
 
-.custom-input-group > .input-group-append > .btn {
+.custom__input-group > .input-group-append > .btn {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.custom-input-group > .form-control:not(:last-child) {
+.custom__input-group > .form-control:not(:last-child) {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
