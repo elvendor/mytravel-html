@@ -189,6 +189,13 @@
 }
 
 
+
+@include media-breakpoint-only(lg) {
+  .width-lg-200 {
+    width: 12.5rem !important;  //250pxpx
+  }
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/

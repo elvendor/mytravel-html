@@ -39457,6 +39457,12 @@ label.btn {
   width: 16.25rem;
 }
 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .width-lg-200 {
+    width: 12.5rem !important;
+  }
+}
+
 /*------------------------------------
   Height
 ------------------------------------*/
@@ -40174,6 +40180,11 @@ Letter Spacing
 
 .z-index-4 {
   z-index: 4;
+}
+
+.flex-shrink-md-1 {
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
 }
 
 /*------------------------------------
