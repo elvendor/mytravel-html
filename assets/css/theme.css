@@ -33926,6 +33926,27 @@ label.btn {
   display: inline;
 }
 
+.map-switch.custom-switch {
+  padding-left: 64px;
+}
+
+.map-switch.custom-switch .custom-control-label::before {
+  left: 0;
+}
+
+.map-switch.custom-switch .custom-control-label::after {
+  left: 5px;
+}
+
+.map-switch .custom-control-label {
+  position: static;
+}
+
+.map-switch .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #8394ac;
+  background-color: #8394ac;
+}
+
 /*------------------------------------
   Custom Checkbox
 ------------------------------------*/
