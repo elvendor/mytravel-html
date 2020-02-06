@@ -14,17 +14,21 @@
   bottom: 0;
 }
 
+.left-n100 {
+    left: -100%;
+}
+
 .left-0 {
   left: 0;
 }
 
 .bottom-n66 {
   bottom: -66px;
-} 
+}
 
 .bottom-n86 {
   bottom: -86px;
-} 
+}
 // Medium Devices
 @include media-breakpoint-up(md) {
   .top-md-0 {
