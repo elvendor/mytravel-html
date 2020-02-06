@@ -80,6 +80,7 @@
             @include make-col(1.6);
        }
     }
+    
     .col-#{$size}-1dot8 {
        @include media-breakpoint-up($size) {
             @include make-col(1.8);
