@@ -191,3 +191,13 @@
 .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child) {
   @include border-left-radius(0);
 }
+
+
+.custom-input-group {
+  > .input-group-append > .btn {
+    @include border-left-radius(5px);
+  }
+  > .form-control {
+    &:not(:last-child) { @include border-right-radius(5px); }
+  }
+}
