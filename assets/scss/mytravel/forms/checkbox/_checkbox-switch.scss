@@ -41,3 +41,23 @@
     }
   }
 }
+
+.map-collapse.show + .map-collapse-hidden {
+    display: none;
+}
+
+.map-lable-list {
+    .map-show {
+        display: none;
+    }
+}
+
+.map-lable[aria-expanded="true"] + .map-lable-list {
+    .map-hide {
+        display: none;
+    }
+
+    .map-show {
+        display: inline;
+    }
+}

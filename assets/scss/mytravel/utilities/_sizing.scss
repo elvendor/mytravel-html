@@ -155,6 +155,10 @@
   width: 2.188rem;  //35px
 }
 
+.width-36 {
+  width: 36px;
+}
+
 .width-40 {
   width: 2.5rem;  //40px
 }
@@ -166,7 +170,6 @@
 .width-50 {
   width: 3.125rem;  //50px
 }
-
 
 .width-80 {
   width: 5rem; //80px
@@ -203,6 +206,32 @@
   height: 30vh;
 }
 
+.height-40vh {
+  height: 40vh;
+}
+
+.height-60vh {
+  height: 60vh;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+.height-100vh-main {
+    @include media-breakpoint-up(lg) {
+        height: calc(100vh - 194px);
+    }
+
+    @include media-breakpoint-up(xl) {
+        height: calc(100vh - 214px);
+    }
+}
+
+.height-4 {
+  height: .25rem;
+}
+
 .height-25 {
   height: 1.563rem;  //25px
 }
@@ -217,14 +246,6 @@
 
 .height-40 {
   height: 2.5rem;  //40px
-}
-
-.height-30vh {
-  height: 30vh;
-}
-
-.height-40vh {
-  height: 40vh;
 }
 
 .height-45 {
@@ -243,32 +264,18 @@
   height: 54px;
 }
 
-.width-36 {
-  width: 36px;
-}
-
-.height-35 {
-  height: 2.188rem; //35px
-}
-
 .height-60 {
   height: 3.75rem; //60px
 }
 
-.height-60vh {
-  height: 60vh;
-}
-
-.height-100vh {
-  height: 100vh;
-}
-
-.height-4 {
-  height: .25rem;
-}
-
 .height-380 {
   height: 23.75rem;
+}
+
+.height-350-md-down {
+    @include media-breakpoint-down(md) {
+        height: 21.875rem;
+    }
 }
 
 .height-400 {

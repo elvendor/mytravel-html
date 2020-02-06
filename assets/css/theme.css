@@ -33920,6 +33920,22 @@ label.btn {
   background-color: #8394ac !important;
 }
 
+.map-collapse.show + .map-collapse-hidden {
+  display: none;
+}
+
+.map-lable-list .map-show {
+  display: none;
+}
+
+.map-lable[aria-expanded="true"] + .map-lable-list .map-hide {
+  display: none;
+}
+
+.map-lable[aria-expanded="true"] + .map-lable-list .map-show {
+  display: inline;
+}
+
 /*------------------------------------
   Custom Checkbox
 ------------------------------------*/
@@ -38979,6 +38995,10 @@ label.btn {
   bottom: 0;
 }
 
+.left-n100 {
+  left: -100%;
+}
+
 .left-0 {
   left: 0;
 }
@@ -39434,6 +39454,10 @@ label.btn {
   width: 2.188rem;
 }
 
+.width-36 {
+  width: 36px;
+}
+
 .width-40 {
   width: 2.5rem;
 }
@@ -39479,6 +39503,34 @@ label.btn {
   height: 30vh;
 }
 
+.height-40vh {
+  height: 40vh;
+}
+
+.height-60vh {
+  height: 60vh;
+}
+
+.height-100vh {
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  .height-100vh-main {
+    height: calc(100vh - 194px);
+  }
+}
+
+@media (min-width: 1200px) {
+  .height-100vh-main {
+    height: calc(100vh - 214px);
+  }
+}
+
+.height-4 {
+  height: .25rem;
+}
+
 .height-25 {
   height: 1.563rem;
 }
@@ -39493,14 +39545,6 @@ label.btn {
 
 .height-40 {
   height: 2.5rem;
-}
-
-.height-30vh {
-  height: 30vh;
-}
-
-.height-40vh {
-  height: 40vh;
 }
 
 .height-45 {
@@ -39519,32 +39563,18 @@ label.btn {
   height: 54px;
 }
 
-.width-36 {
-  width: 36px;
-}
-
-.height-35 {
-  height: 2.188rem;
-}
-
 .height-60 {
   height: 3.75rem;
 }
 
-.height-60vh {
-  height: 60vh;
-}
-
-.height-100vh {
-  height: 100vh;
-}
-
-.height-4 {
-  height: .25rem;
-}
-
 .height-380 {
   height: 23.75rem;
+}
+
+@media (max-width: 991.98px) {
+  .height-350-md-down {
+    height: 21.875rem;
+  }
 }
 
 .height-400 {
