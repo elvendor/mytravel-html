@@ -107,16 +107,18 @@ $container-max-widths: (
     $green-lighter-1:                                           #35c2a5 !default;
     $indigo:                                                    #2d1582 !default;
     $indigo-lighter-1:                                          #080e7b !default;
-    $facebook:           										                    #395899 !default;
+    $maroon:                                                    #c72f74 !default;
+    $facebook:           										#395899 !default;
     $google:                                                    #d14130 !default;
     $twitter:                                                   #03a9e0 !default;
     $instagram:                                                 #3f729b !default;
-    $github:           											                    #24292e !default;
+    $github:           											#24292e !default;
     $space:                                                     #ff9500 !default;
     $sapphire:                                                  #002568 !default;
     $black:                                                     #000000 !default;
     $purple:                                                    #8023df !default;
     $violet:                                                    #532184 !default;
+    $violet-1:                                                  #a864a8 !default;
     $violet-lighter:                                            #6f13cd !default;
     $blue-darker-1:                                             #395899 !default;
     $violet-lighter-1:                                          #8c689d !default;
@@ -170,8 +172,11 @@ $theme-colors: map-merge((
   "indigo":                                                 $indigo,
   "gray":                                                   $gray-3,
   "violet":                                                 $violet,
+  "violet-1":                                               $violet-1,
   "violet-light":                                           $violet-lighter,
   "brown-light":                                            $brown-lighter,
+  "brown":                                                  $brown,
+  "maroon":                                                 $maroon,
   "indigo-light":                                           $indigo-lighter-1,
   "red-light-2":                                            $red-lighter-2,
   "blue-dark-1":                                            $blue-darker-1,
