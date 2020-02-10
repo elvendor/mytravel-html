@@ -273,3 +273,16 @@
     height: 80px;
     bottom: 30px;
 }
+
+.u-media-viewer__dark {
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color:rgba(11, 13, 16, 0.8);
+		border-radius: 3px;
+	}
+}

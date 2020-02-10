@@ -326,6 +326,20 @@
   min-height: 28.125rem;
 }
 
+.min-height-458 {
+    @include media-breakpoint-up(md) {
+        min-height: 28.625rem;
+        object-fit: cover;
+    }
+}
+
+.min-height-150 {
+    @include media-breakpoint-up(md) {
+        min-height: 9.375rem;
+        object-fit: cover;
+    }
+}
+
 .min-height-500 {
   min-height: 31.25rem;
 }

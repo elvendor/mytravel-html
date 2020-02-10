@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- Title -->
-        <title>Car Single v1 | MyTravel - Responsive Website Template</title>
+        <title>Rental Single v2 | MyTravel - Responsive Website Template</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
@@ -13,6 +13,9 @@
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
 
         <!-- CSS Implementing Plugins -->
         <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
@@ -23,6 +26,7 @@
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -653,63 +657,27 @@
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content">
             <!-- Breadcrumb -->
-            <div class="container">
-                <nav class="py-3" aria-label="breadcrumb">
-                    <ol class="breadcrumb breadcrumb-no-gutter mb-0 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Hotels</a></li>
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">London Hotels</a></li>
-                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Park Avenue Baker Street London</li>
-                    </ol>
-                </nav>
+            <div class="border-bottom mb-7">
+                <div class="container">
+                    <nav class="py-3" aria-label="breadcrumb">
+                        <ol class="breadcrumb breadcrumb-no-gutter mb-0 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
+                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Hotels</a></li>
+                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">London Hotels</a></li>
+                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Park Avenue Baker Street London</li>
+                        </ol>
+                    </nav>
+                </div>
             </div>
             <!-- End Breadcrumb -->
-            <div class="mb-8">
-                <!-- Images Carousel -->
-                <div class="js-slick-carousel u-slick u-slick__img-overlay"
-                    data-arrows-classes="d-none d-md-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
-                    data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-md-4 ml-xl-8"
-                    data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-md-4 mr-xl-8"
-                    data-infinite="true"
-                    data-slides-show="1"
-                    data-slides-scroll="1"
-                    data-center-mode="true"
-                    data-pagi-classes="d-md-none text-center u-slick__pagination mt-5 mb-0"
-                    data-center-padding="450px"
-                    data-responsive='[{
-                        "breakpoint": 1480,
-                        "settings": {
-                            "centerPadding": "300px"
-                        }
-                    }, {
-                        "breakpoint": 1199,
-                        "settings": {
-                            "centerPadding": "200px"
-                        }
-                    }, {
-                        "breakpoint": 992,
-                        "settings": {
-                            "centerPadding": "120px"
-                        }
-                    }, {
-                        "breakpoint": 554,
-                        "settings": {
-                            "centerPadding": "20px"
-                        }
-                    }]'>
-                    <div class="js-slide bg-img-hero min-height-550" style="background-image: url(../../assets/img/820x550/img1.jpg);"></div>
-                    <div class="js-slide bg-img-hero min-height-550" style="background-image: url(../../assets/img/820x550/img2.jpg);"></div>
-                    <div class="js-slide bg-img-hero min-height-550" style="background-image: url(../../assets/img/820x550/img3.jpg);"></div>
-                </div>
-                <!-- End Images Carousel -->
-            </div>
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-xl-9">
                         <div class="d-block d-md-flex flex-center-between align-items-start mb-3">
                             <div class="mb-3">
                                 <div class="d-block d-md-flex flex-horizontal-center mb-2 mb-md-0">
-                                    <h4 class="font-size-23 font-weight-bold mb-1 mr-3">Mercedes-Benz C 220</h4>
+                                    <h4 class="font-size-23 font-weight-bold mb-1 mr-3">Affordable Urban Room</h4>
                                     <span class="font-size-14 text-primary mr-2">2.5/5 Excellant</span>
                                     <span class="font-size-14 text-gray-1 ml-1">48 reviews</span>
                                 </div>
@@ -731,28 +699,190 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="py-4 border-top border-bottom mb-4">
-                            <ul class="list-group list-group-borderless list-group-horizontal flex-center-between text-center mx-md-4 flex-wrap">
+                        <div class="py-4 border-top mb-4">
+                            <ul class="mb-4 list-group list-group-borderless list-group-horizontal flex-center-between text-center flex-wrap">
                                 <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-download-speed text-primary font-size-40 mb-1 d-block"></i>
-                                    <div class="text-gray-1">49993mi</div>
+                                    <i class="flaticon-plans text-primary font-size-50 mb-1 d-block"></i>
+                                    <div class="text-gray-1">4800 sq ft</div>
                                 </li>
                                 <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-gasoline-pump text-primary font-size-40 mb-1 d-block"></i>
-                                    <div class="text-gray-1">Diesel</div>
+                                    <i class="flaticon-door text-primary font-size-50 mb-1 d-block"></i>
+                                    <div class="text-gray-1">4 rooms</div>
                                 </li>
                                 <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-gear text-primary font-size-40 mb-1 d-block"></i>
-                                    <div class="text-gray-1">Automatic</div>
+                                    <i class="flaticon-bathtub text-primary font-size-50 mb-1 d-block"></i>
+                                    <div class="text-gray-1">2 bathrooms</div>
                                 </li>
                                 <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-calendar text-primary font-size-40 mb-1 d-block"></i>
-                                    <div class="text-gray-1">2020</div>
+                                    <i class="flaticon-bed-1 text-primary font-size-50 mb-1 d-block"></i>
+                                    <div class="text-gray-1">6 beds</div>
                                 </li>
                             </ul>
+
+                            <div class="position-relative">
+                                <!-- Images Carousel -->
+                                <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2"
+                                    data-infinite="true"
+                                    data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
+                                    data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
+                                    data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4"
+                                    data-nav-for="#sliderSyncingThumb">
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img13.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide">
+                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                    </div>
+                                </div>
+                                <div class="position-absolute right-0 mr-3 mt-md-n11 mt-n9">
+                                    <div class="flex-horizontal-center">
+                                        <!-- Video -->
+                                        <a class="js-fancybox btn btn-white transition-3d-hover py-2 px-md-5 px-3 shadow-6 mr-1" href="javascript:;"
+                                            data-src="//www.youtube.com/watch?v=Vfk5VuUpJ-o"
+                                            data-speed="700">
+                                            <i class="flaticon-movie mr-md-2 font-size-18 text-primary"></i><span class="d-none d-md-inline">Video</span>
+                                        </a>
+                                        <!-- End Video -->
+
+                                        <a class="js-fancybox btn btn-white ml-2 py-2 px-md-5 px-3 shadow-6" href="javascript:;"
+                                            data-src="../../assets/img/960x490/img7.jpg"
+                                            data-fancybox="fancyboxGallery6"
+                                            data-caption="MyTravel in frames - image #01"
+                                            data-speed="700">
+                                            <i class="flaticon-gallery mr-md-2 font-size-18 text-primary"></i><span class="d-none d-md-inline">Gallery</span>
+                                        </a>
+
+                                        <img class="js-fancybox d-none" alt="Image Description"
+                                        data-fancybox="fancyboxGallery6"
+                                        data-src="../../assets/img/960x490/img6.jpg"
+                                        data-caption="MyTravel in frames - image #02"
+                                        data-speed="700">
+                                        <img class="js-fancybox d-none" alt="Image Description"
+                                        data-caption="MyTravel in frames - image #03"
+                                        data-src="../../assets/img/960x490/img8.jpg"
+                                        data-fancybox="fancyboxGallery6"
+                                        data-speed="700">
+                                        <img class="js-fancybox d-none" alt="Image Description"
+                                        data-fancybox="fancyboxGallery6"
+                                        data-src="../../assets/img/960x490/img9.jpg"
+                                        data-caption="MyTravel in frames - image #04"
+                                        data-speed="700">
+
+                                    </div>
+                                </div>
+
+                                <div id="sliderSyncingThumb" class="js-slick-carousel u-slick u-slick--gutters-4 u-slick--transform-off"
+                                    data-infinite="true"
+                                    data-slides-show="6"
+                                    data-is-thumbs="true"
+                                    data-nav-for="#sliderSyncingNav"
+                                    data-responsive='[{
+                                        "breakpoint": 992,
+                                        "settings": {
+                                            "slidesToShow": 4
+                                        }
+                                    }, {
+                                        "breakpoint": 768,
+                                        "settings": {
+                                            "slidesToShow": 3
+                                        }
+                                    }, {
+                                        "breakpoint": 554,
+                                        "settings": {
+                                            "slidesToShow": 2
+                                        }
+                                    }]'>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img13.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                    </div>
+                                    <div class="js-slide" style="cursor: pointer;">
+                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                    </div>
+                                </div>
+                                <!-- End Images Carousel -->
+                            </div>
+                        </div>
+                        <div id="stickyBlockStartPoint" class="mb-4">
+                            <div class="border rounded-pill js-sticky-block p-1 border-width-2 z-index-4 bg-white"
+                                data-parent="#stickyBlockStartPoint"
+                                data-offset-target="#logoAndNav"
+                                data-sticky-view="lg"
+                                data-start-point="#stickyBlockStartPoint"
+                                data-end-point="#stickyBlockEndPoint"
+                                data-offset-top="30"
+                                data-offset-bottom="30">
+                                <ul class="js-scroll-nav nav tab-nav-pill flex-nowrap tab-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#scroll-description">
+                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
+                                                <span class="tabtext font-weight-semi-bold">Description</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#scroll-amenities">
+                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
+                                                <span class="tabtext font-weight-semi-bold">Amenities</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#scroll-specifications">
+                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
+                                                <span class="tabtext font-weight-semi-bold">Details</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#scroll-location">
+                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
+                                                <span class="tabtext font-weight-semi-bold">Map</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#scroll-video">
+                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
+                                                <span class="tabtext font-weight-semi-bold">Video</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link font-weight-medium" href="#scroll-reviews">
+                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
+                                                <span class="tabtext font-weight-semi-bold">Reviews</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="border-bottom position-relative">
-                            <h5 class="font-size-21 font-weight-bold text-dark">
+                            <h5 id="scroll-description" class="font-size-21 font-weight-bold text-dark">
                                 Description
                             </h5>
                             <p>Explore one of the world’s best art museums at your own pace with your ticket to the Louvre. Skip the line and walk straight inside, after a security check.</p>
@@ -768,7 +898,7 @@
                             </a>
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
+                            <h5 id="scroll-amenities" class="font-size-21 font-weight-bold text-dark mb-4">
                                 Amenities
                             </h5>
                             <ul class="list-group list-group-borderless list-group-horizontal list-group-flush no-gutters row">
@@ -787,64 +917,75 @@
                             </ul>
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
-                                Specifications
+                            <h5 id="scroll-specifications" class="font-size-21 font-weight-bold text-dark mb-4">
+                                Details
                             </h5>
                             <ul class="list-group list-group-borderless list-group-horizontal list-group-flush no-gutters row">
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Make</div>
-                                    <span class="text-gray-1">Audi</span>
+                                <li class="col-md-2 mb-5 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="font-weight-bold text-dark">Prices</div>
                                 </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Model</div>
-                                    <span class="text-gray-1">Class C</span>
+                                <li class="col-md-5 mb-5 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Nightly: $65</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekends (Sat & Sun): $75</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekly (7d+): $55</div>
                                 </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Made Year</div>
-                                    <span class="text-gray-1">2020</span>
+                                <li class="col-md-5 mb-5 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Nightly: $65</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekends (Sat & Sun): $75</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekly (7d+): $55</div>
                                 </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Mileage</div>
-                                    <span class="text-gray-1">104,556</span>
+                                <li class="col-md-2 mb-5 mb-md-0 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="font-weight-bold text-dark">Terms & rules</div>
                                 </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">VIN</div>
-                                    <span class="text-gray-1">1VXETUROTERC</span>
+                                <li class="col-md-5 mb-5 mb-md-0 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>Children allowed</div>
                                 </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Version</div>
-                                    <span class="text-gray-1">1.6 hdi</span>
-                                </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Horsepower (hp)</div>
-                                    <span class="text-gray-1">200</span>
-                                </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Transmission</div>
-                                    <span class="text-gray-1">Manual</span>
-                                </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Condition</div>
-                                    <span class="text-gray-1">New</span>
-                                </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Drive</div>
-                                    <span class="text-gray-1">Rear</span>
-                                </li>
-                                <li class="col-md-4 mb-5 list-group-item py-0">
-                                    <div class="font-weight-bold text-dark">Warranty</div>
-                                    <span class="text-gray-1">Yes</span>
+                                <li class="col-md-5 mb-5 mb-md-0 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Smoking allowed</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Pets allowed</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Party allowed</div>
                                 </li>
                             </ul>
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
-                                Location
+                            <h5 id="scroll-location" class="font-size-21 font-weight-bold text-dark mb-4">
+                                Map
                             </h5>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7772.225184901051!2d80.28441927545006!3d13.092050163095971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d13.098645!2d80.2916092!4m5!1s0x3a526f5213f46501%3A0x56d2a4b14dba42f2!2sMadras%20High%20Court%2C%20High%20Ct%20Rd%2C%20Parry&#39;s%20Corner%2C%20George%20Town%2C%20Chennai%2C%20Tamil%20Nadu%20600108!3m2!1d13.0867057!2d80.28774949999999!5e0!3m2!1sen!2sin!4v1580358870925!5m2!1sen!2sin" width="100%" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
+                            <h5 id="scroll-video" class="font-size-21 font-weight-bold text-dark mb-4">
+                                Video
+                            </h5>
+                            <!-- Video Block -->
+                            <div id="youTubeVideoPlayerExample1" class="u-video-player rounded-sm">
+                                <!-- Cover Image -->
+                                <img class="img-fluid u-video-player__preview rounded-sm" src="../../assets/img/960x450/img1.jpg" alt="Image">
+                                <!-- End Cover Image -->
+
+                                <!-- Play Button -->
+                                <a class="js-inline-video-player u-video-player__btn u-video-player__centered" href="javascript:;"
+                                    data-video-id="rdQfeH8Ikso"
+                                    data-parent="youTubeVideoPlayerExample1"
+                                    data-is-autoplay="true"
+                                    data-target="youTubeVideoIframeExample1"
+                                    data-classes="u-video-player__played">
+                                    <span class="u-video-player__icon u-video-player__icon--lg text-primary bg-transparent">
+                                        <span class="flaticon-multimedia text-white ml-0 font-size-60 u-video-player__icon-inner"></span>
+                                    </span>
+                                </a>
+                                <!-- End Play Button -->
+
+                                <!-- Video Iframe -->
+                                <div class="embed-responsive embed-responsive-16by9 rounded-sm">
+                                    <div id="youTubeVideoIframeExample1"></div>
+                                </div>
+                                <!-- End Video Iframe -->
+                            </div>
+                            <!-- End Video Block -->
+                        </div>
+                        <div class="border-bottom py-4">
+                            <h5 id="scroll-reviews" class="font-size-21 font-weight-bold text-dark mb-4">
                                 Average Reviews
                             </h5>
                             <div class="row">
@@ -930,6 +1071,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div id="stickyBlockEndPoint"></div>
                         <div class="border-bottom py-4">
                             <h5 class="font-size-21 font-weight-bold text-dark mb-8">
                                 Showing 16 verified guest comments
@@ -1128,58 +1270,104 @@
                                         <span class="font-size-24 text-gray-6 font-weight-bold ml-1">£350.00</span>
                                     </div>
                                 </div>
-                                <div class="p-4 m-1">
+                                <div class="p-4">
                                     <!-- Input -->
-                                    <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Pick-up From</span>
+                                    <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
                                     <div class="mb-4">
                                         <div class="input-group border-bottom border-width-2 border-color-1">
                                             <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                          <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="London" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
+                                          <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="Where are you going?" aria-label="Where are you going?" aria-describedby="keywordInputAddon">
                                         </div>
                                     </div>
                                     <!-- End Input -->
+
                                     <!-- Input -->
-                                    <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Drop-of to</span>
-                                    <div class="mb-4">
-                                        <div class="input-group border-bottom border-width-2 border-color-1">
-                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                          <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="New York" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                        </div>
-                                    </div>
-                                    <!-- End Input -->
-                                    <!-- Input -->
-                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Pick Up Date</span>
+                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
                                     <div class="mb-4">
                                         <div class="border-bottom border-width-2 border-color-1">
                                             <div id="datepickerWrapperPick" class="u-datepicker input-group">
-                                                <div class="input-group-prepend mr-1">
+                                                <div class="input-group-prepend">
                                                     <span class="d-flex align-items-center mr-2 font-size-21">
                                                       <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                     </span>
                                                 </div>
-                                                <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
-                                                     data-rp-wrapper="#datepickerWrapperPick"
-                                                     data-rp-date-format="M d /Y">
+                                                <input class="js-range-datepicker w-auto font-size-lg-16 ml-1 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
+                                                data-rp-wrapper="#datepickerWrapperPick"
+                                                data-rp-type="range"
+                                                data-rp-date-format="M d / Y"
+                                                data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
                                             </div>
                                             <!-- End Datepicker -->
                                         </div>
                                     </div>
                                     <!-- End Input -->
+
                                     <!-- Input -->
-                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Return Time</span>
-                                    <div class="mb-4 pb-1">
+                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Guests</span>
+                                    <div class="mb-4 position-relative">
                                         <div class="border-bottom border-width-2 border-color-1">
-                                            <div id="datepickerWrapperReturn" class="u-datepicker input-group">
-                                                <div class="input-group-prepend mr-1">
-                                                    <span class="d-flex align-items-center mr-2 font-size-21">
-                                                      <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                    </span>
+                                            <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle flex-horizontal-center pt-3 pb-2" href="javascript:;" role="button"
+                                                aria-controls="basicDropdownClick"
+                                                aria-haspopup="true"
+                                                aria-expanded="false"
+                                                data-unfold-event="click"
+                                                data-unfold-target="#basicDropdownClick"
+                                                data-unfold-type="css-animation"
+                                                data-unfold-duration="300"
+                                                data-unfold-delay="300"
+                                                data-unfold-hide-on-scroll="true"
+                                                data-unfold-animation-in="slideInUp"
+                                                data-unfold-animation-out="fadeOut">
+                                                <i class="flaticon-add-group d-flex align-items-center mr-3 font-size-20 text-primary font-weight-semi-bold"></i>
+                                                <span class="text-black font-size-16 font-weight-semi-bold mr-auto">2 Rooms - 3 Guests</span>
+                                            </a>
+                                            <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col m-0" aria-labelledby="basicDropdownClickInvoker">
+                                                <div class="w-100 py-2 px-3 mb-3">
+                                                    <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                        <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
+                                                        <div class="d-flex">
+                                                            <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                <small class="fas fa-minus btn-icon__inner"></small>
+                                                            </a>
+                                                            <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                            <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                <small class="fas fa-plus btn-icon__inner"></small>
+                                                            </a>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
-                                                     data-rp-wrapper="#datepickerWrapperReturn"
-                                                     data-rp-date-format="M d /Y">
+                                                <div class="w-100 py-2 px-3 mb-3">
+                                                    <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                        <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
+                                                        <div class="d-flex">
+                                                            <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                <small class="fas fa-minus btn-icon__inner"></small>
+                                                            </a>
+                                                            <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                            <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                <small class="fas fa-plus btn-icon__inner"></small>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100 py-2 px-3">
+                                                    <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                        <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
+                                                        <div class="d-flex">
+                                                            <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                <small class="fas fa-minus btn-icon__inner"></small>
+                                                            </a>
+                                                            <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                            <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                <small class="fas fa-plus btn-icon__inner"></small>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="w-100 text-right py-1 pr-5">
+                                                    <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
+                                                </div>
                                             </div>
-                                            <!-- End Datepicker -->
                                         </div>
                                     </div>
                                     <!-- End Input -->
@@ -1228,7 +1416,7 @@
                         <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3 mb-4 pb-1"
                             data-slides-show="4"
                             data-slides-scroll="1"
-                            data-arrows-classes="d-none d-xl-inline-block u-slick__arrow-classic v1 u-slick__arrow-classic--v1 u-slick__arrow-centered--y rounded-circle shadow-5"
+                            data-arrows-classes="d-none d-xl-inline-block u-slick__arrow-classic v1 u-slick__arrow-classic--v1 u-slick__arrow-centered--y rounded-circle"
                             data-arrow-left-classes="fas fa-chevron-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
                             data-arrow-right-classes="fas fa-chevron-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
                             data-pagi-classes="text-center d-xl-none u-slick__pagination mt-4"
@@ -1253,11 +1441,11 @@
                             "slidesToShow": 1
                             }
                             }]'>
-                            <div class="js-slide mt-5 pb-4">
+                            <div class="js-slide mt-5">
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img29.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img17.jpg" alt="Image description">
                                         </a>
                                         <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1267,11 +1455,12 @@
                                         <div class="position-absolute bottom-0 left-0 right-0">
                                             <div class="px-3 pb-2">
                                             <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI</span>
+                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                             </a>
                                                 <div class="text-white my-2">
                                                     <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£350.00</span>
+                                                    <span class="font-weight-bold font-size-19">£899.00</span>
+                                                    <span class="font-size-14"> / night</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -1288,7 +1477,7 @@
                                             </div>
                                         </a>
                                         <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">3.5/5 Excellant</span>
+                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
                                             <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
                                         </div>
                                     </div>
@@ -1298,18 +1487,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-meter font-size-16"></small>
+                                                            <small class="flaticon-plans font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            49993mi
+                                                            4800 sq ft
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-gear font-size-16"></small>
+                                                            <small class="flaticon-bathtub font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Diesel
+                                                            2 Bathrooms
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1318,18 +1507,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-fuel font-size-16"></small>
+                                                            <small class="flaticon-door font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Automatic
+                                                            4 Rooms
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-month font-size-16"></small>
+                                                            <small class="flaticon-bed-1 font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            2019
+                                                            6 Beds
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1338,11 +1527,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="js-slide mt-5 pb-4">
+                            <div class="js-slide mt-5">
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img30.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img18.jpg" alt="Image description">
                                         </a>
                                         <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1352,14 +1541,20 @@
                                         <div class="position-absolute bottom-0 left-0 right-0">
                                             <div class="px-3 pb-2">
                                             <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">BMW 316 D FaceLift</span>
+                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                             </a>
                                                 <div class="text-white my-2">
                                                     <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£350.00</span>
+                                                    <span class="font-weight-bold font-size-19">£899.00</span>
+                                                    <span class="font-size-14"> / night</span>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
+                                    <a href="#">
+                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
+                                    </a>
                                     </div>
                                     <div class="card-body px-4 py-3 border-bottom">
                                         <a href="#" class="d-block">
@@ -1368,7 +1563,7 @@
                                             </div>
                                         </a>
                                         <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">3.5/5 Excellant</span>
+                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
                                             <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
                                         </div>
                                     </div>
@@ -1378,18 +1573,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-meter font-size-16"></small>
+                                                            <small class="flaticon-plans font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            49993mi
+                                                            4800 sq ft
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-gear font-size-16"></small>
+                                                            <small class="flaticon-bathtub font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Diesel
+                                                            2 Bathrooms
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1398,18 +1593,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-fuel font-size-16"></small>
+                                                            <small class="flaticon-door font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Automatic
+                                                            4 Rooms
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-month font-size-16"></small>
+                                                            <small class="flaticon-bed-1 font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            2019
+                                                            6 Beds
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1418,11 +1613,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="js-slide mt-5 pb-4">
+                            <div class="js-slide mt-5">
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img31.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img19.jpg" alt="Image description">
                                         </a>
                                         <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1432,14 +1627,20 @@
                                         <div class="position-absolute bottom-0 left-0 right-0">
                                             <div class="px-3 pb-2">
                                             <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Audi A3 1.6 TDI S line</span>
+                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                             </a>
                                                 <div class="text-white my-2">
                                                     <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£350.00</span>
+                                                    <span class="font-weight-bold font-size-19">£899.00</span>
+                                                    <span class="font-size-14"> / night</span>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
+                                    <a href="#">
+                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
+                                    </a>
                                     </div>
                                     <div class="card-body px-4 py-3 border-bottom">
                                         <a href="#" class="d-block">
@@ -1448,7 +1649,7 @@
                                             </div>
                                         </a>
                                         <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">3.5/5 Excellant</span>
+                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
                                             <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
                                         </div>
                                     </div>
@@ -1458,18 +1659,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-meter font-size-16"></small>
+                                                            <small class="flaticon-plans font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            49993mi
+                                                            4800 sq ft
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-gear font-size-16"></small>
+                                                            <small class="flaticon-bathtub font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Diesel
+                                                            2 Bathrooms
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1478,18 +1679,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-fuel font-size-16"></small>
+                                                            <small class="flaticon-door font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Automatic
+                                                            4 Rooms
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-month font-size-16"></small>
+                                                            <small class="flaticon-bed-1 font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            2019
+                                                            6 Beds
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1498,11 +1699,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="js-slide mt-5 pb-4">
+                            <div class="js-slide mt-5">
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img32.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img2.jpg" alt="Image description">
                                         </a>
                                         <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1512,14 +1713,20 @@
                                         <div class="position-absolute bottom-0 left-0 right-0">
                                             <div class="px-3 pb-2">
                                             <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Honda Civic 2019</span>
+                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                             </a>
                                                 <div class="text-white my-2">
                                                     <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£350.00</span>
+                                                    <span class="font-weight-bold font-size-19">£899.00</span>
+                                                    <span class="font-size-14"> / night</span>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
+                                    <a href="#">
+                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
+                                    </a>
                                     </div>
                                     <div class="card-body px-4 py-3 border-bottom">
                                         <a href="#" class="d-block">
@@ -1528,7 +1735,7 @@
                                             </div>
                                         </a>
                                         <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">3.5/5 Excellant</span>
+                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
                                             <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
                                         </div>
                                     </div>
@@ -1538,18 +1745,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-meter font-size-16"></small>
+                                                            <small class="flaticon-plans font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            49993mi
+                                                            4800 sq ft
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-gear font-size-16"></small>
+                                                            <small class="flaticon-bathtub font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Diesel
+                                                            2 Bathrooms
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1558,18 +1765,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-fuel font-size-16"></small>
+                                                            <small class="flaticon-door font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Automatic
+                                                            4 Rooms
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-month font-size-16"></small>
+                                                            <small class="flaticon-bed-1 font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            2019
+                                                            6 Beds
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1578,11 +1785,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="js-slide mt-5 pb-4">
+                            <div class="js-slide mt-5">
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img33.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img17.jpg" alt="Image description">
                                         </a>
                                         <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1592,14 +1799,20 @@
                                         <div class="position-absolute bottom-0 left-0 right-0">
                                             <div class="px-3 pb-2">
                                             <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Mercedes-Benz A 200 CDI</span>
+                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                             </a>
                                                 <div class="text-white my-2">
                                                     <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£350.00</span>
+                                                    <span class="font-weight-bold font-size-19">£899.00</span>
+                                                    <span class="font-size-14"> / night</span>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
+                                    <a href="#">
+                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
+                                    </a>
                                     </div>
                                     <div class="card-body px-4 py-3 border-bottom">
                                         <a href="#" class="d-block">
@@ -1608,7 +1821,7 @@
                                             </div>
                                         </a>
                                         <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">3.5/5 Excellant</span>
+                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
                                             <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
                                         </div>
                                     </div>
@@ -1618,18 +1831,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-meter font-size-16"></small>
+                                                            <small class="flaticon-plans font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            49993mi
+                                                            4800 sq ft
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-gear font-size-16"></small>
+                                                            <small class="flaticon-bathtub font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Diesel
+                                                            2 Bathrooms
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1638,18 +1851,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-fuel font-size-16"></small>
+                                                            <small class="flaticon-door font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Automatic
+                                                            4 Rooms
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-month font-size-16"></small>
+                                                            <small class="flaticon-bed-1 font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            2019
+                                                            6 Beds
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1658,11 +1871,11 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="js-slide mt-5 pb-4">
+                            <div class="js-slide mt-5">
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img34.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img18.jpg" alt="Image description">
                                         </a>
                                         <div class="position-absolute top-0 right-0 pt-5 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
@@ -1672,14 +1885,20 @@
                                         <div class="position-absolute bottom-0 left-0 right-0">
                                             <div class="px-3 pb-2">
                                             <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">BMW 316 D FaceLift</span>
+                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
                                             </a>
                                                 <div class="text-white my-2">
                                                     <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£350.00</span>
+                                                    <span class="font-weight-bold font-size-19">£899.00</span>
+                                                    <span class="font-size-14"> / night</span>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
+                                    <a href="#">
+                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
+                                    </a>
                                     </div>
                                     <div class="card-body px-4 py-3 border-bottom">
                                         <a href="#" class="d-block">
@@ -1688,7 +1907,7 @@
                                             </div>
                                         </a>
                                         <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">3.5/5 Excellant</span>
+                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
                                             <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
                                         </div>
                                     </div>
@@ -1698,18 +1917,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-meter font-size-16"></small>
+                                                            <small class="flaticon-plans font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            49993mi
+                                                            4800 sq ft
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-gear font-size-16"></small>
+                                                            <small class="flaticon-bathtub font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Diesel
+                                                            2 Bathrooms
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1718,18 +1937,18 @@
                                                 <ul class="list-unstyled mb-0">
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-fuel font-size-16"></small>
+                                                            <small class="flaticon-door font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            Automatic
+                                                            4 Rooms
                                                         </div>
                                                     </li>
                                                     <li class="media mb-2 text-gray-1 align-items-center">
                                                         <small class="mr-2">
-                                                            <small class="flaticon-month font-size-16"></small>
+                                                            <small class="flaticon-bed-1 font-size-16"></small>
                                                         </small>
                                                         <div class="media-body font-size-1">
-                                                            2019
+                                                            6 Beds
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -1989,6 +2208,10 @@
         <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="../../assets/vendor/gmaps/gmaps.min.js"></script>
+        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
+        <script src="../../assets/vendor/appear.js"></script>
+        <script src="../../assets/vendor/player.js/dist/player.min.js"></script>
+
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -2002,6 +2225,10 @@
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
         <script src="../../assets/js/components/hs.quantity-counter.js"></script>
         <script src="../../assets/js/components/hs.g-map.js"></script>
+        <script src="../../assets/js/components/hs.fancybox.js"></script>
+        <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+        <script src="../../assets/js/components/hs.sticky-block.js"></script>
+        <script src="../../assets/js/components/hs.video-player.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -2035,11 +2262,20 @@
                 // initialization of show animations
                 $.HSCore.components.HSShowAnimation.init('.js-animation-link');
 
+                // initialization of video player
+                $.HSCore.components.HSVideoPlayer.init('.js-inline-video-player');
+
+                // initialization of popups
+                $.HSCore.components.HSFancyBox.init('.js-fancybox');
+
                 // initialization of datepicker
                 $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
                 // initialization of select
                 $.HSCore.components.HSSelectPicker.init('.js-select');
+
+                // initialization of sticky blocks
+                $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 
                 // initialization of quantity counter
                 $.HSCore.components.HSQantityCounter.init('.js-quantity');
@@ -2049,6 +2285,11 @@
 
                 // initialization of go to
                 $.HSCore.components.HSGoTo.init('.js-go-to');
+
+                // initialization of HSScrollNav component
+                $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
+                    duration: 700
+                });
             });
         </script>
 

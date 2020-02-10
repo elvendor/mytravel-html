@@ -10,6 +10,10 @@
 	}
 }
 
+.text-primary-lighten {
+	color: lighten($primary, 18%);
+}
+
 .text-primary-max {
     @each $breakpoint in map-keys($grid-breakpoints) {
     $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
@@ -68,12 +72,12 @@
     color: $gray-16;
 }
 
-.list-tab { 
+.list-tab {
 
     .list-link {
-        
+
         &:hover {
-            
+
             i,span {
                 color: $primary !important;
             }
@@ -86,7 +90,7 @@
 
             i,span {
                 color: $primary !important;
-            } 
+            }
         }
     }
 }
