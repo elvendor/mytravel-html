@@ -110,7 +110,7 @@
         &::before {
             @include gradient-y($hs-start-color: transparent, $hs-end-color: $white, $hs-start-percent: 40%, $hs-end-percent: 99%, $deg: 180deg);
             z-index: 1;
-            bottom: 60px;
+            bottom: 74px;
             height: auto;
         }
     }
