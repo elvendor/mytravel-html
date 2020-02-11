@@ -44,12 +44,17 @@
 .u-slick__pagination--white {
   li {
     span {
-      background-color: $white;
+      width: 8px;
+      height: 8px;
+      background-color: rgba(255, 255, 255, .4);
+      transform: none;
+      border-width: 0;
     }
 
     &.slick-active {
       span {
-        border-color: $white;
+        border-color: none;
+        background-color: rgba(255, 255, 255, 1);
       }
     }
   }

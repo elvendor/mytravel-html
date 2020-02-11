@@ -88,6 +88,7 @@ $container-max-widths: (
     $blue-lighter-1:                                            #5392f9 !default;
     $blue-lighter-2:                                            #4cbfd8 !default;
     $blue-lighter-3:                                            #43c5db !default;
+    $blue-1:                                                    #297cbb !default;
     $navy-blue:                                                 #0057ff !default;
     $teal:                                                      #00c9a7 !default;
     $teal-lighter:                                              #13d7b6 !default;
@@ -186,6 +187,7 @@ $theme-colors: map-merge((
   "gray-3":                                                 $gray-6,
   "gray-4":                                                 $gray-15,
   "blue":                                                   $blue-lighter-3,
+  "blue-1":                                                 $blue-1,
   "gray-5":                                                 $gray-16,
   "gray-6":                                                 $gray-17,
   "gray-7":                                                 $gray-18,
@@ -958,7 +960,7 @@ $pagination-marginX:                                        .25rem !default;
 // Pagination Arrow
 
 $pagination-v1-arrow:                                           #3d88c1;
-$pagination-v2-arrow:                                           #297cbb;
+$pagination-v2-arrow:                                           $blue-1;
 
 // Close
 // =========================================================

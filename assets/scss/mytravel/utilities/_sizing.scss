@@ -62,6 +62,14 @@
   max-width: 2.5rem;
 }
 
+.max-width-960 {
+    max-width: 60rem;
+
+    @include media-breakpoint-up(xl) {
+        min-width: 60rem;
+    }
+}
+
 .min-width-112 {
     min-width: 7rem; //112px
 }
@@ -88,8 +96,20 @@
     }
 }
 
+.min-width-130 {
+    min-width: 8.125rem;
+}
+
 .min-width-220 {
     min-width: 13.75rem;
+}
+
+.min-width-220 {
+    min-width: 13.75rem;
+}
+
+.min-width-250 {
+    min-width: 15.625rem;
 }
 
 .min-width-284 {

@@ -2,6 +2,10 @@
  Grid
 ------------------------------------*/
 
+[class*="gdot"] {
+    @include make-col-ready;
+}
+
 @each $size, $value in $grid-breakpoints {
 
     .col-#{$size}-2dot2 {
@@ -20,7 +24,13 @@
        @include media-breakpoint-up($size) {
             @include make-col(2.4);
        }
-    } 
+    }
+
+    .col-#{$size}-2gdot8 {
+       @include media-breakpoint-up($size) {
+            @include make-col(2.84);
+       }
+    }
 
     .col-#{$size}-3dot64 {
        @include media-breakpoint-up($size) {
@@ -80,7 +90,7 @@
             @include make-col(1.6);
        }
     }
-    
+
     .col-#{$size}-1dot8 {
        @include media-breakpoint-up($size) {
             @include make-col(1.8);
