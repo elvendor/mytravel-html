@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- Title -->
-        <title>Rental Single v2 | MyTravel - Responsive Website Template</title>
+        <title>Activities Single v1 | MyTravel - Responsive Website Template</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
@@ -13,9 +13,6 @@
 
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-        <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
 
         <!-- CSS Implementing Plugins -->
         <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
@@ -26,7 +23,6 @@
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
-        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -657,33 +653,37 @@
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content">
             <!-- Breadcrumb -->
-            <div class="border-bottom mb-7">
-                <div class="container">
-                    <nav class="py-3" aria-label="breadcrumb">
-                        <ol class="breadcrumb breadcrumb-no-gutter mb-0 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
-                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Hotels</a></li>
-                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">London Hotels</a></li>
-                            <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Park Avenue Baker Street London</li>
-                        </ol>
-                    </nav>
-                </div>
+            <div class="container">
+                <nav class="py-3" aria-label="breadcrumb">
+                    <ol class="breadcrumb breadcrumb-no-gutter mb-0 flex-nowrap flex-xl-wrap overflow-auto overflow-xl-visble">
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">Hotels</a></li>
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1"><a href="#">London Hotels</a></li>
+                        <li class="breadcrumb-item flex-shrink-0 flex-xl-shrink-1 active" aria-current="page">Park Avenue Baker Street London</li>
+                    </ol>
+                </nav>
             </div>
             <!-- End Breadcrumb -->
-
+            <div class="mb-4 mb-lg-8">
+                <img class="img-fluid" src="../../assets/img/1920x600/img3.jpg" alt="Image">
+            </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-xl-9">
                         <div class="d-block d-md-flex flex-center-between align-items-start mb-3">
-                            <div class="mb-3">
-                                <div class="d-block d-md-flex flex-horizontal-center mb-2 mb-md-0">
-                                    <h4 class="font-size-23 font-weight-bold mb-1 mr-3">Affordable Urban Room</h4>
-                                    <span class="font-size-14 text-primary mr-2">2.5/5 Excellant</span>
-                                    <span class="font-size-14 text-gray-1 ml-1">48 reviews</span>
+                            <div class="mb-1">
+                                <div class="mb-2 mb-md-0">
+                                    <h4 class="font-size-23 font-weight-bold mb-1 mr-3">Singapore Cable Car Sky Pass</h4>
                                 </div>
-                                <div class="d-block d-md-flex flex-horizontal-center font-size-14 text-gray-1">
-                                    <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                    <a href="#" class="ml-1 d-block d-md-inline"> - View on map</a>
+                                <div class="d-block d-md-flex flex-horizontal-center">
+                                    <div class="mr-4 mb-2 mb-md-0">
+                                        <span class="badge badge-pill badge-warning text-lh-sm text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                        <span class="font-size-14 text-gray-1 ml-2">(1,186 Reviews)</span>
+                                    </div>
+                                    <div class="d-block d-md-flex flex-horizontal-center font-size-14 text-gray-1 mb-2 mb-md-0">
+                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                        <a href="#" class="ml-1 d-block d-md-inline"> - View on map</a>
+                                    </div>
                                 </div>
                             </div>
                             <ul class="list-group list-group-borderless list-group-horizontal custom-social-share">
@@ -699,293 +699,201 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="py-4 border-top mb-4">
-                            <ul class="mb-4 list-group list-group-borderless list-group-horizontal flex-center-between text-center flex-wrap">
-                                <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-plans text-primary font-size-50 mb-1 d-block"></i>
-                                    <div class="text-gray-1">4800 sq ft</div>
+                        <div class="py-4 border-top border-bottom mb-4">
+                            <ul class="list-group list-group-borderless list-group-horizontal row">
+                                <li class="col-md-4 flex-horizontal-center list-group-item text-lh-sm mb-2">
+                                    <i class="flaticon-non-commercial text-primary font-size-22 mr-2 d-block"></i>
+                                    <div class="ml-1 text-gray-1">No Cancelation</div>
                                 </li>
-                                <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-door text-primary font-size-50 mb-1 d-block"></i>
-                                    <div class="text-gray-1">4 rooms</div>
+                                <li class="col-md-4 flex-horizontal-center list-group-item text-lh-sm mb-2">
+                                    <i class="flaticon-printer text-primary font-size-22 mr-2 d-block"></i>
+                                    <div class="ml-1 text-gray-1">Printed or mobile voucher accepted</div>
                                 </li>
-                                <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-bathtub text-primary font-size-50 mb-1 d-block"></i>
-                                    <div class="text-gray-1">2 bathrooms</div>
+                                <li class="col-md-4 flex-horizontal-center list-group-item text-lh-sm mb-2">
+                                    <i class="flaticon-alarm text-primary font-size-22 mr-2 d-block"></i>
+                                    <div class="ml-1 text-gray-1">30 Min Duration</div>
                                 </li>
-                                <li class="list-group-item text-lh-sm ">
-                                    <i class="flaticon-bed-1 text-primary font-size-50 mb-1 d-block"></i>
-                                    <div class="text-gray-1">6 beds</div>
+                                <li class="col-md-4 flex-horizontal-center list-group-item text-lh-sm mb-2">
+                                    <i class="flaticon-tickets text-primary font-size-22 mr-2 d-block"></i>
+                                    <div class="ml-1 text-gray-1">Open Date Ticket</div>
+                                </li>
+                                <li class="col-md-4 flex-horizontal-center list-group-item text-lh-sm mb-2">
+                                    <i class="flaticon-invoice text-primary font-size-22 mr-2 d-block"></i>
+                                    <div class="ml-1 text-gray-1">Collect Physical Ticket</div>
                                 </li>
                             </ul>
-
-                            <div class="position-relative">
-                                <!-- Images Carousel -->
-                                <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2"
-                                    data-infinite="true"
-                                    data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
-                                    data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4"
-                                    data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4"
-                                    data-nav-for="#sliderSyncingThumb">
-                                    <div class="js-slide">
-                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img13.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide">
-                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide">
-                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide">
-                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide">
-                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide">
-                                        <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
-                                    </div>
-                                </div>
-                                <div class="position-absolute right-0 mr-3 mt-md-n11 mt-n9">
-                                    <div class="flex-horizontal-center">
-                                        <!-- Video -->
-                                        <a class="js-fancybox btn btn-white transition-3d-hover py-2 px-md-5 px-3 shadow-6 mr-1" href="javascript:;"
-                                            data-src="//www.youtube.com/watch?v=Vfk5VuUpJ-o"
-                                            data-speed="700">
-                                            <i class="flaticon-movie mr-md-2 font-size-18 text-primary"></i><span class="d-none d-md-inline">Video</span>
-                                        </a>
-                                        <!-- End Video -->
-
-                                        <a class="js-fancybox btn btn-white transition-3d-hover ml-2 py-2 px-md-5 px-3 shadow-6" href="javascript:;"
-                                            data-src="../../assets/img/960x490/img7.jpg"
-                                            data-fancybox="fancyboxGallery6"
-                                            data-caption="MyTravel in frames - image #01"
-                                            data-speed="700">
-                                            <i class="flaticon-gallery mr-md-2 font-size-18 text-primary"></i><span class="d-none d-md-inline">Gallery</span>
-                                        </a>
-
-                                        <img class="js-fancybox d-none" alt="Image Description"
-                                        data-fancybox="fancyboxGallery6"
-                                        data-src="../../assets/img/960x490/img6.jpg"
-                                        data-caption="MyTravel in frames - image #02"
-                                        data-speed="700">
-                                        <img class="js-fancybox d-none" alt="Image Description"
-                                        data-caption="MyTravel in frames - image #03"
-                                        data-src="../../assets/img/960x490/img8.jpg"
-                                        data-fancybox="fancyboxGallery6"
-                                        data-speed="700">
-                                        <img class="js-fancybox d-none" alt="Image Description"
-                                        data-fancybox="fancyboxGallery6"
-                                        data-src="../../assets/img/960x490/img9.jpg"
-                                        data-caption="MyTravel in frames - image #04"
-                                        data-speed="700">
-
-                                    </div>
-                                </div>
-
-                                <div id="sliderSyncingThumb" class="js-slick-carousel u-slick u-slick--gutters-4 u-slick--transform-off"
-                                    data-infinite="true"
-                                    data-slides-show="6"
-                                    data-is-thumbs="true"
-                                    data-nav-for="#sliderSyncingNav"
-                                    data-responsive='[{
-                                        "breakpoint": 992,
-                                        "settings": {
-                                            "slidesToShow": 4
-                                        }
-                                    }, {
-                                        "breakpoint": 768,
-                                        "settings": {
-                                            "slidesToShow": 3
-                                        }
-                                    }, {
-                                        "breakpoint": 554,
-                                        "settings": {
-                                            "slidesToShow": 2
-                                        }
-                                    }]'>
-                                    <div class="js-slide" style="cursor: pointer;">
-                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img13.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide" style="cursor: pointer;">
-                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide" style="cursor: pointer;">
-                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide" style="cursor: pointer;">
-                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide" style="cursor: pointer;">
-                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
-                                    </div>
-                                    <div class="js-slide" style="cursor: pointer;">
-                                        <img class="img-fluid border-radius-3 height-110" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
-                                    </div>
-                                </div>
-                                <!-- End Images Carousel -->
-                            </div>
-                        </div>
-                        <div id="stickyBlockStartPoint" class="mb-4">
-                            <div class="border rounded-pill js-sticky-block p-1 border-width-2 z-index-4 bg-white"
-                                data-parent="#stickyBlockStartPoint"
-                                data-offset-target="#logoAndNav"
-                                data-sticky-view="lg"
-                                data-start-point="#stickyBlockStartPoint"
-                                data-end-point="#stickyBlockEndPoint"
-                                data-offset-top="30"
-                                data-offset-bottom="30">
-                                <ul class="js-scroll-nav nav tab-nav-pill flex-nowrap tab-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#scroll-description">
-                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
-                                                <span class="tabtext font-weight-semi-bold">Description</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#scroll-amenities">
-                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
-                                                <span class="tabtext font-weight-semi-bold">Amenities</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#scroll-specifications">
-                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
-                                                <span class="tabtext font-weight-semi-bold">Details</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#scroll-location">
-                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
-                                                <span class="tabtext font-weight-semi-bold">Map</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#scroll-video">
-                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
-                                                <span class="tabtext font-weight-semi-bold">Video</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link font-weight-medium" href="#scroll-reviews">
-                                            <div class="d-flex flex-column flex-md-row  position-relative text-dark align-items-center">
-                                                <span class="tabtext font-weight-semi-bold">Reviews</span>
-                                            </div>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
                         </div>
                         <div class="border-bottom position-relative">
-                            <h5 id="scroll-description" class="font-size-21 font-weight-bold text-dark">
+                            <h5 class="font-size-21 font-weight-bold text-dark mb-3">
                                 Description
                             </h5>
                             <p>Explore one of the world’s best art museums at your own pace with your ticket to the Louvre. Skip the line and walk straight inside, after a security check.</p>
-                            <p>Once inside the historic palace located on the Right Bank of the Seine, see unmissable and iconic sights such as the Mona Lisa and Venus de Milo. Discover masterpieces of the Renaissance and ancient Egyptian relics, along with paintings from the 13th to 20th centuries, prints from the Royal Collection, and much more.</p>
-
-                            <div class="collapse" id="collapseLinkExample">
-                                <p>Once inside the historic palace located on the Right Bank of the Seine, see unmissable and iconic sights such as the Mona Lisa and Venus de Milo. Discover masterpieces of the Renaissance and ancient Egyptian relics, along with paintings from the 13th to 20th centuries, prints from the Royal Collection, and much more.</p>
-                            </div>
-
-                            <a class="link-collapse link-collapse-custom gradient-overlay-half mb-5 d-inline-block border-bottom border-primary" data-toggle="collapse" href="#collapseLinkExample" role="button" aria-expanded="false" aria-controls="collapseLinkExample">
-                                <span class="link-collapse__default font-size-14">View More <i class="flaticon-down-chevron font-size-10 ml-1"></i></span>
-                                <span class="link-collapse__active font-size-14">View Less <i class="flaticon-arrow font-size-10 ml-1"></i></span>
-                            </a>
+                            <p class="mb-4">Once inside the historic palace located on the Right Bank of the Seine, see unmissable and iconic sights such as the Mona Lisa and Venus de Milo. Discover masterpieces of the Renaissance and ancient Egyptian relics, along with paintings from the 13th to 20th centuries, prints from the Royal Collection, and much more.</p>
+                            <p class="mb-4">The museum first opened on August 10 1793 with an exhibition of just 537 paintings. Despite closing in 1796, due to structural problems, it reopened in 1801 as the Musée Napoléon with a larger collection. Many works were seized and returned to their original owners after the defeat of Napoleon at Waterloo.</p>
+                            <p class="mb-4">The collection was increased during the reign of Louis XVIII and Charles X, and during the Second French Empire the museum gained 20,000 pieces. Holdings have grown steadily since the Third Republic, and as of 2008, the collection is divided among 8 curatorial departments: Egyptian Antiquities; Near Eastern Antiquities; Greek, Etruscan, and Roman Antiquities; Islamic Art; Sculpture; Decorative Arts; Paintings; and Prints and Drawings.</p>
                         </div>
-                        <div class="border-bottom py-4">
-                            <h5 id="scroll-amenities" class="font-size-21 font-weight-bold text-dark mb-4">
-                                Amenities
-                            </h5>
-                            <ul class="list-group list-group-borderless list-group-horizontal list-group-flush no-gutters row">
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-wifi-signal mr-3 text-primary font-size-24"></i>Wifi</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-alarm mr-3 text-primary font-size-24"></i>Wake-up call</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-bathrobe mr-3 text-primary font-size-24"></i>Bathrobes</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-weightlifting mr-3 text-primary font-size-24"></i>Fitness center</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-phone-call mr-3 text-primary font-size-24"></i>Telephone</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-folded-towel mr-3 text-primary font-size-24"></i>Dry cleaning</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-wine-glass mr-3 text-primary font-size-24"></i>Mini bar</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-hair-dryer mr-3 text-primary font-size-24"></i>Hair dryer</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-desk-chair mr-3 text-primary font-size-24"></i>High chair</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-hamburger mr-3 text-primary font-size-24"></i>Restaurant</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-air-conditioner mr-3 text-primary font-size-24"></i>Air Conditioning</li>
-                                <li class="col-md-4 mb-3 list-group-item"><i class="flaticon-slippers mr-3 text-primary font-size-24"></i>Slippers</li>
-                            </ul>
-                        </div>
-                        <div class="border-bottom py-4">
-                            <h5 id="scroll-specifications" class="font-size-21 font-weight-bold text-dark mb-4">
-                                Details
+                        <div class="py-4">
+                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
+                                Experience
                             </h5>
                             <ul class="list-group list-group-borderless list-group-horizontal list-group-flush no-gutters row">
                                 <li class="col-md-2 mb-5 list-group-item pt-0 border-bottom pb-3">
-                                    <div class="font-weight-bold text-dark">Prices</div>
+                                    <div class="font-weight-bold text-dark">Highlights</div>
                                 </li>
-                                <li class="col-md-5 mb-5 list-group-item pt-0 border-bottom pb-3">
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Nightly: $65</div>
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekends (Sat & Sun): $75</div>
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekly (7d+): $55</div>
-                                </li>
-                                <li class="col-md-5 mb-5 list-group-item pt-0 border-bottom pb-3">
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Nightly: $65</div>
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekends (Sat & Sun): $75</div>
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Weekly (7d+): $55</div>
+                                <li class="col-md-10 mb-5 list-group-item pt-0 border-bottom pb-3">
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Benefit from fast and easy skip-the-line entrance</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Marvel at works of art, from Ancient Egypt to the Renaissance</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="fas fa-circle mr-3 font-size-8 text-primary"></i>Spend as much time as you like inside the museum and explore at your own pace</div>
                                 </li>
                                 <li class="col-md-2 mb-5 mb-md-0 list-group-item pt-0 border-bottom pb-3">
-                                    <div class="font-weight-bold text-dark">Terms & rules</div>
+                                    <div class="font-weight-bold text-dark">Includes</div>
                                 </li>
                                 <li class="col-md-5 mb-5 mb-md-0 list-group-item pt-0 border-bottom pb-3">
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>Children allowed</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>Air fares</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>3 Nights Hotel Accomodation</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>Tour Guide</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>Entrance Fees</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-tick mr-3 font-size-16 text-primary"></i>All transportation in destination location</div>
                                 </li>
                                 <li class="col-md-5 mb-5 mb-md-0 list-group-item pt-0 border-bottom pb-3">
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Smoking allowed</div>
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Pets allowed</div>
-                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Party allowed</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Guide Service Fee</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Driver Service Fee</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Any Private Expenses</div>
+                                    <div class="flex-horizontal-center mb-3 text-gray-1"><i class="flaticon-close mr-3 font-size-12 text-primary"></i>Room Service Fees</div>
                                 </li>
                             </ul>
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 id="scroll-location" class="font-size-21 font-weight-bold text-dark mb-4">
-                                Map
+                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
+                                Location
                             </h5>
                             <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d7772.225184901051!2d80.28441927545006!3d13.092050163095971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d13.098645!2d80.2916092!4m5!1s0x3a526f5213f46501%3A0x56d2a4b14dba42f2!2sMadras%20High%20Court%2C%20High%20Ct%20Rd%2C%20Parry&#39;s%20Corner%2C%20George%20Town%2C%20Chennai%2C%20Tamil%20Nadu%20600108!3m2!1d13.0867057!2d80.28774949999999!5e0!3m2!1sen!2sin!4v1580358870925!5m2!1sen!2sin" width="100%" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 id="scroll-video" class="font-size-21 font-weight-bold text-dark mb-4">
-                                Video
+                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
+                                Faq
                             </h5>
-                            <!-- Video Block -->
-                            <div id="youTubeVideoPlayerExample1" class="u-video-player rounded-sm">
-                                <!-- Cover Image -->
-                                <img class="img-fluid u-video-player__preview rounded-sm" src="../../assets/img/960x450/img1.jpg" alt="Image">
-                                <!-- End Cover Image -->
+                            <div id="basicsAccordion">
+                                <!-- Card -->
+                                <div class="card border-0 mb-4 pb-1">
+                                    <div class="card-header border-bottom-0 p-0" id="basicsHeadingOne">
+                                        <h5 class="mb-0">
+                                            <button type="button" class="collapse-link btn btn-link btn-block d-flex align-items-md-center p-0"
+                                            data-toggle="collapse" data-target="#basicsCollapseOne" aria-expanded="true" aria-controls="basicsCollapseOne">
+                                                <div class="border border-color-8 rounded-xs border-width-2 p-2 mb-3 mb-md-0 mr-4">
+                                                    <figure id="rectangle" class="minus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/rectangle.svg" alt="SVG" data-parent="#rectangle">
+                                                    </figure>
+                                                    <figure id="plus1" class="plus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/plus.svg" alt="SVG" data-parent="#plus1">
+                                                    </figure>
+                                                </div>
 
-                                <!-- Play Button -->
-                                <a class="js-inline-video-player u-video-player__btn u-video-player__centered" href="javascript:;"
-                                    data-video-id="rdQfeH8Ikso"
-                                    data-parent="youTubeVideoPlayerExample1"
-                                    data-is-autoplay="true"
-                                    data-target="youTubeVideoIframeExample1"
-                                    data-classes="u-video-player__played">
-                                    <span class="u-video-player__icon u-video-player__icon--lg text-primary bg-transparent">
-                                        <span class="flaticon-multimedia text-white ml-0 font-size-60 u-video-player__icon-inner"></span>
-                                    </span>
-                                </a>
-                                <!-- End Play Button -->
-
-                                <!-- Video Iframe -->
-                                <div class="embed-responsive embed-responsive-16by9 rounded-sm">
-                                    <div id="youTubeVideoIframeExample1"></div>
+                                                <h6 class="font-weight-bold text-gray-3 mb-0">I'm a solo mytravel, is there a single supplement?</h6>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="basicsCollapseOne" class="collapse show"
+                                         aria-labelledby="basicsHeadingOne"
+                                         data-parent="#basicsAccordion">
+                                        <div class="card-body pl-10 pl-md-10 pr-md-12 pt-0">
+                                            <p class="mb-0 text-gray-1 text-lh-lg">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- End Video Iframe -->
+                                <!-- End Card -->
+
+                                <!-- Card -->
+                                <div class="card border-0 mb-4 pb-1">
+                                    <div class="card-header border-bottom-0 p-0" id="basicsHeadingTwo">
+                                        <h5 class="mb-0">
+                                            <button type="button" class="collapse-link btn btn-link btn-block d-flex align-items-md-center p-0"
+                                            data-toggle="collapse" data-target="#basicsCollapseTwo" aria-expanded="false" aria-controls="basicsCollapseTwo">
+                                                <div class="border border-color-8 rounded-xs border-width-2 p-2 mb-3 mb-md-0 mr-4">
+                                                    <figure id="rectangle1" class="minus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/rectangle.svg" alt="SVG" data-parent="#rectangle1">
+                                                    </figure>
+                                                    <figure id="plus2" class="plus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/plus.svg" alt="SVG" data-parent="#plus2">
+                                                    </figure>
+                                                </div>
+                                                <h6 class="font-weight-bold text-gray-3 mb-0">Which currency is most widely accepted on this tour?</h6>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="basicsCollapseTwo" class="collapse"
+                                         aria-labelledby="basicsHeadingTwo"
+                                         data-parent="#basicsAccordion">
+                                        <div class="card-body pl-10 pl-md-10 pr-md-12 pt-0">
+                                            <p class="mb-0 text-gray-1 text-lh-lg">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Card -->
+
+                                <!-- Card -->
+                                <div class="card border-0 mb-4 pb-1">
+                                    <div class="card-header border-bottom-0 p-0" id="basicsHeadingThree">
+                                        <h5 class="mb-0">
+                                            <button type="button" class="collapse-link btn btn-link btn-block d-flex align-items-md-center p-0"
+                                            data-toggle="collapse" data-target="#basicsCollapseThree" aria-expanded="false" aria-controls="basicsCollapseThree">
+                                                <div class="border border-color-8 rounded-xs border-width-2 p-2 mb-3 mb-md-0 mr-4">
+                                                    <figure id="rectangle2" class="minus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/rectangle.svg" alt="SVG" data-parent="#rectangle2">
+                                                    </figure>
+                                                    <figure id="plus3" class="plus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/plus.svg" alt="SVG" data-parent="#plus3">
+                                                    </figure>
+                                                </div>
+                                                <h6 class="font-weight-bold text-gray-3 mb-0">Should I book pre/post tour accommodation?</h6>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="basicsCollapseThree" class="collapse"
+                                         aria-labelledby="basicsHeadingThree"
+                                         data-parent="#basicsAccordion">
+                                        <div class="card-body pl-10 pl-md-10 pr-md-12 pt-0">
+                                            <p class="mb-0 text-gray-1 text-lh-lg">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Card -->
+
+                                <!-- Card -->
+                                <div class="card border-0 mb-4 pb-1">
+                                    <div class="card-header border-bottom-0 p-0" id="basicsHeadingFour">
+                                        <h5 class="mb-0">
+                                            <button type="button" class="collapse-link btn btn-link btn-block d-flex align-items-md-center p-0"
+                                            data-toggle="collapse" data-target="#basicsCollapseFour" aria-expanded="false" aria-controls="basicsCollapseFour">
+                                                <div class="border border-color-8 rounded-xs border-width-2 p-2 mb-3 mb-md-0 mr-4">
+                                                    <figure id="plus4" class="plus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/plus.svg" alt="SVG" data-parent="#plus4">
+                                                    </figure>
+                                                    <figure id="rectangle3" class="minus svg-preloader">
+                                                        <img class="js-svg-injector mb-0" src="../../assets/svg/illustrations/rectangle.svg" alt="SVG" data-parent="#rectangle3">
+                                                    </figure>
+                                                </div>
+                                                <h6 class="font-weight-bold text-gray-3 mb-0">How do I edit my calendar?</h6>
+                                            </button>
+                                        </h5>
+                                    </div>
+                                    <div id="basicsCollapseFour" class="collapse"
+                                         aria-labelledby="basicsHeadingFour"
+                                         data-parent="#basicsAccordion">
+                                        <div class="card-body pl-10 pl-md-10 pr-md-12 pt-0">
+                                            <p class="mb-0 text-gray-1 text-lh-lg">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End Card -->
                             </div>
-                            <!-- End Video Block -->
                         </div>
                         <div class="border-bottom py-4">
-                            <h5 id="scroll-reviews" class="font-size-21 font-weight-bold text-dark mb-4">
+                            <h5 class="font-size-21 font-weight-bold text-dark mb-4">
                                 Average Reviews
                             </h5>
                             <div class="row">
@@ -1071,7 +979,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="stickyBlockEndPoint"></div>
                         <div class="border-bottom py-4">
                             <h5 class="font-size-21 font-weight-bold text-dark mb-8">
                                 Showing 16 verified guest comments
@@ -1272,30 +1179,14 @@
                                 </div>
                                 <div class="p-4">
                                     <!-- Input -->
-                                    <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
-                                    <div class="mb-4">
-                                        <div class="input-group border-bottom border-width-2 border-color-1">
-                                            <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                          <input type="text" class="form-control font-size-lg-14 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="Where are you going?" aria-label="Where are you going?" aria-describedby="keywordInputAddon">
-                                        </div>
-                                    </div>
-                                    <!-- End Input -->
-
-                                    <!-- Input -->
-                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Date</span>
                                     <div class="mb-4">
                                         <div class="border-bottom border-width-2 border-color-1">
                                             <div id="datepickerWrapperPick" class="u-datepicker input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="d-flex align-items-center mr-2 font-size-21">
-                                                      <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                    </span>
-                                                </div>
-                                                <input class="js-range-datepicker w-auto font-size-lg-16 ml-1 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
+                                                <input class="js-range-datepicker w-auto height-40 font-size-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
                                                 data-rp-wrapper="#datepickerWrapperPick"
-                                                data-rp-type="range"
                                                 data-rp-date-format="M d / Y"
-                                                data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
+                                                data-rp-default-date='["Jul 7 / 2020"]'>
                                             </div>
                                             <!-- End Datepicker -->
                                         </div>
@@ -1303,69 +1194,59 @@
                                     <!-- End Input -->
 
                                     <!-- Input -->
-                                    <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Guests</span>
-                                    <div class="mb-4 position-relative">
-                                        <div class="border-bottom border-width-2 border-color-1">
-                                            <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle flex-horizontal-center pt-3 pb-2" href="javascript:;" role="button"
-                                                aria-controls="basicDropdownClick"
-                                                aria-haspopup="true"
-                                                aria-expanded="false"
-                                                data-unfold-event="click"
-                                                data-unfold-target="#basicDropdownClick"
-                                                data-unfold-type="css-animation"
-                                                data-unfold-duration="300"
-                                                data-unfold-delay="300"
-                                                data-unfold-hide-on-scroll="true"
-                                                data-unfold-animation-in="slideInUp"
-                                                data-unfold-animation-out="fadeOut">
-                                                <i class="flaticon-add-group d-flex align-items-center mr-3 font-size-20 text-primary font-weight-semi-bold"></i>
-                                                <span class="text-black font-size-16 font-weight-semi-bold mr-auto">2 Rooms - 3 Guests</span>
-                                            </a>
-                                            <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col m-0" aria-labelledby="basicDropdownClickInvoker">
-                                                <div class="w-100 py-2 px-3 mb-3">
-                                                    <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                        <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
-                                                        <div class="d-flex">
-                                                            <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                <small class="fas fa-minus btn-icon__inner"></small>
-                                                            </a>
-                                                            <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                            <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                <small class="fas fa-plus btn-icon__inner"></small>
-                                                            </a>
-                                                        </div>
-                                                    </div>
+                                    <span class="d-block text-gray-1 font-weight-normal mb-2 text-left">Adults</span>
+                                    <div class="mb-4">
+                                        <div class="border-bottom border-width-2 border-color-1 pb-1">
+                                            <div class="js-quantity flex-center-between mb-1 text-dark font-weight-bold">
+                                                <span class="d-block">Age 18+</span>
+                                                <div class="flex-horizontal-center">
+                                                    <a class="js-minus font-size-10 text-dark" href="javascript:;">
+                                                        <i class="fas fa-chevron-up"></i>
+                                                    </a>
+                                                    <input class="js-result form-control h-auto width-30 font-weight-bold font-size-16 shadow-none bg-tranparent border-0 rounded p-0 mx-1 text-center" type="text" value="2" min="01" max="100">
+                                                    <a class="js-plus font-size-10 text-dark" href="javascript:;">
+                                                        <i class="fas fa-chevron-down"></i>
+                                                    </a>
                                                 </div>
-                                                <div class="w-100 py-2 px-3 mb-3">
-                                                    <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                        <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
-                                                        <div class="d-flex">
-                                                            <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                <small class="fas fa-minus btn-icon__inner"></small>
-                                                            </a>
-                                                            <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                            <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                <small class="fas fa-plus btn-icon__inner"></small>
-                                                            </a>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Input -->
+
+                                    <!-- Input -->
+                                    <span class="d-block text-gray-1 font-weight-normal mb-2 text-left">Children</span>
+                                    <div class="mb-4">
+                                        <div class="border-bottom border-width-2 border-color-1 pb-1">
+                                            <div class="js-quantity flex-center-between mb-1 text-dark font-weight-bold">
+                                                <span class="d-block">Age 6-17</span>
+                                                <div class="flex-horizontal-center">
+                                                    <a class="js-minus font-size-10 text-dark" href="javascript:;">
+                                                        <i class="fas fa-chevron-up"></i>
+                                                    </a>
+                                                    <input class="js-result form-control h-auto width-30 font-weight-bold font-size-16 shadow-none bg-tranparent border-0 rounded p-0 mx-1 text-center" type="text" value="4" min="01" max="100">
+                                                    <a class="js-plus font-size-10 text-dark" href="javascript:;">
+                                                        <i class="fas fa-chevron-down"></i>
+                                                    </a>
                                                 </div>
-                                                <div class="w-100 py-2 px-3">
-                                                    <div class="js-quantity mx-3 row align-items-center justify-content-between">
-                                                        <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
-                                                        <div class="d-flex">
-                                                            <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                <small class="fas fa-minus btn-icon__inner"></small>
-                                                            </a>
-                                                            <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                            <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                <small class="fas fa-plus btn-icon__inner"></small>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="w-100 text-right py-1 pr-5">
-                                                    <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End Input -->
+
+                                    <!-- Input -->
+                                    <span class="d-block text-gray-1 font-weight-normal mb-2 text-left">Infant</span>
+                                    <div class="mb-4">
+                                        <div class="border-bottom border-width-2 border-color-1 pb-1">
+                                            <div class="js-quantity flex-center-between mb-1 text-dark font-weight-bold">
+                                                <span class="d-block">Age 0-5</span>
+                                                <div class="flex-horizontal-center">
+                                                    <a class="js-minus font-size-10 text-dark" href="javascript:;">
+                                                        <i class="fas fa-chevron-up"></i>
+                                                    </a>
+                                                    <input class="js-result form-control h-auto width-30 font-weight-bold font-size-16 shadow-none bg-tranparent border-0 rounded p-0 mx-1 text-center" type="text" value="1" min="01" max="100">
+                                                    <a class="js-plus font-size-10 text-dark" href="javascript:;">
+                                                        <i class="fas fa-chevron-down"></i>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -1413,12 +1294,12 @@
                         <div class="w-md-80 w-lg-50 text-center mx-md-auto mt-3">
                             <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">You might also like...</h2>
                         </div>
-                        <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3 mb-4 pb-1"
+                        <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
                             data-slides-show="4"
                             data-slides-scroll="1"
                             data-arrows-classes="d-none d-xl-inline-block u-slick__arrow-classic v1 u-slick__arrow-classic--v1 u-slick__arrow-centered--y rounded-circle"
-                            data-arrow-left-classes="fas fa-chevron-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left"
-                            data-arrow-right-classes="fas fa-chevron-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right"
+                            data-arrow-left-classes="fas fa-chevron-left u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left shadow-5"
+                            data-arrow-right-classes="fas fa-chevron-right u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right shadow-5"
                             data-pagi-classes="text-center d-xl-none u-slick__pagination mt-4"
                             data-responsive='[{
                             "breakpoint": 1025,
@@ -1445,84 +1326,32 @@
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img17.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img13.jpg" alt="Image Description">
                                         </a>
-                                        <div class="position-absolute top-0 right-0 pt-5 pr-3">
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                             <span class="flaticon-heart-1 font-size-20"></span>
                                           </button>
                                         </div>
                                         <div class="position-absolute bottom-0 left-0 right-0">
-                                            <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
-                                            </a>
-                                                <div class="text-white my-2">
-                                                    <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£899.00</span>
-                                                    <span class="font-size-14"> / night</span>
-                                                </div>
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                    </div>
-                                    <div class="card-body px-4 py-3 border-bottom">
-                                        <a href="#" class="d-block">
-                                            <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                                <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                            </div>
-                                        </a>
-                                        <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                            <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
                                         </div>
-                                    </div>
-                                    <div class="px-4 pt-3 pb-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-plans font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4800 sq ft
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bathtub font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            2 Bathrooms
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-door font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4 Rooms
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bed-1 font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            6 Beds
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1531,84 +1360,32 @@
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img18.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img14.jpg" alt="Image Description">
                                         </a>
-                                        <div class="position-absolute top-0 right-0 pt-5 pr-3">
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                             <span class="flaticon-heart-1 font-size-20"></span>
                                           </button>
                                         </div>
                                         <div class="position-absolute bottom-0 left-0 right-0">
-                                            <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
-                                            </a>
-                                                <div class="text-white my-2">
-                                                    <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£899.00</span>
-                                                    <span class="font-size-14"> / night</span>
-                                                </div>
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                    </div>
-                                    <div class="card-body px-4 py-3 border-bottom">
-                                        <a href="#" class="d-block">
-                                            <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                                <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                            </div>
-                                        </a>
-                                        <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                            <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
                                         </div>
-                                    </div>
-                                    <div class="px-4 pt-3 pb-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-plans font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4800 sq ft
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bathtub font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            2 Bathrooms
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-door font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4 Rooms
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bed-1 font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            6 Beds
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1617,84 +1394,32 @@
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img19.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img15.jpg" alt="Image Description">
                                         </a>
-                                        <div class="position-absolute top-0 right-0 pt-5 pr-3">
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                             <span class="flaticon-heart-1 font-size-20"></span>
                                           </button>
                                         </div>
                                         <div class="position-absolute bottom-0 left-0 right-0">
-                                            <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
-                                            </a>
-                                                <div class="text-white my-2">
-                                                    <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£899.00</span>
-                                                    <span class="font-size-14"> / night</span>
-                                                </div>
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                    </div>
-                                    <div class="card-body px-4 py-3 border-bottom">
-                                        <a href="#" class="d-block">
-                                            <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                                <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                            </div>
-                                        </a>
-                                        <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                            <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
                                         </div>
-                                    </div>
-                                    <div class="px-4 pt-3 pb-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-plans font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4800 sq ft
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bathtub font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            2 Bathrooms
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-door font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4 Rooms
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bed-1 font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            6 Beds
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1703,84 +1428,32 @@
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img2.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img16.jpg" alt="Image Description">
                                         </a>
-                                        <div class="position-absolute top-0 right-0 pt-5 pr-3">
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                             <span class="flaticon-heart-1 font-size-20"></span>
                                           </button>
                                         </div>
                                         <div class="position-absolute bottom-0 left-0 right-0">
-                                            <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
-                                            </a>
-                                                <div class="text-white my-2">
-                                                    <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£899.00</span>
-                                                    <span class="font-size-14"> / night</span>
-                                                </div>
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                    </div>
-                                    <div class="card-body px-4 py-3 border-bottom">
-                                        <a href="#" class="d-block">
-                                            <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                                <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                            </div>
-                                        </a>
-                                        <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                            <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
                                         </div>
-                                    </div>
-                                    <div class="px-4 pt-3 pb-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-plans font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4800 sq ft
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bathtub font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            2 Bathrooms
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-door font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4 Rooms
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bed-1 font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            6 Beds
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1789,84 +1462,32 @@
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img17.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img13.jpg" alt="Image Description">
                                         </a>
-                                        <div class="position-absolute top-0 right-0 pt-5 pr-3">
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                             <span class="flaticon-heart-1 font-size-20"></span>
                                           </button>
                                         </div>
                                         <div class="position-absolute bottom-0 left-0 right-0">
-                                            <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
-                                            </a>
-                                                <div class="text-white my-2">
-                                                    <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£899.00</span>
-                                                    <span class="font-size-14"> / night</span>
-                                                </div>
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
-                                    </div>
-                                    <div class="card-body px-4 py-3 border-bottom">
-                                        <a href="#" class="d-block">
-                                            <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                                <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                            </div>
-                                        </a>
-                                        <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                            <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
                                         </div>
-                                    </div>
-                                    <div class="px-4 pt-3 pb-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-plans font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4800 sq ft
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bathtub font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            2 Bathrooms
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-door font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4 Rooms
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bed-1 font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            6 Beds
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -1875,84 +1496,100 @@
                                 <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
                                     <div class="position-relative">
                                         <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
-                                            <img class="card-img-top" src="../../assets/img/300x230/img18.jpg" alt="Image description">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img14.jpg" alt="Image Description">
                                         </a>
-                                        <div class="position-absolute top-0 right-0 pt-5 pr-3">
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
                                           <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                             <span class="flaticon-heart-1 font-size-20"></span>
                                           </button>
                                         </div>
                                         <div class="position-absolute bottom-0 left-0 right-0">
-                                            <div class="px-3 pb-2">
-                                            <a href="#">
-                                                <span class="text-white font-weight-bold font-size-17">Comfortable Office Space</span>
-                                            </a>
-                                                <div class="text-white my-2">
-                                                    <span class="mr-1 font-size-14">From</span>
-                                                    <span class="font-weight-bold font-size-19">£899.00</span>
-                                                    <span class="font-size-14"> / night</span>
-                                                </div>
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="position-absolute top-0 left-0 pt-5 pl-3">
-                                    <a href="#">
-                                        <span class="badge badge-pill bg-white text-primary px-3 py-2 font-size-14 font-weight-normal">Featured</span>
-                                    </a>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
+                                        </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
+                                        </div>
                                     </div>
-                                    <div class="card-body px-4 py-3 border-bottom">
-                                        <a href="#" class="d-block">
-                                            <div class="d-flex align-items-center font-size-14 text-gray-1">
-                                                <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
-                                            </div>
+                                </div>
+                            </div>
+                            <div class="js-slide mt-5">
+                                <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
+                                    <div class="position-relative">
+                                        <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img15.jpg" alt="Image Description">
                                         </a>
-                                        <div class="mt-1">
-                                            <span class="py-1 font-size-14 border-radius-3 font-weight-normal pagination-v2-arrow-color">2.5/5 Excellant</span>
-                                            <span class="font-size-14 text-gray-1 ml-2">48 reviews</span>
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
+                                          <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                            <span class="flaticon-heart-1 font-size-20"></span>
+                                          </button>
+                                        </div>
+                                        <div class="position-absolute bottom-0 left-0 right-0">
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="px-4 pt-3 pb-2">
-                                        <div class="row">
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-plans font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4800 sq ft
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bathtub font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            2 Bathrooms
-                                                        </div>
-                                                    </li>
-                                                </ul>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
+                                        </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="js-slide mt-5">
+                                <div class="card transition-3d-hover shadow-hover-2 w-100 h-100">
+                                    <div class="position-relative">
+                                        <a href="#" class="d-block gradient-overlay-half-bg-gradient-v5">
+                                            <img class="card-img-top" src="../../assets/img/300x230/img16.jpg" alt="Image Description">
+                                        </a>
+                                        <div class="position-absolute top-0 right-0 pt-3 pr-3">
+                                          <button type="button" class="btn btn-sm btn-icon text-white rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
+                                            <span class="flaticon-heart-1 font-size-20"></span>
+                                          </button>
+                                        </div>
+                                        <div class="position-absolute bottom-0 left-0 right-0">
+                                            <div class="px-4 pb-3">
+                                                <a href="#" class="d-block">
+                                                    <div class="d-flex align-items-center font-size-14 text-white">
+                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                    </div>
+                                                </a>
                                             </div>
-                                            <div class="col-6">
-                                                <ul class="list-unstyled mb-0">
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-door font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            4 Rooms
-                                                        </div>
-                                                    </li>
-                                                    <li class="media mb-2 text-gray-1 align-items-center">
-                                                        <small class="mr-2">
-                                                            <small class="flaticon-bed-1 font-size-16"></small>
-                                                        </small>
-                                                        <div class="media-body font-size-1">
-                                                            6 Beds
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body px-4 py-3">
+                                        <a href="#" class="card-title font-size-17 font-weight-bold text-dark">Mangrove Tunnel Kayak Eco <br> Tour</a>
+                                        <div class="mt-2 mb-3">
+                                            <span class="badge badge-pill badge-warning text-white py-1 px-2 font-size-14 border-radius-3 font-weight-normal">4.6/5</span>
+                                            <span class="font-size-14 text-gray-1 ml-2">(166 reviews)</span>
+                                        </div>
+                                        <div class="mb-0">
+                                            <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                            <span class="font-weight-bold">£899.00</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2208,10 +1845,8 @@
         <script src="../../assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="../../assets/vendor/gmaps/gmaps.min.js"></script>
-        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
-        <script src="../../assets/vendor/appear.js"></script>
         <script src="../../assets/vendor/player.js/dist/player.min.js"></script>
-
+        <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -2225,10 +1860,8 @@
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
         <script src="../../assets/js/components/hs.quantity-counter.js"></script>
         <script src="../../assets/js/components/hs.g-map.js"></script>
-        <script src="../../assets/js/components/hs.fancybox.js"></script>
-        <script src="../../assets/js/components/hs.scroll-nav.js"></script>
-        <script src="../../assets/js/components/hs.sticky-block.js"></script>
         <script src="../../assets/js/components/hs.video-player.js"></script>
+        <script src="../../assets/js/components/hs.svg-injector.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -2240,6 +1873,9 @@
                     breakpoint: 1199.98,
                     hideTimeOut: 0
                 });
+
+                // initialization of svg injector module
+                $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
 
                 // Page preloader
                 setTimeout(function() {
@@ -2259,23 +1895,17 @@
                 // initialization of unfold component
                 $.HSCore.components.HSUnfold.init($('[data-unfold-target]'));
 
-                // initialization of show animations
-                $.HSCore.components.HSShowAnimation.init('.js-animation-link');
-
                 // initialization of video player
                 $.HSCore.components.HSVideoPlayer.init('.js-inline-video-player');
 
-                // initialization of popups
-                $.HSCore.components.HSFancyBox.init('.js-fancybox');
+                // initialization of show animations
+                $.HSCore.components.HSShowAnimation.init('.js-animation-link');
 
                 // initialization of datepicker
                 $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
 
                 // initialization of select
                 $.HSCore.components.HSSelectPicker.init('.js-select');
-
-                // initialization of sticky blocks
-                $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
 
                 // initialization of quantity counter
                 $.HSCore.components.HSQantityCounter.init('.js-quantity');
@@ -2285,11 +1915,6 @@
 
                 // initialization of go to
                 $.HSCore.components.HSGoTo.init('.js-go-to');
-
-                // initialization of HSScrollNav component
-                $.HSCore.components.HSScrollNav.init($('.js-scroll-nav'), {
-                    duration: 700
-                });
             });
         </script>
 
