@@ -685,11 +685,11 @@
                                                 <div class="border-bottom border-width-2 border-color-1 mb-4">
                                                     <div id="datepickerWrapperFromOne" class="u-datepicker input-group flex-nowrap">
                                                         <div class="input-group-prepend">
-                                                            <span class="d-flex align-items-center mr-2">
-                                                              <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                            <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                             </span>
                                                         </div>
-                                                         <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
+                                                         <input class="js-range-datepicker font-size-lg-16 ml-1 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="date"
                                                              data-rp-wrapper="#datepickerWrapperFromOne"
                                                              data-rp-type="range"
                                                              data-rp-date-format="M d / Y"
@@ -702,7 +702,7 @@
                                                 <div class="col dropdown-custom px-0 mb-5">
                                                     <!-- Input -->
                                                     <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Trip Type</span>
-                                                    <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex py-2" href="javascript:;" role="button"
+                                                    <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle flex-horizontal-center py-2" href="javascript:;" role="button"
                                                         aria-controls="basicDropdownClick"
                                                         aria-haspopup="true"
                                                         aria-expanded="false"
@@ -714,7 +714,7 @@
                                                         data-unfold-hide-on-scroll="true"
                                                         data-unfold-animation-in="slideInUp"
                                                         data-unfold-animation-out="fadeOut">
-                                                        <i class="flaticon-backpack d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
+                                                        <i class="flaticon-backpack d-flex align-items-center mr-2 font-size-24 text-primary"></i>
                                                         <span class="text-black font-size-16 font-weight-semi-bold">City Tour</span>
                                                     </a>
                                                     <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
@@ -746,14 +746,15 @@
                                     </div>
 
                                     <div class="sidenav border border-color-8 rounded-xs">
-                                        <div class="border-bottom py-4 mb-4">
-                                            <div id="RatingAccordion" class="accordion rounded shadow-none">
-                                               <div class="card-collapse" id="shopRatingHeadingOne">
+                                        <!-- Accordiaon -->
+                                        <div id="shopRatingAccordion" class="accordion rounded-0 shadow-none border-bottom">
+                                            <div class="border-0">
+                                                <div class="card-collapse" id="shopCategoryHeadingOne">
                                                     <h3 class="mb-0">
                                                         <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopRatingOne" aria-expanded="false" aria-controls="shopRatingOne">
                                                             <span class="row align-items-center">
                                                                 <span class="col-9">
-                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Star Rating</span>
+                                                                    <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark text-lh-1dot4">Star Ratings</span>
                                                                 </span>
                                                                 <span class="col-3 text-right">
                                                                     <span class="card-btn-arrow">
@@ -763,70 +764,72 @@
                                                             </span>
                                                         </button>
                                                     </h3>
-                                                </div> 
-                                                <div id="shopRatingOne" class="collapse show" aria-labelledby="shopRatingHeadingOne" data-parent="#RatingAccordion">
-                                                    <div class="card-body py-0 px-5">
+                                                </div>
+                                                <div id="shopRatingOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopRatingAccordion">
+                                                    <div class="card-body pt-0 mt-1 px-5">
                                                         <!-- Checkboxes -->
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating1">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating1">
-                                                                    <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                    </span>
+                                                                <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                                <label class="custom-control-label text-lh-inherit text-color-1" for="brandAdidas">
+                                                                    <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                        <div class="green-lighter ml-1 letter-spacing-2">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </div>
+                                                                    </div>
                                                                 </label>
-                                                            </div>                                       
+                                                            </div>
                                                         </div>
-
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating2">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating2">
-                                                                    <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>                                        
+                                                               <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                               <label class="custom-control-label text-lh-inherit text-color-1" for="brandNewBalance">
+                                                                    <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                        <div class="green-lighter ml-1 letter-spacing-2">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </div>
+                                                                    </div>
+                                                               </label>
+                                                            </div>
                                                         </div>
-
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                          <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating3">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating3">
-                                                                      <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                      </span>
-                                                                </label>
-                                                            </div>                                        
-                                                        </div>
-
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15 mb-0">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating4">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating4">
-                                                                    <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>        
+                                                              <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                              <label class="custom-control-label text-lh-inherit text-color-1" for="brandNike">
+                                                                    <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                        <div class="green-lighter ml-1 letter-spacing-2">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </div>
+                                                                    </div>
+                                                              </label>
+                                                            </div>
                                                         </div>
-                                                        <!-- End Checkboxes -->
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                            <div class="custom-control custom-checkbox">
+                                                              <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                              <label class="custom-control-label text-lh-inherit text-color-1" for="brandFredPerry">
+                                                                    <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                        <div class="green-lighter ml-1 letter-spacing-2">
+                                                                            <i class="fas fa-star"></i>
+                                                                            <i class="fas fa-star"></i>
+                                                                        </div>
+                                                                    </div>
+                                                              </label>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <!-- Accordiaon -->
                                         <div id="shopCartAccordion" class="accordion rounded shadow-none">
                                             <div class="border-0">
                                                 <div class="card-collapse" id="shopCardHeadingOne">
@@ -891,57 +894,57 @@
                                                 </div>
                                                 <div id="cityCategoryOne" class="collapse show" aria-labelledby="cityCategoryHeadingOne" data-parent="#cityCategoryAccordion">
                                                     <div class="card-body pt-0 mt-1 px-5 pb-4">
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandamsterdam">
                                                                 <label class="custom-control-label" for="brandamsterdam">Amsterdam</label>
                                                             </div>
-                                                            <small>749</small>
+                                                            <span>749</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandrotterdam">
                                                                 <label class="custom-control-label" for="brandrotterdam">Rotterdam</label>
                                                             </div>
-                                                            <small>630</small>
+                                                            <span>630</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandvalkenburg">
                                                                 <label class="custom-control-label" for="brandvalkenburg">Valkenburg</label>
                                                             </div>
-                                                            <small>58</small>
+                                                            <span>58</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3 pb-1">
+                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandeindhoven">
                                                                 <label class="custom-control-label" for="brandeindhoven">Eindhoven</label>
                                                             </div>
-                                                            <small>29</small>
+                                                            <span>29</span>
                                                         </div>
                                                         <!-- End Checkboxes -->
 
                                                         <!-- View More - Collapse -->
                                                         <div class="collapse" id="collapseBrand3">
-                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                                 <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="gucci">
                                                                 <label class="custom-control-label" for="gucci">Gucci</label>
                                                                 </div>
-                                                                <small>5</small>
+                                                                <span>5</span>
                                                             </div>
                                                             <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                                 <div class="custom-control custom-checkbox">
                                                                     <input type="checkbox" class="custom-control-input" id="mango">
                                                                     <label class="custom-control-label" for="mango">Mango</label>
                                                                 </div>
-                                                                <small>1</small>
+                                                                <span>1</span>
                                                             </div>
                                                         </div>
                                                         <!-- End View More - Collapse -->
 
                                                         <!-- Link -->
-                                                        <a class="link link-collapse small font-size-1" data-toggle="collapse" href="#collapseBrand3" role="button" aria-expanded="false" aria-controls="collapseBrand3">
+                                                        <a class="link link-collapse small font-size-1 mt-2" data-toggle="collapse" href="#collapseBrand3" role="button" aria-expanded="false" aria-controls="collapseBrand3">
                                                           <span class="link-collapse__default font-size-14">Show all 25</span>
                                                           <span class="link-collapse__active font-size-14">Show less</span>
                                                         </a>
@@ -1063,8 +1066,8 @@
                                                     <div class="col-md-7 col-xl-5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-2 pb-1">
-                                                                <span class="badge badge-pill badge-primary text-white font-size-14 px-3 py-2">Featured</span>
-                                                                <span class="badge badge-pill badge-pink-1 text-white px-3 py-2 font-size-14 font-weight-normal ml-2">%25</span>
+                                                                <span class="badge badge-pill bg-blue-1 text-white px-4 py-1 font-size-14 font-weight-normal text-lh-1dot6">Featured</span>
+                                                                <span class="badge badge-pill bg-pink-1 text-white px-3 py-1 font-size-14 font-weight-normal text-lh-1dot6 ml-2">%25</span>
                                                                 <span class="green-lighter ml-2 ml-md-3">
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                     <small class="fas fa-star font-size-10"></small>
@@ -1073,7 +1076,7 @@
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                 </span>
                                                             </div>
-                                                           
+
                                                             <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
                                                                 <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                     <span class="flaticon-heart-1 font-size-20"></span>
@@ -1085,8 +1088,8 @@
                                                             <div class="card-body p-0">
                                                                 <a href="#" class="d-block mb-3">
                                                                     <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
-                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom 
-                                                                        <small class="px-1 font-size-15"> - </small>  
+                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                                        <small class="px-1 font-size-15"> - </small>
                                                                         <span class="text-primary font-size-14">View on map</span>
                                                                     </div>
                                                                 </a>
@@ -1107,7 +1110,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="d-flex justify-content-center justify-content-md-start justify-content-xl-center">
-                                                                    <button type="button" class="btn btn-outline-navy border-radius-3 border-width-2 px-5 py-2">View Detail</button>
+                                                                    <button type="button" class="btn btn-outline-primary font-weight-bold min-height-50 border-radius-3 border-width-2 px-2 px-5 py-2">View Detail</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1154,8 +1157,8 @@
                                                     <div class="col-md-7 col-xl-5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-2 pb-1">
-                                                                <span class="badge badge-pill badge-primary text-white font-size-14 px-3 py-2">Featured</span>
-                                                                <span class="badge badge-pill badge-pink-1 text-white px-3 py-2 font-size-14 font-weight-normal ml-2">%25</span>
+                                                                <span class="badge badge-pill bg-blue-1 text-white px-4 py-1 font-size-14 font-weight-normal text-lh-1dot6">Featured</span>
+                                                                <span class="badge badge-pill bg-pink-1 text-white px-3 py-1 font-size-14 font-weight-normal text-lh-1dot6 ml-2">%25</span>
                                                                 <span class="green-lighter ml-2 ml-md-3">
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                     <small class="fas fa-star font-size-10"></small>
@@ -1164,7 +1167,7 @@
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                 </span>
                                                             </div>
-                                                           
+
                                                             <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
                                                                 <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                     <span class="flaticon-heart-1 font-size-20"></span>
@@ -1176,8 +1179,8 @@
                                                             <div class="card-body p-0">
                                                                 <a href="#" class="d-block mb-3">
                                                                     <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
-                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom 
-                                                                        <small class="px-1 font-size-15"> - </small>  
+                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                                        <small class="px-1 font-size-15"> - </small>
                                                                         <span class="text-primary font-size-14">View on map</span>
                                                                     </div>
                                                                 </a>
@@ -1198,7 +1201,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="d-flex justify-content-center justify-content-md-start justify-content-xl-center">
-                                                                    <button type="button" class="btn btn-outline-navy border-radius-3 border-width-2 px-5 py-2">View Detail</button>
+                                                                    <button type="button" class="btn btn-outline-primary font-weight-bold min-height-50 border-radius-3 border-width-2 px-2 px-5 py-2">View Detail</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1244,8 +1247,8 @@
                                                     <div class="col-md-7 col-xl-5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-2 pb-1">
-                                                                <span class="badge badge-pill badge-primary text-white font-size-14 px-3 py-2">Featured</span>
-                                                                <span class="badge badge-pill badge-pink-1 text-white px-3 py-2 font-size-14 font-weight-normal ml-2">%25</span>
+                                                                <span class="badge badge-pill bg-blue-1 text-white px-4 py-1 font-size-14 font-weight-normal text-lh-1dot6">Featured</span>
+                                                                <span class="badge badge-pill bg-pink-1 text-white px-3 py-1 font-size-14 font-weight-normal text-lh-1dot6 ml-2">%25</span>
                                                                 <span class="green-lighter ml-2 ml-md-3">
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                     <small class="fas fa-star font-size-10"></small>
@@ -1254,7 +1257,7 @@
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                 </span>
                                                             </div>
-                                                           
+
                                                             <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
                                                                 <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                     <span class="flaticon-heart-1 font-size-20"></span>
@@ -1266,8 +1269,8 @@
                                                             <div class="card-body p-0">
                                                                 <a href="#" class="d-block mb-3">
                                                                     <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
-                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom 
-                                                                        <small class="px-1 font-size-15"> - </small>  
+                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                                        <small class="px-1 font-size-15"> - </small>
                                                                         <span class="text-primary font-size-14">View on map</span>
                                                                     </div>
                                                                 </a>
@@ -1288,7 +1291,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="d-flex justify-content-center justify-content-md-start justify-content-xl-center">
-                                                                    <button type="button" class="btn btn-outline-navy border-radius-3 border-width-2 px-5 py-2">View Detail</button>
+                                                                    <button type="button" class="btn btn-outline-primary font-weight-bold min-height-50 border-radius-3 border-width-2 px-2 px-5 py-2">View Detail</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1334,8 +1337,8 @@
                                                     <div class="col-md-7 col-xl-5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-2 pb-1">
-                                                                <span class="badge badge-pill badge-primary text-white font-size-14 px-3 py-2">Featured</span>
-                                                                <span class="badge badge-pill badge-pink-1 text-white px-3 py-2 font-size-14 font-weight-normal ml-2">%25</span>
+                                                                <span class="badge badge-pill bg-blue-1 text-white px-4 py-1 font-size-14 font-weight-normal text-lh-1dot6">Featured</span>
+                                                                <span class="badge badge-pill bg-pink-1 text-white px-3 py-1 font-size-14 font-weight-normal text-lh-1dot6 ml-2">%25</span>
                                                                 <span class="green-lighter ml-2 ml-md-3">
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                     <small class="fas fa-star font-size-10"></small>
@@ -1344,7 +1347,7 @@
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                 </span>
                                                             </div>
-                                                           
+
                                                             <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
                                                                 <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                     <span class="flaticon-heart-1 font-size-20"></span>
@@ -1356,8 +1359,8 @@
                                                             <div class="card-body p-0">
                                                                 <a href="#" class="d-block mb-3">
                                                                     <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
-                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom 
-                                                                        <small class="px-1 font-size-15"> - </small>  
+                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                                        <small class="px-1 font-size-15"> - </small>
                                                                         <span class="text-primary font-size-14">View on map</span>
                                                                     </div>
                                                                 </a>
@@ -1378,7 +1381,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="d-flex justify-content-center justify-content-md-start justify-content-xl-center">
-                                                                    <button type="button" class="btn btn-outline-navy border-radius-3 border-width-2 px-5 py-2">View Detail</button>
+                                                                    <button type="button" class="btn btn-outline-primary font-weight-bold min-height-50 border-radius-3 border-width-2 px-2 px-5 py-2">View Detail</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1424,8 +1427,8 @@
                                                     <div class="col-md-7 col-xl-5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-2 pb-1">
-                                                                <span class="badge badge-pill badge-primary text-white font-size-14 px-3 py-2">Featured</span>
-                                                                <span class="badge badge-pill badge-pink-1 text-white px-3 py-2 font-size-14 font-weight-normal ml-2">%25</span>
+                                                                <span class="badge badge-pill bg-blue-1 text-white px-4 py-1 font-size-14 font-weight-normal text-lh-1dot6">Featured</span>
+                                                                <span class="badge badge-pill bg-pink-1 text-white px-3 py-1 font-size-14 font-weight-normal text-lh-1dot6 ml-2">%25</span>
                                                                 <span class="green-lighter ml-2 ml-md-3">
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                     <small class="fas fa-star font-size-10"></small>
@@ -1434,7 +1437,7 @@
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                 </span>
                                                             </div>
-                                                           
+
                                                             <div class="position-absolute top-0 right-0 pr-md-3 d-none d-md-block">
                                                                 <button type="button" class="btn btn-sm btn-icon rounded-circle" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save for later">
                                                                     <span class="flaticon-heart-1 font-size-20"></span>
@@ -1446,8 +1449,8 @@
                                                             <div class="card-body p-0">
                                                                 <a href="#" class="d-block mb-3">
                                                                     <div class="d-flex flex-wrap flex-xl-nowrap align-items-center font-size-14 text-gray-1">
-                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom 
-                                                                        <small class="px-1 font-size-15"> - </small>  
+                                                                        <i class="icon flaticon-placeholder mr-2 font-size-20"></i> Greater London, United Kingdom
+                                                                        <small class="px-1 font-size-15"> - </small>
                                                                         <span class="text-primary font-size-14">View on map</span>
                                                                     </div>
                                                                 </a>
@@ -1468,7 +1471,7 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="d-flex justify-content-center justify-content-md-start justify-content-xl-center">
-                                                                    <button type="button" class="btn btn-outline-navy border-radius-3 border-width-2 px-5 py-2">View Detail</button>
+                                                                    <button type="button" class="btn btn-outline-primary font-weight-bold min-height-50 border-radius-3 border-width-2 px-2 px-5 py-2">View Detail</button>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1542,7 +1545,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Multi-day Tours</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Multi-day Tours</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£899.00</h2>
                                                         </div>
                                                     </div>
@@ -1585,7 +1588,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Attraction Tickets</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Attraction Tickets</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£590.00</h2>
                                                         </div>
                                                     </div>
@@ -1628,7 +1631,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Culturals Tours</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Culturals Tours</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£550.00</h2>
                                                         </div>
                                                     </div>
@@ -1674,7 +1677,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Multi-day Tours</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Multi-day Tours</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£899.00</h2>
                                                         </div>
                                                     </div>
@@ -1717,7 +1720,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Attraction Tickets</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Attraction Tickets</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£590.00</h2>
                                                         </div>
                                                     </div>
@@ -1760,7 +1763,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Culturals Tours</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Culturals Tours</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£550.00</h2>
                                                         </div>
                                                     </div>
@@ -1806,7 +1809,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Multi-day Tours</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Multi-day Tours</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£899.00</h2>
                                                         </div>
                                                     </div>
@@ -1849,7 +1852,7 @@
                                                     </div>
                                                     <div class="position-absolute bottom-0 left-0 right-0">
                                                         <div class="px-3 pb-2">
-                                                            <span class="text-white font-weight-normal font-size-14">Attraction Tickets</span>
+                                                            <span class="text-gray-10 font-weight-normal font-size-14">Attraction Tickets</span>
                                                             <h2 class="h5 text-white mb-0 font-weight-bold"><small class="mr-2">From</small>£590.00</h2>
                                                         </div>
                                                     </div>
