@@ -37,7 +37,7 @@
             <div class="u-header__section u-header__shadow-on-show-hide py-4 py-xl-0">
                 <!-- Topbar -->
                 <div class="container-fluid u-header__hide-content u-header__topbar u-header__topbar-lg border-bottom border-color-white">
-                    <div class="d-flex align-items-center"> 
+                    <div class="d-flex align-items-center">
                         <ul class="list-inline u-header__topbar-nav-divider mb-0">
                             <li class="list-inline-item mr-0"><a href="tel:(000)999-898-999" class="u-header__navbar-link">(000) 999 - 898 -999</a></li>
                             <li class="list-inline-item mr-0"><a href="mailto:info@mytravel.com" class="u-header__navbar-link">info@mytravel.com</a></li>
@@ -453,8 +453,22 @@
                         <div id="navBar" class="navbar-collapse u-header__navbar-collapse collapse order-2 order-xl-0 pt-4 p-xl-0">
                             <ul class="navbar-nav u-header__navbar-nav">
                                 <!-- Home -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Home</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="homeMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Home</a>
+                                    <!-- Home Submenu -->
+                                    <ul id="homeSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="homeMenu" style="min-width: 230px;">
+                                        <li class="active"><a class="nav-link u-header__sub-menu-nav-link" href="../home/index.html">Home v1 All Services</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v2.html">Home v2 All Services</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v3.html">Home v3 All Services</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v4.html">Home v4 Hotel</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v5.html">Home v5 Tour</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v6.html">Home v6 Activity</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v7.html">Home v7 Rental</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v8.html">Home v8 Car</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v9.html">Home v9 Yacht</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v10.html">Home v10 Flights</a></li>
+                                    </ul>
+                                    <!-- End Home Submenu -->
                                 </li>
                                 <!-- End Home -->
 
@@ -463,15 +477,17 @@
                                     <a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu">Hotel</a>
                                     <!-- Hotel Submenu -->
                                     <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-list-02.html">List With Map</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-single-v1.html">Hotel Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-single-v2.html">Hotel Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-single-v3.html">Hotel Single v3</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-booking.html">Hotel Booking</a></li>
                                     </ul>
                                     <!-- End Hotel Submenu -->
                                 </li>
                                 <!-- End Hotel -->
-                                
+
                                 <!-- Tour -->
                                 <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="722px" data-position="right">
                                     <a id="tourMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Tour</a>
@@ -482,18 +498,19 @@
                                             <div class="col-12 col-xl-3dot64">
                                                 <span class="u-header__sub-menu-title">List Style</span>
                                                 <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Top Search Layout</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar Search Layout</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-list.html">Sidebar</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-fullwidth.html">Full Width</a></li>
+                                                </ul>
+                                                <span class="u-header__sub-menu-title">Tour Booking</span>
+                                                <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-booking.html">Tour Booking</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-xl-3dot64">
                                                 <span class="u-header__sub-menu-title">Single</span>
                                                 <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 1</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 2</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 3</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 4</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 5</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-single-v1.html">Tour Single v1</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-single-v2.html">Tour Single v2</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-xl">
@@ -514,8 +531,17 @@
                                 <!-- End Tour -->
 
                                 <!-- Activicity -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Activicity</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="activicityMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="activicitySubMenu">Activicity</a>
+                                    <!-- Activicity Submenu -->
+                                    <ul id="activicitySubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="activicityMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-fullwidth.html">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-single-v1.html">Activicity Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-single-v2.html">Activicity Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-booking.html">Activicity Booking</a></li>
+                                    </ul>
+                                    <!-- End Activicity Submenu -->
                                 </li>
                                 <!-- End Activicity -->
 
@@ -524,18 +550,28 @@
                                     <a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu">Rental</a>
                                     <!-- Rental Submenu -->
                                     <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-list-02.html">List With Map</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-single-v1.html">Rental Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-single-v2.html">Rental Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-booking.html">Rental Booking</a></li>
                                     </ul>
                                     <!-- End Rental Submenu -->
                                 </li>
                                 <!-- End Rental -->
 
                                 <!-- Car -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Car</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="carMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="carSubMenu">Car</a>
+                                    <!-- Car Submenu -->
+                                    <ul id="carSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="carMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-fullwidth.html">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-single-v1.html">Car Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-single-v2.html">Car Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-booking.html">Car Booking</a></li>
+                                    </ul>
+                                    <!-- End Car Submenu -->
                                 </li>
                                 <!-- End Car -->
 
@@ -544,37 +580,45 @@
                                     <a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu">Yacht</a>
                                     <!-- Yacht Submenu -->
                                     <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-fullwidth.html">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-single-v1.html">Yacht Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-single-v2.html">Yacht Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-booking.html">Yacht Booking</a></li>
                                     </ul>
                                     <!-- End Yacht Submenu -->
                                 </li>
                                 <!-- End Yacht -->
 
                                 <!-- Flights -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Flights</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="flightsMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="flightsSubMenu">Flights</a>
+                                    <!-- Flights Submenu -->
+                                    <ul id="flightsSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="flightsMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../flights/flights-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../flights/flights-booking.html">Flights Booking</a></li>
+                                    </ul>
+                                    <!-- End Flights Submenu -->
                                 </li>
                                 <!-- End Flights -->
 
                                 <!-- Pages -->
-                                <!-- Hotel -->
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
-                                    <!-- Hotel Submenu -->
+                                    <!-- Pages Submenu -->
                                     <ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Destination</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">About us</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Blog</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">FAQs</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Contact</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Terms of Use</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/destination.html">Destination</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/about.html">About us</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/become-expert.html">Become Expert</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/blog-list.html">Blog</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/blog-single.html">Blog Single</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/faq.html">FAQs</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/404.html">404</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/contact.html">Contact</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/terms-conditions.html">Terms of Use</a></li>
                                     </ul>
-                                    <!-- End Hotel Submenu -->
+                                    <!-- End Pages Submenu -->
                                 </li>
-                                <!-- End Hotel -->
                                 <!-- End Pages -->
                             </ul>
                         </div>
@@ -638,7 +682,7 @@
                                         </div>
                                         <div class="d-md-flex button-inline-group-md mb-1">
                                             <a class="btn btn-block btn-md btn-gray-1 rounded-xs font-weight-bold transition-3d-hover" href="#">
-                                                View cart 
+                                                View cart
                                             </a>
                                             <a class="btn btn-block btn-md btn-blue-1 rounded-xs font-weight-bold transition-3d-hover mt-md-0 ml-md-5" href="#">
                                                 Check Out
@@ -677,7 +721,7 @@
                                 <li class="breadcrumb-item font-size-14"><a class="text-white" href="../home/index.html">Home</a></li>
                                 <li class="breadcrumb-item custom-breadcrumb-item font-size-14 text-white active" aria-current="page">Blog Single</li>
                               </ol>
-                            </nav> 
+                            </nav>
                         </div>
                         <!-- End Info -->
                     </div>
@@ -725,7 +769,7 @@
                                         </div>
                                         <div class="font-weight-normal  ml-md-4 mb-0 pt-md-1 text-center text-md-left">
                                             The bedding was hardly able
-                                        </div> 
+                                        </div>
                                     </a>
 
                                     <a class="d-block text-color-1" href="#">
@@ -868,7 +912,7 @@
                                 </form>
                             </div>
                         </div>
-                    
+
                         <div class="col-lg-4 col-xl-3">
                             <form class="input-group input-group-borderless mb-5">
                             <!-- Input -->
@@ -1166,7 +1210,7 @@
                                 </li>
                             </ul>
                             <!-- End List -->
-                            
+
                             <div class="border border-color-7 rounded p-4 mb-5">
                                 <h6 class="font-size-17 font-weight-bold text-gray-3 mx-1 mb-3 pb-1">Why Book With Us?</h6>
                                 <div class="d-flex align-items-center mb-3">
@@ -1199,16 +1243,16 @@
                                 <h6 class="font-size-17 font-weight-bold text-gray-3 mx-1 mb-3 pb-1">Tags</h6>
                                 <div class="d-flex flex-wrap">
                                     <a class="btn d-flex align-items-center justify-content-center btn-gray-1 rounded-xs transition-3d-hover font-size-14 text-gray-1 height-35 width-70 mr-2 mb-2" href="#">
-                                        Tour 
+                                        Tour
                                     </a>
                                     <a class="btn d-flex align-items-center justify-content-center btn-gray-1 rounded-xs transition-3d-hover font-size-14 text-gray-1 height-35 width-90 mr-2 mb-2" href="#">
-                                        Rental 
+                                        Rental
                                     </a>
                                     <a class="btn d-flex align-items-center justify-content-center btn-gray-1 rounded-xs transition-3d-hover font-size-14 text-gray-1 height-35 width-70 mr-2 mb-2" href="#">
-                                        City 
+                                        City
                                     </a>
                                     <a class="btn d-flex align-items-center justify-content-center btn-gray-1 rounded-xs transition-3d-hover font-size-14 text-gray-1 height-35 width-80 mr-2 mb-2" href="#">
-                                        Yatch 
+                                        Yatch
                                     </a>
                                     <a class="btn d-flex align-items-center justify-content-center btn-gray-1 rounded-xs transition-3d-hover font-size-14 text-gray-1 height-35 width-90 mr-2 mb-2" href="#">
                                         Activity
@@ -1371,8 +1415,8 @@
                         <!-- End Logo -->
                         </div>
                         <div class="bootstrap-select__custom col-xl-8 d-block d-lg-flex justify-content-xl-end align-items-center">
-                            <div class="mb-4 mb-lg-0"> 
-                                    <ul class="d-flex list-unstyled mb-0 mb-0"> 
+                            <div class="mb-4 mb-lg-0">
+                                    <ul class="d-flex list-unstyled mb-0 mb-0">
                                         <li class="mr-2 ml-0"><img class="max-width-40" src="../../assets/img/icons/img3.png" alt="Payment Icons"></li>
                                         <li class="mx-2"><img class="max-width-40" src="../../assets/img/icons/img4.png" alt="Payment Icons"></li>
                                         <li class="mx-2"><img class="max-width-40" src="../../assets/img/icons/img5.png" alt="Payment Icons"></li>
@@ -1443,7 +1487,7 @@
             </div>
         </footer>
         <!-- ========== END FOOTER ========== -->
-        
+
         <!-- Go to Top -->
         <a class="js-go-to u-go-to-modern" href="#" data-position='{"bottom": 15, "right": 15 }' data-type="fixed" data-offset-top="400" data-compensation="#header" data-show-effect="slideInUp" data-hide-effect="slideOutDown">
             <span class="flaticon-arrow u-go-to-modern__inner"></span>

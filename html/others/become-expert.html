@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <!-- Title -->
-        <title>About| MyTravel - Responsive Website Template</title>
+        <title>Become Expert| MyTravel - Responsive Website Template</title>
 
         <!-- Required Meta Tags Always Come First -->
         <meta charset="utf-8">
@@ -38,7 +38,7 @@
             <div class="u-header__section u-header__shadow-on-show-hide py-4 py-xl-0">
                 <!-- Topbar -->
                 <div class="container-fluid u-header__hide-content u-header__topbar u-header__topbar-lg border-bottom border-color-white">
-                    <div class="d-flex align-items-center"> 
+                    <div class="d-flex align-items-center">
                         <ul class="list-inline u-header__topbar-nav-divider mb-0">
                             <li class="list-inline-item mr-0"><a href="tel:(000)999-898-999" class="u-header__navbar-link">(000) 999 - 898 -999</a></li>
                             <li class="list-inline-item mr-0"><a href="mailto:info@mytravel.com" class="u-header__navbar-link">info@mytravel.com</a></li>
@@ -553,8 +553,22 @@
                         <div id="navBar" class="navbar-collapse u-header__navbar-collapse collapse order-2 order-xl-0 pt-4 p-xl-0">
                             <ul class="navbar-nav u-header__navbar-nav">
                                 <!-- Home -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Home</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="homeMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="homeSubMenu">Home</a>
+                                    <!-- Home Submenu -->
+                                    <ul id="homeSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="homeMenu" style="min-width: 230px;">
+                                        <li class="active"><a class="nav-link u-header__sub-menu-nav-link" href="../home/index.html">Home v1 All Services</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v2.html">Home v2 All Services</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v3.html">Home v3 All Services</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v4.html">Home v4 Hotel</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v5.html">Home v5 Tour</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v6.html">Home v6 Activity</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v7.html">Home v7 Rental</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v8.html">Home v8 Car</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v9.html">Home v9 Yacht</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../home/home-v10.html">Home v10 Flights</a></li>
+                                    </ul>
+                                    <!-- End Home Submenu -->
                                 </li>
                                 <!-- End Home -->
 
@@ -563,15 +577,17 @@
                                     <a id="hotelMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="hotelSubMenu">Hotel</a>
                                     <!-- Hotel Submenu -->
                                     <ul id="hotelSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="hotelMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-list-02.html">List With Map</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-single-v1.html">Hotel Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-single-v2.html">Hotel Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-single-v3.html">Hotel Single v3</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../hotels/hotel-booking.html">Hotel Booking</a></li>
                                     </ul>
                                     <!-- End Hotel Submenu -->
                                 </li>
                                 <!-- End Hotel -->
-                                
+
                                 <!-- Tour -->
                                 <li class="nav-item hs-has-mega-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut" data-max-width="722px" data-position="right">
                                     <a id="tourMegaMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle" href="javascript:;" aria-haspopup="true" aria-expanded="false">Tour</a>
@@ -582,18 +598,19 @@
                                             <div class="col-12 col-xl-3dot64">
                                                 <span class="u-header__sub-menu-title">List Style</span>
                                                 <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Top Search Layout</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar Search Layout</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-list.html">Sidebar</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-fullwidth.html">Full Width</a></li>
+                                                </ul>
+                                                <span class="u-header__sub-menu-title">Tour Booking</span>
+                                                <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-booking.html">Tour Booking</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-xl-3dot64">
                                                 <span class="u-header__sub-menu-title">Single</span>
                                                 <ul class="u-header__sub-menu-nav-group u-header__sub-menu-bordered mb-3">
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 1</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 2</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 3</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 4</a></li>
-                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Tour Single 5</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-single-v1.html">Tour Single v1</a></li>
+                                                    <li><a class="nav-link u-header__sub-menu-nav-link" href="../tour/tour-single-v2.html">Tour Single v2</a></li>
                                                 </ul>
                                             </div>
                                             <div class="col-12 col-xl">
@@ -614,8 +631,17 @@
                                 <!-- End Tour -->
 
                                 <!-- Activicity -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Activicity</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="activicityMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="activicitySubMenu">Activicity</a>
+                                    <!-- Activicity Submenu -->
+                                    <ul id="activicitySubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="activicityMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-fullwidth.html">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-single-v1.html">Activicity Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-single-v2.html">Activicity Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../activities/activities-booking.html">Activicity Booking</a></li>
+                                    </ul>
+                                    <!-- End Activicity Submenu -->
                                 </li>
                                 <!-- End Activicity -->
 
@@ -624,18 +650,28 @@
                                     <a id="rentalMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="rentalSubMenu">Rental</a>
                                     <!-- Rental Submenu -->
                                     <ul id="rentalSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="rentalMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-list-02.html">List With Map</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-single-v1.html">Rental Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-single-v2.html">Rental Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../rental/rental-booking.html">Rental Booking</a></li>
                                     </ul>
                                     <!-- End Rental Submenu -->
                                 </li>
                                 <!-- End Rental -->
 
                                 <!-- Car -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Car</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="carMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="carSubMenu">Car</a>
+                                    <!-- Car Submenu -->
+                                    <ul id="carSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="carMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-fullwidth.html">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-single-v1.html">Car Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-single-v2.html">Car Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../cars/cars-booking.html">Car Booking</a></li>
+                                    </ul>
+                                    <!-- End Car Submenu -->
                                 </li>
                                 <!-- End Car -->
 
@@ -644,37 +680,45 @@
                                     <a id="yachtMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="yachtSubMenu">Yacht</a>
                                     <!-- Yacht Submenu -->
                                     <ul id="yachtSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="yachtMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">List</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Grid</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Sidebar</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-fullwidth.html">Full Width</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-single-v1.html">Yacht Single v1</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-single-v2.html">Yacht Single v2</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../yacht/yacht-booking.html">Yacht Booking</a></li>
                                     </ul>
                                     <!-- End Yacht Submenu -->
                                 </li>
                                 <!-- End Yacht -->
 
                                 <!-- Flights -->
-                                <li class="nav-item u-header__nav-item">
-                                    <a class="nav-link u-header__nav-link u-header__nav-link-border" href="#">Flights</a>
+                                <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
+                                    <a id="flightsMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="flightsSubMenu">Flights</a>
+                                    <!-- Flights Submenu -->
+                                    <ul id="flightsSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="flightsMenu" style="min-width: 230px;">
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../flights/flights-list.html">Sidebar</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../flights/flights-booking.html">Flights Booking</a></li>
+                                    </ul>
+                                    <!-- End Flights Submenu -->
                                 </li>
                                 <!-- End Flights -->
 
                                 <!-- Pages -->
-                                <!-- Hotel -->
                                 <li class="nav-item hs-has-sub-menu u-header__nav-item" data-event="hover" data-animation-in="slideInUp" data-animation-out="fadeOut">
                                     <a id="pagesMenu" class="nav-link u-header__nav-link u-header__nav-link-toggle u-header__nav-link-border" href="javascript:;" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">Pages</a>
-                                    <!-- Hotel Submenu -->
+                                    <!-- Pages Submenu -->
                                     <ul id="pagesSubMenu" class="hs-sub-menu u-header__sub-menu u-header__sub-menu-rounded u-header__sub-menu-bordered hs-sub-menu-right u-header__sub-menu--spacer" aria-labelledby="pagesMenu" style="min-width: 230px;">
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Destination</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">About us</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Blog</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">FAQs</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Contact</a></li>
-                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="#">Terms of Use</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/destination.html">Destination</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/about.html">About us</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/become-expert.html">Become Expert</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/blog-list.html">Blog</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../blog/blog-single.html">Blog Single</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/faq.html">FAQs</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/404.html">404</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/contact.html">Contact</a></li>
+                                        <li><a class="nav-link u-header__sub-menu-nav-link" href="../others/terms-conditions.html">Terms of Use</a></li>
                                     </ul>
-                                    <!-- End Hotel Submenu -->
+                                    <!-- End Pages Submenu -->
                                 </li>
-                                <!-- End Hotel -->
                                 <!-- End Pages -->
                             </ul>
                         </div>
@@ -738,7 +782,7 @@
                                         </div>
                                         <div class="d-md-flex button-inline-group-md mb-1">
                                             <a class="btn btn-block btn-md btn-gray-1 rounded-xs font-weight-bold transition-3d-hover" href="#">
-                                                View cart 
+                                                View cart
                                             </a>
                                             <a class="btn btn-block btn-md btn-blue-1 rounded-xs font-weight-bold transition-3d-hover mt-md-0 ml-md-5" href="#">
                                                 Check Out
@@ -771,94 +815,51 @@
                     <div class="row justify-content-center py-xl-4">
                         <!-- Info -->
                         <div class="py-xl-10 py-5">
-                            <h1 class="font-size-40 font-size-xs-30 text-white font-weight-bold mb-0">About Us</h1>
-                            <span class="text-white font-size-14 font-weight-normal">Home   >   About</span> 
+                            <h1 class="font-size-40 font-size-xs-30 text-white font-weight-bold mb-0">Become Local Expert</h1>
+                            <span class="text-white font-size-14 font-weight-normal">Home   >   About</span>
                         </div>
                         <!-- End Info -->
                     </div>
                 </div>
             </div>
             <!-- End Hero Section -->
-            <!-- Slider -->
-            <div class="slider border-bottom border-color-3">
-                <div class="container space-1">
-                    <div class="w-md-80 w-lg-70 text-center mx-md-auto mb-5 mt-3">
-                        <h2 class="section-title text-black font-size-xs-28 font-weight-bold mb-0">We’re truely dedicated to make your travel experience as much simple and fun as possible!</h2>
-                     </div>
-                     <section class="w-lg-80 mx-auto mb-4">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h2 class="font-size-21 font-weight-bold text-center text-md-left ">Our Story</h2>
-                                <p class="text-gray-1">Bringing you a modern, comfortable, and connected travel experience is one of our highest priorities and that’s why we continuously try to improve your experience when you book anything with us.</p>
-                            </div><!-- /.col -->
-                            
-                            <div class="col-md-6">
-                                <h2 class="font-size-21 font-weight-bold text-center text-md-left ">Our mission</h2>
-                                <p class="text-gray-1">We really appreciate and welcome any of suggstions you might have for us, so feel free drop us line anytime.Air conditioning, heating, desk, alarm clock, iPod docking station can be found in selected guestrooms.</p>
-                            </div><!-- /.col -->
-                            
-                        </div><!-- ./row -->
-                    </section>
-                    <div class="js-slick-carousel u-slick pb-2"
-                         data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"
-                         data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-9"
-                         data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-9"
-                         data-pagi-classes="text-center u-slick__pagination mt-5">
-                        <div class="js-slide bg-img-hero-center rounded-xs" style="background-image: url(../../assets/img/slider/img1.png);">
-                            <div class="space-5">
-                            </div>
-                        </div>
-                        <div class="js-slide bg-img-hero-center rounded-xs" style="background-image: url(../../assets/img/slider/img2.jpg);">
-                            <div class="space-5">
-                            </div>
-                        </div>
-                        <div class="js-slide bg-img-hero-center rounded-xs" style="background-image: url(../../assets/img/slider/img3.jpg);">
-                            <div class="space-5">
-                            </div>
-                        </div>
-                        <div class="js-slide bg-img-hero-center rounded-xs" style="background-image: url(../../assets/img/slider/img4.jpg);">
-                            <div class="space-5">
-                            </div>
-                        </div>
-                        <div class="js-slide bg-img-hero-center rounded-xs" style="background-image: url(../../assets/img/slider/img5.jpg);">
-                            <div class="space-5">
-                            </div>
-                        </div>
-                    </div>
-                 </div>
-             </div>
-            <!-- End Slider -->
             <!-- Features Section -->
-            <div class="container text-center space-1">
+            <div class="container text-center space-top-lg-2">
                 <!-- Title -->
-                <div class="w-md-80 w-lg-50 text-center mx-md-auto pb-1">
-                    <h2 class="section-title text-black font-size-30 font-weight-bold">Why Choose</h2>
+                <div class="w-md-80 w-lg-50 text-center mx-md-auto pb-1 pt-5 pb-md-6">
+                    <h2 class="section-title text-black font-size-30 font-weight-bold">How it Works</h2>
                 </div>
                 <!-- End Title -->
                 <!-- Features -->
-                <div class="mb-8">
+                <div class="mb-6">
                     <div class="row">
                         <!-- Icon Block -->
-                        <div class="col-md-4">
-                            <i class="flaticon-price text-primary font-size-80 mb-3"></i>
-                            <h5 class="font-size-17 text-dark font-weight-bold mb-2"><a href="#">Competitive Pricing</a></h5>
-                            <p class="text-gray-1 px-xl-2 px-uw-7">With 500+ suppliers and the purchasing power of 300 million members, mytravel.com can save you more!</p>
+                        <div class="col-lg-4 pb-4 pb-lg-0">
+                            <img class="img-fluid pb-5" src="../../assets/img/icons/img8.jpg">
+                            <div class="text-lg-left  w-lg-80 mx-auto">
+                                <h5 class="font-size-21 text-dark font-weight-bold mb-2"><a href="#">Sign Up</a></h5>
+                                <p class="text-gray-1">Bringing you a modern, comfortable, and connected travel anything with us.</p>
+                            </div>
                         </div>
                         <!-- End Icon Block -->
 
                         <!-- Icon Block -->
-                        <div class="col-md-4">
-                            <i class="flaticon-medal text-primary font-size-80 mb-3"></i>
-                            <h5 class="font-size-17 text-dark font-weight-bold mb-2"><a href="#">Award-Winning Service</a></h5>
-                            <p class="text-gray-1 px-xl-2 px-uw-7">Travel worry-free knowing that we're here if you needus, 24 hours a day</p>
+                        <div class="col-lg-4 pb-4 pb-lg-0">
+                            <img class="img-fluid pb-5" src="../../assets/img/icons/img9.jpg">
+                            <div class="text-lg-left w-lg-80 ml-auto">
+                                <h5 class="font-size-21 text-dark font-weight-bold mb-2"><a href="#">Add Your Services</a></h5>
+                                <p class="text-gray-1">Bringing you a modern, comfortable, and connected travel anything with us.</p>
+                            </div>
                         </div>
                         <!-- End Icon Block -->
 
                         <!-- Icon Block -->
-                        <div class="col-md-4">
-                            <i class="flaticon-global-1 text-primary font-size-80 mb-3"></i>
-                            <h5 class="font-size-17 text-dark font-weight-bold mb-2"><a href="#">Worldwide Coverage</a></h5>
-                            <p class="text-gray-1 px-xl-2 px-uw-7">Over 1,200,000 hotels in more than 200 countries and regions & flights to over 5,000 cities</p>
+                        <div class="col-lg-4 pb-4 pb-lg-0">
+                            <img class="img-fluid pb-5" src="../../assets/img/icons/img10.jpg">
+                                <div class="text-lg-left w-lg-80 mx-auto">
+                                    <h5 class="font-size-21 text-dark font-weight-bold mb-2"><a href="#">Get Bookings</a></h5>
+                                    <p class="text-gray-1">Bringing you a modern, comfortable, and connected travel anything with us.</p>
+                                </div>
                         </div>
                         <!-- End Icon Block -->
                     </div>
@@ -882,293 +883,47 @@
                 </div>
             </div>
             <!--End Banner-->
-            <!-- Testimonials Section -->
-            <div class="container">
-                <div class="pt-7 pb-8">
-                    <div class="w-md-80 w-lg-50 text-center mx-md-auto mb-5">
-                        <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Customer Reviews</h2>
-                    </div>
-                    <!-- Slick Carousel -->
-                    <div class="js-slick-carousel u-slick u-slick-zoom u-slick--gutters-3" data-infinite="    true" data-autoplay="true" data-speed="3000" data-fade="true"
-                    data-pagi-classes="text-center u-slick__pagination mb-0 mt-4"
-                        data-responsive='[{
-                        "breakpoint": 992,
-                           "settings": {
-                             "slidesToShow": 1
-                           }
-                        }]'>
-
-                        <div class="js-slide">
-                            <!-- Testimonials -->
-                            <div class="d-flex justify-content-center mb-6">
-                                <div class="position-relative">
-                                    <img class="img-fluid mx-auto" src="../../assets/img/137x137/img1.jpg" alt="Image-Descrition">
-                                    <span class="btn-position btn btn-icon btn-dark rounded-circle d-flex align-items-center justify-content-center height-60 width-60">
-                                        <figure id="quote7" class="svg-preloader">
-                                            <img class="js-svg-injector" src="../../assets/svg/illustrations/quote2.svg" alt="SVG" data-parent="#quote7">
-                                        </figure>
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-gray-1 font-italic text-lh-inherit px-xl-20 mx-xl-15 px-xl-20 mx-xl-18">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
-                                <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Jessica Brown</h6>
-                                <span class="text-blue-lighter-1 font-size-normal">client</span>
-                            </div>
-                            <!-- End Testimonials -->
-                        </div>
-
-                        <div class="js-slide">
-                            <!-- Testimonials -->
-                            <div class="d-flex justify-content-center mb-6">
-                                <div class="position-relative">
-                                    <img class="img-fluid mx-auto" src="../../assets/img/137x137/img2.jpg" alt="Image-Descrition">
-                                    <div class="btn-position btn btn-icon btn-dark rounded-circle d-flex align-items-center justify-content-center height-60 width-60">
-                                        <figure id="quote8" class="svg-preloader">
-                                            <img class="js-svg-injector" src="../../assets/svg/illustrations/quote2.svg" alt="SVG" data-parent="#quote8">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-gray-1 font-italic text-lh-inherit px-xl-20 mx-xl-15 px-xl-20 mx-xl-18">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
-                                <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Augusta Silva</h6>
-                                <span class="text-blue-lighter-1 font-size-normal">client</span>
-                            </div>
-                            <!-- End Testimonials -->
-                        </div>
-
-                        <div class="js-slide">
-                            <!-- Testimonials -->
-                            <div class="d-flex justify-content-center mb-6">
-                                <div class="position-relative">
-                                    <img class="img-fluid mx-auto" src="../../assets/img/137x137/img3.jpg" alt="Image-Descrition">
-                                    <div class="btn-position btn btn-icon btn-dark rounded-circle d-flex align-items-center justify-content-center height-60 width-60">
-                                        <figure id="quote9" class="svg-preloader">
-                                            <img class="js-svg-injector" src="../../assets/svg/illustrations/quote2.svg" alt="SVG" data-parent="#quote9">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-gray-1 font-italic text-lh-inherit px-xl-20 mx-xl-15 px-xl-20 mx-xl-18">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
-                                <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Ali Tufan</h6>
-                                <span class="text-blue-lighter-1 font-size-normal">client</span>
-                            </div>
-                            <!-- End Testimonials -->
-                        </div>
-
-                        <div class="js-slide">
-                            <!-- Testimonials -->
-                            <div class="d-flex justify-content-center mb-6">
-                                <div class="position-relative">
-                                    <img class="img-fluid mx-auto" src="../../assets/img/137x137/img1.jpg" alt="Image-Descrition">
-                                    <div class="btn-position btn btn-icon btn-dark rounded-circle d-flex align-items-center justify-content-center height-60 width-60">
-                                        <figure id="quote10" class="svg-preloader">
-                                            <img class="js-svg-injector" src="../../assets/svg/illustrations/quote2.svg" alt="SVG" data-parent="#quote10">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-gray-1 font-italic text-lh-inherit px-xl-20 mx-xl-15 px-xl-20 mx-xl-18">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
-                                <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Jessica Brown</h6>
-                                <span class="text-blue-lighter-1 font-size-normal">client</span>
-                            </div>
-                            <!-- End Testimonials -->
-                        </div>
-
-                        <div class="js-slide">
-                            <!-- Testimonials -->
-                            <div class="d-flex justify-content-center mb-6">
-                                <div class="position-relative">
-                                    <img class="img-fluid mx-auto" src="../../assets/img/137x137/img3.jpg" alt="Image-Descrition">
-                                    <div class="btn-position btn btn-icon btn-dark rounded-circle d-flex align-items-center justify-content-center height-60 width-60">
-                                        <figure id="quote11" class="svg-preloader">
-                                            <img class="js-svg-injector" src="../../assets/svg/illustrations/quote2.svg" alt="SVG" data-parent="#quote11">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-gray-1 font-italic text-lh-inherit px-xl-20 mx-xl-15 px-xl-20 mx-xl-18">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
-                                <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Ali Tufan</h6>
-                                <span class="text-blue-lighter-1 font-size-normal">client</span>
-                            </div>
-                            <!-- End Testimonials -->
-                        </div>
-
-                        <div class="js-slide">
-                            <!-- Testimonials -->
-                            <div class="d-flex justify-content-center mb-6">
-                                <div class="position-relative">
-                                    <img class="img-fluid mx-auto" src="../../assets/img/137x137/img2.jpg" alt="Image-Descrition">
-                                    <div class="btn-position btn btn-icon btn-dark rounded-circle d-flex align-items-center justify-content-center height-60 width-60">
-                                        <figure id="quote12" class="svg-preloader">
-                                            <img class="js-svg-injector" src="../../assets/svg/illustrations/quote2.svg" alt="SVG" data-parent="#quote12">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="text-center">
-                                <p class="text-gray-1 font-italic text-lh-inherit px-xl-20 mx-xl-15 px-xl-20 mx-xl-18">This is the 3rd time I’ve used Travelo website and telling you the truth their services are always realiable and it only takes few minutes to plan and finalize</p>
-                                <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Augusta Silva</h6>
-                                <span class="text-blue-lighter-1 font-size-normal">client</span>
-                            </div>
-                            <!-- End Testimonials -->
-                        </div>
-                    </div>
-                    <!-- End Slick Carousel -->
-                </div>
-            </div>
-            <!-- End Testimonials Section -->
             <!-- Features Section -->
-            <div class="gradient-overlay-half-bg-blue bg-img-hero" style="background-image: url(../../assets/img/1920x450/img1.png);">
+            <div class="border-bottom border-color-8">
                 <div class="container text-center space-1">
+                    <!-- Title -->
+                    <div class="w-md-80 w-lg-50 text-center mx-md-auto pb-1 pt-3">
+                        <h2 class="section-title text-black font-size-30 font-weight-bold">Why be a Local Expert</h2>
+                    </div>
+                    <!-- End Title -->
                     <!-- Features -->
-                    <div class="row">
-                        <!-- Icon Block -->
-                        <div class="col-md-3">
-                            <i class="flaticon-node text-white font-size-80 mb-3"></i>
-                            <h5 class="font-size-30 text-white font-weight-bold mb-2 js-counter">5340</h5>
-                            <p class="text-white px-xl-2 text-lh-inherit px-uw-3">Total Length of Boats Sold Since 2009</p>
-                        </div>
-                        <!-- End Icon Block -->
+                    <div class="mb-6">
+                        <div class="row pb-6">
+                            <!-- Icon Block -->
+                            <div class="col-md-4">
+                                <i class="flaticon-price text-primary font-size-80 mb-3"></i>
+                                <h5 class="font-size-17 text-dark font-weight-bold mb-2"><a href="#">Competitive Pricing</a></h5>
+                                <p class="text-gray-1 px-xl-2 px-uw-7">With 500+ suppliers and the purchasing power of 300 million members, mytravel.com can save you more!</p>
+                            </div>
+                            <!-- End Icon Block -->
 
-                        <!-- Icon Block -->
-                        <div class="col-md-3">
-                            <i class="flaticon-cardinal-points text-white font-size-80 mb-3"></i>
-                            <h5 class="font-size-30 text-white font-weight-bold mb-2 js-counter">19</h5>
-                            <p class="text-white px-xl-2 text-lh-inherit px-uw-3">Locations with Easy Access off the Deep Water Channel</p>
-                        </div>
-                        <!-- End Icon Block -->
+                            <!-- Icon Block -->
+                            <div class="col-md-4">
+                                <i class="flaticon-medal text-primary font-size-80 mb-3"></i>
+                                <h5 class="font-size-17 text-dark font-weight-bold mb-2"><a href="#">Award-Winning Service</a></h5>
+                                <p class="text-gray-1 px-xl-2 px-uw-7">Travel worry-free knowing that we're here if you needus, 24 hours a day</p>
+                            </div>
+                            <!-- End Icon Block -->
 
-                        <!-- Icon Block -->
-                        <div class="col-md-3">
-                            <i class="flaticon-anchor text-white font-size-80 mb-3"></i>
-                            <h5 class="font-size-30 text-white font-weight-bold mb-2 js-counter">18000</h5>
-                            <p class="text-white px-xl-2 text-lh-inherit px-uw-3">sq. ft. Showroom loaded with New & Used Boats</p>
+                            <!-- Icon Block -->
+                            <div class="col-md-4">
+                                <i class="flaticon-global-1 text-primary font-size-80 mb-3"></i>
+                                <h5 class="font-size-17 text-dark font-weight-bold mb-2"><a href="#">Worldwide Coverage</a></h5>
+                                <p class="text-gray-1 px-xl-2 px-uw-7">Over 1,200,000 hotels in more than 200 countries and regions & flights to over 5,000 cities</p>
+                            </div>
+                            <!-- End Icon Block -->
                         </div>
-                        <!-- End Icon Block -->
-
-                        <!-- Icon Block -->
-                        <div class="col-md-3">
-                            <i class="flaticon-star text-white font-size-80 mb-3"></i>
-                            <h5 class="font-size-30 text-white font-weight-bold mb-2 js-counter">30</h5>
-                            <p class="text-white px-xl-2 text-lh-inherit px-uw-3">Number of Licensed Yachting Professionals</p>
-                        </div>
-                        <!-- End Icon Block -->
+                        <a class="btn btn-md-wide border-width-2 btn-outline-navy font-weight-semi-bold" href="#">Register</a>
                     </div>
                     <!-- End Features -->
                 </div>
             </div>
             <!-- End Features Section -->
-            <!-- Team -->
-            <div class="team border-bottom border-color-3">
-                <div class="container space-top-1">
-                    <div class="w-md-80 w-lg-70 text-center mx-md-auto mb-5 mt-3">
-                        <h2 class="section-title text-black font-size-30 font-weight-bold mb-0">Deticated Team</h2>
-                    </div>
-                    <div class="row text-center pb-2">
-                        <div class="col-lg-4  col-md-6 inner-right inner-bottom-sm inner-left">
-                            <div class="pb-3">
-                                <figure class="d-inline-block u-avatar-image rounded-circle overflow-hidden">
-                                    <div class="u-avatar-image-overlay">
-                                        <ul class="u-avatar-image-social list-unstyled m-0 w-100 h-100">
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-facebook-f"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-twitter"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../../assets/img/200x200/img1.jpg" alt="Image-Descrition">
-                                </figure>
-                            </div>
-                            <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">David Robets</h6>
-                            <span class="text-blue-lighter-1 font-size-normal">Founder & Director</span>
-                        </div>
-                        <div class="col-lg-4  col-md-6 inner-right inner-bottom-sm inner-left">
-                            <div class="pb-3">
-                                <figure class="d-inline-block u-avatar-image rounded-circle overflow-hidden">
-                                    <div class="u-avatar-image-overlay">
-                                        <ul class="u-avatar-image-social list-unstyled m-0 w-100 h-100">
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-facebook-f"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-twitter"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../../assets/img/200x200/img2.jpg" alt="Image-Descrition">
-                                </figure>
-                            </div>
-                            <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Augusta Silva </h6>
-                            <span class="text-blue-lighter-1 font-size-normal">Chief Operating Officer</span>
-                        </div>
-                        <div class="col-lg-4  col-md-6 inner-right inner-bottom-sm inner-left">
-                            <div class="pb-3">
-                                <figure class="d-inline-block u-avatar-image rounded-circle overflow-hidden">
-                                    <div class="u-avatar-image-overlay">
-                                        <ul class="u-avatar-image-social list-unstyled m-0 w-100 h-100">
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-facebook-f"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-twitter"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../../assets/img/200x200/img3.jpg" alt="Image-Descrition">
-                                </figure>
-                            </div>
-                            <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Bernice Lucas</h6>
-                            <span class="text-blue-lighter-1 font-size-normal">Dairector - Hotels</span>
-                        </div>
-                        <div class="col-lg-4  col-md-6 inner-right inner-bottom-sm inner-left">
-                            <div class="pb-3">
-                                <figure class="d-inline-block u-avatar-image rounded-circle overflow-hidden">
-                                    <div class="u-avatar-image-overlay">
-                                        <ul class="u-avatar-image-social list-unstyled m-0 w-100 h-100">
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-facebook-f"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-twitter"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../../assets/img/200x200/img4.jpg" alt="Image-Descrition">
-                                </figure>
-                            </div>
-                            <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Jessica Brown</h6>
-                            <span class="text-blue-lighter-1 font-size-normal">Chief Executive</span>
-                        </div>
-                        <div class="col-lg-4  col-md-6 inner-right inner-bottom-sm inner-left">
-                            <div class="pb-3">
-                                <figure class="d-inline-block u-avatar-image rounded-circle overflow-hidden">
-                                    <div class="u-avatar-image-overlay">
-                                        <ul class="u-avatar-image-social list-unstyled m-0 w-100 h-100">
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-facebook-f"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-twitter"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../../assets/img/200x200/img5.jpg" alt="Image-Descrition">
-                                </figure>
-                            </div>
-                            <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">David Jackson</h6>
-                            <span class="text-blue-lighter-1 font-size-normal">Founder & CEO</span>
-                        </div>
-                        <div class="col-lg-4  col-md-6 inner-right inner-bottom-sm inner-left">
-                            <div class="pb-3">
-                                <figure class="d-inline-block u-avatar-image rounded-circle overflow-hidden">
-                                    <div class="u-avatar-image-overlay">
-                                        <ul class="u-avatar-image-social list-unstyled m-0 w-100 h-100">
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-facebook-f"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-twitter"></i></a></li>
-                                            <li><a class="btn btn-icon btn-medium btn-soft-white btn-bg-transparent transition-3d-hover rounded-circle" href="#"><i class="btn-icon__inner fab fa-instagram"></i></a></li>
-                                        </ul>
-                                    </div>
-                                    <img src="../../assets/img/200x200/img6.jpg" alt="Image-Descrition">
-                                </figure>
-                            </div>
-                            <h6 class="font-size-17 font-weight-bold text-gray-11 mb-0">Kyle Martin</h6>
-                            <span class="text-blue-lighter-1 font-size-normal">Founder & CEO</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </main>
         <!-- ========== END MAIN CONTENT ========== -->
 
@@ -1431,8 +1186,6 @@
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
         <script src="../../assets/js/components/hs.fancybox.js"></script>
 
-
-
         <!-- JS Plugins Init. -->
         <script>
             $(window).on('load', function () {
@@ -1470,7 +1223,7 @@
                 // initialization of slick carousel
                 $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
 
-                 // initialization of popups
+                // initialization of popups
                 $.HSCore.components.HSFancyBox.init('.js-fancybox');
 
                 // initialization of datepicker
