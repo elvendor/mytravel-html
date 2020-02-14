@@ -703,6 +703,11 @@
                                data-unfold-hide-on-scroll="false"
                                data-unfold-target="#sidebarContent"
                                data-unfold-type="css-animation"
+                               data-unfold-overlay='{
+                               "className": "u-search-slide-down-bg-overlay",
+                               "background": "rgba(59, 68, 79, .851)",
+                               "animationSpeed": 400
+                               }'
                                data-unfold-animation-in="fadeInRight"
                                data-unfold-animation-out="fadeOutRight"
                                data-unfold-duration="500">
@@ -715,21 +720,21 @@
                             <aside id="sidebarContent" class="u-sidebar" aria-labelledby="sidebarNavToggler">
                                 <div class="u-sidebar__scroller">
                                     <div class="u-sidebar__container">
-                                        <div class="u-header-sidebar__footer-offset">
+                                        <div class="u-header-sidebar__footer-offset pb-0">
                                             <!-- Toggle Button -->
-                                            <div class="d-flex align-items-center pt-4 px-7">
-                                                <button type="button" class="close ml-auto"
-                                                      aria-controls="sidebarContent"
-                                                      aria-haspopup="true"
-                                                      aria-expanded="false"
-                                                      data-unfold-event="click"
-                                                      data-unfold-hide-on-scroll="false"
-                                                      data-unfold-target="#sidebarContent"
-                                                      data-unfold-type="css-animation"
-                                                      data-unfold-animation-in="fadeInRight"
-                                                      data-unfold-animation-out="fadeOutRight"
-                                                      data-unfold-duration="500">
-                                                <span aria-hidden="true">×</span>
+                                            <div class="d-flex align-items-center pt-2 px-5">
+                                                <button type="button" class="btn btn-sm ml-auto font-size-14 p-0"
+                                                    aria-controls="sidebarContent"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    data-unfold-event="click"
+                                                    data-unfold-hide-on-scroll="false"
+                                                    data-unfold-target="#sidebarContent"
+                                                    data-unfold-type="css-animation"
+                                                    data-unfold-animation-in="fadeInRight"
+                                                    data-unfold-animation-out="fadeOutRight"
+                                                    data-unfold-duration="500">
+                                                    <span aria-hidden="true" class="text-primary">Back to List <i class="flaticon-close ml-2 font-size-10"></i></span>
                                                 </button>
                                             </div>
                                             <!-- End Toggle Button -->

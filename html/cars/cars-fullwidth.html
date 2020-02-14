@@ -714,6 +714,11 @@
                                    data-unfold-hide-on-scroll="false"
                                    data-unfold-target="#sidebarContent"
                                    data-unfold-type="css-animation"
+                                   data-unfold-overlay='{
+                                   "className": "u-search-slide-down-bg-overlay",
+                                   "background": "rgba(59, 68, 79, .851)",
+                                   "animationSpeed": 400
+                                   }'
                                    data-unfold-animation-in="fadeInRight"
                                    data-unfold-animation-out="fadeOutRight"
                                    data-unfold-duration="500">
@@ -726,21 +731,21 @@
                                 <aside id="sidebarContent" class="u-sidebar" aria-labelledby="sidebarNavToggler">
                                     <div class="u-sidebar__scroller">
                                         <div class="u-sidebar__container">
-                                            <div class="u-header-sidebar__footer-offset">
+                                            <div class="u-header-sidebar__footer-offset pb-0">
                                                 <!-- Toggle Button -->
-                                                <div class="d-flex align-items-center pt-4 px-7">
-                                                    <button type="button" class="close ml-auto"
-                                                          aria-controls="sidebarContent"
-                                                          aria-haspopup="true"
-                                                          aria-expanded="false"
-                                                          data-unfold-event="click"
-                                                          data-unfold-hide-on-scroll="false"
-                                                          data-unfold-target="#sidebarContent"
-                                                          data-unfold-type="css-animation"
-                                                          data-unfold-animation-in="fadeInRight"
-                                                          data-unfold-animation-out="fadeOutRight"
-                                                          data-unfold-duration="500">
-                                                    <span aria-hidden="true">×</span>
+                                                <div class="d-flex align-items-center pt-2 px-5">
+                                                    <button type="button" class="btn btn-sm ml-auto font-size-14 p-0"
+                                                        aria-controls="sidebarContent"
+                                                        aria-haspopup="true"
+                                                        aria-expanded="false"
+                                                        data-unfold-event="click"
+                                                        data-unfold-hide-on-scroll="false"
+                                                        data-unfold-target="#sidebarContent"
+                                                        data-unfold-type="css-animation"
+                                                        data-unfold-animation-in="fadeInRight"
+                                                        data-unfold-animation-out="fadeOutRight"
+                                                        data-unfold-duration="500">
+                                                        <span aria-hidden="true" class="text-primary">Back to List <i class="flaticon-close ml-2 font-size-10"></i></span>
                                                     </button>
                                                 </div>
                                                 <!-- End Toggle Button -->
@@ -774,11 +779,11 @@
                                                                         <div class="border-bottom border-width-2 border-color-1">
                                                                             <div id="datepickerWrapperPick" class="u-datepicker input-group">
                                                                                 <div class="input-group-prepend">
-                                                                                    <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                                    <span class="d-flex align-items-center mr-3 font-size-21">
                                                                                       <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                                                     </span>
                                                                                 </div>
-                                                                                <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
+                                                                                <input class="js-range-datepicker font-size-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
                                                                                      data-rp-wrapper="#datepickerWrapperPick"
                                                                                      data-rp-date-format="M d /Y">
                                                                             </div>
@@ -792,11 +797,11 @@
                                                                         <div class="border-bottom border-width-2 border-color-1">
                                                                             <div id="datepickerWrapperReturn" class="u-datepicker input-group">
                                                                                 <div class="input-group-prepend">
-                                                                                    <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                                    <span class="d-flex align-items-center mr-3 font-size-21">
                                                                                       <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
                                                                                     </span>
                                                                                 </div>
-                                                                                <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
+                                                                                <input class="js-range-datepicker font-size-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="Aug 25/2019" aria-label="Aug 25/2019"
                                                                                      data-rp-wrapper="#datepickerWrapperReturn"
                                                                                      data-rp-date-format="M d /Y">
                                                                             </div>
@@ -1870,6 +1875,7 @@
         <script src="../../assets/vendor/slick-carousel/slick/slick.js"></script>
         <script src="../../assets/vendor/gmaps/gmaps.min.js"></script>
         <script src="../../assets/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+        <script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -1884,6 +1890,7 @@
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
         <script src="../../assets/js/components/hs.quantity-counter.js"></script>
         <script src="../../assets/js/components/hs.g-map.js"></script>
+        <script src="../../assets/js/components/hs.malihu-scrollbar.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -1925,6 +1932,9 @@
 
                 // initialization of select
                 $.HSCore.components.HSSelectPicker.init('.js-select');
+
+                // initialization of malihu scrollbar
+                $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
 
                 // initialization of quantity counter
                 $.HSCore.components.HSQantityCounter.init('.js-quantity');

@@ -702,7 +702,7 @@
                                 <div class="mb-6 w-100">
                                     <div class="pb-4 mb-2">
                                         <div class="sidebar border border-color-1 rounded-xs">
-                                            <div class="p-4 mx-1 mb-1">
+                                            <div class="p-4 mb-1">
                                                 <!-- Input -->
                                                 <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
                                                 <div class="mb-4">
@@ -713,91 +713,95 @@
                                                 </div>
                                                 <!-- End Input -->
                                                 <!-- Input -->
-                                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Check In - Out</span>
-                                                <div class="border-bottom border-width-2 border-color-1 mb-4">
-                                                    <div id="datepickerWrapperFromOne" class="u-datepicker input-group flex-nowrap">
-                                                        <div class="input-group-prepend">
-                                                            <span class="d-flex align-items-center mr-2">
-                                                              <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                            </span>
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Check In - Out</span>
+                                                <div class="mb-4">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <div id="datepickerWrapperPick" class="u-datepicker input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="d-flex align-items-center mr-2 font-size-21">
+                                                                  <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
+                                                                </span>
+                                                            </div>
+                                                            <input class="js-range-datepicker font-size-lg-16 ml-1 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 flatpickr-input p-0" type="text" placeholder="July 7/2019" aria-label="July 7/2019"
+                                                            data-rp-wrapper="#datepickerWrapperPick"
+                                                            data-rp-type="range"
+                                                            data-rp-date-format="M d / Y"
+                                                            data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
                                                         </div>
-                                                         <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent  border-0" type="date"
-                                                             data-rp-wrapper="#datepickerWrapperFromOne"
-                                                             data-rp-type="range"
-                                                             data-rp-date-format="M d / Y"
-                                                             data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
+                                                        <!-- End Datepicker -->
                                                     </div>
-                                                     <!-- End Datepicker -->
                                                 </div>
                                                 <!-- End Input -->
 
-                                                <div class="col dropdown-custom px-0 mb-5">
-                                                    <!-- Input -->
-                                                    <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Rooms and Guests</span>
-                                                    <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex py-2" href="javascript:;" role="button"
-                                                        aria-controls="basicDropdownClick"
-                                                        aria-haspopup="true"
-                                                        aria-expanded="false"
-                                                        data-unfold-event="click"
-                                                        data-unfold-target="#basicDropdownClick"
-                                                        data-unfold-type="css-animation"
-                                                        data-unfold-duration="300"
-                                                        data-unfold-delay="300"
-                                                        data-unfold-hide-on-scroll="true"
-                                                        data-unfold-animation-in="slideInUp"
-                                                        data-unfold-animation-out="fadeOut">
-                                                        <i class="flaticon-plus d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
-                                                        <span class="text-black font-size-16 font-weight-semi-bold">2 Rooms - 3 Guests</span>
-                                                    </a>
-                                                    <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
-                                                        <div class="w-100 py-2 px-3 mb-3">
-                                                            <div class="js-quantity mx-3 row align-items-center justify-content-between flex-nowrap">
-                                                                <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
-                                                                <div class="d-flex ml-2">
-                                                                    <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                        <small class="fas fa-minus btn-icon__inner"></small>
-                                                                    </a>
-                                                                    <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                    <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                        <small class="fas fa-plus btn-icon__inner"></small>
-                                                                    </a>
+                                                <!-- Input -->
+                                                <span class="d-block text-gray-1 font-weight-normal mb-0 text-left">Rooms and Guests</span>
+                                                <div class="mb-4 position-relative">
+                                                    <div class="border-bottom border-width-2 border-color-1">
+                                                        <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle flex-horizontal-center pt-3 pb-2" href="javascript:;" role="button"
+                                                            aria-controls="basicDropdownClick"
+                                                            aria-haspopup="true"
+                                                            aria-expanded="false"
+                                                            data-unfold-event="click"
+                                                            data-unfold-target="#basicDropdownClick"
+                                                            data-unfold-type="css-animation"
+                                                            data-unfold-duration="300"
+                                                            data-unfold-delay="300"
+                                                            data-unfold-hide-on-scroll="true"
+                                                            data-unfold-animation-in="slideInUp"
+                                                            data-unfold-animation-out="fadeOut">
+                                                            <i class="flaticon-add-group d-flex align-items-center mr-3 font-size-20 text-primary font-weight-semi-bold"></i>
+                                                            <span class="text-black font-size-16 font-weight-semi-bold mr-auto">2 Rooms - 3 Guests</span>
+                                                        </a>
+                                                        <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col m-0" aria-labelledby="basicDropdownClickInvoker">
+                                                            <div class="w-100 py-2 px-3 mb-3">
+                                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
+                                                                    <div class="d-flex">
+                                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                            <small class="fas fa-minus btn-icon__inner"></small>
+                                                                        </a>
+                                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                            <small class="fas fa-plus btn-icon__inner"></small>
+                                                                        </a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="w-100 py-2 px-3 mb-3">
-                                                            <div class="js-quantity mx-3 row align-items-center justify-content-between flex-nowrap">
-                                                                <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
-                                                                <div class="d-flex ml-2">
-                                                                    <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                        <small class="fas fa-minus btn-icon__inner"></small>
-                                                                    </a>
-                                                                    <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                    <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                        <small class="fas fa-plus btn-icon__inner"></small>
-                                                                    </a>
+                                                            <div class="w-100 py-2 px-3 mb-3">
+                                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
+                                                                    <div class="d-flex">
+                                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                            <small class="fas fa-minus btn-icon__inner"></small>
+                                                                        </a>
+                                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                            <small class="fas fa-plus btn-icon__inner"></small>
+                                                                        </a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="w-100 py-2 px-3">
-                                                            <div class="js-quantity mx-3 row align-items-center justify-content-between flex-nowrap">
-                                                                <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
-                                                                <div class="d-flex ml-2">
-                                                                    <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                        <small class="fas fa-minus btn-icon__inner"></small>
-                                                                    </a>
-                                                                    <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                    <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                        <small class="fas fa-plus btn-icon__inner"></small>
-                                                                    </a>
+                                                            <div class="w-100 py-2 px-3">
+                                                                <div class="js-quantity mx-3 row align-items-center justify-content-between">
+                                                                    <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
+                                                                    <div class="d-flex">
+                                                                        <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                            <small class="fas fa-minus btn-icon__inner"></small>
+                                                                        </a>
+                                                                        <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
+                                                                        <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
+                                                                            <small class="fas fa-plus btn-icon__inner"></small>
+                                                                        </a>
+                                                                    </div>
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="w-100 text-right py-1 pr-5">
-                                                            <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
+                                                            <div class="w-100 text-right py-1 pr-5">
+                                                                <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <!-- End Input -->
                                                 </div>
+                                                <!-- End Input -->
 
                                                 <div class="text-center">
                                                     <button type="submit" class="btn btn-primary height-60 w-100 font-weight-bold mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2 font-size-17"></i>Search</button>
@@ -812,87 +816,88 @@
                                     </div>
 
                                     <div class="sidenav border border-color-8 rounded-xs">
-                                        <div class="border-bottom py-4 mb-4">
-                                            <div id="RatingAccordion" class="accordion rounded shadow-none">
-                                               <div class="card-collapse" id="shopRatingHeadingOne">
-                                                    <h3 class="mb-0">
-                                                        <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopRatingOne" aria-expanded="false" aria-controls="shopRatingOne">
-                                                            <span class="row align-items-center">
-                                                                <span class="col-9">
-                                                                    <span class="font-weight-bold font-size-17 text-dark mb-3">Star Rating</span>
-                                                                </span>
-                                                                <span class="col-3 text-right">
-                                                                    <span class="card-btn-arrow">
-                                                                        <span class="fas fa-chevron-down small"></span>
-                                                                    </span>
+                                        <!-- Accordiaon -->
+                                        <div id="RatingAccordion" class="accordion rounded shadow-none border-bottom">
+                                           <div class="card-collapse" id="shopRatingHeadingOne">
+                                                <h3 class="mb-0">
+                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopRatingOne" aria-expanded="false" aria-controls="shopRatingOne">
+                                                        <span class="row align-items-center">
+                                                            <span class="col-9">
+                                                                <span class="font-weight-bold font-size-17 text-dark mb-3">Star Rating</span>
+                                                            </span>
+                                                            <span class="col-3 text-right">
+                                                                <span class="card-btn-arrow">
+                                                                    <span class="fas fa-chevron-down small"></span>
                                                                 </span>
                                                             </span>
-                                                        </button>
-                                                    </h3>
-                                                </div>
-                                                <div id="shopRatingOne" class="collapse show" aria-labelledby="shopRatingHeadingOne" data-parent="#RatingAccordion">
-                                                    <div class="card-body py-0 px-5">
-                                                        <!-- Checkboxes -->
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                            <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating1">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating1">
-                                                                    <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
+                                                        </span>
+                                                    </button>
+                                                </h3>
+                                            </div>
+                                            <div id="shopRatingOne" class="collapse show" aria-labelledby="shopRatingHeadingOne" data-parent="#RatingAccordion">
+                                                <div class="card-body pt-0 mt-1 px-5">
+                                                    <!-- Checkboxes -->
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input type="checkbox" class="custom-control-input" id="brandAdidas">
+                                                            <label class="custom-control-label text-lh-inherit text-color-1" for="brandAdidas">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </label>
                                                         </div>
-
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                            <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating2">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating2">
-                                                                    <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                           <input type="checkbox" class="custom-control-input" id="brandNewBalance">
+                                                           <label class="custom-control-label text-lh-inherit text-color-1" for="brandNewBalance">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                </div>
+                                                           </label>
                                                         </div>
-
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15">
-                                                          <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating3">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating3">
-                                                                      <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                      </span>
-                                                                </label>
-                                                            </div>
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandNike">
+                                                          <label class="custom-control-label text-lh-inherit text-color-1" for="brandNike">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                </div>
+                                                          </label>
                                                         </div>
-
-                                                        <div class="form-group d-flex align-items-center text-lh-md font-size-15 mb-0">
-                                                            <div class="custom-control custom-checkbox">
-                                                                <input type="checkbox" class="custom-control-input" id="rating4">
-                                                                <label class="custom-control-label letter-spacing-3" for="rating4">
-                                                                    <span class="d-block green-lighter ml-1">
-                                                                        <span class="fas fa-star"></span>
-                                                                        <span class="fas fa-star"></span>
-                                                                    </span>
-                                                                </label>
-                                                            </div>
+                                                    </div>
+                                                    <div class="form-group font-size-14 text-lh-md text-secondary mb-3">
+                                                        <div class="custom-control custom-checkbox">
+                                                          <input type="checkbox" class="custom-control-input" id="brandFredPerry">
+                                                          <label class="custom-control-label text-lh-inherit text-color-1" for="brandFredPerry">
+                                                                <div class="d-inline-flex align-items-center font-size-13 text-lh-1 text-primary">
+                                                                    <div class="green-lighter ml-1 letter-spacing-2">
+                                                                        <i class="fas fa-star"></i>
+                                                                        <i class="fas fa-star"></i>
+                                                                    </div>
+                                                                </div>
+                                                          </label>
                                                         </div>
-                                                        <!-- End Checkboxes -->
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <!-- Accordiaon -->
                                         <div id="shopCartAccordion" class="accordion rounded shadow-none">
                                             <div class="border-0">
                                                 <div class="card-collapse" id="shopCardHeadingOne">
@@ -957,40 +962,39 @@
                                                 <div id="shopCategoryOne" class="collapse show" aria-labelledby="shopCategoryHeadingOne" data-parent="#shopCategoryAccordion">
                                                     <div class="card-body pt-0 mt-1 px-5 pb-4">
                                                        <!-- Checkboxes -->
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="1">
                                                                 <label class="custom-control-label" for="1">Breakfast Included</label>
                                                             </div>
-                                                            <small>749</small>
+                                                            <span>749</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="2">
                                                                 <label class="custom-control-label" for="2">All-inclusive</label>
                                                             </div>
-                                                            <small>630</small>
+                                                            <span>630</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="3">
                                                                 <label class="custom-control-label" for="3">Breakfast & dinner included</label>
                                                             </div>
-                                                            <small>58</small>
+                                                            <span>58</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="4">
                                                                 <label class="custom-control-label" for="4">Kitchen facilities</label>
                                                             </div>
-                                                            <small>29</small>
+                                                            <span>29</span>
                                                         </div>
                                                         <!-- End Checkboxes -->
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Accordion -->
                                         <div id="facilityCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
                                             <div class="border-0">
                                                 <div class="card-collapse" id="facilityCategoryHeadingOne">
@@ -1011,51 +1015,51 @@
                                                 </div>
                                                 <div id="facilityCategoryOne" class="collapse show" aria-labelledby="facilityCategoryHeadingOne" data-parent="#facilityCategoryAccordion">
                                                     <div class="card-body pt-0 mt-1 px-5 pb-4">
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandAdidas">
                                                                 <label class="custom-control-label" for="brandAdidas">Parking</label>
                                                             </div>
-                                                            <small>749</small>
+                                                            <span>749</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandNewBalance">
                                                                 <label class="custom-control-label" for="brandNewBalance">Restaurant</label>
                                                             </div>
-                                                            <small>630</small>
+                                                            <span>630</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandNike">
                                                                 <label class="custom-control-label" for="brandNike">Pet friendly</label>
                                                             </div>
-                                                            <small>58</small>
+                                                            <span>58</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3 pb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandFredPerry">
                                                                 <label class="custom-control-label" for="brandFredPerry">Room service</label>
                                                             </div>
-                                                            <small>29</small>
+                                                            <span>29</span>
                                                         </div>
                                                         <!-- End Checkboxes -->
 
                                                         <!-- View More - Collapse -->
                                                         <div class="collapse" id="collapseBrand1">
-                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                            <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                                 <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandGucci">
                                                                 <label class="custom-control-label" for="brandGucci">Gucci</label>
                                                                 </div>
-                                                                <small>5</small>
+                                                                <span>5</span>
                                                             </div>
                                                             <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                                 <div class="custom-control custom-checkbox">
                                                                     <input type="checkbox" class="custom-control-input" id="brandMango">
                                                                     <label class="custom-control-label" for="brandMango">Mango</label>
                                                                 </div>
-                                                                <small>1</small>
+                                                                <span>1</span>
                                                             </div>
                                                         </div>
                                                         <!-- End View More - Collapse -->
@@ -1070,8 +1074,6 @@
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <!-- End Accordion -->
                                         <div id="propertyCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
                                             <div class="border-0">
                                                 <div class="card-collapse" id="propertyCategoryHeadingOne">
@@ -1092,51 +1094,51 @@
                                                 </div>
                                                 <div id="propertyCategoryOne" class="collapse show" aria-labelledby="propertyCategoryHeadingOne" data-parent="#propertyCategoryAccordion">
                                                     <div class="card-body pt-0 mt-1 px-5 pb-4">
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandhotel">
                                                                 <label class="custom-control-label" for="brandhotel">Hotels</label>
                                                             </div>
-                                                            <small>749</small>
+                                                            <span>749</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandapartmet">
                                                                 <label class="custom-control-label" for="brandapartmet">Apartments</label>
                                                             </div>
-                                                            <small>630</small>
+                                                            <span>630</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandbed">
                                                                 <label class="custom-control-label" for="brandbed">Bed and Breakfasts</label>
                                                             </div>
-                                                            <small>58</small>
+                                                            <span>58</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3 pb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandresorts">
                                                                 <label class="custom-control-label" for="brandresorts">Resorts</label>
                                                             </div>
-                                                            <small>29</small>
+                                                            <span>29</span>
                                                         </div>
                                                         <!-- End Checkboxes -->
 
                                                         <!-- View More - Collapse -->
                                                         <div class="collapse" id="collapseBrand2">
-                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                            <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                                 <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="Gucci">
                                                                 <label class="custom-control-label" for="Gucci">Gucci</label>
                                                                 </div>
-                                                                <small>5</small>
+                                                                <span>5</span>
                                                             </div>
                                                             <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                                 <div class="custom-control custom-checkbox">
                                                                     <input type="checkbox" class="custom-control-input" id="Mango">
                                                                     <label class="custom-control-label" for="Mango">Mango</label>
                                                                 </div>
-                                                                <small>1</small>
+                                                                <span>1</span>
                                                             </div>
                                                         </div>
                                                         <!-- End View More - Collapse -->
@@ -1151,7 +1153,6 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <!-- End Accordion -->
                                         <div id="cityCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
                                             <div class="border-0">
                                                 <div class="card-collapse" id="cityCategoryHeadingOne">
@@ -1172,51 +1173,51 @@
                                                 </div>
                                                 <div id="cityCategoryOne" class="collapse show" aria-labelledby="cityCategoryHeadingOne" data-parent="#cityCategoryAccordion">
                                                     <div class="card-body pt-0 mt-1 px-5 pb-4">
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandamsterdam">
                                                                 <label class="custom-control-label" for="brandamsterdam">Amsterdam</label>
                                                             </div>
-                                                            <small>749</small>
+                                                            <span>749</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandrotterdam">
                                                                 <label class="custom-control-label" for="brandrotterdam">Rotterdam</label>
                                                             </div>
-                                                            <small>630</small>
+                                                            <span>630</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandvalkenburg">
                                                                 <label class="custom-control-label" for="brandvalkenburg">Valkenburg</label>
                                                             </div>
-                                                            <small>58</small>
+                                                            <span>58</span>
                                                         </div>
-                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3 pb-1">
+                                                        <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                             <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="brandeindhoven">
                                                                 <label class="custom-control-label" for="brandeindhoven">Eindhoven</label>
                                                             </div>
-                                                            <small>29</small>
+                                                            <span>29</span>
                                                         </div>
                                                         <!-- End Checkboxes -->
 
                                                         <!-- View More - Collapse -->
                                                         <div class="collapse" id="collapseBrand3">
-                                                            <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
+                                                            <div class="form-group font-size-14 text-lh-md text-secondary mb-3 flex-center-between">
                                                                 <div class="custom-control custom-checkbox">
                                                                 <input type="checkbox" class="custom-control-input" id="gucci">
                                                                 <label class="custom-control-label" for="gucci">Gucci</label>
                                                                 </div>
-                                                                <small>5</small>
+                                                                <span>5</span>
                                                             </div>
                                                             <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
                                                                 <div class="custom-control custom-checkbox">
                                                                     <input type="checkbox" class="custom-control-input" id="mango">
                                                                     <label class="custom-control-label" for="mango">Mango</label>
                                                                 </div>
-                                                                <small>1</small>
+                                                                <span>1</span>
                                                             </div>
                                                         </div>
                                                         <!-- End View More - Collapse -->
@@ -1311,7 +1312,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1341,7 +1342,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="badge badge-orange text-white rounded-xs font-size-13 py-1 p-xl-2">Limited Time Offer</span>
@@ -1371,16 +1372,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                 </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -1392,21 +1393,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -1422,7 +1423,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1451,7 +1452,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="green-lighter ml-2">
@@ -1480,16 +1481,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -1501,21 +1502,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -1531,7 +1532,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1560,7 +1561,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="green-lighter ml-2">
@@ -1589,16 +1590,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -1610,21 +1611,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -1640,7 +1641,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1669,7 +1670,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="badge badge-orange text-white rounded-xs font-size-13 py-1 p-xl-2">Limited Time Offer</span>
@@ -1699,16 +1700,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -1720,21 +1721,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -1750,7 +1751,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1779,7 +1780,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="green-lighter ml-2">
@@ -1808,16 +1809,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -1829,21 +1830,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -1859,7 +1860,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1888,7 +1889,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="green-lighter ml-2">
@@ -1917,16 +1918,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -1938,21 +1939,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -1968,7 +1969,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -1997,10 +1998,10 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
-                                                                <span class="badge badge-orange text-white rounded-xs font-size-13 py-1 p-xl-2">17% Off</span>
+                                                                <span class="badge badge-orange text-white rounded-xs font-size-13 py-1 p-xl-2">Limited Time Offer</span>
                                                                 <span class="green-lighter ml-2">
                                                                     <small class="fas fa-star font-size-10"></small>
                                                                     <small class="fas fa-star font-size-10"></small>
@@ -2027,16 +2028,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -2048,21 +2049,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -2078,7 +2079,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -2107,7 +2108,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="green-lighter ml-2">
@@ -2136,16 +2137,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -2157,21 +2158,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
@@ -2187,7 +2188,7 @@
                                                     <div class="col-md-5 col-xl-4">
                                                         <div class="product-item__header">
                                                             <div class="position-relative">
-                                                                <div class="js-slick-carousel u-slick u-slick--equal-height u-slick--gutters-3"
+                                                                <div class="js-slick-carousel u-slick u-slick--equal-height "
                                                                     data-slides-show="1"
                                                                     data-slides-scroll="1"
                                                                     data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic v4 u-slick__arrow-classic--v4 u-slick__arrow-centered--y rounded-circle"
@@ -2216,7 +2217,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col-md-7 col-xl-5 flex-horizontal-center">
+                                                    <div class="col-md-7 col-xl-5 col-wd-4gdot5 flex-horizontal-center">
                                                         <div class="w-100 position-relative m-4 m-md-0">
                                                             <div class="mb-1 pb-1">
                                                                 <span class="green-lighter ml-2">
@@ -2245,16 +2246,16 @@
                                                                     </div>
                                                                 </a>
                                                                 <ul class="list-unstyled mb-2 d-md-flex flex-lg-wrap flex-xl-nowrap">
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0">
                                                                         <span class="font-weight-normal font-size-14">Breakfast</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mr-md-2 mb-2 mb-md-0 mb-lg-2 mb-xl-0 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Free Cancellation</span>
                                                                     </li>
-                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
+                                                                    <li class="border border-dark rounded-xs d-flex align-items-center text-lh-1 py-1 px-2 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14">Pay at the hotel</span>
                                                                     </li>
-                                                                     </ul>
+                                                                </ul>
                                                                 <ul class="list-unstyled d-md-flex">
                                                                     <li class="border border-green bg-green rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mb-2 mb-md-0">
                                                                         <span class="font-weight-normal font-size-14 text-white">Lowest price includes</span>
@@ -2266,21 +2267,21 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="col col-xl-3 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
-                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0">
-                                                            <div class="mb-xl-8">
-                                                                <div class="pl-xl-7 mb-0">
+                                                    <div class="col col-xl-3 col-wd-3gdot5 align-self-center py-4 py-xl-0 border-top border-xl-top-0">
+                                                        <div class="d-xl-flex flex-wrap border-xl-left ml-4 ml-xl-0 pr-xl-3 pr-wd-5 text-xl-right justify-content-xl-end">
+                                                            <div class="mb-xl-5 mb-wd-7">
+                                                                <div class="mb-0">
                                                                     <div class="my-xl-1">
-                                                                        <div class="d-flex align-items-center mb-2">
+                                                                        <div class="d-flex align-items-center justify-content-xl-end mb-2">
                                                                             <span class="badge badge-primary rounded-xs font-size-14 p-2 mr-2 mb-0">4.6 /5 </span>
                                                                             <span class="font-size-17 font-weight-bold text-primary">Very Good</span>
                                                                         </div>
                                                                     </div>
-                                                                    <span class="font-size-14 text-gray-1 pl-xl-5">(1,186 Reviews)</span>
+                                                                    <span class="font-size-14 text-gray-1">(1,186 Reviews)</span>
                                                                 </div>
                                                                 <span class="font-size-14 pl-xl-2">"Great value" "Excellent location"</span>
                                                             </div>
-                                                            <div class="pl-xl-7 mb-0">
+                                                            <div class="mb-0">
                                                                 <span class="mr-1 font-size-14 text-gray-1">From</span>
                                                                 <span class="font-weight-bold">£350.00</span>
                                                                 <span class="font-size-14 text-gray-1"> / night</span>
