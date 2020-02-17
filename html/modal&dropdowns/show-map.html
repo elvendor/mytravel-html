@@ -37,345 +37,76 @@
 
         <!-- ========== MAIN CONTENT ========== -->
         <main id="content" role="main">
-            <div class="border-bottom py-3">
-                <div class="d-block d-md-flex flex-horizontal-center">
-                    <div class="text-center mr-4 mb-4 mb-md-0">
-
-                        <!-- Sidebar Navigation -->
-                        <aside id="sidebarContent" class="u-sidebar" aria-labelledby="sidebarNavToggler">
-                            <div class="u-sidebar__scroller">
-                                <div class="u-sidebar__container">
-                                    <div class="u-header-sidebar__footer-offset pb-0">
-                                        <!-- Toggle Button -->
-                                        <div class="d-flex align-items-center pt-2 px-5">
-                                            <button type="button" class="btn btn-sm ml-auto font-size-14 p-0"
-                                                aria-controls="sidebarContent"
-                                                aria-haspopup="true"
-                                                aria-expanded="false"
-                                                data-unfold-event="click"
-                                                data-unfold-hide-on-scroll="false"
-                                                data-unfold-target="#sidebarContent"
-                                                data-unfold-type="css-animation"
-                                                data-unfold-animation-in="fadeInRight"
-                                                data-unfold-animation-out="fadeOutRight"
-                                                data-unfold-duration="500">
-                                                <span aria-hidden="true" class="text-primary">Back to List <i class="flaticon-close ml-2 font-size-10"></i></span>
-                                            </button>
-                                        </div>
-                                        <!-- End Toggle Button -->
-                                        <!-- Content -->
-                                        <div class="js-scrollbar u-sidebar__body">
-                                            <div class="u-sidebar__content u-header-sidebar__content">
-                                                <div class="pb-4 mb-2">
-                                                    <div class="sidebar border border-radius-3">
-                                                        <div class="p-4 m-1">
-                                                            <!-- Input -->
-                                                            <span class="d-block text-gray-1  font-weight-normal mb-0 text-left">Destination or Hotel Name</span>
-                                                            <div class="mb-4">
-                                                                <div class="input-group border-bottom border-width-2 border-color-1">
-                                                                    <i class="flaticon-pin-1 d-flex align-items-center mr-2 text-primary font-weight-semi-bold font-size-22"></i>
-                                                                    <input type="text" class="form-control font-weight-bold font-size-16 shadow-none hero-form font-weight-bold border-0 p-0" placeholder="Where are you going?" aria-label="Keyword or title" aria-describedby="keywordInputAddon">
-                                                                </div>
-                                                            </div>
-                                                            <!-- End Input -->
-                                                            <!-- Input -->
-                                                            <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Check In - Out</span>
-                                                            <div class="border-bottom border-width-2 border-color-1 mb-4">
-                                                                <div id="datepickerWrapperFromOne" class="u-datepicker input-group flex-nowrap">
-                                                                    <div class="input-group-prepend">
-                                                                        <span class="d-flex align-items-center mr-2">
-                                                                          <i class="flaticon-calendar text-primary font-weight-semi-bold"></i>
-                                                                        </span>
-                                                                    </div>
-                                                                     <input class="js-range-datepicker font-size-lg-16 shadow-none font-weight-bold form-control hero-form bg-transparent border-0 pl-1" type="date"
-                                                                         data-rp-wrapper="#datepickerWrapperFromOne"
-                                                                         data-rp-type="range"
-                                                                         data-rp-date-format="M d / Y"
-                                                                         data-rp-default-date='["Jul 7 / 2020", "Aug 25 / 2020"]'>
-                                                                </div>
-                                                                 <!-- End Datepicker -->
-                                                            </div>
-                                                            <!-- End Input -->
-                                                            <div class="col dropdown-custom px-0 mb-5">
-                                                                <!-- Input -->
-                                                                <span class="d-block text-gray-1 text-left font-weight-normal mb-0">Rooms and Guests</span>
-                                                                <a id="basicDropdownClickInvoker" class="dropdown-nav-link dropdown-toggle d-flex py-2" href="javascript:;" role="button"
-                                                                    aria-controls="basicDropdownClick"
-                                                                    aria-haspopup="true"
-                                                                    aria-expanded="false"
-                                                                    data-unfold-event="click"
-                                                                    data-unfold-target="#basicDropdownClick"
-                                                                    data-unfold-type="css-animation"
-                                                                    data-unfold-duration="300"
-                                                                    data-unfold-delay="300"
-                                                                    data-unfold-hide-on-scroll="true"
-                                                                    data-unfold-animation-in="slideInUp"
-                                                                    data-unfold-animation-out="fadeOut">
-                                                                    <i class="flaticon-plus d-flex align-items-center mr-3 font-size-18 text-primary font-weight-semi-bold"></i>
-                                                                    <span class="text-black font-size-16 font-weight-semi-bold">2 Rooms - 3 Guests</span>
-                                                                </a>
-                                                                <div id="basicDropdownClick" class="dropdown-menu dropdown-unfold col-11 m-0" aria-labelledby="basicDropdownClickInvoker">
-                                                                    <div class="w-100 py-2 px-3 mb-3">
-                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between flex-nowrap">
-                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Rooms</span>
-                                                                            <div class="d-flex ml-2">
-                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
-                                                                                </a>
-                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="w-100 py-2 px-3 mb-3">
-                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between flex-nowrap">
-                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Adults</span>
-                                                                            <div class="d-flex ml-2">
-                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
-                                                                                </a>
-                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="w-100 py-2 px-3">
-                                                                        <div class="js-quantity mx-3 row align-items-center justify-content-between flex-nowrap">
-                                                                            <span class="d-block font-size-16 text-secondary font-weight-medium">Child</span>
-                                                                            <div class="d-flex ml-2">
-                                                                                <a class="js-minus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-minus btn-icon__inner"></small>
-                                                                                </a>
-                                                                                <input class="js-result form-control h-auto border-0 rounded p-0 max-width-6 text-center" type="text" value="1">
-                                                                                <a class="js-plus btn btn-icon btn-medium btn-outline-secondary rounded-circle" href="javascript:;">
-                                                                                    <small class="fas fa-plus btn-icon__inner"></small>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="w-100 text-right py-1 pr-5">
-                                                                        <a class="text-primary font-weight-semi-bold font-size-16" href="#">Done</a>
-                                                                    </div>
-                                                                </div>
-                                                                <!-- End Input -->
-                                                            </div>
-                                                            <div class="text-center">
-                                                                <button type="submit" class="btn btn-primary height-60 w-100 mb-xl-0 mb-lg-1 transition-3d-hover"><i class="flaticon-magnifying-glass mr-2"></i>Search</button>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="pb-4 mb-2">
-                                                    <a href="https://goo.gl/maps/kCVqYkjHX3XvoC4B9" class="d-block border">
-                                                        <img src="../../assets/img/map-markers/map.jpg" alt="" width="100%">
-                                                    </a>
-                                                </div>
-                                                <!-- Checkboxes -->
-                                                <div class="sidenav border">
-                                                    <!-- Accordiaon -->
-                                                    <div id="shopCartAccordion" class="accordion rounded shadow-none">
-                                                        <div class="border-0">
-                                                            <div class="card-collapse" id="shopCardHeadingOne">
-                                                                <h3 class="mb-0">
-                                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#shopCardOne" aria-expanded="false" aria-controls="shopCardOne">
-                                                                        <span class="row align-items-center">
-                                                                            <span class="col-9">
-                                                                                <span class="d-block font-size-lg-15 font-size-17 font-weight-bold text-dark">Price Range ($)</span>
-                                                                            </span>
-                                                                            <span class="col-3 text-right">
-                                                                                <span class="card-btn-arrow">
-                                                                                    <span class="fas fa-chevron-down small"></span>
-                                                                                </span>
-                                                                            </span>
-                                                                        </span>
-                                                                    </button>
-                                                                </h3>
-                                                            </div>
-                                                            <div id="shopCardOne" class="collapse show" aria-labelledby="shopCardHeadingOne" data-parent="#shopCartAccordion">
-                                                                <div class="card-body pt-0 px-5">
-                                                                    <div class="pb-3 mb-1 d-flex text-lh-1">
-                                                                        <span>£</span>
-                                                                        <span id="rangeSliderExample3MinResult" class=""></span>
-                                                                        <span class="mx-0dot5"> — </span>
-                                                                        <span>£</span>
-                                                                        <span id="rangeSliderExample3MaxResult" class=""></span>
-                                                                    </div>
-                                                                    <input class="js-range-slider" type="text"
-                                                                    data-extra-classes="u-range-slider height-35"
-                                                                    data-type="double"
-                                                                    data-grid="false"
-                                                                    data-hide-from-to="true"
-                                                                    data-min="0"
-                                                                    data-max="3456"
-                                                                    data-from="200"
-                                                                    data-to="3456"
-                                                                    data-prefix="$"
-                                                                    data-result-min="#rangeSliderExample3MinResult"
-                                                                    data-result-max="#rangeSliderExample3MaxResult">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div id="propertyCategoryAccordion" class="accordion rounded-0 shadow-none border-top">
-                                                        <div class="border-0">
-                                                            <div class="card-collapse" id="propertyCategoryHeadingOne">
-                                                                <h3 class="mb-0">
-                                                                    <button type="button" class="btn btn-link btn-block card-btn py-2 px-5 text-lh-3 collapsed" data-toggle="collapse" data-target="#propertyCategoryOne" aria-expanded="false" aria-controls="propertyCategoryOne">
-                                                                        <span class="row align-items-center">
-                                                                            <span class="col-9">
-                                                                                <span class="font-weight-bold font-size-17 text-dark mb-3">Property Type</span>
-                                                                            </span>
-                                                                            <span class="col-3 text-right">
-                                                                                <span class="card-btn-arrow">
-                                                                                    <span class="fas fa-chevron-down small"></span>
-                                                                                </span>
-                                                                            </span>
-                                                                        </span>
-                                                                    </button>
-                                                                </h3>
-                                                            </div>
-                                                            <div id="propertyCategoryOne" class="collapse show" aria-labelledby="propertyCategoryHeadingOne" data-parent="#propertyCategoryAccordion">
-                                                                <div class="card-body pt-0 mt-1 px-5 pb-4">
-                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
-                                                                        <div class="custom-control custom-checkbox">
-                                                                            <input type="checkbox" class="custom-control-input" id="brandhotel">
-                                                                            <label class="custom-control-label" for="brandhotel">Hotels</label>
-                                                                        </div>
-                                                                        <small>749</small>
-                                                                    </div>
-                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
-                                                                        <div class="custom-control custom-checkbox">
-                                                                            <input type="checkbox" class="custom-control-input" id="brandapartmet">
-                                                                            <label class="custom-control-label" for="brandapartmet">Apartments</label>
-                                                                        </div>
-                                                                        <small>630</small>
-                                                                    </div>
-                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
-                                                                        <div class="custom-control custom-checkbox">
-                                                                            <input type="checkbox" class="custom-control-input" id="brandbed">
-                                                                            <label class="custom-control-label" for="brandbed">Bed and Breakfasts</label>
-                                                                        </div>
-                                                                        <small>58</small>
-                                                                    </div>
-                                                                    <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3 pb-1">
-                                                                        <div class="custom-control custom-checkbox">
-                                                                            <input type="checkbox" class="custom-control-input" id="brandresorts">
-                                                                            <label class="custom-control-label" for="brandresorts">Resorts</label>
-                                                                        </div>
-                                                                        <small>29</small>
-                                                                    </div>
-                                                                    <!-- End Checkboxes -->
-
-                                                                    <!-- View More - Collapse -->
-                                                                    <div class="collapse" id="collapseBrand2">
-                                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-1">
-                                                                            <div class="custom-control custom-checkbox">
-                                                                            <input type="checkbox" class="custom-control-input" id="Gucci">
-                                                                            <label class="custom-control-label" for="Gucci">Gucci</label>
-                                                                            </div>
-                                                                            <small>5</small>
-                                                                        </div>
-                                                                        <div class="form-group d-flex align-items-center justify-content-between font-size-1 text-lh-md text-secondary mb-3">
-                                                                            <div class="custom-control custom-checkbox">
-                                                                                <input type="checkbox" class="custom-control-input" id="Mango">
-                                                                                <label class="custom-control-label" for="Mango">Mango</label>
-                                                                            </div>
-                                                                            <small>1</small>
-                                                                        </div>
-                                                                    </div>
-                                                                    <!-- End View More - Collapse -->
-
-                                                                    <!-- Link -->
-                                                                    <a class="link link-collapse small font-size-1" data-toggle="collapse" href="#collapseBrand2" role="button" aria-expanded="false" aria-controls="collapseBrand2">
-                                                                      <span class="link-collapse__default font-size-14">Show all 39</span>
-                                                                      <span class="link-collapse__active font-size-14">Show less</span>
-                                                                    </a>
-                                                                    <!-- End Link -->
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- End Content -->
-                                    </div>
-                                </div>
-                            </div>
-                        </aside>
-                        <!-- End Sidebar Navigation -->
+            <div class="border-bottom py-2">
+                <div class="row d-block d-md-flex flex-horizontal-center pr-3">
+                    <div class="col-lg">
+                        <!-- Nav Links -->
+                        <ul class="nav flex-nowrap tab-nav align-items-center px-0 mb-3 mb-md-0" role="tablist">
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>City</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>Price</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>Stars</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>Guest Rating</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>Meals</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>Facilities</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                            <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
+                                <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
+                                    <option value="one" selected>Property Type</option>
+                                    <option value="two">Two</option>
+                                    <option value="three">Three</option>
+                                    <option value="four">Four</option>
+                                </select>
+                            </li>
+                        </ul>
+                        <!-- End Nav Links -->
                     </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-10">
-                            <!-- Nav Links -->
-                            <ul class="nav flex-nowrap tab-nav align-items-center px-0 mb-3 mb-md-0" role="tablist">
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>City</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>Price</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>Stars</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>Guest Rating</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>Meals</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>Facilities</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                                <li class="nav-item d-flex align-items-center flex-shrink-0 flex-xl-shrink-1 border-left">
-                                    <select class="js-select selectpicker dropdown-select bootstrap-select__custom-nav w-auto" data-style="btn-sm py-1 px-4 px-xl-3 px-wd-5 font-size-16 text-gray-1 d-flex align-items-center">
-                                        <option value="one" selected>Property Type</option>
-                                        <option value="two">Two</option>
-                                        <option value="three">Three</option>
-                                        <option value="four">Four</option>
-                                    </select>
-                                </li>
-                            </ul>
-                            <!-- End Nav Links -->
-                        </div>
-                        <div class="col-lg-2">
-                            <a class="btn btn-wide rounded-xs btn-blue-1 transition-3d-hover" href="#" target="_blank">Back to hotel list<i class="fas fa-times font-size-15 ml-3"></i></a>
-
-                        </div>
+                    <div class="col-lg-auto">
+                        <a class="btn btn-wide rounded-xs btn-blue-1 transition-3d-hover" href="../hotels/hotel-list.html" 
+                        target="_blank">Back to hotel list
+                            <i class="fas fa-times font-size-15 ml-3"></i>
+                        </a>
+                    </div>
                     </div>
                 </div>
             </div>
