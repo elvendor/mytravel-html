@@ -270,6 +270,13 @@
     }
 }
 
+.height-100vh-main-1 {
+    
+  @include media-breakpoint-up(lg) {
+      height: calc(100vh - 80px);
+  }
+}
+
 .height-4 {
   height: .25rem;
 }
