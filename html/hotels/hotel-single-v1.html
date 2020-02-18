@@ -944,29 +944,46 @@
                                                                             <li class="">
                                                                                 <i class="flaticon-air-conditioner mr-3 text-primary font-size-24"></i>AirConditioning
                                                                             </li>
+                                                                            <li class="">
+                                                                                <i class="flaticon-wifi-signal mr-3 text-primary font-size-24"></i>Wifi
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <i class="flaticon-weightlifting mr-3 text-primary font-size-24"></i>Fitness center
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <i class="flaticon-wine-glass mr-3 text-primary font-size-24"></i>Mini bar
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <i class="flaticon-hamburger mr-3 text-primary font-size-24"></i>Restaurent
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <i class="flaticon-bathrobe mr-3 text-primary font-size-24"></i>Bathrobes
+                                                                            </li>
+                                                                           <li class="">
+                                                                                <i class="flaticon-folded-towel mr-3 text-primary font-size-24"></i>Dry cleaning
+                                                                            </li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-xl-9">
-                                                                    <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2"
-                                                                    data-infinite="true" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+                                                                    <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2 w-100" data-infinite="true" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img7.jpg" alt="Image Description">
+                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img7.jpg" alt="Image Description">
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
                                                                         </div>
                                                                     </div> 
                                                                 </div>
@@ -2470,6 +2487,7 @@
         <script src="../../assets/vendor/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
         <script src="../../assets/vendor/custombox/dist/custombox.min.js"></script>
         <script src="../../assets/vendor/custombox/dist/custombox.legacy.min.js"></script>
+        <script src="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
 
         <!-- JS MyTravel -->
         <script src="../../assets/js/hs.core.js"></script>
@@ -2485,6 +2503,8 @@
         <script src="../../assets/js/components/hs.quantity-counter.js"></script>
         <script src="../../assets/js/components/hs.g-map.js"></script>
         <script src="../../assets/js/components/hs.modal-window.js"></script>
+        <script src="../../assets/js/components/hs.malihu-scrollbar.js"></script>
+
 
         <!-- JS Plugins Init. -->
         <script>
@@ -2528,6 +2548,9 @@
 
                 // initialization of forms
                 $.HSCore.components.HSRangeSlider.init('.js-range-slider');
+
+                // initialization of malihu scrollbar
+                $.HSCore.components.HSMalihuScrollBar.init($('.js-scrollbar'));
 
                 // initialization of select
                 $.HSCore.components.HSSelectPicker.init('.js-select');
