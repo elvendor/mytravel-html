@@ -40494,6 +40494,10 @@ label.btn {
   right: 0;
 }
 
+.top-90 {
+  top: 90%;
+}
+
 .bottom-0 {
   bottom: 0;
 }
@@ -41147,7 +41151,7 @@ label.btn {
 }
 
 .height-450 {
-  height: 28.125rem;
+  height: 28.125rem !important;
 }
 
 .min-height-100vh {
