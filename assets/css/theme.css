@@ -41082,6 +41082,12 @@ label.btn {
   }
 }
 
+@media (min-width: 992px) {
+  .height-100vh-main-2 {
+    height: calc(100vh - 155px);
+  }
+}
+
 .height-4 {
   height: .25rem;
 }
