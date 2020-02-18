@@ -6,3 +6,14 @@
   display: none;
   max-height: $modal-window-max-height;
 }
+
+.u-modal-window-custom {
+	visibility: hidden !important;
+	height: 0 !important;
+
+	.card {
+		visibility: visible;
+		height: auto;
+		display: block;
+	}
+}

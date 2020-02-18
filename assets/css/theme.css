@@ -36358,6 +36358,17 @@ label.btn {
   max-height: 85vh;
 }
 
+.u-modal-window-custom {
+  visibility: hidden !important;
+  height: 0 !important;
+}
+
+.u-modal-window-custom .card {
+  visibility: visible;
+  height: auto;
+  display: block;
+}
+
 /*------------------------------------
   Modal Window - Facebook
 ------------------------------------*/
