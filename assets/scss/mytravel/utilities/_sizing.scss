@@ -207,6 +207,10 @@
   width: 13.875rem !important; //223px
 }
 
+.width-100vw {
+    width: 100vw;
+}
+
 .max-width-650 {
   max-width: 38.125rem;  //650px
 }
@@ -272,6 +276,10 @@
 
 .height-570 {
     height: 35.625rem;
+}
+
+.height-100vh-72 {
+    height: calc(100vh - 72px);
 }
 
 .height-100vh-main {
@@ -358,6 +366,10 @@
 
 .height-450 {
   height: 28.125rem !important;
+}
+
+.max-height-100vh {
+    max-height: 100vh;
 }
 
 .min-height-100vh {
@@ -547,4 +559,8 @@
   .width-md-50 {
     width: 50%;
   }
+}
+
+.m-b-n1 {
+    margin-bottom: -1px;
 }
