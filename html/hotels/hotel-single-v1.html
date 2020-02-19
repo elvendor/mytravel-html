@@ -17,16 +17,22 @@
         <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap" rel="stylesheet">
 
+       
         <!-- CSS Implementing Plugins -->
         <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
-        <link rel="stylesheet" href="../../assets/css/font-mytravel.css">
         <link rel="stylesheet" href="../../assets/vendor/animate.css/animate.min.css">
+        <link rel="stylesheet" href="../../assets/css/font-mytravel.css">
+        <link rel="stylesheet" href="../../assets/vendor/custombox/dist/custombox.min.css">
         <link rel="stylesheet" href="../../assets/vendor/hs-megamenu/src/hs.megamenu.css">
         <link rel="stylesheet" href="../../assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="../../documentation/assets/vendor/jquery-ui/themes/base/jquery-ui.min.css">
+        <link rel="stylesheet" href="../../documentation/assets/vendor/prism/prism.css">
+        <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
-        <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
-        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
+        <link rel="stylesheet" href="../../assets/vendor/dzsparallaxer/dzsparallaxer.css">
+        <link rel="stylesheet" href="../../assets/vendor/ion-rangeslider/css/ion.rangeSlider.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -898,94 +904,106 @@
                                                         data-modal-effect="fadein">
                                                             Room Photos and Details
                                                     </a>
-                                                    <div id="ontargetModal" class="js-modal-window u-modal-window container-fluid"
+                                                    <div id="ontargetModal" class="js-modal-window u-modal-window u-modal-window-custom container"
                                                         data-modal-type="ontarget"
                                                         data-open-effect="fadeIn"
                                                         data-close-effect="fadeOut"
                                                         data-speed="500">
-                                                        <div class="card mx-4 mx-xl-0 mb-4 mb-md-0">
-                                                            <button type="button" class="border-0 width-50 height-50 bg-primary flex-content-center position-absolute rounded-circle mt-n4 mr-n4 top-0 right-0" aria-label="Close" onclick="Custombox.modal.close();">
-                                                                <i aria-hidden="true" class="flaticon-close text-white font-size-14"></i>
-                                                            </button>
-                                                            <div class="row">
-                                                                <div class="col-lg-3">
+                                                        <div class="card rounded-0 border-0 mx-4 mx-xl-0 mb-4 mb-md-0">
+                                                            <div class="row no-gutters">
+                                                                <div class="col-xl-3">
+                                                                    <div class="border-bottom mb-2">
+                                                                        <div class="px-3 pt-3">
+                                                                            <div class="mb-0">
+                                                                                <span class="font-weight-normal pt-3">Deluxe Gold King Room</span>
+                                                                                <div class="mt-2 mb-3">
+                                                                                    <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                                                                    <span class="font-weight-bold">£899.00</span>
+                                                                                    <span class="font-size-14 text-gray-1"> / night</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="font-weight-normal font-size-14 px-3">Amentities</div>
                                                                     <div class="p-3 js-scrollbar height-100vh-main">
                                                                         <ul class="d-block list-unstyled products-group prodcut-list-view ">
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-wifi-signal mr-3 text-primary font-size-24"></i>Wifi
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-weightlifting mr-3 text-primary font-size-24"></i>Fitness center
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-wine-glass mr-3 text-primary font-size-24"></i>Mini bar
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-hamburger mr-3 text-primary font-size-24"></i>Restaurent
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-bathrobe mr-3 text-primary font-size-24"></i>Bathrobes
                                                                             </li>
-                                                                           <li class="">
+                                                                           <li>
                                                                                 <i class="flaticon-folded-towel mr-3 text-primary font-size-24"></i>Dry cleaning
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-desk-chair mr-3 text-primary font-size-24"></i>High chair
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-slippers mr-3 text-primary font-size-24"></i>Slipper
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-alarm mr-3 text-primary font-size-24"></i>Wakeup call
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-phone-call mr-3 text-primary font-size-24"></i>Telephone
                                                                             </li>
-                                                                            <li class="">
+                                                                            <li>
                                                                                 <i class="flaticon-air-conditioner mr-3 text-primary font-size-24"></i>AirConditioning
-                                                                            </li>
-                                                                            <li class="">
-                                                                                <i class="flaticon-wifi-signal mr-3 text-primary font-size-24"></i>Wifi
-                                                                            </li>
-                                                                            <li class="">
-                                                                                <i class="flaticon-weightlifting mr-3 text-primary font-size-24"></i>Fitness center
-                                                                            </li>
-                                                                            <li class="">
-                                                                                <i class="flaticon-wine-glass mr-3 text-primary font-size-24"></i>Mini bar
-                                                                            </li>
-                                                                            <li class="">
-                                                                                <i class="flaticon-hamburger mr-3 text-primary font-size-24"></i>Restaurent
-                                                                            </li>
-                                                                            <li class="">
-                                                                                <i class="flaticon-bathrobe mr-3 text-primary font-size-24"></i>Bathrobes
-                                                                            </li>
-                                                                           <li class="">
-                                                                                <i class="flaticon-folded-towel mr-3 text-primary font-size-24"></i>Dry cleaning
                                                                             </li>
                                                                         </ul>
                                                                     </div>
                                                                 </div>
                                                                 <div class="col-xl-9">
-                                                                    <div id="sliderSyncingNav" class="js-slick-carousel u-slick mb-2 w-100" data-infinite="true" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y rounded-circle"data-arrow-left-classes="flaticon-back u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="flaticon-next u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+                                                                    
+                                                                    <div class="js-slick-carousel u-slick w-100" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y"data-arrow-left-classes="fas fa-arrow-left font-size-23 bg-transparent text-white u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right font-size-23 bg-transparent text-white u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img7.jpg" alt="Image Description">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img7.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Swimming Pool
+                                                                            </h6>
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Bed
+                                                                            </h6>
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Hotel
+                                                                            </h6>
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Park
+                                                                            </h6>
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">River
+                                                                            </h6>
                                                                         </div>
                                                                         <div class="js-slide">
-                                                                            <img class="img-fluid border-radius-3 w-100" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Guest House
+                                                                            </h6>
                                                                         </div>
+<<<<<<< HEAD
                                                                     </div>
+=======
+                                                                    </div> 
+                                                                    <button type="button" class="border-0 width-50 height-50 bg-primary flex-content-center position-absolute rounded-circle mt-n4 mr-n4 top-0 right-0" aria-label="Close" onclick="Custombox.modal.close();">
+                                                                        <i aria-hidden="true" class="flaticon-close text-white font-size-14"></i>
+                                                                    </button>
+>>>>>>> 62d7d3fcd5a42f2ab01f0e7a5953380cf4734fd6
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1009,7 +1027,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card border-color-7 mb-5 overflow-hidden">
+                            <div class="card border-co border-0lor-7 mb-5 overflow-hidden">
                                 <div class="position-absolute top-0 right-0 mr-md-1 mt-md-1">
                                     <div class="border border-maroon bg-maroon rounded-xs d-flex align-items-center text-lh-1 py-1 px-3 mr-2 mt-2">
                                         <span class="font-weight-normal text-white font-size-14">Save 13% Today</span>
@@ -1075,7 +1093,112 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <a href="#" class="text-underline font-size-14">Room photos and details</a>
+                                                    <!-- On Target Modal -->
+                                                    <a class="font-size-14 text-underline d-block" href="#ontargetModal"
+                                                        data-modal-target="#ontargetModal"
+                                                        data-modal-effect="fadein">
+                                                            Room Photos and Details
+                                                    </a>
+                                                    <div id="ontargetModal" class="js-modal-window u-modal-window u-modal-window-custom container"
+                                                        data-modal-type="ontarget"
+                                                        data-open-effect="fadeIn"
+                                                        data-close-effect="fadeOut"
+                                                        data-speed="500">
+                                                        <div class="card rounded-0 border-0 mx-4 mx-xl-0 mb-4 mb-md-0">
+                                                            <div class="row no-gutters">
+                                                                <div class="col-xl-3">
+                                                                    <div class="border-bottom mb-2">
+                                                                        <div class="px-3 pt-3">
+                                                                            <div class="mb-0">
+                                                                                <span class="font-weight-normal pt-3">Deluxe Gold King Room</span>
+                                                                                <div class="mt-2 mb-3">
+                                                                                    <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                                                                    <span class="font-weight-bold">£899.00</span>
+                                                                                    <span class="font-size-14 text-gray-1"> / night</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="font-weight-normal font-size-14 px-3">Amentities</div>
+                                                                    <div class="p-3 js-scrollbar height-100vh-main">
+                                                                        <ul class="d-block list-unstyled products-group prodcut-list-view ">
+                                                                            <li>
+                                                                                <i class="flaticon-wifi-signal mr-3 text-primary font-size-24"></i>Wifi
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-weightlifting mr-3 text-primary font-size-24"></i>Fitness center
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-wine-glass mr-3 text-primary font-size-24"></i>Mini bar
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-hamburger mr-3 text-primary font-size-24"></i>Restaurent
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-bathrobe mr-3 text-primary font-size-24"></i>Bathrobes
+                                                                            </li>
+                                                                           <li>
+                                                                                <i class="flaticon-folded-towel mr-3 text-primary font-size-24"></i>Dry cleaning
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-desk-chair mr-3 text-primary font-size-24"></i>High chair
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-slippers mr-3 text-primary font-size-24"></i>Slipper
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-alarm mr-3 text-primary font-size-24"></i>Wakeup call
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-phone-call mr-3 text-primary font-size-24"></i>Telephone
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-air-conditioner mr-3 text-primary font-size-24"></i>AirConditioning
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-9">
+                                                                    <div class="js-slick-carousel u-slick w-100" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y"data-arrow-left-classes="fas fa-arrow-left font-size-23 bg-transparent text-white u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right font-size-23 bg-transparent text-white u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img7.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Swimming Pool
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Bed
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Hotel
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Park
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">River
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Guest House
+                                                                            </h6>
+                                                                        </div>
+                                                                    </div> 
+                                                                    <button type="button" class="border-0 width-50 height-50 bg-primary flex-content-center position-absolute rounded-circle mt-n4 mr-n4 top-0 right-0" aria-label="Close" onclick="Custombox.modal.close();">
+                                                                        <i aria-hidden="true" class="flaticon-close text-white font-size-14"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End On Target Modal -->
                                                 </div>
                                             </div>
                                         </div>
@@ -1155,7 +1278,112 @@
                                                             </ul>
                                                         </div>
                                                     </div>
-                                                    <a href="#" class="text-underline font-size-14">Room photos and details</a>
+                                                    <!-- On Target Modal -->
+                                                    <a class="font-size-14 text-underline d-block" href="#ontargetModal"
+                                                        data-modal-target="#ontargetModal"
+                                                        data-modal-effect="fadein">
+                                                            Room Photos and Details
+                                                    </a>
+                                                    <div id="ontargetModal" class="js-modal-window u-modal-window u-modal-window-custom container"
+                                                        data-modal-type="ontarget"
+                                                        data-open-effect="fadeIn"
+                                                        data-close-effect="fadeOut"
+                                                        data-speed="500">
+                                                        <div class="card rounded-0 border-0 mx-4 mx-xl-0 mb-4 mb-md-0">
+                                                            <div class="row no-gutters">
+                                                                <div class="col-xl-3">
+                                                                    <div class="border-bottom mb-2">
+                                                                        <div class="px-3 pt-3">
+                                                                            <div class="mb-0">
+                                                                                <span class="font-weight-normal pt-3">Deluxe Gold King Room</span>
+                                                                                <div class="mt-2 mb-3">
+                                                                                    <span class="mr-1 font-size-14 text-gray-1">From</span>
+                                                                                    <span class="font-weight-bold">£899.00</span>
+                                                                                    <span class="font-size-14 text-gray-1"> / night</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="font-weight-normal font-size-14 px-3">Amentities</div>
+                                                                    <div class="p-3 js-scrollbar height-100vh-main">
+                                                                        <ul class="d-block list-unstyled products-group prodcut-list-view ">
+                                                                            <li>
+                                                                                <i class="flaticon-wifi-signal mr-3 text-primary font-size-24"></i>Wifi
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-weightlifting mr-3 text-primary font-size-24"></i>Fitness center
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-wine-glass mr-3 text-primary font-size-24"></i>Mini bar
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-hamburger mr-3 text-primary font-size-24"></i>Restaurent
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-bathrobe mr-3 text-primary font-size-24"></i>Bathrobes
+                                                                            </li>
+                                                                           <li>
+                                                                                <i class="flaticon-folded-towel mr-3 text-primary font-size-24"></i>Dry cleaning
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-desk-chair mr-3 text-primary font-size-24"></i>High chair
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-slippers mr-3 text-primary font-size-24"></i>Slipper
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-alarm mr-3 text-primary font-size-24"></i>Wakeup call
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-phone-call mr-3 text-primary font-size-24"></i>Telephone
+                                                                            </li>
+                                                                            <li>
+                                                                                <i class="flaticon-air-conditioner mr-3 text-primary font-size-24"></i>AirConditioning
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-9">
+                                                                    <div class="js-slick-carousel u-slick w-100" data-arrows-classes="d-none d-lg-inline-block u-slick__arrow-classic u-slick__arrow-centered--y"data-arrow-left-classes="fas fa-arrow-left font-size-23 bg-transparent text-white u-slick__arrow-classic-inner u-slick__arrow-classic-inner--left ml-lg-2 ml-xl-4" data-arrow-right-classes="fas fa-arrow-right font-size-23 bg-transparent text-white u-slick__arrow-classic-inner u-slick__arrow-classic-inner--right mr-lg-2 mr-xl-4">
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img7.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Swimming Pool
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img8.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Bed
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img9.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Hotel
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img10.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Park
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img11.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">River
+                                                                            </h6>
+                                                                        </div>
+                                                                        <div class="js-slide">
+                                                                            <img class="img-fluid w-100 position-relative" src="../../assets/img/960x490/img12.jpg" alt="Image Description">
+                                                                            <h6 class="d-none d-xl-block font-weight-bold text-white font-size-18 ml-5 position-absolute top-90">Guest House
+                                                                            </h6>
+                                                                        </div>
+                                                                    </div> 
+                                                                    <button type="button" class="border-0 width-50 height-50 bg-primary flex-content-center position-absolute rounded-circle mt-n4 mr-n4 top-0 right-0" aria-label="Close" onclick="Custombox.modal.close();">
+                                                                        <i aria-hidden="true" class="flaticon-close text-white font-size-14"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- End On Target Modal -->
                                                 </div>
                                             </div>
                                         </div>

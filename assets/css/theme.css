@@ -36349,6 +36349,17 @@ label.btn {
   max-height: 85vh;
 }
 
+.u-modal-window-custom {
+  visibility: hidden !important;
+  height: 0 !important;
+}
+
+.u-modal-window-custom .card {
+  visibility: visible;
+  height: auto;
+  display: block;
+}
+
 /*------------------------------------
   Modal Window - Facebook
 ------------------------------------*/
@@ -40485,6 +40496,10 @@ label.btn {
   right: 0;
 }
 
+.top-90 {
+  top: 90%;
+}
+
 .bottom-0 {
   bottom: 0;
 }
@@ -41077,6 +41092,12 @@ label.btn {
   }
 }
 
+@media (min-width: 992px) {
+  .height-100vh-main-2 {
+    height: calc(100vh - 155px);
+  }
+}
+
 .height-4 {
   height: .25rem;
 }
@@ -41136,7 +41157,7 @@ label.btn {
 }
 
 .height-450 {
-  height: 28.125rem;
+  height: 28.125rem !important;
 }
 
 .min-height-100vh {

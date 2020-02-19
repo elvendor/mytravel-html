@@ -281,6 +281,13 @@
   }
 }
 
+.height-100vh-main-2 {
+    
+  @include media-breakpoint-up(lg) {
+      height: calc(100vh - 155px);
+  }
+}
+
 .height-4 {
   height: .25rem;
 }
@@ -340,7 +347,7 @@
 }
 
 .height-450 {
-  height: 28.125rem;
+  height: 28.125rem !important; 
 }
 
 .min-height-100vh {
