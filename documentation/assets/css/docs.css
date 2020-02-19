@@ -1,6 +1,23 @@
 /*------------------------------------
   General
 ------------------------------------*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: bold;
+}
+
+ul li,
+ol li,
+p,
+table {
+  color: initial;
+  font-size: 1.0625rem;
+}
+
 .tab-content .u-header + .u-header,
 .tab-content .alert + .alert,
 .tab-content .nav + .nav,
@@ -14,7 +31,7 @@
 .hs-docs-content-divider:first-child {
   margin-top: 1rem;
 }
-.hs-docs-content-divider {
+.hs-docs-content-divider:not(:last-child) {
   border-bottom: 1px solid #e7eaf3;
   padding-bottom: 2.5rem;
   margin-bottom: 2.5rem;
@@ -27,9 +44,18 @@
 }
 
 @media (min-width: 768px) {
+  .bg-md-primary-darker {
+    background-color: #196eff;
+  }
   .bg-md-dark {
     background-color: #000;
   }
+}
+
+.hs-docs-badge {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .35rem .75rem;
 }
 
 /*------------------------------------
@@ -54,8 +80,11 @@ pre[class*="language-"] {
   text-shadow: none;
   white-space: pre-wrap;
 }
+.token.operator,
+.token.entity,
+.token.url,
 .language-css .token.string,
-.token.operator {
+.style .token.string {
   background: transparent;
 }
 .token.punctuation,
@@ -99,9 +128,6 @@ div.code-toolbar > .toolbar a:hover {
 /*------------------------------------
   AnchorJS Link
 ------------------------------------*/
-.hs-docs-heading {
-  font-weight: 600;
-}
 .hs-docs-heading::before {
   content: "";
   display: block;
@@ -137,17 +163,12 @@ div.code-toolbar > .toolbar a:hover {
   font-size: 1.75rem;
   line-height: 1;
 }
-@media (max-width: 767px) {
-  .u-header--starter .u-header__navbar-brand-text {
-    color: #377dff;
-  }
-  .u-header--starter .u-header--starter__badge {
-    color: #1e2022;
-    background: rgba(30, 32, 34, 0.1);
-  }
-}
-.u-header--starter .navbar-nav .nav-link {
+.u-header--starter .navbar-dark .navbar-nav .nav-link {
   font-size: .9125rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+.u-header--starter .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 1);
 }
 
 /*------------------------------------
@@ -165,13 +186,6 @@ div.code-toolbar > .toolbar a:hover {
 ------------------------------------*/
 .u-fullscreen {
   z-index: 103;
-}
-
-/*------------------------------------
-  Malihu Scrollbar
-------------------------------------*/
-.bg-dark .mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background-color: rgba(255,255,255, .2);
 }
 
 /*------------------------------------
@@ -296,6 +310,33 @@ div.code-toolbar > .toolbar a:hover {
 }
 
 /*------------------------------------
+  Callout
+------------------------------------*/
+.callout {
+  border-left-width: 10px;
+  border-left-style: solid;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+.callout p:last-child {
+  margin-bottom: 0;
+}
+.callout-title {
+  color: initial;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: .5rem;
+}
+.callout-warning {
+  border-color: rgba(255, 193, 7, .25);
+  background-color: rgba(255, 193, 7, .075);
+}
+.callout-danger {
+  border-color: rgba(222, 68, 55, .25);
+  background-color: rgba(222, 68, 55, .075);
+}
+
+/*------------------------------------
   Sidebar
 ------------------------------------*/
 .hs-sidebar-sticky {
@@ -359,30 +400,26 @@ div.code-toolbar > .toolbar a:hover {
 }
 
 .hs-sidebar__item {
-  font-size: .8125rem;
-}
-.hs-sidebar__item.active > .hs-sidebar__link {
-  color: #fff;
+  font-size: .875rem;
 }
 
 .hs-sidebar__link {
-  color: rgba(255,255,255, .5);
+  color: #495057;
   display: block;
   border-left: 4px solid transparent;
   padding: .3rem  1rem .5rem 1.125rem;
 }
 
 .hs-sidebar__link.active {
-  color: #fff;
+  color: #377dff;
   border-color: #377dff;
   padding-top: .5rem;
 }
 .hs-sidebar__link.active:hover {
-  color: #fff;
+  color: #377dff;
 }
 
 .hs-sidebar__link:hover {
-  color: #fff;
   text-decoration: none;
 }
 .hs-sidebar__heading {
