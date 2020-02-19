@@ -73,7 +73,7 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --breakpoint-wd: 1480px;
-  --font-family-sans-serif: "Lato", Helvetica, Arial, sans-serif;
+  --font-family-sans-serif: "Rubik", Helvetica, Arial, sans-serif;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -96,7 +96,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -157,7 +157,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 dd {
@@ -11123,7 +11123,7 @@ a.close.disabled {
   z-index: 9999;
   display: block;
   margin: 0;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -11236,7 +11236,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -23074,7 +23074,7 @@ figure {
 }
 
 strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 svg {
@@ -23083,7 +23083,7 @@ svg {
 }
 
 table th {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .fa, .fas {
@@ -23772,7 +23772,7 @@ button:focus {
 
 .u-header__nav-link {
   color: #67747c;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .u-header--nav-links-normal .u-header__nav-link {
@@ -23791,15 +23791,6 @@ button:focus {
   content: "\f107";
   margin-left: 0.75rem;
   transition: 0.3s ease;
-}
-
-@media (min-width: 1200px) {
-  .u-header__nav-link-toggle::after {
-    position: absolute;
-    top: 53%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
 }
 
 [class*="u-header--bg-transparent"]:not(.js-header-fix-moment) .hs-sub-menu-opened .u-header__nav-link:before,
@@ -23866,7 +23857,7 @@ button:focus {
   display: block;
   color: #3b444f;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.5rem;
 }
 
@@ -23941,7 +23932,7 @@ button:focus {
   display: block;
   color: #3b444f;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .u-header__promo-text {
@@ -24022,7 +24013,7 @@ button:focus {
   display: block;
   color: #fff;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 0.875rem;
 }
 
@@ -24037,7 +24028,7 @@ button:focus {
   display: block;
   color: #fff;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 500;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -24064,7 +24055,7 @@ button:focus {
   display: block;
   color: #377dff;
   font-size: 1.125rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: .5rem;
 }
 
@@ -26050,8 +26041,8 @@ button:focus {
 .navbar-expand .u-header__navbar-nav .u-header__nav-link {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  padding-right: 1.375rem;
-  padding-left: 1.375rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .navbar-expand .u-header__navbar-nav .u-header__sub-menu {
@@ -26160,8 +26151,8 @@ button:focus {
   .navbar-expand-sm .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 1.375rem;
-    padding-left: 1.375rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .navbar-expand-sm .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -26257,8 +26248,8 @@ button:focus {
   .navbar-expand-md .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 1.375rem;
-    padding-left: 1.375rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .navbar-expand-md .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -26354,8 +26345,8 @@ button:focus {
   .navbar-expand-lg .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 1.375rem;
-    padding-left: 1.375rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .navbar-expand-lg .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -26451,8 +26442,8 @@ button:focus {
   .navbar-expand-xl .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 1.375rem;
-    padding-left: 1.375rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .navbar-expand-xl .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -26548,8 +26539,8 @@ button:focus {
   .navbar-expand-wd .u-header__navbar-nav .u-header__nav-link {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    padding-right: 1.375rem;
-    padding-left: 1.375rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
   .navbar-expand-wd .u-header__navbar-nav .u-header__sub-menu {
     border-top: 0.1875rem solid #377dff;
@@ -33076,7 +33067,7 @@ label.btn {
 ------------------------------------*/
 .brand {
   font-size: 1.75rem;
-  font-weight: 600;
+  font-weight: 500;
   margin-left: .5rem;
 }
 
@@ -34052,7 +34043,7 @@ label.btn {
 /* Nav Link */
 .dropdown-nav-link {
   color: #67747c;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.875rem;
 }
 
@@ -37255,7 +37246,7 @@ label.btn {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1002;
+  z-index: 1001;
   display: none;
   width: 100%;
   height: 100%;
@@ -41026,6 +41017,10 @@ label.btn {
   width: 13.875rem !important;
 }
 
+.max-width-650 {
+  max-width: 38.125rem;
+}
+
 .max-width-810 {
   max-width: 50.625rem;
 }
@@ -41542,7 +41537,7 @@ Font Weight
 }
 
 .font-weight-semi-bold {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 
 @media (max-width: 575.98px) {
@@ -41913,7 +41908,7 @@ Letter Spacing
   padding: 1rem;
   font-size: .75rem;
   font-weight: 400;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Rubik", Helvetica, Arial, sans-serif;
 }
 
 .u-area-chart__tooltip::before {
@@ -42303,7 +42298,7 @@ Letter Spacing
 .nav-select .bootstrap-select button {
   background-color: #fff !important;
   border: none;
-  font-weight: bold;
+  font-weight: 500;
   padding-bottom: 14px;
 }
 

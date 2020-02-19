@@ -207,6 +207,10 @@
   width: 13.875rem !important; //223px
 }
 
+.max-width-650 {
+  max-width: 38.125rem;  //650px
+}
+
 .max-width-810 {
   max-width: 50.625rem;  //810px
 }
@@ -271,7 +275,7 @@
 }
 
 .height-100vh-main-1 {
-    
+
   @include media-breakpoint-up(lg) {
       height: calc(100vh - 80px);
   }
