@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="../../favicon.png">
 
     <!-- Google Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Lato:300,400,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
@@ -57,24 +58,24 @@
                             <span class="fas fa-search"></span>
                         </span>
                     </div>
-                    <input class="js-hs-docs-search form-control" type="text" placeholder="Search..." aria-label="Search..." aria-describedby="docsSearch" data-url="../documentation/assets/ajax/autocomplete-data-for-starter-search.json">
+                    <input class="js-hs-docs-search form-control" type="text" placeholder="Search..." aria-label="Search..." aria-describedby="docsSearch" data-url="../../documentation/assets/ajax/autocomplete-data-for-starter-search.json">
                 </form>
                 <!-- End Header Search -->
 
                 <!-- Header Links -->
                 <ul class="navbar-nav u-header--starter text-nowrap flex-row align-items-center pr-3 ml-0 ml-sm-3">
                     <li class="nav-item ml-md-4">
-                        <a class="nav-link" href="https://docs.madrasthemes.com/mytravel" title="Documentation">
+                        <a class="nav-link" href="../../documentation" title="Documentation">
                             <span class="fas fa-laptop-code mr-sm-1"></span>
                             <span class="d-none d-lg-inline-block">Documentation</span>
                         </a>
                     </li>
                     <li class="nav-item ml-3 ml-sm-5">
-                        <a class="btn btn-sm btn-dark d-none d-md-block" href="https://demo2.madrasthemes.com/mytravel" title="Live Preview">
+                        <a class="btn btn-sm btn-dark d-none d-md-block" href="../html/home" title="Live Preview">
                             <span class="far fa-eye mr-sm-1"></span>
                             Live Preview
                         </a>
-                        <a class="btn btn-xs btn-dark d-md-none" href="https://demo2.madrasthemes.com/mytravel" title="Live Preview">
+                        <a class="btn btn-xs btn-dark d-md-none" href="../html/home" title="Live Preview">
                             <span class="far fa-eye mr-sm-1"></span>
                         </a>
                     </li>
@@ -170,7 +171,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-1" role="tabpanel" aria-labelledby="pills-html-tab-1">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -244,7 +245,7 @@
                                         </div>
                                         <!-- End Banner v2-->
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-2" role="tabpanel" aria-labelledby="pills-html-tab-2">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -326,7 +327,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-4" role="tabpanel" aria-labelledby="pills-html-tab-4">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -407,7 +408,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-5" role="tabpanel" aria-labelledby="pills-html-tab-5">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -492,7 +493,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-6" role="tabpanel" aria-labelledby="pills-html-tab-6">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -552,7 +553,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-7" role="tabpanel" aria-labelledby="pills-html-tab-7">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -622,7 +623,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-8" role="tabpanel" aria-labelledby="pills-html-tab-8">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -675,6 +676,7 @@
         <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/mouse.js"></script>
         <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
         <script src="../../documentation/assets/vendor/prism/prism.js"></script>
+        <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
         <script src="../../assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
 
         <!-- JS MyTravel -->
@@ -684,6 +686,7 @@
         <script src="../../assets/js/components/hs.fancybox.js"></script>
         <script src="../../assets/js/components/hs.svg-injector.js"></script>
         <script src="../../assets/js/components/hs.go-to.js"></script>
+        <script src="../../documentation/assets/js/components/hs.autocomplete-local-search.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -712,6 +715,10 @@
 
             // initialization of go to
             $.HSCore.components.HSGoTo.init('.js-go-to');
+
+            // initialization of autocomplet
+            $.HSCore.components.HSLocalSearchAutocomplete.init('.js-hs-docs-search');
+
             });
         </script>
     </body>

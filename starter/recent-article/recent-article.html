@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="../../favicon.png">
 
     <!-- Google Fonts -->
-    <link href="//fonts.googleapis.com/css?family=Lato:300,400,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap" rel="stylesheet">
 
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="../../assets/vendor/font-awesome/css/fontawesome-all.min.css">
@@ -58,20 +59,20 @@
                             <span class="fas fa-search"></span>
                         </span>
                     </div>
-                    <input class="js-hs-docs-search form-control" type="text" placeholder="Search..." aria-label="Search..." aria-describedby="docsSearch" data-url="../documentation/assets/ajax/autocomplete-data-for-starter-search.json">
+                    <input class="js-hs-docs-search form-control" type="text" placeholder="Search..." aria-label="Search..." aria-describedby="docsSearch" data-url="../../documentation/assets/ajax/autocomplete-data-for-starter-search.json">
                 </form>
                 <!-- End Header Search -->
 
                 <!-- Header Links -->
                 <ul class="navbar-nav u-header--starter text-nowrap flex-row align-items-center px-3 ml-0 ml-sm-3">
                     <li class="nav-item ml-4">
-                        <a class="nav-link" href="https://docs.madrasthemes.com/mytravel" title="Documentation">
+                        <a class="nav-link" href="../../documentation" title="Documentation">
                             <span class="fas fa-laptop-code mr-sm-1"></span>
                             <span class="d-none d-lg-inline-block">Documentation</span>
                         </a>
                     </li>
                     <li class="nav-item ml-3 ml-sm-5">
-                        <a class="btn btn-sm btn-dark" href="https://demo2.madrasthemes.com/mytravel" title="Live Preview">
+                        <a class="btn btn-sm btn-dark" href="../html/home" title="Live Preview">
                             <span class="far fa-eye mr-sm-1"></span>
                             Live Preview
                         </a>
@@ -208,7 +209,7 @@
                                         </div>
                                         <!-- End Recent Articles -->
                                     </div>
-                                    
+
                                     <div class="tab-pane" id="pills-html-1" role="tabpanel" aria-labelledby="pills-html-tab-1">
                                         <pre>
                                             <code class="language-html" data-lang="html">
@@ -310,6 +311,7 @@
         <script src="../../assets/js/components/hs.svg-injector.js"></script>
         <script src="../../assets/js/components/hs.go-to.js"></script>
         <script src="../../assets/js/components/hs.slick-carousel.js"></script>
+        <script src="../../documentation/assets/js/components/hs.autocomplete-local-search.js"></script>
 
 
         <!-- JS Plugins Init. -->
@@ -342,6 +344,10 @@
 
             // initialization of slick carousel
             $.HSCore.components.HSSlickCarousel.init('.js-slick-carousel');
+
+            // initialization of autocomplet
+            $.HSCore.components.HSLocalSearchAutocomplete.init('.js-hs-docs-search');
+
             });
         </script>
     </body>
