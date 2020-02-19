@@ -131,7 +131,7 @@
             .u-header__navbar-link {
                 padding-left: 0;
             }
-        } 
+        }
 
         .dropdown-menu {
             min-width: 4.375rem;
@@ -291,7 +291,7 @@
             .u-header__navbar-brand-text-md #{&} {
                 font-size: 1.5rem;
                 margin-left: 0.75rem;
-            } 
+            }
         }
     }
 
@@ -377,7 +377,7 @@
     .active > {
         .u-header__nav-link {
             color: $header-nav-link-active-color;
-        }   
+        }
     }
 }
 
@@ -402,11 +402,6 @@
             content: "\f107";
             margin-left: 0.75rem;
             transition: $header-nav-link-icon-transition;
-            @include media-breakpoint-up(xl) {
-                position: absolute;
-                top: 53%;
-                transform: translateY(-50%);
-            }
         }
     }
 

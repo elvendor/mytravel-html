@@ -207,7 +207,7 @@ $theme-colors: map-merge((
   "orange":                                                 $orange,
   "green":                                                  $green,
   "pink-1":                                                 $pink-1,
-  "purple-1":                                               $purple-1,                                                
+  "purple-1":                                               $purple-1,
   ), $theme-colors);
 // stylelint-enable
 
@@ -303,7 +303,7 @@ $card-count: map-merge((
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:                                    "Lato", Helvetica, Arial, sans-serif !default; //'Quicksand', sans-serif;//'Rubik', sans-serif; //"Poppins", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:                                    "Rubik", Helvetica, Arial, sans-serif !default; //'Quicksand', sans-serif;//'Rubik', sans-serif; //"Poppins", Helvetica, Arial, sans-serif !default;
 $font-family-font-awesome-icon:                             "Font Awesome 5 Free" !default;
 
 $font-size-base:                                            1rem !default; // Assumes the browser default, typically 16px
@@ -312,7 +312,7 @@ $font-size-xs:                                              ($font-size-base * .
 $font-weight-light:                                         300 !default;
 $font-weight-normal:                                        400 !default;
 $font-weight-medium:                                        500 !default;
-$font-weight-semi-bold:                                     600 !default;
+$font-weight-semi-bold:                                     500 !default;
 
 $h1-font-size:                                              $font-size-base * 2.5 !default;
 $h2-font-size:                                              $font-size-base * 2 !default;
@@ -602,7 +602,7 @@ $header-navbar-brand-padding-top:                           1rem !default;
 $header-navbar-nav-paddingY:                                .625rem !default;
 $header-navbar-nav-paddingY-responsive:                     0 !default;
 $header-nav-link-paddingY:                                  1.5rem !default;
-$header-nav-link-paddingX:                                  1.375rem !default;
+$header-nav-link-paddingX:                                  1rem !default;
 $header-sub-menu-nav-link-paddingX:                         1.75rem !default;
 $header-sub-menu-paddingX:                                  1.5rem !default;
 $header-mega-menu-padding:                                  1.5rem 1.5rem 1.5rem 1.5rem + $header-sub-menu-border-left-width !default;
@@ -992,7 +992,7 @@ $dropdown-divider-bg:                                       $gray-300 !default;
 // Type
 $dropdown-item-font-size:                                   ($font-size-base * .875) !default;
 $dropdown-link-font-size:                                   $dropdown-item-font-size !default;
-$dropdown-link-font-weight:                                 300 !default;
+$dropdown-link-font-weight:                                 400 !default;
 $dropdown-icon-font-size:                                   ($font-size-base * .8125) !default;
 $dropdown-icon-pointer-font-size:                           .625rem !default;
 
