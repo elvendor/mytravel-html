@@ -115,6 +115,14 @@
 	}
 }
 
+.gradient-overlay-half-bg-gradient-v7 {
+
+	&::before {
+		background: linear-gradient(to top, rgba(19,19,19,1) 6%, rgba(19,19,19,0.2) 72%, rgba(34,34,34,0) 89%, rgba(44,44,44,0) 100%);
+		z-index: inherit;
+	}
+}
+
 .gradient-overlay {
     &::after {
         content: "";

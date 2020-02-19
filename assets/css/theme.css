@@ -25793,13 +25793,16 @@ button:focus {
   display: flex;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 1199.98px) {
   .u-header--bg-transparent .u-header__navbar-nav {
     background-color: #fff;
   }
   .u-header--bg-transparent .u-header__navbar-nav {
     padding: 0.875rem 1.5rem;
     padding-top: 1rem;
+  }
+  .u-header--bg-transparent.u-scrolled .scroll-icon i {
+    color: #377dff !important;
   }
 }
 
@@ -36349,15 +36352,15 @@ label.btn {
   max-height: 85vh;
 }
 
-.u-modal-window-custom {
-  visibility: hidden !important;
+.u-modal-window-custom.u-modal-window {
+  display: block !important;
   height: 0 !important;
+  opacity: 0 !important;
 }
 
-.u-modal-window-custom .card {
-  visibility: visible;
-  height: auto;
-  display: block;
+.custombox-open .u-modal-window-custom.u-modal-window {
+  height: auto !important;
+  opacity: 1 !important;
 }
 
 /*------------------------------------
@@ -39790,6 +39793,11 @@ label.btn {
   border-radius: 0.188rem;
 }
 
+.gradient-overlay-half-bg-gradient-v7::before {
+  background: linear-gradient(to top, #131313 6%, rgba(19, 19, 19, 0.2) 72%, rgba(34, 34, 34, 0) 89%, rgba(44, 44, 44, 0) 100%);
+  z-index: inherit;
+}
+
 .gradient-overlay::after {
   content: "";
   position: absolute;
@@ -41051,6 +41059,12 @@ label.btn {
   width: 11.875rem;
 }
 
+@media (min-width: 1480px) {
+  .width-960 {
+    width: 60rem;
+  }
+}
+
 .min-width-190 {
   min-width: 11.875rem;
 }
@@ -41072,6 +41086,10 @@ label.btn {
 
 .height-100vh {
   height: 100vh;
+}
+
+.height-570 {
+  height: 35.625rem;
 }
 
 @media (min-width: 992px) {
@@ -41299,6 +41317,16 @@ label.btn {
 @media (max-width: 1479.98px) {
   .min-height-960 {
     min-height: 32rem;
+  }
+}
+
+.max-height-760 {
+  max-height: 47.5rem;
+}
+
+@media (min-width: 1480px) {
+  .height-760 {
+    height: 47.5rem;
   }
 }
 
@@ -41540,6 +41568,10 @@ Font Weight
   font-weight: 500 !important;
 }
 
+.font-weight-bold {
+  font-weight: 500 !important;
+}
+
 @media (max-width: 575.98px) {
   .font-size-xs-20 {
     font-size: 1.25rem;
@@ -41610,7 +41642,7 @@ Letter Spacing
 .section-title {
   font-size: 1.875rem;
   color: #3b444f;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .section-title::after {

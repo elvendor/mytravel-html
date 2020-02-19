@@ -74,18 +74,22 @@
 }
 
 .u-header--bg-transparent {
-  .u-header__navbar-brand-default {
-    display: flex;
-  }
+    .u-header__navbar-brand-default {
+        display: flex;
+    }
 
-  @include media-breakpoint-down(sm) {
-	  .u-header__navbar-nav {
-			background-color: $header-bg;
-		}
+    @include media-breakpoint-down(lg) {
+        .u-header__navbar-nav {
+        	background-color: $header-bg;
+        }
 
-  	.u-header__navbar-nav {
-	  	padding: $header-transparent-navbar-nav-padding;
-	  	padding-top: 1rem;
-	  }
-  }
+    	.u-header__navbar-nav {
+          	padding: $header-transparent-navbar-nav-padding;
+          	padding-top: 1rem;
+        }
+
+        &.u-scrolled .scroll-icon i {
+            color: $primary !important;
+        }
+    }
 }
