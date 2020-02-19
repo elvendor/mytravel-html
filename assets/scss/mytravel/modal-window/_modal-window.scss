@@ -8,12 +8,18 @@
 }
 
 .u-modal-window-custom {
-	visibility: hidden !important;
-	height: 0 !important;
+    &.u-modal-window {
+        display: block !important;
+        height: 0 !important;
+        opacity: 0 !important;
+    }
+}
 
-	.card {
-		visibility: visible;
-		height: auto;
-		display: block;
-	}
+.custombox-open {
+    .u-modal-window-custom {
+        &.u-modal-window {
+            height: auto !important;
+            opacity: 1 !important;
+        }
+    }
 }

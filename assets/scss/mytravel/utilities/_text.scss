@@ -193,6 +193,10 @@ Font Weight
     font-weight: $font-weight-medium !important;
 }
 
+.font-weight-bold {
+    font-weight: $font-weight-medium !important;
+}
+
 // Small Devices
 @include media-breakpoint-down(xs) {
     .font-size-xs-20 {
@@ -267,7 +271,7 @@ Letter Spacing
 .section-title {
     font-size: 1.875rem; //30px
     color: $dark;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-medium;
 
     &::after {
         display: block;
