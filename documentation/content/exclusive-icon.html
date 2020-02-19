@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Title -->
-  <title>Exclusive SVG Set - MyTravel Documentation | MyTravel - Responsive Website Template</title>
+  <title>Exclusive Icon Set - MyTravel Diconation | MyTravel - Responsive Website Template</title>
 
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">
@@ -122,7 +122,7 @@
               <li class="hs-sidebar__item">
                 <span class="hs-sidebar__link">Icons:</span>
                 <ul class="hs-sidebar__nav ml-2">
-                  <li class="hs-sidebar__item"><a class="hs-sidebar__link active" href="exclusive-svg.html">Exclusive SVG set</a></li>
+                  <li class="hs-sidebar__item"><a class="hs-sidebar__link active" href="exclusive-icon.html">Exclusive Icon</a></li>
                   <li class="hs-sidebar__item"><a class="hs-sidebar__link" href="font-awesome.html">Font Awesome</a></li>
                 </ul>
               </li>
@@ -251,14 +251,14 @@
 
           <div class="col-xl-10 order-xl-1">
             <div class="hs-docs-content-divider">
-              <h1>Exclusive SVG Set</h1>
-              <p class="lead">Guidance and suggestions for using our exclusive SVG set of icon libraries.</p>
+              <h1>Exclusive Icon</h1>
+              <p class="lead">Guidance and suggestions for using our exclusive set of icon libraries.</p>
             </div>
 
             <div id="overview" class="hs-docs-content-divider">
               <h2 class="hs-docs-heading h4">Overview <a class="anchorjs-link" href="#overview" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
 
-              <p>MyTravel icons are designed exclusively designed on top of premium icon set to make MyTravel pages unique, which means that these icons are only available in the MyTravel Template. This set of icons include more than 60 customized icons and counting.</p>
+              <p>MyTravel icons are designed exclusively designed on top of premium icon set to make MyTravel pages unique, which means that these icons are only available in the MyTravel Template. This set of icons include more than 100 customized icons and counting.</p>
 
               <p>Icons can be found in <code class="highlighter-rouge">assets/svg/icons/</code></p>
             </div>
@@ -266,64 +266,13 @@
             <div id="how-to-use" class="hs-docs-content-divider">
               <h2 class="hs-docs-heading h4">How to use? <a class="anchorjs-link" href="#how-to-use" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
 
-              <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code>s near the end of your pages under <em><u>JS Implementing Plugins</u></em> to enable them.</p>
+              <p>Copy-paste the following <code class="highlighter-rouge">&lt;css&gt;</code>s near the end of your pages under <em><u>CSS Implementing Plugins</u></em> to enable them.</p>
 
               <pre>
                 <code class="language-html" data-lang="html">
-                  &lt;script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"&gt;&lt;/script&gt;
+                 &lt;link rel="stylesheet" href="../../assets/css/font-mytravel.css"&gt;
                 </code>
               </pre>
-
-              <p>Copy-paste the following <code class="highlighter-rouge">&lt;script&gt;</code> near the end of your pages under <em><u>JS MyTravel</u></em> to enable it.</p>
-
-              <pre>
-                <code class="language-html" data-lang="html">
-                  &lt;script src="../../assets/js/components/hs.svg-injector.js"&gt;&lt;/script&gt;
-                </code>
-              </pre>
-
-              <p>Copy-paste the init function under <em><u>JS Plugins Init.</u></em>, before the closing <code class="highlighter-rouge">&lt;/body&gt;</code> tag, to enable it.</p>
-
-              <pre>
-                <code class="language-html" data-lang="html">
-                  &lt;script&gt;
-                    $(document).on('ready', function () {
-                      // initialization of svg injector module
-                      $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-                    });
-                  &lt;/script&gt;
-                </code>
-              </pre>
-
-              <hr class="my-7">
-
-              <p>There are two ways to use SVG icons in MyTravel:</p>
-
-              <h3 class="hs-docs-heading h5">1. Traditional way <a class="anchorjs-link" href="#sizes-font-awesome" aria-label="Anchor" data-anchorjs-icon="#"></a></h3>
-
-              <p class="mb-0"><em>Pros</em> - Fast loading</p>
-              <p class="mb-0"><em>Cons</em> - Colors must be modified with Illustrator tools</p>
-
-              <pre>
-                <code class="language-html" data-lang="html">
-                  &lt;img src="../../assets/svg/icons/icon-1.svg" alt="SVG"&gt;
-                </code>
-              </pre>
-
-              <h3 class="hs-docs-heading h5">2. Through Embedded JavaScript <a class="anchorjs-link" href="#sizes-font-awesome" aria-label="Anchor" data-anchorjs-icon="#"></a></h3>
-
-              <p class="mb-0"><em>Pros</em> - Colors can be controlled via variables</p>
-              <p class="mb-0"><em>Cons</em> - Uses JavaScript</p>
-
-              <pre>
-                <code class="language-html" data-lang="html">
-                  &lt;figure id="embedIcon" class="svg-preloader"&gt;
-                    &lt;img class="js-svg-injector" src="../../assets/svg/icons/icon-1.svg" alt="SVG" data-parent="#embedIcon"&gt;
-                  &lt;/figure&gt;
-                </code>
-              </pre>
-
-              <p>MyTravel follows the second method as it gives more flexibility when modifying the colors.</p>
             </div>
 
             <div id="default-examples" class="hs-docs-content-divider">
@@ -332,11 +281,11 @@
               <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
                   <div id="linkIcon1" class="card text-center hd-doc-copy-to-clipboard h-100">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon1">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon1" class="mb-1">
                         <i class="font-size-25 flaticon-user"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-user</span> 
+                      <span class="font-size-12">flaticon-user</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon1"
@@ -350,11 +299,11 @@
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
                   <div id="linkIcon2" class="card text-center hd-doc-copy-to-clipboard h-100">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon2">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon2" class="mb-1">
                         <i class="font-size-25 flaticon-magnifying-glass"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass</span> 
+                      <span class="font-size-12">flaticon-magnifying-glass</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon2"
@@ -367,12 +316,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon3" class="card text-center hd-doc-copy-to-clipboard h-100">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon3" class="card text-center hd-doc-copy-to-clipboard  h-100h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon3">
                         <i class="font-size-25 flaticon-magnifying-glass-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-magnifying-glass-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon3"
@@ -385,12 +334,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon4" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon4" class="card text-center hd-doc-copy-to-clipboard" h-100>
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon4">
                         <i class="font-size-25 flaticon-shopping-basket"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-shopping-basket</span> 
+                      <span class="font-size-12">flaticon-shopping-basket</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon4"
@@ -403,12 +352,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon5" class="card text-center hd-doc-copy-to-clipboard h-100">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon5" class="card text-center hd-doc-copy-to-clipboard  h-100h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon5">
                         <i class="font-size-25 flaticon-hotel"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-hotel</span> 
+                      <span class="font-size-12">flaticon-hotel</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon5"
@@ -421,12 +370,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon6" class="card text-center hd-doc-copy-to-clipboard h-100">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon6" class="card text-center hd-doc-copy-to-clipboard  h-100h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon6">
                         <i class="font-size-25 flaticon-hotel-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-hotel-1</span> 
+                      <span class="font-size-12">flaticon-hotel-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon6"
@@ -439,12 +388,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon7" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon7" class="card text-center hd-doc-copy-to-clipboard" h-100>
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon7">
                         <i class="font-size-25 flaticon-bed"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-bed</span> 
+                      <span class="font-size-12">flaticon-bed</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon7"
@@ -457,12 +406,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon8" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon8" class="card text-center hd-doc-copy-to-clipboard" h-100>
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon8">
                         <i class="font-size-25 flaticon-global"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-global</span> 
+                      <span class="font-size-12">flaticon-global</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon8"
@@ -475,12 +424,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon9" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon9" class="card text-center hd-doc-copy-to-clipboard" h-100>
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon9">
                         <i class="font-size-25 flaticon-global-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-global-1</span> 
+                      <span class="font-size-12">flaticon-global-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon9"
@@ -493,12 +442,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon10" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon10" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon10">
                         <i class="font-size-25 flaticon-climbing"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-climbing</span> 
+                      <span class="font-size-12">flaticon-climbing</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon10"
@@ -511,12 +460,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon11" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon11" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon11">
                         <i class="font-size-25 flaticon-camping"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-camping</span> 
+                      <span class="font-size-12">flaticon-camping</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon11"
@@ -529,12 +478,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon12" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon12" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon12">
                         <i class="font-size-25 flaticon-hot-air-balloon"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-hot-air-balloon</span> 
+                      <span class="font-size-12">flaticon-hot-air-balloon</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon12"
@@ -547,12 +496,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon13" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon13" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon13">
                         <i class="font-size-25 flaticon-gym"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-gym</span> 
+                      <span class="font-size-12">flaticon-gym</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon13"
@@ -565,12 +514,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon14" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon14" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon14">
                         <i class="font-size-25 flaticon-home"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-home</span> 
+                      <span class="font-size-12">flaticon-home</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon14"
@@ -583,12 +532,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon15" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon15" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon15">
                         <i class="font-size-25 flaticon-shelter"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-shelter</span> 
+                      <span class="font-size-12">flaticon-shelter</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon15"
@@ -601,12 +550,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon16" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon16" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon16">
                         <i class="font-size-25 flaticon-sedan"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-sedan</span> 
+                      <span class="font-size-12">flaticon-sedan</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon16"
@@ -619,12 +568,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon17" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon17" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon17">
                         <i class="font-size-25 flaticon-yatch"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-yatch</span> 
+                      <span class="font-size-12">flaticon-yatch</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon17"
@@ -637,12 +586,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon18" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon18" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon18">
                         <i class="font-size-25 flaticon-sailboat"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-sailboat</span> 
+                      <span class="font-size-12">flaticon-sailboat</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon18"
@@ -655,12 +604,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon19" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon19" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon19">
                         <i class="font-size-25 flaticon-aeroplane"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-aeroplane</span> 
+                      <span class="font-size-12">flaticon-aeroplane</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon19"
@@ -673,12 +622,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon20" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon20" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon20">
                         <i class="font-size-25 flaticon-airplane"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-airplane</span> 
+                      <span class="font-size-12">flaticon-airplane</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon20"
@@ -691,12 +640,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon21" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon21" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon21">
                         <i class="font-size-25 flaticon-placeholder"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-placeholder</span> 
+                      <span class="font-size-12">flaticon-placeholder</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon21"
@@ -709,12 +658,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon22" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon22" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon22">
                         <i class="font-size-25 flaticon-placeholder-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-placeholder-1</span> 
+                      <span class="font-size-12">flaticon-placeholder-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon22"
@@ -727,12 +676,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon23" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon23" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon23">
                         <i class="font-size-25 flaticon-event"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-event</span> 
+                      <span class="font-size-12">flaticon-event</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon23"
@@ -745,12 +694,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon24" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon24" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon24">
                         <i class="font-size-25 flaticon-month"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-month</span> 
+                      <span class="font-size-12">flaticon-month</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon24"
@@ -763,12 +712,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon25" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon25" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon25">
                         <i class="font-size-25 flaticon-calendar"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-calendar</span> 
+                      <span class="font-size-12">flaticon-calendar</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon25"
@@ -781,12 +730,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon26" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon26" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon26">
                         <i class="font-size-25 flaticon-add-group"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-add-group</span> 
+                      <span class="font-size-12">flaticon-add-group</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon26"
@@ -799,12 +748,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon27" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon27" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon27">
                         <i class="font-size-25 flaticon-plus"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-plus</span> 
+                      <span class="font-size-12">flaticon-plus</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon27"
@@ -817,12 +766,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon28" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon28" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon28">
                         <i class="font-size-25 flaticon-heart"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-heart</span> 
+                      <span class="font-size-12">flaticon-heart</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon28"
@@ -835,12 +784,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon29" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon29" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon29">
                         <i class="font-size-25 flaticon-heart-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-heart-1</span> 
+                      <span class="font-size-12">flaticon-heart-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon29"
@@ -853,12 +802,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon30" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon30" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon30">
                         <i class="font-size-25 flaticon-clock-circular-outline"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-clock-circular-outline</span> 
+                      <span class="font-size-12">flaticon-clock-circular-outline</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon30"
@@ -871,12 +820,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon31" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon31" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon31">
                         <i class="font-size-25 flaticon-watch"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-watch</span> 
+                      <span class="font-size-12">flaticon-watch</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon31"
@@ -889,12 +838,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon32" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon32" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon32">
                         <i class="font-size-25 flaticon-price"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-price</span> 
+                      <span class="font-size-12">flaticon-price</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon32"
@@ -907,12 +856,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon33" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon33" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon33">
                         <i class="font-size-25 flaticon-medal"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-medal</span> 
+                      <span class="font-size-12">flaticon-medal</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon33"
@@ -925,12 +874,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon34" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon34" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon34">
                         <i class="font-size-25 flaticon-pin"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-pin</span> 
+                      <span class="font-size-12">flaticon-pin</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon34"
@@ -943,12 +892,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon35" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon35" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon35">
                         <i class="font-size-25 flaticon-pin-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-pin-1</span> 
+                      <span class="font-size-12">flaticon-pin-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon35"
@@ -961,12 +910,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon36" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon36" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon36">
                         <i class="font-size-25 flaticon-worldwide"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-worldwide</span> 
+                      <span class="font-size-12">flaticon-worldwide</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon36"
@@ -979,12 +928,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon37" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon37" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon37">
                         <i class="font-size-25 flaticon-world"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-world</span> 
+                      <span class="font-size-12">flaticon-world</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon37"
@@ -997,12 +946,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon38" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon38" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon38">
                         <i class="font-size-25 flaticon-internet"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-internet</span> 
+                      <span class="font-size-12">flaticon-internet</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon38"
@@ -1015,12 +964,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon39" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon39" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon39">
                         <i class="font-size-25 flaticon-next"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-next</span> 
+                      <span class="font-size-12">flaticon-next</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon39"
@@ -1033,12 +982,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon40" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon40" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon40">
                         <i class="font-size-25 flaticon-back"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-back</span> 
+                      <span class="font-size-12">flaticon-back</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon40"
@@ -1051,12 +1000,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon41" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon41" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon41">
                         <i class="font-size-25 flaticon-left-arrow"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-left-arrow</span> 
+                      <span class="font-size-12">flaticon-left-arrow</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon41"
@@ -1069,12 +1018,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon42" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon42" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon42">
                         <i class="font-size-25 flaticon-right-arrow"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-right-arrow</span> 
+                      <span class="font-size-12">flaticon-right-arrow</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon42"
@@ -1087,12 +1036,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon43" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon43" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon43">
                         <i class="font-size-25 flaticon-call"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-call</span> 
+                      <span class="font-size-12">flaticon-call</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon43"
@@ -1105,12 +1054,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon44" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon44" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon44">
                         <i class="font-size-25 flaticon-call-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-call-1</span> 
+                      <span class="font-size-12">flaticon-call-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon44"
@@ -1123,12 +1072,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon45" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon45" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon45">
                         <i class="font-size-25 flaticon-support"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-support</span> 
+                      <span class="font-size-12">flaticon-support</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon45"
@@ -1141,12 +1090,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon46" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon46" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon46">
                         <i class="font-size-25 flaticon-google-play"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-google-play</span> 
+                      <span class="font-size-12">flaticon-google-play</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon46"
@@ -1159,12 +1108,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon47" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon47" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon47">
                         <i class="font-size-25 flaticon-apple"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-apple</span> 
+                      <span class="font-size-12">flaticon-apple</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon47"
@@ -1177,12 +1126,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon48" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon48" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon48">
                         <i class="font-size-25 flaticon-right-thin-chevron"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-right-thin-chevron</span> 
+                      <span class="font-size-12">flaticon-right-thin-chevron</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon48"
@@ -1195,12 +1144,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon49" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon49" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon49">
                         <i class="font-size-25 flaticon-down-chevron"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-down-chevron</span> 
+                      <span class="font-size-12">flaticon-down-chevron</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon49"
@@ -1213,12 +1162,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon50" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon50" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon50">
                         <i class="font-size-25 flaticon-left-direction-arrow"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-left-direction-arrow</span> 
+                      <span class="font-size-12">flaticon-left-direction-arrow</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon50"
@@ -1231,12 +1180,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon51" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon51" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon51">
                         <i class="font-size-25 flaticon-arrow"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-arrow</span> 
+                      <span class="font-size-12">flaticon-arrow</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon51"
@@ -1249,12 +1198,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon52" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon52" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon52">
                         <i class="font-size-25 flaticon-plans"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-plans</span> 
+                      <span class="font-size-12">flaticon-plans</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon52"
@@ -1267,12 +1216,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon53" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon53" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon53">
                         <i class="font-size-25 flaticon-bed-1"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-bed-1</span> 
+                      <span class="font-size-12">flaticon-bed-1</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon53"
@@ -1285,12 +1234,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon54" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon54" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon54">
                         <i class="font-size-25 flaticon-bathtub"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-bathtub</span> 
+                      <span class="font-size-12">flaticon-bathtub</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon54"
@@ -1303,12 +1252,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon55" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon55" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon55">
                         <i class="font-size-25 flaticon-door"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-door</span> 
+                      <span class="font-size-12">flaticon-door</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon55"
@@ -1321,12 +1270,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon56" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon56" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon56">
                         <i class="font-size-25 flaticon-key"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-key</span> 
+                      <span class="font-size-12">flaticon-key</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon56"
@@ -1339,12 +1288,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon57" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon57" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon57">
                         <i class="font-size-25 flaticon-furniture-and-household"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-furniture-and-household</span> 
+                      <span class="font-size-12">flaticon-furniture-and-household</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon57"
@@ -1357,12 +1306,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon58" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon58" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon58">
                         <i class="font-size-25 flaticon-download-speed"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-download-speed</span> 
+                      <span class="font-size-12">flaticon-download-speed</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon58"
@@ -1375,12 +1324,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon59" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
+                  <div id="linkIcon59" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
                       <figure id="icon59">
                         <i class="font-size-25 flaticon-gasoline-pump"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-gasoline-pump</span> 
+                      <span class="font-size-12">flaticon-gasoline-pump</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon59"
@@ -1393,12 +1342,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon60" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon60" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon60">
+                        <i class="font-size-25 flaticon-car"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-car</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon60"
@@ -1411,12 +1360,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon61" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon61" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon61">
+                        <i class="font-size-25 flaticon-fuel"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-fuel</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon61"
@@ -1429,12 +1378,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon62" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon62" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon62">
+                        <i class="font-size-25 flaticon-gear"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-gear</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon62"
@@ -1447,12 +1396,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon63" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon63" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon63">
+                        <i class="font-size-25 flaticon-ruler"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-ruler</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon63"
@@ -1465,12 +1414,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon64" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon64" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon64">
+                        <i class="font-size-25 flaticon-meter"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-meter</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon64"
@@ -1483,12 +1432,12 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon65" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon65" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon65">
+                        <i class="font-size-25 flaticon-movie"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-movie</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon65"
@@ -1501,16 +1450,1359 @@
                 </div>
 
                 <div class="col-4 col-sm-3 col-md-2 mb-5">
-                  <div id="linkIcon66" class="card text-center hd-doc-copy-to-clipboard">
-                    <div class="card card-body px-2 py-3 border-0 d-block">
-                      <figure id="icon3">
-                        <i class="font-size-25 flaticon-magnifying-glass-1"></i>
+                  <div id="linkIcon66" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon66">
+                        <i class="font-size-25 flaticon-multimedia"></i>
                       </figure>
-                      <span class="font-size-14">flaticon-magnifying-glass-1</span> 
+                      <span class="font-size-12">flaticon-multimedia</span> 
                     </div>
                     <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
                        data-content-target="#icon66"
                        data-class-change-target="#linkIcon66"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon67" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon67">
+                        <i class="font-size-25 flaticon-placeholder-2"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-placeholder-2</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon67"
+                       data-class-change-target="#linkIcon67"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon68" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon68">
+                        <i class="font-size-25 flaticon-tag"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-tag</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon68"
+                       data-class-change-target="#linkIcon68"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon69" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon69">
+                        <i class="font-size-25 flaticon-price-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-price-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon69"
+                       data-class-change-target="#linkIcon69"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon70" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon70">
+                        <i class="font-size-25 flaticon-customer-service"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-customer-service</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon70"
+                       data-class-change-target="#linkIcon70"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon71" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon71">
+                        <i class="font-size-25 flaticon-modern-house"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-modern-house</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon71"
+                       data-class-change-target="#linkIcon71"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon72" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon72">
+                        <i class="font-size-25 flaticon-modern-house-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-modern-house-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon72"
+                       data-class-change-target="#linkIcon72"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon73" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon73">
+                        <i class="font-size-25 flaticon-house"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-house</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon73"
+                       data-class-change-target="#linkIcon73"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon74" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon74">
+                        <i class="font-size-25 flaticon-house-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-house-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon74"
+                       data-class-change-target="#linkIcon74"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon75" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon75">
+                        <i class="font-size-25 flaticon-building"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-building</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon75"
+                       data-class-change-target="#linkIcon75"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon76" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon76">
+                        <i class="font-size-25 flaticon-cityscape"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-cityscape</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon76"
+                       data-class-change-target="#linkIcon76"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon77" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon77">
+                        <i class="font-size-25 flaticon-town"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-town</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon77"
+                       data-class-change-target="#linkIcon77"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon78" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon78">
+                        <i class="font-size-25 flaticon-condominium"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-condominium</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon78"
+                       data-class-change-target="#linkIcon78"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon79" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon79">
+                        <i class="font-size-25 flaticon-apartment"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-apartment</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon79"
+                       data-class-change-target="#linkIcon79"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon80" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon80">
+                        <i class="font-size-25 flaticon-sailboat-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-sailboat-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon80"
+                       data-class-change-target="#linkIcon80"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon81" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon81">
+                        <i class="font-size-25 flaticon-kayak"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-kayak</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon81"
+                       data-class-change-target="#linkIcon81"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon82" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon82">
+                        <i class="font-size-25 flaticon-lifeboat"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-lifeboat</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon82"
+                       data-class-change-target="#linkIcon82"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon83" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon83">
+                        <i class="font-size-25 flaticon-jetski-facing-right"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-jetski-facing-right</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon83"
+                       data-class-change-target="#linkIcon83"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon84" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon84">
+                        <i class="font-size-25 flaticon-sail-boat"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-sail-boat</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon84"
+                       data-class-change-target="#linkIcon84"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon85" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon85">
+                        <i class="font-size-25 flaticon-sailboat-2"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-sailboat-2</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon85"
+                       data-class-change-target="#linkIcon85"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon86" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon86">
+                        <i class="font-size-25 flaticon-yatch-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-yatch-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon86"
+                       data-class-change-target="#linkIcon86"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon87" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon87">
+                        <i class="font-size-25 flaticon-yatch-2"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-yatch-2</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon87"
+                       data-class-change-target="#linkIcon87"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon88" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon88">
+                        <i class="font-size-25 flaticon-node"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-node</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon88"
+                       data-class-change-target="#linkIcon88"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon89" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon89">
+                        <i class="font-size-25 flaticon-location"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-location</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon89"
+                       data-class-change-target="#linkIcon89"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon90" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon90">
+                        <i class="font-size-25 flaticon-cardinal-points"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-cardinal-points</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon90"
+                       data-class-change-target="#linkIcon90"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon91" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon91">
+                        <i class="font-size-25 flaticon-anchor"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-anchor</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon91"
+                       data-class-change-target="#linkIcon91"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon92" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon92">
+                        <i class="font-size-25 flaticon-portfolio"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-portfolio</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon92"
+                       data-class-change-target="#linkIcon92"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon93" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon93">
+                        <i class="font-size-25 flaticon-backpack"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-backpack</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon93"
+                       data-class-change-target="#linkIcon93"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon94" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon94">
+                        <i class="font-size-25 flaticon-filter"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-filter</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon94"
+                       data-class-change-target="#linkIcon94"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon95" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon95">
+                        <i class="font-size-25 flaticon-filter-results-button"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-filter-results-button</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon95"
+                       data-class-change-target="#linkIcon95"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon96" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon96">
+                        <i class="font-size-25 flaticon-valentine-heart"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-valentine-heart</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon96"
+                       data-class-change-target="#linkIcon96"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon97" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon97">
+                        <i class="font-size-25 flaticon-like"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-like</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon97"
+                       data-class-change-target="#linkIcon97"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon98" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon98">
+                        <i class="font-size-25 flaticon-wifi-signal"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-wifi-signal</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon98"
+                       data-class-change-target="#linkIcon98"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div><div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon99" class="card text-center hd-doc-copy-to-clipboard h-100">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon99">
+                        <i class="font-size-25 flaticon-alarm"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-alarm</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon99"
+                       data-class-change-target="#linkIcon99"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon100" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon100">
+                        <i class="font-size-25 flaticon-bathrobe"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-bathrobe</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon100"
+                       data-class-change-target="#linkIcon100"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon101" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon101">
+                        <i class="font-size-25 flaticon-weightlifting"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-weightlifting</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon101"
+                       data-class-change-target="#linkIcon101"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon102" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon102">
+                        <i class="font-size-25 flaticon-phone-call"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-phone-call</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon102"
+                       data-class-change-target="#linkIcon102"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon103" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon103">
+                        <i class="font-size-25 flaticon-clothes"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-clothes</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon103"
+                       data-class-change-target="#linkIcon103"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon104" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon104">
+                        <i class="font-size-25 flaticon-folded-towel"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-folded-towel</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon104"
+                       data-class-change-target="#linkIcon104"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon105" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon105">
+                        <i class="font-size-25 flaticon-wine-glass"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-wine-glass</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon105"
+                       data-class-change-target="#linkIcon105"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon106" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon106">
+                        <i class="font-size-25 flaticon-hair-dryer"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-hair-dryer</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon106"
+                       data-class-change-target="#linkIcon106"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon107" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon107">
+                        <i class="font-size-25 flaticon-chair"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-chair</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon107"
+                       data-class-change-target="#linkIcon107"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon108" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon108">
+                        <i class="font-size-25 flaticon-desk-chair"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-desk-chair</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon108"
+                       data-class-change-target="#linkIcon108"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon109" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon109">
+                        <i class="font-size-25 flaticon-dish"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-dish</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon109"
+                       data-class-change-target="#linkIcon109"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon110" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon110">
+                        <i class="font-size-25 flaticon-hamburger"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-hamburger</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon110"
+                       data-class-change-target="#linkIcon110"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon111" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon111">
+                        <i class="font-size-25 flaticon-air-conditioner"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-air-conditioner</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon111"
+                       data-class-change-target="#linkIcon111"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon112" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon112">
+                        <i class="font-size-25 flaticon-slippers"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-slippers</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon112"
+                       data-class-change-target="#linkIcon112"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon113" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon113">
+                        <i class="font-size-25 flaticon-like-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-like-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon113"
+                       data-class-change-target="#linkIcon113"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon114" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon114">
+                        <i class="font-size-25 flaticon-dislike"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-dislike</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon114"
+                       data-class-change-target="#linkIcon114"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon115" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon115">
+                        <i class="font-size-25 flaticon-smiling-emoticon-square-face"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-smiling-emoticon-square-face</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon115"
+                       data-class-change-target="#linkIcon115"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon116" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon116">
+                        <i class="font-size-25 flaticon-share"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-share</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon116"
+                       data-class-change-target="#linkIcon116"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon117" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon117">
+                        <i class="font-size-25 flaticon-gallery"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-gallery</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon117"
+                       data-class-change-target="#linkIcon117"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon118" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon118">
+                        <i class="font-size-25 flaticon-user-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-user-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon118"
+                       data-class-change-target="#linkIcon118"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon119" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon119">
+                        <i class="font-size-25 flaticon-user-2"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-user-2</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon119"
+                       data-class-change-target="#linkIcon119"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon120" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon120">
+                        <i class="font-size-25 flaticon-social"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-social</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon120"
+                       data-class-change-target="#linkIcon120"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon121" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon121">
+                        <i class="font-size-25 flaticon-three-men-conference"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-three-men-conference</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon121"
+                       data-class-change-target="#linkIcon121"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon122" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon122">
+                        <i class="font-size-25 flaticon-favorites"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-favorites</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon122"
+                       data-class-change-target="#linkIcon122"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon123" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon123">
+                        <i class="font-size-25 flaticon-star"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-star</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon123"
+                       data-class-change-target="#linkIcon123"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon124" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon124">
+                        <i class="font-size-25 flaticon-favorites-button"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-favorites-button</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon124"
+                       data-class-change-target="#linkIcon124"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon125" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon125">
+                        <i class="font-size-25 flaticon-tick"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-tick</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon125"
+                       data-class-change-target="#linkIcon125"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon126" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon126">
+                        <i class="font-size-25 flaticon-close"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-close</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon126"
+                       data-class-change-target="#linkIcon126"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon127" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon127">
+                        <i class="font-size-25 flaticon-non-commercial"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-non-commercial</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon127"
+                       data-class-change-target="#linkIcon127"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon128" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon128">
+                        <i class="font-size-25 flaticon-invoice"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-invoice</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon128"
+                       data-class-change-target="#linkIcon128"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon129" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon129">
+                        <i class="font-size-25 flaticon-tickets"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-tickets</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon129"
+                       data-class-change-target="#linkIcon129"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon130" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon130">
+                        <i class="font-size-25 flaticon-landing"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-landing</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon130"
+                       data-class-change-target="#linkIcon130"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon131" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon131">
+                        <i class="font-size-25 flaticon-take-off"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-take-off</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon131"
+                       data-class-change-target="#linkIcon131"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon132" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon132">
+                        <i class="font-size-25 flaticon-bell"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-bell</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon132"
+                       data-class-change-target="#linkIcon132"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon133" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon133">
+                        <i class="font-size-25 flaticon-envelope"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-envelope</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon133"
+                       data-class-change-target="#linkIcon133"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon134" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon134">
+                        <i class="font-size-25 flaticon-password"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-password</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon134"
+                       data-class-change-target="#linkIcon134"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon135" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon135">
+                        <i class="font-size-25 flaticon-settings"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-settings</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon135"
+                       data-class-change-target="#linkIcon135"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon136" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon136">
+                        <i class="font-size-25 flaticon-edit"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-edit</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon136"
+                       data-class-change-target="#linkIcon136"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon137" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon137">
+                        <i class="font-size-25 flaticon-delete-button"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-delete-button</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon137"
+                       data-class-change-target="#linkIcon137"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon138" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon138">
+                        <i class="font-size-25 flaticon-delete"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-delete</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon138"
+                       data-class-change-target="#linkIcon138"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon139" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon139">
+                        <i class="font-size-25 flaticon-browser"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-browser</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon139"
+                       data-class-change-target="#linkIcon139"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon140" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon140">
+                        <i class="font-size-25 flaticon-browser-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-browser-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon140"
+                       data-class-change-target="#linkIcon140"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon141" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon141">
+                        <i class="font-size-25 flaticon-search"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-search</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon141"
+                       data-class-change-target="#linkIcon141"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon142" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon142">
+                        <i class="font-size-25 flaticon-hourglass"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-hourglass</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon142"
+                       data-class-change-target="#linkIcon142"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon143" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon143">
+                        <i class="font-size-25 flaticon-file"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-file</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon143"
+                       data-class-change-target="#linkIcon143"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon144" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon144">
+                        <i class="font-size-25 flaticon-printer"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-printer</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon144"
+                       data-class-change-target="#linkIcon144"
+                       data-success-class="border-primary"
+                       data-success-text="Copied">
+                      Copy
+                    </a>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-3 col-md-2 mb-5">
+                  <div id="linkIcon145" class="card text-center hd-doc-copy-to-clipboar h-100d">
+                    <div class="card card-body px-2 py-3 border-0 flex-content-center">
+                      <figure id="icon145">
+                        <i class="font-size-25 flaticon-printer-1"></i>
+                      </figure>
+                      <span class="font-size-12">flaticon-printer-1</span> 
+                    </div>
+                    <a class="js-clipboard card-footer hd-doc-copy-to-clipboard-text py-1" href="javascript:;"
+                       data-content-target="#icon145"
+                       data-class-change-target="#linkIcon145"
                        data-success-class="border-primary"
                        data-success-text="Copied">
                       Copy
