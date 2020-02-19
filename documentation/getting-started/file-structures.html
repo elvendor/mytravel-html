@@ -29,7 +29,7 @@
   <!-- ========== HEADER ========== -->
   <header id="header" class="u-header u-header--starter">
     <nav id="logoAndNav" class="navbar navbar-dark fixed-top bg-primary flex-nowrap p-0">
-      <div class="col-md-3 col-xl-2 bg-md-primary-darker navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0 pt-2 pb-3">
+      <div class="col-md-3 col-xl-2 bg-md-primary navbar-brand u-header__navbar-brand u-header__navbar-brand-center mr-0 pt-2 pb-3">
         <!-- Logo -->
           <a class="navbar-brand u-header__navbar-brand-default u-header__navbar-brand-center u-header__navbar-brand-text-white" href="index.html" aria-label="MyTravel">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55px" height="53px">
@@ -262,7 +262,7 @@
           <div class="col-xl-10 order-xl-1">
             <div class="hs-docs-content-divider">
               <h1>File Structures</h1>
-              <p class="lead">A guide to understanding how Front is structured and organized.</p>
+              <p class="lead">A guide to understanding how MyTrvel is structured and organized.</p>
             </div>
 
             <div id="download-package" class="hs-docs-content-divider">
@@ -272,7 +272,7 @@
 
               <pre>
                 <code class="language-plaintext" data-lang="plaintext"
-                  >front/
+                  >mytravel/
                   ├── assets/
                   │   ├── ajax/
                   │   ├── css/
@@ -294,7 +294,7 @@
                 </code>
               </pre>
 
-              <p>This is the most basic form of Front: precompiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (<code class="highlighter-rouge">theme*.css</code> and <code class="highlighter-rouge">hs.*.js</code>), as well as compiled and minified CSS and JS (<code class="highlighter-rouge">theme*.min.css</code> and <code class="highlighter-rouge">hs.*.min.js</code>).</p>
+              <p>This is the most basic form of MyTravel: precompiled files for quick drop-in usage in nearly any web project. We provide compiled CSS and JS (<code class="highlighter-rouge">theme*.css</code> and <code class="highlighter-rouge">hs.*.js</code>), as well as compiled and minified CSS and JS (<code class="highlighter-rouge">theme*.min.css</code> and <code class="highlighter-rouge">hs.*.min.js</code>).</p>
             </div>
 
             <div id="html" class="hs-docs-content-divider">
@@ -302,8 +302,8 @@
               <p><code class="highlighter-rouge">html/</code> is the source for HTML pages and contains HTML templates, which you see in the <a href="../../html/home/index.html">online demo</a>. These HTML files can be opened easily in any browser, imported to any project, or modified to suit your needs.</p>
 
               <blockquote class="callout callout-danger">
-                <p id="front-is-a-static-template" class="callout-title">Front is a Static Template</p>
-                <p>For the time being, we do <strong>NOT</strong> offer any tutorials or any other materials on how to integrate Front with any CMS, Web Application framework (including Angular JS, Ruby on Rails and others) or any other similar technology. However, since <strong>Front is a static HTML/CSS and JS template</strong>, then it <em>should be compatible</em> with any backend technology.</p>
+                <p id="MyTravel-is-a-static-template" class="callout-title">MyTravel is a Static Template</p>
+                <p>For the time being, we do <strong>NOT</strong> offer any tutorials or any other materials on how to integrate MyTravel with any CMS, Web Application framework (including Angular JS, Ruby on Rails and others) or any other similar technology. However, since <strong>MyTravel is a static HTML/CSS and JS template</strong>, then it <em>should be compatible</em> with any backend technology.</p>
               </blockquote>
             </div>
 
@@ -329,7 +329,7 @@
 
             <div id="core-js" class="hs-docs-content-divider">
               <h2 class="hs-docs-heading h4">Core JavaScript <a class="anchorjs-link" href="#core-js" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
-              <p class="g-mb-30">The foundation of the JavaScript structure in Front is based on one main object which does not change the root when the new functionalities are added, but instead, it only expands without affecting the behavior of the core object. The name of the object is <code class="highlighter-rouge">HSCore</code> and the content of this object looks like this:</p>
+              <p class="g-mb-30">The foundation of the JavaScript structure in MyTravel is based on one main object which does not change the root when the new functionalities are added, but instead, it only expands without affecting the behavior of the core object. The name of the object is <code class="highlighter-rouge">HSCore</code> and the content of this object looks like this:</p>
 
               <pre>
                 <code class="language-js" data-lang="js">
@@ -445,7 +445,7 @@
                     ;(function($){
                       'use strict';
 
-                      $.Front.components.StarterComponent = {
+                      $.MyTravel.components.StarterComponent = {
 
                         _baseConfig : {
                           // ...
@@ -479,7 +479,7 @@
               <h2 class="hs-docs-heading h4">Advantages <a class="anchorjs-link" href="#advantages" aria-label="Anchor" data-anchorjs-icon="#"></a></h2>
 
               <ul>
-                <li>Avoiding the probabilities of conflicts between Front codes and third party plugins (libraries).</li>
+                <li>Avoiding the probabilities of conflicts between MyTravel codes and third party plugins (libraries).</li>
                 <li>Intuitive clear architecture.</li>
                 <li>Everything is structured, each component in its own file and in its component in the main object.</li>
                 <li>The ability of extending functionality without affecting the behavior of the core object and not changing the existing functionality.</li>
@@ -523,7 +523,7 @@
   <script src="../../documentation/assets/vendor/jquery-ui/ui/widgets/autocomplete.js"></script>
   <script src="../../documentation/assets/vendor/prism/prism.js"></script>
 
-  <!-- JS Front -->
+  <!-- JS MyTravel -->
   <script src="../../assets/js/hs.core.js"></script>
   <script src="../../assets/js/components/hs.header.js"></script>
   <script src="../../assets/js/components/hs.go-to.js"></script>
