@@ -38382,6 +38382,12 @@ label.btn {
   max-width: 70.83333%;
 }
 
+.col-xs-8gdot5 {
+  -ms-flex: 0 0 70.83333%;
+      flex: 0 0 70.83333%;
+  max-width: 70.83333%;
+}
+
 .col-xs-4dot1 {
   -ms-flex: 0 0 34.16667%;
       flex: 0 0 34.16667%;
@@ -38624,6 +38630,14 @@ label.btn {
 
 @media (min-width: 576px) {
   .col-sm-8dot5 {
+    -ms-flex: 0 0 70.83333%;
+        flex: 0 0 70.83333%;
+    max-width: 70.83333%;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-8gdot5 {
     -ms-flex: 0 0 70.83333%;
         flex: 0 0 70.83333%;
     max-width: 70.83333%;
@@ -38887,6 +38901,14 @@ label.btn {
 }
 
 @media (min-width: 768px) {
+  .col-md-8gdot5 {
+    -ms-flex: 0 0 70.83333%;
+        flex: 0 0 70.83333%;
+    max-width: 70.83333%;
+  }
+}
+
+@media (min-width: 768px) {
   .col-md-4dot1 {
     -ms-flex: 0 0 34.16667%;
         flex: 0 0 34.16667%;
@@ -39136,6 +39158,14 @@ label.btn {
 
 @media (min-width: 992px) {
   .col-lg-8dot5 {
+    -ms-flex: 0 0 70.83333%;
+        flex: 0 0 70.83333%;
+    max-width: 70.83333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-8gdot5 {
     -ms-flex: 0 0 70.83333%;
         flex: 0 0 70.83333%;
     max-width: 70.83333%;
@@ -39399,6 +39429,14 @@ label.btn {
 }
 
 @media (min-width: 1200px) {
+  .col-xl-8gdot5 {
+    -ms-flex: 0 0 70.83333%;
+        flex: 0 0 70.83333%;
+    max-width: 70.83333%;
+  }
+}
+
+@media (min-width: 1200px) {
   .col-xl-4dot1 {
     -ms-flex: 0 0 34.16667%;
         flex: 0 0 34.16667%;
@@ -39648,6 +39686,14 @@ label.btn {
 
 @media (min-width: 1480px) {
   .col-wd-8dot5 {
+    -ms-flex: 0 0 70.83333%;
+        flex: 0 0 70.83333%;
+    max-width: 70.83333%;
+  }
+}
+
+@media (min-width: 1480px) {
+  .col-wd-8gdot5 {
     -ms-flex: 0 0 70.83333%;
         flex: 0 0 70.83333%;
     max-width: 70.83333%;
@@ -41025,6 +41071,10 @@ label.btn {
   width: 13.875rem !important;
 }
 
+.width-100vw {
+  width: 100vw;
+}
+
 .max-width-650 {
   max-width: 38.125rem;
 }
@@ -41090,6 +41140,10 @@ label.btn {
 
 .height-570 {
   height: 35.625rem;
+}
+
+.height-100vh-72 {
+  height: calc(100vh - 72px);
 }
 
 @media (min-width: 992px) {
@@ -41176,6 +41230,10 @@ label.btn {
 
 .height-450 {
   height: 28.125rem !important;
+}
+
+.max-height-100vh {
+  max-height: 100vh;
 }
 
 .min-height-100vh {
@@ -41376,6 +41434,10 @@ label.btn {
   .width-md-50 {
     width: 50%;
   }
+}
+
+.m-b-n1 {
+  margin-bottom: -1px;
 }
 
 /*------------------------------------

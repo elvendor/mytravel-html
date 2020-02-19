@@ -171,6 +171,12 @@
        }
     }
 
+    .col-#{$size}-8gdot5 {
+       @include media-breakpoint-up($size) {
+           @include make-col(8.5);
+       }
+    }
+
     .col-#{$size}-4dot1 {
        @include media-breakpoint-up($size) {
             @include make-col(4.1);
