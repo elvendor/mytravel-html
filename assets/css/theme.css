@@ -41880,6 +41880,16 @@ Letter Spacing
 }
 
 /*------------------------------------
+  Transform
+------------------------------------*/
+.transform-rotate-1 {
+  -webkit-transform: rotate(-40deg);
+          transform: rotate(-40deg);
+  -webkit-transform-origin: 30% 20%;
+          transform-origin: 30% 20%;
+}
+
+/*------------------------------------
   Transitions
 ------------------------------------*/
 /* 3D Hover */
