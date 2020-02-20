@@ -109,11 +109,11 @@ $container-max-widths: (
     $indigo:                                                    #2d1582 !default;
     $indigo-lighter-1:                                          #080e7b !default;
     $maroon:                                                    #c72f74 !default;
-    $facebook:           										                    #395899 !default;
+    $facebook:           										#395899 !default;
     $google:                                                    #d14130 !default;
     $twitter:                                                   #03a9e0 !default;
     $instagram:                                                 #3f729b !default;
-    $github:           											                    #24292e !default;
+    $github:           											#24292e !default;
     $space:                                                     #ff9500 !default;
     $sapphire:                                                  #002568 !default;
     $black:                                                     #000000 !default;
@@ -135,19 +135,19 @@ $container-max-widths: (
     $purple-1:                                                  #232753 !default;
 
     // Theme Colors
-    $primary:                                                   $blue !default;
+    $primary:                                                   $blue-1 !default;
     $primary-darker:                                            $blue-darker !default;
-    $primary-lighter:          									                $blue-lighter !default;
+    $primary-lighter:          									$blue-lighter !default;
     $secondary:                                                 $gray-700 !default;
     $success:                                                   $teal !default;
-    $success-lighter:          									                $teal-lighter !default;
+    $success-lighter:          									$teal-lighter !default;
     $info:                                                      $cyan !default;
-    $info-lighter:           									                  $cyan-lighter !default;
+    $info-lighter:           									$cyan-lighter !default;
     $warning:                                                   $yellow !default;
     $warning-darker:                                            $yellow-darker !default;
     $warning-lighter:                                           $yellow-lighter !default;
     $danger:                                                    $red !default;
-    $danger-lighter:           									                $red-lighter !default;
+    $danger-lighter:           									$red-lighter !default;
 
 // Social Network Colors
 $secondary-colors: () !default;
