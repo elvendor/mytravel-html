@@ -1,13 +1,9 @@
 {
-  "name": "tolong",
+  "name": "MyTravel",
   "version": "1.0.0",
-  "description": "Tolong - Responsive Website Template",
+  "description": "MyTravel - Responsive Website Template",
   "main": "gulpfile.js",
-  "01StartDate": "14-Oct-2019",
-  "02StartDate": "22-Oct-2019",
-  "03StartDate": "04-Nov-2019",
-  "04StartDate": "07-Nov-2019",
-  "09StartDate": "12-Dec-2019",
+  "StartDate": "20-Dec-2019",
   "author": "madrasthemes",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -55,7 +51,7 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/madrasthemes/tolong-html/issues"
+    "url": "https://github.com/madrasthemes/mytravel-html/issues"
   },
-  "homepage": "https://github.com/madrasthemes/tolong-html#readme"
+  "homepage": "https://github.com/madrasthemes/mytravel-html"
 }
