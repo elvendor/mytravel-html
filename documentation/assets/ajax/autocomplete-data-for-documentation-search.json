@@ -30,11 +30,11 @@
   },{
     "category": "Content",
     "label": "Icons - Exclusive Icons Set",
-    "url": "mytravel-html/documentation/content/exclusive-svg.html"
+    "url": "mytravel-html/documentation/content/exclusive-icon.html"
   },{
     "category": "Content",
     "label": "Exclusive Icons Set",
-    "url": "mytravel-html/documentation/content/exclusive-svg.html"
+    "url": "mytravel-html/documentation/content/exclusive-icon.html"
   },{
     "category": "Content",
     "label": "Font Awesome",
@@ -47,10 +47,6 @@
     "category": "Components",
     "label": "Alerts",
     "url": "mytravel-html/documentation/components/alerts.html"
-  },{
-    "category": "Components",
-    "label": "Avatars",
-    "url": "mytravel-html/documentation/components/avatars.html"
   },{
     "category": "Components",
     "label": "Badge",
@@ -71,14 +67,6 @@
     "category": "Components",
     "label": "Collapse",
     "url": "mytravel-html/documentation/components/collapse.html"
-  },{
-    "category": "Components",
-    "label": "CSS Divider",
-    "url": "mytravel-html/documentation/components/css-divider.html"
-  },{
-    "category": "Components",
-    "label": "SVG divider",
-    "url": "mytravel-html/documentation/components/svg-divider.html"
   },{
     "category": "Components",
     "label": "Forms",
@@ -103,10 +91,6 @@
     "category": "Components",
     "label": "Spinners",
     "url": "mytravel-html/documentation/components/spinners.html"
-  },{
-    "category": "Components",
-    "label": "Sticky footer",
-    "url": "mytravel-html/documentation/components/sticky-footer.html"
   },{
     "category": "Components",
     "label": "Tables",
@@ -161,24 +145,8 @@
     "url": "mytravel-html/documentation/hs-libraries/background-video.html"
   },{
     "category": "HS Libraries",
-    "label": "File Attach",
-    "url": "mytravel-html/documentation/hs-libraries/file-attach.html"
-  },{
-    "category": "HS Libraries",
     "label": "Go to",
     "url": "mytravel-html/documentation/hs-libraries/go-to.html"
-  },{
-    "category": "HS Libraries",
-    "label": "Headers",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html"
-  },{
-    "category": "HS Libraries",
-    "label": "Header fullscreen",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html"
-  },{
-    "category": "HS Libraries",
-    "label": "Header mega-menu",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html"
   },{
     "category": "HS Libraries",
     "label": "Header searches",
@@ -187,10 +155,6 @@
     "category": "HS Libraries",
     "label": "Page preloader",
     "url": "mytravel-html/documentation/hs-libraries/page-preloader.html"
-  },{
-    "category": "HS Libraries",
-    "label": "Scroll effect",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-effect.html"
   },{
     "category": "HS Libraries",
     "label": "Scroll-nav",
@@ -269,24 +233,8 @@
     "url": "mytravel-html/documentation/libraries/datatables.html"
   },{
     "category": "Libraries",
-    "label": "Dropzone",
-    "url": "mytravel-html/documentation/libraries/dropzone.html"
-  },{
-    "category": "Libraries",
-    "label": "Drag-n-drop",
-    "url": "mytravel-html/documentation/libraries/dropzone.html"
-  },{
-    "category": "Libraries",
     "label": "Fancybox",
     "url": "mytravel-html/documentation/libraries/fancybox.html"
-  },{
-    "category": "Libraries",
-    "label": "File uploader",
-    "url": "mytravel-html/documentation/libraries/dropzone.html"
-  },{
-    "category": "Libraries",
-    "label": "File attachment",
-    "url": "mytravel-html/documentation/libraries/dropzone.html"
   },{
     "category": "Libraries",
     "label": "Flatpickr",
@@ -299,10 +247,6 @@
     "category": "Libraries",
     "label": "Calendar",
     "url": "mytravel-html/documentation/libraries/flatpickr.html"
-  },{
-    "category": "Libraries",
-    "label": "Google map",
-    "url": "mytravel-html/documentation/libraries/google-map.html"
   },{
     "category": "Libraries",
     "label": "Malihu scrollbar",
@@ -604,22 +548,17 @@
     "category": "Content",
     "section": "Exclusive SVG Set",
     "label": "Exclusive SVG Set - Overview",
-    "url": "mytravel-html/documentation/content/exclusive-svg.html#overview"
+    "url": "mytravel-html/documentation/content/exclusive-icon.html#overview"
   },{
     "category": "Content",
     "section": "Exclusive SVG Set",
     "label": "Exclusive SVG Set - How to use",
-    "url": "mytravel-html/documentation/content/exclusive-svg.html#how-to-use"
+    "url": "mytravel-html/documentation/content/exclusive-icon.html#how-to-use"
   },{
     "category": "Content",
     "section": "Exclusive SVG Set",
     "label": "Exclusive SVG Set - Default examples",
-    "url": "mytravel-html/documentation/content/exclusive-svg.html#default-examples"
-  },{
-    "category": "Content",
-    "section": "Exclusive SVG Set",
-    "label": "Exclusive SVG Set - White style examples",
-    "url": "mytravel-html/documentation/content/exclusive-svg.html#white-examples"
+    "url": "mytravel-html/documentation/content/exclusive-icon.html#default-examples"
   },{
     "category": "Content",
     "section": "Font Awesome 5",
@@ -667,41 +606,6 @@
     "url": "mytravel-html/documentation/components/alerts.html#js-behavior"
   },{
     "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Example",
-    "url": "mytravel-html/documentation/components/avatars.html#example"
-  },{
-    "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Shapes",
-    "url": "mytravel-html/documentation/components/avatars.html#shapes"
-  },{
-    "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Abbreviation",
-    "url": "mytravel-html/documentation/components/avatars.html#abbreviation"
-  },{
-    "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Flat contextual variations",
-    "url": "mytravel-html/documentation/components/avatars.html#flat-contextual-variations"
-  },{
-    "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Soft contextual variations",
-    "url": "mytravel-html/documentation/components/avatars.html#soft-contextual-variations"
-  },{
-    "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Bordered",
-    "url": "mytravel-html/documentation/components/avatars.html#bordered"
-  },{
-    "category": "Components",
-    "section": "Avatars",
-    "label": "Avatars - Group",
-    "url": "mytravel-html/documentation/components/avatars.html#group"
-  },{
-    "category": "Components",
     "section": "Badges",
     "label": "Badges - Example",
     "url": "mytravel-html/documentation/components/badge.html#example"
@@ -723,13 +627,13 @@
   },{
     "category": "Components",
     "section": "Badges",
-    "label": "Badges - Front badges",
-    "url": "mytravel-html/documentation/components/badge.html#front-badges"
+    "label": "Badges - MyTravel badges",
+    "url": "mytravel-html/documentation/components/badge.html#mytravel-badges"
   },{
     "category": "Components",
     "section": "Badges",
-    "label": "Badges - Front examples",
-    "url": "mytravel-html/documentation/components/badge.html#front-examples"
+    "label": "Badges - MyTravel examples",
+    "url": "mytravel-html/documentation/components/badge.html#mytravel-examples"
   },{
     "category": "Components",
     "section": "Badges",
@@ -1413,7 +1317,7 @@
   },{
     "category": "Components",
     "section": "Tables",
-    "label": "Tables - Front examples",
+    "label": "Tables - MyTravel examples",
     "url": "mytravel-html/documentation/components/tables.html#examples"
   },{
     "category": "Utilities",
@@ -1647,26 +1551,6 @@
     "url": "mytravel-html/documentation/hs-libraries/background-video.html#methods"
   },{
     "category": "HS Libraries",
-    "section": "File attach",
-    "label": "File attach - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/file-attach.html#how-to-use"
-  },{
-    "category": "HS Libraries",
-    "section": "File attach",
-    "label": "File attach - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/file-attach.html#basic-example"
-  },{
-    "category": "HS Libraries",
-    "section": "File attach",
-    "label": "File attach - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/file-attach.html#js-behavior"
-  },{
-    "category": "HS Libraries",
-    "section": "File attach",
-    "label": "File attach - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/file-attach.html#methods"
-  },{
-    "category": "HS Libraries",
     "section": "Go to",
     "label": "Go to - Overview",
     "url": "mytravel-html/documentation/hs-libraries/go-to.html#overview"
@@ -1715,241 +1599,6 @@
     "section": "Go to",
     "label": "Go to - Methods",
     "url": "mytravel-html/documentation/hs-libraries/go-to.html#methods"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - How it works",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#how-it-works"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#how-to-use"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Using mega menu with header",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#using-mega-menu-with-header"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Using unfold.js with header",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#using-unfoldjs-with-header"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Supported content",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#supported-content"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - With dropdown",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#with-dropdown"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - With mega menu",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#with-mega-menu"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - Logo on top",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#logo-on-top"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - Brand",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#brand"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - Topbar",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#topbar"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - Navbar alignments",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#navbar-alignments"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - Navbar horizontal scroll",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#navbar-horizontal-scrollbar"
-  },{
-    "category": "HS Libraries",
-    "section": "Supported content",
-    "label": "Supported content - One page nav",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#one-page-nav"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Color schemes",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#color-schemes"
-  },{
-    "category": "HS Libraries",
-    "section": "Color schemes",
-    "label": "Color schemes - Transparent",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#transparent"
-  },{
-    "category": "HS Libraries",
-    "section": "Color schemes",
-    "label": "Color schemes - Submenu",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#submenu"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Placement",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#placement"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Responsive behaviors",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#responsive-behaviors"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#js-behavior"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#methods"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Placement classes",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#placement-classes"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Behaviors",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#behaviors"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Behavior examples",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#behavior-examples"
-  },{
-    "category": "HS Libraries",
-    "section": "Headers",
-    "label": "Headers - Behavior classes",
-    "url": "mytravel-html/documentation/hs-libraries/headers.html#behavior-classes"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - How it works",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#how-it-works"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#how-to-use"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Examples",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#examples"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Basic",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#basic"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Columns",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#columns"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Interactive styles",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#interactive-styles"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Animation",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#animation"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Alignment",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#alignment"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Event",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#event"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Responsive",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#responsive"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#js-behavior"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Config",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#config"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Callbacks",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#callbacks"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Mega menu",
-    "label": "Header Mega menu - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/header-mega-menu.html#methods"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#how-to-use"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - Example",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#example"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - Basic",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#basic"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - Subnav",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#subnav"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - Placement",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#placement"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#js-behavior"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - Callbacks",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#callbacks"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Fullscreen",
-    "label": "Header Fullscreen - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/header-fullscreen.html#methods"
-  },{
-    "category": "HS Libraries",
-    "section": "Header Searches",
-    "label": "Header Searches - Search push from top",
-    "url": "mytravel-html/documentation/hs-libraries/header-searches.html#search-push-from-top"
   },{
     "category": "HS Libraries",
     "section": "Header Searches",
@@ -2456,41 +2105,6 @@
     "url": "mytravel-html/documentation/libraries/datatables.html#methods"
   },{
     "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - How to use",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#how-to-use"
-  },{
-    "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - Basic example",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#basic-example"
-  },{
-    "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - Preview template option",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#preview-template-option"
-  },{
-    "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - JavaScript behavior",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#js-behavior"
-  },{
-    "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - Attributes",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#attributes"
-  },{
-    "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - Config",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#config"
-  },{
-    "category": "Plugins",
-    "section": "Dropzone",
-    "label": "Dropzone - Methods",
-    "url": "mytravel-html/documentation/libraries/dropzone.html#methods"
-  },{
-    "category": "Plugins",
     "section": "FancyBox",
     "label": "FancyBox - How to use",
     "url": "mytravel-html/documentation/libraries/fancybox.html#how-to-use"
@@ -2569,91 +2183,6 @@
     "section": "Google Map",
     "label": "Google Map - How to use",
     "url": "mytravel-html/documentation/libraries/google-map.html#how-to-use"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - API",
-    "url": "mytravel-html/documentation/libraries/google-map.html#api"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Examples",
-    "url": "mytravel-html/documentation/libraries/google-map.html#examples"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Road map",
-    "url": "mytravel-html/documentation/libraries/google-map.html#roadmap"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Satellite",
-    "url": "mytravel-html/documentation/libraries/google-map.html#satellite"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Terrain",
-    "url": "mytravel-html/documentation/libraries/google-map.html#terrain"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Street view",
-    "url": "mytravel-html/documentation/libraries/google-map.html#street-view"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Custom light",
-    "url": "mytravel-html/documentation/libraries/google-map.html#custom-light"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Custom dark",
-    "url": "mytravel-html/documentation/libraries/google-map.html#custom-dark"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Geolocation",
-    "url": "mytravel-html/documentation/libraries/google-map.html#geolocation"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Polygon",
-    "url": "mytravel-html/documentation/libraries/google-map.html#polygon"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Polylines",
-    "url": "mytravel-html/documentation/libraries/google-map.html#polylines"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Routes",
-    "url": "mytravel-html/documentation/libraries/google-map.html#routes"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Geocoding",
-    "url": "mytravel-html/documentation/libraries/google-map.html#geocoding"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Multiple markers",
-    "url": "mytravel-html/documentation/libraries/google-map.html#multiple-markers"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Multiple custom markers and info window",
-    "url": "mytravel-html/documentation/libraries/google-map.html#multiple-custom-markers-and-info-window"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - JavaScript behavior",
-    "url": "mytravel-html/documentation/libraries/google-map.html#js-behavior"
-  },{
-    "category": "Plugins",
-    "section": "Google Map",
-    "label": "Google Map - Methods",
-    "url": "mytravel-html/documentation/libraries/google-map.html#methods"
   },{
     "category": "Plugins",
     "section": "Malihu scrollbar",
