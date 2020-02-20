@@ -4,9 +4,6 @@
 // Mytravel setup
 @import 'mytravel/variables';
 
-// MT setup
-@import 'mt-variables';
-
 // Custom setup
 @import 'user-variables';
 
@@ -14,15 +11,12 @@
 @import '../vendor/bootstrap/scss/bootstrap';
 
 /*----------------------------------------------------------------------
-  * Mytravel - Responsive Website Template version v2.0
-  * Copyright 2019 Htmlstream
+  * Mytravel - Responsive Website Template version v1.0
+  * Copyright 2020 Madrasthemes
   * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
 ------------------------------------------------------------------------*/
 
 @import 'mytravel/mytravel';
-
-// MT core
-@import 'mt-main';
 
 // Custom core
 @import 'user';
