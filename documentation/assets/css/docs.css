@@ -66,6 +66,7 @@ table {
 }
 code {
   font-size: 100%;
+  color: #e83e8c;
 }
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
