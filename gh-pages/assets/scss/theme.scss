@@ -1,0 +1,22 @@
+// Bootstrap setup
+@import '../vendor/bootstrap/scss/functions';
+
+// Mytravel setup
+@import 'mytravel/variables';
+
+// Custom setup
+@import 'user-variables';
+
+// Bootstrap core
+@import '../vendor/bootstrap/scss/bootstrap';
+
+/*----------------------------------------------------------------------
+  * Mytravel - Responsive Website Template version v1.0
+  * Copyright 2020 Madrasthemes
+  * Licensed under Bootstrap Themes (https://themes.getbootstrap.com/licenses/)
+------------------------------------------------------------------------*/
+
+@import 'mytravel/mytravel';
+
+// Custom core
+@import 'user';

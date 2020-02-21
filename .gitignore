@@ -2,6 +2,7 @@
 .sass-cache
 
 # Gulp
+# Grunt
 /node_modules/
 
 unen*.zip
@@ -13,3 +14,5 @@ npm-debug.log
 
 # Codekit
 config.codekit
+
+.grunt
