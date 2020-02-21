@@ -140,53 +140,53 @@
     "label": "Others",
     "url": "mytravel-html/documentation/utilities/others.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Background video",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Go to",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Header searches",
-    "url": "mytravel-html/documentation/hs-libraries/header-searches.html"
+    "url": "mytravel-html/documentation/mt-libraries/header-searches.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Page preloader",
-    "url": "mytravel-html/documentation/hs-libraries/page-preloader.html"
+    "url": "mytravel-html/documentation/mt-libraries/page-preloader.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Scroll-nav",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Show-animation",
-    "url": "mytravel-html/documentation/hs-libraries/show-animation.html"
+    "url": "mytravel-html/documentation/mt-libraries/show-animation.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Wizard form",
-    "url": "mytravel-html/documentation/hs-libraries/wizard-form.html"
+    "url": "mytravel-html/documentation/mt-libraries/wizard-form.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Sticky block",
-    "url": "mytravel-html/documentation/hs-libraries/sticky-block.html"
+    "url": "mytravel-html/documentation/mt-libraries/sticky-block.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Toggle state",
-    "url": "mytravel-html/documentation/hs-libraries/toggle-state.html"
+    "url": "mytravel-html/documentation/mt-libraries/toggle-state.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Unfold (Dropdown and others)",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Dropdowns",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html"
   },{
     "category": "Libraries",
     "label": "Animations",
@@ -1520,299 +1520,299 @@
     "label": "Others - Opacity",
     "url": "mytravel-html/documentation/utilities/others.html#opacity"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Background video",
     "label": "Background video - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Background video",
     "label": "Background video - YouTube example",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html#youtube-example"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html#youtube-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Background video",
     "label": "Background video - Vimeo example",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html#vimeo-example"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html#vimeo-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Background video",
     "label": "Background video - HTML5 examples",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html#html5-examples"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html#html5-examples"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Background video",
     "label": "Background video - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Background video",
     "label": "Background video - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/background-video.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/background-video.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Overview",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#overview"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#overview"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Default Go-to style",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#default-go-to-style"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#default-go-to-style"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Referenced to a page",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#referenced-to-a-page"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#referenced-to-a-page"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Modern Go-to style",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#modern-go-to-style"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#modern-go-to-style"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Vertical arrow Go-to style",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#vertical-arrow-go-to-style"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#vertical-arrow-go-to-style"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Wave Go-to style",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#wave-go-to-style"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#wave-go-to-style"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Go to",
     "label": "Go to - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/go-to.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/go-to.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Header Searches",
     "label": "Header Searches - Classic search",
-    "url": "mytravel-html/documentation/hs-libraries/header-searches.html#classic-search"
+    "url": "mytravel-html/documentation/mt-libraries/header-searches.html#classic-search"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Header Searches",
     "label": "Header Searches - Slide-down search",
-    "url": "mytravel-html/documentation/hs-libraries/header-searches.html#slide-down-search"
+    "url": "mytravel-html/documentation/mt-libraries/header-searches.html#slide-down-search"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Page preloader",
     "label": "Page preloader - About",
-    "url": "mytravel-html/documentation/hs-libraries/page-preloader.html#about"
+    "url": "mytravel-html/documentation/mt-libraries/page-preloader.html#about"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Page preloader",
     "label": "Page preloader - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/page-preloader.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/page-preloader.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Page preloader",
     "label": "Page preloader - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/page-preloader.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/page-preloader.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll effect",
     "label": "Scroll effect - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-effect.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-effect.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll effect",
     "label": "Scroll effect - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-effect.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-effect.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll effect",
     "label": "Scroll effect - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-effect.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-effect.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll effect",
     "label": "Scroll effect - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-effect.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-effect.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll nav",
     "label": "Scroll nav - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll nav",
     "label": "Scroll nav - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll nav",
     "label": "Scroll nav - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll nav",
     "label": "Scroll nav - Objects",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html#objects"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html#objects"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll nav",
     "label": "Scroll nav - Callbacks",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html#callbacks"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html#callbacks"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Scroll nav",
     "label": "Scroll nav - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/scroll-nav.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/scroll-nav.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Show animation",
     "label": "Show animation - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/show-animation.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/show-animation.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Show animation",
     "label": "Show animation - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/show-animation.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/show-animation.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Show animation",
     "label": "Show animation - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/show-animation.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/show-animation.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Show animation",
     "label": "Show animation - Callbacks",
-    "url": "mytravel-html/documentation/hs-libraries/show-animation.html#callbacks"
+    "url": "mytravel-html/documentation/mt-libraries/show-animation.html#callbacks"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Show animation",
     "label": "Show animation - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/show-animation.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/show-animation.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form - Validation",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html#validation"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html#validation"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form - Config",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html#config"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html#config"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "label": "Step form - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/step-form.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/step-form.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Sticky block",
     "label": "Sticky block - Overview",
-    "url": "mytravel-html/documentation/hs-libraries/sticky-block.html#overview"
+    "url": "mytravel-html/documentation/mt-libraries/sticky-block.html#overview"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Sticky block",
     "label": "Sticky block - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/sticky-block.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/sticky-block.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Sticky block",
     "label": "Sticky block - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/sticky-block.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/sticky-block.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Sticky block",
     "label": "Sticky block - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/sticky-block.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/sticky-block.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Sticky block",
     "label": "Sticky block - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/sticky-block.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/sticky-block.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Toggle state",
     "label": "Toggle state - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/toggle-state.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/toggle-state.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Toggle state",
     "label": "Toggle state - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/toggle-state.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/toggle-state.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Toggle state",
     "label": "Toggle state - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/toggle-state.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/toggle-state.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Toggle state",
     "label": "Toggle state - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/toggle-state.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/toggle-state.html#methods"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Overview",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#overview"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#overview"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Accessibility",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#accessibility"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#accessibility"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - How to use",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#how-to-use"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#how-to-use"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Basic example",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#basic-example"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#basic-example"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Single button",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#single-button"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#single-button"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Sidebar",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#sidebar"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#sidebar"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - JavaScript behavior",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#js-behavior"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#js-behavior"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Callbacks",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#callbacks"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#callbacks"
   },{
-    "category": "HS Libraries",
+    "category": "MT Libraries",
     "section": "Unfold (Dropdown and others)",
     "label": "Unfold (Dropdown and others) - Methods",
-    "url": "mytravel-html/documentation/hs-libraries/unfold.html#methods"
+    "url": "mytravel-html/documentation/mt-libraries/unfold.html#methods"
   },{
     "category": "Plugins",
     "section": "Animations",

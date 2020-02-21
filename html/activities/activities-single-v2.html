@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="../../assets/vendor/flatpickr/dist/flatpickr.min.css">
         <link rel="stylesheet" href="../../assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
         <link rel="stylesheet" href="../../assets/vendor/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" href="../../assets/vendor/fancybox/jquery.fancybox.css">
 
         <!-- CSS MyTravel Template -->
         <link rel="stylesheet" href="../../assets/css/theme.css">
@@ -2034,6 +2035,7 @@
         <script src="../../assets/vendor/gmaps/gmaps.min.js"></script>
         <script src="../../assets/vendor/player.js/dist/player.min.js"></script>
         <script src="../../assets/vendor/appear.js"></script>
+        <script src="../../assets/vendor/fancybox/jquery.fancybox.min.js"></script>
         <script src="../../assets/vendor/svg-injector/dist/svg-injector.min.js"></script>
 
         <!-- JS MyTravel -->
@@ -2052,6 +2054,8 @@
         <script src="../../assets/js/components/hs.svg-injector.js"></script>
         <script src="../../assets/js/components/hs.sticky-block.js"></script>
         <script src="../../assets/js/components/hs.scroll-nav.js"></script>
+        <script src="../../assets/js/components/hs.video-player.js"></script>
+        <script src="../../assets/js/components/hs.fancybox.js"></script>
 
         <!-- JS Plugins Init. -->
         <script>
@@ -2093,6 +2097,12 @@
 
                 // initialization of sticky blocks
                 $.HSCore.components.HSStickyBlock.init('.js-sticky-block');
+
+                // initialization of popups
+                $.HSCore.components.HSFancyBox.init('.js-fancybox');
+
+                // initialization of video player
+                $.HSCore.components.HSVideoPlayer.init('.js-inline-video-player');
 
                 // initialization of datepicker
                 $.HSCore.components.HSRangeDatepicker.init('.js-range-datepicker');
