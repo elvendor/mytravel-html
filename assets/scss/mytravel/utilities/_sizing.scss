@@ -211,6 +211,12 @@
     width: 100vw;
 }
 
+.min-width-xl-100 {
+    @include media-breakpoint-up(xl) {
+        min-width: 100%;
+    }
+}
+
 .max-width-650 {
   max-width: 38.125rem;  //650px
 }

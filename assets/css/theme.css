@@ -41072,6 +41072,12 @@ label.btn {
   width: 100vw;
 }
 
+@media (min-width: 1200px) {
+  .min-width-xl-100 {
+    min-width: 100%;
+  }
+}
+
 .max-width-650 {
   max-width: 38.125rem;
 }
