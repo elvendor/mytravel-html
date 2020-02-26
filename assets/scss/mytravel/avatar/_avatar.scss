@@ -1,6 +1,6 @@
-/*------------------------------------
-  Avatar
-------------------------------------*/
+/*-------------------------------------------*\
+    2.7. Avatar
+\*-------------------------------------------*/
 
 .u-avatar {
 	width: $avatar;
@@ -49,7 +49,7 @@
         $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
         &#{$infix} {
-            @include media-breakpoint-up($breakpoint) {     
+            @include media-breakpoint-up($breakpoint) {
                 width: $avatar-lg;
                 height: $avatar-lg;
             }
