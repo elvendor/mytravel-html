@@ -1,6 +1,6 @@
-/*------------------------------------
-  Breadcrumb
-------------------------------------*/
+/*-------------------------------------------*\
+    2.11. Breadcrumb
+\*-------------------------------------------*/
 
 .breadcrumb-white {
   background-color: $breadcrumb-bg;
@@ -11,7 +11,7 @@
     +.breadcrumb-item::before {
       color: $white-color-70;
     }
-  }  
+  }
 
   .breadcrumb-link {
     color: $white-color-70;

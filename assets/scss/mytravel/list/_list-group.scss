@@ -1,6 +1,6 @@
-/*------------------------------------
-  List Group
-------------------------------------*/
+/*-------------------------------------------*\
+    2.4. List Group
+\*-------------------------------------------*/
 
 .list-group {
 	list-style: none;
@@ -123,7 +123,7 @@
 .custom-social-share {
 	a {
 		transition: $btn-transition;
-		
+
 		&:hover {
 			border-color: $primary !important;
 			background-color: $primary !important;

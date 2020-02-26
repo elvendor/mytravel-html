@@ -1,3 +1,7 @@
+/*-------------------------------------------*\
+    2.2. Spaces
+\*-------------------------------------------*/
+
 // Content Margin Spaces
 @each $breakpoint in map-keys($grid-breakpoints) {
   @include media-breakpoint-up($breakpoint) {
